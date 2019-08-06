@@ -3,7 +3,7 @@
 
 This repo is where development and updates to this project will (soon) be found.
 
-Bank Gothic Libre is an OpenType Variations typeface (variable font) with weight, width and optical size axes. Ultimately it will also have a slant axis. While the medium weight is based closely on the original Bank Gothic typeface from the early 1930s, a lowercase, design axes and language coverage have been added. Bank Gothic was originally designed by Morris Fuller Benton in 1930–34 for American Type Founders. This typeface was initially envisioned and led by Thomas Phinney.
+Science Gothic is an OpenType Variations typeface (variable font) with weight, width and optical size axes. Ultimately it will also have a slant axis. While the medium weight is based closely on the original Bank Gothic typeface from the early 1930s, a lowercase, design axes and language coverage have been added. Bank Gothic was originally designed by Morris Fuller Benton in 1930–34 for American Type Founders. This typeface was initially envisioned and led by Thomas Phinney.
 
 ### 10 July 2019
 Started the repo
