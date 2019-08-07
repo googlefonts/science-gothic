@@ -31,6 +31,6 @@ This list is in alphabetical order after Thomas.
 
 Science Gothic will be licensed under the SIL Open Font License v1.1 (<http://scripts.sil.org/OFL>) with no Reserved Font Name. To view the copyright and specific terms and conditions please refer to [OFL.txt](https://opensource.org/licenses/OFL-1.1)
 
-## Language Coverage
+## Language Coverage & Glyph Set
 
-Too early for any language coverage yet. Ultimately this typeface will have extended Latin and extended Cyrillic.
+Ultimately this typeface will have extended Latin and extended Cyrillic, with about 1200 glyphs. Glyph data coming soon.
