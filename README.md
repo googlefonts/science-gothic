@@ -6,6 +6,7 @@ This repo is where development and updates to this project will (soon) be found.
 Science Gothic™ is an OpenType Variations typeface (variable font) with weight, width and optical size axes. Ultimately it will also have a slant axis. While the medium weight is based closely on the original Bank Gothic typeface from the early 1930s, a lowercase, design axes and language coverage have been added. Bank Gothic was originally designed by Morris Fuller Benton in 1930–34 for American Type Founders. Science Gothic is a team effort, with the initial development by Thomas Phinney, Brandon Buerkle, Igor Freiberger and Vassil Kateliev.
 
 ### 7 August 2019
+Added OFL.txt Open Font License and info
 Added FontLab .enc encoding file
 
 ### 6 August 2019
@@ -32,7 +33,7 @@ This list is in alphabetical order after Thomas.
 
 ## License
 
-Science Gothic will be licensed under the SIL Open Font License v1.1 (<http://scripts.sil.org/OFL>) with no Reserved Font Name. To view the copyright and specific terms and conditions please refer to [OFL.txt](https://opensource.org/licenses/OFL-1.1)
+Science Gothic is licensed under the SIL Open Font License v1.1 (<http://scripts.sil.org/OFL>) with no Reserved Font Name. To view the copyright and specific terms and conditions please refer to [OFL.txt](https://github.com/tphinney/science-gothic/OFL.txt)
 
 ## Language Coverage & Glyph Set
 
