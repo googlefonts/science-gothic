@@ -8,7 +8,7 @@ Science Gothic™ is an OpenType Variations typeface (variable font) with weight
 
 ### 10 August 2019
 
-Added recipes for build auto layers.
+Added recipes to build auto layers.
 
 
 ### 8 August 2019
