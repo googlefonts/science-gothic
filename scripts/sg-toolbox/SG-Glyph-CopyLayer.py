@@ -18,11 +18,30 @@ from typerig.gui import getProcessGlyphs
 from typerig.proxy import pFont, pGlyph
 
 # - Init --------------------------------
-app_version = '1.5'
+app_version = '1.8'
 app_name = '[SG] Copy Layers'
 
+# -- Copy Presets (by request)
+copy_presets = {'contrast':[('Blk','Blk Ctr'),
+							('Blk Cnd','Blk Cnd Ctr'),
+							('Blk Exp','Blk Exp Ctr'),
+							('Cnd','Cnd Ctr'),
+							('Medium','Ctr'),
+							('Exp','Exp Ctr'),
+							('Lt','Lt Ctr'),
+							('Lt Cnd','Lt Cnd Ctr'),
+							('Lt Exp','Lt Exp Ctr')],
+
+				'width': 	[('Blk','Blk Cnd'),
+							('Medium','Cnd'),
+							('Lt','Lt Cnd'),
+							('Blk','Blk Exp'),
+							('Medium','Exp'),
+							('Lt','Lt Exp')]
+				}
+
 # -- GUI related
-table_dict = {1:OrderedDict([('Master Name', None), ('IN', None), ('OUT', None)])}
+table_dict = {1:OrderedDict([('Master Name', None), ('SRC', False), ('DST', False)])}
 spinbox_range = (-99, 99)
 
 # - Widgets --------------------------------
@@ -60,7 +79,8 @@ class WTableView(QtGui.QTableWidget):
 				name_column.append(key)
 				newitem = QtGui.QTableWidgetItem(str(data[layer][key])) if m == 0 else QtGui.QTableWidgetItem()
 				if m > 0: newitem.setFlags(QtCore.Qt.ItemIsUserCheckable | QtCore.Qt.ItemIsEnabled)
-				if m > 0: newitem.setCheckState(QtCore.Qt.Unchecked) 
+				if m > 0: newitem.setCheckState(QtCore.Qt.Unchecked if not data[layer][key] else QtCore.Qt.Checked) 
+
 				self.setItem(n, m, newitem)
 				
 		self.setHorizontalHeaderLabels(name_column)
@@ -83,9 +103,9 @@ class WTableView(QtGui.QTableWidget):
 		item.setBackground(QtGui.QColor('powderblue'))
 
 # - Dialogs --------------------------------
-class dlg_BuildAxis(QtGui.QDialog):
+class dlg_CopyLayer(QtGui.QDialog):
 	def __init__(self):
-		super(dlg_BuildAxis, self).__init__()
+		super(dlg_CopyLayer, self).__init__()
 	
 		# - Init
 		self.active_font = pFont()
@@ -95,12 +115,20 @@ class dlg_BuildAxis(QtGui.QDialog):
 		self.tab_masters = WTableView(table_dict)
 		self.table_populate()
 
-		self.btn_refresh = QtGui.QPushButton('Refresh')
-		self.btn_clear = QtGui.QPushButton('Clear')
-		self.btn_execute = QtGui.QPushButton('Execute')
+		self.edt_checkStr = QtGui.QLineEdit()
+		self.edt_checkStr.setPlaceholderText('DST string')
+		self.edt_checkStr.setToolTip('Enter search criteria for selectively selecting destination masters.')
+		self.btn_refresh = QtGui.QPushButton('Clear')
+		self.btn_checkOn = QtGui.QPushButton('Select')
+		self.btn_execute = QtGui.QPushButton('Execute Selection')
+		self.btn_preset_contrast = QtGui.QPushButton('Copy to Contrast Masters')
+		self.btn_preset_width = QtGui.QPushButton('Copy to Width Masters')
 
 		self.btn_refresh.clicked.connect(self.table_populate)
-		self.btn_execute.clicked.connect(self.table_execute)
+		self.btn_checkOn.clicked.connect(lambda: self.table_populate(True))
+		self.btn_execute.clicked.connect(self.execute_table)
+		self.btn_preset_contrast.clicked.connect(lambda: self.execute_preset(copy_presets['contrast']))
+		self.btn_preset_width.clicked.connect(lambda: self.execute_preset(copy_presets['width']))
 
 		self.rad_glyph = QtGui.QRadioButton('Glyph')
 		self.rad_window = QtGui.QRadioButton('Window')
@@ -142,20 +170,25 @@ class dlg_BuildAxis(QtGui.QDialog):
 		layoutV.addWidget(self.rad_window, 					1, 2, 1, 2)
 		layoutV.addWidget(self.rad_selection, 				1, 4, 1, 2)
 		layoutV.addWidget(self.rad_font, 					1, 6, 1, 2)
-		layoutV.addWidget(QtGui.QLabel('Master Layers:'),	2, 0, 1, 8, QtCore.Qt.AlignBottom)
-		layoutV.addWidget(self.btn_refresh, 				3, 0, 1, 4)
-		layoutV.addWidget(self.btn_clear, 					3, 4, 1, 4)
-		layoutV.addWidget(self.tab_masters, 				4, 0, 25, 8)
-		layoutV.addWidget(QtGui.QLabel('Copy Options:'),	29, 0, 1, 8, QtCore.Qt.AlignBottom)
-		layoutV.addWidget(self.chk_outline,					30, 0, 1, 2)
-		layoutV.addWidget(self.chk_guides, 					30, 2, 1, 2)
-		layoutV.addWidget(self.chk_anchors,					30, 4, 1, 2)
-		layoutV.addWidget(self.chk_ref,						30, 6, 1, 2)
-		layoutV.addWidget(self.chk_lsb,						31, 0, 1, 2)
-		layoutV.addWidget(self.chk_adv,						31, 2, 1, 2)
-		layoutV.addWidget(self.chk_rsb,						31, 4, 1, 2)
-		layoutV.addWidget(self.chk_lnk,						31, 6, 1, 2)
-		layoutV.addWidget(self.btn_execute, 				32, 0, 1,8)
+		layoutV.addWidget(QtGui.QLabel('Copy Options:'),	2, 0, 1, 8, QtCore.Qt.AlignBottom)
+		layoutV.addWidget(self.chk_outline,					3, 0, 1, 2)
+		layoutV.addWidget(self.chk_guides, 					3, 2, 1, 2)
+		layoutV.addWidget(self.chk_anchors,					3, 4, 1, 2)
+		layoutV.addWidget(self.chk_ref,						3, 6, 1, 2)
+		layoutV.addWidget(self.chk_lsb,						4, 0, 1, 2)
+		layoutV.addWidget(self.chk_adv,						4, 2, 1, 2)
+		layoutV.addWidget(self.chk_rsb,						4, 4, 1, 2)
+		layoutV.addWidget(self.chk_lnk,						4, 6, 1, 2)
+		layoutV.addWidget(QtGui.QLabel('Master Layers: Single source to multiple destinations'),	5, 0, 1, 8, QtCore.Qt.AlignBottom)
+		layoutV.addWidget(QtGui.QLabel('Search:'),			6, 0, 1, 1)
+		layoutV.addWidget(self.edt_checkStr, 				6, 1, 1, 3)
+		layoutV.addWidget(self.btn_checkOn, 				6, 4, 1, 2)
+		layoutV.addWidget(self.btn_refresh, 				6, 6, 1, 2)
+		layoutV.addWidget(self.tab_masters, 				7, 0, 15, 8)
+		layoutV.addWidget(self.btn_execute, 				22, 0, 1,8)
+		layoutV.addWidget(QtGui.QLabel('Master Layers: Copy Presets'),	23, 0, 1, 8, QtCore.Qt.AlignBottom)
+		layoutV.addWidget(self.btn_preset_contrast, 		24, 0, 1,8)
+		layoutV.addWidget(self.btn_preset_width, 			25, 0, 1,8)
 
 		# - Set Widget
 		self.setLayout(layoutV)
@@ -200,42 +233,57 @@ class dlg_BuildAxis(QtGui.QDialog):
 			for src_anchor in glyph.anchors(srcLayerName):
 				glyph.layer(dstLayerName).addAnchor(src_anchor)
 
-	def table_populate(self):
-		self.tab_masters.setTable({n:OrderedDict([('Master Name', master), ('SRC', None), ('DST', None)]) for n, master in enumerate(self.active_font.pMasters.names)})
-		self.tab_masters.resizeColumnsToContents()
+	def table_populate(self, filterDST=False):
+		if not filterDST:	
+			self.tab_masters.setTable({n:OrderedDict([('Master Name', master), ('SRC', False), ('DST', False)]) for n, master in enumerate(self.active_font.pMasters.names)})
+			self.tab_masters.resizeColumnsToContents()
+		else:
+			#print ';'.join(sorted(self.active_font.pMasters.names))
+			self.tab_masters.setTable({n:OrderedDict([('Master Name', master), ('SRC', False), ('DST', self.edt_checkStr.text in master)]) for n, master in enumerate(self.active_font.pMasters.names)})
+			self.tab_masters.resizeColumnsToContents()
 
-	def table_execute(self):
+	def getCopyOptions(self):
+		options = {'out': self.chk_outline.isChecked(),
+					'gui': self.chk_guides.isChecked(),
+					'anc': self.chk_anchors.isChecked(),
+					'lsb': self.chk_lsb.isChecked(),
+					'adv': self.chk_adv.isChecked(),
+					'rsb': self.chk_rsb.isChecked(),
+					'lnk': self.chk_lnk.isChecked(),
+					'ref': self.chk_ref.isChecked()
+					}
+		return options
+
+	def execute_table(self):
 		# - Init
-		copy_options = {'out': self.chk_outline.isChecked(),
-						'gui': self.chk_guides.isChecked(),
-						'anc': self.chk_anchors.isChecked(),
-						'lsb': self.chk_lsb.isChecked(),
-						'adv': self.chk_adv.isChecked(),
-						'rsb': self.chk_rsb.isChecked(),
-						'lnk': self.chk_lnk.isChecked(),
-						'ref': self.chk_ref.isChecked()
-						}
-		
-		execute_prompt = QtGui.QMessageBox.question(self, 'Please confirm', 'Are you sure that you want to proceed?', QtGui.QMessageBox.Yes | QtGui.QMessageBox.No, QtGui.QMessageBox.No)
+		copy_options = self.getCopyOptions()
+		process_glyphs = getProcessGlyphs(self.pMode)
 		
 		# - Process
-		if execute_prompt == QtGui.QMessageBox.Yes:
-			# - Init
-			process_glyphs = getProcessGlyphs(self.pMode)
-			process_dict = self.tab_masters.getTable()
-			process_src = process_dict['SRC'][0]
-			process_dst = process_dict['DST']
+		process_dict = self.tab_masters.getTable()
+		process_src = process_dict['SRC'][0]
+		process_dst = process_dict['DST']
 
-			for wGlyph in process_glyphs:
-				for dst_layer in process_dst:
-					self.copyLayer(wGlyph, process_src, dst_layer, copy_options, True)
+		for wGlyph in process_glyphs:
+			for dst_layer in process_dst:
+				self.copyLayer(wGlyph, process_src, dst_layer, copy_options, True)
 
-				wGlyph.update()
-				wGlyph.updateObject(wGlyph.fl, 'Glyph: %s\tCopy Layer | %s -> %s.' %(wGlyph.name, process_src, '; '.join(process_dst)))
+			wGlyph.update()
+			wGlyph.updateObject(wGlyph.fl, 'Glyph: %s\tCopy Layer | %s -> %s.' %(wGlyph.name, process_src, '; '.join(process_dst)))
 
-		# - Abort
-		else:
-			print '\nABORT:\t %s (%s)\nWARN:\t No action taken!' %(app_name, app_version)
+	def execute_preset(self, preset_list):
+		# - Init
+		copy_options = self.getCopyOptions()
+		process_glyphs = getProcessGlyphs(self.pMode)
+		print_preset = [' -> '.join(item) for item in preset_list]
+		
+		# - Process
+		for wGlyph in process_glyphs:
+			for process_src, process_dst in preset_list:
+				self.copyLayer(wGlyph, process_src, process_dst, copy_options, True)
+
+			wGlyph.update()
+			wGlyph.updateObject(wGlyph.fl, 'Glyph: %s\tCopy Layer Preset | %s.' %(wGlyph.name, ' | '.join(print_preset)))
 
 # - RUN ------------------------------
-dialog = dlg_BuildAxis()
+dialog = dlg_CopyLayer()
