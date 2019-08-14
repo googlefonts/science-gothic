@@ -18,7 +18,7 @@ from typerig.gui import getProcessGlyphs
 from typerig.proxy import pFont, pGlyph
 
 # - Init --------------------------------
-app_version = '1.8'
+app_version = '1.9'
 app_name = '[SG] Copy Layers'
 
 # -- Copy Presets (by request)
@@ -37,7 +37,11 @@ copy_presets = {'contrast':[('Blk','Blk Ctr'),
 							('Lt','Lt Cnd'),
 							('Blk','Blk Exp'),
 							('Medium','Exp'),
-							('Lt','Lt Exp')]
+							('Lt','Lt Exp')],
+				'weight':
+							[('Medium','Lt'),
+							('Medium','Blk')]
+
 				}
 
 # -- GUI related
@@ -64,7 +68,7 @@ class WTableView(QtGui.QTableWidget):
 		#self.resizeColumnsToContents()
 		self.resizeRowsToContents()
 
-	def setTable(self, data, reset=False):
+	def setTable(self, data, data_check=[], reset=False):
 		name_row, name_column = [], []
 		self.blockSignals(True)
 
@@ -76,8 +80,14 @@ class WTableView(QtGui.QTableWidget):
 			name_row.append(layer)
 
 			for m, key in enumerate(data[layer].keys()):
+				# -- Build name column
 				name_column.append(key)
+				
+				# -- Add first data column
 				newitem = QtGui.QTableWidgetItem(str(data[layer][key])) if m == 0 else QtGui.QTableWidgetItem()
+				# -- Selectively colorize missing data
+				if m == 0 and len(data_check) and data[layer][key] not in data_check: newitem.setBackground(QtGui.QColor('red'))
+				# -- Build Checkbox columns
 				if m > 0: newitem.setFlags(QtCore.Qt.ItemIsUserCheckable | QtCore.Qt.ItemIsEnabled)
 				if m > 0: newitem.setCheckState(QtCore.Qt.Unchecked if not data[layer][key] else QtCore.Qt.Checked) 
 
@@ -123,12 +133,14 @@ class dlg_CopyLayer(QtGui.QDialog):
 		self.btn_execute = QtGui.QPushButton('Execute Selection')
 		self.btn_preset_contrast = QtGui.QPushButton('Copy to Contrast Masters')
 		self.btn_preset_width = QtGui.QPushButton('Copy to Width Masters')
+		self.btn_preset_weight = QtGui.QPushButton('Copy to Weight Masters')
 
 		self.btn_refresh.clicked.connect(self.table_populate)
 		self.btn_checkOn.clicked.connect(lambda: self.table_populate(True))
 		self.btn_execute.clicked.connect(self.execute_table)
 		self.btn_preset_contrast.clicked.connect(lambda: self.execute_preset(copy_presets['contrast']))
 		self.btn_preset_width.clicked.connect(lambda: self.execute_preset(copy_presets['width']))
+		self.btn_preset_weight.clicked.connect(lambda: self.execute_preset(copy_presets['weight']))
 
 		self.rad_glyph = QtGui.QRadioButton('Glyph')
 		self.rad_window = QtGui.QRadioButton('Window')
@@ -141,7 +153,7 @@ class dlg_CopyLayer(QtGui.QDialog):
 		self.chk_adv = QtGui.QCheckBox('Advance')
 		self.chk_rsb = QtGui.QCheckBox('RSB')
 		self.chk_lnk = QtGui.QCheckBox('Metric Links')
-		self.chk_ref = QtGui.QCheckBox('References')
+		self.chk_crlayer = QtGui.QCheckBox('Add layers')
 		
 		# -- Set States
 		self.chk_outline.setCheckState(QtCore.Qt.Checked)
@@ -149,7 +161,7 @@ class dlg_CopyLayer(QtGui.QDialog):
 		self.chk_lsb.setCheckState(QtCore.Qt.Checked)
 		self.chk_anchors.setCheckState(QtCore.Qt.Checked)
 		self.chk_lnk.setCheckState(QtCore.Qt.Checked)
-		self.chk_ref.setEnabled(False)
+		self.chk_crlayer.setCheckState(QtCore.Qt.Checked)
 		self.chk_guides.setEnabled(False)
 
 		self.rad_glyph.setChecked(True)
@@ -174,7 +186,7 @@ class dlg_CopyLayer(QtGui.QDialog):
 		layoutV.addWidget(self.chk_outline,					3, 0, 1, 2)
 		layoutV.addWidget(self.chk_guides, 					3, 2, 1, 2)
 		layoutV.addWidget(self.chk_anchors,					3, 4, 1, 2)
-		layoutV.addWidget(self.chk_ref,						3, 6, 1, 2)
+		layoutV.addWidget(self.chk_crlayer,						3, 6, 1, 2)
 		layoutV.addWidget(self.chk_lsb,						4, 0, 1, 2)
 		layoutV.addWidget(self.chk_adv,						4, 2, 1, 2)
 		layoutV.addWidget(self.chk_rsb,						4, 4, 1, 2)
@@ -187,8 +199,9 @@ class dlg_CopyLayer(QtGui.QDialog):
 		layoutV.addWidget(self.tab_masters, 				7, 0, 15, 8)
 		layoutV.addWidget(self.btn_execute, 				22, 0, 1,8)
 		layoutV.addWidget(QtGui.QLabel('Master Layers: Copy Presets'),	23, 0, 1, 8, QtCore.Qt.AlignBottom)
-		layoutV.addWidget(self.btn_preset_contrast, 		24, 0, 1,8)
+		layoutV.addWidget(self.btn_preset_weight, 			24, 0, 1,8)
 		layoutV.addWidget(self.btn_preset_width, 			25, 0, 1,8)
+		layoutV.addWidget(self.btn_preset_contrast, 		26, 0, 1,8)
 
 		# - Set Widget
 		self.setLayout(layoutV)
@@ -203,7 +216,23 @@ class dlg_CopyLayer(QtGui.QDialog):
 		if self.rad_selection.isChecked(): self.pMode = 2
 		if self.rad_font.isChecked(): self.pMode = 3
 
-	def copyLayer(self, glyph, srcLayerName, dstLayerName, options, cleanDST=False):
+	def copyLayer(self, glyph, srcLayerName, dstLayerName, options, cleanDST=False, addLayer=False):
+		# -- Check if srcLayerExists
+		if glyph.layer(srcLayerName) is None:
+			print 'WARN:\tGlyph: %s\tMissing source layer: %s\tSkipped!' %(glyph.name, srcLayerName)
+			return
+
+		# -- Check if dstLayerExists
+		if glyph.layer(dstLayerName) is None:
+			print 'WARN:\tGlyph: %s\tMissing destination layer: %s\tAdd new: %s.' %(glyph.name, dstLayerName, addLayer)
+			
+			if addLayer:
+				newLayer = fl6.flLayer()
+				newLayer.name = str(dstLayerName)
+				glyph.addLayer(newLayer)
+			else:
+				return
+
 		# -- Outline
 		if options['out']:
 			# --- Get shapes
@@ -250,7 +279,7 @@ class dlg_CopyLayer(QtGui.QDialog):
 					'adv': self.chk_adv.isChecked(),
 					'rsb': self.chk_rsb.isChecked(),
 					'lnk': self.chk_lnk.isChecked(),
-					'ref': self.chk_ref.isChecked()
+					'ref': self.chk_crlayer.isChecked()
 					}
 		return options
 
@@ -266,7 +295,7 @@ class dlg_CopyLayer(QtGui.QDialog):
 
 		for wGlyph in process_glyphs:
 			for dst_layer in process_dst:
-				self.copyLayer(wGlyph, process_src, dst_layer, copy_options, True)
+				self.copyLayer(wGlyph, process_src, dst_layer, copy_options, True, self.chk_crlayer.isChecked())
 
 			wGlyph.update()
 			wGlyph.updateObject(wGlyph.fl, 'Glyph: %s\tCopy Layer | %s -> %s.' %(wGlyph.name, process_src, '; '.join(process_dst)))
@@ -280,7 +309,7 @@ class dlg_CopyLayer(QtGui.QDialog):
 		# - Process
 		for wGlyph in process_glyphs:
 			for process_src, process_dst in preset_list:
-				self.copyLayer(wGlyph, process_src, process_dst, copy_options, True)
+				self.copyLayer(wGlyph, process_src, process_dst, copy_options, True, self.chk_crlayer.isChecked())
 
 			wGlyph.update()
 			wGlyph.updateObject(wGlyph.fl, 'Glyph: %s\tCopy Layer Preset | %s.' %(wGlyph.name, ' | '.join(print_preset)))
