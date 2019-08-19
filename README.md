@@ -1,9 +1,9 @@
 # Science Gothic
 ## libre variable font
 
-This repo is where development and updates to this project will (soon) be found.
+This repo is where development and updates to this project can be found.
 
-Science Gothic™ is an OpenType Variations typeface (variable font) with weight, width and optical size axes. Ultimately it will also have a slant axis. While the medium weight is based closely on the original Bank Gothic typeface from the early 1930s, a lowercase, design axes and language coverage have been added. Bank Gothic was originally designed by Morris Fuller Benton in 1930–34 for American Type Founders. Science Gothic is a team effort, with the initial development by Thomas Phinney, Brandon Buerkle, Igor Freiberger and Vassil Kateliev.
+Science Gothic™ is an OpenType Variations typeface (variable font) with weight, width and contrast axes. Ultimately it will also have a slant axis. While the medium weight is based closely on the original Bank Gothic typeface from the early 1930s, a lowercase, design axes and language coverage have been added. Bank Gothic was originally designed by Morris Fuller Benton in 1930–34 for American Type Founders. Science Gothic is a team effort, with the initial development by Thomas Phinney, Brandon Buerkle, Igor Freiberger and Vassil Kateliev.
 
 
 ### 10 August 2019
@@ -39,13 +39,19 @@ This list is in alphabetical order after Thomas.
     N: Thomas Phinney, Font Detective LLC
     W: https://www.thomasphinney.com
     W: https://thefontdetective.com
-    D: Team Lead, Admin, Designer
+    D: Admin, Design Lead, Designer
 
-    N: 
-    E: 
-    W: 
-    D: 
+    N: Brandon Buerkle
+    W: https://www.societyoffonts.com/
+    D: Designer
 
+    N: Igor Freiberger
+    D: Designer
+
+    N: Vassil Kateliev
+    W: http://www.kateliev.com/
+    D: Designer, Python scripting, Cyrillic
+    
 
 ## License
 
