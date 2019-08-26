@@ -129992,7 +129992,7 @@
         "tag":"wght",
         "designMinimum":0,
         "designMaximum":1000,
-        "minimum":1,
+        "minimum":100,
         "maximum":900,
         "default":400,
         "axisGraph":{
@@ -130002,48 +130002,39 @@
         },
         "axisInstances":[
           {
-            "name":"Hairline",
-            "nameValue":100
+            "name":"Hairline"
           },
           {
-            "name":"Extra Light",
-            "value":45,
-            "nameValue":200
+            "name":"ExtraLight",
+            "value":45
           },
           {
             "name":"Light",
-            "value":118,
-            "nameValue":300
+            "value":118
           },
           {
             "name":"Regular",
-            "value":235,
-            "nameValue":400
+            "value":235
           },
           {
-            "name":"(Medium)",
-            "value":421,
-            "nameValue":500
+            "name":"Medium",
+            "value":421
           },
           {
             "name":"SemiBold",
-            "value":526,
-            "nameValue":600
+            "value":526
           },
           {
             "name":"Bold",
-            "value":656,
-            "nameValue":700
+            "value":656
           },
           {
             "name":"ExtraBold",
-            "value":810,
-            "nameValue":800
+            "value":810
           },
           {
             "name":"Black",
-            "value":1000,
-            "nameValue":900
+            "value":1000
           }
         ]
       },
@@ -130172,7 +130163,7 @@
           "underlinePosition":-200,
           "location":{
             "ct":0,
-            "wd":100,
+            "wd":500,
             "wt":0
           },
           "guidelines":[
@@ -130776,10 +130767,46 @@
           "underlinePosition":-200,
           "location":{
             "ct":0,
-            "wd":100,
-            "wt":500
+            "wd":500,
+            "wt":421
           },
           "guidelines":[
+            {
+              "name":"ascender_os",
+              "style":"custom",
+              "horizontal":true,
+              "position":1458,
+              "expr":"ascender+overLC",
+              "tags":[
+                "asc"
+              ]
+            },
+            {
+              "name":"average_h",
+              "style":"custom",
+              "horizontal":true,
+              "position":1200,
+              "expr":"(x_height+caps)/2",
+              "tags":[
+                "punct"
+              ]
+            },
+            {
+              "name":"average_half",
+              "style":"custom",
+              "horizontal":true,
+              "position":600,
+              "expr":"(x_height+caps)/4",
+              "tags":[
+                "punct"
+              ]
+            },
+            {
+              "name":"base_g",
+              "style":"custom",
+              "horizontal":true,
+              "expr":"base"
+            },
             {
               "name":"descender_g",
               "style":"custom",
@@ -130789,12 +130816,6 @@
               "tags":[
                 "desc"
               ]
-            },
-            {
-              "name":"base_g",
-              "style":"custom",
-              "horizontal":true,
-              "expr":"base"
             },
             {
               "name":"descender_os",
@@ -130954,16 +130975,6 @@
               "expr":"x_height",
               "tags":[
                 "lc"
-              ]
-            },
-            {
-              "name":"average_half",
-              "style":"custom",
-              "horizontal":true,
-              "position":600,
-              "expr":"(x_height+caps)/4",
-              "tags":[
-                "punct"
               ]
             },
             {
@@ -131154,26 +131165,6 @@
               "expr":"caps-stemhUC+overUC",
               "tags":[
                 "uc"
-              ]
-            },
-            {
-              "name":"average_h",
-              "style":"custom",
-              "horizontal":true,
-              "position":1200,
-              "expr":"(x_height+caps)/2",
-              "tags":[
-                "punct"
-              ]
-            },
-            {
-              "name":"ascender_os",
-              "style":"custom",
-              "horizontal":true,
-              "position":1458,
-              "expr":"ascender+overLC",
-              "tags":[
-                "asc"
               ]
             }
           ],
@@ -131376,8 +131367,8 @@
           "underlinePosition":-200,
           "location":{
             "ct":0,
-            "wd":100,
-            "wt":900
+            "wd":500,
+            "wt":1000
           },
           "guidelines":[
             {
@@ -132584,7 +132575,7 @@
           "location":{
             "ct":0,
             "wd":0,
-            "wt":500
+            "wt":421
           },
           "guidelines":[
             {
@@ -133185,7 +133176,7 @@
           "location":{
             "ct":0,
             "wd":0,
-            "wt":900
+            "wt":1000
           },
           "guidelines":[
             {
@@ -133780,7 +133771,7 @@
           "underlinePosition":-200,
           "location":{
             "ct":0,
-            "wd":200,
+            "wd":1000,
             "wt":0
           },
           "guidelines":[
@@ -134381,8 +134372,8 @@
           "underlinePosition":-200,
           "location":{
             "ct":0,
-            "wd":200,
-            "wt":500
+            "wd":1000,
+            "wt":421
           },
           "guidelines":[
             {
@@ -134982,8 +134973,8 @@
           "underlinePosition":-200,
           "location":{
             "ct":0,
-            "wd":200,
-            "wt":900
+            "wd":1000,
+            "wt":1000
           },
           "guidelines":[
             {
@@ -135583,7 +135574,7 @@
           "underlinePosition":-200,
           "location":{
             "ct":100,
-            "wd":100,
+            "wd":500,
             "wt":0
           },
           "guidelines":[
@@ -136185,8 +136176,8 @@
           "underlinePosition":-200,
           "location":{
             "ct":100,
-            "wd":100,
-            "wt":500
+            "wd":500,
+            "wt":421
           },
           "guidelines":[
             {
@@ -137388,7 +137379,7 @@
           "location":{
             "ct":100,
             "wd":0,
-            "wt":500
+            "wt":421
           },
           "guidelines":[
             {
@@ -137989,8 +137980,8 @@
           "underlinePosition":-200,
           "location":{
             "ct":100,
-            "wd":100,
-            "wt":900
+            "wd":500,
+            "wt":1000
           },
           "guidelines":[
             {
@@ -138591,7 +138582,7 @@
           "location":{
             "ct":100,
             "wd":0,
-            "wt":900
+            "wt":1000
           },
           "guidelines":[
             {
@@ -139187,7 +139178,7 @@
           "underlinePosition":-200,
           "location":{
             "ct":100,
-            "wd":200,
+            "wd":1000,
             "wt":0
           },
           "guidelines":[
@@ -139788,8 +139779,8 @@
           "underlinePosition":-200,
           "location":{
             "ct":100,
-            "wd":200,
-            "wt":500
+            "wd":1000,
+            "wt":421
           },
           "guidelines":[
             {
@@ -140390,8 +140381,8 @@
           "underlinePosition":-200,
           "location":{
             "ct":100,
-            "wd":200,
-            "wt":900
+            "wd":1000,
+            "wt":1000
           },
           "guidelines":[
             {
