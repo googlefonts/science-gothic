@@ -4,7 +4,7 @@
 
 tl;dr: The VFJ file is guaranteed to be the most up-to-date source. 
 
-This folder contains font sources for the project. Sources can be VFC (FontLab VI native binary file format), VFJ (FontLab VI native JSON text format), or UFO (Universal Font Object, an open source text format).
+This folder contains font sources for the project. Sources can be VFC (FontLab VI native binary file format), VFJ (FontLab VI native JSON text format), or UFO (Universal Font Object, an open source text format). Additionally, there is a .designspace file, defining axes, masters and coordinates, which can be used with UFO or other formats.
 
 - VFJ is the standard format for ongoing development work for the project. Normally, the latest sources will always be present in VFJ.
 
