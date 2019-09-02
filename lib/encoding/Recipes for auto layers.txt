@@ -1,7 +1,26 @@
 # Science Gothic variable font family
 # Recipes for generating composites in FontLab VI
-# Usingn GlyphConstructor syntax 
-# 2019-08-18
+# Using Glyph Construction syntax 
+# 2019-09-01
+#
+# All glyphs in this list can be Auto Glyphs
+
+
+# Symbols, Spaces & Special
+uni00A0=space
+backslash=slash@~,
+grave=gravecomb~50,50
+acute=acutecomb~50,50
+hyphen.cap=hyphen@,cap_dash_shift
+endash.cap=endash@,cap_dash_shift
+emdash.cap=emdash@,cap_dash_shift
+slash.case=slash@,cap_slash_shift
+backslash.case=backslash@,cap_slash_shift
+periodcentered.case=periodcentered@,cap_dash_shift
+bullet.case=bullet@,cap_dash_shift
+uni2219=periodcentered
+ellipsis=period_period_period
+
 
 # Latin basic uppercase
 Agrave=A+gravecomb.case@top
