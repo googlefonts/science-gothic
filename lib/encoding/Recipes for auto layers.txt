@@ -1,7 +1,7 @@
 # Science Gothic variable font family
 # Recipes for generating composites in FontLab VI
 # Using Glyph Construction syntax 
-# 2019-09-01
+# 2019-09-02
 #
 # All glyphs in this list can be Auto Glyphs
 
@@ -20,6 +20,13 @@ periodcentered.case=periodcentered@,cap_dash_shift
 bullet.case=bullet@,cap_dash_shift
 uni2219=periodcentered
 ellipsis=period_period_period
+guilsinglright=guilsinglleft@~,
+guillemotright = guilsinglright & guilsinglright ^ guilsinglright, guilsinglright
+guillemotleft = guilsinglleft & guilsinglleft ^ guilsinglleft, guilsinglleft
+guilsinglleft.case=guilsinglleft@,cap_dash_shift
+guilsinglright.case=guilsinglright@,cap_dash_shift
+guillemotleft.case=guillemotleft@,cap_dash_shift
+guillemotright.case=guillemotright@,cap_dash_shift
 
 
 # Latin basic uppercase
