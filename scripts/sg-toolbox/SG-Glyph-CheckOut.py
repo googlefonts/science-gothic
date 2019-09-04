@@ -18,7 +18,7 @@ from typerig.gui import getProcessGlyphs
 from typerig.proxy import pFont, pGlyph
 
 # - Init --------------------------------
-app_version = '0.5'
+app_version = '0.6'
 app_name = '[SG] Glyph Checkout'
 table_dict = {1:OrderedDict([('Glyph Name', None), ('Tags', None), ('Time', None), ('Date', None)])}
 
@@ -124,12 +124,17 @@ class dlg_GlyphCheckout(QtGui.QDialog):
 
 	def showDate(self, date, find=None):
 		if find is None:
-			table_dict = {n:OrderedDict([('Glyph Name', glyph.name), ('Tags', '; '.join(sorted(glyph.getTags(), key=len))), ('Time', glyph.fl.lastModified.time()), ('Date', glyph.fl.lastModified.date())]) for n, glyph in enumerate(self.active_font.pGlyphs()) if glyph.fl.lastModified.date() == self.wgt_calendar.selectedDate}
+			new_table_dict = {n:OrderedDict([('Glyph Name', glyph.name), ('Tags', '; '.join(sorted(glyph.getTags(), key=len))), ('Time', glyph.fl.lastModified.time()), ('Date', glyph.fl.lastModified.date())]) for n, glyph in enumerate(self.active_font.pGlyphs()) if glyph.fl.lastModified.date() == self.wgt_calendar.selectedDate}
 		else:
-			table_dict = {n:OrderedDict([('Glyph Name', glyph.name), ('Tags', '; '.join(sorted(glyph.getTags(), key=len))), ('Time', glyph.fl.lastModified.time()), ('Date', glyph.fl.lastModified.date())]) for n, glyph in enumerate(self.active_font.pGlyphs()) if glyph.fl.lastModified.date() == self.wgt_calendar.selectedDate and find in glyph.getTags()}
+			new_table_dict = {n:OrderedDict([('Glyph Name', glyph.name), ('Tags', '; '.join(sorted(glyph.getTags(), key=len))), ('Time', glyph.fl.lastModified.time()), ('Date', glyph.fl.lastModified.date())]) for n, glyph in enumerate(self.active_font.pGlyphs()) if glyph.fl.lastModified.date() == self.wgt_calendar.selectedDate and find in glyph.getTags()}
 		
 		self.tab_glyphs.clear()
-		self.tab_glyphs.setTable(table_dict)
+
+		if len(new_table_dict.keys()):
+			self.tab_glyphs.setTable(new_table_dict)
+		else:
+			print 'WARN:\t No glyph modification informatio found on Date:%s' %self.wgt_calendar.selectedDate
+			self.tab_glyphs.setTable(table_dict)
 		
 
 
