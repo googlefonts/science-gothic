@@ -18,7 +18,7 @@ from typerig.gui import getProcessGlyphs
 from typerig.proxy import pFont, pGlyph
 
 # - Init --------------------------------
-app_version = '1.9'
+app_version = '1.91'
 app_name = '[SG] Copy Layers'
 
 # -- Copy Presets (by request)
@@ -29,6 +29,10 @@ copy_presets = {'contrast':[('Blk','Blk Ctr'),
 							('Medium','Ctr'),
 							('Exp','Exp Ctr'),
 							('Lt','Lt Ctr'),
+							('Lt Cnd','Lt Cnd Ctr'),
+							('Lt Exp','Lt Exp Ctr')],
+
+				'ctr_light':[('Lt','Lt Ctr'),
 							('Lt Cnd','Lt Cnd Ctr'),
 							('Lt Exp','Lt Exp Ctr')],
 
@@ -134,6 +138,7 @@ class dlg_CopyLayer(QtGui.QDialog):
 		self.btn_preset_contrast = QtGui.QPushButton('Copy to Contrast Masters')
 		self.btn_preset_width = QtGui.QPushButton('Copy to Width Masters')
 		self.btn_preset_weight = QtGui.QPushButton('Copy to Weight Masters')
+		self.btn_preset_ctrlt = QtGui.QPushButton('Copy to Light Contrast Masters')
 
 		self.btn_refresh.clicked.connect(self.table_populate)
 		self.btn_checkOn.clicked.connect(lambda: self.table_populate(True))
@@ -141,6 +146,7 @@ class dlg_CopyLayer(QtGui.QDialog):
 		self.btn_preset_contrast.clicked.connect(lambda: self.execute_preset(copy_presets['contrast']))
 		self.btn_preset_width.clicked.connect(lambda: self.execute_preset(copy_presets['width']))
 		self.btn_preset_weight.clicked.connect(lambda: self.execute_preset(copy_presets['weight']))
+		self.btn_preset_ctrlt.clicked.connect(lambda: self.execute_preset(copy_presets['ctr_light']))
 
 		self.rad_glyph = QtGui.QRadioButton('Glyph')
 		self.rad_window = QtGui.QRadioButton('Window')
@@ -202,6 +208,7 @@ class dlg_CopyLayer(QtGui.QDialog):
 		layoutV.addWidget(self.btn_preset_weight, 			24, 0, 1,8)
 		layoutV.addWidget(self.btn_preset_width, 			25, 0, 1,8)
 		layoutV.addWidget(self.btn_preset_contrast, 		26, 0, 1,8)
+		layoutV.addWidget(self.btn_preset_ctrlt, 			27, 0, 1,8)
 
 		# - Set Widget
 		self.setLayout(layoutV)
@@ -298,7 +305,7 @@ class dlg_CopyLayer(QtGui.QDialog):
 				self.copyLayer(wGlyph, process_src, dst_layer, copy_options, True, self.chk_crlayer.isChecked())
 
 			wGlyph.update()
-			wGlyph.updateObject(wGlyph.fl, 'Glyph: %s\tCopy Layer | %s -> %s.' %(wGlyph.name, process_src, '; '.join(process_dst)))
+			wGlyph.updateObject(wGlyph.fl, 'Glyph: /%s;\tCopy Layer | %s -> %s.' %(wGlyph.name, process_src, '; '.join(process_dst)))
 
 	def execute_preset(self, preset_list):
 		# - Init
@@ -312,7 +319,7 @@ class dlg_CopyLayer(QtGui.QDialog):
 				self.copyLayer(wGlyph, process_src, process_dst, copy_options, True, self.chk_crlayer.isChecked())
 
 			wGlyph.update()
-			wGlyph.updateObject(wGlyph.fl, 'Glyph: %s\tCopy Layer Preset | %s.' %(wGlyph.name, ' | '.join(print_preset)))
+			wGlyph.updateObject(wGlyph.fl, 'Glyph: /%s;\tCopy Layer Preset | %s.' %(wGlyph.name, ' | '.join(print_preset)))
 
 # - RUN ------------------------------
 dialog = dlg_CopyLayer()

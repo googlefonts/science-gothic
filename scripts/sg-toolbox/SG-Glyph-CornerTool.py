@@ -115,7 +115,9 @@ class dlg_cornerTool(QtGui.QDialog):
 		self.cmb_preset.addItems(presets.keys())
 
 		self.btn_corner_in = QtGui.QPushButton('Inner Corner')
+		self.btn_corner_in2 = QtGui.QPushButton('2 node Inner')
 		self.btn_corner_revIn = QtGui.QPushButton('Inner Swap')
+		self.btn_corner_revIn2 = QtGui.QPushButton('2 node Inner Swap')
 		self.btn_corner_getIn = QtGui.QPushButton('Get User Inner')
 		self.btn_corner_out = QtGui.QPushButton('Outer Corner')
 		self.btn_corner_revOut = QtGui.QPushButton('Outer Swap')
@@ -124,8 +126,10 @@ class dlg_cornerTool(QtGui.QDialog):
 		self.btn_measure = QtGui.QPushButton('Measure Corner')
 
 		self.btn_corner_in.clicked.connect(lambda: self.in_corner(False))
+		self.btn_corner_in2.clicked.connect(lambda: self.out_corner(False, 1))
 		self.btn_corner_out.clicked.connect(lambda: self.out_corner(False))
 		self.btn_corner_revIn.clicked.connect(lambda: self.in_corner(True))
+		self.btn_corner_revIn2.clicked.connect(lambda: self.out_corner(True, 1))
 		self.btn_corner_revOut.clicked.connect(lambda: self.out_corner(True))
 		self.btn_corner_getOut.clicked.connect(lambda: self.get_measurment(0))
 		self.btn_corner_getIn.clicked.connect(lambda: self.get_measurment(1))
@@ -144,6 +148,8 @@ class dlg_cornerTool(QtGui.QDialog):
 		layoutV.addWidget(QtGui.QLabel('Inner Corner:'),	6, 0, 1, 8, QtCore.Qt.AlignBottom)
 		layoutV.addWidget(self.btn_corner_in,				7, 0, 1, 4)
 		layoutV.addWidget(self.btn_corner_revIn,			7, 4, 1, 4)
+		layoutV.addWidget(self.btn_corner_in2,				8, 0, 1, 4)
+		layoutV.addWidget(self.btn_corner_revIn2,			8, 4, 1, 4)
 		layoutV.addWidget(QtGui.QLabel('Utils:'),			9, 0, 1, 8, QtCore.Qt.AlignBottom)
 		layoutV.addWidget(self.btn_setStart,				10, 0, 1, 4)
 		layoutV.addWidget(self.btn_measure,					10, 4, 1, 4)
@@ -193,7 +199,7 @@ class dlg_cornerTool(QtGui.QDialog):
 			if modifiers == QtCore.Qt.ShiftModifier:
 				print presets['User']
 
-	def in_corner(self, swap=False):
+	def in_corner(self, swap=False, preset_index=1):
 		glyph = eGlyph()
 		selected_contours = {layer:glyph.selectedAtContours(layer)[0] for layer in presets[self.cmb_preset.currentText].keys()}
 		selected_nodes =  {layer:glyph.selectedNodes(layer, extend=eNode) for layer in presets[self.cmb_preset.currentText].keys()}
@@ -201,7 +207,7 @@ class dlg_cornerTool(QtGui.QDialog):
 		for layer, preset in presets[self.cmb_preset.currentText].iteritems():
 			if preset is not None:
 				selection = selected_nodes[layer]
-				lenght, curvature = preset[1]
+				lenght, curvature = preset[preset_index]
 				c0, c1 = curvature
 				selection[0].cornerRound(lenght, [(c0,c1),(c1,c0)][swap])
 
@@ -213,7 +219,7 @@ class dlg_cornerTool(QtGui.QDialog):
 		glyph.update()
 		glyph.updateObject(glyph.fl, 'DONE:\t Glyph: %s\tInner corner.' %glyph.name) 
 
-	def out_corner(self, swap=False):
+	def out_corner(self, swap=False, preset_index=0):
 		glyph = eGlyph()
 		selected_nodes =  {layer:glyph.selectedNodes(layer, extend=eNode) for layer in presets[self.cmb_preset.currentText].keys()}
 
@@ -235,7 +241,7 @@ class dlg_cornerTool(QtGui.QDialog):
 					node_first.parent.removeNodesBetween(node_first.fl, node_last.getNextOn())
 
 					# - Round
-					lenght, curvature = preset[0]
+					lenght, curvature = preset[preset_index]
 					c0, c1 = curvature
 					node_first.cornerRound(lenght, [(c0,c1),(c1,c0)][swap])
 
