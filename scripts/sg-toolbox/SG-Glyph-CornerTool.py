@@ -19,9 +19,10 @@ from typerig.proxy import pFont, pContour
 from typerig.glyph import eGlyph
 from typerig.node import eNode
 from typerig.brain import Line, Curve
+from typerig.curve import eCurveEx
 
 # - Init --------------------------------
-app_version = '1.1'
+app_version = '1.3'
 app_name = '[SG] Corner Tool'
 
 # -- Parts -----------------------------
@@ -54,6 +55,7 @@ presets = {'Lowercase': { 	'Lt': [(233.77,(.85,.85)), (192.67,(.80,.80))],
 							'Exp Ctr': None,
 							'Blk Exp Ctr': None
 							},
+
 			'Uppercase': { 	'Lt': [(233.77,(.85,.85)), (192.67,(.80,.80))],
 							'Medium': None,
 							'Blk': None,
@@ -72,7 +74,27 @@ presets = {'Lowercase': { 	'Lt': [(233.77,(.85,.85)), (192.67,(.80,.80))],
 							'Lt Exp Ctr': [(233.77,(.85,.85)), (192.67,(.80,.80))],
 							'Exp Ctr': None,
 							'Blk Exp Ctr': None
-							}
+							},
+
+			'User': 	{ 	'Lt': [(0.,(0.,0.)), (0.,(0.,0.))],
+							'Medium': None,
+							'Blk': None,
+							'Lt Cnd': [(0.,(0.,0.)), (0.,(0.,0.))],
+							'Cnd': None,
+							'Blk Cnd': None,
+							'Lt Exp': [(0.,(0.,0.)), (0.,(0.,0.))],
+							'Exp': None,
+							'Blk Exp': None,
+							'Lt Ctr': [(0.,(0.,0.)), (0.,(0.,0.))],
+							'Ctr': None,
+							'Blk Ctr': None,
+							'Lt Cnd Ctr': [(0.,(0.,0.)), (0.,(0.,0.))],
+							'Cnd Ctr': None,
+							'Blk Cnd Ctr': None,
+							'Lt Exp Ctr': [(0.,(0.,0.)), (0.,(0.,0.))],
+							'Exp Ctr': None,
+							'Blk Exp Ctr': None
+						}
 			}
 
 
@@ -89,49 +111,39 @@ class dlg_cornerTool(QtGui.QDialog):
 		self.cmb_preset = QtGui.QComboBox()
 		self.cmb_preset.addItems(presets.keys())
 
-		self.btn_corner_in_TL = QtGui.QPushButton('TL (in)')
-		self.btn_corner_in_TR = QtGui.QPushButton('TR (in)')
-		self.btn_corner_in_BL = QtGui.QPushButton('BL (in)')
-		self.btn_corner_in_BR = QtGui.QPushButton('BR (in)')
-		self.btn_corner_out_TL = QtGui.QPushButton('TL (out)')
-		self.btn_corner_out_TR = QtGui.QPushButton('TR (out)')
-		self.btn_corner_out_BL = QtGui.QPushButton('BL (out)')
-		self.btn_corner_out_BR = QtGui.QPushButton('BR (out)')
 		self.btn_corner_in = QtGui.QPushButton('Inner Corner')
+		self.btn_corner_revIn = QtGui.QPushButton('Inner Swap')
+		self.btn_corner_getIn = QtGui.QPushButton('Get User Inner')
 		self.btn_corner_out = QtGui.QPushButton('Outer Corner')
+		self.btn_corner_revOut = QtGui.QPushButton('Outer Swap')
+		self.btn_corner_getOut = QtGui.QPushButton('Get User Outer')
 		self.btn_setStart = QtGui.QPushButton('Set Start Point')
+		self.btn_measure = QtGui.QPushButton('Measure Corner')
 
-		self.btn_corner_in_TL.clicked.connect(lambda: self.in_corner((0,0)))
-		self.btn_corner_in_TR.clicked.connect(lambda: self.in_corner((0,1)))
-		self.btn_corner_in_BL.clicked.connect(lambda: self.in_corner((1,0)))
-		self.btn_corner_in_BR.clicked.connect(lambda: self.in_corner((1,1)))
-		self.btn_corner_out_TL.clicked.connect(lambda: self.out_corner((0,0)))
-		self.btn_corner_out_TR.clicked.connect(lambda: self.out_corner((0,1)))
-		self.btn_corner_out_BL.clicked.connect(lambda: self.out_corner((1,0)))
-		self.btn_corner_out_BR.clicked.connect(lambda: self.out_corner((1,1)))
-		self.btn_corner_in.clicked.connect(lambda: self.in_corner((0,0)))
-		self.btn_corner_out.clicked.connect(lambda: self.out_corner((0,0)))
+		self.btn_corner_in.clicked.connect(lambda: self.in_corner(False))
+		self.btn_corner_out.clicked.connect(lambda: self.out_corner(False))
+		self.btn_corner_revIn.clicked.connect(lambda: self.in_corner(True))
+		self.btn_corner_revOut.clicked.connect(lambda: self.out_corner(True))
+		self.btn_corner_getOut.clicked.connect(lambda: self.get_measurment(0))
+		self.btn_corner_getIn.clicked.connect(lambda: self.get_measurment(1))
+		self.btn_measure.clicked.connect(lambda: self.get_measurment(-1))
 		self.btn_setStart.clicked.connect(self.set_start)
-		#self.btn_execute.clicked.connect(self.execute_table)
 						
 		# - Build layouts 
 		layoutV = QtGui.QGridLayout() 
 		layoutV.addWidget(QtGui.QLabel('Preset:'),			0, 0, 1, 8, QtCore.Qt.AlignBottom)
 		layoutV.addWidget(self.cmb_preset,					1, 0, 1, 8)
-		layoutV.addWidget(QtGui.QLabel('Outer Corner:'),	2, 0, 1, 8, QtCore.Qt.AlignBottom)
-		layoutV.addWidget(self.btn_corner_out,				3, 0, 1, 8)
-		#layoutV.addWidget(self.btn_corner_out_TL,			3, 0, 1, 4)
-		#layoutV.addWidget(self.btn_corner_out_TR,			3, 4, 1, 4)
-		#layoutV.addWidget(self.btn_corner_out_BL,			4, 0, 1, 4)
-		#layoutV.addWidget(self.btn_corner_out_BR,			4, 4, 1, 4)
-		layoutV.addWidget(QtGui.QLabel('Inner Corner:'),	5, 0, 1, 8, QtCore.Qt.AlignBottom)
-		layoutV.addWidget(self.btn_corner_in,				6, 0, 1, 8)
-		#layoutV.addWidget(self.btn_corner_in_TL,			6, 0, 1, 4)
-		#layoutV.addWidget(self.btn_corner_in_TR,			6, 4, 1, 4)
-		#layoutV.addWidget(self.btn_corner_in_BL,			7, 0, 1, 4)
-		#layoutV.addWidget(self.btn_corner_in_BR,			7, 4, 1, 4)
-		layoutV.addWidget(QtGui.QLabel('Utils:'),			8, 0, 1, 8, QtCore.Qt.AlignBottom)
-		layoutV.addWidget(self.btn_setStart,				9, 0, 1, 8)
+		layoutV.addWidget(self.btn_corner_getOut,			2, 0, 1, 4)
+		layoutV.addWidget(self.btn_corner_getIn,			2, 4, 1, 4)
+		layoutV.addWidget(QtGui.QLabel('Outer Corner:'),	3, 0, 1, 8, QtCore.Qt.AlignBottom)
+		layoutV.addWidget(self.btn_corner_out,				4, 0, 1, 4)
+		layoutV.addWidget(self.btn_corner_revOut,			4, 4, 1, 4)
+		layoutV.addWidget(QtGui.QLabel('Inner Corner:'),	6, 0, 1, 8, QtCore.Qt.AlignBottom)
+		layoutV.addWidget(self.btn_corner_in,				7, 0, 1, 4)
+		layoutV.addWidget(self.btn_corner_revIn,			7, 4, 1, 4)
+		layoutV.addWidget(QtGui.QLabel('Utils:'),			9, 0, 1, 8, QtCore.Qt.AlignBottom)
+		layoutV.addWidget(self.btn_setStart,				10, 0, 1, 4)
+		layoutV.addWidget(self.btn_measure,					10, 4, 1, 4)
 
 		# - Set Widget
 		self.setLayout(layoutV)
@@ -150,9 +162,36 @@ class dlg_cornerTool(QtGui.QDialog):
 			glyph.contours(layer)[cid].setStartPoint(nid)
 
 		glyph.update()
-		glyph.updateObject(glyph.fl, 'CHANGE:\t Glyph: %s\tSet Start Point.' %glyph.name) 
+		glyph.updateObject(glyph.fl, 'CHANGE:\t Glyph: %s\tSet Start Point.' %glyph.name)
 
-	def in_corner(self, mode):
+	def get_measurment(self, mode=-1):
+		glyph = eGlyph()
+		
+		for layer in presets[self.cmb_preset.currentText].keys():
+			probe = glyph.selectedNodes(layer, extend=eNode)[0]
+			segment_nodes = probe.getSegmentNodes()
+			selSegment = eCurveEx(segment_nodes)
+			probe_line = Line(segment_nodes[0], segment_nodes[-1])
+			lenght = probe_line.getLenght()
+			c0, c1 = selSegment.curve.getHobbyCurvature()
+			
+			if mode == 0:
+				if presets['User'][layer] is not None:
+					presets['User'][layer][0] = (round(lenght,3), (round(c0.real,3), round(c1.real,3)))
+			elif mode ==1:
+				if presets['User'][layer] is not None:
+					presets['User'][layer][1] = (round(lenght,3), (round(c0.real,3), round(c1.real,3)))
+			else:
+				print 'Measure:\t Glyph: %s;\tLayer: %s;\tLength: %s; Curvature: %s, %s' %(glyph.name, layer, round(lenght,3), round(c0.real,3), round(c1.real,3))
+
+		if mode > -1:
+			print 'UPDATE:\t User Preset: %s' %['Outer Corner', 'Inner Corner'][mode]
+		else:
+			modifiers = QtGui.QApplication.keyboardModifiers() 
+			if modifiers == QtCore.Qt.ShiftModifier:
+				print presets['User']
+
+	def in_corner(self, swap=False):
 		glyph = eGlyph()
 		selected_contours = {layer:glyph.selectedAtContours(layer)[0] for layer in presets[self.cmb_preset.currentText].keys()}
 		selected_nodes =  {layer:glyph.selectedNodes(layer, extend=eNode) for layer in presets[self.cmb_preset.currentText].keys()}
@@ -170,7 +209,7 @@ class dlg_cornerTool(QtGui.QDialog):
 		glyph.update()
 		glyph.updateObject(glyph.fl, 'DONE:\t Glyph: %s\tInner corner.' %glyph.name) 
 
-	def out_corner(self, mode):
+	def out_corner(self, swap=False):
 		glyph = eGlyph()
 		selected_nodes =  {layer:glyph.selectedNodes(layer, extend=eNode) for layer in presets[self.cmb_preset.currentText].keys()}
 
