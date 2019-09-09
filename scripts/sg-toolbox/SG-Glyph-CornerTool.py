@@ -38,7 +38,7 @@ def getNodesDummy(x, y):
 # --			}}
 presets = {'Lowercase': {
 							'Blk Cnd Ctr': 	None,
-							'Blk Cnd': 		None
+							'Blk Cnd': 		None,
 							'Blk Ctr': 		None,
 							'Blk Exp Ctr': 	None,
 							'Blk Exp': 		None,
@@ -54,7 +54,7 @@ presets = {'Lowercase': {
 							'Lt': 			[(233.773, (0.85, 0.85)), (192.666, (0.85, 0.85))],
 							'Lt Exp Ctr': 	[(228.548, (0.85, 0.85)), (192.666, (0.85, 0.85))],
 							'Lt Exp': 		[(228.548, (0.85, 0.85)), (192.666, (0.85, 0.85))],
-							'Medium': 		None,
+							'Medium': 		None
 						},
 
 			'Uppercase': {	
