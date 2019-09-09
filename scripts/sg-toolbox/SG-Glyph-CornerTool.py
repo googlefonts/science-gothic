@@ -22,7 +22,7 @@ from typerig.brain import Line, Curve
 from typerig.curve import eCurveEx
 
 # - Init --------------------------------
-app_version = '1.3'
+app_version = '1.5'
 app_name = '[SG] Corner Tool'
 
 # -- Parts -----------------------------
@@ -36,64 +36,67 @@ def getNodesDummy(x, y):
 # --							...
 # -- 				layer n:	[(angle n, (curvature n)), (...,(...))]
 # --			}}
-presets = {'Lowercase': { 	'Lt': [(233.77,(.85,.85)), (192.67,(.80,.80))],
-							'Medium': None,
-							'Blk': None,
-							'Lt Cnd': [(205.55,(.85,.85)), (164.44,(.80,.80))],
-							'Cnd': None,
-							'Blk Cnd': None,
-							'Lt Exp': [(233.77,(.85,.85)), (192.67,(.80,.80))],
-							'Exp': None,
-							'Blk Exp': None,
-							'Lt Ctr': [(233.77,(.85,.85)), (192.67,(.80,.80))],
-							'Ctr': None,
-							'Blk Ctr': None,
-							'Lt Cnd Ctr': [(205.55,(.85,.85)), (164.44,(.80,.80))],
-							'Cnd Ctr': None,
-							'Blk Cnd Ctr': None,
-							'Lt Exp Ctr': [(233.77,(.85,.85)), (192.67,(.80,.80))],
-							'Exp Ctr': None,
-							'Blk Exp Ctr': None
-							},
+presets = {'Lowercase': {
+							'Blk Cnd Ctr': 	None,
+							'Blk Cnd': 		None
+							'Blk Ctr': 		None,
+							'Blk Exp Ctr': 	None,
+							'Blk Exp': 		None,
+							'Blk': 			None,
+							'Cnd Ctr': 		None,
+							'Cnd': 			None,
+							'Ctr': 			None,
+							'Exp Ctr': 		None,
+							'Exp': 			None,
+							'Lt Cnd Ctr': 	[(205.548, (0.825, 0.75)), (164.438, (0.85, 0.75))],
+							'Lt Cnd': 		[(205.548, (0.825, 0.75)), (164.438, (0.85, 0.75))],
+							'Lt Ctr': 		[(233.773, (0.85, 0.85)), (192.666, (0.85, 0.75))],
+							'Lt': 			[(233.773, (0.85, 0.85)), (192.666, (0.85, 0.85))],
+							'Lt Exp Ctr': 	[(228.548, (0.85, 0.85)), (192.666, (0.85, 0.85))],
+							'Lt Exp': 		[(228.548, (0.85, 0.85)), (192.666, (0.85, 0.85))],
+							'Medium': 		None,
+						},
 
-			'Uppercase': { 	'Lt': [(233.77,(.85,.85)), (192.67,(.80,.80))],
-							'Medium': None,
-							'Blk': None,
-							'Lt Cnd': [(205.55,(.85,.85)), (164.44,(.80,.80))],
-							'Cnd': None,
-							'Blk Cnd': None,
-							'Lt Exp': [(233.77,(.85,.85)), (192.67,(.80,.80))],
-							'Exp': None,
-							'Blk Exp': None,
-							'Lt Ctr': [(233.77,(.85,.85)), (192.67,(.80,.80))],
-							'Ctr': None,
-							'Blk Ctr': None,
-							'Lt Cnd Ctr': [(205.55,(.85,.85)), (164.44,(.80,.80))],
-							'Cnd Ctr': None,
-							'Blk Cnd Ctr': None,
-							'Lt Exp Ctr': [(233.77,(.85,.85)), (192.67,(.80,.80))],
-							'Exp Ctr': None,
-							'Blk Exp Ctr': None
-							},
+			'Uppercase': {	
+							'Blk Cnd Ctr': 	None,
+							'Blk Cnd': 		None,
+							'Blk Ctr': 		None,
+							'Blk Exp Ctr': 	None,
+							'Blk Exp': 		None,
+							'Blk': 			None,
+							'Cnd Ctr': 		None,
+							'Cnd': 			None,
+							'Ctr': 			None,
+							'Exp Ctr': 		None,
+							'Exp': 			None,
+							'Lt Cnd Ctr': 	[(282.843, (0.78, 0.78)), (229.12, (0.75, 0.742))],
+							'Lt Cnd': 		[(282.843, (0.78, 0.78)), (229.12, (0.75, 0.742))],
+							'Lt Ctr': 		[(413.793, (0.81, 0.85)), (360.168, (0.84, 0.80))],
+							'Lt': 			[(413.793, (0.81, 0.85)), (360.168, (0.84, 0.80))],
+							'Lt Exp Ctr': 	[(424.264, (0.86, 0.86)), (370.535, (0.85, 0.85))],
+							'Lt Exp':		[(424.264, (0.86, 0.86)), (370.535, (0.85, 0.85))],
+							'Medium': 		None
+						},
 
-			'User': 	{ 	'Lt': [(0.,(0.,0.)), (0.,(0.,0.))],
-							'Medium': None,
-							'Blk': None,
-							'Lt Cnd': [(0.,(0.,0.)), (0.,(0.,0.))],
-							'Cnd': None,
-							'Blk Cnd': None,
-							'Lt Exp': [(0.,(0.,0.)), (0.,(0.,0.))],
-							'Exp': None,
-							'Blk Exp': None,
-							'Lt Ctr': [(0.,(0.,0.)), (0.,(0.,0.))],
-							'Ctr': None,
-							'Blk Ctr': None,
-							'Lt Cnd Ctr': [(0.,(0.,0.)), (0.,(0.,0.))],
-							'Cnd Ctr': None,
-							'Blk Cnd Ctr': None,
-							'Lt Exp Ctr': [(0.,(0.,0.)), (0.,(0.,0.))],
-							'Exp Ctr': None,
-							'Blk Exp Ctr': None
+			'User': 	{ 	
+							'Blk Cnd Ctr': 	None,
+							'Blk Cnd': 		None,
+							'Blk Ctr': 		None,
+							'Blk Exp Ctr':	None,
+							'Blk Exp': 		None,
+							'Blk': 			None,
+							'Cnd Ctr': 		None,
+							'Cnd': 			None,
+							'Ctr': 			None,
+							'Exp Ctr':		None,
+							'Exp': 			None,
+							'Lt Cnd Ctr': 	[(0.,(0.,0.)), (0.,(0.,0.))],
+							'Lt Cnd': 		[(0.,(0.,0.)), (0.,(0.,0.))],
+							'Lt Ctr': 		[(0.,(0.,0.)), (0.,(0.,0.))],
+							'Lt': 			[(0.,(0.,0.)), (0.,(0.,0.))],
+							'Lt Exp Ctr': 	[(0.,(0.,0.)), (0.,(0.,0.))],
+							'Lt Exp': 		[(0.,(0.,0.)), (0.,(0.,0.))],
+							'Medium': 		None
 						}
 			}
 
@@ -168,21 +171,20 @@ class dlg_cornerTool(QtGui.QDialog):
 		glyph = eGlyph()
 		
 		for layer in presets[self.cmb_preset.currentText].keys():
-			probe = glyph.selectedNodes(layer, extend=eNode)[0]
-			segment_nodes = probe.getSegmentNodes()
-			selSegment = eCurveEx(segment_nodes)
-			probe_line = Line(segment_nodes[0], segment_nodes[-1])
-			lenght = probe_line.getLenght()
-			c0, c1 = selSegment.curve.getHobbyCurvature()
-			
-			if mode == 0:
-				if presets['User'][layer] is not None:
+			if presets['User'][layer] is not None:
+				probe = glyph.selectedNodes(layer, extend=eNode)[0]
+				segment_nodes = probe.getSegmentNodes()
+				selSegment = eCurveEx(segment_nodes)
+				probe_line = Line(segment_nodes[0], segment_nodes[-1])
+				lenght = probe_line.getLenght()
+				c0, c1 = selSegment.curve.getHobbyCurvature()
+				
+				if mode == 0:
 					presets['User'][layer][0] = (round(lenght,3), (round(c0.real,3), round(c1.real,3)))
-			elif mode ==1:
-				if presets['User'][layer] is not None:
+				elif mode ==1:
 					presets['User'][layer][1] = (round(lenght,3), (round(c0.real,3), round(c1.real,3)))
-			else:
-				print 'Measure:\t Glyph: %s;\tLayer: %s;\tLength: %s; Curvature: %s, %s' %(glyph.name, layer, round(lenght,3), round(c0.real,3), round(c1.real,3))
+				else:
+					print 'Measure:\t Glyph: %s;\tLayer: %s;\tLength: %s; Curvature: %s, %s' %(glyph.name, layer, round(lenght,3), round(c0.real,3), round(c1.real,3))
 
 		if mode > -1:
 			print 'UPDATE:\t User Preset: %s' %['Outer Corner', 'Inner Corner'][mode]
@@ -199,7 +201,9 @@ class dlg_cornerTool(QtGui.QDialog):
 		for layer, preset in presets[self.cmb_preset.currentText].iteritems():
 			if preset is not None:
 				selection = selected_nodes[layer]
-				selection[0].cornerRound(*preset[1])
+				lenght, curvature = preset[1]
+				c0, c1 = curvature
+				selection[0].cornerRound(lenght, [(c0,c1),(c1,c0)][swap])
 
 			else:
 				cid, nid = selected_contours[layer]
@@ -231,7 +235,9 @@ class dlg_cornerTool(QtGui.QDialog):
 					node_first.parent.removeNodesBetween(node_first.fl, node_last.getNextOn())
 
 					# - Round
-					node_first.cornerRound(*preset[0])
+					lenght, curvature = preset[0]
+					c0, c1 = curvature
+					node_first.cornerRound(lenght, [(c0,c1),(c1,c0)][swap])
 
 		glyph.update()
 		glyph.updateObject(glyph.fl, 'DONE:\t Glyph: %s\tOuter corner.' %glyph.name) 
