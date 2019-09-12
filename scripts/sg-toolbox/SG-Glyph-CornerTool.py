@@ -78,6 +78,21 @@ presets = {'Lowercase': {
 							'Medium': 		None
 						},
 
+			'Repair': 	{ 	# Will fix all nodes lost due to remove overlap
+							'Blk Cnd Ctr': 	None,
+							'Blk Cnd': 		None,
+							'Blk Ctr': 		None,
+							'Blk Exp Ctr':	None,
+							'Blk Exp': 		None,
+							'Blk': 			None,
+							'Cnd Ctr': 		None,
+							'Cnd': 			None,
+							'Ctr': 			None,
+							'Exp Ctr':		None,
+							'Exp': 			None,
+							'Medium': 		None
+						},
+
 			'User': 	{ 	
 							'Blk Cnd Ctr': 	None,
 							'Blk Cnd': 		None,
