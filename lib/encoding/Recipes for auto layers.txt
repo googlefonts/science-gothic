@@ -9,8 +9,6 @@
 # Symbols, Spaces & Special
 uni00A0=space
 backslash=slash@~,
-grave=gravecomb~50,50
-acute=acutecomb~50,50
 hyphen.cap=hyphen@,cap_dash_shift
 endash.cap=endash@,cap_dash_shift
 emdash.cap=emdash@,cap_dash_shift
@@ -27,7 +25,6 @@ guilsinglleft.case=guilsinglleft@,cap_dash_shift
 guilsinglright.case=guilsinglright@,cap_dash_shift
 guillemotleft.case=guillemotleft@,cap_dash_shift
 guillemotright.case=guillemotright@,cap_dash_shift
-
 # parenright=parenleft@~,~ # NEEDS OWN METRICS & NOT AUTO GLYPH
 parenleft.case=parenleft@,cap_paren_shift
 parenright.case=parenright@,cap_paren_shift
@@ -37,6 +34,13 @@ bracketright.case=bracketright@,cap_bracket_shift
 # braceright=braceleft@~,~ # NEEDS OWN METRICS & NOT AUTO GLYPH
 braceleft.case=braceleft@,cap_bracket_shift
 braceright.case=braceright@,cap_bracket_shift
+
+# Diacritics
+macron=uni0304~50,50
+grave=gravecomb~50,50
+acute=acutecomb~50,50
+uni030C.case=uni0302.case@~,
+
 
 
 # Latin basic uppercase
