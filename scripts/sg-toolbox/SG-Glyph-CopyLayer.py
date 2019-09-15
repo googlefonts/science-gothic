@@ -18,7 +18,7 @@ from typerig.gui import getProcessGlyphs
 from typerig.proxy import pFont, pGlyph
 
 # - Init --------------------------------
-app_version = '1.91'
+app_version = '1.95'
 app_name = '[SG] Copy Layers'
 
 # -- Copy Presets (by request)
@@ -253,8 +253,10 @@ class dlg_CopyLayer(QtGui.QDialog):
 			for shape in srcShapes:
 				newShape = glyph.layer(dstLayerName).addShape(shape.cloneTopLevel())
 
+			glyph.update()
+
 		# -- Metrics
-		if options['lsb']: glyph.setLSB(glyph.getRSB(srcLayerName), dstLayerName)
+		if options['lsb']: glyph.setLSB(glyph.getLSB(srcLayerName), dstLayerName)
 		if options['adv']: glyph.setAdvance(glyph.getAdvance(srcLayerName), dstLayerName)
 		if options['rsb']: glyph.setRSB(glyph.getRSB(srcLayerName), dstLayerName)
 		if options['lnk']:
@@ -267,7 +269,8 @@ class dlg_CopyLayer(QtGui.QDialog):
 				glyph.clearAnchors(dstLayerName)
 
 			for src_anchor in glyph.anchors(srcLayerName):
-				glyph.layer(dstLayerName).addAnchor(src_anchor)
+				#glyph.layer(dstLayerName).addAnchor(src_anchor)
+				glyph.addAnchor((src_anchor.point.x(), src_anchor.point.y()), src_anchor.name, dstLayerName)
 
 	def table_populate(self, filterDST=False):
 		if not filterDST:	
