@@ -7,7 +7,7 @@ Science Gothic™ is an OpenType Variations typeface (variable font) with weight
 
 ### 5 September 2019
 
-Second variable font build. About 200 meaningful characters, including very nearly complete support for both English and Russian. Haven't updated the separate 100+ instance fonts etcetera quite yet, but will within the next day or two.
+Second variable font build. About 200 meaningful characters, including very nearly complete support for both English and Russian.
 
 ### 29 August 2019
 
