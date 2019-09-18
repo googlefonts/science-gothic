@@ -5,6 +5,12 @@ This repo is where development and updates to this project can be found. Source 
 
 Science Gothic™ is an OpenType Variations typeface (variable font) with weight, width and contrast axes. Ultimately it will also have a slant axis. While the medium weight is based closely on the original Bank Gothic typeface from the early 1930s, a lowercase, design axes and language coverage have been added. Bank Gothic was originally designed by Morris Fuller Benton in 1930–34 for American Type Founders. Science Gothic is a team effort, with the initial development by Thomas Phinney, Brandon Buerkle, Igor Freiberger and Vassil Kateliev.
 
+(Particularly major updates are described below, but not every update.)
+
+### 18 September 2019
+
+Added UFO sources, and first variable TTF built from UFO + FontMake (with latest FontMake and Python) rather than from exporting from FontLab. Although FontLab VI uses UFO + FontMake internally for its variable font generation, it uses an older version of FontMake. This approach makes it easier for future development to be made with any UFO-compatible font editor. See https://github.com/tphinney/science-gothic/issues/91 for details.
+
 ### 5 September 2019
 
 Second variable font build. About 200 meaningful characters, including very nearly complete support for both English and Russian.
