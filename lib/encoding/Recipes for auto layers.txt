@@ -34,13 +34,19 @@ bracketright.case=bracketright@,cap_bracket_shift
 # braceright=braceleft@~,~ # NEEDS OWN METRICS & NOT AUTO GLYPH
 braceleft.case=braceleft@,cap_bracket_shift
 braceright.case=braceright@,cap_bracket_shift
+quoteright=comma@,ascender
+quoteleft=comma@~,~ascender
+quotesinglbase=comma
+# quotedblright = quoteright & quoteright,quoteright-20, # space between quotes isn't right yet
+
 
 # Diacritics
 macron=uni0304~50,50
 grave=gravecomb~50,50
 acute=acutecomb~50,50
-uni030C.case=uni0302.case@~,
-
+# uni030C.case=uni0302.case@~center,~ # NEEDS ANCHOR SHIFT, CAN'T BE AUTO GLYPH
+uni0324=uni0308@,-400 # COMBINING DIERESIS BELOW
+uni0324.case=uni0308.case@,-400 # COMBINING CAP DIERESIS BELOW
 
 
 # Latin basic uppercase
