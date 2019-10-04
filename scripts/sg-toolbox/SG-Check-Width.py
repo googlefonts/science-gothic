@@ -40,7 +40,7 @@ for work_glyph in process_glyphs:
 			b = work_glyph.getBounds(pair[1]).width()
 			if not isclose(a, b, error_margin):
 				error_flag = True
-				error_list.append((pair[0], pair[1], round(ratfrac(b, a),2)))
+				error_list.append((pair[0], pair[1], a-b))
 		except AttributeError:
 			pass
 
