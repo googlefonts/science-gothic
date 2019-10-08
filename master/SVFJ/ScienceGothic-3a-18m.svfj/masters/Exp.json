@@ -1,5 +1,41 @@
 {
     "fontMaster": {
+        "fontStemsH": [
+            {
+                "value": 240, 
+                "name": "I", 
+                "tagsString": "ALL match uc noblank otnone T latn upper references noncomposite"
+            }, 
+            {
+                "name": "X", 
+                "value": 264
+            }, 
+            {
+                "name": "O", 
+                "value": 240
+            }, 
+            {
+                "value": 244, 
+                "name": "C: 244", 
+                "tagsString": "ALL Bos match uc noblank Tos otnone latn upper references noncomposite"
+            }, 
+            {
+                "value": 42, 
+                "name": "A: 42", 
+                "tagsString": "ALL match uc noblank otnone T latn upper references noncomposite"
+            }, 
+            {
+                "value": 204, 
+                "name": "a: 204", 
+                "tagsString": "lower ALL tos match noblank bos lc otnone latn references noncomposite"
+            }, 
+            {
+                "value": 224, 
+                "name": "b: 224", 
+                "tagsString": "lower asc ALL tos noblank bos lc otnone nomatch latn noncomposite"
+            }
+        ], 
+        "psn": "ScienceGothic-UltraExpanded", 
         "weight": 500, 
         "capsHeight": 1400, 
         "variables": [
@@ -479,12 +515,50 @@
                 "vertical": true
             }
         ], 
+        "width_name": "Ultra Expanded", 
+        "otherData": {
+            "TtNoSmoothing": 0, 
+            "hhea_ascender": 1448, 
+            "TtaSharpGdi": true, 
+            "hhea_descender": -428, 
+            "hhea_line_gap": 200, 
+            "superscript_x_size": 650, 
+            "TtaSharpGray": false, 
+            "subscript_y_offset": 75, 
+            "TtaIncreaseXHeight": 11, 
+            "subscript_y_size": 600, 
+            "TtaHintingRangeMin": 8, 
+            "hhea_use_custom": false, 
+            "TtaSharpDw": false, 
+            "superscript_y_size": 600, 
+            "TtaHintComposites": true, 
+            "TtHinter": 1, 
+            "subscript_x_size": 650, 
+            "TtaNoClipping": true, 
+            "TtaHintingLimit": 200, 
+            "TtaHintingRangeMax": 50, 
+            "subscript_x_offset": 0, 
+            "superscript_x_offset": 0, 
+            "superscript_y_offset": 350, 
+            "TtHorizSmoothing": 0, 
+            "strikeout_size": 50, 
+            "strikeout_position": 50
+        }, 
         "ffn": "Science Gothic Ultra Expanded", 
         "underlinePosition": -200, 
+        "lineGap": 200, 
         "measurement": 262, 
         "underlineThickness": 100, 
         "safeBottom": 500, 
         "tsn": "Ultra Expanded", 
+        "weight_name": "Medium", 
+        "descender": -428, 
+        "slope_name": "Plain", 
+        "hintingParameters": {
+            "blueScale": 0
+        }, 
+        "name": "Exp", 
+        "cornerTension": 0.4, 
         "fontZonesB": [
             {
                 "position": 0, 
@@ -526,12 +600,14 @@
             "overshoot": "10"
         }, 
         "width": 9, 
+        "ascender": 1448, 
         "kerning": {}, 
         "location": {
             "wd": 1000, 
             "wt": 421, 
             "ct": 0
         }, 
+        "xHeight": 1000, 
         "safeTop": 1500, 
         "fontZonesT": [
             {
@@ -555,122 +631,6 @@
                 "value": 10
             }
         ], 
-        "ascender": 1448, 
-        "psn": "ScienceGothic-UltraExpanded", 
-        "cornerTension": 0.4, 
-        "fontStemsH": [
-            {
-                "value": 240, 
-                "name": "I", 
-                "tagsString": "ALL match uc noblank otnone T latn upper references noncomposite"
-            }, 
-            {
-                "name": "X", 
-                "value": 264
-            }, 
-            {
-                "name": "O", 
-                "value": 240
-            }, 
-            {
-                "value": 244, 
-                "name": "C: 244", 
-                "tagsString": "ALL Bos match uc noblank Tos otnone latn upper references noncomposite"
-            }, 
-            {
-                "value": 42, 
-                "name": "A: 42", 
-                "tagsString": "ALL match uc noblank otnone T latn upper references noncomposite"
-            }, 
-            {
-                "value": 204, 
-                "name": "a: 204", 
-                "tagsString": "lower ALL tos match noblank bos lc otnone latn references noncomposite"
-            }, 
-            {
-                "value": 224, 
-                "name": "b: 224", 
-                "tagsString": "lower asc ALL tos noblank bos lc otnone nomatch latn noncomposite"
-            }
-        ], 
-        "otherData": {
-            "TtNoSmoothing": 0, 
-            "hhea_ascender": 1448, 
-            "TtaSharpGdi": true, 
-            "hhea_descender": -428, 
-            "hhea_line_gap": 200, 
-            "superscript_x_size": 650, 
-            "TtaSharpGray": false, 
-            "subscript_y_offset": 75, 
-            "TtaIncreaseXHeight": 11, 
-            "subscript_y_size": 600, 
-            "TtaHintingRangeMin": 8, 
-            "hhea_use_custom": false, 
-            "TtaSharpDw": false, 
-            "superscript_y_size": 600, 
-            "TtaHintComposites": true, 
-            "TtHinter": 1, 
-            "subscript_x_size": 650, 
-            "TtaNoClipping": true, 
-            "TtaHintingLimit": 200, 
-            "TtaHintingRangeMax": 50, 
-            "subscript_x_offset": 0, 
-            "superscript_x_offset": 0, 
-            "superscript_y_offset": 350, 
-            "TtHorizSmoothing": 0, 
-            "strikeout_size": 50, 
-            "strikeout_position": 50
-        }, 
-        "lineGap": 200, 
-        "width_name": "Ultra Expanded", 
-        "weight_name": "Medium", 
-        "descender": -428, 
-        "hintingParameters": {
-            "blueScale": 0
-        }, 
-        "name": "Exp", 
-        "mask": {
-            "layer": {
-                "color": "red", 
-                "elements": [
-                    {
-                        "elementData": {
-                            "contours": [
-                                {
-                                    "nodes": [
-                                        "662 -14 s", 
-                                        "1952 -14 s", 
-                                        "2166 -14  2296 36  2296 272 s", 
-                                        "2296 1140 s", 
-                                        "2296 1368  2154 1414  1952 1414 s", 
-                                        "662 1414 s", 
-                                        "460 1414  320 1368  320 1140 s", 
-                                        "320 272 s", 
-                                        "320 38  448 -14 c"
-                                    ]
-                                }, 
-                                {
-                                    "nodes": [
-                                        "584 230", 
-                                        "584 230  584 230  584 230", 
-                                        "584 1170", 
-                                        "584 1170  584 1170  584 1170", 
-                                        "2032 1170", 
-                                        "2032 1170  2032 1170  2032 1170", 
-                                        "2032 230", 
-                                        "2032 230  2032 230  2032 230"
-                                    ]
-                                }
-                            ]
-                        }
-                    }
-                ], 
-                "flags": 9, 
-                "advanceWidth": 0
-            }
-        }, 
-        "xHeight": 1000, 
-        "slope_name": "Plain", 
         "fontStemsV": [
             {
                 "name": "I", 

@@ -209,15 +209,11 @@
                         ], 
                         "nodeLinks": [
                             {
+                                "index": 35, 
+                                "contour": "contour.133"
+                            }, 
+                            {
                                 "index": 3, 
-                                "contour": "contour.133"
-                            }, 
-                            {
-                                "index": 10, 
-                                "contour": "contour.133"
-                            }, 
-                            {
-                                "index": 9, 
                                 "contour": "contour.133"
                             }, 
                             {
@@ -229,7 +225,11 @@
                                 "contour": "contour.133"
                             }, 
                             {
-                                "index": 35, 
+                                "index": 9, 
+                                "contour": "contour.133"
+                            }, 
+                            {
+                                "index": 10, 
                                 "contour": "contour.133"
                             }
                         ]
@@ -560,8 +560,8 @@
                         ], 
                         "nodeLinks": [
                             {
-                                "index": 35, 
-                                "constOffset": "-11 0", 
+                                "index": 9, 
+                                "constOffset": "-33 0", 
                                 "horizontal": true, 
                                 "global": true, 
                                 "contour": "contour.134", 
@@ -574,8 +574,8 @@
                                 }
                             }, 
                             {
-                                "index": 22, 
-                                "constOffset": "-51 0", 
+                                "index": 35, 
+                                "constOffset": "-11 0", 
                                 "horizontal": true, 
                                 "global": true, 
                                 "contour": "contour.134", 
@@ -596,12 +596,12 @@
                                 }
                             }, 
                             {
-                                "index": 16, 
-                                "constOffset": "49 0", 
+                                "index": 22, 
+                                "constOffset": "-51 0", 
                                 "horizontal": true, 
                                 "global": true, 
                                 "contour": "contour.134", 
-                                "guidelineV": "guideline.18"
+                                "guidelineV": "guideline.17"
                             }, 
                             {
                                 "index": 10, 
@@ -612,12 +612,12 @@
                                 "guidelineV": "guideline.17"
                             }, 
                             {
-                                "index": 9, 
-                                "constOffset": "-33 0", 
+                                "index": 16, 
+                                "constOffset": "49 0", 
                                 "horizontal": true, 
                                 "global": true, 
                                 "contour": "contour.134", 
-                                "guidelineV": "guideline.17"
+                                "guidelineV": "guideline.18"
                             }
                         ]
                     }
@@ -664,12 +664,14 @@
             "color": "#ff34ff", 
             "metricsLeft": "=zero*.7", 
             "flags": 0, 
+            "active": true, 
             "metricsRight": "=zero*.8"
         }, 
         {
             "autoRecipe": "=six@~,~", 
             "elements": [
                 {
+                    "active": true, 
                     "elementData": {
                         "contours": [
                             {
@@ -700,7 +702,6 @@
             "color": "#00cce5", 
             "metricsLeft": "=zero*.8", 
             "flags": 0, 
-            "active": true, 
             "metricsRight": "=zero*.9"
         }, 
         {

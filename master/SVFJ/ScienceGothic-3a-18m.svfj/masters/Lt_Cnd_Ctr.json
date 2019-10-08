@@ -1,5 +1,41 @@
 {
     "fontMaster": {
+        "fontStemsH": [
+            {
+                "value": 240, 
+                "name": "I", 
+                "tagsString": "ALL match uc noblank otnone T latn upper references noncomposite"
+            }, 
+            {
+                "name": "X", 
+                "value": 264
+            }, 
+            {
+                "name": "O", 
+                "value": 240
+            }, 
+            {
+                "value": 244, 
+                "name": "C: 244", 
+                "tagsString": "ALL Bos match uc noblank Tos otnone latn upper references noncomposite"
+            }, 
+            {
+                "value": 42, 
+                "name": "A: 42", 
+                "tagsString": "ALL match uc noblank otnone T latn upper references noncomposite"
+            }, 
+            {
+                "value": 204, 
+                "name": "a: 204", 
+                "tagsString": "lower ALL tos match noblank bos lc otnone latn references noncomposite"
+            }, 
+            {
+                "value": 224, 
+                "name": "b: 224", 
+                "tagsString": "lower asc ALL tos noblank bos lc otnone nomatch latn noncomposite"
+            }
+        ], 
+        "psn": "ScienceGothic-ThinUltraCond", 
         "weight": 100, 
         "capsHeight": 1400, 
         "variables": [
@@ -480,12 +516,50 @@
                 "vertical": true
             }
         ], 
+        "width_name": "Ultra Condensed", 
+        "otherData": {
+            "TtNoSmoothing": 0, 
+            "hhea_ascender": 1448, 
+            "TtaSharpGdi": true, 
+            "hhea_descender": -428, 
+            "hhea_line_gap": 200, 
+            "superscript_x_size": 650, 
+            "TtaSharpGray": false, 
+            "subscript_y_offset": 75, 
+            "TtaIncreaseXHeight": 11, 
+            "subscript_y_size": 600, 
+            "TtaHintingRangeMin": 8, 
+            "hhea_use_custom": false, 
+            "TtaSharpDw": false, 
+            "superscript_y_size": 600, 
+            "TtaHintComposites": true, 
+            "TtHinter": 1, 
+            "subscript_x_size": 650, 
+            "TtaNoClipping": true, 
+            "TtaHintingLimit": 200, 
+            "TtaHintingRangeMax": 50, 
+            "subscript_x_offset": 0, 
+            "superscript_x_offset": 0, 
+            "superscript_y_offset": 350, 
+            "TtHorizSmoothing": 0, 
+            "strikeout_size": 50, 
+            "strikeout_position": 50
+        }, 
         "ffn": "Science Gothic Thin UltraCond", 
         "underlinePosition": -200, 
+        "lineGap": 200, 
         "measurement": 712, 
         "underlineThickness": 100, 
         "safeBottom": 500, 
         "tsn": "Thin Ultra Condensed", 
+        "weight_name": "Thin", 
+        "descender": -428, 
+        "slope_name": "Plain", 
+        "hintingParameters": {
+            "blueScale": 0
+        }, 
+        "name": "Lt Cnd Ctr", 
+        "cornerTension": 0.4, 
         "fontZonesB": [
             {
                 "position": 0, 
@@ -527,12 +601,14 @@
             "overshoot": "10"
         }, 
         "width": 1, 
+        "ascender": 1448, 
         "kerning": {}, 
         "location": {
             "wd": 0, 
             "wt": 0, 
             "ct": 100
         }, 
+        "xHeight": 1000, 
         "safeTop": 1500, 
         "fontZonesT": [
             {
@@ -556,122 +632,6 @@
                 "value": 10
             }
         ], 
-        "ascender": 1448, 
-        "psn": "ScienceGothic-ThinUltraCond", 
-        "cornerTension": 0.4, 
-        "fontStemsH": [
-            {
-                "value": 240, 
-                "name": "I", 
-                "tagsString": "ALL match uc noblank otnone T latn upper references noncomposite"
-            }, 
-            {
-                "name": "X", 
-                "value": 264
-            }, 
-            {
-                "name": "O", 
-                "value": 240
-            }, 
-            {
-                "value": 244, 
-                "name": "C: 244", 
-                "tagsString": "ALL Bos match uc noblank Tos otnone latn upper references noncomposite"
-            }, 
-            {
-                "value": 42, 
-                "name": "A: 42", 
-                "tagsString": "ALL match uc noblank otnone T latn upper references noncomposite"
-            }, 
-            {
-                "value": 204, 
-                "name": "a: 204", 
-                "tagsString": "lower ALL tos match noblank bos lc otnone latn references noncomposite"
-            }, 
-            {
-                "value": 224, 
-                "name": "b: 224", 
-                "tagsString": "lower asc ALL tos noblank bos lc otnone nomatch latn noncomposite"
-            }
-        ], 
-        "otherData": {
-            "TtNoSmoothing": 0, 
-            "hhea_ascender": 1448, 
-            "TtaSharpGdi": true, 
-            "hhea_descender": -428, 
-            "hhea_line_gap": 200, 
-            "superscript_x_size": 650, 
-            "TtaSharpGray": false, 
-            "subscript_y_offset": 75, 
-            "TtaIncreaseXHeight": 11, 
-            "subscript_y_size": 600, 
-            "TtaHintingRangeMin": 8, 
-            "hhea_use_custom": false, 
-            "TtaSharpDw": false, 
-            "superscript_y_size": 600, 
-            "TtaHintComposites": true, 
-            "TtHinter": 1, 
-            "subscript_x_size": 650, 
-            "TtaNoClipping": true, 
-            "TtaHintingLimit": 200, 
-            "TtaHintingRangeMax": 50, 
-            "subscript_x_offset": 0, 
-            "superscript_x_offset": 0, 
-            "superscript_y_offset": 350, 
-            "TtHorizSmoothing": 0, 
-            "strikeout_size": 50, 
-            "strikeout_position": 50
-        }, 
-        "lineGap": 200, 
-        "width_name": "Ultra Condensed", 
-        "weight_name": "Thin", 
-        "descender": -428, 
-        "hintingParameters": {
-            "blueScale": 0
-        }, 
-        "name": "Lt Cnd Ctr", 
-        "mask": {
-            "layer": {
-                "color": "red", 
-                "elements": [
-                    {
-                        "elementData": {
-                            "contours": [
-                                {
-                                    "nodes": [
-                                        "285 -4 s", 
-                                        "306 -4 s", 
-                                        "443 -4  496 54  496 196 s", 
-                                        "496 1204 s", 
-                                        "496 1346  443 1404  306 1404 s", 
-                                        "285 1404 s", 
-                                        "153 1404  95 1346  95 1204 s", 
-                                        "95 196 s", 
-                                        "95 54  153 -4 c"
-                                    ]
-                                }, 
-                                {
-                                    "nodes": [
-                                        "287 32 s", 
-                                        "176 32  135 75  135 194 s", 
-                                        "135 1206 s", 
-                                        "135 1325  176 1368  287 1368 s", 
-                                        "304 1368 s", 
-                                        "420 1368  456 1325  456 1206 s", 
-                                        "456 194 s", 
-                                        "456 75  420 32  304 32 s"
-                                    ]
-                                }
-                            ]
-                        }
-                    }
-                ], 
-                "flags": 9, 
-                "advanceWidth": 0
-            }
-        }, 
-        "xHeight": 1000, 
-        "slope_name": "Plain", 
         "fontStemsV": [
             {
                 "name": "I", 

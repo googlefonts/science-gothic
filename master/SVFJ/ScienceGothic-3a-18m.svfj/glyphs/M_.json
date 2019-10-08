@@ -172,13 +172,13 @@
                                 "index": 0, 
                                 "contour": {
                                     "nodes": [
-                                        "1539 209", 
-                                        "2682 1276", 
-                                        "2838 1400", 
-                                        "2762 1400", 
-                                        "1653 366"
+                                        "400 0", 
+                                        "436 0", 
+                                        "436 1300", 
+                                        "436 1400", 
+                                        "400 1400"
                                     ], 
-                                    "id": "contour.12"
+                                    "id": "contour.9"
                                 }
                             }, 
                             {
@@ -191,32 +191,11 @@
                                         "524 1400", 
                                         "432 1400"
                                     ], 
-                                    "id": "contour.9"
-                                }
-                            }, 
-                            {
-                                "index": 0, 
-                                "contour": "contour.9"
-                            }, 
-                            {
-                                "index": 0, 
-                                "contour": {
-                                    "nodes": [
-                                        "400 0", 
-                                        "436 0", 
-                                        "436 1300", 
-                                        "436 1400", 
-                                        "400 1400"
-                                    ], 
-                                    "id": "contour.10"
+                                    "id": "contour.12"
                                 }
                             }, 
                             {
                                 "index": 1, 
-                                "contour": "contour.10"
-                            }, 
-                            {
-                                "index": 4, 
                                 "contour": {
                                     "nodes": [
                                         "2592 0", 
@@ -229,11 +208,32 @@
                                 }
                             }, 
                             {
-                                "index": 1, 
-                                "contour": "contour.11"
+                                "index": 0, 
+                                "contour": {
+                                    "nodes": [
+                                        "1539 209", 
+                                        "2682 1276", 
+                                        "2838 1400", 
+                                        "2762 1400", 
+                                        "1653 366"
+                                    ], 
+                                    "id": "contour.10"
+                                }
                             }, 
                             {
                                 "index": 1, 
+                                "contour": "contour.9"
+                            }, 
+                            {
+                                "index": 1, 
+                                "contour": "contour.10"
+                            }, 
+                            {
+                                "index": 4, 
+                                "contour": "contour.11"
+                            }, 
+                            {
+                                "index": 0, 
                                 "contour": "contour.12"
                             }
                         ]
@@ -1535,6 +1535,7 @@
             "colorFlag": 121, 
             "metricsLeft": "=H", 
             "flags": 0, 
+            "active": true, 
             "metricsRight": "=H", 
             "anchors": [
                 {
@@ -1665,7 +1666,6 @@
             "colorFlag": 121, 
             "metricsLeft": "=H", 
             "flags": 0, 
-            "active": true, 
             "metricsRight": "=l()", 
             "anchors": [
                 {

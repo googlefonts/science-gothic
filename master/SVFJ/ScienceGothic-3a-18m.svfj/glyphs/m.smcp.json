@@ -179,11 +179,24 @@
                                         "2291 1060", 
                                         "1399 278"
                                     ], 
-                                    "id": "contour.22"
+                                    "id": "contour.21"
                                 }
                             }, 
                             {
-                                "index": 0, 
+                                "index": 1, 
+                                "contour": {
+                                    "nodes": [
+                                        "2149 0", 
+                                        "2400 0", 
+                                        "2400 1060", 
+                                        "2323 1060", 
+                                        "2149 928"
+                                    ], 
+                                    "id": "contour.20"
+                                }
+                            }, 
+                            {
+                                "index": 1, 
                                 "contour": {
                                     "nodes": [
                                         "392 0", 
@@ -197,6 +210,18 @@
                             }, 
                             {
                                 "index": 0, 
+                                "contour": "contour.19"
+                            }, 
+                            {
+                                "index": 4, 
+                                "contour": "contour.20"
+                            }, 
+                            {
+                                "index": 0, 
+                                "contour": "contour.21"
+                            }, 
+                            {
+                                "index": 1, 
                                 "contour": {
                                     "nodes": [
                                         "429 871", 
@@ -205,33 +230,8 @@
                                         "515 1060", 
                                         "429 1060"
                                     ], 
-                                    "id": "contour.20"
+                                    "id": "contour.22"
                                 }
-                            }, 
-                            {
-                                "index": 1, 
-                                "contour": "contour.19"
-                            }, 
-                            {
-                                "index": 1, 
-                                "contour": "contour.20"
-                            }, 
-                            {
-                                "index": 4, 
-                                "contour": {
-                                    "nodes": [
-                                        "2149 0", 
-                                        "2400 0", 
-                                        "2400 1060", 
-                                        "2323 1060", 
-                                        "2149 928"
-                                    ], 
-                                    "id": "contour.21"
-                                }
-                            }, 
-                            {
-                                "index": 1, 
-                                "contour": "contour.21"
                             }, 
                             {
                                 "index": 0, 
@@ -1670,6 +1670,7 @@
             "color": "#ff34ff", 
             "metricsLeft": "=M", 
             "flags": 0, 
+            "active": true, 
             "metricsRight": "=M", 
             "anchors": [
                 {
@@ -1766,7 +1767,6 @@
             "color": "#00cce5", 
             "metricsLeft": "=M", 
             "flags": 0, 
-            "active": true, 
             "metricsRight": "=M", 
             "anchors": [
                 {

@@ -365,21 +365,8 @@
                         ], 
                         "nodeLinks": [
                             {
-                                "index": 21, 
-                                "constOffset": "39 0", 
-                                "horizontal": true, 
-                                "global": true, 
-                                "contour": "contour.92", 
-                                "guidelineV": {
-                                    "position": 108, 
-                                    "id": "guideline.1", 
-                                    "vertical": true, 
-                                    "objectType": 51
-                                }
-                            }, 
-                            {
-                                "index": 18, 
-                                "constOffset": "57 0", 
+                                "index": 19, 
+                                "constOffset": "5 0", 
                                 "horizontal": true, 
                                 "global": true, 
                                 "contour": "contour.92", 
@@ -391,8 +378,8 @@
                                 }
                             }, 
                             {
-                                "index": 19, 
-                                "constOffset": "5 0", 
+                                "index": 27, 
+                                "constOffset": "133 0", 
                                 "horizontal": true, 
                                 "global": true, 
                                 "contour": "contour.92", 
@@ -404,15 +391,20 @@
                                 "horizontal": true, 
                                 "global": true, 
                                 "contour": "contour.92", 
-                                "guidelineV": "guideline.1"
+                                "guidelineV": {
+                                    "position": 108, 
+                                    "id": "guideline.1", 
+                                    "vertical": true, 
+                                    "objectType": 51
+                                }
                             }, 
                             {
-                                "index": 27, 
-                                "constOffset": "133 0", 
+                                "index": 21, 
+                                "constOffset": "39 0", 
                                 "horizontal": true, 
                                 "global": true, 
                                 "contour": "contour.92", 
-                                "guidelineV": "guideline"
+                                "guidelineV": "guideline.1"
                             }, 
                             {
                                 "index": 3, 
@@ -423,6 +415,14 @@
                                 "guidelineV": "guideline.1"
                             }, 
                             {
+                                "index": 10, 
+                                "constOffset": "-131 0", 
+                                "horizontal": true, 
+                                "global": true, 
+                                "contour": "contour.92", 
+                                "guidelineV": "guideline"
+                            }, 
+                            {
                                 "index": 4, 
                                 "constOffset": "-1 0", 
                                 "horizontal": true, 
@@ -431,8 +431,8 @@
                                 "guidelineV": "guideline.1"
                             }, 
                             {
-                                "index": 10, 
-                                "constOffset": "-131 0", 
+                                "index": 18, 
+                                "constOffset": "57 0", 
                                 "horizontal": true, 
                                 "global": true, 
                                 "contour": "contour.92", 
@@ -672,85 +672,9 @@
                         "nodeLinks": [
                             {
                                 "guidelineH": {
-                                    "position": 1270, 
-                                    "horizontal": true, 
-                                    "id": "guideline.5", 
-                                    "objectType": 51
-                                }, 
-                                "index": 17, 
-                                "global": true, 
-                                "vertical": true, 
-                                "constOffset": "0 130", 
-                                "contour": "contour.93"
-                            }, 
-                            {
-                                "guidelineH": {
-                                    "position": 64, 
-                                    "horizontal": true, 
-                                    "id": "guideline.4", 
-                                    "objectType": 51
-                                }, 
-                                "index": 7, 
-                                "global": true, 
-                                "vertical": true, 
-                                "constOffset": "0 -40", 
-                                "contour": "contour.93"
-                            }, 
-                            {
-                                "guidelineH": {
-                                    "position": 730, 
-                                    "horizontal": true, 
-                                    "id": "guideline.2", 
-                                    "objectType": 51
-                                }, 
-                                "index": 16, 
-                                "global": true, 
-                                "vertical": true, 
-                                "constOffset": "0 -60", 
-                                "contour": "contour.93"
-                            }, 
-                            {
-                                "guidelineH": {
-                                    "position": 16, 
-                                    "horizontal": true, 
-                                    "id": "guideline.3", 
-                                    "objectType": 51
-                                }, 
-                                "index": 0, 
-                                "global": true, 
-                                "vertical": true, 
-                                "constOffset": "0 -28", 
-                                "contour": "contour.93"
-                            }, 
-                            {
-                                "guidelineH": "guideline.2", 
-                                "index": 13, 
-                                "global": true, 
-                                "vertical": true, 
-                                "constOffset": "0 22", 
-                                "contour": "contour.93"
-                            }, 
-                            {
-                                "guidelineH": "guideline.3", 
-                                "index": 3, 
-                                "global": true, 
-                                "vertical": true, 
-                                "constOffset": "0 30", 
-                                "contour": "contour.93"
-                            }, 
-                            {
-                                "guidelineH": "guideline.4", 
-                                "index": 4, 
-                                "global": true, 
-                                "vertical": true, 
-                                "constOffset": "0 27", 
-                                "contour": "contour.93"
-                            }, 
-                            {
-                                "guidelineH": {
                                     "position": 762, 
                                     "horizontal": true, 
-                                    "id": "guideline.6", 
+                                    "id": "guideline.3", 
                                     "objectType": 51
                                 }, 
                                 "index": 24, 
@@ -760,7 +684,33 @@
                                 "contour": "contour.93"
                             }, 
                             {
-                                "guidelineH": "guideline.5", 
+                                "guidelineH": {
+                                    "position": 16, 
+                                    "horizontal": true, 
+                                    "id": "guideline.4", 
+                                    "objectType": 51
+                                }, 
+                                "index": 0, 
+                                "global": true, 
+                                "vertical": true, 
+                                "constOffset": "0 -28", 
+                                "contour": "contour.93"
+                            }, 
+                            {
+                                "guidelineH": {
+                                    "position": 1270, 
+                                    "horizontal": true, 
+                                    "id": "guideline.2", 
+                                    "objectType": 51
+                                }, 
+                                "index": 17, 
+                                "global": true, 
+                                "vertical": true, 
+                                "constOffset": "0 130", 
+                                "contour": "contour.93"
+                            }, 
+                            {
+                                "guidelineH": "guideline.2", 
                                 "index": 20, 
                                 "global": true, 
                                 "vertical": true, 
@@ -768,11 +718,61 @@
                                 "contour": "contour.93"
                             }, 
                             {
-                                "guidelineH": "guideline.6", 
+                                "guidelineH": "guideline.3", 
                                 "index": 21, 
                                 "global": true, 
                                 "vertical": true, 
                                 "constOffset": "0 -44", 
+                                "contour": "contour.93"
+                            }, 
+                            {
+                                "guidelineH": {
+                                    "position": 64, 
+                                    "horizontal": true, 
+                                    "id": "guideline.5", 
+                                    "objectType": 51
+                                }, 
+                                "index": 4, 
+                                "global": true, 
+                                "vertical": true, 
+                                "constOffset": "0 27", 
+                                "contour": "contour.93"
+                            }, 
+                            {
+                                "guidelineH": {
+                                    "position": 730, 
+                                    "horizontal": true, 
+                                    "id": "guideline.6", 
+                                    "objectType": 51
+                                }, 
+                                "index": 13, 
+                                "global": true, 
+                                "vertical": true, 
+                                "constOffset": "0 22", 
+                                "contour": "contour.93"
+                            }, 
+                            {
+                                "guidelineH": "guideline.4", 
+                                "index": 3, 
+                                "global": true, 
+                                "vertical": true, 
+                                "constOffset": "0 30", 
+                                "contour": "contour.93"
+                            }, 
+                            {
+                                "guidelineH": "guideline.5", 
+                                "index": 7, 
+                                "global": true, 
+                                "vertical": true, 
+                                "constOffset": "0 -40", 
+                                "contour": "contour.93"
+                            }, 
+                            {
+                                "guidelineH": "guideline.6", 
+                                "index": 16, 
+                                "global": true, 
+                                "vertical": true, 
+                                "constOffset": "0 -60", 
                                 "contour": "contour.93"
                             }
                         ]
@@ -787,19 +787,19 @@
             "metricsRight": "=l()*.7", 
             "guidelines": [
                 {
+                    "href": "guideline.3"
+                }, 
+                {
+                    "href": "guideline.2"
+                }, 
+                {
                     "href": "guideline.6"
                 }, 
                 {
                     "href": "guideline.5"
                 }, 
                 {
-                    "href": "guideline.2"
-                }, 
-                {
                     "href": "guideline.4"
-                }, 
-                {
-                    "href": "guideline.3"
                 }
             ]
         }, 
@@ -1163,19 +1163,6 @@
                         ], 
                         "nodeLinks": [
                             {
-                                "index": 27, 
-                                "constOffset": "311 0", 
-                                "horizontal": true, 
-                                "global": true, 
-                                "contour": "contour.94", 
-                                "guidelineV": {
-                                    "position": 861, 
-                                    "id": "guideline.7", 
-                                    "vertical": true, 
-                                    "objectType": 51
-                                }
-                            }, 
-                            {
                                 "index": 16, 
                                 "constOffset": "-48 0", 
                                 "horizontal": true, 
@@ -1189,32 +1176,21 @@
                                 }
                             }, 
                             {
-                                "index": 19, 
-                                "constOffset": "119 0", 
-                                "horizontal": true, 
-                                "global": true, 
-                                "contour": "contour.94", 
-                                "guidelineV": "guideline.7"
-                            }, 
-                            {
-                                "index": 10, 
-                                "constOffset": "-265 0", 
-                                "horizontal": true, 
-                                "global": true, 
-                                "contour": "contour.94", 
-                                "guidelineV": "guideline.7"
-                            }, 
-                            {
-                                "index": 21, 
-                                "constOffset": "344 0", 
-                                "horizontal": true, 
-                                "global": true, 
-                                "contour": "contour.94", 
-                                "guidelineV": "guideline.8"
-                            }, 
-                            {
                                 "index": 18, 
                                 "constOffset": "203 0", 
+                                "horizontal": true, 
+                                "global": true, 
+                                "contour": "contour.94", 
+                                "guidelineV": {
+                                    "position": 861, 
+                                    "id": "guideline.7", 
+                                    "vertical": true, 
+                                    "objectType": 51
+                                }
+                            }, 
+                            {
+                                "index": 19, 
+                                "constOffset": "119 0", 
                                 "horizontal": true, 
                                 "global": true, 
                                 "contour": "contour.94", 
@@ -1229,12 +1205,36 @@
                                 "guidelineV": "guideline.8"
                             }, 
                             {
+                                "index": 21, 
+                                "constOffset": "344 0", 
+                                "horizontal": true, 
+                                "global": true, 
+                                "contour": "contour.94", 
+                                "guidelineV": "guideline.8"
+                            }, 
+                            {
                                 "index": 4, 
                                 "constOffset": "-52 0", 
                                 "horizontal": true, 
                                 "global": true, 
                                 "contour": "contour.94", 
                                 "guidelineV": "guideline.8"
+                            }, 
+                            {
+                                "index": 10, 
+                                "constOffset": "-265 0", 
+                                "horizontal": true, 
+                                "global": true, 
+                                "contour": "contour.94", 
+                                "guidelineV": "guideline.7"
+                            }, 
+                            {
+                                "index": 27, 
+                                "constOffset": "311 0", 
+                                "horizontal": true, 
+                                "global": true, 
+                                "contour": "contour.94", 
+                                "guidelineV": "guideline.7"
                             }
                         ]
                     }
@@ -1303,20 +1303,6 @@
                         ], 
                         "nodeLinks": [
                             {
-                                "index": 16, 
-                                "constOffset": "7 0", 
-                                "horizontal": true, 
-                                "global": true, 
-                                "contour": "contour.95", 
-                                "guidelineV": {
-                                    "auto": true, 
-                                    "objectType": 51, 
-                                    "id": "guideline.9", 
-                                    "vertical": true, 
-                                    "position": 51
-                                }
-                            }, 
-                            {
                                 "index": 10, 
                                 "constOffset": "-129 0", 
                                 "horizontal": true, 
@@ -1330,16 +1316,30 @@
                                 }
                             }, 
                             {
-                                "index": 3, 
-                                "constOffset": "69 0", 
+                                "index": 4, 
+                                "constOffset": "7 0", 
+                                "horizontal": true, 
+                                "global": true, 
+                                "contour": "contour.95", 
+                                "guidelineV": {
+                                    "auto": true, 
+                                    "objectType": 51, 
+                                    "id": "guideline.9", 
+                                    "vertical": true, 
+                                    "position": 51
+                                }
+                            }, 
+                            {
+                                "index": 21, 
+                                "constOffset": "236 0", 
                                 "horizontal": true, 
                                 "global": true, 
                                 "contour": "contour.95", 
                                 "guidelineV": "guideline.9"
                             }, 
                             {
-                                "index": 4, 
-                                "constOffset": "7 0", 
+                                "index": 3, 
+                                "constOffset": "69 0", 
                                 "horizontal": true, 
                                 "global": true, 
                                 "contour": "contour.95", 
@@ -1354,24 +1354,24 @@
                                 "guidelineV": "guideline.10"
                             }, 
                             {
-                                "index": 21, 
-                                "constOffset": "236 0", 
+                                "index": 16, 
+                                "constOffset": "7 0", 
                                 "horizontal": true, 
                                 "global": true, 
                                 "contour": "contour.95", 
                                 "guidelineV": "guideline.9"
                             }, 
                             {
-                                "index": 27, 
-                                "constOffset": "135 0", 
+                                "index": 19, 
+                                "constOffset": "7 0", 
                                 "horizontal": true, 
                                 "global": true, 
                                 "contour": "contour.95", 
                                 "guidelineV": "guideline.10"
                             }, 
                             {
-                                "index": 19, 
-                                "constOffset": "7 0", 
+                                "index": 27, 
+                                "constOffset": "135 0", 
                                 "horizontal": true, 
                                 "global": true, 
                                 "contour": "contour.95", 
@@ -1554,6 +1554,7 @@
             "color": "#ff34ff", 
             "metricsLeft": "=zero*.9", 
             "flags": 0, 
+            "active": true, 
             "metricsRight": "=l()*.5", 
             "guidelines": [
                 {
@@ -1631,7 +1632,6 @@
             "color": "#00cce5", 
             "metricsLeft": "=zero+10", 
             "flags": 0, 
-            "active": true, 
             "metricsRight": "=l()*.55", 
             "guidelines": [
                 {

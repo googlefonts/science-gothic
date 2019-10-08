@@ -443,12 +443,13 @@
                     }
                 }
             ], 
-            "flags": 0, 
             "name": "Blk", 
             "advanceWidth": 647, 
             "color": "#ff34ff", 
-            "metricsRight": "=(P+T)/2", 
-            "metricsLeft": "=r()"
+            "metricsLeft": "=r()", 
+            "flags": 0, 
+            "active": true, 
+            "metricsRight": "=(P+T)/2"
         }, 
         {
             "elements": [
@@ -470,13 +471,12 @@
                     }
                 }
             ], 
+            "flags": 0, 
             "name": "Medium", 
             "advanceWidth": 496, 
             "color": "#00cce5", 
-            "metricsLeft": "=r()", 
-            "flags": 0, 
-            "active": true, 
-            "metricsRight": "=(P+T)/2"
+            "metricsRight": "=(P+T)/2", 
+            "metricsLeft": "=r()"
         }, 
         {
             "elements": [
@@ -508,7 +508,7 @@
             "metricsLeft": "=r()"
         }
     ], 
-    "lastModified": "2019-10-08 01:14:13", 
+    "lastModified": "2019-10-08 14:34:50", 
     "name": "uni2032", 
     "unicode": "2032"
 }

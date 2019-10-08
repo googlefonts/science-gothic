@@ -73,24 +73,11 @@
                                         "2762 1400", 
                                         "1652 366"
                                     ], 
-                                    "id": "contour.127"
-                                }
-                            }, 
-                            {
-                                "index": 4, 
-                                "contour": {
-                                    "nodes": [
-                                        "2592 0", 
-                                        "2856 0", 
-                                        "2856 1400", 
-                                        "2772 1400", 
-                                        "2592 1226"
-                                    ], 
                                     "id": "contour.126"
                                 }
                             }, 
                             {
-                                "index": 1, 
+                                "index": 0, 
                                 "contour": "contour.126"
                             }, 
                             {
@@ -103,11 +90,32 @@
                                         "440 1400", 
                                         "400 1400"
                                     ], 
-                                    "id": "contour.129"
+                                    "id": "contour.127"
                                 }
                             }, 
                             {
                                 "index": 1, 
+                                "contour": "contour.127"
+                            }, 
+                            {
+                                "index": 1, 
+                                "contour": {
+                                    "nodes": [
+                                        "2592 0", 
+                                        "2856 0", 
+                                        "2856 1400", 
+                                        "2772 1400", 
+                                        "2592 1226"
+                                    ], 
+                                    "id": "contour.128"
+                                }
+                            }, 
+                            {
+                                "index": 4, 
+                                "contour": "contour.128"
+                            }, 
+                            {
+                                "index": 0, 
                                 "contour": {
                                     "nodes": [
                                         "432 1140", 
@@ -116,16 +124,8 @@
                                         "524 1400", 
                                         "432 1400"
                                     ], 
-                                    "id": "contour.128"
+                                    "id": "contour.129"
                                 }
-                            }, 
-                            {
-                                "index": 0, 
-                                "contour": "contour.127"
-                            }, 
-                            {
-                                "index": 0, 
-                                "contour": "contour.128"
                             }, 
                             {
                                 "index": 1, 
@@ -688,6 +688,7 @@
             "color": "#ff34ff", 
             "metricsLeft": "=n", 
             "flags": 0, 
+            "active": true, 
             "metricsRight": "=lsb(\"n\")", 
             "guidelines": [
                 {
@@ -731,7 +732,6 @@
             "color": "#00cce5", 
             "metricsLeft": "=n", 
             "flags": 0, 
-            "active": true, 
             "metricsRight": "=lsb(\"n\")"
         }, 
         {
