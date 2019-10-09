@@ -38,6 +38,24 @@ quoteright=comma@,ascender
 quoteleft=comma@~,~ascender
 quotesinglbase=comma
 # quotedblright = quoteright & quoteright,quoteright-20, # space between quotes isn't right yet
+plusminus = minus + plus@center,top
+
+percent= zero.numr & fraction & zero.dnom
+perthousand= zero.numr & fraction & zero.dnom & zero.dnom
+onehalf=one.numr & fraction & two.dnom
+onequarter=one.numr & fraction & four.dnom
+threequarters=three.numr & fraction & four.dnom
+
+zero.numr.1=zero.dnom.1@,586
+one.numr.1=one.dnom.1@,586
+two.numr.1=two.dnom.1@,586
+three.numr.1=three.dnom.1@,586
+four.numr.1=four.dnom.1@,586
+five.numr.1=five.dnom.1@,586
+six.numr.1=six.dnom.1@,586
+seven.numr.1=seven.dnom.1@,586
+eight.numr.1=eight.dnom.1@,586
+nine.numr.1=nine.dnom.1@,586
 
 
 # Diacritics
@@ -196,6 +214,15 @@ Zdotaccent=Z+uni0307.case@top
 zdotaccent=z+uni0307@top
 Zcaron=Z+uni030C.case@top
 zcaron=z+uni030C@top
+
+Aogonek = A + uni0328.case@ogonek
+aogonek = a + uni0328@ogonek
+Uogonek = U + uni0328.case@ogonek
+uogonek = u + uni0328@ogonek
+uni01EA = O + uni0328.case@ogonek
+uni01EB= o + uni0328@ogonek
+Eogonek = E +uni0328.case@ogonek
+eogonek = e + uni0328@ogonek
 
 # Latin ligatures
 uni01C4=D&Zcaron
