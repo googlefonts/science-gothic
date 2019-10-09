@@ -1,20 +1,9 @@
 {
+    "colorFlag": 210, 
+    "lastModified": "2019-10-09 01:54:43", 
     "layers": [
         {
-            "autoRecipe": "=w.smcp", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "w.smcp"
-                    }, 
-                    "locked": true
-                }
-            ], 
-            "name": "Blk Exp Ctr", 
             "advanceWidth": 2840, 
-            "color": "#b9baa2", 
-            "colorFlag": 210, 
-            "flags": 16, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -28,23 +17,22 @@
                     "name": "top", 
                     "point": "1495 1550"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=w.smcp", 
+            "color": "#b9baa2", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "w.smcp"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Exp Ctr", 
-            "advanceWidth": 2572, 
-            "color": "#809693", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Blk Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 2572, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -58,23 +46,22 @@
                     "name": "top", 
                     "point": "1354 1550"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=w.smcp", 
+            "color": "#809693", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "w.smcp"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Lt Exp Ctr", 
-            "advanceWidth": 2392, 
-            "color": "#c8675e", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 2392, 
             "anchors": [
                 {
                     "name": "bottom", 
@@ -84,23 +71,22 @@
                     "name": "top", 
                     "point": "1492 1550"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=w.smcp", 
+            "color": "#c8675e", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "w.smcp"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Blk Cnd Ctr", 
-            "advanceWidth": 1598, 
-            "color": "#997d87", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Lt Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 1598, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -114,23 +100,22 @@
                     "name": "top", 
                     "point": "841 1550"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=w.smcp", 
+            "color": "#997d87", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "w.smcp"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Cnd Ctr", 
-            "advanceWidth": 1022, 
-            "color": "#8fb0ff", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Blk Cnd Ctr"
+        }, 
+        {
+            "advanceWidth": 1022, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -144,39 +129,38 @@
                     "name": "top", 
                     "point": "511 1550"
                 }
-            ]
-        }, 
-        {
-            "autoRecipe": "=w.smcp", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "w.smcp"
-                    }, 
-                    "locked": true
-                }
             ], 
-            "flags": 16, 
-            "name": "Lt Cnd Ctr", 
-            "advanceWidth": 706, 
-            "color": "#4e8e82", 
-            "colorFlag": 210
-        }, 
-        {
             "autoRecipe": "=w.smcp", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "w.smcp"
-                    }, 
-                    "locked": true
-                }
-            ], 
-            "name": "Blk Ctr", 
-            "advanceWidth": 2176, 
-            "color": "#b69762", 
+            "color": "#8fb0ff", 
             "colorFlag": 210, 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "w.smcp"
+                    }
+                }
+            ], 
             "flags": 16, 
+            "name": "Cnd Ctr"
+        }, 
+        {
+            "advanceWidth": 706, 
+            "autoRecipe": "=w.smcp", 
+            "color": "#4e8e82", 
+            "colorFlag": 210, 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "w.smcp"
+                    }
+                }
+            ], 
+            "flags": 16, 
+            "name": "Lt Cnd Ctr"
+        }, 
+        {
+            "active": true, 
+            "advanceWidth": 2176, 
             "anchors": [
                 {
                     "exprX": "width/1.9", 
@@ -190,23 +174,22 @@
                     "name": "top", 
                     "point": "1145 1550"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=w.smcp", 
+            "color": "#b69762", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "w.smcp"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Ctr", 
-            "advanceWidth": 1638, 
-            "color": "#26d283", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Blk Ctr"
+        }, 
+        {
+            "advanceWidth": 1638, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -219,23 +202,22 @@
                     "name": "top", 
                     "point": "1092 1550"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=w.smcp", 
+            "color": "#26d283", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "w.smcp"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Lt Ctr", 
-            "advanceWidth": 1417, 
-            "color": "#9061ff", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Ctr"
+        }, 
+        {
+            "advanceWidth": 1417, 
             "anchors": [
                 {
                     "name": "bottom", 
@@ -245,23 +227,22 @@
                     "name": "top", 
                     "point": "883 1550"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=w.smcp", 
+            "color": "#9061ff", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "w.smcp"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Blk Exp", 
-            "advanceWidth": 2770, 
-            "color": "#b07733", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Lt Ctr"
+        }, 
+        {
+            "advanceWidth": 2770, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -275,23 +256,22 @@
                     "name": "top", 
                     "point": "1385 1550"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=w.smcp", 
+            "color": "#b07733", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "w.smcp"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Exp", 
-            "advanceWidth": 2590, 
-            "color": "#d2afb9", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Blk Exp"
+        }, 
+        {
+            "advanceWidth": 2590, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -305,23 +285,22 @@
                     "name": "top", 
                     "point": "1295 1550"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=w.smcp", 
+            "color": "#d2afb9", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "w.smcp"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Lt Exp", 
-            "advanceWidth": 2392, 
-            "color": "#de4d8a", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Exp"
+        }, 
+        {
+            "advanceWidth": 2392, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -335,39 +314,37 @@
                     "name": "top", 
                     "point": "1196 1550"
                 }
-            ]
-        }, 
-        {
-            "autoRecipe": "=w.smcp", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "w.smcp"
-                    }, 
-                    "locked": true
-                }
             ], 
-            "flags": 16, 
-            "name": "Blk Cnd", 
-            "advanceWidth": 1652, 
-            "color": "#3989c2", 
-            "colorFlag": 210
-        }, 
-        {
             "autoRecipe": "=w.smcp", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "w.smcp"
-                    }, 
-                    "locked": true
-                }
-            ], 
-            "name": "Cnd", 
-            "advanceWidth": 976, 
-            "color": "#1f964d", 
+            "color": "#de4d8a", 
             "colorFlag": 210, 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "w.smcp"
+                    }
+                }
+            ], 
             "flags": 16, 
+            "name": "Lt Exp"
+        }, 
+        {
+            "advanceWidth": 1652, 
+            "autoRecipe": "=w.smcp", 
+            "color": "#3989c2", 
+            "colorFlag": 210, 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "w.smcp"
+                    }
+                }
+            ], 
+            "flags": 16, 
+            "name": "Blk Cnd"
+        }, 
+        {
+            "advanceWidth": 976, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -381,40 +358,37 @@
                     "name": "top", 
                     "point": "488 1550"
                 }
-            ]
-        }, 
-        {
-            "autoRecipe": "=w.smcp", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "w.smcp"
-                    }, 
-                    "locked": true
-                }
             ], 
-            "flags": 16, 
-            "name": "Lt Cnd", 
-            "advanceWidth": 706, 
-            "color": "#fe4a46", 
-            "colorFlag": 210
-        }, 
-        {
             "autoRecipe": "=w.smcp", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "w.smcp"
-                    }, 
-                    "locked": true
-                }
-            ], 
-            "name": "Blk", 
-            "advanceWidth": 2073, 
-            "color": "#ff34ff", 
+            "color": "#1f964d", 
             "colorFlag": 210, 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "w.smcp"
+                    }
+                }
+            ], 
             "flags": 16, 
-            "active": true, 
+            "name": "Cnd"
+        }, 
+        {
+            "advanceWidth": 706, 
+            "autoRecipe": "=w.smcp", 
+            "color": "#fe4a46", 
+            "colorFlag": 210, 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "w.smcp"
+                    }
+                }
+            ], 
+            "flags": 16, 
+            "name": "Lt Cnd"
+        }, 
+        {
+            "advanceWidth": 2073, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -428,23 +402,22 @@
                     "name": "top", 
                     "point": "1037 1550"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=w.smcp", 
+            "color": "#ff34ff", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "w.smcp"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Medium", 
-            "advanceWidth": 1615, 
-            "color": "#00cce5", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Blk"
+        }, 
+        {
+            "advanceWidth": 1615, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -458,23 +431,22 @@
                     "name": "top", 
                     "point": "808 1550"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=w.smcp", 
+            "color": "#00cce5", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "w.smcp"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Lt", 
-            "advanceWidth": 1417, 
-            "color": "#bac000", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Medium"
+        }, 
+        {
+            "advanceWidth": 1417, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -488,11 +460,21 @@
                     "name": "top", 
                     "point": "709 1550"
                 }
-            ]
+            ], 
+            "autoRecipe": "=w.smcp", 
+            "color": "#bac000", 
+            "colorFlag": 210, 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "w.smcp"
+                    }
+                }
+            ], 
+            "flags": 16, 
+            "name": "Lt"
         }
     ], 
-    "lastModified": "2019-10-08 15:04:09", 
-    "colorFlag": 210, 
     "name": "uni051D.smcp", 
     "tags": [
         "cyr", 

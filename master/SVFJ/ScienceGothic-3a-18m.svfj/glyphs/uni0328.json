@@ -1,6 +1,8 @@
 {
+    "lastModified": "2019-10-09 01:40:09", 
     "layers": [
         {
+            "advanceWidth": 0, 
             "color": "#000096", 
             "elements": [
                 {
@@ -24,10 +26,21 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Blk Exp Ctr", 
-            "advanceWidth": 0
+            "name": "mask.Blk Exp Ctr"
         }, 
         {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_bottom", 
+                    "point": "0 -150"
+                }, 
+                {
+                    "name": "_ogonek", 
+                    "point": "147 0"
+                }
+            ], 
+            "color": "#b9baa2", 
             "elements": [
                 {
                     "elementData": {
@@ -50,49 +63,12 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Blk Exp Ctr", 
-            "advanceWidth": 0, 
-            "color": "#b9baa2", 
             "metricsWidth": "=0", 
-            "anchors": [
-                {
-                    "name": "_bottom", 
-                    "point": "0 -150"
-                }, 
-                {
-                    "name": "_ogonek", 
-                    "point": "147 0"
-                }
-            ]
+            "name": "Blk Exp Ctr"
         }, 
         {
+            "advanceWidth": 0, 
             "color": "#000096", 
-            "elements": [
-                {
-                    "elementData": {
-                        "contours": [
-                            {
-                                "nodes": [
-                                    "142 0", 
-                                    "1 4", 
-                                    "-137 -43  -220 -128  -220 -237 s", 
-                                    "-220 -335  -137 -403  5 -403 s", 
-                                    "117 -403  192 -343  248 -251", 
-                                    "162 -220", 
-                                    "138 -243  101 -259  48 -259 s", 
-                                    "-3 -259  -38 -228  -38 -176 s", 
-                                    "-38 -85  71 0 c"
-                                ]
-                            }
-                        ]
-                    }
-                }
-            ], 
-            "flags": 13, 
-            "name": "mask.Exp Ctr", 
-            "advanceWidth": 0
-        }, 
-        {
             "elements": [
                 {
                     "elementData": {
@@ -114,11 +90,11 @@
                     }
                 }
             ], 
-            "flags": 0, 
-            "name": "Exp Ctr", 
+            "flags": 13, 
+            "name": "mask.Exp Ctr"
+        }, 
+        {
             "advanceWidth": 0, 
-            "color": "#809693", 
-            "metricsWidth": "=0", 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -128,9 +104,46 @@
                     "name": "_ogonek", 
                     "point": "130 0"
                 }
-            ]
+            ], 
+            "color": "#809693", 
+            "elements": [
+                {
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "130 0", 
+                                    "72 3", 
+                                    "-53 -34  -237 -121  -237 -268 s", 
+                                    "-237 -356  -169 -412  -83 -412 s", 
+                                    "16 -412  133 -334  217 -232", 
+                                    "189 -222", 
+                                    "132 -276  81 -298  52 -298 s", 
+                                    "2 -298  -70 -204  -70 -137 s", 
+                                    "-70 -97  21 -38 c"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ], 
+            "flags": 0, 
+            "metricsWidth": "=0", 
+            "name": "Exp Ctr"
         }, 
         {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_bottom", 
+                    "point": "0 -150"
+                }, 
+                {
+                    "name": "_ogonek", 
+                    "point": "137 0"
+                }
+            ], 
+            "color": "#c8675e", 
             "elements": [
                 {
                     "elementData": {
@@ -153,10 +166,11 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Lt Exp Ctr", 
-            "advanceWidth": 0, 
-            "color": "#c8675e", 
             "metricsWidth": "=0", 
+            "name": "Lt Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -164,11 +178,10 @@
                 }, 
                 {
                     "name": "_ogonek", 
-                    "point": "137 0"
+                    "point": "172 0"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#997d87", 
             "elements": [
                 {
                     "elementData": {
@@ -191,48 +204,11 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Blk Cnd Ctr", 
-            "advanceWidth": 0, 
-            "color": "#997d87", 
             "metricsWidth": "=0", 
-            "anchors": [
-                {
-                    "name": "_bottom", 
-                    "point": "0 -150"
-                }, 
-                {
-                    "name": "_ogonek", 
-                    "point": "172 0"
-                }
-            ]
+            "name": "Blk Cnd Ctr"
         }, 
         {
-            "elements": [
-                {
-                    "elementData": {
-                        "contours": [
-                            {
-                                "nodes": [
-                                    "105 0", 
-                                    "69 3", 
-                                    "-56 -54  -167 -118  -167 -249 s", 
-                                    "-167 -331  -97 -403  -28 -403 s", 
-                                    "83 -403  127 -353  177 -248", 
-                                    "147 -238", 
-                                    "132 -266  126 -273  103 -273 s", 
-                                    "53 -273  -19 -183  -19 -116 s", 
-                                    "-19 -88  -8 -71 c"
-                                ]
-                            }
-                        ]
-                    }
-                }
-            ], 
-            "flags": 0, 
-            "name": "Cnd Ctr", 
             "advanceWidth": 0, 
-            "color": "#8fb0ff", 
-            "metricsWidth": "=0", 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -242,9 +218,46 @@
                     "name": "_ogonek", 
                     "point": "105 0"
                 }
-            ]
+            ], 
+            "color": "#8fb0ff", 
+            "elements": [
+                {
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "105 0", 
+                                    "69 3", 
+                                    "-56 -54  -169 -118  -169 -249 s", 
+                                    "-169 -331  -97 -400  -4 -400 s g2", 
+                                    "83 -400  133 -340  181 -231", 
+                                    "151 -221", 
+                                    "136 -249  125 -253  112 -253 s", 
+                                    "57 -253  -25 -190  -25 -134 s", 
+                                    "-25 -95  -8 -71 c"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ], 
+            "flags": 0, 
+            "metricsWidth": "=0", 
+            "name": "Cnd Ctr"
         }, 
         {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_bottom", 
+                    "point": "0 -150"
+                }, 
+                {
+                    "name": "_ogonek", 
+                    "point": "77 0"
+                }
+            ], 
+            "color": "#4e8e82", 
             "elements": [
                 {
                     "elementData": {
@@ -267,22 +280,12 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Lt Cnd Ctr", 
-            "advanceWidth": 0, 
-            "color": "#4e8e82", 
             "metricsWidth": "=0", 
-            "anchors": [
-                {
-                    "name": "_bottom", 
-                    "point": "0 -150"
-                }, 
-                {
-                    "name": "_ogonek", 
-                    "point": "77 0"
-                }
-            ]
+            "name": "Lt Cnd Ctr"
         }, 
         {
+            "advanceWidth": 0, 
+            "color": "#000096", 
             "elements": [
                 {
                     "elementData": {
@@ -304,11 +307,12 @@
                     }
                 }
             ], 
-            "flags": 0, 
-            "name": "Blk Ctr", 
+            "flags": 13, 
+            "name": "mask.Blk Ctr"
+        }, 
+        {
+            "active": true, 
             "advanceWidth": 0, 
-            "color": "#b69762", 
-            "metricsWidth": "=0", 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -318,10 +322,8 @@
                     "name": "_ogonek", 
                     "point": "142 0"
                 }
-            ]
-        }, 
-        {
-            "color": "#000096", 
+            ], 
+            "color": "#b69762", 
             "elements": [
                 {
                     "elementData": {
@@ -329,25 +331,27 @@
                             {
                                 "nodes": [
                                     "142 0", 
-                                    "13 4", 
-                                    "-112 -43  -187 -128  -187 -237 s", 
-                                    "-187 -335  -112 -403  17 -403 s", 
-                                    "112 -403  177 -350  227 -268", 
-                                    "159 -220", 
-                                    "139 -243  107 -259  63 -259 s", 
-                                    "20 -259  -10 -228  -10 -176 s", 
-                                    "-10 -85  82 0 c"
+                                    "55 2", 
+                                    "-203 -80  -269 -144  -269 -252 s", 
+                                    "-269 -349  -204 -437  -79 -437 s", 
+                                    "47 -437  118 -367  211 -207", 
+                                    "186 -198", 
+                                    "169 -217  133 -252  96 -252 s", 
+                                    "29 -252  -36 -179  -36 -121 s", 
+                                    "-36 -69  79 0 c"
                                 ]
                             }
                         ]
                     }
                 }
             ], 
-            "flags": 13, 
-            "name": "mask.Ctr", 
-            "advanceWidth": 0
+            "flags": 0, 
+            "metricsWidth": "=0", 
+            "name": "Blk Ctr"
         }, 
         {
+            "advanceWidth": 0, 
+            "color": "#000096", 
             "elements": [
                 {
                     "elementData": {
@@ -369,11 +373,11 @@
                     }
                 }
             ], 
-            "flags": 0, 
-            "name": "Ctr", 
+            "flags": 13, 
+            "name": "mask.Ctr"
+        }, 
+        {
             "advanceWidth": 0, 
-            "color": "#26d283", 
-            "metricsWidth": "=0", 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -383,9 +387,46 @@
                     "name": "_ogonek", 
                     "point": "115 0"
                 }
-            ]
+            ], 
+            "color": "#26d283", 
+            "elements": [
+                {
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "115 0", 
+                                    "79 3", 
+                                    "-46 -44  -183 -139  -183 -264 s g2", 
+                                    "-183 -350  -119 -404  -33 -404 s g2", 
+                                    "66 -404  153 -333  188 -240", 
+                                    "158 -230", 
+                                    "135 -273  121 -284  96 -284 s", 
+                                    "42 -284  -38 -209  -38 -152 s", 
+                                    "-38 -110  -16 -78 c"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ], 
+            "flags": 0, 
+            "metricsWidth": "=0", 
+            "name": "Ctr"
         }, 
         {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_bottom", 
+                    "point": "0 -150"
+                }, 
+                {
+                    "name": "_ogonek", 
+                    "point": "92 0"
+                }
+            ], 
+            "color": "#9061ff", 
             "elements": [
                 {
                     "elementData": {
@@ -408,10 +449,11 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Lt Ctr", 
-            "advanceWidth": 0, 
-            "color": "#9061ff", 
             "metricsWidth": "=0", 
+            "name": "Lt Ctr"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -419,13 +461,13 @@
                 }, 
                 {
                     "name": "_ogonek", 
-                    "point": "92 0"
+                    "point": "192 0"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#b07733", 
             "elements": [
                 {
+                    "active": true, 
                     "elementData": {
                         "contours": [
                             {
@@ -446,10 +488,11 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Blk Exp", 
-            "advanceWidth": 0, 
-            "color": "#b07733", 
             "metricsWidth": "=0", 
+            "name": "Blk Exp"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -457,11 +500,10 @@
                 }, 
                 {
                     "name": "_ogonek", 
-                    "point": "192 0"
+                    "point": "142 0"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#d2afb9", 
             "elements": [
                 {
                     "elementData": {
@@ -484,10 +526,11 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Exp", 
-            "advanceWidth": 0, 
-            "color": "#d2afb9", 
             "metricsWidth": "=0", 
+            "name": "Exp"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -495,11 +538,10 @@
                 }, 
                 {
                     "name": "_ogonek", 
-                    "point": "142 0"
+                    "point": "137 0"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#de4d8a", 
             "elements": [
                 {
                     "elementData": {
@@ -522,10 +564,11 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Lt Exp", 
-            "advanceWidth": 0, 
-            "color": "#de4d8a", 
             "metricsWidth": "=0", 
+            "name": "Lt Exp"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -533,11 +576,10 @@
                 }, 
                 {
                     "name": "_ogonek", 
-                    "point": "137 0"
+                    "point": "157 0"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#3989c2", 
             "elements": [
                 {
                     "elementData": {
@@ -560,10 +602,11 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Blk Cnd", 
-            "advanceWidth": 0, 
-            "color": "#3989c2", 
             "metricsWidth": "=0", 
+            "name": "Blk Cnd"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -571,11 +614,10 @@
                 }, 
                 {
                     "name": "_ogonek", 
-                    "point": "157 0"
+                    "point": "129 0"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#1f964d", 
             "elements": [
                 {
                     "elementData": {
@@ -598,10 +640,11 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Cnd", 
-            "advanceWidth": 0, 
-            "color": "#1f964d", 
             "metricsWidth": "=0", 
+            "name": "Cnd"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -609,11 +652,10 @@
                 }, 
                 {
                     "name": "_ogonek", 
-                    "point": "129 0"
+                    "point": "77 0"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#fe4a46", 
             "elements": [
                 {
                     "elementData": {
@@ -636,10 +678,11 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Lt Cnd", 
-            "advanceWidth": 0, 
-            "color": "#fe4a46", 
             "metricsWidth": "=0", 
+            "name": "Lt Cnd"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -647,11 +690,10 @@
                 }, 
                 {
                     "name": "_ogonek", 
-                    "point": "77 0"
+                    "point": "142 0"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#ff34ff", 
             "elements": [
                 {
                     "elementData": {
@@ -673,12 +715,12 @@
                     }
                 }
             ], 
-            "name": "Blk", 
-            "advanceWidth": 0, 
-            "color": "#ff34ff", 
             "flags": 0, 
-            "active": true, 
             "metricsWidth": "=0", 
+            "name": "Blk"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -688,9 +730,8 @@
                     "name": "_ogonek", 
                     "point": "142 0"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#00cce5", 
             "elements": [
                 {
                     "elementData": {
@@ -713,10 +754,11 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Medium", 
-            "advanceWidth": 0, 
-            "color": "#00cce5", 
             "metricsWidth": "=0", 
+            "name": "Medium"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -724,11 +766,10 @@
                 }, 
                 {
                     "name": "_ogonek", 
-                    "point": "142 0"
+                    "point": "92 0"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#bac000", 
             "elements": [
                 {
                     "elementData": {
@@ -751,23 +792,10 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Lt", 
-            "advanceWidth": 0, 
-            "color": "#bac000", 
             "metricsWidth": "=0", 
-            "anchors": [
-                {
-                    "name": "_bottom", 
-                    "point": "0 -150"
-                }, 
-                {
-                    "name": "_ogonek", 
-                    "point": "92 0"
-                }
-            ]
+            "name": "Lt"
         }
     ], 
-    "lastModified": "2019-10-08 14:34:50", 
     "name": "uni0328", 
     "unicode": "0328"
 }

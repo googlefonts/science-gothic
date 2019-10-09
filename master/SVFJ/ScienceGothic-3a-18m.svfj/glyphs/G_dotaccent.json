@@ -1,31 +1,8 @@
 {
+    "lastModified": "2019-10-09 01:54:43", 
     "layers": [
         {
-            "autoRecipe": "=G+uni0307.cap@top", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "G"
-                    }, 
-                    "locked": true
-                }, 
-                {
-                    "component": {
-                        "glyphName": "uni0307"
-                    }, 
-                    "nonSpacing": true, 
-                    "locked": true, 
-                    "transform": {
-                        "xOffset": 1612, 
-                        "yOffset": 376
-                    }
-                }
-            ], 
-            "name": "Blk Exp Ctr", 
             "advanceWidth": 3186, 
-            "color": "#b9baa2", 
-            "colorFlag": 61, 
-            "flags": 16, 
             "anchors": [
                 {
                     "name": "top", 
@@ -35,34 +12,31 @@
                     "name": "bottom", 
                     "point": "1612 -150"
                 }
-            ]
-        }, 
-        {
-            "autoRecipe": "=G+uni0307.cap@top", 
+            ], 
+            "autoRecipe": "=G+uni0307.case@top", 
+            "color": "#b9baa2", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "G"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
-                        "glyphName": "uni0307"
+                        "glyphName": "uni0307.case"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 1472, 
-                        "yOffset": 400
+                        "xOffset": 1612, 
+                        "yOffset": 376
                     }
                 }
             ], 
-            "name": "Exp Ctr", 
-            "advanceWidth": 2888, 
-            "color": "#809693", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Blk Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 2888, 
             "anchors": [
                 {
                     "name": "top", 
@@ -72,34 +46,31 @@
                     "name": "bottom", 
                     "point": "1472 -150"
                 }
-            ]
-        }, 
-        {
-            "autoRecipe": "=G+uni0307.cap@top", 
+            ], 
+            "autoRecipe": "=G+uni0307.case@top", 
+            "color": "#809693", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "G"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
-                        "glyphName": "uni0307"
+                        "glyphName": "uni0307.case"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 1282, 
+                        "xOffset": 1472, 
                         "yOffset": 400
                     }
                 }
             ], 
-            "name": "Lt Exp Ctr", 
-            "advanceWidth": 2550, 
-            "color": "#c8675e", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 2550, 
             "anchors": [
                 {
                     "name": "top", 
@@ -109,34 +80,31 @@
                     "name": "bottom", 
                     "point": "1282 -150"
                 }
-            ]
-        }, 
-        {
-            "autoRecipe": "=G+uni0307.cap@top", 
+            ], 
+            "autoRecipe": "=G+uni0307.case@top", 
+            "color": "#c8675e", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "G"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
-                        "glyphName": "uni0307"
+                        "glyphName": "uni0307.case"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 702, 
-                        "yOffset": 376
+                        "xOffset": 1288, 
+                        "yOffset": 400
                     }
                 }
             ], 
-            "name": "Blk Cnd Ctr", 
-            "advanceWidth": 1364, 
-            "color": "#997d87", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Lt Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 1364, 
             "anchors": [
                 {
                     "name": "top", 
@@ -146,71 +114,65 @@
                     "name": "bottom", 
                     "point": "702 -150"
                 }
-            ]
-        }, 
-        {
-            "autoRecipe": "=G+uni0307.cap@top", 
+            ], 
+            "autoRecipe": "=G+uni0307.case@top", 
+            "color": "#997d87", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "G"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
-                        "glyphName": "uni0307"
+                        "glyphName": "uni0307.case"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 484, 
+                        "xOffset": 702, 
+                        "yOffset": 376
+                    }
+                }
+            ], 
+            "flags": 16, 
+            "name": "Blk Cnd Ctr"
+        }, 
+        {
+            "advanceWidth": 856, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "456 1564"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "456 -164"
+                }
+            ], 
+            "autoRecipe": "=G+uni0307.case@top", 
+            "color": "#8fb0ff", 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "G"
+                    }
+                }, 
+                {
+                    "component": {
+                        "glyphName": "uni0307.case"
+                    }, 
+                    "nonSpacing": true, 
+                    "transform": {
+                        "xOffset": 456, 
                         "yOffset": 414
                     }
                 }
             ], 
-            "name": "Cnd Ctr", 
-            "advanceWidth": 905, 
-            "color": "#8fb0ff", 
-            "colorFlag": 61, 
             "flags": 16, 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "484 1564"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "484 -164"
-                }
-            ]
+            "name": "Cnd Ctr"
         }, 
         {
-            "autoRecipe": "=G+uni0307.cap@top", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "G"
-                    }, 
-                    "locked": true
-                }, 
-                {
-                    "component": {
-                        "glyphName": "uni0307"
-                    }, 
-                    "nonSpacing": true, 
-                    "locked": true, 
-                    "transform": {
-                        "xOffset": 310, 
-                        "yOffset": 404
-                    }
-                }
-            ], 
-            "name": "Lt Cnd Ctr", 
             "advanceWidth": 588, 
-            "color": "#4e8e82", 
-            "colorFlag": 61, 
-            "flags": 16, 
             "anchors": [
                 {
                     "name": "top", 
@@ -220,34 +182,32 @@
                     "name": "bottom", 
                     "point": "310 -154"
                 }
-            ]
-        }, 
-        {
-            "autoRecipe": "=G+uni0307.cap@top", 
+            ], 
+            "autoRecipe": "=G+uni0307.case@top", 
+            "color": "#4e8e82", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "G"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
-                        "glyphName": "uni0307"
+                        "glyphName": "uni0307.case"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 1006, 
-                        "yOffset": 376
+                        "xOffset": 316, 
+                        "yOffset": 404
                     }
                 }
             ], 
-            "name": "Blk Ctr", 
-            "advanceWidth": 1990, 
-            "color": "#b69762", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Lt Cnd Ctr"
+        }, 
+        {
+            "active": true, 
+            "advanceWidth": 1990, 
             "anchors": [
                 {
                     "name": "top", 
@@ -257,34 +217,31 @@
                     "name": "bottom", 
                     "point": "1006 -150"
                 }
-            ]
-        }, 
-        {
-            "autoRecipe": "=G+uni0307.cap@top", 
+            ], 
+            "autoRecipe": "=G+uni0307.case@top", 
+            "color": "#b69762", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "G"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
-                        "glyphName": "uni0307"
+                        "glyphName": "uni0307.case"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 900, 
-                        "yOffset": 410
+                        "xOffset": 1006, 
+                        "yOffset": 376
                     }
                 }
             ], 
-            "name": "Ctr", 
-            "advanceWidth": 1790, 
-            "color": "#26d283", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Blk Ctr"
+        }, 
+        {
+            "advanceWidth": 1790, 
             "anchors": [
                 {
                     "name": "top", 
@@ -294,34 +251,31 @@
                     "name": "bottom", 
                     "point": "900 -160"
                 }
-            ]
-        }, 
-        {
-            "autoRecipe": "=G+uni0307.cap@top", 
+            ], 
+            "autoRecipe": "=G+uni0307.case@top", 
+            "color": "#26d283", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "G"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
-                        "glyphName": "uni0307"
+                        "glyphName": "uni0307.case"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 887, 
-                        "yOffset": 400
+                        "xOffset": 900, 
+                        "yOffset": 410
                     }
                 }
             ], 
-            "name": "Lt Ctr", 
-            "advanceWidth": 1754, 
-            "color": "#9061ff", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Ctr"
+        }, 
+        {
+            "advanceWidth": 1754, 
             "anchors": [
                 {
                     "name": "top", 
@@ -331,108 +285,99 @@
                     "name": "bottom", 
                     "point": "887 -150"
                 }
-            ]
-        }, 
-        {
-            "autoRecipe": "=G+uni0307.cap@top", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "G"
-                    }, 
-                    "locked": true
-                }, 
-                {
-                    "component": {
-                        "glyphName": "uni0307"
-                    }, 
-                    "nonSpacing": true, 
-                    "locked": true, 
-                    "transform": {
-                        "xOffset": 1542, 
-                        "yOffset": 390
-                    }
-                }
             ], 
-            "name": "Blk Exp", 
-            "advanceWidth": 3148, 
-            "color": "#b07733", 
-            "colorFlag": 61, 
-            "flags": 16, 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "1542 1564"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "1542 -164"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=G+uni0307.cap@top", 
+            "autoRecipe": "=G+uni0307.case@top", 
+            "color": "#9061ff", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "G"
-                    }, 
-                    "locked": true
-                }, 
-                {
-                    "component": {
-                        "glyphName": "uni0307"
-                    }, 
-                    "nonSpacing": true, 
-                    "locked": true, 
-                    "transform": {
-                        "xOffset": 1420, 
-                        "yOffset": 414
                     }
-                }
-            ], 
-            "name": "Exp", 
-            "advanceWidth": 2785, 
-            "color": "#d2afb9", 
-            "colorFlag": 61, 
-            "flags": 16, 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "1420 1564"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "1420 -164"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=G+uni0307.cap@top", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "G"
-                    }, 
-                    "locked": true
                 }, 
                 {
                     "component": {
-                        "glyphName": "uni0307"
+                        "glyphName": "uni0307.case"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 1280, 
+                        "xOffset": 893, 
                         "yOffset": 400
                     }
                 }
             ], 
-            "name": "Lt Exp", 
-            "advanceWidth": 2550, 
-            "color": "#de4d8a", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Lt Ctr"
+        }, 
+        {
+            "advanceWidth": 3072, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "1502 1564"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "1502 -164"
+                }
+            ], 
+            "autoRecipe": "=G+uni0307.case@top", 
+            "color": "#b07733", 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "G"
+                    }
+                }, 
+                {
+                    "component": {
+                        "glyphName": "uni0307.case"
+                    }, 
+                    "nonSpacing": true, 
+                    "transform": {
+                        "xOffset": 1502, 
+                        "yOffset": 390
+                    }
+                }
+            ], 
+            "flags": 16, 
+            "name": "Blk Exp"
+        }, 
+        {
+            "advanceWidth": 2769, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "1411 1564"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "1411 -164"
+                }
+            ], 
+            "autoRecipe": "=G+uni0307.case@top", 
+            "color": "#d2afb9", 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "G"
+                    }
+                }, 
+                {
+                    "component": {
+                        "glyphName": "uni0307.case"
+                    }, 
+                    "nonSpacing": true, 
+                    "transform": {
+                        "xOffset": 1411, 
+                        "yOffset": 414
+                    }
+                }
+            ], 
+            "flags": 16, 
+            "name": "Exp"
+        }, 
+        {
+            "advanceWidth": 2550, 
             "anchors": [
                 {
                     "name": "top", 
@@ -442,34 +387,31 @@
                     "name": "bottom", 
                     "point": "1280 -150"
                 }
-            ]
-        }, 
-        {
-            "autoRecipe": "=G+uni0307.cap@top", 
+            ], 
+            "autoRecipe": "=G+uni0307.case@top", 
+            "color": "#de4d8a", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "G"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
-                        "glyphName": "uni0307"
+                        "glyphName": "uni0307.case"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 694, 
-                        "yOffset": 394
+                        "xOffset": 1286, 
+                        "yOffset": 400
                     }
                 }
             ], 
-            "name": "Blk Cnd", 
-            "advanceWidth": 1358, 
-            "color": "#3989c2", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Lt Exp"
+        }, 
+        {
+            "advanceWidth": 1358, 
             "anchors": [
                 {
                     "name": "top", 
@@ -479,34 +421,31 @@
                     "name": "bottom", 
                     "point": "694 -168"
                 }
-            ]
-        }, 
-        {
-            "autoRecipe": "=G+uni0307.cap@top", 
+            ], 
+            "autoRecipe": "=G+uni0307.case@top", 
+            "color": "#3989c2", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "G"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
-                        "glyphName": "uni0307"
+                        "glyphName": "uni0307.case"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 426, 
-                        "yOffset": 418
+                        "xOffset": 694, 
+                        "yOffset": 394
                     }
                 }
             ], 
-            "name": "Cnd", 
-            "advanceWidth": 837, 
-            "color": "#1f964d", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Blk Cnd"
+        }, 
+        {
+            "advanceWidth": 837, 
             "anchors": [
                 {
                     "name": "top", 
@@ -516,34 +455,31 @@
                     "name": "bottom", 
                     "point": "426 -168"
                 }
-            ]
-        }, 
-        {
-            "autoRecipe": "=G+uni0307.cap@top", 
+            ], 
+            "autoRecipe": "=G+uni0307.case@top", 
+            "color": "#1f964d", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "G"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
-                        "glyphName": "uni0307"
+                        "glyphName": "uni0307.case"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 305, 
-                        "yOffset": 404
+                        "xOffset": 426, 
+                        "yOffset": 418
                     }
                 }
             ], 
-            "name": "Lt Cnd", 
-            "advanceWidth": 588, 
-            "color": "#fe4a46", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Cnd"
+        }, 
+        {
+            "advanceWidth": 588, 
             "anchors": [
                 {
                     "name": "top", 
@@ -553,35 +489,31 @@
                     "name": "bottom", 
                     "point": "305 -154"
                 }
-            ]
-        }, 
-        {
-            "autoRecipe": "=G+uni0307.cap@top", 
+            ], 
+            "autoRecipe": "=G+uni0307.case@top", 
+            "color": "#fe4a46", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "G"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
-                        "glyphName": "uni0307"
+                        "glyphName": "uni0307.case"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 988, 
-                        "yOffset": 376
+                        "xOffset": 311, 
+                        "yOffset": 404
                     }
                 }
             ], 
-            "name": "Blk", 
-            "advanceWidth": 1943, 
-            "color": "#ff34ff", 
-            "colorFlag": 61, 
             "flags": 16, 
-            "active": true, 
+            "name": "Lt Cnd"
+        }, 
+        {
+            "advanceWidth": 1943, 
             "anchors": [
                 {
                     "name": "top", 
@@ -591,34 +523,31 @@
                     "name": "bottom", 
                     "point": "988 -150"
                 }
-            ]
-        }, 
-        {
-            "autoRecipe": "=G+uni0307.cap@top", 
+            ], 
+            "autoRecipe": "=G+uni0307.case@top", 
+            "color": "#ff34ff", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "G"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
-                        "glyphName": "uni0307"
+                        "glyphName": "uni0307.case"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 884, 
-                        "yOffset": 414
+                        "xOffset": 988, 
+                        "yOffset": 376
                     }
                 }
             ], 
-            "name": "Medium", 
-            "advanceWidth": 1756, 
-            "color": "#00cce5", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Blk"
+        }, 
+        {
+            "advanceWidth": 1756, 
             "anchors": [
                 {
                     "name": "top", 
@@ -628,34 +557,31 @@
                     "name": "bottom", 
                     "point": "884 -164"
                 }
-            ]
-        }, 
-        {
-            "autoRecipe": "=G+uni0307.cap@top", 
+            ], 
+            "autoRecipe": "=G+uni0307.case@top", 
+            "color": "#00cce5", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "G"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
-                        "glyphName": "uni0307"
+                        "glyphName": "uni0307.case"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 887, 
-                        "yOffset": 400
+                        "xOffset": 884, 
+                        "yOffset": 414
                     }
                 }
             ], 
-            "name": "Lt", 
-            "advanceWidth": 1754, 
-            "color": "#bac000", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Medium"
+        }, 
+        {
+            "advanceWidth": 1754, 
             "anchors": [
                 {
                     "name": "top", 
@@ -665,11 +591,30 @@
                     "name": "bottom", 
                     "point": "887 -150"
                 }
-            ]
+            ], 
+            "autoRecipe": "=G+uni0307.case@top", 
+            "color": "#bac000", 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "G"
+                    }
+                }, 
+                {
+                    "component": {
+                        "glyphName": "uni0307.case"
+                    }, 
+                    "nonSpacing": true, 
+                    "transform": {
+                        "xOffset": 893, 
+                        "yOffset": 400
+                    }
+                }
+            ], 
+            "flags": 16, 
+            "name": "Lt"
         }
     ], 
-    "lastModified": "2019-10-08 15:04:09", 
-    "colorFlag": 61, 
     "name": "Gdotaccent", 
     "unicode": "0120"
 }

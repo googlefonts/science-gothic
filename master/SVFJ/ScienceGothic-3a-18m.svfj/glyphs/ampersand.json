@@ -1,6 +1,9 @@
 {
+    "lastModified": "2019-09-30 23:25:14", 
     "layers": [
         {
+            "advanceWidth": 3030, 
+            "color": "#b9baa2", 
             "elements": [
                 {
                     "active": true, 
@@ -53,13 +56,13 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Blk Exp Ctr", 
-            "advanceWidth": 3030, 
-            "color": "#b9baa2", 
+            "metricsLeft": "=H*.5", 
             "metricsRight": "=l()*.15", 
-            "metricsLeft": "=H*.5"
+            "name": "Blk Exp Ctr"
         }, 
         {
+            "advanceWidth": 2302, 
+            "color": "#809693", 
             "elements": [
                 {
                     "elementData": {
@@ -111,13 +114,13 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Exp Ctr", 
-            "advanceWidth": 2302, 
-            "color": "#809693", 
+            "metricsLeft": "=H*.4", 
             "metricsRight": "=l()-l()", 
-            "metricsLeft": "=H*.4"
+            "name": "Exp Ctr"
         }, 
         {
+            "advanceWidth": 2265, 
+            "color": "#c8675e", 
             "elements": [
                 {
                     "elementData": {
@@ -168,12 +171,7 @@
                     }
                 }
             ], 
-            "name": "Lt Exp Ctr", 
-            "advanceWidth": 2265, 
-            "color": "#c8675e", 
-            "metricsLeft": "=H*.4", 
             "flags": 0, 
-            "metricsRight": "=l()-l()", 
             "guidelines": [
                 {
                     "position": 236, 
@@ -187,9 +185,14 @@
                     "position": -44, 
                     "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=H*.4", 
+            "metricsRight": "=l()-l()", 
+            "name": "Lt Exp Ctr"
         }, 
         {
+            "advanceWidth": 1570, 
+            "color": "#997d87", 
             "elements": [
                 {
                     "elementData": {
@@ -241,57 +244,57 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Blk Cnd Ctr", 
-            "advanceWidth": 1570, 
-            "color": "#997d87", 
+            "metricsLeft": "=H*.2", 
             "metricsRight": "=l()-l()", 
-            "metricsLeft": "=H*.2"
+            "name": "Blk Cnd Ctr"
         }, 
         {
+            "advanceWidth": 981, 
+            "color": "#8fb0ff", 
             "elements": [
                 {
                     "elementData": {
                         "contours": [
                             {
                                 "nodes": [
-                                    "703 0", 
-                                    "993 0", 
-                                    "760 452", 
-                                    "757 457", 
-                                    "442 1074", 
-                                    "442 1382", 
-                                    "555 1382", 
-                                    "555 962", 
-                                    "779 1012", 
-                                    "779 1168 s", 
-                                    "779 1335  666 1418  500 1418 s", 
-                                    "470 1418 s", 
-                                    "306 1418  188 1324  188 1140 s", 
-                                    "188 1120 s", 
-                                    "188 990  234 920  271 848 s", 
-                                    "582 240", 
-                                    "585 235"
+                                    "691 0", 
+                                    "981 0", 
+                                    "748 452", 
+                                    "745 457", 
+                                    "430 1074", 
+                                    "430 1382", 
+                                    "543 1382", 
+                                    "543 962", 
+                                    "767 1012", 
+                                    "767 1168 s", 
+                                    "767 1335  654 1418  488 1418 s", 
+                                    "458 1418 s", 
+                                    "294 1418  176 1324  176 1140 s", 
+                                    "176 1120 s", 
+                                    "176 990  222 920  259 848 s", 
+                                    "570 240", 
+                                    "573 235"
                                 ]
                             }, 
                             {
                                 "nodes": [
-                                    "54 204", 
-                                    "55 84  196 -10  306 -10 s", 
-                                    "388 -10", 
-                                    "426 -10  448 2  468 29", 
-                                    "667 303", 
-                                    "750 406", 
-                                    "923 644", 
-                                    "903 678", 
-                                    "702 401", 
-                                    "607 282", 
-                                    "421 26", 
-                                    "312 26", 
-                                    "312 613", 
-                                    "442 776", 
-                                    "418 804", 
-                                    "124 436 s", 
-                                    "73 372  54 332  54 252 s"
+                                    "42 204", 
+                                    "43 84  184 -10  294 -10 s", 
+                                    "376 -10", 
+                                    "414 -10  436 2  456 29", 
+                                    "655 303", 
+                                    "738 406", 
+                                    "911 644", 
+                                    "891 678", 
+                                    "690 401", 
+                                    "595 282", 
+                                    "409 26", 
+                                    "300 26", 
+                                    "300 613", 
+                                    "430 776", 
+                                    "406 804", 
+                                    "112 436 s", 
+                                    "61 372  42 332  42 252 s"
                                 ]
                             }
                         ]
@@ -299,13 +302,13 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Cnd Ctr", 
-            "advanceWidth": 993, 
-            "color": "#8fb0ff", 
+            "metricsLeft": "=H*.4", 
             "metricsRight": "=l()-l()", 
-            "metricsLeft": "=H*.4"
+            "name": "Cnd Ctr"
         }, 
         {
+            "advanceWidth": 526.75, 
+            "color": "#4e8e82", 
             "elements": [
                 {
                     "elementData": {
@@ -356,12 +359,7 @@
                     }
                 }
             ], 
-            "name": "Lt Cnd Ctr", 
-            "advanceWidth": 526.75, 
-            "color": "#4e8e82", 
-            "metricsLeft": "=H*.25", 
             "flags": 0, 
-            "metricsRight": "=l()-l()", 
             "guidelines": [
                 {
                     "position": 167.75, 
@@ -375,9 +373,15 @@
                     "position": -113.25, 
                     "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=H*.25", 
+            "metricsRight": "=l()-l()", 
+            "name": "Lt Cnd Ctr"
         }, 
         {
+            "active": true, 
+            "advanceWidth": 2014, 
+            "color": "#b69762", 
             "elements": [
                 {
                     "elementData": {
@@ -429,13 +433,13 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Blk Ctr", 
-            "advanceWidth": 2014, 
-            "color": "#b69762", 
+            "metricsLeft": "=H*.4", 
             "metricsRight": "=l()-l()", 
-            "metricsLeft": "=H*.4"
+            "name": "Blk Ctr"
         }, 
         {
+            "advanceWidth": 1646, 
+            "color": "#26d283", 
             "elements": [
                 {
                     "elementData": {
@@ -487,13 +491,13 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Ctr", 
-            "advanceWidth": 1646, 
-            "color": "#26d283", 
+            "metricsLeft": "=H*.2", 
             "metricsRight": "=l()-l()", 
-            "metricsLeft": "=H*.2"
+            "name": "Ctr"
         }, 
         {
+            "advanceWidth": 1363, 
+            "color": "#9061ff", 
             "elements": [
                 {
                     "elementData": {
@@ -544,12 +548,7 @@
                     }
                 }
             ], 
-            "name": "Lt Ctr", 
-            "advanceWidth": 1363, 
-            "color": "#9061ff", 
-            "metricsLeft": "=H*.2", 
             "flags": 0, 
-            "metricsRight": "=l()-40", 
             "guidelines": [
                 {
                     "position": 143, 
@@ -563,53 +562,58 @@
                     "position": -137, 
                     "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=H*.2", 
+            "metricsRight": "=l()-40", 
+            "name": "Lt Ctr"
         }, 
         {
+            "advanceWidth": 2928, 
+            "color": "#b07733", 
             "elements": [
                 {
                     "elementData": {
                         "contours": [
                             {
                                 "nodes": [
-                                    "2066 0", 
-                                    "2944 0", 
-                                    "2159 471", 
-                                    "2011 568", 
-                                    "1282 1024", 
-                                    "1282 1048", 
-                                    "1829 1048", 
-                                    "1829 936", 
-                                    "2294 1043", 
-                                    "2294 1119 s", 
-                                    "2294 1316  2149 1414  1953 1414 s", 
-                                    "1117 1414 s", 
-                                    "921 1414  783 1307  783 1109 s", 
-                                    "783 1024 s", 
-                                    "783 838  826 731  969 652 s", 
-                                    "1485 366", 
-                                    "1765 172"
+                                    "2050 0", 
+                                    "2928 0", 
+                                    "2143 471", 
+                                    "1995 568", 
+                                    "1266 1024", 
+                                    "1266 1048", 
+                                    "1813 1048", 
+                                    "1813 936", 
+                                    "2278 1043", 
+                                    "2278 1119 s", 
+                                    "2278 1316  2133 1414  1937 1414 s", 
+                                    "1101 1414 s", 
+                                    "905 1414  767 1307  767 1109 s", 
+                                    "767 1024 s", 
+                                    "767 838  810 731  953 652 s", 
+                                    "1469 366", 
+                                    "1749 172"
                                 ]
                             }, 
                             {
                                 "nodes": [
-                                    "144 246 s", 
-                                    "144 102  314 -10  445 -10 s", 
-                                    "1499 -10 s", 
-                                    "1797 -10  1906 85  2005 144 s", 
-                                    "2128 217", 
-                                    "2274 329", 
-                                    "2846 649", 
-                                    "2409 914", 
-                                    "1812 578", 
-                                    "1635 473", 
-                                    "1513 400", 
-                                    "622 400", 
-                                    "622 484", 
-                                    "1112 688", 
-                                    "831 1027", 
-                                    "289 800 s", 
-                                    "179 754  144 651  144 536 s"
+                                    "128 246 s", 
+                                    "128 102  298 -10  429 -10 s", 
+                                    "1483 -10 s", 
+                                    "1781 -10  1890 85  1989 144 s", 
+                                    "2112 217", 
+                                    "2258 329", 
+                                    "2830 649", 
+                                    "2393 914", 
+                                    "1796 578", 
+                                    "1619 473", 
+                                    "1497 400", 
+                                    "606 400", 
+                                    "606 484", 
+                                    "1096 688", 
+                                    "815 1027", 
+                                    "273 800 s", 
+                                    "163 754  128 651  128 536 s"
                                 ]
                             }
                         ]
@@ -617,13 +621,12 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Blk Exp", 
-            "advanceWidth": 2944, 
-            "color": "#b07733", 
+            "metricsLeft": "=H*.4", 
             "metricsRight": "=l()-l()", 
-            "metricsLeft": "=H*.4"
+            "name": "Blk Exp"
         }, 
         {
+            "advanceWidth": 2396, 
             "color": "#d2afb9", 
             "elements": [
                 {
@@ -676,10 +679,11 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Exp", 
-            "advanceWidth": 2396
+            "name": "Exp"
         }, 
         {
+            "advanceWidth": 2265, 
+            "color": "#de4d8a", 
             "elements": [
                 {
                     "elementData": {
@@ -731,13 +735,13 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Lt Exp", 
-            "advanceWidth": 2265, 
-            "color": "#de4d8a", 
+            "metricsLeft": "=H*.4", 
             "metricsRight": "=l()-l()", 
-            "metricsLeft": "=H*.4"
+            "name": "Lt Exp"
         }, 
         {
+            "advanceWidth": 1588, 
+            "color": "#3989c2", 
             "elements": [
                 {
                     "active": true, 
@@ -790,13 +794,13 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Blk Cnd", 
-            "advanceWidth": 1588, 
-            "color": "#3989c2", 
+            "metricsLeft": "=H*.2", 
             "metricsRight": "=l()-l()", 
-            "metricsLeft": "=H*.2"
+            "name": "Blk Cnd"
         }, 
         {
+            "advanceWidth": 965, 
+            "color": "#1f964d", 
             "elements": [
                 {
                     "elementData": {
@@ -847,24 +851,24 @@
                     }
                 }
             ], 
-            "name": "Cnd", 
-            "advanceWidth": 965, 
-            "color": "#1f964d", 
-            "metricsLeft": "=H*.2", 
             "flags": 0, 
-            "metricsRight": "=l()-l()", 
             "guidelines": [
                 {
-                    "vector": "0 1579", 
-                    "center": "15 0"
+                    "center": "15 0", 
+                    "vector": "0 1579"
                 }, 
                 {
                     "position": 945, 
                     "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=H*.2", 
+            "metricsRight": "=l()-l()", 
+            "name": "Cnd"
         }, 
         {
+            "advanceWidth": 526.75, 
+            "color": "#fe4a46", 
             "elements": [
                 {
                     "elementData": {
@@ -916,13 +920,13 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Lt Cnd", 
-            "advanceWidth": 526.75, 
-            "color": "#fe4a46", 
+            "metricsLeft": "=H*.25", 
             "metricsRight": "=l()-l()", 
-            "metricsLeft": "=H*.25"
+            "name": "Lt Cnd"
         }, 
         {
+            "advanceWidth": 1916, 
+            "color": "#ff34ff", 
             "elements": [
                 {
                     "elementData": {
@@ -973,15 +977,14 @@
                     }
                 }
             ], 
-            "name": "Blk", 
-            "advanceWidth": 1916, 
-            "color": "#ff34ff", 
-            "metricsLeft": "=H*.4", 
             "flags": 0, 
-            "active": true, 
-            "metricsRight": "=l()-l()"
+            "metricsLeft": "=H*.4", 
+            "metricsRight": "=l()-l()", 
+            "name": "Blk"
         }, 
         {
+            "advanceWidth": 1652, 
+            "color": "#00cce5", 
             "elements": [
                 {
                     "elementData": {
@@ -1033,13 +1036,13 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Medium", 
-            "advanceWidth": 1652, 
-            "color": "#00cce5", 
+            "metricsLeft": "=H*.2", 
             "metricsRight": "=l()-30", 
-            "metricsLeft": "=H*.2"
+            "name": "Medium"
         }, 
         {
+            "advanceWidth": 1363, 
+            "color": "#bac000", 
             "elements": [
                 {
                     "elementData": {
@@ -1091,17 +1094,14 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Lt", 
-            "advanceWidth": 1363, 
-            "color": "#bac000", 
+            "metricsLeft": "=H*.2", 
             "metricsRight": "=l()-40", 
-            "metricsLeft": "=H*.2"
+            "name": "Lt"
         }
     ], 
-    "lastModified": "2019-09-30 23:25:14", 
     "name": "ampersand", 
-    "unicode": "0026", 
     "tags": [
         "T"
-    ]
+    ], 
+    "unicode": "0026"
 }

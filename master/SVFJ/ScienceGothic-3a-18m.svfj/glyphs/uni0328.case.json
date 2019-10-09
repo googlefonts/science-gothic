@@ -1,21 +1,8 @@
 {
+    "lastModified": "2019-10-09 01:40:09", 
     "layers": [
         {
-            "autoRecipe": "=uni0328", 
-            "elements": [
-                {
-                    "active": true, 
-                    "component": {
-                        "glyphName": "uni0328"
-                    }, 
-                    "locked": true
-                }
-            ], 
-            "name": "Blk Exp Ctr", 
             "advanceWidth": 0, 
-            "color": "#b9baa2", 
-            "colorFlag": 1, 
-            "flags": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -25,23 +12,35 @@
                     "name": "_ogonek", 
                     "point": "147 0"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=uni0328", 
+            "color": "#b9baa2", 
             "elements": [
                 {
-                    "component": {
-                        "glyphName": "uni0328"
-                    }, 
-                    "locked": true
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "147 0", 
+                                    "55 2", 
+                                    "-203 -70  -305 -150  -305 -281 s", 
+                                    "-305 -355  -254 -437  -129 -437 s", 
+                                    "-3 -437  80 -371  196 -221", 
+                                    "171 -212", 
+                                    "120 -261  100 -276  55 -276 s", 
+                                    "14 -276  -79 -175  -79 -137 s", 
+                                    "-79 -87  67 -3 c"
+                                ]
+                            }
+                        ]
+                    }
                 }
             ], 
-            "name": "Exp Ctr", 
-            "advanceWidth": 0, 
-            "color": "#809693", 
-            "colorFlag": 1, 
             "flags": 0, 
+            "name": "Blk Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -51,127 +50,35 @@
                     "name": "_ogonek", 
                     "point": "130 0"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=uni0328", 
+            "color": "#809693", 
             "elements": [
                 {
-                    "component": {
-                        "glyphName": "uni0328"
-                    }, 
-                    "locked": true
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "130 0", 
+                                    "72 3", 
+                                    "-53 -34  -237 -121  -237 -268 s", 
+                                    "-237 -356  -169 -412  -83 -412 s", 
+                                    "16 -412  133 -334  217 -232", 
+                                    "189 -222", 
+                                    "132 -276  81 -298  52 -298 s", 
+                                    "2 -298  -70 -204  -70 -137 s", 
+                                    "-70 -97  21 -38 c"
+                                ]
+                            }
+                        ]
+                    }
                 }
             ], 
-            "name": "Lt Exp Ctr", 
-            "advanceWidth": 0, 
-            "color": "#c8675e", 
-            "colorFlag": 1, 
             "flags": 0, 
-            "anchors": [
-                {
-                    "name": "_bottom", 
-                    "point": "0 -150"
-                }, 
-                {
-                    "name": "_ogonek", 
-                    "point": "137 0"
-                }
-            ]
+            "name": "Exp Ctr"
         }, 
         {
-            "autoRecipe": "=uni0328", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "uni0328"
-                    }, 
-                    "locked": true
-                }
-            ], 
-            "name": "Blk Cnd Ctr", 
             "advanceWidth": 0, 
-            "color": "#997d87", 
-            "colorFlag": 1, 
-            "flags": 0, 
-            "anchors": [
-                {
-                    "name": "_bottom", 
-                    "point": "0 -150"
-                }, 
-                {
-                    "name": "_ogonek", 
-                    "point": "172 0"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=uni0328", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "uni0328"
-                    }, 
-                    "locked": true
-                }
-            ], 
-            "name": "Cnd Ctr", 
-            "advanceWidth": 0, 
-            "color": "#8fb0ff", 
-            "colorFlag": 1, 
-            "flags": 0, 
-            "anchors": [
-                {
-                    "name": "_bottom", 
-                    "point": "0 -150"
-                }, 
-                {
-                    "name": "_ogonek", 
-                    "point": "105 0"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=uni0328", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "uni0328"
-                    }, 
-                    "locked": true
-                }
-            ], 
-            "name": "Lt Cnd Ctr", 
-            "advanceWidth": 0, 
-            "color": "#4e8e82", 
-            "colorFlag": 1, 
-            "flags": 0, 
-            "anchors": [
-                {
-                    "name": "_bottom", 
-                    "point": "0 -150"
-                }, 
-                {
-                    "name": "_ogonek", 
-                    "point": "77 0"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=uni0328", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "uni0328"
-                    }, 
-                    "locked": true
-                }
-            ], 
-            "name": "Blk Ctr", 
-            "advanceWidth": 0, 
-            "color": "#b69762", 
-            "colorFlag": 1, 
-            "flags": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -181,23 +88,216 @@
                     "name": "_ogonek", 
                     "point": "142 0"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=uni0328", 
+            "color": "#c8675e", 
             "elements": [
                 {
-                    "component": {
-                        "glyphName": "uni0328"
-                    }, 
-                    "locked": true
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "142 0", 
+                                    "110 2", 
+                                    "-43 -62  -148 -136  -148 -263 s", 
+                                    "-148 -343  -85 -400  -8 -400 s", 
+                                    "70 -400  121 -373  181 -315", 
+                                    "145 -307", 
+                                    "111 -338  64 -367  -3 -367 s", 
+                                    "-59 -367  -110 -322  -110 -263 s", 
+                                    "-110 -151  -11 -83 c"
+                                ]
+                            }
+                        ]
+                    }
                 }
             ], 
-            "name": "Ctr", 
-            "advanceWidth": 0, 
-            "color": "#26d283", 
-            "colorFlag": 1, 
             "flags": 0, 
+            "name": "Lt Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_bottom", 
+                    "point": "0 -150"
+                }, 
+                {
+                    "name": "_ogonek", 
+                    "point": "182 0"
+                }
+            ], 
+            "autoRecipe": "=uni0328", 
+            "color": "#997d87", 
+            "elements": [
+                {
+                    "active": true, 
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "182 0", 
+                                    "95 2", 
+                                    "-143 -80  -205 -154  -205 -262 s", 
+                                    "-205 -359  -139 -437  -14 -437 s", 
+                                    "105 -437  130 -393  223 -233", 
+                                    "198 -224", 
+                                    "181 -243  170 -248  140 -248 s", 
+                                    "93 -248  29 -183  29 -125 s", 
+                                    "29 -73  119 0 c"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ], 
+            "flags": 0, 
+            "name": "Blk Cnd Ctr"
+        }, 
+        {
+            "advanceWidth": 0, 
+            "color": "#000096", 
+            "elements": [
+                {
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "105 0", 
+                                    "69 3", 
+                                    "-56 -54  -167 -118  -167 -249 s", 
+                                    "-167 -331  -97 -403  -28 -403 s", 
+                                    "83 -403  127 -353  177 -248", 
+                                    "147 -238", 
+                                    "132 -266  126 -273  103 -273 s", 
+                                    "53 -273  -19 -183  -19 -116 s", 
+                                    "-19 -88  -8 -71 c"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ], 
+            "flags": 13, 
+            "name": "mask.Cnd Ctr"
+        }, 
+        {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_bottom", 
+                    "point": "0 -150"
+                }, 
+                {
+                    "name": "_ogonek", 
+                    "point": "140 0"
+                }
+            ], 
+            "autoRecipe": "=uni0328", 
+            "color": "#8fb0ff", 
+            "elements": [
+                {
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "140 0", 
+                                    "101 3", 
+                                    "-34 -59  -156 -128  -156 -269 s", 
+                                    "-156 -358  -78 -433  22 -433 s g2", 
+                                    "116 -433  170 -368  222 -250", 
+                                    "190 -239", 
+                                    "174 -269  162 -274  148 -274 s", 
+                                    "88 -274  0 -206  0 -145 s", 
+                                    "0 -103  18 -77 c"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ], 
+            "flags": 0, 
+            "name": "Cnd Ctr"
+        }, 
+        {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_bottom", 
+                    "point": "0 -150"
+                }, 
+                {
+                    "name": "_ogonek", 
+                    "point": "87 0"
+                }
+            ], 
+            "autoRecipe": "=uni0328", 
+            "color": "#4e8e82", 
+            "elements": [
+                {
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "87 0", 
+                                    "60 3", 
+                                    "-65 -53  -130 -146  -130 -258 s", 
+                                    "-130 -340  -73 -388  3 -388 s", 
+                                    "74 -388  104 -361  139 -307", 
+                                    "110 -297", 
+                                    "94 -321  67 -355  3 -355 s", 
+                                    "-48 -355  -92 -318  -92 -258 s", 
+                                    "-92 -161  -39 -74 c"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ], 
+            "flags": 0, 
+            "name": "Lt Cnd Ctr"
+        }, 
+        {
+            "active": true, 
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_bottom", 
+                    "point": "0 -150"
+                }, 
+                {
+                    "name": "_ogonek", 
+                    "point": "142 0"
+                }
+            ], 
+            "autoRecipe": "=uni0328", 
+            "color": "#b69762", 
+            "elements": [
+                {
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "142 0", 
+                                    "55 2", 
+                                    "-203 -80  -275 -154  -275 -268 s", 
+                                    "-275 -359  -194 -437  -78 -437 s", 
+                                    "50 -437  118 -367  211 -207", 
+                                    "186 -198", 
+                                    "169 -217  134 -251  93 -251 s", 
+                                    "30 -251  -39 -180  -39 -122 s", 
+                                    "-39 -70  79 0 c"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ], 
+            "flags": 0, 
+            "name": "Blk Ctr"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -207,23 +307,73 @@
                     "name": "_ogonek", 
                     "point": "115 0"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=uni0328", 
+            "color": "#26d283", 
             "elements": [
                 {
-                    "component": {
-                        "glyphName": "uni0328"
-                    }, 
-                    "locked": true
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "115 0", 
+                                    "77 3", 
+                                    "-57 -48  -205 -150  -205 -285 s g2", 
+                                    "-205 -377  -137 -434  -44 -434 s g2", 
+                                    "63 -434  156 -359  194 -259", 
+                                    "162 -248", 
+                                    "137 -295  122 -306  96 -306 s", 
+                                    "37 -306  -49 -225  -49 -164 s", 
+                                    "-49 -119  -25 -84 c"
+                                ]
+                            }
+                        ]
+                    }
                 }
             ], 
-            "name": "Lt Ctr", 
+            "flags": 0, 
+            "name": "Ctr"
+        }, 
+        {
             "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_bottom", 
+                    "point": "0 -150"
+                }, 
+                {
+                    "name": "_ogonek", 
+                    "point": "106 0"
+                }
+            ], 
+            "autoRecipe": "=uni0328", 
             "color": "#9061ff", 
-            "colorFlag": 1, 
+            "elements": [
+                {
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "106 0", 
+                                    "74 2", 
+                                    "-80 -52  -155 -138  -155 -249 s", 
+                                    "-155 -330  -91 -388  -13 -388 s", 
+                                    "90 -388  125 -359  171 -308", 
+                                    "134 -300", 
+                                    "115 -324  85 -355  -9 -355 s", 
+                                    "-65 -355  -117 -308  -117 -249 s", 
+                                    "-117 -153  -48 -72 c"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ], 
             "flags": 0, 
+            "name": "Lt Ctr"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -231,25 +381,37 @@
                 }, 
                 {
                     "name": "_ogonek", 
-                    "point": "92 0"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=uni0328", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "uni0328"
-                    }, 
-                    "locked": true
+                    "point": "212 0"
                 }
             ], 
-            "name": "Blk Exp", 
-            "advanceWidth": 0, 
+            "autoRecipe": "=uni0328", 
             "color": "#b07733", 
-            "colorFlag": 1, 
+            "elements": [
+                {
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "212 0", 
+                                    "-10 4", 
+                                    "-160 -44  -273 -123  -273 -264 s", 
+                                    "-273 -361  -183 -437  -66 -437 s", 
+                                    "126 -437  208 -358  308 -228", 
+                                    "179 -182", 
+                                    "157 -201  121 -214  75 -214 s", 
+                                    "28 -214  -4 -189  -4 -146 s", 
+                                    "-4 -71  120 0 c"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ], 
             "flags": 0, 
+            "name": "Blk Exp"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -257,25 +419,37 @@
                 }, 
                 {
                     "name": "_ogonek", 
-                    "point": "192 0"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=uni0328", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "uni0328"
-                    }, 
-                    "locked": true
+                    "point": "147 0"
                 }
             ], 
-            "name": "Exp", 
-            "advanceWidth": 0, 
+            "autoRecipe": "=uni0328", 
             "color": "#d2afb9", 
-            "colorFlag": 1, 
+            "elements": [
+                {
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "148 0", 
+                                    "-4 4", 
+                                    "-153 -46  -243 -138  -243 -256 s", 
+                                    "-243 -362  -153 -435  0 -435 s", 
+                                    "121 -435  202 -370  263 -271", 
+                                    "170 -238", 
+                                    "144 -262  104 -280  47 -280 s", 
+                                    "-8 -280  -46 -246  -46 -190 s", 
+                                    "-46 -92  72 0 c"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ], 
             "flags": 0, 
+            "name": "Exp"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -285,23 +459,73 @@
                     "name": "_ogonek", 
                     "point": "142 0"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=uni0328", 
+            "color": "#de4d8a", 
             "elements": [
                 {
-                    "component": {
-                        "glyphName": "uni0328"
-                    }, 
-                    "locked": true
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "142 0", 
+                                    "110 2", 
+                                    "-43 -62  -148 -136  -148 -263 s", 
+                                    "-148 -343  -85 -400  -8 -400 s", 
+                                    "70 -400  121 -373  181 -315", 
+                                    "145 -307", 
+                                    "111 -338  64 -367  -3 -367 s", 
+                                    "-59 -367  -110 -322  -110 -263 s", 
+                                    "-110 -151  -11 -83 c"
+                                ]
+                            }
+                        ]
+                    }
                 }
             ], 
-            "name": "Lt Exp", 
-            "advanceWidth": 0, 
-            "color": "#de4d8a", 
-            "colorFlag": 1, 
             "flags": 0, 
+            "name": "Lt Exp"
+        }, 
+        {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_bottom", 
+                    "point": "0 -150"
+                }, 
+                {
+                    "name": "_ogonek", 
+                    "point": "207 0"
+                }
+            ], 
+            "autoRecipe": "=uni0328", 
+            "color": "#3989c2", 
+            "elements": [
+                {
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "207 0", 
+                                    "6 4", 
+                                    "-133 -34  -250 -111  -250 -262 s", 
+                                    "-250 -359  -169 -437  -29 -437 s g2", 
+                                    "87 -437  160 -384  259 -213", 
+                                    "146 -170", 
+                                    "130 -188  104 -201  69 -201 s", 
+                                    "35 -201  11 -177  11 -137 s", 
+                                    "11 -66  140 0 c"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ], 
+            "flags": 0, 
+            "name": "Blk Cnd"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -311,49 +535,35 @@
                     "name": "_ogonek", 
                     "point": "137 0"
                 }
-            ]
-        }, 
-        {
-            "autoRecipe": "=uni0328", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "uni0328"
-                    }, 
-                    "locked": true
-                }
             ], 
-            "name": "Blk Cnd", 
-            "advanceWidth": 0, 
-            "color": "#3989c2", 
-            "colorFlag": 1, 
-            "flags": 0, 
-            "anchors": [
-                {
-                    "name": "_bottom", 
-                    "point": "0 -150"
-                }, 
-                {
-                    "name": "_ogonek", 
-                    "point": "157 0"
-                }
-            ]
-        }, 
-        {
             "autoRecipe": "=uni0328", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "uni0328"
-                    }, 
-                    "locked": true
-                }
-            ], 
-            "name": "Cnd", 
-            "advanceWidth": 0, 
             "color": "#1f964d", 
-            "colorFlag": 1, 
+            "elements": [
+                {
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "137 0", 
+                                    "13 4", 
+                                    "-107 -46  -178 -138  -178 -256 s", 
+                                    "-178 -362  -107 -431  16 -431 s", 
+                                    "107 -431  169 -378  217 -289", 
+                                    "152 -238", 
+                                    "135 -262  109 -274  74 -274 s", 
+                                    "38 -274  12 -246  12 -190 s", 
+                                    "12 -92  89 0 c"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ], 
             "flags": 0, 
+            "name": "Cnd"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -361,25 +571,64 @@
                 }, 
                 {
                     "name": "_ogonek", 
-                    "point": "129 0"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=uni0328", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "uni0328"
-                    }, 
-                    "locked": true
+                    "point": "87 0"
                 }
             ], 
-            "name": "Lt Cnd", 
-            "advanceWidth": 0, 
+            "autoRecipe": "=uni0328", 
             "color": "#fe4a46", 
-            "colorFlag": 1, 
+            "elements": [
+                {
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "87 0", 
+                                    "60 3", 
+                                    "-65 -53  -130 -146  -130 -258 s", 
+                                    "-130 -340  -73 -388  3 -388 s", 
+                                    "74 -388  104 -361  139 -307", 
+                                    "110 -297", 
+                                    "94 -321  67 -355  3 -355 s", 
+                                    "-48 -355  -92 -318  -92 -258 s", 
+                                    "-92 -161  -39 -74 c"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ], 
             "flags": 0, 
+            "name": "Lt Cnd"
+        }, 
+        {
+            "advanceWidth": 0, 
+            "color": "#000096", 
+            "elements": [
+                {
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "142 0", 
+                                    "-59 4", 
+                                    "-198 -34  -315 -111  -315 -262 s", 
+                                    "-315 -359  -234 -437  -116 -437 s", 
+                                    "59 -437  124 -334  187 -225", 
+                                    "76 -183", 
+                                    "59 -202  31 -216  -6 -216 s", 
+                                    "-43 -216  -69 -190  -69 -147 s", 
+                                    "-69 -71  70 0 c"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ], 
+            "flags": 13, 
+            "name": "mask.Blk"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -387,26 +636,37 @@
                 }, 
                 {
                     "name": "_ogonek", 
-                    "point": "77 0"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=uni0328", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "uni0328"
-                    }, 
-                    "locked": true
+                    "point": "212 0"
                 }
             ], 
-            "name": "Blk", 
-            "advanceWidth": 0, 
+            "autoRecipe": "=uni0328", 
             "color": "#ff34ff", 
-            "colorFlag": 1, 
+            "elements": [
+                {
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "212 0", 
+                                    "11 4", 
+                                    "-157 -42  -245 -133  -245 -262 s", 
+                                    "-245 -359  -164 -437  -46 -437 s", 
+                                    "95 -437  170 -383  267 -208", 
+                                    "152 -167", 
+                                    "136 -184  111 -197  77 -197 s", 
+                                    "43 -197  19 -173  19 -134 s", 
+                                    "19 -65  146 0 c"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ], 
             "flags": 0, 
-            "active": true, 
+            "name": "Blk"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -416,49 +676,35 @@
                     "name": "_ogonek", 
                     "point": "142 0"
                 }
-            ]
-        }, 
-        {
-            "autoRecipe": "=uni0328", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "uni0328"
-                    }, 
-                    "locked": true
-                }
             ], 
-            "name": "Medium", 
-            "advanceWidth": 0, 
+            "autoRecipe": "=uni0328", 
             "color": "#00cce5", 
-            "colorFlag": 1, 
-            "flags": 0, 
-            "anchors": [
-                {
-                    "name": "_bottom", 
-                    "point": "0 -150"
-                }, 
-                {
-                    "name": "_ogonek", 
-                    "point": "142 0"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=uni0328", 
             "elements": [
                 {
-                    "component": {
-                        "glyphName": "uni0328"
-                    }, 
-                    "locked": true
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "153 0", 
+                                    "14 4", 
+                                    "-121 -36  -224 -117  -224 -256 s", 
+                                    "-224 -362  -143 -435  -3 -435 s", 
+                                    "108 -435  170 -368  226 -268", 
+                                    "139 -238", 
+                                    "118 -262  94 -280  46 -280 s", 
+                                    "0 -280  -32 -246  -32 -190 s", 
+                                    "-32 -92  89 0 c"
+                                ]
+                            }
+                        ]
+                    }
                 }
             ], 
-            "name": "Lt", 
-            "advanceWidth": 0, 
-            "color": "#bac000", 
-            "colorFlag": 1, 
             "flags": 0, 
+            "name": "Medium"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
@@ -466,12 +712,35 @@
                 }, 
                 {
                     "name": "_ogonek", 
-                    "point": "92 0"
+                    "point": "102 0"
                 }
-            ]
+            ], 
+            "autoRecipe": "=uni0328", 
+            "color": "#bac000", 
+            "elements": [
+                {
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "102 0", 
+                                    "70 2", 
+                                    "-84 -52  -159 -138  -159 -249 s", 
+                                    "-159 -330  -95 -388  -17 -388 s", 
+                                    "86 -388  121 -359  167 -308", 
+                                    "130 -300", 
+                                    "111 -324  81 -355  -13 -355 s", 
+                                    "-69 -355  -121 -308  -121 -249 s", 
+                                    "-121 -153  -52 -72 c"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ], 
+            "flags": 0, 
+            "name": "Lt"
         }
     ], 
-    "lastModified": "2019-10-08 13:50:56", 
-    "colorFlag": 1, 
     "name": "uni0328.case"
 }

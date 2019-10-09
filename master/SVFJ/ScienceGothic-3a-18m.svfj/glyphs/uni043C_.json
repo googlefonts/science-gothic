@@ -1,7 +1,10 @@
 {
+    "lastModified": "2019-09-12 12:40:23", 
     "layers": [
         {
+            "advanceWidth": 2576, 
             "autoRecipe": "=M", 
+            "color": "#b9baa2", 
             "elements": [
                 {
                     "elementData": {
@@ -29,15 +32,15 @@
                     }
                 }
             ], 
-            "name": "Blk Exp Ctr", 
-            "advanceWidth": 2576, 
-            "color": "#b9baa2", 
-            "metricsLeft": "=n", 
             "flags": 0, 
-            "metricsRight": "=lsb(\"n\")"
+            "metricsLeft": "=n", 
+            "metricsRight": "=lsb(\"n\")", 
+            "name": "Blk Exp Ctr"
         }, 
         {
+            "advanceWidth": 2538, 
             "autoRecipe": "=M", 
+            "color": "#809693", 
             "elements": [
                 {
                     "elementData": {
@@ -64,86 +67,86 @@
                         ], 
                         "nodeLinks": [
                             {
-                                "index": 1, 
                                 "contour": {
-                                    "nodes": [
-                                        "1532 204", 
-                                        "2682 1276", 
-                                        "2838 1400", 
-                                        "2762 1400", 
-                                        "1652 366"
-                                    ], 
-                                    "id": "contour.126"
-                                }
-                            }, 
-                            {
-                                "index": 0, 
-                                "contour": "contour.126"
-                            }, 
-                            {
-                                "index": 0, 
-                                "contour": {
-                                    "nodes": [
-                                        "400 0", 
-                                        "440 0", 
-                                        "440 1300", 
-                                        "440 1400", 
-                                        "400 1400"
-                                    ], 
-                                    "id": "contour.127"
-                                }
-                            }, 
-                            {
-                                "index": 1, 
-                                "contour": "contour.127"
-                            }, 
-                            {
-                                "index": 1, 
-                                "contour": {
-                                    "nodes": [
-                                        "2592 0", 
-                                        "2856 0", 
-                                        "2856 1400", 
-                                        "2772 1400", 
-                                        "2592 1226"
-                                    ], 
-                                    "id": "contour.128"
-                                }
-                            }, 
-                            {
-                                "index": 4, 
-                                "contour": "contour.128"
-                            }, 
-                            {
-                                "index": 0, 
-                                "contour": {
+                                    "id": "contour.126", 
                                     "nodes": [
                                         "432 1140", 
                                         "1532 204", 
                                         "1712 390", 
                                         "524 1400", 
                                         "432 1400"
-                                    ], 
-                                    "id": "contour.129"
-                                }
+                                    ]
+                                }, 
+                                "index": 1
                             }, 
                             {
-                                "index": 1, 
-                                "contour": "contour.129"
+                                "contour": "contour.126", 
+                                "index": 0
+                            }, 
+                            {
+                                "contour": {
+                                    "id": "contour.127", 
+                                    "nodes": [
+                                        "2592 0", 
+                                        "2856 0", 
+                                        "2856 1400", 
+                                        "2772 1400", 
+                                        "2592 1226"
+                                    ]
+                                }, 
+                                "index": 4
+                            }, 
+                            {
+                                "contour": "contour.127", 
+                                "index": 1
+                            }, 
+                            {
+                                "contour": {
+                                    "id": "contour.128", 
+                                    "nodes": [
+                                        "400 0", 
+                                        "440 0", 
+                                        "440 1300", 
+                                        "440 1400", 
+                                        "400 1400"
+                                    ]
+                                }, 
+                                "index": 1
+                            }, 
+                            {
+                                "contour": "contour.128", 
+                                "index": 0
+                            }, 
+                            {
+                                "contour": {
+                                    "id": "contour.129", 
+                                    "nodes": [
+                                        "1532 204", 
+                                        "2682 1276", 
+                                        "2838 1400", 
+                                        "2762 1400", 
+                                        "1652 366"
+                                    ]
+                                }, 
+                                "index": 1
+                            }, 
+                            {
+                                "contour": "contour.129", 
+                                "index": 0
                             }
                         ]
                     }
                 }
             ], 
-            "name": "Exp Ctr", 
-            "advanceWidth": 2538, 
-            "color": "#809693", 
-            "metricsLeft": "=n", 
             "flags": 0, 
-            "metricsRight": "=lsb(\"n\")"
+            "metricsLeft": "=n", 
+            "metricsRight": "=lsb(\"n\")", 
+            "name": "Exp Ctr"
         }, 
         {
+            "advanceWidth": 2189, 
             "autoRecipe": "=M", 
+            "color": "#c8675e", 
             "elements": [
                 {
                     "elementData": {
@@ -171,15 +174,15 @@
                     }
                 }
             ], 
-            "name": "Lt Exp Ctr", 
-            "advanceWidth": 2189, 
-            "color": "#c8675e", 
-            "metricsLeft": "=n", 
             "flags": 0, 
-            "metricsRight": "=lsb(\"n\")"
+            "metricsLeft": "=n", 
+            "metricsRight": "=lsb(\"n\")", 
+            "name": "Lt Exp Ctr"
         }, 
         {
+            "advanceWidth": 1411, 
             "autoRecipe": "=M", 
+            "color": "#997d87", 
             "elements": [
                 {
                     "elementData": {
@@ -207,51 +210,51 @@
                     }
                 }
             ], 
-            "name": "Blk Cnd Ctr", 
-            "advanceWidth": 1411, 
-            "color": "#997d87", 
-            "metricsLeft": "=n", 
             "flags": 0, 
-            "metricsRight": "=lsb(\"n\")"
+            "metricsLeft": "=n", 
+            "metricsRight": "=lsb(\"n\")", 
+            "name": "Blk Cnd Ctr"
         }, 
         {
+            "advanceWidth": 894, 
             "autoRecipe": "=M", 
+            "color": "#8fb0ff", 
             "elements": [
                 {
                     "elementData": {
                         "contours": [
                             {
                                 "nodes": [
-                                    "106 0", 
-                                    "142 0", 
-                                    "142 773", 
-                                    "131 773", 
-                                    "368 142", 
-                                    "606 773", 
-                                    "582 773", 
-                                    "582 0", 
-                                    "830 0", 
-                                    "830 1000", 
-                                    "655 1000", 
-                                    "460 480", 
-                                    "482 480", 
-                                    "287 1000", 
-                                    "106 1000"
+                                    "85 0", 
+                                    "121 0", 
+                                    "121 773", 
+                                    "110 773", 
+                                    "347 142", 
+                                    "585 773", 
+                                    "561 773", 
+                                    "561 0", 
+                                    "809 0", 
+                                    "809 1000", 
+                                    "634 1000", 
+                                    "439 480", 
+                                    "461 480", 
+                                    "266 1000", 
+                                    "85 1000"
                                 ]
                             }
                         ]
                     }
                 }
             ], 
-            "name": "Cnd Ctr", 
-            "advanceWidth": 936, 
-            "color": "#8fb0ff", 
-            "metricsLeft": "=n", 
             "flags": 0, 
-            "metricsRight": "=lsb(\"n\")"
+            "metricsLeft": "=n", 
+            "metricsRight": "=lsb(\"n\")", 
+            "name": "Cnd Ctr"
         }, 
         {
+            "advanceWidth": 628, 
             "autoRecipe": "=M", 
+            "color": "#4e8e82", 
             "elements": [
                 {
                     "elementData": {
@@ -279,12 +282,7 @@
                     }
                 }
             ], 
-            "name": "Lt Cnd Ctr", 
-            "advanceWidth": 628, 
-            "color": "#4e8e82", 
-            "metricsLeft": "=n", 
             "flags": 0, 
-            "metricsRight": "=lsb(\"n\")", 
             "guidelines": [
                 {
                     "position": -4177.54, 
@@ -298,10 +296,16 @@
                     "position": -2975.54, 
                     "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=n", 
+            "metricsRight": "=lsb(\"n\")", 
+            "name": "Lt Cnd Ctr"
         }, 
         {
+            "active": true, 
+            "advanceWidth": 1806, 
             "autoRecipe": "=M", 
+            "color": "#b69762", 
             "elements": [
                 {
                     "elementData": {
@@ -329,15 +333,15 @@
                     }
                 }
             ], 
-            "name": "Blk Ctr", 
-            "advanceWidth": 1806, 
-            "color": "#b69762", 
-            "metricsLeft": "=n", 
             "flags": 0, 
-            "metricsRight": "=lsb(\"n\")"
+            "metricsLeft": "=n", 
+            "metricsRight": "=lsb(\"n\")", 
+            "name": "Blk Ctr"
         }, 
         {
+            "advanceWidth": 1531, 
             "autoRecipe": "=M", 
+            "color": "#26d283", 
             "elements": [
                 {
                     "elementData": {
@@ -365,15 +369,15 @@
                     }
                 }
             ], 
-            "name": "Ctr", 
-            "advanceWidth": 1531, 
-            "color": "#26d283", 
-            "metricsLeft": "=n", 
             "flags": 0, 
-            "metricsRight": "=lsb(\"n\")"
+            "metricsLeft": "=n", 
+            "metricsRight": "=lsb(\"n\")", 
+            "name": "Ctr"
         }, 
         {
+            "advanceWidth": 1462, 
             "autoRecipe": "=M", 
+            "color": "#9061ff", 
             "elements": [
                 {
                     "elementData": {
@@ -401,94 +405,94 @@
                     }
                 }
             ], 
-            "name": "Lt Ctr", 
-            "advanceWidth": 1462, 
-            "color": "#9061ff", 
-            "metricsLeft": "=n", 
             "flags": 0, 
-            "metricsRight": "=lsb(\"n\")"
+            "metricsLeft": "=n", 
+            "metricsRight": "=lsb(\"n\")", 
+            "name": "Lt Ctr"
         }, 
         {
+            "advanceWidth": 2630, 
             "autoRecipe": "=M", 
+            "color": "#b07733", 
             "elements": [
                 {
                     "elementData": {
                         "contours": [
                             {
                                 "nodes": [
-                                    "270 0", 
-                                    "734 0", 
-                                    "734 745", 
-                                    "477 745", 
-                                    "1332 35", 
-                                    "2174 745", 
-                                    "1928 745", 
-                                    "1928 0", 
-                                    "2452 0", 
-                                    "2452 1024", 
-                                    "1978 1024", 
-                                    "1245 410", 
-                                    "1489 410", 
-                                    "744 1024", 
-                                    "270 1024"
+                                    "224 0", 
+                                    "688 0", 
+                                    "688 745", 
+                                    "431 745", 
+                                    "1286 35", 
+                                    "2128 745", 
+                                    "1882 745", 
+                                    "1882 0", 
+                                    "2406 0", 
+                                    "2406 1024", 
+                                    "1932 1024", 
+                                    "1199 410", 
+                                    "1443 410", 
+                                    "698 1024", 
+                                    "224 1024"
                                 ]
                             }
                         ]
                     }
                 }
             ], 
-            "name": "Blk Exp", 
-            "advanceWidth": 2722, 
-            "color": "#b07733", 
-            "metricsLeft": "=n", 
             "flags": 0, 
-            "metricsRight": "=lsb(\"n\")", 
             "guidelines": [
                 {
+                    "center": "1315 0", 
                     "color": "red", 
-                    "vector": "0 -1415.22", 
-                    "center": "1361 0"
+                    "vector": "0 -1415.22"
                 }
-            ]
+            ], 
+            "metricsLeft": "=n", 
+            "metricsRight": "=lsb(\"n\")", 
+            "name": "Blk Exp"
         }, 
         {
+            "advanceWidth": 2306, 
             "autoRecipe": "=M", 
+            "color": "#d2afb9", 
             "elements": [
                 {
                     "elementData": {
                         "contours": [
                             {
                                 "nodes": [
-                                    "288 0", 
-                                    "516 0", 
-                                    "516 848", 
-                                    "353.099 848", 
-                                    "1202 140", 
-                                    "2050.9 848", 
-                                    "1881 848", 
-                                    "1881 0", 
-                                    "2129 0", 
-                                    "2129 1000", 
-                                    "1894 1000", 
-                                    "1165 392", 
-                                    "1252 392", 
-                                    "523 1000", 
-                                    "288 1000"
+                                    "233 0", 
+                                    "461 0", 
+                                    "461 848", 
+                                    "298 848", 
+                                    "1147 140", 
+                                    "1996 848", 
+                                    "1826 848", 
+                                    "1826 0", 
+                                    "2074 0", 
+                                    "2074 1000", 
+                                    "1839 1000", 
+                                    "1110 392", 
+                                    "1197 392", 
+                                    "468 1000", 
+                                    "233 1000"
                                 ]
                             }
                         ]
                     }
                 }
             ], 
-            "name": "Exp", 
-            "advanceWidth": 2417, 
-            "color": "#d2afb9", 
-            "metricsLeft": "=n", 
             "flags": 0, 
-            "metricsRight": "=lsb(\"n\")"
+            "metricsLeft": "=n", 
+            "metricsRight": "=lsb(\"n\")", 
+            "name": "Exp"
         }, 
         {
+            "advanceWidth": 2189, 
             "autoRecipe": "=M", 
+            "color": "#de4d8a", 
             "elements": [
                 {
                     "elementData": {
@@ -516,22 +520,22 @@
                     }
                 }
             ], 
-            "name": "Lt Exp", 
-            "advanceWidth": 2189, 
-            "color": "#de4d8a", 
-            "metricsLeft": "=n", 
             "flags": 0, 
-            "metricsRight": "=lsb(\"n\")", 
             "guidelines": [
                 {
+                    "center": "1095 0", 
                     "color": "red", 
-                    "vector": "0 -1086.33", 
-                    "center": "1095 0"
+                    "vector": "0 -1086.33"
                 }
-            ]
+            ], 
+            "metricsLeft": "=n", 
+            "metricsRight": "=lsb(\"n\")", 
+            "name": "Lt Exp"
         }, 
         {
+            "advanceWidth": 1422, 
             "autoRecipe": "=M", 
+            "color": "#3989c2", 
             "elements": [
                 {
                     "elementData": {
@@ -559,16 +563,16 @@
                     }
                 }
             ], 
-            "name": "Blk Cnd", 
-            "advanceWidth": 1422, 
-            "color": "#3989c2", 
-            "metricsLeft": "=n", 
-            "note": "Initial, Revisit", 
             "flags": 0, 
-            "metricsRight": "=lsb(\"n\")"
+            "metricsLeft": "=n", 
+            "metricsRight": "=lsb(\"n\")", 
+            "name": "Blk Cnd", 
+            "note": "Initial, Revisit"
         }, 
         {
+            "advanceWidth": 912, 
             "autoRecipe": "=M", 
+            "color": "#1f964d", 
             "elements": [
                 {
                     "active": true, 
@@ -597,22 +601,22 @@
                     }
                 }
             ], 
-            "name": "Cnd", 
-            "advanceWidth": 912, 
-            "color": "#1f964d", 
-            "metricsLeft": "=n", 
             "flags": 0, 
-            "metricsRight": "=lsb(\"n\")", 
             "guidelines": [
                 {
+                    "center": "456 0", 
                     "color": "red", 
-                    "vector": "0 -456", 
-                    "center": "456 0"
+                    "vector": "0 -456"
                 }
-            ]
+            ], 
+            "metricsLeft": "=n", 
+            "metricsRight": "=lsb(\"n\")", 
+            "name": "Cnd"
         }, 
         {
+            "advanceWidth": 628, 
             "autoRecipe": "=M", 
+            "color": "#fe4a46", 
             "elements": [
                 {
                     "elementData": {
@@ -640,22 +644,22 @@
                     }
                 }
             ], 
-            "name": "Lt Cnd", 
-            "advanceWidth": 628, 
-            "color": "#fe4a46", 
-            "metricsLeft": "=n", 
             "flags": 0, 
-            "metricsRight": "=lsb(\"n\")", 
             "guidelines": [
                 {
+                    "center": "313.90 0", 
                     "color": "red", 
-                    "vector": "0 -313.90", 
-                    "center": "313.90 0"
+                    "vector": "0 -313.90"
                 }
-            ]
+            ], 
+            "metricsLeft": "=n", 
+            "metricsRight": "=lsb(\"n\")", 
+            "name": "Lt Cnd"
         }, 
         {
+            "advanceWidth": 1730, 
             "autoRecipe": "=M", 
+            "color": "#ff34ff", 
             "elements": [
                 {
                     "elementData": {
@@ -683,23 +687,22 @@
                     }
                 }
             ], 
-            "name": "Blk", 
-            "advanceWidth": 1730, 
-            "color": "#ff34ff", 
-            "metricsLeft": "=n", 
             "flags": 0, 
-            "active": true, 
-            "metricsRight": "=lsb(\"n\")", 
             "guidelines": [
                 {
+                    "center": "865 0", 
                     "color": "red", 
-                    "vector": "0 -858.97", 
-                    "center": "865 0"
+                    "vector": "0 -858.97"
                 }
-            ]
+            ], 
+            "metricsLeft": "=n", 
+            "metricsRight": "=lsb(\"n\")", 
+            "name": "Blk"
         }, 
         {
+            "advanceWidth": 1571, 
             "autoRecipe": "=M", 
+            "color": "#00cce5", 
             "elements": [
                 {
                     "elementData": {
@@ -727,15 +730,15 @@
                     }
                 }
             ], 
-            "name": "Medium", 
-            "advanceWidth": 1571, 
-            "color": "#00cce5", 
-            "metricsLeft": "=n", 
             "flags": 0, 
-            "metricsRight": "=lsb(\"n\")"
+            "metricsLeft": "=n", 
+            "metricsRight": "=lsb(\"n\")", 
+            "name": "Medium"
         }, 
         {
+            "advanceWidth": 1462, 
             "autoRecipe": "=M", 
+            "color": "#bac000", 
             "elements": [
                 {
                     "elementData": {
@@ -763,25 +766,22 @@
                     }
                 }
             ], 
-            "name": "Lt", 
-            "advanceWidth": 1462, 
-            "color": "#bac000", 
-            "metricsLeft": "=n", 
             "flags": 0, 
-            "metricsRight": "=lsb(\"n\")", 
             "guidelines": [
                 {
-                    "position": 931, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": 931
                 }
-            ]
+            ], 
+            "metricsLeft": "=n", 
+            "metricsRight": "=lsb(\"n\")", 
+            "name": "Lt"
         }
     ], 
-    "lastModified": "2019-09-12 12:40:23", 
     "name": "uni043C", 
-    "unicode": "043c", 
     "tags": [
         "cyr", 
         "V"
-    ]
+    ], 
+    "unicode": "043c"
 }

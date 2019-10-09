@@ -1,7 +1,16 @@
 {
+    "lastModified": "2019-10-08 14:34:50", 
     "layers": [
         {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1174"
+                }
+            ], 
             "autoRecipe": "=hyphen", 
+            "color": "#b9baa2", 
             "elements": [
                 {
                     "component": {
@@ -13,54 +22,26 @@
                     }
                 }
             ], 
-            "name": "Blk Exp Ctr", 
-            "advanceWidth": 0, 
-            "color": "#b9baa2", 
+            "flags": 0, 
             "guidelines": [
                 {
-                    "position": 612, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": 612
                 }
             ], 
-            "flags": 0, 
             "metricsWidth": "=0", 
+            "name": "Blk Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_top", 
                     "point": "0 1174"
                 }
-            ]
-        }, 
-        {
-            "autoRecipe": "=hyphen", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "hyphen"
-                    }, 
-                    "locked": true
-                }
             ], 
-            "name": "Exp Ctr", 
-            "advanceWidth": 0, 
+            "autoRecipe": "=hyphen", 
             "color": "#809693", 
-            "guidelines": [
-                {
-                    "position": 600, 
-                    "horizontal": true
-                }
-            ], 
-            "flags": 0, 
-            "metricsWidth": "=0", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1174"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=hyphen", 
             "elements": [
                 {
                     "component": {
@@ -69,26 +50,26 @@
                     "locked": true
                 }
             ], 
-            "name": "Lt Exp Ctr", 
+            "flags": 0, 
+            "guidelines": [
+                {
+                    "horizontal": true, 
+                    "position": 600
+                }
+            ], 
+            "metricsWidth": "=0", 
+            "name": "Exp Ctr"
+        }, 
+        {
             "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1174"
+                }
+            ], 
+            "autoRecipe": "=hyphen", 
             "color": "#c8675e", 
-            "guidelines": [
-                {
-                    "position": 600, 
-                    "horizontal": true
-                }
-            ], 
-            "flags": 0, 
-            "metricsWidth": "=0", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1174"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=hyphen", 
             "elements": [
                 {
                     "component": {
@@ -97,26 +78,26 @@
                     "locked": true
                 }
             ], 
-            "name": "Blk Cnd Ctr", 
+            "flags": 0, 
+            "guidelines": [
+                {
+                    "horizontal": true, 
+                    "position": 600
+                }
+            ], 
+            "metricsWidth": "=0", 
+            "name": "Lt Exp Ctr"
+        }, 
+        {
             "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1174"
+                }
+            ], 
+            "autoRecipe": "=hyphen", 
             "color": "#997d87", 
-            "guidelines": [
-                {
-                    "position": 612, 
-                    "horizontal": true
-                }
-            ], 
-            "flags": 0, 
-            "metricsWidth": "=0", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1174"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=hyphen", 
             "elements": [
                 {
                     "component": {
@@ -125,54 +106,57 @@
                     "locked": true
                 }
             ], 
-            "name": "Cnd Ctr", 
+            "flags": 0, 
+            "guidelines": [
+                {
+                    "horizontal": true, 
+                    "position": 612
+                }
+            ], 
+            "metricsWidth": "=0", 
+            "name": "Blk Cnd Ctr"
+        }, 
+        {
             "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1174"
+                }
+            ], 
+            "autoRecipe": "=hyphen", 
             "color": "#8fb0ff", 
-            "guidelines": [
-                {
-                    "position": 600, 
-                    "horizontal": true
-                }
-            ], 
-            "flags": 0, 
-            "metricsWidth": "=0", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1174"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=hyphen", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "hyphen"
                     }, 
-                    "locked": true
+                    "locked": true, 
+                    "transform": {
+                        "xOffset": -19.6
+                    }
                 }
             ], 
-            "name": "Lt Cnd Ctr", 
+            "flags": 0, 
+            "guidelines": [
+                {
+                    "horizontal": true, 
+                    "position": 600
+                }
+            ], 
+            "metricsWidth": "=0", 
+            "name": "Cnd Ctr"
+        }, 
+        {
             "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1174"
+                }
+            ], 
+            "autoRecipe": "=hyphen", 
             "color": "#4e8e82", 
-            "guidelines": [
-                {
-                    "position": 600, 
-                    "horizontal": true
-                }
-            ], 
-            "flags": 0, 
-            "metricsWidth": "=0", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1174"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=hyphen", 
             "elements": [
                 {
                     "component": {
@@ -181,279 +165,27 @@
                     "locked": true
                 }
             ], 
-            "name": "Blk Ctr", 
-            "advanceWidth": 0, 
-            "color": "#b69762", 
+            "flags": 0, 
             "guidelines": [
                 {
-                    "position": 612, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": 600
                 }
             ], 
-            "flags": 0, 
             "metricsWidth": "=0", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1174"
-                }
-            ]
+            "name": "Lt Cnd Ctr"
         }, 
         {
-            "autoRecipe": "=hyphen", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "hyphen"
-                    }, 
-                    "locked": true
-                }
-            ], 
-            "name": "Ctr", 
-            "advanceWidth": 0, 
-            "color": "#26d283", 
-            "guidelines": [
-                {
-                    "position": 600, 
-                    "horizontal": true
-                }
-            ], 
-            "flags": 0, 
-            "metricsWidth": "=0", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1174"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=hyphen", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "hyphen"
-                    }, 
-                    "locked": true
-                }
-            ], 
-            "name": "Lt Ctr", 
-            "advanceWidth": 0, 
-            "color": "#9061ff", 
-            "guidelines": [
-                {
-                    "position": 600, 
-                    "horizontal": true
-                }
-            ], 
-            "flags": 0, 
-            "metricsWidth": "=0", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1174"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=hyphen", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "hyphen"
-                    }, 
-                    "locked": true
-                }
-            ], 
-            "name": "Blk Exp", 
-            "advanceWidth": 0, 
-            "color": "#b07733", 
-            "guidelines": [
-                {
-                    "position": 610, 
-                    "horizontal": true
-                }
-            ], 
-            "flags": 0, 
-            "metricsWidth": "=0", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1174"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=hyphen", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "hyphen"
-                    }, 
-                    "locked": true
-                }
-            ], 
-            "name": "Exp", 
-            "advanceWidth": 0, 
-            "color": "#d2afb9", 
-            "guidelines": [
-                {
-                    "position": 600, 
-                    "horizontal": true
-                }
-            ], 
-            "flags": 0, 
-            "metricsWidth": "=0", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1174"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=hyphen", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "hyphen"
-                    }, 
-                    "locked": true
-                }
-            ], 
-            "name": "Lt Exp", 
-            "advanceWidth": 0, 
-            "color": "#de4d8a", 
-            "guidelines": [
-                {
-                    "position": 600, 
-                    "horizontal": true
-                }
-            ], 
-            "flags": 0, 
-            "metricsWidth": "=0", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1174"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=hyphen", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "hyphen"
-                    }, 
-                    "locked": true
-                }
-            ], 
-            "name": "Blk Cnd", 
-            "advanceWidth": 0, 
-            "color": "#3989c2", 
-            "guidelines": [
-                {
-                    "position": 610, 
-                    "horizontal": true
-                }
-            ], 
-            "flags": 0, 
-            "metricsWidth": "=0", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1174"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=hyphen", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "hyphen"
-                    }, 
-                    "locked": true
-                }
-            ], 
-            "name": "Cnd", 
-            "advanceWidth": 0, 
-            "color": "#1f964d", 
-            "guidelines": [
-                {
-                    "position": 600, 
-                    "horizontal": true
-                }
-            ], 
-            "flags": 0, 
-            "metricsWidth": "=0", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1174"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=hyphen", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "hyphen"
-                    }, 
-                    "locked": true
-                }
-            ], 
-            "name": "Lt Cnd", 
-            "advanceWidth": 0, 
-            "color": "#fe4a46", 
-            "guidelines": [
-                {
-                    "position": 600, 
-                    "horizontal": true
-                }
-            ], 
-            "flags": 0, 
-            "metricsWidth": "=0", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1174"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=hyphen", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "hyphen"
-                    }, 
-                    "locked": true
-                }
-            ], 
-            "name": "Blk", 
-            "advanceWidth": 0, 
-            "color": "#ff34ff", 
-            "guidelines": [
-                {
-                    "position": 612, 
-                    "horizontal": true
-                }
-            ], 
-            "flags": 0, 
             "active": true, 
-            "metricsWidth": "=0", 
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_top", 
                     "point": "0 1174"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=hyphen", 
+            "color": "#b69762", 
             "elements": [
                 {
                     "component": {
@@ -462,26 +194,313 @@
                     "locked": true
                 }
             ], 
-            "name": "Medium", 
+            "flags": 0, 
+            "guidelines": [
+                {
+                    "horizontal": true, 
+                    "position": 612
+                }
+            ], 
+            "metricsWidth": "=0", 
+            "name": "Blk Ctr"
+        }, 
+        {
             "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1174"
+                }
+            ], 
+            "autoRecipe": "=hyphen", 
+            "color": "#26d283", 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "hyphen"
+                    }, 
+                    "locked": true
+                }
+            ], 
+            "flags": 0, 
+            "guidelines": [
+                {
+                    "horizontal": true, 
+                    "position": 600
+                }
+            ], 
+            "metricsWidth": "=0", 
+            "name": "Ctr"
+        }, 
+        {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1174"
+                }
+            ], 
+            "autoRecipe": "=hyphen", 
+            "color": "#9061ff", 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "hyphen"
+                    }, 
+                    "locked": true
+                }
+            ], 
+            "flags": 0, 
+            "guidelines": [
+                {
+                    "horizontal": true, 
+                    "position": 600
+                }
+            ], 
+            "metricsWidth": "=0", 
+            "name": "Lt Ctr"
+        }, 
+        {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1174"
+                }
+            ], 
+            "autoRecipe": "=hyphen", 
+            "color": "#b07733", 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "hyphen"
+                    }, 
+                    "locked": true, 
+                    "transform": {
+                        "xOffset": -28
+                    }
+                }
+            ], 
+            "flags": 0, 
+            "guidelines": [
+                {
+                    "horizontal": true, 
+                    "position": 610
+                }
+            ], 
+            "metricsWidth": "=0", 
+            "name": "Blk Exp"
+        }, 
+        {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1174"
+                }
+            ], 
+            "autoRecipe": "=hyphen", 
+            "color": "#d2afb9", 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "hyphen"
+                    }, 
+                    "locked": true, 
+                    "transform": {
+                        "xOffset": -7
+                    }
+                }
+            ], 
+            "flags": 0, 
+            "guidelines": [
+                {
+                    "horizontal": true, 
+                    "position": 600
+                }
+            ], 
+            "metricsWidth": "=0", 
+            "name": "Exp"
+        }, 
+        {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1174"
+                }
+            ], 
+            "autoRecipe": "=hyphen", 
+            "color": "#de4d8a", 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "hyphen"
+                    }, 
+                    "locked": true
+                }
+            ], 
+            "flags": 0, 
+            "guidelines": [
+                {
+                    "horizontal": true, 
+                    "position": 600
+                }
+            ], 
+            "metricsWidth": "=0", 
+            "name": "Lt Exp"
+        }, 
+        {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1174"
+                }
+            ], 
+            "autoRecipe": "=hyphen", 
+            "color": "#3989c2", 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "hyphen"
+                    }, 
+                    "locked": true
+                }
+            ], 
+            "flags": 0, 
+            "guidelines": [
+                {
+                    "horizontal": true, 
+                    "position": 610
+                }
+            ], 
+            "metricsWidth": "=0", 
+            "name": "Blk Cnd"
+        }, 
+        {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1174"
+                }
+            ], 
+            "autoRecipe": "=hyphen", 
+            "color": "#1f964d", 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "hyphen"
+                    }, 
+                    "locked": true
+                }
+            ], 
+            "flags": 0, 
+            "guidelines": [
+                {
+                    "horizontal": true, 
+                    "position": 600
+                }
+            ], 
+            "metricsWidth": "=0", 
+            "name": "Cnd"
+        }, 
+        {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1174"
+                }
+            ], 
+            "autoRecipe": "=hyphen", 
+            "color": "#fe4a46", 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "hyphen"
+                    }, 
+                    "locked": true
+                }
+            ], 
+            "flags": 0, 
+            "guidelines": [
+                {
+                    "horizontal": true, 
+                    "position": 600
+                }
+            ], 
+            "metricsWidth": "=0", 
+            "name": "Lt Cnd"
+        }, 
+        {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1174"
+                }
+            ], 
+            "autoRecipe": "=hyphen", 
+            "color": "#ff34ff", 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "hyphen"
+                    }, 
+                    "locked": true
+                }
+            ], 
+            "flags": 0, 
+            "guidelines": [
+                {
+                    "horizontal": true, 
+                    "position": 612
+                }
+            ], 
+            "metricsWidth": "=0", 
+            "name": "Blk"
+        }, 
+        {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1174"
+                }
+            ], 
+            "autoRecipe": "=hyphen", 
             "color": "#00cce5", 
-            "guidelines": [
+            "elements": [
                 {
-                    "position": 600, 
-                    "horizontal": true
+                    "active": true, 
+                    "component": {
+                        "glyphName": "hyphen"
+                    }, 
+                    "locked": true
                 }
             ], 
             "flags": 0, 
+            "guidelines": [
+                {
+                    "horizontal": true, 
+                    "position": 600
+                }
+            ], 
             "metricsWidth": "=0", 
+            "name": "Medium"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_top", 
                     "point": "0 1174"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=hyphen", 
+            "color": "#bac000", 
             "elements": [
                 {
                     "component": {
@@ -490,26 +509,17 @@
                     "locked": true
                 }
             ], 
-            "name": "Lt", 
-            "advanceWidth": 0, 
-            "color": "#bac000", 
+            "flags": 0, 
             "guidelines": [
                 {
-                    "position": 600, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": 600
                 }
             ], 
-            "flags": 0, 
             "metricsWidth": "=0", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1174"
-                }
-            ]
+            "name": "Lt"
         }
     ], 
-    "lastModified": "2019-10-08 14:34:50", 
     "name": "uni0335", 
     "unicode": "0335"
 }

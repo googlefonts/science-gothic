@@ -1,7 +1,16 @@
 {
+    "lastModified": "2019-10-05 07:05:02", 
     "layers": [
         {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_bottom", 
+                    "point": "0 -150"
+                }
+            ], 
             "autoRecipe": "=uni0307@,-", 
+            "color": "#b9baa2", 
             "elements": [
                 {
                     "active": true, 
@@ -14,115 +23,25 @@
                     }
                 }
             ], 
-            "name": "Blk Exp Ctr", 
-            "advanceWidth": 0, 
-            "color": "#b9baa2", 
+            "flags": 0, 
             "guidelines": [
                 {
-                    "position": -100, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": -100
                 }
             ], 
-            "flags": 0, 
+            "name": "Blk Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
                     "point": "0 -150"
                 }
-            ]
-        }, 
-        {
-            "autoRecipe": "=uni0307@,-", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "uni0307"
-                    }, 
-                    "locked": true, 
-                    "transform": {
-                        "yOffset": -1491
-                    }
-                }
             ], 
-            "name": "Exp Ctr", 
-            "advanceWidth": 0, 
+            "autoRecipe": "=uni0307@,-", 
             "color": "#809693", 
-            "guidelines": [
-                {
-                    "position": -100, 
-                    "horizontal": true
-                }
-            ], 
-            "flags": 0, 
-            "anchors": [
-                {
-                    "name": "_bottom", 
-                    "point": "0 -150"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=uni0307@,-", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "uni0307"
-                    }, 
-                    "locked": true, 
-                    "transform": {
-                        "yOffset": -1409
-                    }
-                }
-            ], 
-            "name": "Lt Exp Ctr", 
-            "advanceWidth": 0, 
-            "color": "#c8675e", 
-            "guidelines": [
-                {
-                    "position": -100, 
-                    "horizontal": true
-                }
-            ], 
-            "flags": 0, 
-            "anchors": [
-                {
-                    "name": "_bottom", 
-                    "point": "0 -150"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=uni0307@,-", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "uni0307"
-                    }, 
-                    "locked": true, 
-                    "transform": {
-                        "yOffset": -1551
-                    }
-                }
-            ], 
-            "name": "Blk Cnd Ctr", 
-            "advanceWidth": 0, 
-            "color": "#997d87", 
-            "guidelines": [
-                {
-                    "position": -100, 
-                    "horizontal": true
-                }
-            ], 
-            "flags": 0, 
-            "anchors": [
-                {
-                    "name": "_bottom", 
-                    "point": "0 -150"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=uni0307@,-", 
             "elements": [
                 {
                     "component": {
@@ -134,25 +53,25 @@
                     }
                 }
             ], 
-            "name": "Cnd Ctr", 
-            "advanceWidth": 0, 
-            "color": "#8fb0ff", 
+            "flags": 0, 
             "guidelines": [
                 {
-                    "position": -100, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": -100
                 }
             ], 
-            "flags": 0, 
+            "name": "Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
                     "point": "0 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=uni0307@,-", 
+            "color": "#c8675e", 
             "elements": [
                 {
                     "component": {
@@ -164,25 +83,25 @@
                     }
                 }
             ], 
-            "name": "Lt Cnd Ctr", 
-            "advanceWidth": 0, 
-            "color": "#4e8e82", 
+            "flags": 0, 
             "guidelines": [
                 {
-                    "position": -100, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": -100
                 }
             ], 
-            "flags": 0, 
+            "name": "Lt Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
                     "point": "0 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=uni0307@,-", 
+            "color": "#997d87", 
             "elements": [
                 {
                     "component": {
@@ -194,25 +113,116 @@
                     }
                 }
             ], 
-            "name": "Blk Ctr", 
-            "advanceWidth": 0, 
-            "color": "#b69762", 
+            "flags": 0, 
             "guidelines": [
                 {
-                    "position": -100, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": -100
                 }
             ], 
-            "flags": 0, 
+            "name": "Blk Cnd Ctr"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
                     "point": "0 -150"
                 }
-            ]
+            ], 
+            "autoRecipe": "=uni0307@,-", 
+            "color": "#8fb0ff", 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "uni0307"
+                    }, 
+                    "locked": true, 
+                    "transform": {
+                        "yOffset": -1491
+                    }
+                }
+            ], 
+            "flags": 0, 
+            "guidelines": [
+                {
+                    "horizontal": true, 
+                    "position": -100
+                }
+            ], 
+            "name": "Cnd Ctr"
         }, 
         {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_bottom", 
+                    "point": "0 -150"
+                }
+            ], 
             "autoRecipe": "=uni0307@,-", 
+            "color": "#4e8e82", 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "uni0307"
+                    }, 
+                    "locked": true, 
+                    "transform": {
+                        "yOffset": -1409
+                    }
+                }
+            ], 
+            "flags": 0, 
+            "guidelines": [
+                {
+                    "horizontal": true, 
+                    "position": -100
+                }
+            ], 
+            "name": "Lt Cnd Ctr"
+        }, 
+        {
+            "active": true, 
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_bottom", 
+                    "point": "0 -150"
+                }
+            ], 
+            "autoRecipe": "=uni0307@,-", 
+            "color": "#b69762", 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "uni0307"
+                    }, 
+                    "locked": true, 
+                    "transform": {
+                        "yOffset": -1551
+                    }
+                }
+            ], 
+            "flags": 0, 
+            "guidelines": [
+                {
+                    "horizontal": true, 
+                    "position": -100
+                }
+            ], 
+            "name": "Blk Ctr"
+        }, 
+        {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_bottom", 
+                    "point": "0 -150"
+                }
+            ], 
+            "autoRecipe": "=uni0307@,-", 
+            "color": "#26d283", 
             "elements": [
                 {
                     "component": {
@@ -224,25 +234,25 @@
                     }
                 }
             ], 
-            "name": "Ctr", 
-            "advanceWidth": 0, 
-            "color": "#26d283", 
+            "flags": 0, 
             "guidelines": [
                 {
-                    "position": -100, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": -100
                 }
             ], 
-            "flags": 0, 
+            "name": "Ctr"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
                     "point": "0 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=uni0307@,-", 
+            "color": "#9061ff", 
             "elements": [
                 {
                     "component": {
@@ -254,25 +264,25 @@
                     }
                 }
             ], 
-            "name": "Lt Ctr", 
-            "advanceWidth": 0, 
-            "color": "#9061ff", 
+            "flags": 0, 
             "guidelines": [
                 {
-                    "position": -100, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": -100
                 }
             ], 
-            "flags": 0, 
+            "name": "Lt Ctr"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
                     "point": "0 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=uni0307@,-", 
+            "color": "#b07733", 
             "elements": [
                 {
                     "component": {
@@ -284,25 +294,25 @@
                     }
                 }
             ], 
-            "name": "Blk Exp", 
-            "advanceWidth": 0, 
-            "color": "#b07733", 
+            "flags": 0, 
             "guidelines": [
                 {
-                    "position": -100, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": -100
                 }
             ], 
-            "flags": 0, 
+            "name": "Blk Exp"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
                     "point": "0 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=uni0307@,-", 
+            "color": "#d2afb9", 
             "elements": [
                 {
                     "component": {
@@ -314,25 +324,25 @@
                     }
                 }
             ], 
-            "name": "Exp", 
-            "advanceWidth": 0, 
-            "color": "#d2afb9", 
+            "flags": 0, 
             "guidelines": [
                 {
-                    "position": -100, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": -100
                 }
             ], 
-            "flags": 0, 
+            "name": "Exp"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
                     "point": "0 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=uni0307@,-", 
+            "color": "#de4d8a", 
             "elements": [
                 {
                     "component": {
@@ -344,25 +354,25 @@
                     }
                 }
             ], 
-            "name": "Lt Exp", 
-            "advanceWidth": 0, 
-            "color": "#de4d8a", 
+            "flags": 0, 
             "guidelines": [
                 {
-                    "position": -100, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": -100
                 }
             ], 
-            "flags": 0, 
+            "name": "Lt Exp"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
                     "point": "0 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=uni0307@,-", 
+            "color": "#3989c2", 
             "elements": [
                 {
                     "component": {
@@ -374,25 +384,25 @@
                     }
                 }
             ], 
-            "name": "Blk Cnd", 
-            "advanceWidth": 0, 
-            "color": "#3989c2", 
+            "flags": 0, 
             "guidelines": [
                 {
-                    "position": -100, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": -100
                 }
             ], 
-            "flags": 0, 
+            "name": "Blk Cnd"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
                     "point": "0 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=uni0307@,-", 
+            "color": "#1f964d", 
             "elements": [
                 {
                     "component": {
@@ -404,25 +414,25 @@
                     }
                 }
             ], 
-            "name": "Cnd", 
-            "advanceWidth": 0, 
-            "color": "#1f964d", 
+            "flags": 0, 
             "guidelines": [
                 {
-                    "position": -100, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": -100
                 }
             ], 
-            "flags": 0, 
+            "name": "Cnd"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
                     "point": "0 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=uni0307@,-", 
+            "color": "#fe4a46", 
             "elements": [
                 {
                     "component": {
@@ -434,25 +444,25 @@
                     }
                 }
             ], 
-            "name": "Lt Cnd", 
-            "advanceWidth": 0, 
-            "color": "#fe4a46", 
+            "flags": 0, 
             "guidelines": [
                 {
-                    "position": -100, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": -100
                 }
             ], 
-            "flags": 0, 
+            "name": "Lt Cnd"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
                     "point": "0 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=uni0307@,-", 
+            "color": "#ff34ff", 
             "elements": [
                 {
                     "component": {
@@ -464,26 +474,25 @@
                     }
                 }
             ], 
-            "name": "Blk", 
-            "advanceWidth": 0, 
-            "color": "#ff34ff", 
+            "flags": 0, 
             "guidelines": [
                 {
-                    "position": -100, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": -100
                 }
             ], 
-            "flags": 0, 
-            "active": true, 
+            "name": "Blk"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
                     "point": "0 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=uni0307@,-", 
+            "color": "#00cce5", 
             "elements": [
                 {
                     "component": {
@@ -495,25 +504,25 @@
                     }
                 }
             ], 
-            "name": "Medium", 
-            "advanceWidth": 0, 
-            "color": "#00cce5", 
+            "flags": 0, 
             "guidelines": [
                 {
-                    "position": -100, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": -100
                 }
             ], 
-            "flags": 0, 
+            "name": "Medium"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_bottom", 
                     "point": "0 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=uni0307@,-", 
+            "color": "#bac000", 
             "elements": [
                 {
                     "active": true, 
@@ -526,25 +535,16 @@
                     }
                 }
             ], 
-            "name": "Lt", 
-            "advanceWidth": 0, 
-            "color": "#bac000", 
+            "flags": 0, 
             "guidelines": [
                 {
-                    "position": -100, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": -100
                 }
             ], 
-            "flags": 0, 
-            "anchors": [
-                {
-                    "name": "_bottom", 
-                    "point": "0 -150"
-                }
-            ]
+            "name": "Lt"
         }
     ], 
-    "lastModified": "2019-10-05 07:05:02", 
     "name": "uni0323", 
     "unicode": "0323"
 }

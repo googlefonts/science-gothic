@@ -1,31 +1,8 @@
 {
+    "lastModified": "2019-10-09 01:54:43", 
     "layers": [
         {
-            "autoRecipe": "=u+uni0304@top", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "u"
-                    }, 
-                    "locked": true
-                }, 
-                {
-                    "component": {
-                        "glyphName": "uni0304"
-                    }, 
-                    "nonSpacing": true, 
-                    "locked": true, 
-                    "transform": {
-                        "xOffset": 1272, 
-                        "yOffset": 24
-                    }
-                }
-            ], 
-            "name": "Blk Exp Ctr", 
             "advanceWidth": 2543, 
-            "color": "#b9baa2", 
-            "colorFlag": 61, 
-            "flags": 16, 
             "anchors": [
                 {
                     "name": "top", 
@@ -34,34 +11,36 @@
                 {
                     "name": "bottom", 
                     "point": "1272 -150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "1947 0"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=u+uni0304@top", 
+            "color": "#b9baa2", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "u"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
                         "glyphName": "uni0304"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 1183
+                        "xOffset": 1272, 
+                        "yOffset": 24
                     }
                 }
             ], 
-            "name": "Exp Ctr", 
-            "advanceWidth": 2366, 
-            "color": "#809693", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Blk Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 2366, 
             "anchors": [
                 {
                     "name": "top", 
@@ -70,35 +49,35 @@
                 {
                     "name": "bottom", 
                     "point": "1183 -160"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "1728 -10"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=u+uni0304@top", 
+            "color": "#809693", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "u"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
                         "glyphName": "uni0304"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 1024, 
-                        "yOffset": -50
+                        "xOffset": 1183
                     }
                 }
             ], 
-            "name": "Lt Exp Ctr", 
-            "advanceWidth": 2047, 
-            "color": "#c8675e", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 2047, 
             "anchors": [
                 {
                     "name": "top", 
@@ -107,35 +86,36 @@
                 {
                     "name": "bottom", 
                     "point": "1024 -150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "1563 0"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=u+uni0304@top", 
+            "color": "#c8675e", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "u"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
                         "glyphName": "uni0304"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 640, 
-                        "yOffset": -26
+                        "xOffset": 1024, 
+                        "yOffset": -50
                     }
                 }
             ], 
-            "name": "Blk Cnd Ctr", 
-            "advanceWidth": 1280, 
-            "color": "#997d87", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Lt Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 1280, 
             "anchors": [
                 {
                     "name": "top", 
@@ -144,72 +124,74 @@
                 {
                     "name": "bottom", 
                     "point": "640 -150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "964 0"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=u+uni0304@top", 
+            "color": "#997d87", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "u"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
                         "glyphName": "uni0304"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 406, 
-                        "yOffset": -50
+                        "xOffset": 640, 
+                        "yOffset": -26
                     }
                 }
             ], 
-            "name": "Cnd Ctr", 
-            "advanceWidth": 812, 
-            "color": "#8fb0ff", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Blk Cnd Ctr"
+        }, 
+        {
+            "advanceWidth": 770, 
             "anchors": [
                 {
                     "name": "top", 
-                    "point": "406 1150"
+                    "point": "385 1150"
                 }, 
                 {
                     "name": "bottom", 
-                    "point": "406 -164"
+                    "point": "385 -164"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "447 -14"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=u+uni0304@top", 
+            "color": "#8fb0ff", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "u"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
                         "glyphName": "uni0304"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 253, 
+                        "xOffset": 385, 
                         "yOffset": -50
                     }
                 }
             ], 
-            "name": "Lt Cnd Ctr", 
-            "advanceWidth": 506, 
-            "color": "#4e8e82", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Cnd Ctr"
+        }, 
+        {
+            "advanceWidth": 506, 
             "anchors": [
                 {
                     "name": "top", 
@@ -218,35 +200,37 @@
                 {
                     "name": "bottom", 
                     "point": "253 -150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "284 0"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=u+uni0304@top", 
+            "color": "#4e8e82", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "u"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
                         "glyphName": "uni0304"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 816, 
-                        "yOffset": -26
+                        "xOffset": 253, 
+                        "yOffset": -50
                     }
                 }
             ], 
-            "name": "Blk Ctr", 
-            "advanceWidth": 1632, 
-            "color": "#b69762", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Lt Cnd Ctr"
+        }, 
+        {
+            "active": true, 
+            "advanceWidth": 1632, 
             "anchors": [
                 {
                     "name": "top", 
@@ -255,35 +239,36 @@
                 {
                     "name": "bottom", 
                     "point": "816 -150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "1210 0"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=u+uni0304@top", 
+            "color": "#b69762", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "u"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
                         "glyphName": "uni0304"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 706, 
-                        "yOffset": -50
+                        "xOffset": 816, 
+                        "yOffset": -26
                     }
                 }
             ], 
-            "name": "Ctr", 
-            "advanceWidth": 1412, 
-            "color": "#26d283", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Blk Ctr"
+        }, 
+        {
+            "advanceWidth": 1412, 
             "anchors": [
                 {
                     "name": "top", 
@@ -292,35 +277,36 @@
                 {
                     "name": "bottom", 
                     "point": "706 -150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "976 -11"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=u+uni0304@top", 
+            "color": "#26d283", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "u"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
                         "glyphName": "uni0304"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 659, 
+                        "xOffset": 706, 
                         "yOffset": -50
                     }
                 }
             ], 
-            "name": "Lt Ctr", 
-            "advanceWidth": 1318, 
-            "color": "#9061ff", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Ctr"
+        }, 
+        {
+            "advanceWidth": 1318, 
             "anchors": [
                 {
                     "name": "top", 
@@ -329,108 +315,111 @@
                 {
                     "name": "bottom", 
                     "point": "659 -150"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=u+uni0304@top", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "u"
-                    }, 
-                    "locked": true
                 }, 
                 {
-                    "component": {
-                        "glyphName": "uni0304"
-                    }, 
-                    "nonSpacing": true, 
-                    "locked": true, 
-                    "transform": {
-                        "xOffset": 1182, 
-                        "yOffset": 24
-                    }
+                    "name": "ogonek", 
+                    "point": "919 0"
                 }
             ], 
-            "name": "Blk Exp", 
-            "advanceWidth": 2363, 
-            "color": "#b07733", 
-            "colorFlag": 61, 
-            "flags": 16, 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "1182 1174"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "1182 -150"
-                }
-            ]
-        }, 
-        {
             "autoRecipe": "=u+uni0304@top", 
+            "color": "#9061ff", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "u"
-                    }, 
-                    "locked": true
-                }, 
-                {
-                    "component": {
-                        "glyphName": "uni0304"
-                    }, 
-                    "nonSpacing": true, 
-                    "locked": true, 
-                    "transform": {
-                        "xOffset": 1071
                     }
-                }
-            ], 
-            "name": "Exp", 
-            "advanceWidth": 2142, 
-            "color": "#d2afb9", 
-            "colorFlag": 61, 
-            "flags": 16, 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "1071 1150"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "1071 -160"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=u+uni0304@top", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "u"
-                    }, 
-                    "locked": true
                 }, 
                 {
                     "component": {
                         "glyphName": "uni0304"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 1026, 
+                        "xOffset": 659, 
                         "yOffset": -50
                     }
                 }
             ], 
-            "name": "Lt Exp", 
-            "advanceWidth": 2047, 
-            "color": "#de4d8a", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Lt Ctr"
+        }, 
+        {
+            "advanceWidth": 2271, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "1136 1174"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "1136 -150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "1811 0"
+                }
+            ], 
+            "autoRecipe": "=u+uni0304@top", 
+            "color": "#b07733", 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "u"
+                    }
+                }, 
+                {
+                    "component": {
+                        "glyphName": "uni0304"
+                    }, 
+                    "nonSpacing": true, 
+                    "transform": {
+                        "xOffset": 1136, 
+                        "yOffset": 24
+                    }
+                }
+            ], 
+            "flags": 16, 
+            "name": "Blk Exp"
+        }, 
+        {
+            "advanceWidth": 2031, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "1016 1150"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "1016 -160"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "1561 -10"
+                }
+            ], 
+            "autoRecipe": "=u+uni0304@top", 
+            "color": "#d2afb9", 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "u"
+                    }
+                }, 
+                {
+                    "component": {
+                        "glyphName": "uni0304"
+                    }, 
+                    "nonSpacing": true, 
+                    "transform": {
+                        "xOffset": 1016
+                    }
+                }
+            ], 
+            "flags": 16, 
+            "name": "Exp"
+        }, 
+        {
+            "advanceWidth": 2047, 
             "anchors": [
                 {
                     "name": "top", 
@@ -439,34 +428,36 @@
                 {
                     "name": "bottom", 
                     "point": "1024 -150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "1563 0"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=u+uni0304@top", 
+            "color": "#de4d8a", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "u"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
                         "glyphName": "uni0304"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 634
+                        "xOffset": 1026, 
+                        "yOffset": -50
                     }
                 }
             ], 
-            "name": "Blk Cnd", 
-            "advanceWidth": 1268, 
-            "color": "#3989c2", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Lt Exp"
+        }, 
+        {
+            "advanceWidth": 1268, 
             "anchors": [
                 {
                     "name": "top", 
@@ -475,34 +466,35 @@
                 {
                     "name": "bottom", 
                     "point": "634 -150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "958 0"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=u+uni0304@top", 
+            "color": "#3989c2", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "u"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
                         "glyphName": "uni0304"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 365
+                        "xOffset": 634
                     }
                 }
             ], 
-            "name": "Cnd", 
-            "advanceWidth": 730, 
-            "color": "#1f964d", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Blk Cnd"
+        }, 
+        {
+            "advanceWidth": 730, 
             "anchors": [
                 {
                     "name": "top", 
@@ -511,35 +503,35 @@
                 {
                     "name": "bottom", 
                     "point": "365 -164"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "427 -14"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=u+uni0304@top", 
+            "color": "#1f964d", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "u"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
                         "glyphName": "uni0304"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 253, 
-                        "yOffset": -50
+                        "xOffset": 365
                     }
                 }
             ], 
-            "name": "Lt Cnd", 
-            "advanceWidth": 506, 
-            "color": "#fe4a46", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Cnd"
+        }, 
+        {
+            "advanceWidth": 506, 
             "anchors": [
                 {
                     "name": "top", 
@@ -548,35 +540,36 @@
                 {
                     "name": "bottom", 
                     "point": "253 -150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "284 0"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=u+uni0304@top", 
+            "color": "#fe4a46", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "u"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
                         "glyphName": "uni0304"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 766
+                        "xOffset": 253, 
+                        "yOffset": -50
                     }
                 }
             ], 
-            "name": "Blk", 
-            "advanceWidth": 1532, 
-            "color": "#ff34ff", 
-            "colorFlag": 61, 
             "flags": 16, 
-            "active": true, 
+            "name": "Lt Cnd"
+        }, 
+        {
+            "advanceWidth": 1532, 
             "anchors": [
                 {
                     "name": "top", 
@@ -585,34 +578,35 @@
                 {
                     "name": "bottom", 
                     "point": "766 -150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "1160 0"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=u+uni0304@top", 
+            "color": "#ff34ff", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "u"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
                         "glyphName": "uni0304"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 688
+                        "xOffset": 766
                     }
                 }
             ], 
-            "name": "Medium", 
-            "advanceWidth": 1376, 
-            "color": "#00cce5", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Blk"
+        }, 
+        {
+            "advanceWidth": 1376, 
             "anchors": [
                 {
                     "name": "top", 
@@ -621,35 +615,35 @@
                 {
                     "name": "bottom", 
                     "point": "688 -160"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "958 -11"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=u+uni0304@top", 
+            "color": "#00cce5", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "u"
-                    }, 
-                    "locked": true
+                    }
                 }, 
                 {
                     "component": {
                         "glyphName": "uni0304"
                     }, 
                     "nonSpacing": true, 
-                    "locked": true, 
                     "transform": {
-                        "xOffset": 659, 
-                        "yOffset": -50
+                        "xOffset": 688
                     }
                 }
             ], 
-            "name": "Lt", 
-            "advanceWidth": 1318, 
-            "color": "#bac000", 
-            "colorFlag": 61, 
             "flags": 16, 
+            "name": "Medium"
+        }, 
+        {
+            "advanceWidth": 1318, 
             "anchors": [
                 {
                     "name": "top", 
@@ -658,12 +652,35 @@
                 {
                     "name": "bottom", 
                     "point": "659 -150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "919 0"
                 }
-            ]
+            ], 
+            "autoRecipe": "=u+uni0304@top", 
+            "color": "#bac000", 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "u"
+                    }
+                }, 
+                {
+                    "component": {
+                        "glyphName": "uni0304"
+                    }, 
+                    "nonSpacing": true, 
+                    "transform": {
+                        "xOffset": 659, 
+                        "yOffset": -50
+                    }
+                }
+            ], 
+            "flags": 16, 
+            "name": "Lt"
         }
     ], 
-    "lastModified": "2019-10-08 15:04:09", 
-    "colorFlag": 61, 
     "name": "umacron", 
     "unicode": "016b"
 }

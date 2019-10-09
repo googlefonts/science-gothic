@@ -1,20 +1,9 @@
 {
+    "colorFlag": 210, 
+    "lastModified": "2019-10-09 01:54:43", 
     "layers": [
         {
-            "autoRecipe": "=B", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "B"
-                    }, 
-                    "locked": true
-                }
-            ], 
-            "name": "Blk Exp Ctr", 
             "advanceWidth": 3207, 
-            "color": "#b9baa2", 
-            "colorFlag": 210, 
-            "flags": 16, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -28,23 +17,22 @@
                     "name": "bottom", 
                     "point": "1604 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=B", 
+            "color": "#b9baa2", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "B"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Exp Ctr", 
-            "advanceWidth": 2886, 
-            "color": "#809693", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Blk Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 2886, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -58,23 +46,22 @@
                     "name": "bottom", 
                     "point": "1443 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=B", 
+            "color": "#809693", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "B"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Lt Exp Ctr", 
-            "advanceWidth": 2606, 
-            "color": "#c8675e", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 2606, 
             "anchors": [
                 {
                     "name": "top", 
@@ -84,23 +71,22 @@
                     "name": "bottom", 
                     "point": "1303 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=B", 
+            "color": "#c8675e", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "B"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Blk Cnd Ctr", 
-            "advanceWidth": 1395, 
-            "color": "#997d87", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Lt Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 1395, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -114,53 +100,51 @@
                     "name": "bottom", 
                     "point": "698 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=B", 
+            "color": "#997d87", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "B"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Cnd Ctr", 
-            "advanceWidth": 936, 
-            "color": "#8fb0ff", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Blk Cnd Ctr"
+        }, 
+        {
+            "advanceWidth": 892, 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_top", 
                     "name": "top", 
-                    "point": "468 1550"
+                    "point": "445 1550"
                 }, 
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_bottom", 
                     "name": "bottom", 
-                    "point": "468 -150"
+                    "point": "445 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=B", 
+            "color": "#8fb0ff", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "B"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Lt Cnd Ctr", 
-            "advanceWidth": 555, 
-            "color": "#4e8e82", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Cnd Ctr"
+        }, 
+        {
+            "advanceWidth": 555, 
             "anchors": [
                 {
                     "name": "top", 
@@ -170,23 +154,23 @@
                     "name": "bottom", 
                     "point": "278 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=B", 
+            "color": "#4e8e82", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "B"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Blk Ctr", 
-            "advanceWidth": 1890, 
-            "color": "#b69762", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Lt Cnd Ctr"
+        }, 
+        {
+            "active": true, 
+            "advanceWidth": 1890, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -200,23 +184,22 @@
                     "name": "bottom", 
                     "point": "945 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=B", 
+            "color": "#b69762", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "B"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Ctr", 
-            "advanceWidth": 1641, 
-            "color": "#26d283", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Blk Ctr"
+        }, 
+        {
+            "advanceWidth": 1641, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -230,23 +213,22 @@
                     "name": "bottom", 
                     "point": "821 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=B", 
+            "color": "#26d283", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "B"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Lt Ctr", 
-            "advanceWidth": 1632, 
-            "color": "#9061ff", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Ctr"
+        }, 
+        {
+            "advanceWidth": 1632, 
             "anchors": [
                 {
                     "name": "top", 
@@ -256,83 +238,80 @@
                     "name": "bottom", 
                     "point": "816 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=B", 
+            "color": "#9061ff", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "B"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Blk Exp", 
-            "advanceWidth": 3298, 
+            "flags": 16, 
+            "name": "Lt Ctr"
+        }, 
+        {
+            "advanceWidth": 3234, 
+            "anchors": [
+                {
+                    "exprX": "width/2", 
+                    "exprY": "diac_UC_top", 
+                    "name": "top", 
+                    "point": "1617 1550"
+                }, 
+                {
+                    "exprX": "width/2", 
+                    "exprY": "diac_UC_bottom", 
+                    "name": "bottom", 
+                    "point": "1617 -150"
+                }
+            ], 
+            "autoRecipe": "=B", 
             "color": "#b07733", 
             "colorFlag": 210, 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "B"
+                    }
+                }
+            ], 
             "flags": 16, 
+            "name": "Blk Exp"
+        }, 
+        {
+            "advanceWidth": 2756, 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_top", 
                     "name": "top", 
-                    "point": "1649 1550"
+                    "point": "1378 1550"
                 }, 
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_bottom", 
                     "name": "bottom", 
-                    "point": "1649 -150"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=B", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "B"
-                    }, 
-                    "locked": true
+                    "point": "1378 -150"
                 }
             ], 
-            "name": "Exp", 
-            "advanceWidth": 2771, 
+            "autoRecipe": "=B", 
             "color": "#d2afb9", 
             "colorFlag": 210, 
-            "flags": 16, 
-            "anchors": [
-                {
-                    "exprX": "width/2", 
-                    "exprY": "diac_UC_top", 
-                    "name": "top", 
-                    "point": "1386 1550"
-                }, 
-                {
-                    "exprX": "width/2", 
-                    "exprY": "diac_UC_bottom", 
-                    "name": "bottom", 
-                    "point": "1386 -150"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=B", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "B"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Lt Exp", 
-            "advanceWidth": 2606, 
-            "color": "#de4d8a", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Exp"
+        }, 
+        {
+            "advanceWidth": 2606, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -346,23 +325,22 @@
                     "name": "bottom", 
                     "point": "1303 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=B", 
+            "color": "#de4d8a", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "B"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Blk Cnd", 
-            "advanceWidth": 1403, 
-            "color": "#3989c2", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Lt Exp"
+        }, 
+        {
+            "advanceWidth": 1403, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -376,23 +354,22 @@
                     "name": "bottom", 
                     "point": "702 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=B", 
+            "color": "#3989c2", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "B"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Cnd", 
-            "advanceWidth": 847, 
-            "color": "#1f964d", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Blk Cnd"
+        }, 
+        {
+            "advanceWidth": 847, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -406,23 +383,22 @@
                     "name": "bottom", 
                     "point": "424 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=B", 
+            "color": "#1f964d", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "B"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Lt Cnd", 
-            "advanceWidth": 555, 
-            "color": "#fe4a46", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Cnd"
+        }, 
+        {
+            "advanceWidth": 555, 
             "anchors": [
                 {
                     "exprY": "diac_UC_top", 
@@ -434,24 +410,22 @@
                     "name": "bottom", 
                     "point": "278 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=B", 
+            "color": "#fe4a46", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "B"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Blk", 
-            "advanceWidth": 1839, 
-            "color": "#ff34ff", 
-            "colorFlag": 210, 
             "flags": 16, 
-            "active": true, 
+            "name": "Lt Cnd"
+        }, 
+        {
+            "advanceWidth": 1839, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -465,23 +439,22 @@
                     "name": "bottom", 
                     "point": "920 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=B", 
+            "color": "#ff34ff", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "B"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Medium", 
-            "advanceWidth": 1596, 
-            "color": "#00cce5", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Blk"
+        }, 
+        {
+            "advanceWidth": 1596, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -495,23 +468,22 @@
                     "name": "bottom", 
                     "point": "798 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=B", 
+            "color": "#00cce5", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "B"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Lt", 
-            "advanceWidth": 1632, 
-            "color": "#bac000", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Medium"
+        }, 
+        {
+            "advanceWidth": 1632, 
             "anchors": [
                 {
                     "exprX": "width/2", 
@@ -525,15 +497,25 @@
                     "name": "bottom", 
                     "point": "816 -150"
                 }
-            ]
+            ], 
+            "autoRecipe": "=B", 
+            "color": "#bac000", 
+            "colorFlag": 210, 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "B"
+                    }
+                }
+            ], 
+            "flags": 16, 
+            "name": "Lt"
         }
     ], 
     "name": "uni0412", 
-    "unicode": "0412", 
     "tags": [
         "cyr", 
         "V"
     ], 
-    "lastModified": "2019-10-08 15:04:09", 
-    "colorFlag": 210
+    "unicode": "0412"
 }

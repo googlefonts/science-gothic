@@ -1,6 +1,8 @@
 {
+    "lastModified": "2019-10-07 17:49:36", 
     "layers": [
         {
+            "advanceWidth": 2827, 
             "color": "#000096", 
             "elements": [
                 {
@@ -47,10 +49,25 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Blk Exp Ctr", 
-            "advanceWidth": 2827
+            "name": "mask.Blk Exp Ctr"
         }, 
         {
+            "advanceWidth": 2827, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "1414 1236"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "1414 -150"
+                }, 
+                {
+                    "name": "left", 
+                    "point": "300 543"
+                }
+            ], 
+            "color": "#b9baa2", 
             "elements": [
                 {
                     "elementData": {
@@ -75,28 +92,13 @@
                     }
                 }
             ], 
-            "name": "Blk Exp Ctr", 
-            "advanceWidth": 2827, 
-            "color": "#b9baa2", 
-            "metricsLeft": "=M", 
             "flags": 0, 
+            "metricsLeft": "=M", 
             "metricsRight": "=M", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "1414 1236"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "1414 -150"
-                }, 
-                {
-                    "name": "left", 
-                    "point": "300 543"
-                }
-            ]
+            "name": "Blk Exp Ctr"
         }, 
         {
+            "advanceWidth": 2800, 
             "color": "#000096", 
             "elements": [
                 {
@@ -143,10 +145,25 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Exp Ctr", 
-            "advanceWidth": 2800
+            "name": "mask.Exp Ctr"
         }, 
         {
+            "advanceWidth": 2808, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "1404 1210"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "1404 -150"
+                }, 
+                {
+                    "name": "left", 
+                    "point": "300 530"
+                }
+            ], 
+            "color": "#809693", 
             "elements": [
                 {
                     "elementData": {
@@ -170,72 +187,72 @@
                         ], 
                         "nodeLinks": [
                             {
-                                "index": 1, 
                                 "contour": {
+                                    "id": "contour.19", 
                                     "nodes": [
                                         "1313 158", 
                                         "2234 966", 
                                         "2386 1060", 
                                         "2291 1060", 
                                         "1399 278"
-                                    ], 
-                                    "id": "contour.21"
-                                }
+                                    ]
+                                }, 
+                                "index": 0
                             }, 
                             {
-                                "index": 1, 
-                                "contour": {
-                                    "nodes": [
-                                        "2149 0", 
-                                        "2400 0", 
-                                        "2400 1060", 
-                                        "2323 1060", 
-                                        "2149 928"
-                                    ], 
-                                    "id": "contour.20"
-                                }
+                                "contour": "contour.19", 
+                                "index": 1
                             }, 
                             {
-                                "index": 1, 
                                 "contour": {
+                                    "id": "contour.20", 
                                     "nodes": [
                                         "392 0", 
                                         "429 0", 
                                         "429 984", 
                                         "431 1060", 
                                         "392 1060"
-                                    ], 
-                                    "id": "contour.19"
-                                }
+                                    ]
+                                }, 
+                                "index": 0
                             }, 
                             {
-                                "index": 0, 
-                                "contour": "contour.19"
-                            }, 
-                            {
-                                "index": 4, 
-                                "contour": "contour.20"
-                            }, 
-                            {
-                                "index": 0, 
-                                "contour": "contour.21"
-                            }, 
-                            {
-                                "index": 1, 
                                 "contour": {
+                                    "id": "contour.21", 
+                                    "nodes": [
+                                        "2149 0", 
+                                        "2400 0", 
+                                        "2400 1060", 
+                                        "2323 1060", 
+                                        "2149 928"
+                                    ]
+                                }, 
+                                "index": 4
+                            }, 
+                            {
+                                "contour": "contour.20", 
+                                "index": 1
+                            }, 
+                            {
+                                "contour": "contour.21", 
+                                "index": 1
+                            }, 
+                            {
+                                "contour": {
+                                    "id": "contour.22", 
                                     "nodes": [
                                         "429 871", 
                                         "1313 158", 
                                         "1463 307", 
                                         "515 1060", 
                                         "429 1060"
-                                    ], 
-                                    "id": "contour.22"
-                                }
+                                    ]
+                                }, 
+                                "index": 1
                             }, 
                             {
-                                "index": 0, 
-                                "contour": "contour.22"
+                                "contour": "contour.22", 
+                                "index": 0
                             }
                         ]
                     }, 
@@ -244,28 +261,13 @@
                     }
                 }
             ], 
-            "name": "Exp Ctr", 
-            "advanceWidth": 2808, 
-            "color": "#809693", 
-            "metricsLeft": "=M", 
             "flags": 0, 
+            "metricsLeft": "=M", 
             "metricsRight": "=M", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "1404 1210"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "1404 -150"
-                }, 
-                {
-                    "name": "left", 
-                    "point": "300 530"
-                }
-            ]
+            "name": "Exp Ctr"
         }, 
         {
+            "advanceWidth": 2509, 
             "color": "#000096", 
             "elements": [
                 {
@@ -312,10 +314,21 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Lt Exp Ctr", 
-            "advanceWidth": 2509
+            "name": "mask.Lt Exp Ctr"
         }, 
         {
+            "advanceWidth": 2514, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "1257 1210"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "1257 -150"
+                }
+            ], 
+            "color": "#c8675e", 
             "elements": [
                 {
                     "elementData": {
@@ -343,24 +356,13 @@
                     }
                 }
             ], 
-            "name": "Lt Exp Ctr", 
-            "advanceWidth": 2514, 
-            "color": "#c8675e", 
-            "metricsLeft": "=M", 
             "flags": 0, 
+            "metricsLeft": "=M", 
             "metricsRight": "=M", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "1257 1210"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "1257 -150"
-                }
-            ]
+            "name": "Lt Exp Ctr"
         }, 
         {
+            "advanceWidth": 1345, 
             "color": "#000096", 
             "elements": [
                 {
@@ -449,10 +451,25 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Blk Cnd Ctr", 
-            "advanceWidth": 1345
+            "name": "mask.Blk Cnd Ctr"
         }, 
         {
+            "advanceWidth": 1373, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "687 1236"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "687 -150"
+                }, 
+                {
+                    "name": "left", 
+                    "point": "-12 543"
+                }
+            ], 
+            "color": "#997d87", 
             "elements": [
                 {
                     "elementData": {
@@ -480,28 +497,13 @@
                     }
                 }
             ], 
-            "name": "Blk Cnd Ctr", 
-            "advanceWidth": 1373, 
-            "color": "#997d87", 
-            "metricsLeft": "=M", 
             "flags": 0, 
+            "metricsLeft": "=M", 
             "metricsRight": "=M", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "687 1236"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "687 -150"
-                }, 
-                {
-                    "name": "left", 
-                    "point": "-12 543"
-                }
-            ]
+            "name": "Blk Cnd Ctr"
         }, 
         {
+            "advanceWidth": 1020, 
             "color": "#000096", 
             "elements": [
                 {
@@ -548,10 +550,25 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Cnd Ctr", 
-            "advanceWidth": 1020
+            "name": "mask.Cnd Ctr"
         }, 
         {
+            "advanceWidth": 967, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "484 1210"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "484 -150"
+                }, 
+                {
+                    "name": "left", 
+                    "point": "6 530"
+                }
+            ], 
+            "color": "#8fb0ff", 
             "elements": [
                 {
                     "elementData": {
@@ -575,32 +592,17 @@
                         ]
                     }, 
                     "transform": {
-                        "xOffset": 38
+                        "xOffset": 10
                     }
                 }
             ], 
-            "name": "Cnd Ctr", 
-            "advanceWidth": 1023, 
-            "color": "#8fb0ff", 
-            "metricsLeft": "=M", 
             "flags": 0, 
+            "metricsLeft": "=M", 
             "metricsRight": "=M", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "512 1210"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "512 -150"
-                }, 
-                {
-                    "name": "left", 
-                    "point": "34 530"
-                }
-            ]
+            "name": "Cnd Ctr"
         }, 
         {
+            "advanceWidth": 661, 
             "color": "#000096", 
             "elements": [
                 {
@@ -647,10 +649,25 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Lt Cnd Ctr", 
-            "advanceWidth": 661
+            "name": "mask.Lt Cnd Ctr"
         }, 
         {
+            "advanceWidth": 663, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "332 1210"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "332 -150"
+                }, 
+                {
+                    "name": "left", 
+                    "point": "-5 530"
+                }
+            ], 
+            "color": "#4e8e82", 
             "elements": [
                 {
                     "elementData": {
@@ -678,12 +695,7 @@
                     }
                 }
             ], 
-            "name": "Lt Cnd Ctr", 
-            "advanceWidth": 663, 
-            "color": "#4e8e82", 
-            "metricsLeft": "=M", 
             "flags": 0, 
-            "metricsRight": "=M", 
             "guidelines": [
                 {
                     "position": -4168, 
@@ -698,22 +710,12 @@
                     "vertical": true
                 }
             ], 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "332 1210"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "332 -150"
-                }, 
-                {
-                    "name": "left", 
-                    "point": "-5 530"
-                }
-            ]
+            "metricsLeft": "=M", 
+            "metricsRight": "=M", 
+            "name": "Lt Cnd Ctr"
         }, 
         {
+            "advanceWidth": 2070, 
             "color": "#000096", 
             "elements": [
                 {
@@ -760,10 +762,26 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Blk Ctr", 
-            "advanceWidth": 2070
+            "name": "mask.Blk Ctr"
         }, 
         {
+            "active": true, 
+            "advanceWidth": 2070, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "1035 1236"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "1035 -150"
+                }, 
+                {
+                    "name": "left", 
+                    "point": "100 543"
+                }
+            ], 
+            "color": "#b69762", 
             "elements": [
                 {
                     "active": true, 
@@ -792,28 +810,13 @@
                     }
                 }
             ], 
-            "name": "Blk Ctr", 
-            "advanceWidth": 2070, 
-            "color": "#b69762", 
-            "metricsLeft": "=M", 
             "flags": 0, 
+            "metricsLeft": "=M", 
             "metricsRight": "=M", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "1035 1236"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "1035 -150"
-                }, 
-                {
-                    "name": "left", 
-                    "point": "100 543"
-                }
-            ]
+            "name": "Blk Ctr"
         }, 
         {
+            "advanceWidth": 1666, 
             "color": "#000096", 
             "elements": [
                 {
@@ -860,10 +863,25 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Ctr", 
-            "advanceWidth": 1666
+            "name": "mask.Ctr"
         }, 
         {
+            "advanceWidth": 1666, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "833 1210"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "833 -150"
+                }, 
+                {
+                    "name": "left", 
+                    "point": "120 530"
+                }
+            ], 
+            "color": "#26d283", 
             "elements": [
                 {
                     "elementData": {
@@ -888,28 +906,13 @@
                     }
                 }
             ], 
-            "name": "Ctr", 
-            "advanceWidth": 1666, 
-            "color": "#26d283", 
-            "metricsLeft": "=M", 
             "flags": 0, 
+            "metricsLeft": "=M", 
             "metricsRight": "=M", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "833 1210"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "833 -150"
-                }, 
-                {
-                    "name": "left", 
-                    "point": "120 530"
-                }
-            ]
+            "name": "Ctr"
         }, 
         {
+            "advanceWidth": 1663, 
             "color": "#000096", 
             "elements": [
                 {
@@ -956,10 +959,25 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Lt Ctr", 
-            "advanceWidth": 1663
+            "name": "mask.Lt Ctr"
         }, 
         {
+            "advanceWidth": 1665, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "833 1210"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "833 -150"
+                }, 
+                {
+                    "name": "left", 
+                    "point": "185 530"
+                }
+            ], 
+            "color": "#9061ff", 
             "elements": [
                 {
                     "elementData": {
@@ -987,28 +1005,13 @@
                     }
                 }
             ], 
-            "name": "Lt Ctr", 
-            "advanceWidth": 1665, 
-            "color": "#9061ff", 
-            "metricsLeft": "=M", 
             "flags": 0, 
+            "metricsLeft": "=M", 
             "metricsRight": "=M", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "833 1210"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "833 -150"
-                }, 
-                {
-                    "name": "left", 
-                    "point": "185 530"
-                }
-            ]
+            "name": "Lt Ctr"
         }, 
         {
+            "advanceWidth": 3073, 
             "color": "#000096", 
             "elements": [
                 {
@@ -1055,10 +1058,25 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Blk Exp", 
-            "advanceWidth": 3073
+            "name": "mask.Blk Exp"
         }, 
         {
+            "advanceWidth": 2993, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "1497 1236"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "1497 -178"
+                }, 
+                {
+                    "name": "left", 
+                    "point": "220 529"
+                }
+            ], 
+            "color": "#b07733", 
             "elements": [
                 {
                     "elementData": {
@@ -1080,31 +1098,19 @@
                                 ]
                             }
                         ]
+                    }, 
+                    "transform": {
+                        "xOffset": -40
                     }
                 }
             ], 
-            "name": "Blk Exp", 
-            "advanceWidth": 3073, 
-            "color": "#b07733", 
-            "metricsLeft": "=M", 
             "flags": 0, 
+            "metricsLeft": "=M", 
             "metricsRight": "=M", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "1537 1236"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "1537 -178"
-                }, 
-                {
-                    "name": "left", 
-                    "point": "260 529"
-                }
-            ]
+            "name": "Blk Exp"
         }, 
         {
+            "advanceWidth": 2753, 
             "color": "#000096", 
             "elements": [
                 {
@@ -1151,10 +1157,25 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Exp", 
-            "advanceWidth": 2753
+            "name": "mask.Exp"
         }, 
         {
+            "advanceWidth": 2733, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "1367 1210"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "1367 -150"
+                }, 
+                {
+                    "name": "left", 
+                    "point": "210 530"
+                }
+            ], 
+            "color": "#d2afb9", 
             "elements": [
                 {
                     "elementData": {
@@ -1176,31 +1197,19 @@
                                 ]
                             }
                         ]
+                    }, 
+                    "transform": {
+                        "xOffset": -10
                     }
                 }
             ], 
-            "name": "Exp", 
-            "advanceWidth": 2753, 
-            "color": "#d2afb9", 
-            "metricsLeft": "=M", 
             "flags": 0, 
+            "metricsLeft": "=M", 
             "metricsRight": "=M", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "1377 1210"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "1377 -150"
-                }, 
-                {
-                    "name": "left", 
-                    "point": "220 530"
-                }
-            ]
+            "name": "Exp"
         }, 
         {
+            "advanceWidth": 2509, 
             "color": "#000096", 
             "elements": [
                 {
@@ -1247,10 +1256,25 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Lt Exp", 
-            "advanceWidth": 2509
+            "name": "mask.Lt Exp"
         }, 
         {
+            "advanceWidth": 2514, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "1257 1210"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "1257 -150"
+                }, 
+                {
+                    "name": "left", 
+                    "point": "250 530"
+                }
+            ], 
+            "color": "#de4d8a", 
             "elements": [
                 {
                     "elementData": {
@@ -1278,28 +1302,13 @@
                     }
                 }
             ], 
-            "name": "Lt Exp", 
-            "advanceWidth": 2514, 
-            "color": "#de4d8a", 
-            "metricsLeft": "=M", 
             "flags": 0, 
+            "metricsLeft": "=M", 
             "metricsRight": "=M", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "1257 1210"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "1257 -150"
-                }, 
-                {
-                    "name": "left", 
-                    "point": "250 530"
-                }
-            ]
+            "name": "Lt Exp"
         }, 
         {
+            "advanceWidth": 1509, 
             "color": "#000096", 
             "elements": [
                 {
@@ -1346,10 +1355,25 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Blk Cnd", 
-            "advanceWidth": 1509
+            "name": "mask.Blk Cnd"
         }, 
         {
+            "advanceWidth": 1509, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "755 1236"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "755 -150"
+                }, 
+                {
+                    "name": "left", 
+                    "point": "-20 543"
+                }
+            ], 
+            "color": "#3989c2", 
             "elements": [
                 {
                     "elementData": {
@@ -1374,28 +1398,13 @@
                     }
                 }
             ], 
-            "name": "Blk Cnd", 
-            "advanceWidth": 1509, 
-            "color": "#3989c2", 
-            "metricsLeft": "=M", 
             "flags": 0, 
+            "metricsLeft": "=M", 
             "metricsRight": "=M", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "755 1236"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "755 -150"
-                }, 
-                {
-                    "name": "left", 
-                    "point": "-20 543"
-                }
-            ]
+            "name": "Blk Cnd"
         }, 
         {
+            "advanceWidth": 906, 
             "color": "#000096", 
             "elements": [
                 {
@@ -1442,10 +1451,25 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Cnd", 
-            "advanceWidth": 906
+            "name": "mask.Cnd"
         }, 
         {
+            "advanceWidth": 906, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "453 1210"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "453 -150"
+                }, 
+                {
+                    "name": "left", 
+                    "point": "-28 530"
+                }
+            ], 
+            "color": "#1f964d", 
             "elements": [
                 {
                     "elementData": {
@@ -1470,28 +1494,13 @@
                     }
                 }
             ], 
-            "name": "Cnd", 
-            "advanceWidth": 906, 
-            "color": "#1f964d", 
-            "metricsLeft": "=M", 
             "flags": 0, 
+            "metricsLeft": "=M", 
             "metricsRight": "=M", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "453 1210"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "453 -150"
-                }, 
-                {
-                    "name": "left", 
-                    "point": "-28 530"
-                }
-            ]
+            "name": "Cnd"
         }, 
         {
+            "advanceWidth": 661, 
             "color": "#000096", 
             "elements": [
                 {
@@ -1538,10 +1547,25 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Lt Cnd", 
-            "advanceWidth": 661
+            "name": "mask.Lt Cnd"
         }, 
         {
+            "advanceWidth": 663, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "332 1210"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "332 -150"
+                }, 
+                {
+                    "name": "left", 
+                    "point": "-5 530"
+                }
+            ], 
+            "color": "#fe4a46", 
             "elements": [
                 {
                     "elementData": {
@@ -1569,28 +1593,13 @@
                     }
                 }
             ], 
-            "name": "Lt Cnd", 
-            "advanceWidth": 663, 
-            "color": "#fe4a46", 
-            "metricsLeft": "=M", 
             "flags": 0, 
+            "metricsLeft": "=M", 
             "metricsRight": "=M", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "332 1210"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "332 -150"
-                }, 
-                {
-                    "name": "left", 
-                    "point": "-5 530"
-                }
-            ]
+            "name": "Lt Cnd"
         }, 
         {
+            "advanceWidth": 1880, 
             "color": "#000096", 
             "elements": [
                 {
@@ -1637,10 +1646,25 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Blk", 
-            "advanceWidth": 1880
+            "name": "mask.Blk"
         }, 
         {
+            "advanceWidth": 1880, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "940 1236"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "940 -150"
+                }, 
+                {
+                    "name": "left", 
+                    "point": "80 543"
+                }
+            ], 
+            "color": "#ff34ff", 
             "elements": [
                 {
                     "elementData": {
@@ -1665,29 +1689,13 @@
                     }
                 }
             ], 
-            "name": "Blk", 
-            "advanceWidth": 1880, 
-            "color": "#ff34ff", 
-            "metricsLeft": "=M", 
             "flags": 0, 
-            "active": true, 
+            "metricsLeft": "=M", 
             "metricsRight": "=M", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "940 1236"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "940 -150"
-                }, 
-                {
-                    "name": "left", 
-                    "point": "80 543"
-                }
-            ]
+            "name": "Blk"
         }, 
         {
+            "advanceWidth": 1708, 
             "color": "#000096", 
             "elements": [
                 {
@@ -1734,10 +1742,25 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Medium", 
-            "advanceWidth": 1708
+            "name": "mask.Medium"
         }, 
         {
+            "advanceWidth": 1708, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "854 1210"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "854 -150"
+                }, 
+                {
+                    "name": "left", 
+                    "point": "100 530"
+                }
+            ], 
+            "color": "#00cce5", 
             "elements": [
                 {
                     "elementData": {
@@ -1762,28 +1785,13 @@
                     }
                 }
             ], 
-            "name": "Medium", 
-            "advanceWidth": 1708, 
-            "color": "#00cce5", 
-            "metricsLeft": "=M", 
             "flags": 0, 
+            "metricsLeft": "=M", 
             "metricsRight": "=M", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "854 1210"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "854 -150"
-                }, 
-                {
-                    "name": "left", 
-                    "point": "100 530"
-                }
-            ]
+            "name": "Medium"
         }, 
         {
+            "advanceWidth": 1663, 
             "color": "#000096", 
             "elements": [
                 {
@@ -1830,10 +1838,25 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Lt", 
-            "advanceWidth": 1663
+            "name": "mask.Lt"
         }, 
         {
+            "advanceWidth": 1665, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "833 1210"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "833 -150"
+                }, 
+                {
+                    "name": "left", 
+                    "point": "185 530"
+                }
+            ], 
+            "color": "#bac000", 
             "elements": [
                 {
                     "elementData": {
@@ -1861,28 +1884,11 @@
                     }
                 }
             ], 
-            "name": "Lt", 
-            "advanceWidth": 1665, 
-            "color": "#bac000", 
-            "metricsLeft": "=M", 
             "flags": 0, 
+            "metricsLeft": "=M", 
             "metricsRight": "=M", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "833 1210"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "833 -150"
-                }, 
-                {
-                    "name": "left", 
-                    "point": "185 530"
-                }
-            ]
+            "name": "Lt"
         }
     ], 
-    "lastModified": "2019-10-07 17:49:36", 
     "name": "m.smcp"
 }

@@ -1,10 +1,15 @@
 {
     "fontMaster": {
+        "ascender": 1472, 
+        "capsHeight": 1400, 
+        "cornerTension": 0.4, 
+        "descender": -428, 
+        "ffn": "Science Gothic Black UltExp", 
         "fontStemsH": [
             {
-                "value": 240, 
                 "name": "I", 
-                "tagsString": "ALL match uc noblank otnone T latn upper references noncomposite"
+                "tagsString": "ALL match uc noblank otnone T latn upper references noncomposite", 
+                "value": 240
             }, 
             {
                 "name": "X", 
@@ -15,29 +20,569 @@
                 "value": 240
             }, 
             {
-                "value": 244, 
                 "name": "C: 244", 
-                "tagsString": "ALL Bos match uc noblank Tos otnone latn upper references noncomposite"
+                "tagsString": "ALL Bos match uc noblank Tos otnone latn upper references noncomposite", 
+                "value": 244
             }, 
             {
-                "value": 42, 
                 "name": "A: 42", 
-                "tagsString": "ALL match uc noblank otnone T latn upper references noncomposite"
+                "tagsString": "ALL match uc noblank otnone T latn upper references noncomposite", 
+                "value": 42
             }, 
             {
-                "value": 204, 
                 "name": "a: 204", 
-                "tagsString": "lower ALL tos match noblank bos lc otnone latn references noncomposite"
+                "tagsString": "lower ALL tos match noblank bos lc otnone latn references noncomposite", 
+                "value": 204
             }, 
             {
-                "value": 224, 
                 "name": "b: 224", 
-                "tagsString": "lower asc ALL tos noblank bos lc otnone nomatch latn noncomposite"
+                "tagsString": "lower asc ALL tos noblank bos lc otnone nomatch latn noncomposite", 
+                "value": 224
             }
         ], 
+        "fontStemsV": [
+            {
+                "name": "I", 
+                "value": 240
+            }, 
+            {
+                "name": "b: 248", 
+                "tagsString": "lower asc ALL tos noblank bos lc otnone nomatch latn noncomposite", 
+                "value": 248
+            }
+        ], 
+        "fontZonesB": [
+            {
+                "name": "base", 
+                "position": 0, 
+                "value": 14
+            }, 
+            {
+                "name": "desc", 
+                "position": -428, 
+                "value": 10
+            }
+        ], 
+        "fontZonesT": [
+            {
+                "name": "xhgt", 
+                "position": 1024, 
+                "value": 10
+            }, 
+            {
+                "name": "caps", 
+                "position": 1400, 
+                "value": 14
+            }, 
+            {
+                "name": "asc", 
+                "position": 1472, 
+                "value": 10
+            }, 
+            {
+                "name": "smcp", 
+                "position": 1086, 
+                "value": 10
+            }
+        ], 
+        "guidelines": [
+            {
+                "expr": "x_height+diac+overLC", 
+                "horizontal": true, 
+                "name": "diac_LC_top_os", 
+                "position": 1154, 
+                "style": "custom", 
+                "tags": [
+                    "lc"
+                ]
+            }, 
+            {
+                "expr": "base-diac-overSC", 
+                "horizontal": true, 
+                "name": "diac_SC_bottom_os", 
+                "position": -154, 
+                "style": "custom", 
+                "tags": [
+                    "sc"
+                ]
+            }, 
+            {
+                "expr": "shgt+diac", 
+                "horizontal": true, 
+                "name": "diac_SC_top", 
+                "position": 1350, 
+                "style": "custom", 
+                "tags": [
+                    "sc"
+                ]
+            }, 
+            {
+                "expr": "shgt+overSC+diac", 
+                "horizontal": true, 
+                "name": "diac_SC_top_os", 
+                "position": 1354, 
+                "style": "custom", 
+                "tags": [
+                    "sc"
+                ]
+            }, 
+            {
+                "expr": "base-diac", 
+                "horizontal": true, 
+                "name": "diac_UC_bottom", 
+                "position": -150, 
+                "style": "custom", 
+                "tags": [
+                    "fig", 
+                    "uc"
+                ]
+            }, 
+            {
+                "expr": "(x_height+caps)/2", 
+                "horizontal": true, 
+                "name": "average_h", 
+                "position": 1200, 
+                "style": "custom", 
+                "tags": [
+                    "punct"
+                ]
+            }, 
+            {
+                "expr": "(x_height+caps)/4", 
+                "horizontal": true, 
+                "name": "average_half", 
+                "position": 600, 
+                "style": "custom", 
+                "tags": [
+                    "punct"
+                ]
+            }, 
+            {
+                "expr": "base", 
+                "horizontal": true, 
+                "name": "base_g", 
+                "style": "custom"
+            }, 
+            {
+                "expr": "descender", 
+                "horizontal": true, 
+                "name": "descender_g", 
+                "position": -428, 
+                "style": "custom", 
+                "tags": [
+                    "desc"
+                ]
+            }, 
+            {
+                "expr": "descender-overLC", 
+                "horizontal": true, 
+                "name": "descender_os", 
+                "position": -432, 
+                "style": "custom", 
+                "tags": [
+                    "desc"
+                ]
+            }, 
+            {
+                "expr": "base-diac", 
+                "horizontal": true, 
+                "name": "diac_LC_bottom", 
+                "position": -150, 
+                "style": "custom", 
+                "tags": [
+                    "lc"
+                ]
+            }, 
+            {
+                "expr": "base-diac-overLC", 
+                "horizontal": true, 
+                "name": "diac_LC_bottom_os", 
+                "position": -154, 
+                "style": "custom", 
+                "tags": [
+                    "lc"
+                ]
+            }, 
+            {
+                "expr": "x_height+diac", 
+                "horizontal": true, 
+                "name": "diac_LC_top", 
+                "position": 1150, 
+                "style": "custom", 
+                "tags": [
+                    "lc"
+                ]
+            }, 
+            {
+                "expr": "base-diac-overUC", 
+                "horizontal": true, 
+                "name": "diac_UC_bottom_os", 
+                "position": -154, 
+                "style": "custom", 
+                "tags": [
+                    "fig", 
+                    "uc"
+                ]
+            }, 
+            {
+                "expr": "caps+diac", 
+                "horizontal": true, 
+                "name": "diac_UC_top", 
+                "position": 1550, 
+                "style": "custom", 
+                "tags": [
+                    "fig", 
+                    "uc"
+                ]
+            }, 
+            {
+                "expr": "caps+diac+overUC", 
+                "horizontal": true, 
+                "name": "diac_UC_top_os", 
+                "position": 1554, 
+                "style": "custom", 
+                "tags": [
+                    "fig", 
+                    "uc"
+                ]
+            }, 
+            {
+                "expr": "x_height/2", 
+                "horizontal": true, 
+                "name": "half_LC", 
+                "position": 500, 
+                "style": "custom", 
+                "tags": [
+                    "lc"
+                ]
+            }, 
+            {
+                "expr": "shgt/2", 
+                "horizontal": true, 
+                "name": "half_SC", 
+                "position": 600, 
+                "style": "custom", 
+                "tags": [
+                    "sc"
+                ]
+            }, 
+            {
+                "expr": "caps/2", 
+                "horizontal": true, 
+                "name": "half_UC", 
+                "position": 700, 
+                "style": "custom", 
+                "tags": [
+                    "fig", 
+                    "uc"
+                ]
+            }, 
+            {
+                "expr": "x_height", 
+                "horizontal": true, 
+                "name": "height_LC", 
+                "position": 1000, 
+                "style": "custom", 
+                "tags": [
+                    "lc"
+                ]
+            }, 
+            {
+                "expr": "shgt", 
+                "horizontal": true, 
+                "name": "height_SC", 
+                "position": 1200, 
+                "style": "custom", 
+                "tags": [
+                    "sc"
+                ]
+            }, 
+            {
+                "expr": "caps", 
+                "horizontal": true, 
+                "name": "height_UC", 
+                "position": 1400, 
+                "style": "custom", 
+                "tags": [
+                    "fig", 
+                    "uc"
+                ]
+            }, 
+            {
+                "expr": "base-overLC", 
+                "horizontal": true, 
+                "name": "over_LC_botton", 
+                "position": -4, 
+                "style": "custom", 
+                "tags": [
+                    "lc"
+                ]
+            }, 
+            {
+                "expr": "descender-overLC", 
+                "horizontal": true, 
+                "name": "over_LC_desc", 
+                "position": -432, 
+                "style": "custom", 
+                "tags": [
+                    "lc"
+                ]
+            }, 
+            {
+                "expr": "x_height+overLC", 
+                "horizontal": true, 
+                "name": "over_LC_top", 
+                "position": 1004, 
+                "style": "custom", 
+                "tags": [
+                    "lc"
+                ]
+            }, 
+            {
+                "expr": "base-overSC", 
+                "horizontal": true, 
+                "name": "over_SC_bottom", 
+                "position": -4, 
+                "style": "custom", 
+                "tags": [
+                    "sc"
+                ]
+            }, 
+            {
+                "expr": "descender-overSC", 
+                "horizontal": true, 
+                "name": "over_SC_desc", 
+                "position": -432, 
+                "style": "custom", 
+                "tags": [
+                    "sc"
+                ]
+            }, 
+            {
+                "expr": "shgt+overSC", 
+                "horizontal": true, 
+                "name": "over_SC_top", 
+                "position": 1204, 
+                "style": "custom", 
+                "tags": [
+                    "sc"
+                ]
+            }, 
+            {
+                "expr": "base-overUC", 
+                "horizontal": true, 
+                "name": "over_UC_bottom", 
+                "position": -4, 
+                "style": "custom", 
+                "tags": [
+                    "fig", 
+                    "uc"
+                ]
+            }, 
+            {
+                "expr": "descender-overUC", 
+                "horizontal": true, 
+                "name": "over_UC_desc", 
+                "position": -432, 
+                "style": "custom", 
+                "tags": [
+                    "fig", 
+                    "uc"
+                ]
+            }, 
+            {
+                "expr": "caps+overUC", 
+                "horizontal": true, 
+                "name": "over_UC_top", 
+                "position": 1404, 
+                "style": "custom", 
+                "tags": [
+                    "fig", 
+                    "uc"
+                ]
+            }, 
+            {
+                "expr": "base+stemhLC", 
+                "horizontal": true, 
+                "name": "stem_LC_bottom", 
+                "position": 32, 
+                "style": "custom", 
+                "tags": [
+                    "lc"
+                ]
+            }, 
+            {
+                "expr": "base+stemhLC-overLC", 
+                "horizontal": true, 
+                "name": "stem_LC_bottom_os", 
+                "position": 28, 
+                "style": "custom", 
+                "tags": [
+                    "lc"
+                ]
+            }, 
+            {
+                "expr": "x_height-stemhLC", 
+                "horizontal": true, 
+                "name": "stem_LC_top", 
+                "position": 968, 
+                "style": "custom", 
+                "tags": [
+                    "lc"
+                ]
+            }, 
+            {
+                "expr": "x_height-stemhLC+overLC", 
+                "horizontal": true, 
+                "name": "stem_LC_top_os", 
+                "position": 972, 
+                "style": "custom", 
+                "tags": [
+                    "lc"
+                ]
+            }, 
+            {
+                "expr": "base+stemhUC", 
+                "horizontal": true, 
+                "name": "stem_UC_bottom", 
+                "position": 36, 
+                "style": "custom", 
+                "tags": [
+                    "fig", 
+                    "uc"
+                ]
+            }, 
+            {
+                "expr": "base+stemhUC-overUC", 
+                "horizontal": true, 
+                "name": "stem_UC_bottom_os", 
+                "position": 32, 
+                "style": "custom", 
+                "tags": [
+                    "fig", 
+                    "uc"
+                ]
+            }, 
+            {
+                "expr": "caps-stemhUC", 
+                "horizontal": true, 
+                "name": "stem_UC_top", 
+                "position": 1364, 
+                "style": "custom", 
+                "tags": [
+                    "fig", 
+                    "uc"
+                ]
+            }, 
+            {
+                "expr": "caps-stemhUC+overUC", 
+                "horizontal": true, 
+                "name": "stem_UC_top_os", 
+                "position": 1368, 
+                "style": "custom", 
+                "tags": [
+                    "fig", 
+                    "uc"
+                ]
+            }, 
+            {
+                "expr": "ascender+overLC", 
+                "horizontal": true, 
+                "name": "ascender_os", 
+                "position": 1452, 
+                "style": "custom", 
+                "tags": [
+                    "asc"
+                ]
+            }, 
+            {
+                "name": "f", 
+                "position": 360, 
+                "style": "custom", 
+                "vertical": true
+            }, 
+            {
+                "name": "f1", 
+                "position": 2672, 
+                "style": "custom", 
+                "vertical": true
+            }
+        ], 
+        "hintingParameters": {
+            "blueScale": 0
+        }, 
+        "kerning": {}, 
+        "lineGap": 200, 
+        "location": {
+            "ct": 0, 
+            "wd": 1000, 
+            "wt": 1000
+        }, 
+        "measurement": 352, 
+        "measurements": {
+            "Ascender": "1472", 
+            "COUNTER": "1460", 
+            "CapsHeight": "1400", 
+            "Contrast_h_v": "79.4", 
+            "Contrast_v_h": "1.26", 
+            "Descender": "-428", 
+            "ItalicAngle": "0", 
+            "OVERSHOOT": "14", 
+            "STEM_H_X": "572", 
+            "STEM_H_Y": "454", 
+            "STEM_O_H_X": "0", 
+            "STEM_O_H_Y": "6.6", 
+            "STEM_O_X": "572", 
+            "STEM_O_Y": "484", 
+            "Tension": "60", 
+            "UP": "-200", 
+            "UT": "100", 
+            "XHeight": "1024", 
+            "counter": "844", 
+            "overshoot": "10", 
+            "stem_h_X": "524", 
+            "stem_h_Y": "302", 
+            "stem_o_X": "524", 
+            "stem_o_Y": "382", 
+            "stem_o_h_X": "0", 
+            "stem_o_h_Y": "26.5"
+        }, 
+        "name": "Blk Exp", 
+        "otherData": {
+            "TtHinter": 1, 
+            "TtHorizSmoothing": 0, 
+            "TtNoSmoothing": 0, 
+            "TtaHintComposites": true, 
+            "TtaHintingLimit": 200, 
+            "TtaHintingRangeMax": 50, 
+            "TtaHintingRangeMin": 8, 
+            "TtaIncreaseXHeight": 11, 
+            "TtaNoClipping": true, 
+            "TtaSharpDw": false, 
+            "TtaSharpGdi": true, 
+            "TtaSharpGray": false, 
+            "hhea_ascender": 1448, 
+            "hhea_descender": -428, 
+            "hhea_line_gap": 200, 
+            "hhea_use_custom": false, 
+            "strikeout_position": 50, 
+            "strikeout_size": 50, 
+            "subscript_x_offset": 0, 
+            "subscript_x_size": 650, 
+            "subscript_y_offset": 75, 
+            "subscript_y_size": 600, 
+            "superscript_x_offset": 0, 
+            "superscript_x_size": 650, 
+            "superscript_y_offset": 350, 
+            "superscript_y_size": 600
+        }, 
         "psn": "ScienceGothic-BlackUltExp", 
-        "weight": 900, 
-        "capsHeight": 1400, 
+        "safeBottom": 500, 
+        "safeTop": 1500, 
+        "slope_name": "Plain", 
+        "tsn": "Black UltraExpanded", 
+        "underlinePosition": -200, 
+        "underlineThickness": 100, 
         "variables": [
             {
                 "name": "diac", 
@@ -92,555 +637,10 @@
                 "value": 78
             }
         ], 
-        "guidelines": [
-            {
-                "style": "custom", 
-                "position": 1154, 
-                "name": "diac_LC_top_os", 
-                "tags": [
-                    "lc"
-                ], 
-                "expr": "x_height+diac+overLC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": -154, 
-                "name": "diac_SC_bottom_os", 
-                "tags": [
-                    "sc"
-                ], 
-                "expr": "base-diac-overSC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 1350, 
-                "name": "diac_SC_top", 
-                "tags": [
-                    "sc"
-                ], 
-                "expr": "shgt+diac", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 1354, 
-                "name": "diac_SC_top_os", 
-                "tags": [
-                    "sc"
-                ], 
-                "expr": "shgt+overSC+diac", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": -150, 
-                "name": "diac_UC_bottom", 
-                "tags": [
-                    "uc", 
-                    "fig"
-                ], 
-                "expr": "base-diac", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 1200, 
-                "name": "average_h", 
-                "tags": [
-                    "punct"
-                ], 
-                "expr": "(x_height+caps)/2", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 600, 
-                "name": "average_half", 
-                "tags": [
-                    "punct"
-                ], 
-                "expr": "(x_height+caps)/4", 
-                "horizontal": true
-            }, 
-            {
-                "expr": "base", 
-                "horizontal": true, 
-                "style": "custom", 
-                "name": "base_g"
-            }, 
-            {
-                "style": "custom", 
-                "position": -428, 
-                "name": "descender_g", 
-                "tags": [
-                    "desc"
-                ], 
-                "expr": "descender", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": -432, 
-                "name": "descender_os", 
-                "tags": [
-                    "desc"
-                ], 
-                "expr": "descender-overLC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": -150, 
-                "name": "diac_LC_bottom", 
-                "tags": [
-                    "lc"
-                ], 
-                "expr": "base-diac", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": -154, 
-                "name": "diac_LC_bottom_os", 
-                "tags": [
-                    "lc"
-                ], 
-                "expr": "base-diac-overLC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 1150, 
-                "name": "diac_LC_top", 
-                "tags": [
-                    "lc"
-                ], 
-                "expr": "x_height+diac", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": -154, 
-                "name": "diac_UC_bottom_os", 
-                "tags": [
-                    "uc", 
-                    "fig"
-                ], 
-                "expr": "base-diac-overUC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 1550, 
-                "name": "diac_UC_top", 
-                "tags": [
-                    "uc", 
-                    "fig"
-                ], 
-                "expr": "caps+diac", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 1554, 
-                "name": "diac_UC_top_os", 
-                "tags": [
-                    "uc", 
-                    "fig"
-                ], 
-                "expr": "caps+diac+overUC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 500, 
-                "name": "half_LC", 
-                "tags": [
-                    "lc"
-                ], 
-                "expr": "x_height/2", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 600, 
-                "name": "half_SC", 
-                "tags": [
-                    "sc"
-                ], 
-                "expr": "shgt/2", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 700, 
-                "name": "half_UC", 
-                "tags": [
-                    "uc", 
-                    "fig"
-                ], 
-                "expr": "caps/2", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 1000, 
-                "name": "height_LC", 
-                "tags": [
-                    "lc"
-                ], 
-                "expr": "x_height", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 1200, 
-                "name": "height_SC", 
-                "tags": [
-                    "sc"
-                ], 
-                "expr": "shgt", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 1400, 
-                "name": "height_UC", 
-                "tags": [
-                    "uc", 
-                    "fig"
-                ], 
-                "expr": "caps", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": -4, 
-                "name": "over_LC_botton", 
-                "tags": [
-                    "lc"
-                ], 
-                "expr": "base-overLC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": -432, 
-                "name": "over_LC_desc", 
-                "tags": [
-                    "lc"
-                ], 
-                "expr": "descender-overLC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 1004, 
-                "name": "over_LC_top", 
-                "tags": [
-                    "lc"
-                ], 
-                "expr": "x_height+overLC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": -4, 
-                "name": "over_SC_bottom", 
-                "tags": [
-                    "sc"
-                ], 
-                "expr": "base-overSC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": -432, 
-                "name": "over_SC_desc", 
-                "tags": [
-                    "sc"
-                ], 
-                "expr": "descender-overSC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 1204, 
-                "name": "over_SC_top", 
-                "tags": [
-                    "sc"
-                ], 
-                "expr": "shgt+overSC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": -4, 
-                "name": "over_UC_bottom", 
-                "tags": [
-                    "uc", 
-                    "fig"
-                ], 
-                "expr": "base-overUC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": -432, 
-                "name": "over_UC_desc", 
-                "tags": [
-                    "uc", 
-                    "fig"
-                ], 
-                "expr": "descender-overUC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 1404, 
-                "name": "over_UC_top", 
-                "tags": [
-                    "uc", 
-                    "fig"
-                ], 
-                "expr": "caps+overUC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 32, 
-                "name": "stem_LC_bottom", 
-                "tags": [
-                    "lc"
-                ], 
-                "expr": "base+stemhLC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 28, 
-                "name": "stem_LC_bottom_os", 
-                "tags": [
-                    "lc"
-                ], 
-                "expr": "base+stemhLC-overLC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 968, 
-                "name": "stem_LC_top", 
-                "tags": [
-                    "lc"
-                ], 
-                "expr": "x_height-stemhLC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 972, 
-                "name": "stem_LC_top_os", 
-                "tags": [
-                    "lc"
-                ], 
-                "expr": "x_height-stemhLC+overLC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 36, 
-                "name": "stem_UC_bottom", 
-                "tags": [
-                    "uc", 
-                    "fig"
-                ], 
-                "expr": "base+stemhUC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 32, 
-                "name": "stem_UC_bottom_os", 
-                "tags": [
-                    "uc", 
-                    "fig"
-                ], 
-                "expr": "base+stemhUC-overUC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 1364, 
-                "name": "stem_UC_top", 
-                "tags": [
-                    "uc", 
-                    "fig"
-                ], 
-                "expr": "caps-stemhUC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 1368, 
-                "name": "stem_UC_top_os", 
-                "tags": [
-                    "uc", 
-                    "fig"
-                ], 
-                "expr": "caps-stemhUC+overUC", 
-                "horizontal": true
-            }, 
-            {
-                "style": "custom", 
-                "position": 1452, 
-                "name": "ascender_os", 
-                "tags": [
-                    "asc"
-                ], 
-                "expr": "ascender+overLC", 
-                "horizontal": true
-            }, 
-            {
-                "position": 360, 
-                "style": "custom", 
-                "name": "f", 
-                "vertical": true
-            }, 
-            {
-                "position": 2672, 
-                "style": "custom", 
-                "name": "f1", 
-                "vertical": true
-            }
-        ], 
-        "width_name": "UltraExpanded", 
-        "otherData": {
-            "TtNoSmoothing": 0, 
-            "hhea_ascender": 1448, 
-            "TtaSharpGdi": true, 
-            "hhea_descender": -428, 
-            "hhea_line_gap": 200, 
-            "superscript_x_size": 650, 
-            "TtaSharpGray": false, 
-            "subscript_y_offset": 75, 
-            "TtaIncreaseXHeight": 11, 
-            "subscript_y_size": 600, 
-            "TtaHintingRangeMin": 8, 
-            "hhea_use_custom": false, 
-            "TtaSharpDw": false, 
-            "superscript_y_size": 600, 
-            "TtaHintComposites": true, 
-            "TtHinter": 1, 
-            "subscript_x_size": 650, 
-            "TtaNoClipping": true, 
-            "TtaHintingLimit": 200, 
-            "TtaHintingRangeMax": 50, 
-            "subscript_x_offset": 0, 
-            "superscript_x_offset": 0, 
-            "superscript_y_offset": 350, 
-            "TtHorizSmoothing": 0, 
-            "strikeout_size": 50, 
-            "strikeout_position": 50
-        }, 
-        "ffn": "Science Gothic Black UltExp", 
-        "underlinePosition": -200, 
-        "lineGap": 200, 
-        "measurement": 352, 
-        "underlineThickness": 100, 
-        "safeBottom": 500, 
-        "tsn": "Black UltraExpanded", 
+        "weight": 900, 
         "weight_name": "Black", 
-        "descender": -428, 
-        "slope_name": "Plain", 
-        "hintingParameters": {
-            "blueScale": 0
-        }, 
-        "name": "Blk Exp", 
-        "cornerTension": 0.4, 
-        "fontZonesB": [
-            {
-                "position": 0, 
-                "name": "base", 
-                "value": 14
-            }, 
-            {
-                "position": -428, 
-                "name": "desc", 
-                "value": 10
-            }
-        ], 
-        "measurements": {
-            "Descender": "-428", 
-            "stem_h_X": "524", 
-            "STEM_O_H_Y": "6.6", 
-            "STEM_O_H_X": "0", 
-            "STEM_H_Y": "454", 
-            "STEM_H_X": "572", 
-            "COUNTER": "1460", 
-            "STEM_O_X": "572", 
-            "STEM_O_Y": "484", 
-            "stem_o_h_X": "0", 
-            "XHeight": "1024", 
-            "Contrast_h_v": "79.4", 
-            "counter": "844", 
-            "Tension": "60", 
-            "stem_h_Y": "302", 
-            "stem_o_h_Y": "26.5", 
-            "CapsHeight": "1400", 
-            "UT": "100", 
-            "OVERSHOOT": "14", 
-            "Ascender": "1472", 
-            "UP": "-200", 
-            "stem_o_X": "524", 
-            "stem_o_Y": "382", 
-            "Contrast_v_h": "1.26", 
-            "ItalicAngle": "0", 
-            "overshoot": "10"
-        }, 
         "width": 9, 
-        "ascender": 1472, 
-        "kerning": {}, 
-        "location": {
-            "wd": 1000, 
-            "wt": 1000, 
-            "ct": 0
-        }, 
-        "xHeight": 1024, 
-        "safeTop": 1500, 
-        "fontZonesT": [
-            {
-                "position": 1024, 
-                "name": "xhgt", 
-                "value": 10
-            }, 
-            {
-                "position": 1400, 
-                "name": "caps", 
-                "value": 14
-            }, 
-            {
-                "position": 1472, 
-                "name": "asc", 
-                "value": 10
-            }, 
-            {
-                "position": 1086, 
-                "name": "smcp", 
-                "value": 10
-            }
-        ], 
-        "fontStemsV": [
-            {
-                "name": "I", 
-                "value": 240
-            }, 
-            {
-                "value": 248, 
-                "name": "b: 248", 
-                "tagsString": "lower asc ALL tos noblank bos lc otnone nomatch latn noncomposite"
-            }
-        ]
+        "width_name": "UltraExpanded", 
+        "xHeight": 1024
     }
 }

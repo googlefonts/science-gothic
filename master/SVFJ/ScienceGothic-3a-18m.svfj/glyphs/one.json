@@ -1,6 +1,10 @@
 {
+    "lastModified": "2019-10-09 01:53:57", 
     "layers": [
         {
+            "advanceHeight": 1448, 
+            "advanceWidth": 1572, 
+            "color": "#b9baa2", 
             "elements": [
                 {
                     "elementData": {
@@ -19,24 +23,24 @@
                     }
                 }
             ], 
-            "name": "Blk Exp Ctr", 
-            "advanceHeight": 1448, 
-            "color": "#b9baa2", 
-            "metricsLeft": "=H*.3", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 786, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 786, 
+                    "vertical": true
                 }
             ], 
-            "advanceWidth": 1572
+            "metricsLeft": "=H*.3", 
+            "metricsRight": "=H", 
+            "name": "Blk Exp Ctr"
         }, 
         {
+            "advanceHeight": 1448, 
+            "advanceWidth": 1182, 
+            "color": "#809693", 
             "elements": [
                 {
                     "elementData": {
@@ -55,24 +59,24 @@
                     }
                 }
             ], 
-            "name": "Exp Ctr", 
-            "advanceHeight": 1448, 
-            "color": "#809693", 
-            "metricsLeft": "=H*.3", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 591, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 591, 
+                    "vertical": true
                 }
             ], 
-            "advanceWidth": 1182
+            "metricsLeft": "=H*.3", 
+            "metricsRight": "=H", 
+            "name": "Exp Ctr"
         }, 
         {
+            "advanceHeight": 1448, 
+            "advanceWidth": 1161, 
+            "color": "#c8675e", 
             "elements": [
                 {
                     "elementData": {
@@ -91,24 +95,23 @@
                     }
                 }
             ], 
-            "name": "Lt Exp Ctr", 
-            "advanceHeight": 1448, 
-            "color": "#c8675e", 
-            "metricsLeft": "=H*.7", 
             "flags": 0, 
-            "metricsRight": "=H*1.4", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 581, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 581, 
+                    "vertical": true
                 }
             ], 
-            "advanceWidth": 1161
+            "metricsLeft": "=H*.7", 
+            "metricsRight": "=H*1.4", 
+            "name": "Lt Exp Ctr"
         }, 
         {
+            "advanceWidth": 870, 
+            "color": "#997d87", 
             "elements": [
                 {
                     "elementData": {
@@ -127,59 +130,59 @@
                     }
                 }
             ], 
-            "name": "Blk Cnd Ctr", 
-            "advanceWidth": 870, 
-            "color": "#997d87", 
-            "metricsLeft": "=H*.3", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 435, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 435, 
+                    "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=H*.3", 
+            "metricsRight": "=H", 
+            "name": "Blk Cnd Ctr"
         }, 
         {
+            "advanceHeight": 1448, 
+            "advanceWidth": 592, 
+            "color": "#8fb0ff", 
             "elements": [
                 {
                     "elementData": {
                         "contours": [
                             {
                                 "nodes": [
-                                    "230 0", 
-                                    "494 0", 
-                                    "494 1414", 
-                                    "40 1324", 
-                                    "40 1287", 
-                                    "230 1324"
+                                    "222 0", 
+                                    "486 0", 
+                                    "486 1414", 
+                                    "32 1324", 
+                                    "32 1287", 
+                                    "222 1324"
                                 ]
                             }
                         ]
                     }
                 }
             ], 
-            "name": "Cnd Ctr", 
-            "advanceHeight": 1448, 
-            "color": "#8fb0ff", 
-            "metricsLeft": "=H*.3", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 314, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 296, 
+                    "vertical": true
                 }
             ], 
-            "advanceWidth": 628
+            "metricsLeft": "=H*.3", 
+            "metricsRight": "=H", 
+            "name": "Cnd Ctr"
         }, 
         {
+            "advanceWidth": 316, 
+            "color": "#4e8e82", 
             "elements": [
                 {
                     "elementData": {
@@ -198,23 +201,24 @@
                     }
                 }
             ], 
-            "name": "Lt Cnd Ctr", 
-            "advanceWidth": 316, 
-            "color": "#4e8e82", 
-            "metricsLeft": "=H*.3", 
             "flags": 0, 
-            "metricsRight": "=H*1.4", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 158, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 158, 
+                    "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=H*.3", 
+            "metricsRight": "=H*1.4", 
+            "name": "Lt Cnd Ctr"
         }, 
         {
+            "active": true, 
+            "advanceWidth": 1112, 
+            "color": "#b69762", 
             "elements": [
                 {
                     "elementData": {
@@ -233,23 +237,24 @@
                     }
                 }
             ], 
-            "name": "Blk Ctr", 
-            "advanceWidth": 1112, 
-            "color": "#b69762", 
-            "metricsLeft": "=H*.3", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 556, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 556, 
+                    "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=H*.3", 
+            "metricsRight": "=H", 
+            "name": "Blk Ctr"
         }, 
         {
+            "advanceHeight": 1448, 
+            "advanceWidth": 820, 
+            "color": "#26d283", 
             "elements": [
                 {
                     "elementData": {
@@ -268,24 +273,24 @@
                     }
                 }
             ], 
-            "name": "Ctr", 
-            "advanceHeight": 1448, 
-            "color": "#26d283", 
-            "metricsLeft": "=H*.3", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 410, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 410, 
+                    "vertical": true
                 }
             ], 
-            "advanceWidth": 820
+            "metricsLeft": "=H*.3", 
+            "metricsRight": "=H", 
+            "name": "Ctr"
         }, 
         {
+            "advanceHeight": 1448, 
+            "advanceWidth": 751, 
+            "color": "#9061ff", 
             "elements": [
                 {
                     "elementData": {
@@ -304,96 +309,96 @@
                     }
                 }
             ], 
-            "name": "Lt Ctr", 
-            "advanceHeight": 1448, 
-            "color": "#9061ff", 
-            "metricsLeft": "=H*.6", 
             "flags": 0, 
-            "metricsRight": "=H*1.1", 
             "guidelines": [
                 {
                     "color": "#666666", 
+                    "expr": "width/2", 
+                    "name": "halfwidth", 
                     "position": 376, 
-                    "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "vertical": true
                 }
             ], 
-            "advanceWidth": 751
+            "metricsLeft": "=H*.6", 
+            "metricsRight": "=H*1.1", 
+            "name": "Lt Ctr"
         }, 
         {
-            "elements": [
-                {
-                    "elementData": {
-                        "contours": [
-                            {
-                                "nodes": [
-                                    "660 0", 
-                                    "1232 0", 
-                                    "1232 1437", 
-                                    "180 1307", 
-                                    "180 905", 
-                                    "660 935"
-                                ]
-                            }
-                        ]
-                    }
-                }
-            ], 
-            "name": "Blk Exp", 
             "advanceHeight": 1448, 
+            "advanceWidth": 1596, 
             "color": "#b07733", 
-            "metricsLeft": "=H*.5", 
-            "flags": 0, 
-            "metricsRight": "=H*1.2", 
-            "guidelines": [
-                {
-                    "color": "#666666", 
-                    "position": 832, 
-                    "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
-                }
-            ], 
-            "advanceWidth": 1664
-        }, 
-        {
             "elements": [
                 {
                     "elementData": {
                         "contours": [
                             {
                                 "nodes": [
-                                    "574 0", 
-                                    "838 0", 
-                                    "838 1414", 
-                                    "160 1292", 
-                                    "160 1122", 
-                                    "574 1144"
+                                    "640 0", 
+                                    "1212 0", 
+                                    "1212 1443", 
+                                    "160 1313", 
+                                    "160 911", 
+                                    "640 941"
                                 ]
                             }
                         ]
                     }
                 }
             ], 
-            "name": "Exp", 
-            "advanceHeight": 1448, 
-            "color": "#d2afb9", 
-            "metricsLeft": "=H*.5", 
             "flags": 0, 
-            "metricsRight": "=H*1.3", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 627, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 798, 
+                    "vertical": true
                 }
             ], 
-            "advanceWidth": 1254
+            "metricsLeft": "=H*.5", 
+            "metricsRight": "=H*1.2", 
+            "name": "Blk Exp"
         }, 
         {
+            "advanceHeight": 1448, 
+            "advanceWidth": 1236, 
+            "color": "#d2afb9", 
+            "elements": [
+                {
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "569 0", 
+                                    "833 0", 
+                                    "833 1414", 
+                                    "155 1292", 
+                                    "155 1122", 
+                                    "569 1144"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ], 
+            "flags": 0, 
+            "guidelines": [
+                {
+                    "color": "#666666", 
+                    "expr": "width/2", 
+                    "name": "halfwidth", 
+                    "position": 618, 
+                    "vertical": true
+                }
+            ], 
+            "metricsLeft": "=H*.5", 
+            "metricsRight": "=H*1.3", 
+            "name": "Exp"
+        }, 
+        {
+            "advanceHeight": 1448, 
+            "advanceWidth": 1161, 
+            "color": "#de4d8a", 
             "elements": [
                 {
                     "elementData": {
@@ -412,24 +417,24 @@
                     }
                 }
             ], 
-            "name": "Lt Exp", 
-            "advanceHeight": 1448, 
-            "color": "#de4d8a", 
-            "metricsLeft": "=H*.7", 
             "flags": 0, 
-            "metricsRight": "=H*1.4", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 581, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 581, 
+                    "vertical": true
                 }
             ], 
-            "advanceWidth": 1161
+            "metricsLeft": "=H*.7", 
+            "metricsRight": "=H*1.4", 
+            "name": "Lt Exp"
         }, 
         {
+            "advanceHeight": 1448, 
+            "advanceWidth": 884, 
+            "color": "#3989c2", 
             "elements": [
                 {
                     "elementData": {
@@ -438,34 +443,34 @@
                                 "nodes": [
                                     "224 0", 
                                     "796 0", 
-                                    "796 1422", 
-                                    "40 1308", 
-                                    "40 906", 
-                                    "224 920"
+                                    "796 1428", 
+                                    "40 1314", 
+                                    "40 912", 
+                                    "224 926"
                                 ]
                             }
                         ]
                     }
                 }
             ], 
-            "name": "Blk Cnd", 
-            "advanceHeight": 1448, 
-            "color": "#3989c2", 
-            "metricsLeft": "=H*.5", 
             "flags": 0, 
-            "metricsRight": "=H*1.1", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 442, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 442, 
+                    "vertical": true
                 }
             ], 
-            "advanceWidth": 884
+            "metricsLeft": "=H*.5", 
+            "metricsRight": "=H*1.1", 
+            "name": "Blk Cnd"
         }, 
         {
+            "advanceHeight": 1448, 
+            "advanceWidth": 584, 
+            "color": "#1f964d", 
             "elements": [
                 {
                     "elementData": {
@@ -484,24 +489,24 @@
                     }
                 }
             ], 
-            "name": "Cnd", 
-            "advanceHeight": 1448, 
-            "color": "#1f964d", 
-            "metricsLeft": "=H*.3", 
             "flags": 0, 
-            "metricsRight": "=H*1.5", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 292, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 292, 
+                    "vertical": true
                 }
             ], 
-            "advanceWidth": 584
+            "metricsLeft": "=H*.3", 
+            "metricsRight": "=H*1.5", 
+            "name": "Cnd"
         }, 
         {
+            "advanceHeight": 1448, 
+            "advanceWidth": 316, 
+            "color": "#fe4a46", 
             "elements": [
                 {
                     "elementData": {
@@ -520,24 +525,24 @@
                     }
                 }
             ], 
-            "name": "Lt Cnd", 
-            "advanceHeight": 1448, 
-            "color": "#fe4a46", 
-            "metricsLeft": "=H*.3", 
             "flags": 0, 
-            "metricsRight": "=H*1.4", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 158, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 158, 
+                    "vertical": true
                 }
             ], 
-            "advanceWidth": 316
+            "metricsLeft": "=H*.3", 
+            "metricsRight": "=H*1.4", 
+            "name": "Lt Cnd"
         }, 
         {
+            "advanceHeight": 1448, 
+            "advanceWidth": 1104, 
+            "color": "#ff34ff", 
             "elements": [
                 {
                     "elementData": {
@@ -546,35 +551,34 @@
                                 "nodes": [
                                     "352 0", 
                                     "924 0", 
-                                    "924 1424", 
-                                    "72 1310", 
-                                    "72 908", 
-                                    "352 922"
+                                    "924 1430", 
+                                    "72 1316", 
+                                    "72 914", 
+                                    "352 928"
                                 ]
                             }
                         ]
                     }
                 }
             ], 
-            "name": "Blk", 
-            "advanceHeight": 1448, 
-            "color": "#ff34ff", 
-            "metricsLeft": "=H*.4", 
             "flags": 0, 
-            "active": true, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 552, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 552, 
+                    "vertical": true
                 }
             ], 
-            "advanceWidth": 1104
+            "metricsLeft": "=H*.4", 
+            "metricsRight": "=H", 
+            "name": "Blk"
         }, 
         {
+            "advanceHeight": 1448, 
+            "advanceWidth": 854, 
+            "color": "#00cce5", 
             "elements": [
                 {
                     "elementData": {
@@ -593,24 +597,22 @@
                     }
                 }
             ], 
-            "name": "Medium", 
-            "advanceHeight": 1448, 
-            "color": "#00cce5", 
-            "metricsLeft": "=H*.4", 
             "flags": 0, 
-            "metricsRight": "=H*1.2", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 427, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 427, 
+                    "vertical": true
                 }
             ], 
-            "advanceWidth": 854
+            "metricsLeft": "=H*.4", 
+            "metricsRight": "=H*1.2", 
+            "name": "Medium"
         }, 
         {
+            "advanceWidth": 950, 
             "color": "#000096", 
             "elements": [
                 {
@@ -637,10 +639,12 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Lt", 
-            "advanceWidth": 950
+            "name": "mask.Lt"
         }, 
         {
+            "advanceHeight": 1448, 
+            "advanceWidth": 751, 
+            "color": "#bac000", 
             "elements": [
                 {
                     "elementData": {
@@ -659,28 +663,24 @@
                     }
                 }
             ], 
-            "name": "Lt", 
-            "advanceHeight": 1448, 
-            "color": "#bac000", 
-            "metricsLeft": "=H*.6", 
             "flags": 0, 
-            "metricsRight": "=H*1.1", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 376, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 376, 
+                    "vertical": true
                 }
             ], 
-            "advanceWidth": 751
+            "metricsLeft": "=H*.6", 
+            "metricsRight": "=H*1.1", 
+            "name": "Lt"
         }
     ], 
-    "lastModified": "2019-10-07 23:59:04", 
     "name": "one", 
-    "unicode": "0031", 
     "tags": [
         "I"
-    ]
+    ], 
+    "unicode": "0031"
 }

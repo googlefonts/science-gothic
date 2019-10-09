@@ -1,10 +1,28 @@
 {
+    "colorFlag": 121, 
+    "lastModified": "2019-10-09 01:53:57", 
     "layers": [
         {
+            "advanceWidth": 3207, 
+            "anchors": [
+                {
+                    "exprX": "width/2", 
+                    "exprY": "diac_UC_top", 
+                    "name": "top", 
+                    "point": "1604 1550"
+                }, 
+                {
+                    "exprX": "width/2", 
+                    "exprY": "diac_UC_bottom", 
+                    "name": "bottom", 
+                    "point": "1604 -150"
+                }
+            ], 
+            "color": "#b9baa2", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
-                        "name": "B", 
                         "contours": [
                             {
                                 "nodes": [
@@ -39,37 +57,37 @@
                                     "2386 816  2306 736  2154 736 s"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "B"
                     }
                 }
             ], 
-            "name": "Blk Exp Ctr", 
-            "advanceWidth": 3207, 
-            "color": "#b9baa2", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=O*.6", 
+            "name": "Blk Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 2886, 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_top", 
                     "name": "top", 
-                    "point": "1604 1550"
+                    "point": "1443 1550"
                 }, 
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_bottom", 
                     "name": "bottom", 
-                    "point": "1604 -150"
+                    "point": "1443 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#809693", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
-                        "name": "B", 
                         "contours": [
                             {
                                 "nodes": [
@@ -104,33 +122,30 @@
                                     "2392 834  2312 754  2160 754 s"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "B"
                     }
                 }
             ], 
-            "name": "Exp Ctr", 
-            "advanceWidth": 2886, 
-            "color": "#809693", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=O*.6", 
-            "anchors": [
-                {
-                    "exprX": "width/2", 
-                    "exprY": "diac_UC_top", 
-                    "name": "top", 
-                    "point": "1443 1550"
-                }, 
-                {
-                    "exprX": "width/2", 
-                    "exprY": "diac_UC_bottom", 
-                    "name": "bottom", 
-                    "point": "1443 -150"
-                }
-            ]
+            "name": "Exp Ctr"
         }, 
         {
+            "advanceWidth": 2606, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "1303 1550"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "1303 -150"
+                }
+            ], 
+            "color": "#c8675e", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -172,29 +187,32 @@
                     }
                 }
             ], 
-            "name": "Lt Exp Ctr", 
-            "advanceWidth": 2606, 
-            "color": "#c8675e", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=O*.6", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "1303 1550"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "1303 -150"
-                }
-            ]
+            "name": "Lt Exp Ctr"
         }, 
         {
+            "advanceWidth": 1395, 
+            "anchors": [
+                {
+                    "exprX": "width/2", 
+                    "exprY": "diac_UC_top", 
+                    "name": "top", 
+                    "point": "698 1550"
+                }, 
+                {
+                    "exprX": "width/2", 
+                    "exprY": "diac_UC_bottom", 
+                    "name": "bottom", 
+                    "point": "698 -150"
+                }
+            ], 
+            "color": "#997d87", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
-                        "name": "B", 
                         "contours": [
                             {
                                 "nodes": [
@@ -229,37 +247,37 @@
                                     "760 752  736 728  684 728 s"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "B"
                     }
                 }
             ], 
-            "name": "Blk Cnd Ctr", 
-            "advanceWidth": 1395, 
-            "color": "#997d87", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=O*.6", 
+            "name": "Blk Cnd Ctr"
+        }, 
+        {
+            "advanceWidth": 892, 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_top", 
                     "name": "top", 
-                    "point": "698 1550"
+                    "point": "446 1550"
                 }, 
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_bottom", 
                     "name": "bottom", 
-                    "point": "698 -150"
+                    "point": "446 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#8fb0ff", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
-                        "name": "B", 
                         "contours": [
                             {
                                 "nodes": [
@@ -294,36 +312,33 @@
                                     "572 768  540 736  476 736 s"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "B"
                     }, 
                     "transform": {
-                        "xOffset": 10
+                        "xOffset": -18
                     }
                 }
             ], 
-            "name": "Cnd Ctr", 
-            "advanceWidth": 936, 
-            "color": "#8fb0ff", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=O*.6", 
-            "anchors": [
-                {
-                    "exprX": "width/2", 
-                    "exprY": "diac_UC_top", 
-                    "name": "top", 
-                    "point": "468 1550"
-                }, 
-                {
-                    "exprX": "width/2", 
-                    "exprY": "diac_UC_bottom", 
-                    "name": "bottom", 
-                    "point": "468 -150"
-                }
-            ]
+            "name": "Cnd Ctr"
         }, 
         {
+            "advanceWidth": 555, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "278 1550"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "278 -150"
+                }
+            ], 
+            "color": "#4e8e82", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -368,29 +383,33 @@
                     }
                 }
             ], 
-            "name": "Lt Cnd Ctr", 
-            "advanceWidth": 555, 
-            "color": "#4e8e82", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=O*.6", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "278 1550"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "278 -150"
-                }
-            ]
+            "name": "Lt Cnd Ctr"
         }, 
         {
+            "active": true, 
+            "advanceWidth": 1890, 
+            "anchors": [
+                {
+                    "exprX": "width/2", 
+                    "exprY": "diac_UC_top", 
+                    "name": "top", 
+                    "point": "945 1550"
+                }, 
+                {
+                    "exprX": "width/2", 
+                    "exprY": "diac_UC_bottom", 
+                    "name": "bottom", 
+                    "point": "945 -150"
+                }
+            ], 
+            "color": "#b69762", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
-                        "name": "B", 
                         "contours": [
                             {
                                 "nodes": [
@@ -425,37 +444,37 @@
                                     "1196 812.207  1111.81 736  964 736 s"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "B"
                     }
                 }
             ], 
-            "name": "Blk Ctr", 
-            "advanceWidth": 1890, 
-            "color": "#b69762", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=O*.6", 
+            "name": "Blk Ctr"
+        }, 
+        {
+            "advanceWidth": 1641, 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_top", 
                     "name": "top", 
-                    "point": "945 1550"
+                    "point": "821 1550"
                 }, 
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_bottom", 
                     "name": "bottom", 
-                    "point": "945 -150"
+                    "point": "821 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#26d283", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
-                        "name": "B", 
                         "contours": [
                             {
                                 "nodes": [
@@ -490,33 +509,30 @@
                                     "1241 815  1161 739  1009 739 s"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "B"
                     }
                 }
             ], 
-            "name": "Ctr", 
-            "advanceWidth": 1641, 
-            "color": "#26d283", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=O*.6", 
-            "anchors": [
-                {
-                    "exprX": "width/2", 
-                    "exprY": "diac_UC_top", 
-                    "name": "top", 
-                    "point": "821 1550"
-                }, 
-                {
-                    "exprX": "width/2", 
-                    "exprY": "diac_UC_bottom", 
-                    "name": "bottom", 
-                    "point": "821 -150"
-                }
-            ]
+            "name": "Ctr"
         }, 
         {
+            "advanceWidth": 1632, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "816 1550"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "816 -150"
+                }
+            ], 
+            "color": "#9061ff", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -558,29 +574,32 @@
                     }
                 }
             ], 
-            "name": "Lt Ctr", 
-            "advanceWidth": 1632, 
-            "color": "#9061ff", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=O*.6", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "816 1550"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "816 -150"
-                }
-            ]
+            "name": "Lt Ctr"
         }, 
         {
+            "advanceWidth": 3234, 
+            "anchors": [
+                {
+                    "exprX": "width/2", 
+                    "exprY": "diac_UC_top", 
+                    "name": "top", 
+                    "point": "1617 1550"
+                }, 
+                {
+                    "exprX": "width/2", 
+                    "exprY": "diac_UC_bottom", 
+                    "name": "bottom", 
+                    "point": "1617 -150"
+                }
+            ], 
+            "color": "#b07733", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
-                        "name": "B", 
                         "contours": [
                             {
                                 "nodes": [
@@ -615,37 +634,40 @@
                                     "2522 906  2498 882  2446 882 s"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "B"
+                    }, 
+                    "transform": {
+                        "xOffset": -40
                     }
                 }
             ], 
-            "name": "Blk Exp", 
-            "advanceWidth": 3298, 
-            "color": "#b07733", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=O*.6", 
+            "name": "Blk Exp"
+        }, 
+        {
+            "advanceWidth": 2756, 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_top", 
                     "name": "top", 
-                    "point": "1649 1550"
+                    "point": "1378 1550"
                 }, 
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_bottom", 
                     "name": "bottom", 
-                    "point": "1649 -150"
+                    "point": "1378 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#d2afb9", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
-                        "name": "B", 
                         "contours": [
                             {
                                 "nodes": [
@@ -680,37 +702,40 @@
                                     "2322 857  2286 835  2216 835 s"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "B"
+                    }, 
+                    "transform": {
+                        "xOffset": -10
                     }
                 }
             ], 
-            "name": "Exp", 
-            "advanceWidth": 2771, 
-            "color": "#d2afb9", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=O*.6", 
+            "name": "Exp"
+        }, 
+        {
+            "advanceWidth": 2606, 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_top", 
                     "name": "top", 
-                    "point": "1386 1550"
+                    "point": "1303 1550"
                 }, 
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_bottom", 
                     "name": "bottom", 
-                    "point": "1386 -150"
+                    "point": "1303 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#de4d8a", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
-                        "name": "B", 
                         "contours": [
                             {
                                 "nodes": [
@@ -745,37 +770,37 @@
                                     "2342 872  2272 756  2068 756 s"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "B"
                     }
                 }
             ], 
-            "name": "Lt Exp", 
-            "advanceWidth": 2606, 
-            "color": "#de4d8a", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=O*.6", 
+            "name": "Lt Exp"
+        }, 
+        {
+            "advanceWidth": 1403, 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_top", 
                     "name": "top", 
-                    "point": "1303 1550"
+                    "point": "702 1550"
                 }, 
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_bottom", 
                     "name": "bottom", 
-                    "point": "1303 -150"
+                    "point": "702 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#3989c2", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
-                        "name": "B", 
                         "contours": [
                             {
                                 "nodes": [
@@ -810,37 +835,37 @@
                                     "788 892  772 868  727 868 s"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "B"
                     }
                 }
             ], 
-            "name": "Blk Cnd", 
-            "advanceWidth": 1403, 
-            "color": "#3989c2", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=O*.6", 
+            "name": "Blk Cnd"
+        }, 
+        {
+            "advanceWidth": 847, 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_top", 
                     "name": "top", 
-                    "point": "702 1550"
+                    "point": "424 1550"
                 }, 
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_bottom", 
                     "name": "bottom", 
-                    "point": "702 -150"
+                    "point": "424 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#1f964d", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
-                        "name": "B", 
                         "contours": [
                             {
                                 "nodes": [
@@ -875,37 +900,35 @@
                                     "530 860  510 836  440 836 s"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "B"
                     }
                 }
             ], 
-            "name": "Cnd", 
-            "advanceWidth": 847, 
-            "color": "#1f964d", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=O*.6", 
-            "anchors": [
-                {
-                    "exprX": "width/2", 
-                    "exprY": "diac_UC_top", 
-                    "name": "top", 
-                    "point": "424 1550"
-                }, 
-                {
-                    "exprX": "width/2", 
-                    "exprY": "diac_UC_bottom", 
-                    "name": "bottom", 
-                    "point": "424 -150"
-                }
-            ]
+            "name": "Cnd"
         }, 
         {
+            "advanceWidth": 555, 
+            "anchors": [
+                {
+                    "exprY": "diac_UC_top", 
+                    "name": "top", 
+                    "point": "278 1550"
+                }, 
+                {
+                    "exprY": "diac_UC_bottom", 
+                    "name": "bottom", 
+                    "point": "278 -150"
+                }
+            ], 
+            "color": "#fe4a46", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
-                        "name": "B", 
                         "contours": [
                             {
                                 "nodes": [
@@ -940,38 +963,40 @@
                                     "496 812  429 756  280 756 s"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "B"
                     }, 
                     "transform": {
                         "xOffset": -48
                     }
                 }
             ], 
-            "name": "Lt Cnd", 
-            "advanceWidth": 555, 
-            "color": "#fe4a46", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=O*.6", 
-            "anchors": [
-                {
-                    "exprY": "diac_UC_top", 
-                    "name": "top", 
-                    "point": "278 1550"
-                }, 
-                {
-                    "exprY": "diac_UC_bottom", 
-                    "name": "bottom", 
-                    "point": "278 -150"
-                }
-            ]
+            "name": "Lt Cnd"
         }, 
         {
+            "advanceWidth": 1839, 
+            "anchors": [
+                {
+                    "exprX": "width/2", 
+                    "exprY": "diac_UC_top", 
+                    "name": "top", 
+                    "point": "920 1550"
+                }, 
+                {
+                    "exprX": "width/2", 
+                    "exprY": "diac_UC_bottom", 
+                    "name": "bottom", 
+                    "point": "920 -150"
+                }
+            ], 
+            "color": "#ff34ff", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
-                        "name": "B", 
                         "contours": [
                             {
                                 "nodes": [
@@ -1006,38 +1031,37 @@
                                     "1172 912  1148 888  1096 888 s"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "B"
                     }
                 }
             ], 
-            "name": "Blk", 
-            "advanceWidth": 1839, 
-            "color": "#ff34ff", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
-            "active": true, 
+            "metricsLeft": "=H", 
             "metricsRight": "=O*.6", 
+            "name": "Blk"
+        }, 
+        {
+            "advanceWidth": 1596, 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_top", 
                     "name": "top", 
-                    "point": "920 1550"
+                    "point": "798 1550"
                 }, 
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_bottom", 
                     "name": "bottom", 
-                    "point": "920 -150"
+                    "point": "798 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#00cce5", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
-                        "name": "B", 
                         "contours": [
                             {
                                 "nodes": [
@@ -1072,37 +1096,37 @@
                                     "1206 857  1170 835  1100 835 s"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "B"
                     }
                 }
             ], 
-            "name": "Medium", 
-            "advanceWidth": 1596, 
-            "color": "#00cce5", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=O*.6", 
+            "name": "Medium"
+        }, 
+        {
+            "advanceWidth": 1632, 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_top", 
                     "name": "top", 
-                    "point": "798 1550"
+                    "point": "816 1550"
                 }, 
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_bottom", 
                     "name": "bottom", 
-                    "point": "798 -150"
+                    "point": "816 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#bac000", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
-                        "name": "B", 
                         "contours": [
                             {
                                 "nodes": [
@@ -1137,40 +1161,22 @@
                                     "1411 857  1333 756  1168 756 s"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "B"
                     }
                 }
             ], 
-            "name": "Lt", 
-            "advanceWidth": 1632, 
-            "color": "#bac000", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=O*.6", 
-            "anchors": [
-                {
-                    "exprX": "width/2", 
-                    "exprY": "diac_UC_top", 
-                    "name": "top", 
-                    "point": "816 1550"
-                }, 
-                {
-                    "exprX": "width/2", 
-                    "exprY": "diac_UC_bottom", 
-                    "name": "bottom", 
-                    "point": "816 -150"
-                }
-            ]
+            "name": "Lt"
         }
     ], 
     "name": "B", 
-    "unicode": "0042", 
+    "openTypeGlyphClass": 1, 
     "tags": [
         "V", 
         "I"
     ], 
-    "openTypeGlyphClass": 1, 
-    "lastModified": "2019-10-08 14:34:50", 
-    "colorFlag": 121
+    "unicode": "0042"
 }

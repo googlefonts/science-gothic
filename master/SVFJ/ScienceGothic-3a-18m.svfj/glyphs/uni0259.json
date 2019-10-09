@@ -1,27 +1,8 @@
 {
+    "lastModified": "2019-10-09 01:54:43", 
     "layers": [
         {
-            "autoRecipe": "=e@~,~", 
-            "elements": [
-                {
-                    "elementData": {
-                        "component": {
-                            "glyphName": "e"
-                        }
-                    }, 
-                    "locked": true, 
-                    "transform": {
-                        "xScale": -1, 
-                        "yScale": -1, 
-                        "xOffset": 2576, 
-                        "yOffset": 1024
-                    }
-                }
-            ], 
-            "flags": 16, 
-            "name": "Blk Exp Ctr", 
             "advanceWidth": 2576, 
-            "color": "#b9baa2", 
             "anchors": [
                 {
                     "name": "top", 
@@ -30,11 +11,14 @@
                 {
                     "name": "bottom", 
                     "point": "1288 1174"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "742 1024"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=e@~,~", 
+            "color": "#b9baa2", 
             "elements": [
                 {
                     "elementData": {
@@ -42,19 +26,19 @@
                             "glyphName": "e"
                         }
                     }, 
-                    "locked": true, 
                     "transform": {
+                        "xOffset": 2576, 
                         "xScale": -1, 
-                        "yScale": -1, 
-                        "xOffset": 2268, 
-                        "yOffset": 1000
+                        "yOffset": 1024, 
+                        "yScale": -1
                     }
                 }
             ], 
             "flags": 16, 
-            "name": "Exp Ctr", 
+            "name": "Blk Exp Ctr"
+        }, 
+        {
             "advanceWidth": 2266, 
-            "color": "#809693", 
             "anchors": [
                 {
                     "name": "top", 
@@ -63,11 +47,14 @@
                 {
                     "name": "bottom", 
                     "point": "1134 1150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "628 1000"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=e@~,~", 
+            "color": "#809693", 
             "elements": [
                 {
                     "elementData": {
@@ -75,32 +62,35 @@
                             "glyphName": "e"
                         }
                     }, 
-                    "locked": true, 
                     "transform": {
+                        "xOffset": 2268, 
                         "xScale": -1, 
-                        "yScale": -1, 
-                        "xOffset": 2058.8, 
-                        "yOffset": 1000
+                        "yOffset": 1000, 
+                        "yScale": -1
                     }
                 }
             ], 
             "flags": 16, 
-            "name": "Lt Exp Ctr", 
+            "name": "Exp Ctr"
+        }, 
+        {
             "advanceWidth": 2059, 
-            "color": "#c8675e", 
             "anchors": [
                 {
                     "name": "top", 
-                    "point": "1183.80 -150"
+                    "point": "1028.80 -150"
                 }, 
                 {
                     "name": "bottom", 
-                    "point": "1183.80 1150"
+                    "point": "1028.80 1150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "473.80 1000"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=e@~,~", 
+            "color": "#c8675e", 
             "elements": [
                 {
                     "elementData": {
@@ -108,19 +98,19 @@
                             "glyphName": "e"
                         }
                     }, 
-                    "locked": true, 
                     "transform": {
+                        "xOffset": 2058.8, 
                         "xScale": -1, 
-                        "yScale": -1, 
-                        "xOffset": 1288, 
-                        "yOffset": 1024
+                        "yOffset": 1000, 
+                        "yScale": -1
                     }
                 }
             ], 
             "flags": 16, 
-            "name": "Blk Cnd Ctr", 
+            "name": "Lt Exp Ctr"
+        }, 
+        {
             "advanceWidth": 1284, 
-            "color": "#997d87", 
             "anchors": [
                 {
                     "name": "top", 
@@ -129,11 +119,14 @@
                 {
                     "name": "bottom", 
                     "point": "644 1174"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "364 1024"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=e@~,~", 
+            "color": "#997d87", 
             "elements": [
                 {
                     "elementData": {
@@ -141,33 +134,36 @@
                             "glyphName": "e"
                         }
                     }, 
-                    "locked": true, 
                     "transform": {
+                        "xOffset": 1288, 
                         "xScale": -1, 
-                        "yScale": -1, 
-                        "xOffset": 818, 
-                        "yOffset": 1000
+                        "yOffset": 1024, 
+                        "yScale": -1
                     }
                 }
             ], 
             "flags": 16, 
-            "name": "Cnd Ctr", 
-            "advanceWidth": 808, 
-            "color": "#8fb0ff", 
+            "name": "Blk Cnd Ctr"
+        }, 
+        {
+            "advanceWidth": 766, 
             "anchors": [
                 {
                     "name": "top", 
-                    "point": "414 -150"
+                    "point": "393 -150"
                 }, 
                 {
                     "exprX": "width/2", 
                     "name": "bottom", 
-                    "point": "414 1150"
+                    "point": "393 1150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "302 1000"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=e@~,~", 
+            "color": "#8fb0ff", 
             "elements": [
                 {
                     "elementData": {
@@ -175,19 +171,19 @@
                             "glyphName": "e"
                         }
                     }, 
-                    "locked": true, 
                     "transform": {
+                        "xOffset": 776, 
                         "xScale": -1, 
-                        "yScale": -1, 
-                        "xOffset": 480, 
-                        "yOffset": 1000
+                        "yOffset": 1000, 
+                        "yScale": -1
                     }
                 }
             ], 
             "flags": 16, 
-            "name": "Lt Cnd Ctr", 
+            "name": "Cnd Ctr"
+        }, 
+        {
             "advanceWidth": 473, 
-            "color": "#4e8e82", 
             "anchors": [
                 {
                     "name": "top", 
@@ -196,11 +192,14 @@
                 {
                     "name": "bottom", 
                     "point": "244 1150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "172 1000"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=e@~,~", 
+            "color": "#4e8e82", 
             "elements": [
                 {
                     "elementData": {
@@ -208,19 +207,20 @@
                             "glyphName": "e"
                         }
                     }, 
-                    "locked": true, 
                     "transform": {
+                        "xOffset": 480, 
                         "xScale": -1, 
-                        "yScale": -1, 
-                        "xOffset": 1648.8, 
-                        "yOffset": 1024
+                        "yOffset": 1000, 
+                        "yScale": -1
                     }
                 }
             ], 
             "flags": 16, 
-            "name": "Blk Ctr", 
+            "name": "Lt Cnd Ctr"
+        }, 
+        {
+            "active": true, 
             "advanceWidth": 1647, 
-            "color": "#b69762", 
             "anchors": [
                 {
                     "name": "top", 
@@ -229,11 +229,14 @@
                 {
                     "name": "bottom", 
                     "point": "824.80 1174"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "576.80 1030"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=e@~,~", 
+            "color": "#b69762", 
             "elements": [
                 {
                     "elementData": {
@@ -241,19 +244,19 @@
                             "glyphName": "e"
                         }
                     }, 
-                    "locked": true, 
                     "transform": {
+                        "xOffset": 1648.8, 
                         "xScale": -1, 
-                        "yScale": -1, 
-                        "xOffset": 1432, 
-                        "yOffset": 1000
+                        "yOffset": 1024, 
+                        "yScale": -1
                     }
                 }
             ], 
             "flags": 16, 
-            "name": "Ctr", 
+            "name": "Blk Ctr"
+        }, 
+        {
             "advanceWidth": 1432, 
-            "color": "#26d283", 
             "anchors": [
                 {
                     "name": "top", 
@@ -262,11 +265,14 @@
                 {
                     "name": "bottom", 
                     "point": "716 1150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "498 1000"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=e@~,~", 
+            "color": "#26d283", 
             "elements": [
                 {
                     "elementData": {
@@ -274,19 +280,19 @@
                             "glyphName": "e"
                         }
                     }, 
-                    "locked": true, 
                     "transform": {
+                        "xOffset": 1432, 
                         "xScale": -1, 
-                        "yScale": -1, 
-                        "xOffset": 1328, 
-                        "yOffset": 1000
+                        "yOffset": 1000, 
+                        "yScale": -1
                     }
                 }
             ], 
             "flags": 16, 
-            "name": "Lt Ctr", 
+            "name": "Ctr"
+        }, 
+        {
             "advanceWidth": 1305, 
-            "color": "#9061ff", 
             "anchors": [
                 {
                     "name": "top", 
@@ -295,11 +301,14 @@
                 {
                     "name": "bottom", 
                     "point": "664 1150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "399 1000"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=e@~,~", 
+            "color": "#9061ff", 
             "elements": [
                 {
                     "elementData": {
@@ -307,32 +316,35 @@
                             "glyphName": "e"
                         }
                     }, 
-                    "locked": true, 
                     "transform": {
+                        "xOffset": 1328, 
                         "xScale": -1, 
-                        "yScale": -1, 
-                        "xOffset": 2520, 
-                        "yOffset": 1024
+                        "yOffset": 1000, 
+                        "yScale": -1
                     }
                 }
             ], 
             "flags": 16, 
-            "name": "Blk Exp", 
-            "advanceWidth": 2520, 
+            "name": "Lt Ctr"
+        }, 
+        {
+            "advanceWidth": 2328, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "1163 -150"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "1163 1174"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "628 1034"
+                }
+            ], 
+            "autoRecipe": "=e@~,~", 
             "color": "#b07733", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "1259 -150"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "1259 1174"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=e@~,~", 
             "elements": [
                 {
                     "elementData": {
@@ -340,32 +352,35 @@
                             "glyphName": "e"
                         }
                     }, 
-                    "locked": true, 
                     "transform": {
+                        "xOffset": 2328, 
                         "xScale": -1, 
-                        "yScale": -1, 
-                        "xOffset": 2154.88, 
-                        "yOffset": 1000
+                        "yOffset": 1024, 
+                        "yScale": -1
                     }
                 }
             ], 
             "flags": 16, 
-            "name": "Exp", 
-            "advanceWidth": 2155, 
+            "name": "Blk Exp"
+        }, 
+        {
+            "advanceWidth": 2139, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "1070.04 -150"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "1070.04 1150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "564.04 1010"
+                }
+            ], 
+            "autoRecipe": "=e@~,~", 
             "color": "#d2afb9", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "1077.88 -150"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "1077.88 1150"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=e@~,~", 
             "elements": [
                 {
                     "elementData": {
@@ -373,34 +388,37 @@
                             "glyphName": "e"
                         }
                     }, 
-                    "locked": true, 
                     "transform": {
+                        "xOffset": 2139.04, 
                         "xScale": -1, 
-                        "yScale": -1, 
-                        "xOffset": 2058.8, 
-                        "yOffset": 1000
+                        "yOffset": 1000, 
+                        "yScale": -1
                     }
                 }
             ], 
             "flags": 16, 
-            "name": "Lt Exp", 
+            "name": "Exp"
+        }, 
+        {
             "advanceWidth": 2059, 
-            "color": "#de4d8a", 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "name": "top", 
-                    "point": "1028.80 -150"
+                    "point": "1030 -150"
                 }, 
                 {
                     "exprX": "width/2", 
                     "name": "bottom", 
-                    "point": "1028.80 1150"
+                    "point": "1030 1150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "473.80 1000"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=e@~,~", 
+            "color": "#de4d8a", 
             "elements": [
                 {
                     "elementData": {
@@ -408,19 +426,19 @@
                             "glyphName": "e"
                         }
                     }, 
-                    "locked": true, 
                     "transform": {
+                        "xOffset": 2058.8, 
                         "xScale": -1, 
-                        "yScale": -1, 
-                        "xOffset": 1274, 
-                        "yOffset": 1024
+                        "yOffset": 1000, 
+                        "yScale": -1
                     }
                 }
             ], 
             "flags": 16, 
-            "name": "Blk Cnd", 
+            "name": "Lt Exp"
+        }, 
+        {
             "advanceWidth": 1270, 
-            "color": "#3989c2", 
             "anchors": [
                 {
                     "name": "top", 
@@ -429,11 +447,14 @@
                 {
                     "name": "bottom", 
                     "point": "637 1174"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "345 1028"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=e@~,~", 
+            "color": "#3989c2", 
             "elements": [
                 {
                     "elementData": {
@@ -441,19 +462,19 @@
                             "glyphName": "e"
                         }
                     }, 
-                    "locked": true, 
                     "transform": {
+                        "xOffset": 1274, 
                         "xScale": -1, 
-                        "yScale": -1, 
-                        "xOffset": 736, 
-                        "yOffset": 1000
+                        "yOffset": 1024, 
+                        "yScale": -1
                     }
                 }
             ], 
             "flags": 16, 
-            "name": "Cnd", 
+            "name": "Blk Cnd"
+        }, 
+        {
             "advanceWidth": 731, 
-            "color": "#1f964d", 
             "anchors": [
                 {
                     "name": "top", 
@@ -462,11 +483,14 @@
                 {
                     "name": "bottom", 
                     "point": "379 1150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "235 1000"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=e@~,~", 
+            "color": "#1f964d", 
             "elements": [
                 {
                     "elementData": {
@@ -474,19 +498,19 @@
                             "glyphName": "e"
                         }
                     }, 
-                    "locked": true, 
                     "transform": {
+                        "xOffset": 736, 
                         "xScale": -1, 
-                        "yScale": -1, 
-                        "xOffset": 480, 
-                        "yOffset": 1000
+                        "yOffset": 1000, 
+                        "yScale": -1
                     }
                 }
             ], 
             "flags": 16, 
-            "name": "Lt Cnd", 
+            "name": "Cnd"
+        }, 
+        {
             "advanceWidth": 473, 
-            "color": "#fe4a46", 
             "anchors": [
                 {
                     "name": "top", 
@@ -495,11 +519,14 @@
                 {
                     "name": "bottom", 
                     "point": "239 1150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "174 1000"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=e@~,~", 
+            "color": "#fe4a46", 
             "elements": [
                 {
                     "elementData": {
@@ -507,20 +534,19 @@
                             "glyphName": "e"
                         }
                     }, 
-                    "locked": true, 
                     "transform": {
+                        "xOffset": 480, 
                         "xScale": -1, 
-                        "yScale": -1, 
-                        "xOffset": 1562, 
-                        "yOffset": 1024
+                        "yOffset": 1000, 
+                        "yScale": -1
                     }
                 }
             ], 
-            "name": "Blk", 
-            "advanceWidth": 1562, 
-            "color": "#ff34ff", 
             "flags": 16, 
-            "active": true, 
+            "name": "Lt Cnd"
+        }, 
+        {
+            "advanceWidth": 1562, 
             "anchors": [
                 {
                     "name": "top", 
@@ -529,11 +555,14 @@
                 {
                     "name": "bottom", 
                     "point": "782 1174"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "533 1034"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=e@~,~", 
+            "color": "#ff34ff", 
             "elements": [
                 {
                     "elementData": {
@@ -541,19 +570,19 @@
                             "glyphName": "e"
                         }
                     }, 
-                    "locked": true, 
                     "transform": {
+                        "xOffset": 1562, 
                         "xScale": -1, 
-                        "yScale": -1, 
-                        "xOffset": 1404, 
-                        "yOffset": 1000
+                        "yOffset": 1024, 
+                        "yScale": -1
                     }
                 }
             ], 
             "flags": 16, 
-            "name": "Medium", 
+            "name": "Blk"
+        }, 
+        {
             "advanceWidth": 1404, 
-            "color": "#00cce5", 
             "anchors": [
                 {
                     "name": "top", 
@@ -562,11 +591,14 @@
                 {
                     "name": "bottom", 
                     "point": "702 1150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "484 1010"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=e@~,~", 
+            "color": "#00cce5", 
             "elements": [
                 {
                     "elementData": {
@@ -574,19 +606,19 @@
                             "glyphName": "e"
                         }
                     }, 
-                    "locked": true, 
                     "transform": {
+                        "xOffset": 1404, 
                         "xScale": -1, 
-                        "yScale": -1, 
-                        "xOffset": 1328, 
-                        "yOffset": 1000
+                        "yOffset": 1000, 
+                        "yScale": -1
                     }
                 }
             ], 
             "flags": 16, 
-            "name": "Lt", 
+            "name": "Medium"
+        }, 
+        {
             "advanceWidth": 1305, 
-            "color": "#bac000", 
             "anchors": [
                 {
                     "name": "top", 
@@ -595,14 +627,36 @@
                 {
                     "name": "bottom", 
                     "point": "664 1150"
+                }, 
+                {
+                    "name": "ogonek", 
+                    "point": "399 1000"
                 }
-            ]
+            ], 
+            "autoRecipe": "=e@~,~", 
+            "color": "#bac000", 
+            "elements": [
+                {
+                    "elementData": {
+                        "component": {
+                            "glyphName": "e"
+                        }
+                    }, 
+                    "transform": {
+                        "xOffset": 1328, 
+                        "xScale": -1, 
+                        "yOffset": 1000, 
+                        "yScale": -1
+                    }
+                }
+            ], 
+            "flags": 16, 
+            "name": "Lt"
         }
     ], 
-    "lastModified": "2019-10-08 15:04:09", 
     "name": "uni0259", 
-    "unicode": "0259", 
     "tags": [
         "T"
-    ]
+    ], 
+    "unicode": "0259"
 }

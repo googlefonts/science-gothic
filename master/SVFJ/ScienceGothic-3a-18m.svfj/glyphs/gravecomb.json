@@ -1,33 +1,16 @@
 {
+    "lastModified": "2019-10-06 16:48:37", 
     "layers": [
         {
-            "autoRecipe": "=acutecomb@~,", 
-            "elements": [
+            "advanceWidth": 0, 
+            "anchors": [
                 {
-                    "elementData": {
-                        "component": {
-                            "glyphName": "acutecomb"
-                        }
-                    }, 
-                    "locked": true, 
-                    "transform": {
-                        "xScale": -1
-                    }
+                    "name": "_top", 
+                    "point": "0 1150"
                 }
             ], 
-            "flags": 0, 
-            "name": "Blk Exp Ctr", 
-            "advanceWidth": 0, 
+            "autoRecipe": "=acutecomb@~,", 
             "color": "#b9baa2", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1150"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=acutecomb@~,", 
             "elements": [
                 {
                     "elementData": {
@@ -42,18 +25,18 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Exp Ctr", 
+            "name": "Blk Exp Ctr"
+        }, 
+        {
             "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1150"
+                }
+            ], 
+            "autoRecipe": "=acutecomb@~,", 
             "color": "#809693", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1150"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=acutecomb@~,", 
             "elements": [
                 {
                     "elementData": {
@@ -68,18 +51,18 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Lt Exp Ctr", 
+            "name": "Exp Ctr"
+        }, 
+        {
             "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1150"
+                }
+            ], 
+            "autoRecipe": "=acutecomb@~,", 
             "color": "#c8675e", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1150"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=acutecomb@~,", 
             "elements": [
                 {
                     "elementData": {
@@ -94,18 +77,18 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Blk Cnd Ctr", 
+            "name": "Lt Exp Ctr"
+        }, 
+        {
             "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1174"
+                }
+            ], 
+            "autoRecipe": "=acutecomb@~,", 
             "color": "#997d87", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1174"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=acutecomb@~,", 
             "elements": [
                 {
                     "elementData": {
@@ -120,18 +103,18 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Cnd Ctr", 
+            "name": "Blk Cnd Ctr"
+        }, 
+        {
             "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1150"
+                }
+            ], 
+            "autoRecipe": "=acutecomb@~,", 
             "color": "#8fb0ff", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1150"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=acutecomb@~,", 
             "elements": [
                 {
                     "elementData": {
@@ -146,18 +129,18 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Lt Cnd Ctr", 
+            "name": "Cnd Ctr"
+        }, 
+        {
             "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1150"
+                }
+            ], 
+            "autoRecipe": "=acutecomb@~,", 
             "color": "#4e8e82", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1150"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=acutecomb@~,", 
             "elements": [
                 {
                     "elementData": {
@@ -172,18 +155,19 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Blk Ctr", 
+            "name": "Lt Cnd Ctr"
+        }, 
+        {
+            "active": true, 
             "advanceWidth": 0, 
-            "color": "#b69762", 
             "anchors": [
                 {
                     "name": "_top", 
                     "point": "0 1174"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=acutecomb@~,", 
+            "color": "#b69762", 
             "elements": [
                 {
                     "elementData": {
@@ -198,18 +182,44 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Ctr", 
+            "name": "Blk Ctr"
+        }, 
+        {
             "advanceWidth": 0, 
-            "color": "#26d283", 
             "anchors": [
                 {
                     "name": "_top", 
                     "point": "0 1150"
                 }
-            ]
+            ], 
+            "autoRecipe": "=acutecomb@~,", 
+            "color": "#26d283", 
+            "elements": [
+                {
+                    "elementData": {
+                        "component": {
+                            "glyphName": "acutecomb"
+                        }
+                    }, 
+                    "locked": true, 
+                    "transform": {
+                        "xScale": -1
+                    }
+                }
+            ], 
+            "flags": 0, 
+            "name": "Ctr"
         }, 
         {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1150"
+                }
+            ], 
             "autoRecipe": "=acutecomb@~,", 
+            "color": "#9061ff", 
             "elements": [
                 {
                     "active": true, 
@@ -220,49 +230,24 @@
                     }, 
                     "locked": true, 
                     "transform": {
-                        "xScale": -1, 
-                        "xOffset": -20
-                    }
-                }
-            ], 
-            "flags": 0, 
-            "name": "Lt Ctr", 
-            "advanceWidth": 0, 
-            "color": "#9061ff", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1150"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=acutecomb@~,", 
-            "elements": [
-                {
-                    "elementData": {
-                        "component": {
-                            "glyphName": "acutecomb"
-                        }
-                    }, 
-                    "transform": {
+                        "xOffset": -20, 
                         "xScale": -1
                     }
                 }
             ], 
             "flags": 0, 
-            "name": "Blk Exp", 
+            "name": "Lt Ctr"
+        }, 
+        {
             "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1150"
+                }
+            ], 
+            "autoRecipe": "=acutecomb@~,", 
             "color": "#b07733", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1150"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=acutecomb@~,", 
             "elements": [
                 {
                     "elementData": {
@@ -276,18 +261,18 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Exp", 
+            "name": "Blk Exp"
+        }, 
+        {
             "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1150"
+                }
+            ], 
+            "autoRecipe": "=acutecomb@~,", 
             "color": "#d2afb9", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1150"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=acutecomb@~,", 
             "elements": [
                 {
                     "elementData": {
@@ -301,18 +286,18 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Lt Exp", 
+            "name": "Exp"
+        }, 
+        {
             "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1150"
+                }
+            ], 
+            "autoRecipe": "=acutecomb@~,", 
             "color": "#de4d8a", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1150"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=acutecomb@~,", 
             "elements": [
                 {
                     "elementData": {
@@ -326,18 +311,18 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Blk Cnd", 
+            "name": "Lt Exp"
+        }, 
+        {
             "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1174"
+                }
+            ], 
+            "autoRecipe": "=acutecomb@~,", 
             "color": "#3989c2", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1174"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=acutecomb@~,", 
             "elements": [
                 {
                     "elementData": {
@@ -351,18 +336,18 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Cnd", 
+            "name": "Blk Cnd"
+        }, 
+        {
             "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1150"
+                }
+            ], 
+            "autoRecipe": "=acutecomb@~,", 
             "color": "#1f964d", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1150"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=acutecomb@~,", 
             "elements": [
                 {
                     "elementData": {
@@ -376,18 +361,18 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Lt Cnd", 
+            "name": "Cnd"
+        }, 
+        {
             "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1150"
+                }
+            ], 
+            "autoRecipe": "=acutecomb@~,", 
             "color": "#fe4a46", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1150"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=acutecomb@~,", 
             "elements": [
                 {
                     "elementData": {
@@ -400,20 +385,19 @@
                     }
                 }
             ], 
-            "name": "Blk", 
-            "advanceWidth": 0, 
-            "color": "#ff34ff", 
             "flags": 0, 
-            "active": true, 
+            "name": "Lt Cnd"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_top", 
                     "point": "0 1174"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=acutecomb@~,", 
+            "color": "#ff34ff", 
             "elements": [
                 {
                     "elementData": {
@@ -427,18 +411,18 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Medium", 
+            "name": "Blk"
+        }, 
+        {
             "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1150"
+                }
+            ], 
+            "autoRecipe": "=acutecomb@~,", 
             "color": "#00cce5", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1150"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=acutecomb@~,", 
             "elements": [
                 {
                     "elementData": {
@@ -452,22 +436,38 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Lt", 
+            "name": "Medium"
+        }, 
+        {
             "advanceWidth": 0, 
-            "color": "#bac000", 
             "anchors": [
                 {
                     "name": "_top", 
                     "point": "0 1150"
                 }
-            ]
+            ], 
+            "autoRecipe": "=acutecomb@~,", 
+            "color": "#bac000", 
+            "elements": [
+                {
+                    "elementData": {
+                        "component": {
+                            "glyphName": "acutecomb"
+                        }
+                    }, 
+                    "transform": {
+                        "xScale": -1
+                    }
+                }
+            ], 
+            "flags": 0, 
+            "name": "Lt"
         }
     ], 
     "name": "gravecomb", 
-    "unicode": "0300", 
+    "openTypeGlyphClass": 3, 
     "tags": [
         "T"
     ], 
-    "openTypeGlyphClass": 3, 
-    "lastModified": "2019-10-06 16:48:37"
+    "unicode": "0300"
 }

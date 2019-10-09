@@ -1,7 +1,10 @@
 {
+    "lastModified": "2019-09-20 14:38:11", 
     "layers": [
         {
+            "advanceWidth": 2738, 
             "autoRecipe": "=P", 
+            "color": "#b9baa2", 
             "elements": [
                 {
                     "active": true, 
@@ -27,24 +30,24 @@
                     }
                 }
             ], 
-            "name": "Blk Exp Ctr", 
-            "advanceWidth": 2738, 
-            "color": "#b9baa2", 
-            "metricsLeft": "=rsb(\"P\")", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 1369, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 1369, 
+                    "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=rsb(\"P\")", 
+            "metricsRight": "=H", 
+            "name": "Blk Exp Ctr"
         }, 
         {
+            "advanceWidth": 2152, 
             "autoRecipe": "=P", 
+            "color": "#809693", 
             "elements": [
                 {
                     "active": true, 
@@ -70,24 +73,24 @@
                     }
                 }
             ], 
-            "name": "Exp Ctr", 
-            "advanceWidth": 2152, 
-            "color": "#809693", 
-            "metricsLeft": "=rsb(\"P\")", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 1076, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 1076, 
+                    "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=rsb(\"P\")", 
+            "metricsRight": "=H", 
+            "name": "Exp Ctr"
         }, 
         {
+            "advanceWidth": 1566, 
             "autoRecipe": "=P", 
+            "color": "#c8675e", 
             "elements": [
                 {
                     "elementData": {
@@ -112,24 +115,24 @@
                     }
                 }
             ], 
-            "name": "Lt Exp Ctr", 
-            "advanceWidth": 1566, 
-            "color": "#c8675e", 
-            "metricsLeft": "=rsb(\"P\")", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 783, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 783, 
+                    "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=rsb(\"P\")", 
+            "metricsRight": "=H", 
+            "name": "Lt Exp Ctr"
         }, 
         {
+            "advanceWidth": 1069, 
             "autoRecipe": "=P", 
+            "color": "#997d87", 
             "elements": [
                 {
                     "elementData": {
@@ -154,24 +157,24 @@
                     }
                 }
             ], 
-            "name": "Blk Cnd Ctr", 
-            "advanceWidth": 1069, 
-            "color": "#997d87", 
-            "metricsLeft": "=rsb(\"P\")", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 535, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 535, 
+                    "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=rsb(\"P\")", 
+            "metricsRight": "=H", 
+            "name": "Blk Cnd Ctr"
         }, 
         {
+            "advanceWidth": 829, 
             "autoRecipe": "=P", 
+            "color": "#8fb0ff", 
             "elements": [
                 {
                     "active": true, 
@@ -179,42 +182,42 @@
                         "contours": [
                             {
                                 "nodes": [
-                                    "745 0", 
-                                    "665 0", 
-                                    "665 1364", 
-                                    "561 1364", 
-                                    "561 0", 
-                                    "481 0", 
-                                    "481 490", 
-                                    "451 490 s", 
-                                    "237 490  107 540  107 768 s", 
-                                    "107 1134 s", 
-                                    "107 1354  249 1400  451 1400 s", 
-                                    "745 1400"
+                                    "723 0", 
+                                    "643 0", 
+                                    "643 1364", 
+                                    "539 1364", 
+                                    "539 0", 
+                                    "459 0", 
+                                    "459 490", 
+                                    "429 490 s", 
+                                    "215 490  85 540  85 768 s", 
+                                    "85 1134 s", 
+                                    "85 1354  227 1400  429 1400 s", 
+                                    "723 1400"
                                 ]
                             }
                         ]
                     }
                 }
             ], 
-            "name": "Cnd Ctr", 
-            "advanceWidth": 879, 
-            "color": "#8fb0ff", 
-            "metricsLeft": "=rsb(\"P\")", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 440, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 414, 
+                    "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=rsb(\"P\")", 
+            "metricsRight": "=H", 
+            "name": "Cnd Ctr"
         }, 
         {
+            "advanceWidth": 579, 
             "autoRecipe": "=P", 
+            "color": "#4e8e82", 
             "elements": [
                 {
                     "elementData": {
@@ -239,24 +242,25 @@
                     }
                 }
             ], 
-            "name": "Lt Cnd Ctr", 
-            "advanceWidth": 579, 
-            "color": "#4e8e82", 
-            "metricsLeft": "=rsb(\"P\")", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 289.5, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 289.5, 
+                    "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=rsb(\"P\")", 
+            "metricsRight": "=H", 
+            "name": "Lt Cnd Ctr"
         }, 
         {
+            "active": true, 
+            "advanceWidth": 1724, 
             "autoRecipe": "=P", 
+            "color": "#b69762", 
             "elements": [
                 {
                     "elementData": {
@@ -281,24 +285,24 @@
                     }
                 }
             ], 
-            "name": "Blk Ctr", 
-            "advanceWidth": 1724, 
-            "color": "#b69762", 
-            "metricsLeft": "=rsb(\"P\")", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 862, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 862, 
+                    "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=rsb(\"P\")", 
+            "metricsRight": "=H", 
+            "name": "Blk Ctr"
         }, 
         {
+            "advanceWidth": 1282, 
             "autoRecipe": "=P", 
+            "color": "#26d283", 
             "elements": [
                 {
                     "elementData": {
@@ -323,24 +327,24 @@
                     }
                 }
             ], 
-            "name": "Ctr", 
-            "advanceWidth": 1282, 
-            "color": "#26d283", 
-            "metricsLeft": "=rsb(\"P\")", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 641, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 641, 
+                    "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=rsb(\"P\")", 
+            "metricsRight": "=H", 
+            "name": "Ctr"
         }, 
         {
+            "advanceWidth": 1107, 
             "autoRecipe": "=P", 
+            "color": "#9061ff", 
             "elements": [
                 {
                     "elementData": {
@@ -365,108 +369,108 @@
                     }
                 }
             ], 
-            "name": "Lt Ctr", 
-            "advanceWidth": 1107, 
-            "color": "#9061ff", 
-            "metricsLeft": "=rsb(\"P\")", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
+                    "expr": "width/2", 
+                    "name": "halfwidth", 
                     "position": 553.5, 
-                    "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=P", 
-            "elements": [
-                {
-                    "elementData": {
-                        "contours": [
-                            {
-                                "nodes": [
-                                    "2306 0", 
-                                    "2114 0", 
-                                    "2114 1238", 
-                                    "1826 1238", 
-                                    "1826 0", 
-                                    "1634 0", 
-                                    "1634 350", 
-                                    "702 350 s", 
-                                    "450 350  288 408  288 676 s", 
-                                    "288 1066 s", 
-                                    "288 1334  450 1400  702 1400 s", 
-                                    "2306 1400"
-                                ]
-                            }
-                        ]
-                    }
+                    "vertical": true
                 }
             ], 
-            "name": "Blk Exp", 
-            "advanceWidth": 2666, 
+            "metricsLeft": "=rsb(\"P\")", 
+            "metricsRight": "=H", 
+            "name": "Lt Ctr"
+        }, 
+        {
+            "advanceWidth": 2594, 
+            "autoRecipe": "=P", 
             "color": "#b07733", 
-            "metricsLeft": "=rsb(\"P\")", 
-            "flags": 0, 
-            "metricsRight": "=H", 
-            "guidelines": [
-                {
-                    "color": "#666666", 
-                    "position": 1333, 
-                    "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=P", 
             "elements": [
                 {
                     "elementData": {
                         "contours": [
                             {
                                 "nodes": [
-                                    "1688 0", 
-                                    "1608 0", 
-                                    "1608 1288", 
-                                    "1454 1288", 
-                                    "1454 0", 
-                                    "1374 0", 
-                                    "1374 528", 
-                                    "600 528 s", 
-                                    "370 528  256 614  256 788 s", 
-                                    "256 1126 s", 
-                                    "256 1354  398 1400  600 1400 s", 
-                                    "1688 1400"
+                                    "2274 0", 
+                                    "2082 0", 
+                                    "2082 1238", 
+                                    "1794 1238", 
+                                    "1794 0", 
+                                    "1602 0", 
+                                    "1602 350", 
+                                    "670 350 s", 
+                                    "418 350  256 408  256 676 s", 
+                                    "256 1066 s", 
+                                    "256 1334  418 1400  670 1400 s", 
+                                    "2274 1400"
                                 ]
                             }
                         ]
                     }
                 }
             ], 
-            "name": "Exp", 
-            "advanceWidth": 2008, 
-            "color": "#d2afb9", 
-            "metricsLeft": "=rsb(\"P\")", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 1004, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 1297, 
+                    "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=rsb(\"P\")", 
+            "metricsRight": "=H", 
+            "name": "Blk Exp"
         }, 
         {
+            "advanceWidth": 1990, 
             "autoRecipe": "=P", 
+            "color": "#d2afb9", 
+            "elements": [
+                {
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "1680 0", 
+                                    "1600 0", 
+                                    "1600 1288", 
+                                    "1446 1288", 
+                                    "1446 0", 
+                                    "1366 0", 
+                                    "1366 528", 
+                                    "592 528 s", 
+                                    "362 528  248 614  248 788 s", 
+                                    "248 1126 s", 
+                                    "248 1354  390 1400  592 1400 s", 
+                                    "1680 1400"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ], 
+            "flags": 0, 
+            "guidelines": [
+                {
+                    "color": "#666666", 
+                    "expr": "width/2", 
+                    "name": "halfwidth", 
+                    "position": 995, 
+                    "vertical": true
+                }
+            ], 
+            "metricsLeft": "=rsb(\"P\")", 
+            "metricsRight": "=H", 
+            "name": "Exp"
+        }, 
+        {
+            "advanceWidth": 1566, 
+            "autoRecipe": "=P", 
+            "color": "#de4d8a", 
             "elements": [
                 {
                     "elementData": {
@@ -491,24 +495,24 @@
                     }
                 }
             ], 
-            "name": "Lt Exp", 
-            "advanceWidth": 1566, 
-            "color": "#de4d8a", 
-            "metricsLeft": "=rsb(\"P\")", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 783, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 783, 
+                    "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=rsb(\"P\")", 
+            "metricsRight": "=H", 
+            "name": "Lt Exp"
         }, 
         {
+            "advanceWidth": 1055, 
             "autoRecipe": "=P", 
+            "color": "#3989c2", 
             "elements": [
                 {
                     "elementData": {
@@ -533,24 +537,24 @@
                     }
                 }
             ], 
-            "name": "Blk Cnd", 
-            "advanceWidth": 1055, 
-            "color": "#3989c2", 
-            "metricsLeft": "=rsb(\"P\")", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 527.5, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 527.5, 
+                    "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=rsb(\"P\")", 
+            "metricsRight": "=H", 
+            "name": "Blk Cnd"
         }, 
         {
+            "advanceWidth": 768, 
             "autoRecipe": "=P", 
+            "color": "#1f964d", 
             "elements": [
                 {
                     "elementData": {
@@ -575,24 +579,24 @@
                     }
                 }
             ], 
-            "name": "Cnd", 
-            "advanceWidth": 768, 
-            "color": "#1f964d", 
-            "metricsLeft": "=rsb(\"P\")", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 384, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 384, 
+                    "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=rsb(\"P\")", 
+            "metricsRight": "=H", 
+            "name": "Cnd"
         }, 
         {
+            "advanceWidth": 579, 
             "autoRecipe": "=P", 
+            "color": "#fe4a46", 
             "elements": [
                 {
                     "elementData": {
@@ -617,24 +621,24 @@
                     }
                 }
             ], 
-            "name": "Lt Cnd", 
-            "advanceWidth": 579, 
-            "color": "#fe4a46", 
-            "metricsLeft": "=rsb(\"P\")", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 289.5, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 289.5, 
+                    "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=rsb(\"P\")", 
+            "metricsRight": "=H", 
+            "name": "Lt Cnd"
         }, 
         {
+            "advanceWidth": 1688, 
             "autoRecipe": "=P", 
+            "color": "#ff34ff", 
             "elements": [
                 {
                     "active": true, 
@@ -660,25 +664,24 @@
                     }
                 }
             ], 
-            "name": "Blk", 
-            "advanceWidth": 1688, 
-            "color": "#ff34ff", 
-            "metricsLeft": "=rsb(\"P\")", 
             "flags": 0, 
-            "active": true, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 844, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 844, 
+                    "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=rsb(\"P\")", 
+            "metricsRight": "=H", 
+            "name": "Blk"
         }, 
         {
+            "advanceWidth": 1246, 
             "autoRecipe": "=P", 
+            "color": "#00cce5", 
             "elements": [
                 {
                     "active": true, 
@@ -704,24 +707,24 @@
                     }
                 }
             ], 
-            "name": "Medium", 
-            "advanceWidth": 1246, 
-            "color": "#00cce5", 
-            "metricsLeft": "=rsb(\"P\")", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 623, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 623, 
+                    "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=rsb(\"P\")", 
+            "metricsRight": "=H", 
+            "name": "Medium"
         }, 
         {
+            "advanceWidth": 1107, 
             "autoRecipe": "=P", 
+            "color": "#bac000", 
             "elements": [
                 {
                     "active": true, 
@@ -747,28 +750,25 @@
                     }
                 }
             ], 
-            "name": "Lt", 
-            "advanceWidth": 1107, 
-            "color": "#bac000", 
-            "metricsLeft": "=rsb(\"P\")", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "color": "#666666", 
-                    "position": 553.5, 
+                    "expr": "width/2", 
                     "name": "halfwidth", 
-                    "vertical": true, 
-                    "expr": "width/2"
+                    "position": 553.5, 
+                    "vertical": true
                 }
-            ]
+            ], 
+            "metricsLeft": "=rsb(\"P\")", 
+            "metricsRight": "=H", 
+            "name": "Lt"
         }
     ], 
-    "lastModified": "2019-09-20 14:38:11", 
     "name": "paragraph", 
-    "unicode": "00b6", 
     "tags": [
         "V", 
         "I"
-    ]
+    ], 
+    "unicode": "00b6"
 }

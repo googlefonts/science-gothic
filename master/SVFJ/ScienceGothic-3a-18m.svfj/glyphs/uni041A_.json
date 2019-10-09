@@ -1,22 +1,9 @@
 {
+    "colorFlag": 210, 
+    "lastModified": "2019-10-09 01:54:43", 
     "layers": [
         {
-            "autoRecipe": "=K", 
-            "elements": [
-                {
-                    "elementData": {
-                        "component": {
-                            "glyphName": "K"
-                        }
-                    }, 
-                    "locked": true
-                }
-            ], 
-            "name": "Blk Exp Ctr", 
             "advanceWidth": 3440, 
-            "color": "#b9baa2", 
-            "colorFlag": 210, 
-            "flags": 16, 
             "anchors": [
                 {
                     "exprX": "(width/2)", 
@@ -28,30 +15,29 @@
                     "name": "bottom", 
                     "point": "1620 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=K", 
+            "color": "#b9baa2", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "elementData": {
                         "component": {
                             "glyphName": "K"
                         }
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Exp Ctr", 
-            "advanceWidth": 2795, 
-            "color": "#809693", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Blk Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 2795, 
             "anchors": [
                 {
+                    "cloud": false, 
                     "exprX": "(width/2)*.9", 
                     "name": "top", 
-                    "cloud": false, 
                     "point": "1258 1598"
                 }, 
                 {
@@ -59,25 +45,24 @@
                     "name": "bottom", 
                     "point": "1258 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=K", 
+            "color": "#809693", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "elementData": {
                         "component": {
                             "glyphName": "K"
                         }
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Lt Exp Ctr", 
-            "advanceWidth": 2364, 
-            "color": "#c8675e", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 2364, 
             "anchors": [
                 {
                     "name": "top", 
@@ -87,25 +72,24 @@
                     "name": "bottom", 
                     "point": "1064 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=K", 
+            "color": "#c8675e", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "elementData": {
                         "component": {
                             "glyphName": "K"
                         }
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Blk Cnd Ctr", 
-            "advanceWidth": 1537, 
-            "color": "#997d87", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Lt Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 1537, 
             "anchors": [
                 {
                     "exprX": "(width/2)+50", 
@@ -117,55 +101,53 @@
                     "name": "bottom", 
                     "point": "729 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=K", 
+            "color": "#997d87", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "elementData": {
                         "component": {
                             "glyphName": "K"
                         }
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Cnd Ctr", 
-            "advanceWidth": 889, 
-            "color": "#8fb0ff", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Blk Cnd Ctr"
+        }, 
+        {
+            "advanceWidth": 867, 
             "anchors": [
                 {
                     "exprX": "(width/2)*.96", 
                     "name": "top", 
-                    "point": "427 1598"
+                    "point": "416 1598"
                 }, 
                 {
                     "exprX": "(width/2)*.98", 
                     "name": "bottom", 
-                    "point": "436 -150"
+                    "point": "425 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=K", 
+            "color": "#8fb0ff", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "elementData": {
                         "component": {
                             "glyphName": "K"
                         }
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Lt Cnd Ctr", 
-            "advanceWidth": 551, 
-            "color": "#4e8e82", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Cnd Ctr"
+        }, 
+        {
+            "advanceWidth": 551, 
             "anchors": [
                 {
                     "name": "top", 
@@ -175,25 +157,25 @@
                     "name": "bottom", 
                     "point": "262 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=K", 
+            "color": "#4e8e82", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "elementData": {
                         "component": {
                             "glyphName": "K"
                         }
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Blk Ctr", 
-            "advanceWidth": 2077, 
-            "color": "#b69762", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Lt Cnd Ctr"
+        }, 
+        {
+            "active": true, 
+            "advanceWidth": 2077, 
             "anchors": [
                 {
                     "exprX": "(width/2)*.88", 
@@ -205,43 +187,41 @@
                     "name": "bottom", 
                     "point": "914 -150"
                 }
-            ]
-        }, 
-        {
-            "autoRecipe": "=K", 
-            "elements": [
-                {
-                    "elementData": {
-                        "component": {
-                            "glyphName": "K"
-                        }
-                    }, 
-                    "locked": true
-                }
             ], 
-            "flags": 16, 
-            "name": "Ctr", 
-            "advanceWidth": 1702, 
-            "color": "#26d283", 
-            "colorFlag": 210
-        }, 
-        {
             "autoRecipe": "=K", 
-            "elements": [
-                {
-                    "elementData": {
-                        "component": {
-                            "glyphName": "K"
-                        }
-                    }, 
-                    "locked": true
-                }
-            ], 
-            "name": "Lt Ctr", 
-            "advanceWidth": 1477, 
-            "color": "#9061ff", 
+            "color": "#b69762", 
             "colorFlag": 210, 
+            "elements": [
+                {
+                    "elementData": {
+                        "component": {
+                            "glyphName": "K"
+                        }
+                    }
+                }
+            ], 
             "flags": 16, 
+            "name": "Blk Ctr"
+        }, 
+        {
+            "advanceWidth": 1702, 
+            "autoRecipe": "=K", 
+            "color": "#26d283", 
+            "colorFlag": 210, 
+            "elements": [
+                {
+                    "elementData": {
+                        "component": {
+                            "glyphName": "K"
+                        }
+                    }
+                }
+            ], 
+            "flags": 16, 
+            "name": "Ctr"
+        }, 
+        {
+            "advanceWidth": 1477, 
             "anchors": [
                 {
                     "name": "top", 
@@ -251,86 +231,83 @@
                     "name": "bottom", 
                     "point": "747 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=K", 
+            "color": "#9061ff", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "elementData": {
                         "component": {
                             "glyphName": "K"
                         }
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Blk Exp", 
-            "advanceWidth": 3394, 
-            "color": "#b07733", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Lt Ctr"
+        }, 
+        {
+            "advanceWidth": 3354, 
             "anchors": [
                 {
                     "exprX": "(width/2)", 
                     "name": "top", 
-                    "point": "1697 1598"
+                    "point": "1677 1598"
                 }, 
                 {
                     "exprX": "(width/2)-100", 
                     "name": "bottom", 
-                    "point": "1597 -150"
+                    "point": "1577 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=K", 
+            "color": "#b07733", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "elementData": {
                         "component": {
                             "glyphName": "K"
                         }
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Exp", 
-            "advanceWidth": 2655, 
-            "color": "#d2afb9", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Blk Exp"
+        }, 
+        {
+            "advanceWidth": 2600, 
             "anchors": [
                 {
+                    "cloud": false, 
                     "exprX": "(width/2)*.9", 
                     "name": "top", 
-                    "cloud": false, 
-                    "point": "1195 1598"
+                    "point": "1162 1598"
                 }, 
                 {
                     "exprX": "(width/2)*.9", 
                     "name": "bottom", 
-                    "point": "1195 -150"
+                    "point": "1162 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=K", 
+            "color": "#d2afb9", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "elementData": {
                         "component": {
                             "glyphName": "K"
                         }
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Lt Exp", 
-            "advanceWidth": 2364, 
-            "color": "#de4d8a", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Exp"
+        }, 
+        {
+            "advanceWidth": 2364, 
             "anchors": [
                 {
                     "exprX": "(width/2)*.9", 
@@ -342,25 +319,24 @@
                     "name": "bottom", 
                     "point": "1064 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=K", 
+            "color": "#de4d8a", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "elementData": {
                         "component": {
                             "glyphName": "K"
                         }
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Blk Cnd", 
-            "advanceWidth": 1515, 
-            "color": "#3989c2", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Lt Exp"
+        }, 
+        {
+            "advanceWidth": 1515, 
             "anchors": [
                 {
                     "exprX": "(width/2)+50", 
@@ -372,25 +348,24 @@
                     "name": "bottom", 
                     "point": "718 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=K", 
+            "color": "#3989c2", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "elementData": {
                         "component": {
                             "glyphName": "K"
                         }
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Cnd", 
-            "advanceWidth": 846, 
-            "color": "#1f964d", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Blk Cnd"
+        }, 
+        {
+            "advanceWidth": 846, 
             "anchors": [
                 {
                     "exprX": "(width/2)*.96", 
@@ -402,25 +377,24 @@
                     "name": "bottom", 
                     "point": "415 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=K", 
+            "color": "#1f964d", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "elementData": {
                         "component": {
                             "glyphName": "K"
                         }
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Lt Cnd", 
-            "advanceWidth": 551, 
-            "color": "#fe4a46", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Cnd"
+        }, 
+        {
+            "advanceWidth": 551, 
             "anchors": [
                 {
                     "exprX": "(width/2)*.95", 
@@ -432,26 +406,24 @@
                     "name": "bottom", 
                     "point": "262 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=K", 
+            "color": "#fe4a46", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "elementData": {
                         "component": {
                             "glyphName": "K"
                         }
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Blk", 
-            "advanceWidth": 2028, 
-            "color": "#ff34ff", 
-            "colorFlag": 210, 
             "flags": 16, 
-            "active": true, 
+            "name": "Lt Cnd"
+        }, 
+        {
+            "advanceWidth": 2028, 
             "anchors": [
                 {
                     "exprX": "(width/2)*.88", 
@@ -463,25 +435,24 @@
                     "name": "bottom", 
                     "point": "892 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=K", 
+            "color": "#ff34ff", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "elementData": {
                         "component": {
                             "glyphName": "K"
                         }
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Medium", 
-            "advanceWidth": 1683, 
-            "color": "#00cce5", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Blk"
+        }, 
+        {
+            "advanceWidth": 1683, 
             "anchors": [
                 {
                     "exprX": "(width/2)*.9", 
@@ -493,25 +464,24 @@
                     "name": "bottom", 
                     "point": "774 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=K", 
+            "color": "#00cce5", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "elementData": {
                         "component": {
                             "glyphName": "K"
                         }
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Lt", 
-            "advanceWidth": 1494, 
-            "color": "#bac000", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Medium"
+        }, 
+        {
+            "advanceWidth": 1494, 
             "anchors": [
                 {
                     "exprX": "(width/2)", 
@@ -523,15 +493,27 @@
                     "name": "bottom", 
                     "point": "747 -150"
                 }
-            ]
+            ], 
+            "autoRecipe": "=K", 
+            "color": "#bac000", 
+            "colorFlag": 210, 
+            "elements": [
+                {
+                    "elementData": {
+                        "component": {
+                            "glyphName": "K"
+                        }
+                    }
+                }
+            ], 
+            "flags": 16, 
+            "name": "Lt"
         }
     ], 
     "name": "uni041A", 
-    "unicode": "041a", 
     "tags": [
         "cyr", 
         "V"
     ], 
-    "lastModified": "2019-10-08 15:04:09", 
-    "colorFlag": 210
+    "unicode": "041a"
 }

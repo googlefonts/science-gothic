@@ -1,6 +1,8 @@
 {
+    "lastModified": "2019-10-06 16:48:37", 
     "layers": [
         {
+            "advanceWidth": 0, 
             "color": "#000096", 
             "elements": [
                 {
@@ -19,39 +21,39 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Blk Exp Ctr", 
-            "advanceWidth": 0
+            "name": "mask.Blk Exp Ctr"
         }, 
         {
-            "elements": [
-                {
-                    "elementData": {
-                        "name": "acutecomb", 
-                        "contours": [
-                            {
-                                "nodes": [
-                                    "-333 1085", 
-                                    "702 1448", 
-                                    "813 1448", 
-                                    "-235 1085"
-                                ]
-                            }
-                        ]
-                    }
-                }
-            ], 
-            "flags": 0, 
-            "name": "Blk Exp Ctr", 
             "advanceWidth": 0, 
-            "color": "#b9baa2", 
             "anchors": [
                 {
                     "name": "_top", 
                     "point": "0 1100"
                 }
-            ]
+            ], 
+            "color": "#b9baa2", 
+            "elements": [
+                {
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "-333 1085", 
+                                    "702 1448", 
+                                    "813 1448", 
+                                    "-235 1085"
+                                ]
+                            }
+                        ], 
+                        "name": "acutecomb"
+                    }
+                }
+            ], 
+            "flags": 0, 
+            "name": "Blk Exp Ctr"
         }, 
         {
+            "advanceWidth": 0, 
             "color": "#000096", 
             "elements": [
                 {
@@ -70,15 +72,21 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Exp Ctr", 
-            "advanceWidth": 0
+            "name": "mask.Exp Ctr"
         }, 
         {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "-1 1100"
+                }
+            ], 
+            "color": "#809693", 
             "elements": [
                 {
                     "active": true, 
                     "elementData": {
-                        "name": "acutecomb", 
                         "contours": [
                             {
                                 "nodes": [
@@ -88,28 +96,29 @@
                                     "-191 1085"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "acutecomb"
                     }
                 }
             ], 
             "flags": 0, 
-            "name": "Exp Ctr", 
-            "advanceWidth": 0, 
-            "color": "#809693", 
             "guidelines": [
                 {
-                    "position": 1200, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": 1200
                 }
             ], 
+            "name": "Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_top", 
-                    "point": "-1 1100"
+                    "point": "0 1150"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#c8675e", 
             "elements": [
                 {
                     "elementData": {
@@ -127,23 +136,16 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Lt Exp Ctr", 
-            "advanceWidth": 0, 
-            "color": "#c8675e", 
             "guidelines": [
                 {
-                    "position": 1200, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": 1200
                 }
             ], 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1150"
-                }
-            ]
+            "name": "Lt Exp Ctr"
         }, 
         {
+            "advanceWidth": 0, 
             "color": "#000096", 
             "elements": [
                 {
@@ -162,45 +164,45 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Blk Cnd Ctr", 
-            "advanceWidth": 0
+            "name": "mask.Blk Cnd Ctr"
         }, 
         {
-            "elements": [
+            "advanceWidth": 0, 
+            "anchors": [
                 {
-                    "elementData": {
-                        "name": "acutecomb", 
-                        "contours": [
-                            {
-                                "nodes": [
-                                    "-116 1075", 
-                                    "268 1400", 
-                                    "324 1400", 
-                                    "-66 1075"
-                                ]
-                            }
-                        ]
-                    }
+                    "name": "_top", 
+                    "point": "0 1150"
                 }
             ], 
-            "flags": 0, 
-            "name": "Blk Cnd Ctr", 
-            "advanceWidth": 0, 
             "color": "#997d87", 
-            "guidelines": [
+            "elements": [
                 {
-                    "position": 1178, 
-                    "horizontal": true
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "-116 1075", 
+                                    "268 1400", 
+                                    "324 1400", 
+                                    "-66 1075"
+                                ]
+                            }
+                        ], 
+                        "name": "acutecomb"
+                    }
                 }
             ], 
-            "anchors": [
+            "flags": 0, 
+            "guidelines": [
                 {
-                    "name": "_top", 
-                    "point": "0 1150"
+                    "horizontal": true, 
+                    "position": 1178
                 }
-            ]
+            ], 
+            "name": "Blk Cnd Ctr"
         }, 
         {
+            "advanceWidth": 0, 
             "color": "#000096", 
             "elements": [
                 {
@@ -219,39 +221,39 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Cnd Ctr", 
-            "advanceWidth": 0
+            "name": "mask.Cnd Ctr"
         }, 
         {
-            "elements": [
+            "advanceWidth": 0, 
+            "anchors": [
                 {
-                    "elementData": {
-                        "name": "acutecomb", 
-                        "contours": [
-                            {
-                                "nodes": [
-                                    "-106 1075", 
-                                    "223 1400", 
-                                    "274 1400", 
-                                    "-60 1075"
-                                ]
-                            }
-                        ]
-                    }
+                    "name": "_top", 
+                    "point": "0 1150"
                 }
             ], 
-            "flags": 0, 
-            "name": "Cnd Ctr", 
-            "advanceWidth": 0, 
             "color": "#8fb0ff", 
-            "anchors": [
+            "elements": [
                 {
-                    "name": "_top", 
-                    "point": "0 1150"
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "-106 1075", 
+                                    "223 1400", 
+                                    "274 1400", 
+                                    "-60 1075"
+                                ]
+                            }
+                        ], 
+                        "name": "acutecomb"
+                    }
                 }
-            ]
+            ], 
+            "flags": 0, 
+            "name": "Cnd Ctr"
         }, 
         {
+            "advanceWidth": 0, 
             "color": "#000096", 
             "elements": [
                 {
@@ -270,44 +272,44 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Lt Cnd Ctr", 
-            "advanceWidth": 0
+            "name": "mask.Lt Cnd Ctr"
         }, 
         {
-            "elements": [
+            "advanceWidth": 0, 
+            "anchors": [
                 {
-                    "elementData": {
-                        "contours": [
-                            {
-                                "nodes": [
-                                    "-79 1085", 
-                                    "131 1400", 
-                                    "172 1400", 
-                                    "-44 1085"
-                                ]
-                            }
-                        ]
-                    }
+                    "name": "_top", 
+                    "point": "0 1150"
                 }
             ], 
-            "flags": 0, 
-            "name": "Lt Cnd Ctr", 
-            "advanceWidth": 0, 
             "color": "#4e8e82", 
-            "guidelines": [
+            "elements": [
                 {
-                    "position": 1150, 
-                    "horizontal": true
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "-79 1085", 
+                                    "131 1400", 
+                                    "172 1400", 
+                                    "-44 1085"
+                                ]
+                            }
+                        ]
+                    }
                 }
             ], 
-            "anchors": [
+            "flags": 0, 
+            "guidelines": [
                 {
-                    "name": "_top", 
-                    "point": "0 1150"
+                    "horizontal": true, 
+                    "position": 1150
                 }
-            ]
+            ], 
+            "name": "Lt Cnd Ctr"
         }, 
         {
+            "advanceWidth": 0, 
             "color": "#000096", 
             "elements": [
                 {
@@ -326,14 +328,21 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Blk Ctr", 
-            "advanceWidth": 0
+            "name": "mask.Blk Ctr"
         }, 
         {
+            "active": true, 
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1150"
+                }
+            ], 
+            "color": "#b69762", 
             "elements": [
                 {
                     "elementData": {
-                        "name": "acutecomb", 
                         "contours": [
                             {
                                 "nodes": [
@@ -343,28 +352,22 @@
                                     "-165 1084"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "acutecomb"
                     }
                 }
             ], 
             "flags": 0, 
-            "name": "Blk Ctr", 
-            "advanceWidth": 0, 
-            "color": "#b69762", 
             "guidelines": [
                 {
-                    "position": 1178, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": 1178
                 }
             ], 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1150"
-                }
-            ]
+            "name": "Blk Ctr"
         }, 
         {
+            "advanceWidth": 0, 
             "color": "#000096", 
             "elements": [
                 {
@@ -383,14 +386,20 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Ctr", 
-            "advanceWidth": 0
+            "name": "mask.Ctr"
         }, 
         {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1150"
+                }
+            ], 
+            "color": "#26d283", 
             "elements": [
                 {
                     "elementData": {
-                        "name": "acutecomb", 
                         "contours": [
                             {
                                 "nodes": [
@@ -400,22 +409,23 @@
                                     "-125 1085"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "acutecomb"
                     }
                 }
             ], 
             "flags": 0, 
-            "name": "Ctr", 
+            "name": "Ctr"
+        }, 
+        {
             "advanceWidth": 0, 
-            "color": "#26d283", 
             "anchors": [
                 {
                     "name": "_top", 
                     "point": "0 1150"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#9061ff", 
             "elements": [
                 {
                     "elementData": {
@@ -433,21 +443,20 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Lt Ctr", 
+            "name": "Lt Ctr"
+        }, 
+        {
             "advanceWidth": 0, 
-            "color": "#9061ff", 
             "anchors": [
                 {
                     "name": "_top", 
                     "point": "0 1150"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#b07733", 
             "elements": [
                 {
                     "elementData": {
-                        "name": "acutecomb", 
                         "contours": [
                             {
                                 "nodes": [
@@ -457,32 +466,32 @@
                                     "204 1100"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "acutecomb"
                     }
                 }
             ], 
             "flags": 0, 
-            "name": "Blk Exp", 
-            "advanceWidth": 0, 
-            "color": "#b07733", 
             "guidelines": [
                 {
-                    "position": 628, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": 628
                 }
             ], 
+            "name": "Blk Exp"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_top", 
                     "point": "0 1150"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#d2afb9", 
             "elements": [
                 {
                     "elementData": {
-                        "name": "acutecomb", 
                         "contours": [
                             {
                                 "nodes": [
@@ -492,28 +501,22 @@
                                     "-1 1085"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "acutecomb"
                     }
                 }
             ], 
             "flags": 0, 
-            "name": "Exp", 
-            "advanceWidth": 0, 
-            "color": "#d2afb9", 
             "guidelines": [
                 {
-                    "position": 1336, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": 1336
                 }
             ], 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1150"
-                }
-            ]
+            "name": "Exp"
         }, 
         {
+            "advanceWidth": 0, 
             "color": "#000096", 
             "elements": [
                 {
@@ -532,14 +535,20 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Lt Exp", 
-            "advanceWidth": 0
+            "name": "mask.Lt Exp"
         }, 
         {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1150"
+                }
+            ], 
+            "color": "#de4d8a", 
             "elements": [
                 {
                     "elementData": {
-                        "name": "acutecomb", 
                         "contours": [
                             {
                                 "nodes": [
@@ -549,32 +558,32 @@
                                     "-129 1085"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "acutecomb"
                     }
                 }
             ], 
             "flags": 0, 
-            "name": "Lt Exp", 
-            "advanceWidth": 0, 
-            "color": "#de4d8a", 
             "guidelines": [
                 {
-                    "position": 1250, 
-                    "horizontal": true
+                    "horizontal": true, 
+                    "position": 1250
                 }
             ], 
+            "name": "Lt Exp"
+        }, 
+        {
+            "advanceWidth": 0, 
             "anchors": [
                 {
                     "name": "_top", 
-                    "point": "0 1150"
+                    "point": "0 1174"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#3989c2", 
             "elements": [
                 {
                     "elementData": {
-                        "name": "acutecomb", 
                         "contours": [
                             {
                                 "nodes": [
@@ -584,26 +593,26 @@
                                     "142 1100"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "acutecomb"
                     }
                 }
             ], 
             "flags": 0, 
-            "name": "Blk Cnd", 
+            "name": "Blk Cnd"
+        }, 
+        {
             "advanceWidth": 0, 
-            "color": "#3989c2", 
             "anchors": [
                 {
                     "name": "_top", 
-                    "point": "0 1174"
+                    "point": "0 1150"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#1f964d", 
             "elements": [
                 {
                     "elementData": {
-                        "name": "acutecomb", 
                         "contours": [
                             {
                                 "nodes": [
@@ -613,22 +622,16 @@
                                     "63 1085"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "acutecomb"
                     }
                 }
             ], 
             "flags": 0, 
-            "name": "Cnd", 
-            "advanceWidth": 0, 
-            "color": "#1f964d", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1150"
-                }
-            ]
+            "name": "Cnd"
         }, 
         {
+            "advanceWidth": 0, 
             "color": "#00aeef", 
             "elements": [
                 {
@@ -647,14 +650,20 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Lt Cnd", 
-            "advanceWidth": 0
+            "name": "mask.Lt Cnd"
         }, 
         {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1150"
+                }
+            ], 
+            "color": "#fe4a46", 
             "elements": [
                 {
                     "elementData": {
-                        "name": "acutecomb", 
                         "contours": [
                             {
                                 "nodes": [
@@ -664,27 +673,26 @@
                                     "-44 1085"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "acutecomb"
                     }
                 }
             ], 
             "flags": 0, 
-            "name": "Lt Cnd", 
+            "name": "Lt Cnd"
+        }, 
+        {
             "advanceWidth": 0, 
-            "color": "#fe4a46", 
             "anchors": [
                 {
                     "name": "_top", 
-                    "point": "0 1150"
+                    "point": "0 1174"
                 }
-            ]
-        }, 
-        {
-            "active": true, 
+            ], 
+            "color": "#ff34ff", 
             "elements": [
                 {
                     "elementData": {
-                        "name": "acutecomb", 
                         "contours": [
                             {
                                 "nodes": [
@@ -694,22 +702,16 @@
                                     "142 1100"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "acutecomb"
                     }
                 }
             ], 
             "flags": 0, 
-            "name": "Blk", 
-            "advanceWidth": 0, 
-            "color": "#ff34ff", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1174"
-                }
-            ]
+            "name": "Blk"
         }, 
         {
+            "advanceWidth": 0, 
             "color": "#000096", 
             "elements": [
                 {
@@ -728,39 +730,39 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Medium", 
-            "advanceWidth": 0
+            "name": "mask.Medium"
         }, 
         {
-            "elements": [
+            "advanceWidth": 0, 
+            "anchors": [
                 {
-                    "elementData": {
-                        "name": "acutecomb", 
-                        "contours": [
-                            {
-                                "nodes": [
-                                    "-217 1085", 
-                                    "95 1448", 
-                                    "350 1448", 
-                                    "8 1085"
-                                ]
-                            }
-                        ]
-                    }
+                    "name": "_top", 
+                    "point": "0 1150"
                 }
             ], 
-            "flags": 0, 
-            "name": "Medium", 
-            "advanceWidth": 0, 
             "color": "#00cce5", 
-            "anchors": [
+            "elements": [
                 {
-                    "name": "_top", 
-                    "point": "0 1150"
+                    "elementData": {
+                        "contours": [
+                            {
+                                "nodes": [
+                                    "-217 1085", 
+                                    "95 1448", 
+                                    "350 1448", 
+                                    "8 1085"
+                                ]
+                            }
+                        ], 
+                        "name": "acutecomb"
+                    }
                 }
-            ]
+            ], 
+            "flags": 0, 
+            "name": "Medium"
         }, 
         {
+            "advanceWidth": 0, 
             "color": "#000096", 
             "elements": [
                 {
@@ -779,14 +781,20 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Lt", 
-            "advanceWidth": 0
+            "name": "mask.Lt"
         }, 
         {
+            "advanceWidth": 0, 
+            "anchors": [
+                {
+                    "name": "_top", 
+                    "point": "0 1150"
+                }
+            ], 
+            "color": "#bac000", 
             "elements": [
                 {
                     "elementData": {
-                        "name": "acutecomb", 
                         "contours": [
                             {
                                 "nodes": [
@@ -796,27 +804,19 @@
                                     "-79 1085"
                                 ]
                             }
-                        ]
+                        ], 
+                        "name": "acutecomb"
                     }
                 }
             ], 
             "flags": 0, 
-            "name": "Lt", 
-            "advanceWidth": 0, 
-            "color": "#bac000", 
-            "anchors": [
-                {
-                    "name": "_top", 
-                    "point": "0 1150"
-                }
-            ]
+            "name": "Lt"
         }
     ], 
     "name": "acutecomb", 
-    "unicode": "0301", 
+    "openTypeGlyphClass": 3, 
     "tags": [
         "T"
     ], 
-    "openTypeGlyphClass": 3, 
-    "lastModified": "2019-10-06 16:48:37"
+    "unicode": "0301"
 }

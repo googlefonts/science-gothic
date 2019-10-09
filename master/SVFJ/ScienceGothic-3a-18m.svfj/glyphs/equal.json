@@ -1,7 +1,10 @@
 {
+    "lastModified": "2019-10-05 22:09:28", 
     "layers": [
         {
+            "advanceWidth": 1634, 
             "autoRecipe": "=uni2212@,+ uni2212@,200", 
+            "color": "#b9baa2", 
             "elements": [
                 {
                     "active": true, 
@@ -24,39 +27,12 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Blk Exp Ctr", 
-            "advanceWidth": 1634, 
-            "color": "#b9baa2"
+            "name": "Blk Exp Ctr"
         }, 
         {
-            "autoRecipe": "=uni2212@,+ uni2212@,200", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "uni2212"
-                    }, 
-                    "locked": true, 
-                    "transform": {
-                        "yOffset": 190
-                    }
-                }, 
-                {
-                    "component": {
-                        "glyphName": "uni2212"
-                    }, 
-                    "locked": true, 
-                    "transform": {
-                        "yOffset": -190
-                    }
-                }
-            ], 
-            "flags": 0, 
-            "name": "Exp Ctr", 
             "advanceWidth": 1498, 
-            "color": "#809693"
-        }, 
-        {
             "autoRecipe": "=uni2212@,+ uni2212@,200", 
+            "color": "#809693", 
             "elements": [
                 {
                     "component": {
@@ -78,12 +54,12 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Lt Exp Ctr", 
+            "name": "Exp Ctr"
+        }, 
+        {
             "advanceWidth": 1576, 
-            "color": "#c8675e"
-        }, 
-        {
             "autoRecipe": "=uni2212@,+ uni2212@,200", 
+            "color": "#c8675e", 
             "elements": [
                 {
                     "component": {
@@ -91,7 +67,7 @@
                     }, 
                     "locked": true, 
                     "transform": {
-                        "yOffset": 180
+                        "yOffset": 190
                     }
                 }, 
                 {
@@ -100,17 +76,17 @@
                     }, 
                     "locked": true, 
                     "transform": {
-                        "yOffset": -180
+                        "yOffset": -190
                     }
                 }
             ], 
             "flags": 0, 
-            "name": "Blk Cnd Ctr", 
+            "name": "Lt Exp Ctr"
+        }, 
+        {
             "advanceWidth": 1034, 
-            "color": "#997d87"
-        }, 
-        {
             "autoRecipe": "=uni2212@,+ uni2212@,200", 
+            "color": "#997d87", 
             "elements": [
                 {
                     "component": {
@@ -132,12 +108,12 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Cnd Ctr", 
+            "name": "Blk Cnd Ctr"
+        }, 
+        {
             "advanceWidth": 918, 
-            "color": "#8fb0ff"
-        }, 
-        {
             "autoRecipe": "=uni2212@,+ uni2212@,200", 
+            "color": "#8fb0ff", 
             "elements": [
                 {
                     "component": {
@@ -159,12 +135,12 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Lt Cnd Ctr", 
+            "name": "Cnd Ctr"
+        }, 
+        {
             "advanceWidth": 496, 
-            "color": "#4e8e82"
-        }, 
-        {
             "autoRecipe": "=uni2212@,+ uni2212@,200", 
+            "color": "#4e8e82", 
             "elements": [
                 {
                     "component": {
@@ -186,12 +162,13 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Blk Ctr", 
+            "name": "Lt Cnd Ctr"
+        }, 
+        {
+            "active": true, 
             "advanceWidth": 1224, 
-            "color": "#b69762"
-        }, 
-        {
             "autoRecipe": "=uni2212@,+ uni2212@,200", 
+            "color": "#b69762", 
             "elements": [
                 {
                     "component": {
@@ -213,12 +190,12 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Ctr", 
+            "name": "Blk Ctr"
+        }, 
+        {
             "advanceWidth": 1198, 
-            "color": "#26d283"
-        }, 
-        {
             "autoRecipe": "=uni2212@,+ uni2212@,200", 
+            "color": "#26d283", 
             "elements": [
                 {
                     "component": {
@@ -240,12 +217,12 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Lt Ctr", 
-            "advanceWidth": 1176, 
-            "color": "#9061ff"
+            "name": "Ctr"
         }, 
         {
+            "advanceWidth": 1176, 
             "autoRecipe": "=uni2212@,+ uni2212@,200", 
+            "color": "#9061ff", 
             "elements": [
                 {
                     "component": {
@@ -253,6 +230,34 @@
                     }, 
                     "locked": true, 
                     "transform": {
+                        "yOffset": 180
+                    }
+                }, 
+                {
+                    "component": {
+                        "glyphName": "uni2212"
+                    }, 
+                    "locked": true, 
+                    "transform": {
+                        "yOffset": -180
+                    }
+                }
+            ], 
+            "flags": 0, 
+            "name": "Lt Ctr"
+        }, 
+        {
+            "advanceWidth": 1794, 
+            "autoRecipe": "=uni2212@,+ uni2212@,200", 
+            "color": "#b07733", 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "uni2212"
+                    }, 
+                    "locked": true, 
+                    "transform": {
+                        "xOffset": -10, 
                         "yOffset": 230
                     }
                 }, 
@@ -262,17 +267,18 @@
                     }, 
                     "locked": true, 
                     "transform": {
+                        "xOffset": -10, 
                         "yOffset": -230
                     }
                 }
             ], 
             "flags": 0, 
-            "name": "Blk Exp", 
-            "advanceWidth": 1794, 
-            "color": "#b07733"
+            "name": "Blk Exp"
         }, 
         {
+            "advanceWidth": 1498, 
             "autoRecipe": "=uni2212@,+ uni2212@,200", 
+            "color": "#d2afb9", 
             "elements": [
                 {
                     "component": {
@@ -294,12 +300,12 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Exp", 
-            "advanceWidth": 1498, 
-            "color": "#d2afb9"
+            "name": "Exp"
         }, 
         {
+            "advanceWidth": 1576, 
             "autoRecipe": "=uni2212@,+ uni2212@,200", 
+            "color": "#de4d8a", 
             "elements": [
                 {
                     "component": {
@@ -321,12 +327,12 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Lt Exp", 
-            "advanceWidth": 1576, 
-            "color": "#de4d8a"
+            "name": "Lt Exp"
         }, 
         {
+            "advanceWidth": 940, 
             "autoRecipe": "=uni2212@,+ uni2212@,200", 
+            "color": "#3989c2", 
             "elements": [
                 {
                     "component": {
@@ -348,12 +354,12 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Blk Cnd", 
-            "advanceWidth": 940, 
-            "color": "#3989c2"
+            "name": "Blk Cnd"
         }, 
         {
+            "advanceWidth": 748, 
             "autoRecipe": "=uni2212@,+ uni2212@,200", 
+            "color": "#1f964d", 
             "elements": [
                 {
                     "component": {
@@ -375,12 +381,12 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Cnd", 
-            "advanceWidth": 748, 
-            "color": "#1f964d"
+            "name": "Cnd"
         }, 
         {
+            "advanceWidth": 496, 
             "autoRecipe": "=uni2212@,+ uni2212@,200", 
+            "color": "#fe4a46", 
             "elements": [
                 {
                     "component": {
@@ -402,12 +408,12 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Lt Cnd", 
-            "advanceWidth": 496, 
-            "color": "#fe4a46"
+            "name": "Lt Cnd"
         }, 
         {
+            "advanceWidth": 1317, 
             "autoRecipe": "=uni2212@,+ uni2212@,200", 
+            "color": "#ff34ff", 
             "elements": [
                 {
                     "component": {
@@ -429,13 +435,12 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Blk", 
-            "advanceWidth": 1317, 
-            "color": "#ff34ff", 
-            "active": true
+            "name": "Blk"
         }, 
         {
+            "advanceWidth": 1218, 
             "autoRecipe": "=uni2212@,+ uni2212@,200", 
+            "color": "#00cce5", 
             "elements": [
                 {
                     "active": true, 
@@ -458,12 +463,12 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Medium", 
-            "advanceWidth": 1218, 
-            "color": "#00cce5"
+            "name": "Medium"
         }, 
         {
+            "advanceWidth": 1176, 
             "autoRecipe": "=uni2212@,+ uni2212@,200", 
+            "color": "#bac000", 
             "elements": [
                 {
                     "component": {
@@ -485,12 +490,9 @@
                 }
             ], 
             "flags": 0, 
-            "name": "Lt", 
-            "advanceWidth": 1176, 
-            "color": "#bac000"
+            "name": "Lt"
         }
     ], 
-    "lastModified": "2019-10-05 22:09:28", 
     "name": "equal", 
     "unicode": "003d"
 }

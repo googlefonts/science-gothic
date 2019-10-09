@@ -1,6 +1,11 @@
 {
+    "colorFlag": 121, 
+    "lastModified": "2019-10-09 01:53:57", 
     "layers": [
         {
+            "advanceWidth": 3316, 
+            "color": "#000096", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -46,12 +51,22 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Blk Exp Ctr", 
-            "advanceWidth": 3316, 
-            "color": "#000096", 
-            "colorFlag": 121
+            "name": "mask.Blk Exp Ctr"
         }, 
         {
+            "advanceWidth": 3316, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "1658 1550"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "1658 -150"
+                }
+            ], 
+            "color": "#b9baa2", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -76,25 +91,15 @@
                     }
                 }
             ], 
-            "name": "Blk Exp Ctr", 
-            "advanceWidth": 3316, 
-            "color": "#b9baa2", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=H", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "1658 1550"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "1658 -150"
-                }
-            ]
+            "name": "Blk Exp Ctr"
         }, 
         {
+            "advanceWidth": 3256, 
+            "color": "#000096", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -140,12 +145,22 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Exp Ctr", 
-            "advanceWidth": 3256, 
-            "color": "#000096", 
-            "colorFlag": 121
+            "name": "mask.Exp Ctr"
         }, 
         {
+            "advanceWidth": 3256, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "1628 1550"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "1628 -150"
+                }
+            ], 
+            "color": "#809693", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -169,96 +184,86 @@
                         ], 
                         "nodeLinks": [
                             {
-                                "index": 0, 
                                 "contour": {
-                                    "nodes": [
-                                        "400 0", 
-                                        "436 0", 
-                                        "436 1300", 
-                                        "436 1400", 
-                                        "400 1400"
-                                    ], 
-                                    "id": "contour.9"
-                                }
-                            }, 
-                            {
-                                "index": 1, 
-                                "contour": {
+                                    "id": "contour.9", 
                                     "nodes": [
                                         "432 1150", 
                                         "1539 209", 
                                         "1712 390", 
                                         "524 1400", 
                                         "432 1400"
-                                    ], 
-                                    "id": "contour.12"
-                                }
+                                    ]
+                                }, 
+                                "index": 0
                             }, 
                             {
-                                "index": 1, 
+                                "contour": "contour.9", 
+                                "index": 1
+                            }, 
+                            {
                                 "contour": {
+                                    "id": "contour.10", 
                                     "nodes": [
                                         "2592 0", 
                                         "2856 0", 
                                         "2856 1400", 
                                         "2772 1400", 
                                         "2592 1226"
-                                    ], 
-                                    "id": "contour.11"
-                                }
+                                    ]
+                                }, 
+                                "index": 4
                             }, 
                             {
-                                "index": 0, 
                                 "contour": {
+                                    "id": "contour.11", 
                                     "nodes": [
                                         "1539 209", 
                                         "2682 1276", 
                                         "2838 1400", 
                                         "2762 1400", 
                                         "1653 366"
-                                    ], 
-                                    "id": "contour.10"
-                                }
+                                    ]
+                                }, 
+                                "index": 0
                             }, 
                             {
-                                "index": 1, 
-                                "contour": "contour.9"
+                                "contour": "contour.10", 
+                                "index": 1
                             }, 
                             {
-                                "index": 1, 
-                                "contour": "contour.10"
+                                "contour": "contour.11", 
+                                "index": 1
                             }, 
                             {
-                                "index": 4, 
-                                "contour": "contour.11"
+                                "contour": {
+                                    "id": "contour.12", 
+                                    "nodes": [
+                                        "400 0", 
+                                        "436 0", 
+                                        "436 1300", 
+                                        "436 1400", 
+                                        "400 1400"
+                                    ]
+                                }, 
+                                "index": 1
                             }, 
                             {
-                                "index": 0, 
-                                "contour": "contour.12"
+                                "contour": "contour.12", 
+                                "index": 0
                             }
                         ]
                     }
                 }
             ], 
-            "name": "Exp Ctr", 
-            "advanceWidth": 3256, 
-            "color": "#809693", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=H", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "1628 1550"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "1628 -150"
-                }
-            ]
+            "name": "Exp Ctr"
         }, 
         {
+            "advanceWidth": 2952, 
+            "color": "#000096", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -304,12 +309,22 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Lt Exp Ctr", 
-            "advanceWidth": 2952, 
-            "color": "#000096", 
-            "colorFlag": 121
+            "name": "mask.Lt Exp Ctr"
         }, 
         {
+            "advanceWidth": 2958, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "1479 1550"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "1479 -150"
+                }
+            ], 
+            "color": "#c8675e", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -337,25 +352,15 @@
                     }
                 }
             ], 
-            "name": "Lt Exp Ctr", 
-            "advanceWidth": 2958, 
-            "color": "#c8675e", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=H", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "1479 1550"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "1479 -150"
-                }
-            ]
+            "name": "Lt Exp Ctr"
         }, 
         {
+            "advanceWidth": 1502, 
+            "color": "#000096", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -443,12 +448,22 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Blk Cnd Ctr", 
-            "advanceWidth": 1502, 
-            "color": "#000096", 
-            "colorFlag": 121
+            "name": "mask.Blk Cnd Ctr"
         }, 
         {
+            "advanceWidth": 1502, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "751 1550"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "751 -150"
+                }
+            ], 
+            "color": "#997d87", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -473,25 +488,25 @@
                     }
                 }
             ], 
-            "name": "Blk Cnd Ctr", 
-            "advanceWidth": 1502, 
-            "color": "#997d87", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=H", 
+            "name": "Blk Cnd Ctr"
+        }, 
+        {
+            "advanceWidth": 1086, 
             "anchors": [
                 {
                     "name": "top", 
-                    "point": "751 1550"
+                    "point": "543 1550"
                 }, 
                 {
                     "name": "bottom", 
-                    "point": "751 -150"
+                    "point": "543 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#8fb0ff", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -515,29 +530,19 @@
                         ]
                     }, 
                     "transform": {
-                        "xOffset": 8
+                        "xOffset": -20
                     }
                 }
             ], 
-            "name": "Cnd Ctr", 
-            "advanceWidth": 1142, 
-            "color": "#8fb0ff", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=H", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "571 1550"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "571 -150"
-                }
-            ]
+            "name": "Cnd Ctr"
         }, 
         {
+            "advanceWidth": 770, 
+            "color": "#000096", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -583,12 +588,22 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Lt Cnd Ctr", 
-            "advanceWidth": 770, 
-            "color": "#000096", 
-            "colorFlag": 121
+            "name": "mask.Lt Cnd Ctr"
         }, 
         {
+            "advanceWidth": 770, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "385 1550"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "385 -150"
+                }
+            ], 
+            "color": "#4e8e82", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -616,13 +631,7 @@
                     }
                 }
             ], 
-            "name": "Lt Cnd Ctr", 
-            "advanceWidth": 770, 
-            "color": "#4e8e82", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
-            "metricsRight": "=H", 
             "guidelines": [
                 {
                     "position": -4195, 
@@ -637,18 +646,14 @@
                     "vertical": true
                 }
             ], 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "385 1550"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "385 -150"
-                }
-            ]
+            "metricsLeft": "=H", 
+            "metricsRight": "=H", 
+            "name": "Lt Cnd Ctr"
         }, 
         {
+            "advanceWidth": 2208, 
+            "color": "#000096", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -694,12 +699,23 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Blk Ctr", 
-            "advanceWidth": 2208, 
-            "color": "#000096", 
-            "colorFlag": 121
+            "name": "mask.Blk Ctr"
         }, 
         {
+            "active": true, 
+            "advanceWidth": 2208, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "1104 1550"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "1104 -150"
+                }
+            ], 
+            "color": "#b69762", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -727,25 +743,15 @@
                     }
                 }
             ], 
-            "name": "Blk Ctr", 
-            "advanceWidth": 2208, 
-            "color": "#b69762", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=H", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "1104 1550"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "1104 -150"
-                }
-            ]
+            "name": "Blk Ctr"
         }, 
         {
+            "advanceWidth": 1942, 
+            "color": "#000096", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -791,12 +797,22 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Ctr", 
-            "advanceWidth": 1942, 
-            "color": "#000096", 
-            "colorFlag": 121
+            "name": "mask.Ctr"
         }, 
         {
+            "advanceWidth": 1942, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "971 1550"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "971 -150"
+                }
+            ], 
+            "color": "#26d283", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -821,25 +837,15 @@
                     }
                 }
             ], 
-            "name": "Ctr", 
-            "advanceWidth": 1942, 
-            "color": "#26d283", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=H", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "971 1550"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "971 -150"
-                }
-            ]
+            "name": "Ctr"
         }, 
         {
+            "advanceWidth": 1930, 
+            "color": "#000096", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -885,12 +891,22 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Lt Ctr", 
-            "advanceWidth": 1930, 
-            "color": "#000096", 
-            "colorFlag": 121
+            "name": "mask.Lt Ctr"
         }, 
         {
+            "advanceWidth": 1930, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "965 1550"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "965 -150"
+                }
+            ], 
+            "color": "#9061ff", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -915,25 +931,15 @@
                     }
                 }
             ], 
-            "name": "Lt Ctr", 
-            "advanceWidth": 1930, 
-            "color": "#9061ff", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=H", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "965 1550"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "965 -150"
-                }
-            ]
+            "name": "Lt Ctr"
         }, 
         {
+            "advanceWidth": 3560, 
+            "color": "#000096", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -979,12 +985,22 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Blk Exp", 
-            "advanceWidth": 3560, 
-            "color": "#000096", 
-            "colorFlag": 121
+            "name": "mask.Blk Exp"
         }, 
         {
+            "advanceWidth": 3480, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "1740 1550"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "1740 -150"
+                }
+            ], 
+            "color": "#b07733", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -1006,28 +1022,21 @@
                                 ]
                             }
                         ]
+                    }, 
+                    "transform": {
+                        "xOffset": -40
                     }
                 }
             ], 
-            "name": "Blk Exp", 
-            "advanceWidth": 3560, 
-            "color": "#b07733", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=H", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "1780 1550"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "1780 -150"
-                }
-            ]
+            "name": "Blk Exp"
         }, 
         {
+            "advanceWidth": 3212, 
+            "color": "#000096", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -1073,12 +1082,22 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Exp", 
-            "advanceWidth": 3212, 
-            "color": "#000096", 
-            "colorFlag": 121
+            "name": "mask.Exp"
         }, 
         {
+            "advanceWidth": 3192, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "1596 1550"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "1596 -150"
+                }
+            ], 
+            "color": "#d2afb9", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -1100,28 +1119,21 @@
                                 ]
                             }
                         ]
+                    }, 
+                    "transform": {
+                        "xOffset": -10
                     }
                 }
             ], 
-            "name": "Exp", 
-            "advanceWidth": 3212, 
-            "color": "#d2afb9", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=H", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "1606 1550"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "1606 -150"
-                }
-            ]
+            "name": "Exp"
         }, 
         {
+            "advanceWidth": 2952, 
+            "color": "#000096", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -1167,12 +1179,22 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Lt Exp", 
-            "advanceWidth": 2952, 
-            "color": "#000096", 
-            "colorFlag": 121
+            "name": "mask.Lt Exp"
         }, 
         {
+            "advanceWidth": 2958, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "1479 1550"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "1479 -150"
+                }
+            ], 
+            "color": "#de4d8a", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -1200,25 +1222,15 @@
                     }
                 }
             ], 
-            "name": "Lt Exp", 
-            "advanceWidth": 2958, 
-            "color": "#de4d8a", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=H", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "1479 1550"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "1479 -150"
-                }
-            ]
+            "name": "Lt Exp"
         }, 
         {
+            "advanceWidth": 1684, 
+            "color": "#000096", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -1264,12 +1276,22 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Blk Cnd", 
-            "advanceWidth": 1684, 
-            "color": "#000096", 
-            "colorFlag": 121
+            "name": "mask.Blk Cnd"
         }, 
         {
+            "advanceWidth": 1684, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "834 1550"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "804 -150"
+                }
+            ], 
+            "color": "#3989c2", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "active": true, 
@@ -1295,25 +1317,25 @@
                     }
                 }
             ], 
-            "name": "Blk Cnd", 
-            "advanceWidth": 1684, 
-            "color": "#3989c2", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=H", 
+            "name": "Blk Cnd"
+        }, 
+        {
+            "advanceWidth": 1030, 
             "anchors": [
                 {
                     "name": "top", 
-                    "point": "834 1550"
+                    "point": "515 1550"
                 }, 
                 {
                     "name": "bottom", 
-                    "point": "804 -150"
+                    "point": "515 -150"
                 }
-            ]
-        }, 
-        {
+            ], 
+            "color": "#1f964d", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -1338,25 +1360,15 @@
                     }
                 }
             ], 
-            "name": "Cnd", 
-            "advanceWidth": 1030, 
-            "color": "#1f964d", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=H", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "515 1550"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "515 -150"
-                }
-            ]
+            "name": "Cnd"
         }, 
         {
+            "advanceWidth": 770, 
+            "color": "#000096", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -1402,12 +1414,22 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Lt Cnd", 
-            "advanceWidth": 770, 
-            "color": "#000096", 
-            "colorFlag": 121
+            "name": "mask.Lt Cnd"
         }, 
         {
+            "advanceWidth": 770, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "385 1550"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "385 -150"
+                }
+            ], 
+            "color": "#fe4a46", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -1435,25 +1457,15 @@
                     }
                 }
             ], 
-            "name": "Lt Cnd", 
-            "advanceWidth": 770, 
-            "color": "#fe4a46", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=H", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "385 1550"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "385 -150"
-                }
-            ]
+            "name": "Lt Cnd"
         }, 
         {
+            "advanceWidth": 2188, 
+            "color": "#000096", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -1499,12 +1511,22 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Blk", 
-            "advanceWidth": 2188, 
-            "color": "#000096", 
-            "colorFlag": 121
+            "name": "mask.Blk"
         }, 
         {
+            "advanceWidth": 2188, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "1094 1550"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "1094 -150"
+                }
+            ], 
+            "color": "#ff34ff", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -1529,26 +1551,15 @@
                     }
                 }
             ], 
-            "name": "Blk", 
-            "advanceWidth": 2188, 
-            "color": "#ff34ff", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
-            "active": true, 
+            "metricsLeft": "=H", 
             "metricsRight": "=H", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "1094 1550"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "1094 -150"
-                }
-            ]
+            "name": "Blk"
         }, 
         {
+            "advanceWidth": 1986, 
+            "color": "#000096", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -1630,12 +1641,22 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Medium", 
-            "advanceWidth": 1986, 
-            "color": "#000096", 
-            "colorFlag": 121
+            "name": "mask.Medium"
         }, 
         {
+            "advanceWidth": 1986, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "993 1550"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "993 -150"
+                }
+            ], 
+            "color": "#00cce5", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -1660,25 +1681,15 @@
                     }
                 }
             ], 
-            "name": "Medium", 
-            "advanceWidth": 1986, 
-            "color": "#00cce5", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=l()", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "993 1550"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "993 -150"
-                }
-            ]
+            "name": "Medium"
         }, 
         {
+            "advanceWidth": 1930, 
+            "color": "#000096", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -1724,12 +1735,22 @@
                 }
             ], 
             "flags": 13, 
-            "name": "mask.Lt", 
-            "advanceWidth": 1930, 
-            "color": "#000096", 
-            "colorFlag": 121
+            "name": "mask.Lt"
         }, 
         {
+            "advanceWidth": 1930, 
+            "anchors": [
+                {
+                    "name": "top", 
+                    "point": "965 1550"
+                }, 
+                {
+                    "name": "bottom", 
+                    "point": "965 -150"
+                }
+            ], 
+            "color": "#bac000", 
+            "colorFlag": 121, 
             "elements": [
                 {
                     "elementData": {
@@ -1754,31 +1775,16 @@
                     }
                 }
             ], 
-            "name": "Lt", 
-            "advanceWidth": 1930, 
-            "color": "#bac000", 
-            "colorFlag": 121, 
-            "metricsLeft": "=H", 
             "flags": 0, 
+            "metricsLeft": "=H", 
             "metricsRight": "=H", 
-            "anchors": [
-                {
-                    "name": "top", 
-                    "point": "965 1550"
-                }, 
-                {
-                    "name": "bottom", 
-                    "point": "965 -150"
-                }
-            ]
+            "name": "Lt"
         }
     ], 
     "name": "M", 
-    "unicode": "004d", 
+    "openTypeGlyphClass": 1, 
     "tags": [
         "T"
     ], 
-    "openTypeGlyphClass": 1, 
-    "lastModified": "2019-10-08 00:58:23", 
-    "colorFlag": 121
+    "unicode": "004d"
 }

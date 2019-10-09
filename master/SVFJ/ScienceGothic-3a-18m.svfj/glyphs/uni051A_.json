@@ -1,80 +1,67 @@
 {
+    "colorFlag": 210, 
+    "lastModified": "2019-10-09 01:54:43", 
     "layers": [
         {
-            "autoRecipe": "=Q", 
-            "elements": [
+            "advanceWidth": 3384, 
+            "anchors": [
                 {
-                    "component": {
-                        "glyphName": "Q"
-                    }, 
-                    "locked": true
+                    "exprX": "width/2", 
+                    "exprY": "diac_UC_top_os", 
+                    "name": "top", 
+                    "point": "1692 1554"
+                }, 
+                {
+                    "exprX": "width/2", 
+                    "exprY": "over_UC_desc", 
+                    "name": "bottom", 
+                    "point": "1692 -432"
                 }
             ], 
-            "name": "Blk Exp Ctr", 
-            "advanceWidth": 3384, 
+            "autoRecipe": "=Q", 
             "color": "#b9baa2", 
             "colorFlag": 210, 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "Q"
+                    }
+                }
+            ], 
             "flags": 16, 
+            "name": "Blk Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 3064, 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_top_os", 
                     "name": "top", 
-                    "point": "1692 1564"
+                    "point": "1532 1554"
                 }, 
                 {
                     "exprX": "width/2", 
                     "exprY": "over_UC_desc", 
                     "name": "bottom", 
-                    "point": "1692 -442"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=Q", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "Q"
-                    }, 
-                    "locked": true
+                    "point": "1532 -432"
                 }
             ], 
-            "name": "Exp Ctr", 
-            "advanceWidth": 3064, 
+            "autoRecipe": "=Q", 
             "color": "#809693", 
             "colorFlag": 210, 
-            "flags": 16, 
-            "anchors": [
-                {
-                    "exprX": "width/2", 
-                    "exprY": "diac_UC_top_os", 
-                    "name": "top", 
-                    "point": "1532 1564"
-                }, 
-                {
-                    "exprX": "width/2", 
-                    "exprY": "over_UC_desc", 
-                    "name": "bottom", 
-                    "point": "1532 -442"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=Q", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "Q"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Lt Exp Ctr", 
-            "advanceWidth": 2840, 
-            "color": "#c8675e", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Exp Ctr"
+        }, 
+        {
+            "advanceWidth": 2840, 
             "anchors": [
                 {
                     "name": "top", 
@@ -84,83 +71,80 @@
                     "name": "bottom", 
                     "point": "1422 -432"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=Q", 
+            "color": "#c8675e", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "Q"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Blk Cnd Ctr", 
+            "flags": 16, 
+            "name": "Lt Exp Ctr"
+        }, 
+        {
             "advanceWidth": 1400, 
+            "anchors": [
+                {
+                    "exprX": "width/2", 
+                    "exprY": "diac_UC_top_os", 
+                    "name": "top", 
+                    "point": "700 1554"
+                }, 
+                {
+                    "exprX": "width/2", 
+                    "exprY": "over_UC_desc", 
+                    "name": "bottom", 
+                    "point": "700 -432"
+                }
+            ], 
+            "autoRecipe": "=Q", 
             "color": "#997d87", 
             "colorFlag": 210, 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "Q"
+                    }
+                }
+            ], 
             "flags": 16, 
+            "name": "Blk Cnd Ctr"
+        }, 
+        {
+            "advanceWidth": 918, 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_top_os", 
                     "name": "top", 
-                    "point": "700 1564"
+                    "point": "459 1554"
                 }, 
                 {
                     "exprX": "width/2", 
                     "exprY": "over_UC_desc", 
                     "name": "bottom", 
-                    "point": "700 -442"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=Q", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "Q"
-                    }, 
-                    "locked": true
+                    "point": "459 -432"
                 }
             ], 
-            "name": "Cnd Ctr", 
-            "advanceWidth": 974, 
+            "autoRecipe": "=Q", 
             "color": "#8fb0ff", 
             "colorFlag": 210, 
-            "flags": 16, 
-            "anchors": [
-                {
-                    "exprX": "width/2", 
-                    "exprY": "diac_UC_top_os", 
-                    "name": "top", 
-                    "point": "487 1564"
-                }, 
-                {
-                    "exprX": "width/2", 
-                    "exprY": "over_UC_desc", 
-                    "name": "bottom", 
-                    "point": "487 -442"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=Q", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "Q"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Lt Cnd Ctr", 
-            "advanceWidth": 598, 
-            "color": "#4e8e82", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Cnd Ctr"
+        }, 
+        {
+            "advanceWidth": 598, 
             "anchors": [
                 {
                     "name": "top", 
@@ -170,83 +154,81 @@
                     "name": "bottom", 
                     "point": "304 -432"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=Q", 
+            "color": "#4e8e82", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "Q"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Blk Ctr", 
+            "flags": 16, 
+            "name": "Lt Cnd Ctr"
+        }, 
+        {
+            "active": true, 
             "advanceWidth": 2092, 
+            "anchors": [
+                {
+                    "exprX": "width/2", 
+                    "exprY": "diac_UC_top_os", 
+                    "name": "top", 
+                    "point": "1046 1554"
+                }, 
+                {
+                    "exprX": "width/2", 
+                    "exprY": "over_UC_desc", 
+                    "name": "bottom", 
+                    "point": "1046 -432"
+                }
+            ], 
+            "autoRecipe": "=Q", 
             "color": "#b69762", 
             "colorFlag": 210, 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "Q"
+                    }
+                }
+            ], 
             "flags": 16, 
+            "name": "Blk Ctr"
+        }, 
+        {
+            "advanceWidth": 1852, 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_top_os", 
                     "name": "top", 
-                    "point": "1046 1564"
+                    "point": "926 1554"
                 }, 
                 {
                     "exprX": "width/2", 
                     "exprY": "over_UC_desc", 
                     "name": "bottom", 
-                    "point": "1046 -442"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=Q", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "Q"
-                    }, 
-                    "locked": true
+                    "point": "926 -432"
                 }
             ], 
-            "name": "Ctr", 
-            "advanceWidth": 1852, 
+            "autoRecipe": "=Q", 
             "color": "#26d283", 
             "colorFlag": 210, 
-            "flags": 16, 
-            "anchors": [
-                {
-                    "exprX": "width/2", 
-                    "exprY": "diac_UC_top_os", 
-                    "name": "top", 
-                    "point": "926 1564"
-                }, 
-                {
-                    "exprX": "width/2", 
-                    "exprY": "over_UC_desc", 
-                    "name": "bottom", 
-                    "point": "926 -442"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=Q", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "Q"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Lt Ctr", 
-            "advanceWidth": 1774, 
-            "color": "#9061ff", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Ctr"
+        }, 
+        {
+            "advanceWidth": 1774, 
             "anchors": [
                 {
                     "name": "top", 
@@ -256,286 +238,286 @@
                     "name": "bottom", 
                     "point": "887 -432"
                 }
-            ]
-        }, 
-        {
+            ], 
             "autoRecipe": "=Q", 
+            "color": "#9061ff", 
+            "colorFlag": 210, 
             "elements": [
                 {
                     "component": {
                         "glyphName": "Q"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Blk Exp", 
-            "advanceWidth": 3344, 
+            "flags": 16, 
+            "name": "Lt Ctr"
+        }, 
+        {
+            "advanceWidth": 3264, 
+            "anchors": [
+                {
+                    "exprX": "width/2", 
+                    "exprY": "diac_UC_top_os", 
+                    "name": "top", 
+                    "point": "1632 1554"
+                }, 
+                {
+                    "exprX": "width/2", 
+                    "exprY": "over_UC_desc", 
+                    "name": "bottom", 
+                    "point": "1632 -432"
+                }
+            ], 
+            "autoRecipe": "=Q", 
             "color": "#b07733", 
             "colorFlag": 210, 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "Q"
+                    }
+                }
+            ], 
             "flags": 16, 
+            "name": "Blk Exp"
+        }, 
+        {
+            "advanceWidth": 2922, 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_top_os", 
                     "name": "top", 
-                    "point": "1672 1564"
+                    "point": "1461 1554"
                 }, 
                 {
                     "exprX": "width/2", 
                     "exprY": "over_UC_desc", 
                     "name": "bottom", 
-                    "point": "1672 -442"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=Q", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "Q"
-                    }, 
-                    "locked": true
+                    "point": "1461 -432"
                 }
             ], 
-            "name": "Exp", 
-            "advanceWidth": 2939, 
+            "autoRecipe": "=Q", 
             "color": "#d2afb9", 
             "colorFlag": 210, 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "Q"
+                    }
+                }
+            ], 
             "flags": 16, 
+            "name": "Exp"
+        }, 
+        {
+            "advanceWidth": 2840, 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_top_os", 
                     "name": "top", 
-                    "point": "1470 1564"
+                    "point": "1420 1554"
                 }, 
                 {
                     "exprX": "width/2", 
                     "exprY": "over_UC_desc", 
                     "name": "bottom", 
-                    "point": "1470 -442"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=Q", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "Q"
-                    }, 
-                    "locked": true
+                    "point": "1420 -432"
                 }
             ], 
-            "name": "Lt Exp", 
-            "advanceWidth": 2840, 
+            "autoRecipe": "=Q", 
             "color": "#de4d8a", 
             "colorFlag": 210, 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "Q"
+                    }
+                }
+            ], 
             "flags": 16, 
+            "name": "Lt Exp"
+        }, 
+        {
+            "advanceWidth": 1384, 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_top_os", 
                     "name": "top", 
-                    "point": "1420 1564"
+                    "point": "692 1554"
                 }, 
                 {
                     "exprX": "width/2", 
                     "exprY": "over_UC_desc", 
                     "name": "bottom", 
-                    "point": "1420 -442"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=Q", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "Q"
-                    }, 
-                    "locked": true
+                    "point": "692 -432"
                 }
             ], 
-            "name": "Blk Cnd", 
-            "advanceWidth": 1384, 
+            "autoRecipe": "=Q", 
             "color": "#3989c2", 
             "colorFlag": 210, 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "Q"
+                    }
+                }
+            ], 
             "flags": 16, 
+            "name": "Blk Cnd"
+        }, 
+        {
+            "advanceWidth": 850, 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_top_os", 
                     "name": "top", 
-                    "point": "692 1564"
+                    "point": "425 1554"
                 }, 
                 {
                     "exprX": "width/2", 
                     "exprY": "over_UC_desc", 
                     "name": "bottom", 
-                    "point": "692 -442"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=Q", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "Q"
-                    }, 
-                    "locked": true
+                    "point": "425 -432"
                 }
             ], 
-            "name": "Cnd", 
-            "advanceWidth": 850, 
+            "autoRecipe": "=Q", 
             "color": "#1f964d", 
             "colorFlag": 210, 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "Q"
+                    }
+                }
+            ], 
             "flags": 16, 
+            "name": "Cnd"
+        }, 
+        {
+            "advanceWidth": 598, 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_top_os", 
                     "name": "top", 
-                    "point": "425 1564"
+                    "point": "299 1554"
                 }, 
                 {
                     "exprX": "width/2", 
                     "exprY": "over_UC_desc", 
                     "name": "bottom", 
-                    "point": "425 -442"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=Q", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "Q"
-                    }, 
-                    "locked": true
+                    "point": "299 -432"
                 }
             ], 
-            "name": "Lt Cnd", 
-            "advanceWidth": 598, 
+            "autoRecipe": "=Q", 
             "color": "#fe4a46", 
             "colorFlag": 210, 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "Q"
+                    }
+                }
+            ], 
             "flags": 16, 
+            "name": "Lt Cnd"
+        }, 
+        {
+            "advanceWidth": 2057, 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_top_os", 
                     "name": "top", 
-                    "point": "299 1564"
+                    "point": "1029 1554"
                 }, 
                 {
                     "exprX": "width/2", 
                     "exprY": "over_UC_desc", 
                     "name": "bottom", 
-                    "point": "299 -442"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=Q", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "Q"
-                    }, 
-                    "locked": true
+                    "point": "1029 -432"
                 }
             ], 
-            "name": "Blk", 
-            "advanceWidth": 2057, 
+            "autoRecipe": "=Q", 
             "color": "#ff34ff", 
             "colorFlag": 210, 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "Q"
+                    }
+                }
+            ], 
             "flags": 16, 
-            "active": true, 
+            "name": "Blk"
+        }, 
+        {
+            "advanceWidth": 1820, 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_top_os", 
                     "name": "top", 
-                    "point": "1029 1564"
+                    "point": "910 1554"
                 }, 
                 {
                     "exprX": "width/2", 
                     "exprY": "over_UC_desc", 
                     "name": "bottom", 
-                    "point": "1029 -442"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=Q", 
-            "elements": [
-                {
-                    "component": {
-                        "glyphName": "Q"
-                    }, 
-                    "locked": true
+                    "point": "910 -432"
                 }
             ], 
-            "name": "Medium", 
-            "advanceWidth": 1820, 
+            "autoRecipe": "=Q", 
             "color": "#00cce5", 
             "colorFlag": 210, 
-            "flags": 16, 
-            "anchors": [
-                {
-                    "exprX": "width/2", 
-                    "exprY": "diac_UC_top_os", 
-                    "name": "top", 
-                    "point": "910 1564"
-                }, 
-                {
-                    "exprX": "width/2", 
-                    "exprY": "over_UC_desc", 
-                    "name": "bottom", 
-                    "point": "910 -442"
-                }
-            ]
-        }, 
-        {
-            "autoRecipe": "=Q", 
             "elements": [
                 {
                     "component": {
                         "glyphName": "Q"
-                    }, 
-                    "locked": true
+                    }
                 }
             ], 
-            "name": "Lt", 
-            "advanceWidth": 1774, 
-            "color": "#bac000", 
-            "colorFlag": 210, 
             "flags": 16, 
+            "name": "Medium"
+        }, 
+        {
+            "advanceWidth": 1774, 
             "anchors": [
                 {
                     "exprX": "width/2", 
                     "exprY": "diac_UC_top_os", 
                     "name": "top", 
-                    "point": "887 1564"
+                    "point": "887 1554"
                 }, 
                 {
                     "exprX": "width/2", 
                     "exprY": "over_UC_desc", 
                     "name": "bottom", 
-                    "point": "887 -442"
+                    "point": "887 -432"
                 }
-            ]
+            ], 
+            "autoRecipe": "=Q", 
+            "color": "#bac000", 
+            "colorFlag": 210, 
+            "elements": [
+                {
+                    "component": {
+                        "glyphName": "Q"
+                    }
+                }
+            ], 
+            "flags": 16, 
+            "name": "Lt"
         }
     ], 
     "name": "uni051A", 
-    "unicode": "051a", 
     "tags": [
         "cyr", 
         "V"
     ], 
-    "lastModified": "2019-10-08 15:04:38", 
-    "colorFlag": 210
+    "unicode": "051a"
 }
