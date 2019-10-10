@@ -3,8 +3,7 @@
 # Using Glyph Construction syntax 
 # 2019-09-02
 #
-# All glyphs in this list can be Auto Glyphs
-
+# All glyphs in this list can be Auto Glyphs, unless commented out
 
 # Symbols, Spaces & Special
 uni00A0=space
@@ -40,23 +39,66 @@ quotesinglbase=comma
 # quotedblright = quoteright & quoteright,quoteright-20, # space between quotes isn't right yet
 plusminus = minus + plus@center,top
 
+
+# NUMERALS
+# .dnom variants are designed, others are derived from them
+
+zero.numr = zero.dnom @,627
+one.numr = one.dnom @,627
+two.numr = two.dnom @,627
+three.numr = three.dnom @,627
+four.numr = four.dnom @,627
+five.numr = five.dnom @,627
+six.numr = six.dnom @,627
+seven.numr = seven.dnom @,627
+eight.numr = eight.dnom @,627
+nine.numr = nine.dnom @,627
+zero.sups = zero.dnom @,950
+one.sups = one.dnom @,950
+two.sups = two.dnom @,950
+three.sups = three.dnom @,950
+four.sups = four.dnom @,950
+five.sups = five.dnom @,950
+six.sups = six.dnom @,950
+seven.sups = seven.dnom @,950
+eight.sups = eight.dnom @,950
+nine.sups = nine.dnom @,950
+zero.sinf = zero.dnom @,-300
+one.sinf = one.dnom @,-300
+two.sinf = two.dnom @,-300
+three.sinf = three.dnom @,-300
+four.sinf = four.dnom @,-300
+five.sinf = five.dnom @,-300
+six.sinf = six.dnom @,-300
+seven.sinf = seven.dnom @,-300
+eight.sinf = eight.dnom @,-300
+nine.sinf = nine.dnom @,-300
 percent= zero.numr & fraction & zero.dnom
 perthousand= zero.numr & fraction & zero.dnom & zero.dnom
+onesuperior = one.dnom @,950
+twosuperior = two.dnom @,950
+threesuperior =three.dnom @,950
+uni2074 = four.dnom @,950
 onehalf=one.numr & fraction & two.dnom
 onequarter=one.numr & fraction & four.dnom
 threequarters=three.numr & fraction & four.dnom
+uni2153 = one.numr & fraction & three.dnom
+uni2154 = two.numr & fraction & three.dnom
+uni215B = one.numr & fraction & eight.dnom
+uni215C = three.numr & fraction & eight.dnom
+uni215D = five.numr & fraction & eight.dnom
+uni215E = seven.numr & fraction & eight.dnom
 
-zero.numr.1=zero.dnom.1@,586
-one.numr.1=one.dnom.1@,586
-two.numr.1=two.dnom.1@,586
-three.numr.1=three.dnom.1@,586
-four.numr.1=four.dnom.1@,586
-five.numr.1=five.dnom.1@,586
-six.numr.1=six.dnom.1@,586
-seven.numr.1=seven.dnom.1@,586
-eight.numr.1=eight.dnom.1@,586
-nine.numr.1=nine.dnom.1@,586
-
+# MULTIPLE LETTERS
+uni01C7 = L & J
+uni01CA = N & J
+uni01C4 = D & Zcaron
+uniO1C5 = D & Zcaron
+uni01C8 = L & j
+uni01CB = N & j
+uni01C6 = d & zcaron
+uni01C9 = l & j
+uni01CC = n & J
 
 # Diacritics
 macron=uni0304~50,50
@@ -219,10 +261,12 @@ Aogonek = A + uni0328.case@ogonek
 aogonek = a + uni0328@ogonek
 Uogonek = U + uni0328.case@ogonek
 uogonek = u + uni0328@ogonek
-uni01EA = O + uni0328.case@ogonek
-uni01EB= o + uni0328@ogonek
+uni01EA = O + uni0328.case@bottom
+uni01EB= o + uni0328@bottom
 Eogonek = E +uni0328.case@ogonek
 eogonek = e + uni0328@ogonek
+Iogonek = I + uni0328.case@ogonek
+iogonek = i + uni0328@ogonek
 
 # Latin ligatures
 uni01C4=D&Zcaron
