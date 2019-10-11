@@ -212,15 +212,7 @@
                         "nodeLinks": [
                             {
                                 "contour": "contour.133", 
-                                "index": 22
-                            }, 
-                            {
-                                "contour": "contour.133", 
                                 "index": 9
-                            }, 
-                            {
-                                "contour": "contour.133", 
-                                "index": 16
                             }, 
                             {
                                 "contour": "contour.133", 
@@ -229,6 +221,14 @@
                             {
                                 "contour": "contour.133", 
                                 "index": 10
+                            }, 
+                            {
+                                "contour": "contour.133", 
+                                "index": 22
+                            }, 
+                            {
+                                "contour": "contour.133", 
+                                "index": 16
                             }, 
                             {
                                 "contour": "contour.133", 
@@ -563,16 +563,46 @@
                         ], 
                         "nodeLinks": [
                             {
-                                "constOffset": "-33 0", 
+                                "constOffset": "49 0", 
                                 "contour": "contour.134", 
                                 "global": true, 
                                 "guidelineV": {
                                     "delta": 200, 
                                     "id": "guideline.17", 
                                     "objectType": 51, 
+                                    "position": 56, 
+                                    "vertical": true
+                                }, 
+                                "horizontal": true, 
+                                "index": 16
+                            }, 
+                            {
+                                "constOffset": "-51 0", 
+                                "contour": "contour.134", 
+                                "global": true, 
+                                "guidelineV": {
+                                    "delta": 200, 
+                                    "id": "guideline.18", 
+                                    "objectType": 51, 
                                     "position": 458, 
                                     "vertical": true
                                 }, 
+                                "horizontal": true, 
+                                "index": 22
+                            }, 
+                            {
+                                "constOffset": "9 0", 
+                                "contour": "contour.134", 
+                                "global": true, 
+                                "guidelineV": "guideline.17", 
+                                "horizontal": true, 
+                                "index": 3
+                            }, 
+                            {
+                                "constOffset": "-33 0", 
+                                "contour": "contour.134", 
+                                "global": true, 
+                                "guidelineV": "guideline.18", 
                                 "horizontal": true, 
                                 "index": 9
                             }, 
@@ -580,45 +610,15 @@
                                 "constOffset": "-33 0", 
                                 "contour": "contour.134", 
                                 "global": true, 
-                                "guidelineV": "guideline.17", 
-                                "horizontal": true, 
-                                "index": 10
-                            }, 
-                            {
-                                "constOffset": "9 0", 
-                                "contour": "contour.134", 
-                                "global": true, 
-                                "guidelineV": {
-                                    "delta": 200, 
-                                    "id": "guideline.18", 
-                                    "objectType": 51, 
-                                    "position": 56, 
-                                    "vertical": true
-                                }, 
-                                "horizontal": true, 
-                                "index": 3
-                            }, 
-                            {
-                                "constOffset": "-51 0", 
-                                "contour": "contour.134", 
-                                "global": true, 
-                                "guidelineV": "guideline.17", 
-                                "horizontal": true, 
-                                "index": 22
-                            }, 
-                            {
-                                "constOffset": "49 0", 
-                                "contour": "contour.134", 
-                                "global": true, 
                                 "guidelineV": "guideline.18", 
                                 "horizontal": true, 
-                                "index": 16
+                                "index": 10
                             }, 
                             {
                                 "constOffset": "-11 0", 
                                 "contour": "contour.134", 
                                 "global": true, 
-                                "guidelineV": "guideline.17", 
+                                "guidelineV": "guideline.18", 
                                 "horizontal": true, 
                                 "index": 35
                             }
