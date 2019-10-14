@@ -1,4 +1,5 @@
 {
+    "lastModified": "2019-10-14 06:59:24", 
     "layers": [
         {
             "advanceWidth": 2990, 
@@ -189,7 +190,7 @@
                     "elementData": {
                         "contours": [
                             {
-                                "id": "contour.133", 
+                                "id": "contour.28", 
                                 "nodes": [
                                     "255 1406 s", 
                                     "91 1406  65 1292  65 1019 s", 
@@ -211,28 +212,28 @@
                         ], 
                         "nodeLinks": [
                             {
-                                "contour": "contour.133", 
+                                "contour": "contour.28", 
                                 "index": 9
                             }, 
                             {
-                                "contour": "contour.133", 
-                                "index": 3
-                            }, 
-                            {
-                                "contour": "contour.133", 
-                                "index": 10
-                            }, 
-                            {
-                                "contour": "contour.133", 
-                                "index": 22
-                            }, 
-                            {
-                                "contour": "contour.133", 
+                                "contour": "contour.28", 
                                 "index": 16
                             }, 
                             {
-                                "contour": "contour.133", 
+                                "contour": "contour.28", 
                                 "index": 35
+                            }, 
+                            {
+                                "contour": "contour.28", 
+                                "index": 22
+                            }, 
+                            {
+                                "contour": "contour.28", 
+                                "index": 3
+                            }, 
+                            {
+                                "contour": "contour.28", 
+                                "index": 10
                             }
                         ]
                     }
@@ -541,7 +542,7 @@
                     "elementData": {
                         "contours": [
                             {
-                                "id": "contour.134", 
+                                "id": "contour.29", 
                                 "nodes": [
                                     "255 1406 s", 
                                     "91 1406  65 1292  65 1019 s", 
@@ -563,26 +564,12 @@
                         ], 
                         "nodeLinks": [
                             {
-                                "constOffset": "49 0", 
-                                "contour": "contour.134", 
+                                "constOffset": "-51 0", 
+                                "contour": "contour.29", 
                                 "global": true, 
                                 "guidelineV": {
                                     "delta": 200, 
                                     "id": "guideline.17", 
-                                    "objectType": 51, 
-                                    "position": 56, 
-                                    "vertical": true
-                                }, 
-                                "horizontal": true, 
-                                "index": 16
-                            }, 
-                            {
-                                "constOffset": "-51 0", 
-                                "contour": "contour.134", 
-                                "global": true, 
-                                "guidelineV": {
-                                    "delta": 200, 
-                                    "id": "guideline.18", 
                                     "objectType": 51, 
                                     "position": 458, 
                                     "vertical": true
@@ -592,35 +579,49 @@
                             }, 
                             {
                                 "constOffset": "9 0", 
-                                "contour": "contour.134", 
+                                "contour": "contour.29", 
                                 "global": true, 
-                                "guidelineV": "guideline.17", 
+                                "guidelineV": {
+                                    "delta": 200, 
+                                    "id": "guideline.18", 
+                                    "objectType": 51, 
+                                    "position": 56, 
+                                    "vertical": true
+                                }, 
                                 "horizontal": true, 
                                 "index": 3
                             }, 
                             {
-                                "constOffset": "-33 0", 
-                                "contour": "contour.134", 
+                                "constOffset": "-11 0", 
+                                "contour": "contour.29", 
+                                "global": true, 
+                                "guidelineV": "guideline.17", 
+                                "horizontal": true, 
+                                "index": 35
+                            }, 
+                            {
+                                "constOffset": "49 0", 
+                                "contour": "contour.29", 
                                 "global": true, 
                                 "guidelineV": "guideline.18", 
+                                "horizontal": true, 
+                                "index": 16
+                            }, 
+                            {
+                                "constOffset": "-33 0", 
+                                "contour": "contour.29", 
+                                "global": true, 
+                                "guidelineV": "guideline.17", 
                                 "horizontal": true, 
                                 "index": 9
                             }, 
                             {
                                 "constOffset": "-33 0", 
-                                "contour": "contour.134", 
+                                "contour": "contour.29", 
                                 "global": true, 
-                                "guidelineV": "guideline.18", 
+                                "guidelineV": "guideline.17", 
                                 "horizontal": true, 
                                 "index": 10
-                            }, 
-                            {
-                                "constOffset": "-11 0", 
-                                "contour": "contour.134", 
-                                "global": true, 
-                                "guidelineV": "guideline.18", 
-                                "horizontal": true, 
-                                "index": 35
                             }
                         ]
                     }
@@ -673,6 +674,7 @@
             "color": "#00cce5", 
             "elements": [
                 {
+                    "active": true, 
                     "elementData": {
                         "contours": [
                             {
@@ -704,6 +706,7 @@
             "name": "Medium"
         }, 
         {
+            "active": true, 
             "advanceWidth": 1623, 
             "autoRecipe": "=six@~,~", 
             "color": "#bac000", 

@@ -14,12 +14,12 @@ from __future__ import absolute_import, print_function, unicode_literals
 import os, sys
 import vfjLib
 
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 
 # - String --------------------------------
 help_str='''VFJ2GIT: A tool for manipulating VFJ fonts into Git friendly format
 Usage:
-	vfj2git --join <pathname (SVFJ)> : Merge a split SVFJ format
+	vfj2git --merge <pathname (SVFJ)> : Merge a split SVFJ format
 	vfj2git --split <filename (VFJ)> : Split VFJ font file
 '''
 # - Init ----------------------------------
@@ -27,11 +27,11 @@ basePath = os.getcwd()
 run_args = sys.argv[1:]
 
 # - RUN ----------------------------------
-if '--join' in run_args:
-	file_name = run_args[run_args.index('--join') + 1]
+if '--merge' in run_args:
+	file_name = run_args[run_args.index('--merge') + 1]
 	new_font = vfjLib.vfjFont()
-	new_font.open(file_name, join=True)
-	new_font.save('%s.%s ' %(file_name.split('.')[0],'vfj'))
+	new_font.open(file_name, merge=True)
+	new_font.save('%s.%s' %(file_name.split('.')[0],'vfj'))
 	print('\nVFJ2GIT:\tDone merging %s.' %file_name)
 
 if '--split' in run_args:
