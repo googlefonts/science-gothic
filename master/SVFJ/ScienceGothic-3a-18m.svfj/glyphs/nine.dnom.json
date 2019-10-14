@@ -1,6 +1,5 @@
 {
     "colorFlag": 1, 
-    "lastModified": "2019-10-14 06:59:24", 
     "layers": [
         {
             "advanceWidth": 1944, 
@@ -142,6 +141,9 @@
                                 ]
                             }
                         ]
+                    }, 
+                    "transform": {
+                        "xOffset": -0.2
                     }
                 }
             ], 
@@ -179,6 +181,9 @@
                                 ]
                             }
                         ]
+                    }, 
+                    "transform": {
+                        "xOffset": -0.2
                     }
                 }
             ], 
@@ -220,14 +225,6 @@
                         "nodeLinks": [
                             {
                                 "contour": "contour.36", 
-                                "index": 3
-                            }, 
-                            {
-                                "contour": "contour.36", 
-                                "index": 10
-                            }, 
-                            {
-                                "contour": "contour.36", 
                                 "index": 22
                             }, 
                             {
@@ -236,11 +233,19 @@
                             }, 
                             {
                                 "contour": "contour.36", 
-                                "index": 16
+                                "index": 9
                             }, 
                             {
                                 "contour": "contour.36", 
-                                "index": 9
+                                "index": 10
+                            }, 
+                            {
+                                "contour": "contour.36", 
+                                "index": 3
+                            }, 
+                            {
+                                "contour": "contour.36", 
+                                "index": 16
                             }
                         ]
                     }
@@ -354,6 +359,9 @@
                                 ]
                             }
                         ]
+                    }, 
+                    "transform": {
+                        "xOffset": 0.25
                     }
                 }
             ], 
@@ -539,6 +547,9 @@
                                 ]
                             }
                         ]
+                    }, 
+                    "transform": {
+                        "xOffset": -0.4
                     }
                 }
             ], 
@@ -579,64 +590,64 @@
                         ], 
                         "nodeLinks": [
                             {
-                                "constOffset": "9 0", 
+                                "constOffset": "-180 0", 
                                 "contour": "contour.37", 
                                 "global": true, 
                                 "guidelineV": {
                                     "delta": 200, 
                                     "id": "guideline.25", 
                                     "objectType": 51, 
-                                    "position": 56, 
+                                    "position": 458, 
                                     "vertical": true
                                 }, 
                                 "horizontal": true, 
-                                "index": 3
+                                "index": 10
                             }, 
                             {
-                                "constOffset": "43 0", 
+                                "constOffset": "-180 0", 
                                 "contour": "contour.37", 
                                 "global": true, 
                                 "guidelineV": "guideline.25", 
                                 "horizontal": true, 
-                                "index": 16
+                                "index": 9
                             }, 
                             {
-                                "constOffset": "-198 0", 
+                                "constOffset": "43 0", 
                                 "contour": "contour.37", 
                                 "global": true, 
                                 "guidelineV": {
                                     "delta": 200, 
                                     "id": "guideline.26", 
                                     "objectType": 51, 
-                                    "position": 458, 
+                                    "position": 56, 
                                     "vertical": true
                                 }, 
                                 "horizontal": true, 
-                                "index": 22
+                                "index": 16
                             }, 
                             {
-                                "constOffset": "-180 0", 
+                                "constOffset": "9 0", 
                                 "contour": "contour.37", 
                                 "global": true, 
                                 "guidelineV": "guideline.26", 
                                 "horizontal": true, 
-                                "index": 9
+                                "index": 3
                             }, 
                             {
                                 "constOffset": "-164 0", 
                                 "contour": "contour.37", 
                                 "global": true, 
-                                "guidelineV": "guideline.26", 
+                                "guidelineV": "guideline.25", 
                                 "horizontal": true, 
                                 "index": 35
                             }, 
                             {
-                                "constOffset": "-180 0", 
+                                "constOffset": "-198 0", 
                                 "contour": "contour.37", 
                                 "global": true, 
-                                "guidelineV": "guideline.26", 
+                                "guidelineV": "guideline.25", 
                                 "horizontal": true, 
-                                "index": 10
+                                "index": 22
                             }
                         ]
                     }
@@ -691,7 +702,6 @@
             "colorFlag": 1, 
             "elements": [
                 {
-                    "active": true, 
                     "elementData": {
                         "contours": [
                             {
@@ -723,7 +733,6 @@
             "name": "Medium"
         }, 
         {
-            "active": true, 
             "advanceWidth": 1145, 
             "autoRecipe": "=six@~,~", 
             "color": "#bac000", 
@@ -734,24 +743,27 @@
                         "contours": [
                             {
                                 "nodes": [
-                                    "551 786 s", 
-                                    "317 786  242 765  242 574 s", 
+                                    "551 789 s", 
+                                    "317 789  242 765  242 574 s", 
                                     "242 383  314 364  534 364 s", 
                                     "695 364  778 389  854 418", 
                                     "854 448", 
                                     "766 415  673 394  534 394 s", 
                                     "327 394  276 412  276 574 s", 
-                                    "276 740  325 756  568 756 s", 
-                                    "812 756  840 709  840 492 s", 
-                                    "840 180  725 27  427 27 s", 
-                                    "402 27  379 28  371 30", 
-                                    "390 -1", 
-                                    "398 -2  416 -3  436 -3 s", 
-                                    "743 -3  874 170  874 490 s", 
-                                    "874 733  840 786 c"
+                                    "276 740  325 759  568 759 s", 
+                                    "812 759  840 709  840 492 s", 
+                                    "840 180  725 25  427 25 s", 
+                                    "402 25  379 26  371 28", 
+                                    "390 -3", 
+                                    "398 -4  416 -5  436 -5 s", 
+                                    "743 -5  874 170  874 490 s", 
+                                    "874 733  840 789 c"
                                 ]
                             }
                         ]
+                    }, 
+                    "transform": {
+                        "xOffset": 0.25
                     }
                 }
             ], 
@@ -763,6 +775,7 @@
     ], 
     "name": "nine.dnom", 
     "tags": [
+        "dnom", 
         "V"
     ]
 }

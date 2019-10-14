@@ -1,5 +1,4 @@
 {
-    "lastModified": "2019-10-14 06:59:24", 
     "layers": [
         {
             "advanceWidth": 2764, 
@@ -12,7 +11,6 @@
                     }
                 }, 
                 {
-                    "active": true, 
                     "elementData": "_CYR_LC.En:Blk Exp Ctr", 
                     "locked": true
                 }
@@ -47,7 +45,6 @@
             "color": "#c8675e", 
             "elements": [
                 {
-                    "active": true, 
                     "elementData": "_part_CYR_LC.oth_desc:Lt Exp Ctr"
                 }, 
                 {
@@ -119,7 +116,6 @@
             "color": "#b69762", 
             "elements": [
                 {
-                    "active": true, 
                     "elementData": "_part_CYR_LC.oth_desc:Blk Ctr"
                 }, 
                 {
@@ -187,18 +183,21 @@
             "name": "Blk Exp"
         }, 
         {
-            "advanceWidth": 2217, 
+            "advanceWidth": 2216, 
             "color": "#d2afb9", 
             "elements": [
                 {
                     "elementData": "_part_CYR_LC.oth_desc:Exp", 
                     "transform": {
-                        "xOffset": -56
+                        "xOffset": -56.5
                     }
                 }, 
                 {
                     "elementData": "_CYR_LC.En:Exp", 
-                    "locked": true
+                    "locked": true, 
+                    "transform": {
+                        "xOffset": -0.5
+                    }
                 }
             ], 
             "flags": 0, 
@@ -262,7 +261,6 @@
             "color": "#fe4a46", 
             "elements": [
                 {
-                    "active": true, 
                     "elementData": "_part_CYR_LC.oth_desc:Lt Cnd"
                 }, 
                 {
@@ -280,7 +278,6 @@
             "color": "#ff34ff", 
             "elements": [
                 {
-                    "active": true, 
                     "elementData": "_part_CYR_LC.oth_desc:Blk", 
                     "transform": {
                         "xOffset": -14
@@ -301,7 +298,6 @@
             "color": "#00cce5", 
             "elements": [
                 {
-                    "active": true, 
                     "elementData": "_part_CYR_LC.oth_desc:Medium"
                 }, 
                 {
@@ -315,7 +311,6 @@
             "name": "Medium"
         }, 
         {
-            "active": true, 
             "advanceWidth": 1406, 
             "color": "#bac000", 
             "elements": [
@@ -335,10 +330,10 @@
     ], 
     "name": "uni04A3", 
     "tags": [
-        "element", 
-        "V", 
         "noauto", 
-        "cyr"
+        "cyr", 
+        "element", 
+        "V"
     ], 
     "unicode": "04a3"
 }

@@ -1,5 +1,4 @@
 {
-    "lastModified": "2019-10-14 06:59:24", 
     "layers": [
         {
             "advanceWidth": 3162, 
@@ -424,7 +423,10 @@
                     "component": {
                         "glyphName": "O"
                     }, 
-                    "locked": true
+                    "locked": true, 
+                    "transform": {
+                        "xOffset": -0.2
+                    }
                 }, 
                 {
                     "component": {
@@ -606,15 +608,15 @@
             "anchors": [
                 {
                     "name": "top", 
-                    "point": "1028 1564"
+                    "point": "1027 1564"
                 }, 
                 {
                     "name": "bottom", 
-                    "point": "1028 -164"
+                    "point": "1027 -164"
                 }, 
                 {
                     "name": "horn", 
-                    "point": "1898 1080"
+                    "point": "1897 1080"
                 }
             ], 
             "autoRecipe": "= O + uni031B.case@horn ^ O, r", 
@@ -624,7 +626,8 @@
                     "component": {
                         "glyphName": "O"
                     }, 
-                    "locked": true
+                    "locked": true, 
+                    "transform": {}
                 }, 
                 {
                     "component": {
@@ -632,7 +635,7 @@
                     }, 
                     "locked": true, 
                     "transform": {
-                        "xOffset": 1898, 
+                        "xOffset": 1897.6, 
                         "yOffset": 56
                     }
                 }
@@ -662,7 +665,6 @@
             "color": "#00cce5", 
             "elements": [
                 {
-                    "active": true, 
                     "component": {
                         "glyphName": "O"
                     }, 
@@ -684,7 +686,6 @@
             "name": "Medium"
         }, 
         {
-            "active": true, 
             "advanceWidth": 1619, 
             "anchors": [
                 {
@@ -704,7 +705,6 @@
             "color": "#bac000", 
             "elements": [
                 {
-                    "active": true, 
                     "component": {
                         "glyphName": "O"
                     }, 

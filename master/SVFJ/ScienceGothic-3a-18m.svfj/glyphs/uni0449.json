@@ -1,12 +1,10 @@
 {
-    "lastModified": "2019-10-14 06:59:24", 
     "layers": [
         {
             "advanceWidth": 3864, 
             "color": "#b9baa2", 
             "elements": [
                 {
-                    "active": true, 
                     "elementData": "_part_CYR_LC.tse_desc:Blk Exp Ctr", 
                     "transform": {
                         "xOffset": 1118
@@ -283,18 +281,21 @@
             "name": "Blk Exp"
         }, 
         {
-            "advanceWidth": 3178, 
+            "advanceWidth": 3177, 
             "color": "#d2afb9", 
             "elements": [
                 {
                     "elementData": "_part_CYR_LC.tse_desc:Exp", 
                     "transform": {
-                        "xOffset": 956
+                        "xOffset": 955.5
                     }
                 }, 
                 {
                     "elementData": "uni0448:Exp", 
-                    "locked": true
+                    "locked": true, 
+                    "transform": {
+                        "xOffset": -0.5
+                    }
                 }
             ], 
             "flags": 0, 
@@ -455,7 +456,6 @@
             "color": "#00cce5", 
             "elements": [
                 {
-                    "active": true, 
                     "elementData": "_part_CYR_LC.tse_desc:Medium", 
                     "transform": {
                         "xOffset": 663
@@ -480,7 +480,6 @@
             "name": "Medium"
         }, 
         {
-            "active": true, 
             "advanceWidth": 1992, 
             "color": "#bac000", 
             "elements": [
@@ -512,9 +511,9 @@
     ], 
     "name": "uni0449", 
     "tags": [
+        "cyr", 
         "element", 
-        "V", 
-        "cyr"
+        "V"
     ], 
     "unicode": "0449"
 }

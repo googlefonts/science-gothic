@@ -1,6 +1,5 @@
 {
     "colorFlag": 1, 
-    "lastModified": "2019-10-14 06:59:24", 
     "layers": [
         {
             "advanceWidth": 3006, 
@@ -8,7 +7,6 @@
             "colorFlag": 1, 
             "elements": [
                 {
-                    "active": true, 
                     "elementData": "_CYR_LC.Ka:Blk Exp Ctr", 
                     "locked": true
                 }, 
@@ -51,7 +49,6 @@
             "colorFlag": 1, 
             "elements": [
                 {
-                    "active": true, 
                     "elementData": "_CYR_LC.Ka:Lt Exp Ctr", 
                     "locked": true
                 }, 
@@ -137,7 +134,6 @@
             "colorFlag": 1, 
             "elements": [
                 {
-                    "active": true, 
                     "elementData": "_CYR_LC.Ka:Blk Ctr", 
                     "locked": true
                 }, 
@@ -223,12 +219,15 @@
             "elements": [
                 {
                     "elementData": "_CYR_LC.Ka:Exp", 
-                    "locked": true
+                    "locked": true, 
+                    "transform": {
+                        "xOffset": -0.5
+                    }
                 }, 
                 {
                     "elementData": "_part_CYR_LC.oth_desc:Exp", 
                     "transform": {
-                        "xOffset": 223
+                        "xOffset": 222.5
                     }
                 }
             ], 
@@ -306,7 +305,6 @@
             "colorFlag": 1, 
             "elements": [
                 {
-                    "active": true, 
                     "elementData": "_CYR_LC.Ka:Lt Cnd", 
                     "locked": true
                 }, 
@@ -349,7 +347,6 @@
             "colorFlag": 1, 
             "elements": [
                 {
-                    "active": true, 
                     "elementData": "_CYR_LC.Ka:Medium"
                 }, 
                 {
@@ -365,7 +362,6 @@
             "name": "Medium"
         }, 
         {
-            "active": true, 
             "advanceWidth": 1195, 
             "color": "#bac000", 
             "colorFlag": 1, 
@@ -393,10 +389,10 @@
     "name": "uni049B", 
     "note": "Fix that /k", 
     "tags": [
-        "element", 
-        "V", 
         "noauto", 
-        "cyr"
+        "cyr", 
+        "element", 
+        "V"
     ], 
     "unicode": "049b"
 }

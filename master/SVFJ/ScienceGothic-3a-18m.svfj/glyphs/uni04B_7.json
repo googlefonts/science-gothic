@@ -1,5 +1,4 @@
 {
-    "lastModified": "2019-10-14 06:59:24", 
     "layers": [
         {
             "advanceWidth": 2674, 
@@ -23,7 +22,7 @@
             "name": "Blk Exp Ctr"
         }, 
         {
-            "advanceWidth": 2275, 
+            "advanceWidth": 2274, 
             "color": "#809693", 
             "elements": [
                 {
@@ -212,18 +211,21 @@
             "name": "Blk Exp"
         }, 
         {
-            "advanceWidth": 2147, 
+            "advanceWidth": 2146, 
             "color": "#d2afb9", 
             "elements": [
                 {
                     "elementData": "_CYR_LC.Che:Exp", 
-                    "locked": true
+                    "locked": true, 
+                    "transform": {
+                        "xOffset": -0.5
+                    }
                 }, 
                 {
                     "elementData": "_part_CYR_LC.oth_desc:Exp", 
                     "locked": true, 
                     "transform": {
-                        "xOffset": -118
+                        "xOffset": -118.5
                     }
                 }
             ], 
@@ -300,7 +302,6 @@
             "color": "#fe4a46", 
             "elements": [
                 {
-                    "active": true, 
                     "elementData": "_CYR_LC.Che:Lt Cnd", 
                     "locked": true
                 }, 
@@ -343,7 +344,6 @@
             "color": "#00cce5", 
             "elements": [
                 {
-                    "active": true, 
                     "elementData": "_CYR_LC.Che:Medium", 
                     "locked": true
                 }, 
@@ -361,7 +361,6 @@
             "name": "Medium"
         }, 
         {
-            "active": true, 
             "advanceWidth": 1348, 
             "color": "#bac000", 
             "elements": [
@@ -385,10 +384,10 @@
     ], 
     "name": "uni04B7", 
     "tags": [
-        "element", 
-        "V", 
         "noauto", 
-        "cyr"
+        "cyr", 
+        "element", 
+        "V"
     ], 
     "unicode": "04b7"
 }

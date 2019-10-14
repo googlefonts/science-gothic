@@ -1,6 +1,5 @@
 {
     "colorFlag": 121, 
-    "lastModified": "2019-10-14 06:59:24", 
     "layers": [
         {
             "advanceWidth": 3440, 
@@ -75,7 +74,6 @@
                     "locked": true
                 }, 
                 {
-                    "active": true, 
                     "elementData": "_part_CYR_UC.oth_desc:Blk Cnd Ctr", 
                     "transform": {
                         "xOffset": 115
@@ -248,12 +246,15 @@
             "elements": [
                 {
                     "elementData": "K:Exp", 
-                    "locked": true
+                    "locked": true, 
+                    "transform": {
+                        "xOffset": -0.5
+                    }
                 }, 
                 {
                     "elementData": "_part_CYR_UC.oth_desc:Exp", 
                     "transform": {
-                        "xOffset": -368
+                        "xOffset": -368.5
                     }
                 }
             ], 
@@ -373,7 +374,6 @@
             "colorFlag": 121, 
             "elements": [
                 {
-                    "active": true, 
                     "elementData": "K:Medium", 
                     "locked": true
                 }, 
@@ -390,7 +390,6 @@
             "name": "Medium"
         }, 
         {
-            "active": true, 
             "advanceWidth": 1522, 
             "color": "#bac000", 
             "colorFlag": 121, 
@@ -414,10 +413,10 @@
     ], 
     "name": "uni049A", 
     "tags": [
-        "element", 
-        "V", 
         "noauto", 
-        "cyr"
+        "cyr", 
+        "element", 
+        "V"
     ], 
     "unicode": "049a"
 }

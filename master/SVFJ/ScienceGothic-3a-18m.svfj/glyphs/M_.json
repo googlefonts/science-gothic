@@ -1,6 +1,5 @@
 {
     "colorFlag": 121, 
-    "lastModified": "2019-10-14 06:59:24", 
     "layers": [
         {
             "advanceWidth": 3316, 
@@ -187,19 +186,6 @@
                                 "contour": {
                                     "id": "contour", 
                                     "nodes": [
-                                        "400 0", 
-                                        "436 0", 
-                                        "436 1300", 
-                                        "436 1400", 
-                                        "400 1400"
-                                    ]
-                                }, 
-                                "index": 0
-                            }, 
-                            {
-                                "contour": {
-                                    "id": "contour.1", 
-                                    "nodes": [
                                         "1539 209", 
                                         "2682 1276", 
                                         "2838 1400", 
@@ -207,10 +193,6 @@
                                         "1653 366"
                                     ]
                                 }, 
-                                "index": 0
-                            }, 
-                            {
-                                "contour": "contour", 
                                 "index": 1
                             }, 
                             {
@@ -227,12 +209,8 @@
                                 "index": 4
                             }, 
                             {
-                                "contour": "contour.1", 
-                                "index": 1
-                            }, 
-                            {
                                 "contour": {
-                                    "id": "contour.2", 
+                                    "id": "contour.1", 
                                     "nodes": [
                                         "432 1150", 
                                         "1539 209", 
@@ -241,11 +219,32 @@
                                         "432 1400"
                                     ]
                                 }, 
+                                "index": 0
+                            }, 
+                            {
+                                "contour": "contour", 
+                                "index": 0
+                            }, 
+                            {
+                                "contour": {
+                                    "id": "contour.2", 
+                                    "nodes": [
+                                        "400 0", 
+                                        "436 0", 
+                                        "436 1300", 
+                                        "436 1400", 
+                                        "400 1400"
+                                    ]
+                                }, 
+                                "index": 0
+                            }, 
+                            {
+                                "contour": "contour.1", 
                                 "index": 1
                             }, 
                             {
                                 "contour": "contour.2", 
-                                "index": 0
+                                "index": 1
                             }, 
                             {
                                 "contour": "contour.3", 
@@ -1633,7 +1632,6 @@
             "colorFlag": 121, 
             "elements": [
                 {
-                    "active": true, 
                     "elementData": {
                         "contours": [
                             {
@@ -1713,7 +1711,6 @@
             "name": "mask.Lt"
         }, 
         {
-            "active": true, 
             "advanceWidth": 1930, 
             "anchors": [
                 {
