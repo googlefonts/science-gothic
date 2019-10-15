@@ -7,19 +7,28 @@ Science Gothic™ is an OpenType Variations typeface (variable font) with weight
 
 (Particularly major updates are described below, but not every update.)
 
+### 14 October 2019
+
+Made significant org/name changes to the former Contrast axis, now called “Y Opaque” ('YOPQ' axis tag). Instead of going from 0 – 100 (low to high) it goes from 18 to 124 (high to low contrast). Default is still low contrast, which is now 124, at the other end of the scale.
+
+77% done glyph design work.
+
 ### 18 September 2019
 
 Added UFO sources, and first variable TTF built from UFO + FontMake (with latest FontMake and Python) rather than from exporting from FontLab. Although FontLab VI uses UFO + FontMake internally for its variable font generation, it uses an older version of FontMake. This approach makes it easier for future development to be made with any UFO-compatible font editor. See https://github.com/tphinney/science-gothic/issues/91 for details.
 
+49% done glyph design work.
+
 ### 5 September 2019
 
-Second variable font build. About 200 meaningful characters, including very nearly complete support for both English and Russian.
+Second variable font build. About 200 meaningful characters, including very nearly complete support for both English and Russian. 37% done glyph design work.
 
 ### 29 August 2019
 
-Added first built variable font! Thought it was buggy, but turns out that is just Illustrator. Font is lovely in Axis-Praxis. https://recordit.co/g9KnZq2Dbv
+Added first built variable font! Thought it was buggy, but turns out that is just Illustrator. Font is lovely in Axis-Praxis. https://recordit.co/g9KnZq2Dbv . Also added separate fonts for instances (ouch 104 fonts!). And the .designspace file. ~ 26% done glyph design work.
 
-Also added separate fonts for instances (ouch 104 fonts!). And the .designspace file.
+### 15 August 2019
+16% done glyph design work.
 
 ### 10 August 2019
 
