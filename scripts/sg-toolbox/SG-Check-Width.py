@@ -16,7 +16,7 @@ from typerig.proxy import pFont, pGlyph
 from typerig.string import diactiricalMarks
 
 # - Init ------------------------------------------------
-app_version = '0.01'
+app_version = '0.2'
 app_name = '[SG] Font Check WIDTH inconsistancies'
 
 font = pFont()
@@ -29,6 +29,8 @@ check_pairs = [(name, '%s %s'%(name, master_mark)) for name in font.masters() if
 
 # - Process --------------------------------------------
 print '%s %s\n' %(app_name, app_version) + '-'*30
+
+if not len(process_glyphs): process_glyphs.append(pGlyph())
 
 # - Remove empty tags from glyphs
 for work_glyph in process_glyphs:

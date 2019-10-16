@@ -17,7 +17,7 @@ from typerig.string import diactiricalMarks
 from typerig.node import eNode
 
 # - Init ------------------------------------------------
-app_version = '0.01'
+app_version = '0.1'
 app_name = '[SG] Glyph Fix WIDTH inconsistancies'
 
 font = pFont()
@@ -36,8 +36,6 @@ def do_chek():
 			b = work_glyph.getBounds(pair[1]).width()
 			if not isclose(a, b, error_margin):	error_list.append((pair[1], a-b))
 	return error_list
-
-print 'Check:\t %s' %do_chek()
 
 # - Shift nodes -------------------------------------------
 for layer, offset_x in do_chek():
