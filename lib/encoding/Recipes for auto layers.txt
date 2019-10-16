@@ -36,23 +36,26 @@ braceright.case=braceright@,cap_bracket_shift
 quoteright=comma@,ascender
 quoteleft=comma@~,~ascender
 quotesinglbase=comma
+quotedblbase = comma @ 0.9, 0, 0, 1, , & comma@0.9, 0,0,1,0,
 # quotedblright = quoteright & quoteright,quoteright-20, # space between quotes isn't right yet
+uni27E9 =uni27E8@~,~ #angle bracket
+greater = less @~, 
 plusminus = minus + plus@center,top
-
+#    # need to make less and greater same width as uni2212 minus sign
 
 # NUMERALS
 # .dnom variants are designed, others are derived from them
 
-zero.numr = zero.dnom @,627
-one.numr = one.dnom @,627
-two.numr = two.dnom @,627
-three.numr = three.dnom @,627
-four.numr = four.dnom @,627
-five.numr = five.dnom @,627
-six.numr = six.dnom @,627
-seven.numr = seven.dnom @,627
-eight.numr = eight.dnom @,627
-nine.numr = nine.dnom @,627
+zero.numr = zero.dnom @,614
+one.numr = one.dnom @,614
+two.numr = two.dnom @,614
+three.numr = three.dnom @,614
+four.numr = four.dnom @,614
+five.numr = five.dnom @,614
+six.numr = six.dnom @,614
+seven.numr = seven.dnom @,614
+eight.numr = eight.dnom @,614
+nine.numr = nine.dnom @,614
 zero.sups = zero.dnom @,950
 one.sups = one.dnom @,950
 two.sups = two.dnom @,950
