@@ -15,7 +15,7 @@ Made significant org/name changes to the former Contrast axis, now called “Y O
 
 ### 18 September 2019
 
-Added UFO sources, and first variable TTF built from UFO + FontMake (with latest FontMake and Python) rather than from exporting from FontLab. Although FontLab VI uses UFO + FontMake internally for its variable font generation, it uses an older version of FontMake. This approach makes it easier for future development to be made with any UFO-compatible font editor. See https://github.com/tphinney/science-gothic/issues/91 for details.
+Added UFO sources, and first variable TTF built from UFO + FontMake (with latest FontMake and Python) rather than from exporting from FontLab. Although FontLab VI uses UFO + FontMake internally for its variable font generation, it uses an older version of FontMake. The UFO + FontMake approach makes it easier for future development to be made with any UFO-compatible font editor. See https://github.com/tphinney/science-gothic/issues/91 for details.
 
 49% done glyph design work.
 
