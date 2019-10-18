@@ -1,9 +1,9 @@
 # Science Gothic variable font family
-# Recipes for generating composites in FontLab VI
-# Using Glyph Construction syntax 
-# 2019-09-02
+# Recipes for generating composites in FontLab VI or other apps
+# using Glyph Construction syntax 
+# 2019-10-17
 #
-# All glyphs in this list can be Auto Glyphs, unless commented out
+# All glyphs in this list can be FL Auto Glyphs, unless commented out
 
 # Symbols, Spaces & Special
 uni00A0=space
@@ -262,6 +262,11 @@ Zdotaccent=Z+uni0307.case@top
 zdotaccent=z+uni0307@top
 Zcaron=Z+uni030C.case@top
 zcaron=z+uni030C@top
+
+uni015E=S+uni0327.case@bottom
+uni0162=T+uni0327.case@bottom
+uni015F=s+uni0327@bottom
+uni0163=t+uni0327@bottom
 
 uhorn = u + uni031B@horn
 Uhorn = u + uni031B.case@horn
