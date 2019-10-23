@@ -172,6 +172,19 @@ ccedilla=c+uni0327@bottom
 uni015F=s+uni0327@bottom
 uni0163+t+uni0327@bottom
 
+# Diacritic combinations
+
+/circumflexcomb_gravecomb=uni0302+gravecomb@topright
+/circumflexcomb_tildecomb=uni0302+tildecomb@top
+/brevecomb_gravecomb=uni0306+gravecomb@top
+/brevecomb_tildecomb=uni0306+tildecomb@top
+/circumflexcomb_acutecomb=uni0302+acutecomb@topright
+/circumflexcomb_acutecomb.case=uni0302.case+acutecomb.case@topright
+/circumflexcomb_tildecomb.case=uni0302.case+tildecomb.case@top
+/brevecomb_gravecomb.case=uni0306.case+gravecomb.case@top
+/brevecomb_tildecomb.case=uni0306.case+tildecomb.case@top
+/circumflexcomb_gravecomb.case=uni0302.case+gravecomb.case@topright
+
 # Latin extended I
 Abreve=A+uni0306.case@top
 abreve=a+uni0306@top
@@ -456,6 +469,7 @@ acircumflex.smcp=a.smcp+uni0302@top
 atilde.smcp=a.smcp+tildecomb@top
 adieresis.smcp=a.smcp+uni0308@top
 aring.smcp=a.smcp+uni030A@top
+ccedilla.smcp = c.smcp + uni0327@bottom
 egrave.smcp=e.smcp+gravecomb@top
 eacute.smcp=e.smcp+acutecomb@top
 ecircumflex.smcp=e.smcp+uni0302@top
@@ -497,7 +511,7 @@ imacron.smcp=i.smcp+uni0304@top
 ibreve.smcp=i.smcp+uni0306@top
 idotaccent.smcp=i.smcp+uni0307@top
 jcircumflex.smcp=j.smcp+uni0302@top
-uni0136.smcpk.smcp+uni0326@bottom
+uni0136.smcp=k.smcp+uni0326@bottom
 lacute.smcp=l.smcp+acutecomb@top
 nacute.smcp=n.smcp+acutecomb@top
 ncommaaccent.smcp=n.smcp+uni0326@bottom
