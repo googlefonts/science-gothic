@@ -320,6 +320,18 @@ N_J=N&J
 N_j=N&j
 n_j=n&j
 
+# revised Latin Extended II
+uni1EA2=A+uni0309.case@top
+uni1EAC=A+uni0302.case@top+uni0323.case@A:bottom
+uni1EB6=A+uni0306.case@top+uni0323.case@A:bottom
+uni1EB8=E+uni0323.case@bottom
+uni1EBA=E+uni0309.case@top
+uni1EBC=E+tildecomb.case@top
+uni1EC6=E+uni0302.case@top+uni0323.case@E:bottom
+uni1EC8=I+uni0309.case@top
+uni1ECA=I+uni0323.case@bottom
+uni1ECC=O+uni0323.case@bottom
+
 # Latin extended II
 Gcaron=G+uni030C.case@top
 gcaron=g+uni030C@top
@@ -371,9 +383,9 @@ Wacute=W+acutecomb.case@top
 wacute=w+acutecomb@top
 Wdieresis=W+uni0308.case@top
 wdieresis=w+uni0308@top
-Adotbelow=A+dotbelowcomb.case@bottom
+Adotbelow=A+uni0323.case@bottom
 adotbelow=a+dotbelowcomb@bottom
-Ahookabove=A+hookabovecomb.case@top
+Ahookabove=A+uni0309.case@top
 ahookabove=a+hookabovecomb@top
 Acircumflexacute=A+uni03020301.case@top
 acircumflexacute=a+uni03020301@top
@@ -383,7 +395,7 @@ Acircumflexhookabove=A+uni03020309.case@top
 acircumflexhookabove=a+uni03020309@top
 Acircumflextilde=A+uni03020303.case@top               
 acircumflextilde=a+uni03020303@top
-Acircumflexdotbelow=A+uni0302.case@top+dotbelowcomb.case@A:bottom
+uni1EAC=A+uni0302.case@top+uni0323.case@A:bottom
 acircumflexdotbelow=a+uni0302@top+dotbelowcomb@a:bottom
 Abreveacute=A+uni03060301.case@top
 abreveacute=a+uni03060301@top
@@ -393,13 +405,13 @@ Abrevehookabove=A+uni03060309.case@top
 abrevehookabove=a+uni03060309@top
 Abrevetilde=A+uni03060303.case@top
 abrevetilde=a+uni03060303@top
-Abrevedotbelow=A+uni0306.case@top+dotbelowcomb.case@A:bottom
+uni1EB6=A+uni0306.case@top+uni0323.case@A:bottom
 abrevedotbelow=a+uni0306@top+dotbelowcomb@a:bottom
-Edotbelow=E+dotbelowcomb.case@bottom
+uni1EB8=E+uni0323.case@bottom
 edotbelow=e+dotbelowcomb@bottom
 Ehookabove=E+hookabovecomb.case@top
 ehookabove=e+hookabovecomb@top
-Etilde=E+tildecomb.case@top
+uni1EBC=E+tildecomb.case@top
 etilde=e+tildecomb@top
 Ecircumflexacute=E+uni03020301.case@top
 ecircumflexacute=e+uni03020301@top
@@ -409,7 +421,7 @@ Ecircumflexhookabove=E+uni03020309.case@top
 ecircumflexhookabove=e+uni03020309@top
 Ecircumflextilde=E+uni03020303.case@top
 ecircumflextilde=e+uni03020303@top
-Ecircumflexdotbelow=E+uni0302.case@top+dotbelowcomb.case@E:bottom
+uni1EC6=E+uni0302.case@top+uni0323.case@E:bottom
 ecircumflexdotbelow=e+uni0302@top+dotbelowcomb@e:bottom
 uni1EC8=I+hookabovecomb.case@top
 uni1EC9=dotlessi+hookabovecomb@top
@@ -617,6 +629,24 @@ ygrave.smcp=y.smcp+gravecomb@top
 ydotbelow.smcp=y.smcp+dotbelowcomb@bottom
 yhookabove.smcp=y.smcp+hookabovecomb@top
 ytilde.smcp=y.smcp+tildecomb@top
+
+# LATIN REBUILT SMALL CAPS
+
+eth.smcp=d.smcp+eth-bar.smcp
+hbar.smcp=h.smcp+h-bar.smcp
+lslash.smcp=l.smcp+lslash-slash.smcp
+tbar.smcp=t.smcp+tbar-bar.smcp
+
+# STACKED DIACRITICS ETC.
+
+uni022A = O + uni0308.case@top + uni0304.case@top
+uni022B = o + uni0308@top + uni0304@top
+uni022C = O + tildecomb.case@top + uni0304.case@top
+uni022D = o +  tildecomb@top + uni0304@top
+uni0230 = O + uni0307.case@top + uni0304.case@top
+uni0231 = o + uni0307@top + uni0304@top
+aringacute = a + uni030A@top + acute@top
+
 
 # Cyrillic
 uni0400=E+gravecomb.case@top
