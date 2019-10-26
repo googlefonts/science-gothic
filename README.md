@@ -9,7 +9,7 @@ Science Gothic™ is an OpenType Variations typeface (variable font) with weight
 
 ### 14 October 2019
 
-Made significant org/name changes to the former Contrast axis, now called “Y Opaque” ('YOPQ' axis tag). Instead of going from 0 – 100 (low to high) it goes from 18 to 124 (high to low contrast). Default is still low contrast, which is now 124, at the other end of the scale.
+Made significant org/name changes to the former Contrast axis, now called “Y Opaque” ('YOPQ' axis tag). Instead of going from 0 – 100 (low to high) it goes from 18 to 124 (high to low contrast) representing the thickness of capital horizontal strokes, in thousandths of an em, at the default Medium weight. The default style is still low contrast, which is 124, at the “high” end of the horizontal stroke-thickness scale.
 
 77% done glyph design work.
 
