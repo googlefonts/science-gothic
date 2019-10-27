@@ -331,6 +331,11 @@ uni1EC6=E+uni0302.case@top+uni0323.case@E:bottom
 uni1EC8=I+uni0309.case@top
 uni1ECA=I+uni0323.case@bottom
 uni1ECC=O+uni0323.case@bottom
+uni1ECE=O+uni0309.case@top
+uni1ED8=O+uni0302.case@top+uni0323.case@O:bottom
+
+
+
 
 # Latin extended II
 Gcaron=G+uni030C.case@top
@@ -445,34 +450,34 @@ uni1EDA=Ohorn+acutecomb.case@top
 uni1EDB=ohorn+acutecomb@top
 uni1EDC=Ohorn+gravecomb.case@top
 uni1EDD=ohorn+gravecomb@top
-uni1EDE=Ohorn+hookabovecomb.case@top
-uni1EDF=ohorn+hookabovecomb@top
+uni1EDE=Ohorn+uni0309.case@top
+uni1EDF=ohorn+uni0309@top
 uni1EE0=Ohorn+tildecomb.da.case@top
 uni1EE1=ohorn+tildecomb.da@top
 uni1EE2=Ohorn+dotbelowcomb.case@bottom
 uni1EE3=ohorn+dotbelowcomb@bottom
-Udotbelow=U+dotbelowcomb.case@bottom
-udotbelow=u+dotbelowcomb@bottom
-Uhookabove=U+hookabovecomb.case@top
-uhookabove=u+hookabovecomb@top
-Uhornacute=Uhorn+acutecomb.case@top
-uhornacute=uhorn+acutecomb@top
-Uhorngrave=Uhorn+gravecomb.case@top
-uhorngrave=uhorn+gravecomb@top
-Uhornhookabove=Uhorn+hookabovecomb.case@top
-uhornhookabove=uhorn+hookabovecomb@top
-Uhorntilde=Uhorn+tildecomb.case@top
-uhorntilde=uhorn+tildecomb@top
-Uhorndotbelow=Uhorn+dotbelowcomb.case@bottom
-uhorndotbelow=uhorn+dotbelowcomb@bottom
-Ygrave=Y+gravecomb.case@top
-ygrave=y+gravecomb@top
-Ydotbelow=Y+dotbelowcomb.case@bottom
-ydotbelow=y+dotbelowcomb@bottom
-Yhookabove=Y+hookabovecomb.case@top
-yhookabove=y+hookabovecomb@top
-Ytilde=Y+tildecomb.case@top
-ytilde=y+tildecomb@top
+uni1EE4=U+dotbelowcomb.case@bottom
+uni1EE5=u+dotbelowcomb@bottom
+uni1EE6=U+hookabovecomb.case@top
+uni1EE7=u+hookabovecomb@top
+uni1EE8=Uhorn+acutecomb.case@top
+uni1EE9=uhorn+acutecomb@top
+uni1EEA=Uhorn+gravecomb.case@top
+uni1EEB=uhorn+gravecomb@top
+uni1EEC=Uhorn+hookabovecomb.case@top
+uni1EED=uhorn+hookabovecomb@top
+uni1EEE=Uhorn+tildecomb.case@top
+uni1EEF=uhorn+tildecomb@top
+uni1EF0=Uhorn+dotbelowcomb.case@bottom
+uni1EF1=uhorn+dotbelowcomb@bottom
+uni1EF2=Y+gravecomb.case@top
+uni1EF3=y+gravecomb@top
+uni1EF4=Y+dotbelowcomb.case@bottom
+uni1EF5=y+dotbelowcomb@bottom
+uni1EF6=Y+hookabovecomb.case@top
+uni1EF7=y+hookabovecomb@top
+uni1EF8=Y+tildecomb.case@top
+uni1EF9=y+tildecomb@top
 
 # Latin small caps
 agrave.smcp=a.smcp+gravecomb@top
@@ -646,6 +651,54 @@ uni022D = o +  tildecomb@top + uni0304@top
 uni0230 = O + uni0307.case@top + uni0304.case@top
 uni0231 = o + uni0307@top + uni0304@top
 aringacute = a + uni030A@top + acute@top
+
+uni1EB0=A+brevecomb_gravecomb.case@top
+uni1EB1=a+brevecomb_gravecomb@top
+uni1EA4=A+uni0302.case@top+acutecomb.case@topright
+uni1EBE=E+uni0302.case@top+acutecomb.case@topright
+uni1ED0=O+uni0302.case@top+acutecomb.case@topright
+uni1EA5=a+uni0302@top+acutecomb@topright
+uni1EBF=e+uni0302@top+acutecomb@topright
+uni1ED1=e+uni0302@top+acutecomb@topright
+
+uni1EA8=A+uni0302.case@top+uni0309.case@topright
+uni1EC2=E+uni0302.case@top+uni0309.case@topright
+uni1ED4=O+uni0302.case@top+uni0309.case@topright
+uni1EA9=a+uni0302@top+uni0309@topright
+uni1EC3=e+uni0302@top+uni0309@topright
+uni1ED5=o+uni0302@top+uni0309@topright
+
+uni1EF2 = Y + gravecomb.case@top
+uni1EF4 = Y + uni0323.case@bottom
+uni1EF6 = Y + uni0309.case@top
+uni1EF8 = Y + tildecomb.case@top
+
+uni1EA3 = a + uni0309@top
+uni1EAD = a + uni0302@top + uni0323@a:bottom
+
+uni1ED8 = O + uni0302.case@top + uni0323.case@O:bottom
+uni1ED9 = o + uni0302@top + uni0323@o:bottom
+
+uni1EDB = ohorn + acutecomb@top
+uni1EDD = ohorn + gravecomb@top
+uni1EDF = ohorn + uni0309@top
+uni1EE1 = ohorn + tildecomb@top
+uni1EE3 = ohorn + uni0323@bottom
+
+
+uni1EDA = Ohorn + acutecomb.case@top
+uni1EDC = Ohorn + gravecomb.case@top
+uni1EDE = Ohorn + uni0309.case@top
+uni1EE0 = Ohorn + tildecomb.case@top
+uni1EE2 = Ohorn + uni0323.case@bottom
+uni1EE4 = U + uni0323.case@bottom
+uni1EE6 = U + uni0309.case@top
+uni1EE8 = Uhorn + acutecomb.case@top
+uni1EEA = Uhorn + gravecomb.case@top
+uni1EEC = Uhorn + uni0309.case@top
+uni1EEE = Uhorn + tildecomb.case@top
+uni1EF0 = Uhorn + uni0323.case@bottom
+
 
 
 # Cyrillic
