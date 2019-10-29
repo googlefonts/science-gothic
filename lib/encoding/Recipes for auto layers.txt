@@ -634,6 +634,81 @@ ygrave.smcp=y.smcp+gravecomb@top
 ydotbelow.smcp=y.smcp+dotbelowcomb@bottom
 yhookabove.smcp=y.smcp+hookabovecomb@top
 ytilde.smcp=y.smcp+tildecomb@top
+uni0201.smcp=a.smcp+uni030F@top
+uni0205.smcp=e.smcp+uni030F@top
+uni0209.smcp=i.smcp+uni030F@top
+uni020D.smcp=o.smcp+uni030F@top
+uni0211.smcp=r.smcp+uni030F@top
+uni0215.smcp=u.smcp+uni030F@top
+uni0203.smcp=a.smcp+uni0311@top
+uni0207.smcp=e.smcp+uni0311@top
+uni020B.smcp=i.smcp+uni0311@top
+uni020F.smcp=o.smcp+uni0311@top
+uni0213.smcp=r.smcp+uni0311@top
+uni0217.smcp=u.smcp+uni0311@top
+uni0219.smcp=s.smcp+uni0326@bottom
+uni021B.smcp=t.smcp+uni0326@bottom
+
+
+uni1E81.smcp = w.smcp + gravecomb@top
+uni1E83.smcp = w.smcp + acutecomb@top
+uni1E85.smcp = w.smcp + dieresiscomb@top
+uni0233.smcp = y.smcp + uni0304@top
+uni1EA5.smcp = a.smcp + uni0302@top+acutecomb@topright
+uni1EA7.smcp = a.smcp + circumflexcomb_gravecomb@top
+uni1EA9.smcp = a.smcp + uni0302@top+uni0309@topright
+uni1EAB.smcp = a.smcp + uni0302@top+tildecomb@top
+uni1EAD.smcp = a.smcp + uni0302@top+uni0323@a.smcp:bottom
+uni1EAF.smcp = a.smcp + uni0306@top+acutecomb@top
+uni1EB1.smcp = a.smcp + uni0306@top+gravecomb@top
+uni1EB3.smcp = a.smcp + uni0306@top+uni0309@top
+uni1EB5.smcp = a.smcp + uni0306@top+tildecomb@top
+uni1EB7.smcp = a.smcp + uni0306@top+uni0323@a.smcp:bottom
+uni1EB9.smcp = e.smcp + uni0323@bottom
+uni1EBB.smcp = e.smcp + uni0309@top
+uni1EBD.smcp = e.smcp + tildecomb@top
+uni1EBF.smcp = e.smcp + uni0302@top+acutecomb@topright
+uni1EC1.smcp = e.smcp + circumflexcomb_gravecomb@top
+uni1EC3.smcp = e.smcp + uni0302@top+uni0309@topright
+uni1EC5.smcp = e.smcp + uni0302@top+tildecomb@top
+uni1EC7.smcp = e.smcp + uni0302@top+uni0323@e.smcp:bottom
+uni1EC9.smcp = i.smcp + uni0309@top
+uni1ECB.smcp = i.smcp + uni0323@bottom
+uni1ECD.smcp = o.smcp + uni0323@bottom
+uni1ECF.smcp = o.smcp + uni0309@top
+uni1ED1.smcp = o.smcp + uni0302@top+acutecomb@topright
+uni1ED3.smcp = o.smcp + circumflexcomb_gravecomb@top
+uni1ED5.smcp = o.smcp + uni0302@top+uni0309@topright
+uni1ED7.smcp = o.smcp + uni0302@top+tildecomb@top
+uni1ED9.smcp = o.smcp + uni0302@top+uni0323@o.smcp:bottom
+uni1EDB.smcp = o.smcp + uni0306@top+acutecomb@top
+uni1EDD.smcp = o.smcp + uni0306@top+gravecomb@top
+uni1EDF.smcp = o.smcp + uni0306@top+uni0309@top
+uni1EE1.smcp = o.smcp + uni0306@top+tildecomb@top
+uni1EE3.smcp = o.smcp + uni0306@top+uni0323@o.smcp:bottom
+
+uni1EE5.smcp=u.smcp+uni0323@bottom
+uni1EE9.smcp=uhorn.smcp+acutecomb@top
+uni1EEB.smcp=uhorn.smcp+gravecomb@top
+uni1EED.smcp=uhorn.smcp+uni0309@top
+uni1EEF.smcp=uhorn.smcp+tildecomb@top
+uni1EF1.smcp=uhorn.smcp+uni0323@bottom
+uni1EF3.smcp=y.smcp+gravecomb@top
+uni1EF5.smcp=y.smcp+uni0323@bottom
+uni1EF7.smcp=y.smcp+uni0309@top
+uni1EF9.smcp=y.smcp+tildecomb@top
+
+uni022B.smcp = o.smcp + uni0308@top + uni0304@top
+uni022D.smcp = o.smcp +  tildecomb@top + uni0304@top
+uni0231.smcp = o.smcp + uni0307@top + uni0304@top
+
+
+
+uni1EBF.smcp=e.smcp+uni0302@top+acutecomb@topright
+uni1ED1.smcp=e.smcp+uni0302@top+acutecomb@topright
+
+
+
 
 # LATIN REBUILT SMALL CAPS
 
@@ -667,6 +742,34 @@ uni1ED4=O+uni0302.case@top+uni0309.case@topright
 uni1EA9=a+uni0302@top+uni0309@topright
 uni1EC3=e+uni0302@top+uni0309@topright
 uni1ED5=o+uni0302@top+uni0309@topright
+
+rcommaaccent.smcp = r.smcp + uni0326@bottom
+tcedilla.smcp = t.smcp + uni0327@bottom
+uogonek.smcp = u.smcp = uni0328@ogonek
+dzcaron.smcp = d.smcp & zcaron.smcp
+lj.smcp = l.smcp & j.smcp
+oogonek.smcp = o.smcp + uni0328@ogonek
+
+
+rcommaaccent.smcp = r.smcp + uni0326@bottom
+tcedilla.smcp = t.smcp + uni0327@bottom
+scedilla.smcp = s.smcp + uni0327@bottom
+dzcaron.smcp = d.smcp & zcaron.smcp
+lj.smcp = l.smcp & j.smcp
+oogonek.smcp = o.smcp + uni0328@bottom
+uogonek.smcp = u.smcp + uni0328@bottom
+nj.smcp = n.smcp & j.smcp
+aringacute.smcp=aring.smcp+acutecomb@top
+aeacute.smcp=ae.smcp+acutecomb@top
+oslashacute.smcp = oslash.smcp + acutecomb@top
+
+
+uni1EAF = a + uni0306@top + acutecomb@top
+uni1EB3 = a + uni0306@top + uni0309@top
+uni1EB5 = a + uni0306@top + tildecomb@top
+uni1EAE = A + uni0306.case@top + acutecomb.case@top
+uni1EB2 = A + uni0306.case@top + uni0309.case@top
+uni1EB4 = A + uni0306.case@top + tildecomb.case@top
 
 uni1EF2 = Y + gravecomb.case@top
 uni1EF4 = Y + uni0323.case@bottom
