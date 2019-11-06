@@ -3,9 +3,19 @@
 
 This repo is where development and updates to this project can be found. Source files are updated ~ daily, in FontLab VFJ (vector font JSON) format and occasionally FontLab VFC format. Roughly weekly we also do UFO and compiled variable TTF (not only variable fonts, but also fonts corresponding to masters and instances), usually on Thursday or Friday.
 
-Science Gothic™ is an OpenType Variations typeface (variable font) with weight, width and contrast axes. Ultimately it will also have a slant axis. While the medium weight is based closely on the original Bank Gothic typeface from the early 1930s, a lowercase, design axes and language coverage have been added. Bank Gothic was originally designed by Morris Fuller Benton in 1930–34 for American Type Founders. Science Gothic is a team effort, with the initial development by Thomas Phinney, Brandon Buerkle, Igor Freiberger and Vassil Kateliev.
+Science Gothic™ is an OpenType Variations typeface (variable font) with weight, width and contrast axes. Ultimately it will also have a slant axis. While the medium weight is based closely on the original Bank Gothic typeface from the early 1930s, a lowercase, design axes and language coverage have been added. Bank Gothic was originally designed by Morris Fuller Benton in 1930–34 for American Type Founders. Science Gothic is a team effort, with the initial development by Thomas Phinney, Brandon Buerkle and Vassil Kateliev.
 
 (Particularly major updates are described below, but not every update.)
+
+### 1 November 2019
+
+Primary design work was basically done. Just a few details here and there to fix. We are now entering the endgame! For the next three weeks or so, we will:
+
+- create kerning classes and do kerning
+- create the Slant axis, slanted glyphs, and add form change for just a very few (/a for certain, maybe /f)
+- fix bugs and address any issues discovered
+
+98.5% done glyph design work
 
 ### 14 October 2019
 
@@ -22,6 +32,8 @@ Added UFO sources, and first variable TTF built from UFO + FontMake (with latest
 ### 5 September 2019
 
 Second variable font build. About 200 meaningful characters, including very nearly complete support for both English and Russian. 37% done glyph design work.
+
+Around this time we had the last few contributions from Igor Freiberger. Thanks!
 
 ### 29 August 2019
 
