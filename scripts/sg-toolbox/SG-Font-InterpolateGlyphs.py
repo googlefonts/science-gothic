@@ -26,8 +26,8 @@ font = pFont()
 src_glyph_names = ('k', 'k.new') 	# source glyphs - should be compatible
 dst_glyph_name = None 				# None points to current active glyph - you should create one first and it should be a duplicate of one of the sources
 
-tx = .75 							# interpolation time along X
-ty = .75 							# interpolation time along Y
+tx = .5 							# interpolation time along X
+ty = .5 							# interpolation time along Y
 
 # - Process ----------------------------------------------
 src_glyph = (font.glyph(src_glyph_names[0], eGlyph), font.glyph(src_glyph_names[1], eGlyph))
