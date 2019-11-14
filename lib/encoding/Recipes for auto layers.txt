@@ -176,6 +176,7 @@ uni0163+t+uni0327@bottom
 
 /circumflexcomb_gravecomb=uni0302+gravecomb@topright
 /circumflexcomb_tildecomb=uni0302+tildecomb@top
+/brevecomb_acutecomb=uni0306+acutecomb@top
 /brevecomb_gravecomb=uni0306+gravecomb@top
 /brevecomb_tildecomb=uni0306+tildecomb@top
 /circumflexcomb_acutecomb=uni0302+acutecomb@topright
@@ -391,25 +392,25 @@ wdieresis=w+uni0308@top
 Adotbelow=A+uni0323.case@bottom
 adotbelow=a+dotbelowcomb@bottom
 Ahookabove=A+uni0309.case@top
-ahookabove=a+hookabovecomb@top
-Acircumflexacute=A+uni03020301.case@top
-acircumflexacute=a+uni03020301@top
-Acircumflexgrave=A+uni03020300.case@top
-acircumflexgrave=a+uni03020300@top
-Acircumflexhookabove=A+uni03020309.case@top
-acircumflexhookabove=a+uni03020309@top
-Acircumflextilde=A+uni03020303.case@top               
-acircumflextilde=a+uni03020303@top
+ahookabove=a+uni0309@top
+Acircumflexacute=A++circumflexcomb_acutecomb.case@top
+acircumflexacute=a+circumflexcomb_acutecomb@top
+Acircumflexgrave=A+circumflexcomb_gravecomb.case@top
+acircumflexgrave=a+circumflexcomb_gravecomb@top
+Acircumflexhookabove=A+uni0302.case@top+uni0309.case@topright
+acircumflexhookabove=a+uni0302@top+uni0309@topright
+Acircumflextilde=A+circumflexcomb_tildecomb.case@top               
+acircumflextilde=a+circumflexcomb_tildecomb@top
 uni1EAC=A+uni0302.case@top+uni0323.case@A:bottom
 acircumflexdotbelow=a+uni0302@top+dotbelowcomb@a:bottom
-Abreveacute=A+uni03060301.case@top
-abreveacute=a+uni03060301@top
-Abrevegrave=A+uni03060300.case@top
-abrevegrave=a+uni03060300@top
-Abrevehookabove=A+uni03060309.case@top
-abrevehookabove=a+uni03060309@top
-Abrevetilde=A+uni03060303.case@top
-abrevetilde=a+uni03060303@top
+Abreveacute=A+brevecomb_acutecomb.case@top
+abreveacute=a+brevecomb_acutecomb@top
+Abrevegrave=A+brevecomb_gravecomb.case@top
+abrevegrave=a+brevecomb_gravecomb@top
+Abrevehookabove=A+uni0306.case@top+uni0309.case@top
+abrevehookabove=a+uni0306@top+uni0309@top
+Abrevetilde=A+uni0306.case@top+tildecomb.case@top
+abrevetilde=a+uni0306@top+tildecomb@top
 uni1EB6=A+uni0306.case@top+uni0323.case@A:bottom
 abrevedotbelow=a+uni0306@top+dotbelowcomb@a:bottom
 uni1EB8=E+uni0323.case@bottom
@@ -659,7 +660,7 @@ uni1EA7.smcp = a.smcp + circumflexcomb_gravecomb@top
 uni1EA9.smcp = a.smcp + uni0302@top+uni0309@topright
 uni1EAB.smcp = a.smcp + uni0302@top+tildecomb@top
 uni1EAD.smcp = a.smcp + uni0302@top+uni0323@a.smcp:bottom
-uni1EAF.smcp = a.smcp + uni0306@top+acutecomb@top
+uni1EAF.smcp = a.smcp + brevecomb_acutecomb@top
 uni1EB1.smcp = a.smcp + uni0306@top+gravecomb@top
 uni1EB3.smcp = a.smcp + uni0306@top+uni0309@top
 uni1EB5.smcp = a.smcp + uni0306@top+tildecomb@top
@@ -722,7 +723,7 @@ tbar.smcp=t.smcp+tbar-bar.smcp
 uni022A = O + uni0308.case@top + uni0304.case@top
 uni022B = o + uni0308@top + uni0304@top
 uni022C = O + tildecomb.case@top + uni0304.case@top
-uni022D = o +  tildecomb@top + uni0304@top
+uni022D = o + tildecomb@top + uni0304@top
 uni0230 = O + uni0307.case@top + uni0304.case@top
 uni0231 = o + uni0307@top + uni0304@top
 aringacute = a + uni030A@top + acute@top
@@ -933,3 +934,52 @@ uni04F4.smcp=uni0427.smcp+uni0308@top
 uni04F8.smcp=uni042B+uni0308.case@top
 uni051A.smcp=Q.smcp
 uni051C.smcp=W.smcp
+
+
+
+## a.slnt variants
+
+# from Latin Basic lowercase
+agrave.slnt=a.slnt+gravecomb@top
+aacute.slnt=a.slnt+acutecomb@top
+acircumflex.slnt=a.slnt+uni0302@top
+atilde.slnt=a.slnt+tildecomb@top
+adieresis.slnt=a.slnt+uni0308@top
+aring.slnt=a.slnt+uni030A@top
+
+# from Latin Extended I
+abreve.slnt=a.slnt+uni0306@top
+amacron.slnt=a.slnt+uni0304@top
+
+# from Latin Extended II
+aringacute.slnt=a.slnt+uni030A0301@top
+adblgrave.slnt=a.slnt+uni030F@top
+uni0203.slnt=a.slnt+uni0311@top
+adotbelow.slnt=a.slnt+dotbelowcomb@bottom
+ahookabove.slnt=a.slnt+uni0309@top
+acircumflexacute.slnt=a.slnt+circumflexcomb_acutecomb@top
+acircumflexgrave.slnt=a.slnt+circumflexcomb_gravecomb@top
+acircumflexhookabove.slnt=a.slnt+uni0302@top+uni0309@topright
+acircumflextilde.slnt=a.slnt+circumflexcomb_tildecomb@top
+acircumflexdotbelow.slnt=a.slnt+uni0302@top+dotbelowcomb@a:bottom
+abreveacute.slnt=a.slnt+brevecomb_acutecomb@top
+abrevegrave.slnt=a.slnt+brevecomb_gravecomb@top
+abrevehookabove.slnt=a.slnt+uni0306@top+uni0309@top
+abrevetilde.slnt=a.slnt+uni0306@top+tildecomb@top
+abrevedotbelow.slnt=a.slnt+uni0306@top+dotbelowcomb@a:bottom
+
+# from stacked diacritics
+aringacute.slnt=a.slnt+uni030A@top+acute@top
+uni1EB1.slnt=a.slnt+brevecomb_gravecomb@top
+uni1EA5.slnt=a.slnt+uni0302@top+acutecomb@topright
+uni1EA9.slnt=a.slnt+uni0302@top+uni0309@topright
+uni1EAF.slnt=a.slnt+uni0306@top+acutecomb@top
+uni1EB3.slnt=a.slnt+uni0306@top+uni0309@top
+uni1EB5.slnt=a.slnt+uni0306@top+tildecomb@top
+uni1EA3.slnt=a.slnt+uni0309@top
+uni1EAD.slnt=a.slnt+uni0302@top+uni0323@a:bottom
+
+# from Cyrillic
+uni0430.slnt=a.slnt
+uni04D1.slnt=a.slnt+uni0306.cy@top
+uni04D3.slnt=a.slnt+uni0308@top
