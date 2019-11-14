@@ -18,10 +18,10 @@ from itertools import product
 from collections import OrderedDict
 
 from typerig.proxy import pFont, pGlyph
-from typerig.brain import fontFamilly, linAxis, geoAxis, linspread, geospread
+#from typerig.brain import fontFamilly, linAxis, geoAxis, linspread, geospread
 
 # - Init --------------------------------
-app_version = '1.2'
+app_version = '1.4'
 app_name = 'Build Italic Axis'
 fileFormats = ['FontLab Encoding File (*.enc)', 'Text File (*.txt)']
 
@@ -35,7 +35,7 @@ italic_axis_names_T = map(list, zip(*italic_axis_names))
 
 # -- GUI related
 table_dict = {1:OrderedDict([('Master Name', None), ('Angle', None), ('Shift', None)])}
-spinbox_range = (-99, 99)
+spinbox_range = (-1000, 1000)
 
 # - Widgets --------------------------------
 class WTableView(QtGui.QTableWidget):
@@ -221,16 +221,18 @@ class dlg_BuildAxis(QtGui.QDialog):
 						wLayer = wGlyph.layer(process_layer)
 
 						if wLayer is not None:
+							'''
 							# -- Transform at origin
 							wBBox = wLayer.boundingBox
 							wCenter = (wBBox.width()/2 + wBBox.x(), wBBox.height()/2 + wBBox.y())
 							transform_to_origin = QtGui.QTransform().translate(-wCenter[0], -wCenter[1])
 							transform_from_origin = QtGui.QTransform().translate(*wCenter)
+							'''
 							
 							# -- Apply Transform
-							wLayer.applyTransform(transform_to_origin)
+							#wLayer.applyTransform(transform_to_origin)
 							wLayer.applyTransform(new_transform)
-							wLayer.applyTransform(transform_from_origin)
+							#wLayer.applyTransform(transform_from_origin)
 
 							wGlyph.update()
 							#print 'MODIFY:\t Glyph: %s;\tLayer: %s.' %(wGlyph.name, process_layer)
