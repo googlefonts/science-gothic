@@ -21,16 +21,16 @@ from typerig.proxy import pFont, pGlyph
 #from typerig.brain import fontFamilly, linAxis, geoAxis, linspread, geospread
 
 # - Init --------------------------------
-app_version = '1.4'
+app_version = '1.41'
 app_name = 'Build Italic Axis'
 fileFormats = ['FontLab Encoding File (*.enc)', 'Text File (*.txt)']
 
 # -- Transformation parameters
 italic_transform_angle = 10
-italic_transform_shift = -20
+italic_transform_shift = -120
 
 # -- Master & Axis related
-italic_axis_names = [('Italic', 'ital', 'it'), ('Slant', 'slnt', 'sl')] #Registered: https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg
+italic_axis_names = [('Slant', 'slnt', 'sl'), ('Italic', 'ital', 'it')] #Registered: https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg
 italic_axis_names_T = map(list, zip(*italic_axis_names))
 
 # -- GUI related
