@@ -14,13 +14,14 @@ Get the latest working variable font here: https://github.com/tphinney/science-g
 ### Bugs
 PLEASE report any BUGS OR ISSUES. You can file an issue right here in Github at: https://github.com/tphinney/science-gothic/issues. Or just ask questions on social media, whatever. But feedback is welcome!
 
+
+## Release Notes
+
 ### 17 November 2019
 
 - Slant axis is enabled! Note the form change for /a and /f when they get more than half slanted. This has generated a fair number of bugs for some glyphs in their slanted versions, but nothing unmanageable. 
 - Have started editing glyphs to tweak their shapes where slant does too much distortion of weight or stroke. Mainly diagonal strokes (think: A K N M R 2 4 7 & ?) and big curves (not many in this typeface, but they include: D 6 9)
 - Kerning classes have all been created; kerning is well underway
-
-## Release Notes
 
 ### 1 November 2019
 
