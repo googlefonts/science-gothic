@@ -7,8 +7,11 @@ Science Gothic™ is an OpenType Variations typeface (variable font) with weight
 
 (Particularly major updates are described below, but not every update.)
 
+### DOWNLOAD
 Get the latest working variable font here: https://github.com/tphinney/science-gothic/tree/master/fonts/variable/UFO%20FontMake
 
+
+### Bugs
 PLEASE report any BUGS OR ISSUES. You can file an issue right here in Github at: https://github.com/tphinney/science-gothic/issues. Or just ask questions on social media, whatever. But feedback is welcome!
 
 ### 17 November 2019
@@ -17,6 +20,7 @@ PLEASE report any BUGS OR ISSUES. You can file an issue right here in Github at:
 - Have started editing glyphs to tweak their shapes where slant does too much distortion of weight or stroke. Mainly diagonal strokes (think: A K N M R 2 4 7 & ?) and big curves (not many in this typeface, but they include: D 6 9)
 - Kerning classes have all been created; kerning is well underway
 
+## Release Notes
 
 ### 1 November 2019
 
