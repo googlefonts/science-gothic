@@ -18,7 +18,7 @@ from typerig.gui import getProcessGlyphs
 from typerig.proxy import pFont, pGlyph
 
 # - Init --------------------------------
-app_version = '1.95'
+app_version = '1.97'
 app_name = '[SG] Copy Layers'
 
 # -- Copy Presets (by request)
@@ -36,6 +36,13 @@ copy_presets = {'contrast':[('Blk','Blk Ctr'),
 							('Lt Cnd','Lt Cnd Ctr'),
 							('Lt Exp','Lt Exp Ctr')],
 
+				'ctr_light_s':[('Lt','Lt Ctr'),
+							('Lt Cnd','Lt Cnd Ctr'),
+							('Lt Exp','Lt Exp Ctr')
+              ('Lt S','Lt Ctr S'),
+							('Lt Cnd S','Lt Cnd Ctr S'),
+							('Lt Exp S','Lt Exp Ctr S')],
+
 				'width': 	[('Blk','Blk Cnd'),
 							('Medium','Cnd'),
 							('Lt','Lt Cnd'),
@@ -44,8 +51,26 @@ copy_presets = {'contrast':[('Blk','Blk Ctr'),
 							('Lt','Lt Exp')],
 				'weight':
 							[('Medium','Lt'),
-							('Medium','Blk')]
+							('Medium','Blk')],
 
+ 				'slant': [('Lt','Lt S'),
+              ('Medium','Medium S'),
+          		('Blk','Blk S'),
+         			('Lt Cnd','Lt Cnd S'),
+              ('Cnd','Cnd S'),
+      				('Blk Cnd','Blk Cnd S'),
+    				  ('Lt Exp','Lt Exp S'),
+    				  ('Exp','Exp S'),
+         			('Blk Exp','Blk Exp S'),
+							('Lt Ctr','Lt Ctr S'),
+							('Ctr','Ctr S'),
+							('Blk Ctr','Blk Ctr S'),
+							('Lt Cnd Ctr','Lt Cnd Ctr S'),
+							('Cnd Ctr','Cnd Ctr S'),
+							('Blk Cnd Ctr','Blk Cnd Ctr S'),
+							('Lt Exp Ctr','Lt Exp Ctr S'),
+							('Exp Ctr','Exp Ctr S'),
+							('Blk Exp Ctr','Blk Exp Ctr S')]
 				}
 
 # -- GUI related
@@ -139,6 +164,8 @@ class dlg_CopyLayer(QtGui.QDialog):
 		self.btn_preset_width = QtGui.QPushButton('Copy to Width Masters')
 		self.btn_preset_weight = QtGui.QPushButton('Copy to Weight Masters')
 		self.btn_preset_ctrlt = QtGui.QPushButton('Copy to Light Contrast Masters')
+		self.btn_preset_ctrlts = QtGui.QPushButton('Copy to Light Contrast Masters (incl. Slant)')
+		self.btn_preset_slant = QtGui.QPushButton('Copy to Slant Masters')
 
 		self.btn_refresh.clicked.connect(self.table_populate)
 		self.btn_checkOn.clicked.connect(lambda: self.table_populate(True))
@@ -147,7 +174,9 @@ class dlg_CopyLayer(QtGui.QDialog):
 		self.btn_preset_width.clicked.connect(lambda: self.execute_preset(copy_presets['width']))
 		self.btn_preset_weight.clicked.connect(lambda: self.execute_preset(copy_presets['weight']))
 		self.btn_preset_ctrlt.clicked.connect(lambda: self.execute_preset(copy_presets['ctr_light']))
-
+		self.btn_preset_ctrlts.clicked.connect(lambda: self.execute_preset(copy_presets['ctr_light_s']))
+		self.btn_preset_slant.clicked.connect(lambda: self.execute_preset(copy_presets['slant']))
+		
 		self.rad_glyph = QtGui.QRadioButton('Glyph')
 		self.rad_window = QtGui.QRadioButton('Window')
 		self.rad_selection = QtGui.QRadioButton('Selection')
@@ -209,6 +238,8 @@ class dlg_CopyLayer(QtGui.QDialog):
 		layoutV.addWidget(self.btn_preset_width, 			25, 0, 1,8)
 		layoutV.addWidget(self.btn_preset_contrast, 		26, 0, 1,8)
 		layoutV.addWidget(self.btn_preset_ctrlt, 			27, 0, 1,8)
+		layoutV.addWidget(self.btn_preset_ctrlts, 		28, 0, 1,8)
+		layoutV.addWidget(self.btn_preset_slant, 			29, 0, 1,8)
 
 		# - Set Widget
 		self.setLayout(layoutV)
