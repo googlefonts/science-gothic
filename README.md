@@ -7,6 +7,22 @@ Science Gothic™ is an OpenType Variations typeface (variable font) with weight
 
 (Particularly major updates are described below, but not every update.)
 
+### DOWNLOAD
+Get the latest working variable font here: https://github.com/tphinney/science-gothic/tree/master/fonts/variable/UFO%20FontMake
+
+
+### Bugs
+PLEASE report any BUGS OR ISSUES. You can file an issue right here in Github at: https://github.com/tphinney/science-gothic/issues. Or just ask questions on social media, whatever. But feedback is welcome!
+
+
+## Release Notes
+
+### 17 November 2019
+
+- Slant axis is enabled! Note the form change for /a and /f when they get more than half slanted. This has generated a fair number of bugs for some glyphs in their slanted versions, but nothing unmanageable. 
+- Have started editing glyphs to tweak their shapes where slant does too much distortion of weight or stroke. Mainly diagonal strokes (think: A K N M R 2 4 7 & ?) and big curves (not many in this typeface, but they include: D 6 9)
+- Kerning classes have all been created; kerning is well underway
+
 ### 1 November 2019
 
 Primary design work was basically done. Just a few details here and there to fix. We are now entering the endgame! For the next three weeks or so, we will:
@@ -82,7 +98,7 @@ This list is in alphabetical order after Thomas.
     D: Designer
 
     N: Igor Freiberger
-    D: Designer
+    D: Designer for a few early weeks of the project
 
     N: Vassil Kateliev
     W: http://www.kateliev.com/
@@ -97,4 +113,4 @@ Additional non-font source files are licensed to others under the Apache 2.0 ope
 
 ## Language Coverage & Glyph Set
 
-Ultimately this typeface will have extended Latin and extended Cyrillic, with about 1200 glyphs. [FontLab .enc encoding file](https://github.com/tphinney/science-gothic/blob/master/Science%20Gothic.enc).
+Ultimately this typeface will have extended Latin and extended Cyrillic, with over 1200 glyphs. [FontLab .enc encoding file](https://github.com/tphinney/science-gothic/blob/master/Science%20Gothic.enc).
