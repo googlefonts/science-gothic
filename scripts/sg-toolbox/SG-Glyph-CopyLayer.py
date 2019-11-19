@@ -38,7 +38,7 @@ copy_presets = {'contrast':[('Blk','Blk Ctr'),
 
 				'ctr_light_s':[('Lt','Lt Ctr'),
 							('Lt Cnd','Lt Cnd Ctr'),
-							('Lt Exp','Lt Exp Ctr')
+							('Lt Exp','Lt Exp Ctr'),
               ('Lt S','Lt Ctr S'),
 							('Lt Cnd S','Lt Cnd Ctr S'),
 							('Lt Exp S','Lt Exp Ctr S')],
