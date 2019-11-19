@@ -1,64 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="n" format="1">
-  <advance width="1522" height="1448"/>
+<glyph name="n" format="2">
+  <advance width="1519" height="1448"/>
   <unicode hex="006E"/>
+  <anchor x="764" y="1184" name="top"/>
+  <anchor x="764" y="-150" name="bottom"/>
+  <anchor x="30" y="518" name="left"/>
   <outline>
     <contour>
       <point x="130" y="0" type="line"/>
       <point x="130" y="1024" type="line"/>
       <point x="654" y="1024" type="line"/>
       <point x="654" y="930" type="line"/>
-      <point x="696" y="1002"/>
-      <point x="784" y="1034"/>
-      <point x="940" y="1034" type="curve" smooth="yes"/>
+      <point x="686" y="984"/>
+      <point x="822" y="1034"/>
+      <point x="940" y="1034" type="qcurve" smooth="yes"/>
       <point x="1028" y="1034" type="line" smooth="yes"/>
-      <point x="1284" y="1034"/>
-      <point x="1396" y="942"/>
-      <point x="1396" y="734" type="curve" smooth="yes"/>
+      <point x="1124" y="1034"/>
+      <point x="1263" y="999"/>
+      <point x="1353" y="925"/>
+      <point x="1396" y="812"/>
+      <point x="1396" y="734" type="qcurve" smooth="yes"/>
       <point x="1396" y="0" type="line"/>
       <point x="872" y="0" type="line"/>
       <point x="872" y="602" type="line"/>
       <point x="872" y="602"/>
       <point x="872" y="602"/>
-      <point x="872" y="602" type="curve"/>
+      <point x="872" y="602" type="qcurve"/>
       <point x="654" y="602" type="line"/>
       <point x="654" y="0" type="line"/>
     </contour>
-    <contour>
-      <point x="764" y="1184" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="764" y="-150" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="30" y="518" type="move" name="left"/>
-    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.guides</key>
-  <array>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>988</real>
-    </dict>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>870</real>
-    </dict>
-  </array>
-  </dict>
-  </lib>
+  <guideline y="988"/>
+  <guideline y="870"/>
 </glyph>

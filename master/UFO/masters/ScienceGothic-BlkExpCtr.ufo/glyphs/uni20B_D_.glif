@@ -1,30 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni20BD" format="1">
-  <advance width="3155"/>
+<glyph name="uni20BD" format="2">
+  <advance width="3182"/>
   <unicode hex="20BD"/>
   <outline>
     <contour>
       <point x="206" y="536" type="line"/>
       <point x="2473" y="536" type="line" smooth="yes"/>
-      <point x="2725" y="536"/>
-      <point x="2887" y="602"/>
-      <point x="2887" y="870" type="curve" smooth="yes"/>
+      <point x="2568" y="536"/>
+      <point x="2721" y="565"/>
+      <point x="2829" y="640"/>
+      <point x="2887" y="770"/>
+      <point x="2887" y="870" type="qcurve" smooth="yes"/>
       <point x="2887" y="1066" type="line" smooth="yes"/>
-      <point x="2887" y="1334"/>
-      <point x="2725" y="1400"/>
-      <point x="2473" y="1400" type="curve" smooth="yes"/>
+      <point x="2887" y="1167"/>
+      <point x="2829" y="1296"/>
+      <point x="2721" y="1371"/>
+      <point x="2568" y="1400"/>
+      <point x="2473" y="1400" type="qcurve" smooth="yes"/>
       <point x="449" y="1400" type="line"/>
       <point x="449" y="0" type="line"/>
       <point x="1021" y="0" type="line"/>
       <point x="1021" y="1364" type="line"/>
       <point x="2083" y="1364" type="line" smooth="yes"/>
-      <point x="2235" y="1364"/>
-      <point x="2315" y="1284"/>
-      <point x="2315" y="1164" type="curve" smooth="yes"/>
+      <point x="2140" y="1364"/>
+      <point x="2227" y="1335"/>
+      <point x="2285" y="1283"/>
+      <point x="2315" y="1209"/>
+      <point x="2315" y="1164" type="qcurve" smooth="yes"/>
       <point x="2315" y="772" type="line" smooth="yes"/>
-      <point x="2315" y="652"/>
-      <point x="2235" y="572"/>
-      <point x="2083" y="572" type="curve" smooth="yes"/>
+      <point x="2315" y="727"/>
+      <point x="2285" y="653"/>
+      <point x="2227" y="601"/>
+      <point x="2140" y="572"/>
+      <point x="2083" y="572" type="qcurve" smooth="yes"/>
       <point x="206" y="572" type="line"/>
     </contour>
     <contour>
@@ -34,23 +42,5 @@
       <point x="205" y="376" type="line"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.guides</key>
-  <array>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>1577.5</real>
-      <key>y</key>
-      <real>0</real>
-      <key>name</key>
-      <string>halfwidth</string>
-    </dict>
-  </array>
-  </dict>
-  </lib>
+  <guideline x="1581" name="halfwidth" color="0.4,0.4,0.4,1"/>
 </glyph>

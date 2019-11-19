@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ocircumflex" format="1">
-  <advance width="598"/>
+<glyph name="Ocircumflex" format="2">
+  <advance width="590"/>
   <unicode hex="00D4"/>
+  <anchor x="295" y="1880" name="top"/>
+  <anchor x="295" y="-150" name="bottom"/>
+  <anchor x="509" y="1203" name="horn"/>
+  <anchor x="313" y="0" name="ogonek"/>
+  <anchor x="438" y="1585" name="topright"/>
   <outline>
     <component base="O"/>
-    <component base="uni0302.case" xOffset="304" yOffset="400"/>
+    <component base="uni0302.case" xOffset="295" yOffset="400"/>
   </outline>
 </glyph>

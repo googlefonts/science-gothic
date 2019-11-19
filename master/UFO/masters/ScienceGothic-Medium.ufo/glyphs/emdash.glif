@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="emdash" format="1">
-  <advance width="2000"/>
+<glyph name="emdash" format="2">
+  <advance width="2000" height="1448"/>
   <unicode hex="2014"/>
   <outline>
     <contour>
@@ -10,21 +10,5 @@
       <point x="0" y="488" type="line"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.guides</key>
-  <array>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>600</real>
-    </dict>
-  </array>
-  </dict>
-  </lib>
+  <guideline y="600"/>
 </glyph>

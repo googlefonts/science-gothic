@@ -12,10 +12,33 @@
   <integer>-428</integer>
   <key>familyName</key>
   <string>Science Gothic</string>
+  <key>guidelines</key>
+  <array>
+  <dict>
+    <key>y</key>
+    <integer>281</integer>
+    <key>name</key>
+    <string>m</string>
+  </dict>
+  </array>
   <key>italicAngle</key>
   <integer>0</integer>
+  <key>openTypeGaspRangeRecords</key>
+  <array>
+  <dict>
+    <key>rangeGaspBehavior</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>2</integer>
+        <integer>3</integer>
+      </array>
+    <key>rangeMaxPPEM</key>
+    <integer>65535</integer>
+  </dict>
+  </array>
   <key>openTypeHeadCreated</key>
-  <string>2019/09/14 00:25:48</string>
+  <string>2019/10/20 01:35:47</string>
   <key>openTypeHeadFlags</key>
   <array>
   </array>
@@ -26,9 +49,13 @@
   <key>openTypeHheaLineGap</key>
   <integer>200</integer>
   <key>openTypeNameDescription</key>
-  <string>Science Gothic is a variable font, commissioned by Google. Thomas Phinney was inspired by Morris Fuller Benton&#x2019;s  Bank Gothic (1930&#x2013;34), created for American Type Founders. Science Gothic builds on and extends Benton&#x2019;s design by adding a lowercase, dramatic variation in weight and width, and a contrast (yopq) axis, somewhat reminiscent of Benton&#x2019;s Broadway (1927) and other period designs such as R. Hunter Middleton&#x2019;s Radiant (circa 1938&#x2013;40) for Ludlow.</string>
+  <string>Science Gothic is a variable font, designed for Google Fonts. Thomas Phinney was inspired by Morris Fuller Benton&#x2019;s  Bank Gothic (1930&#x2013;34), created for American Type Founders.
+
+Science Gothic builds on and extends Benton&#x2019;s design by adding a lowercase, dramatic variation in weight and width, and a contrast (YOPQ) axis, somewhat reminiscent of Benton&#x2019;s Broadway (1927) and other period designs such as R. Hunter Middleton&#x2019;s Radiant (circa 1938&#x2013;40) for Ludlow.
+
+The design was created by a team of designers: Thomas Phinney, Vassil Kateliev and Brandon Buerkle, with a little help from Igor Freiberger early on.</string>
   <key>openTypeNameDesigner</key>
-  <string>Thomas Phinney with Brandon Buerkle, Igor Freiberger &amp; Vassil Kateliev.</string>
+  <string>Thomas Phinney, Vassil Kateliev, Brandon Buerkle</string>
   <key>openTypeNameDesignerURL</key>
   <string>https://sciencegothic.com</string>
   <key>openTypeNameLicense</key>
@@ -100,8 +127,6 @@
     <integer>33</integer>
     <integer>45</integer>
   </array>
-  <key>openTypeOS2VendorID</key>
-  <string>TWP</string>
   <key>openTypeOS2WeightClass</key>
   <integer>100</integer>
   <key>openTypeOS2WidthClass</key>

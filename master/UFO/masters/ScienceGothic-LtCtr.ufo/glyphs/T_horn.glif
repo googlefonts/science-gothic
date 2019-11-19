@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Thorn" format="1">
-  <advance width="1368"/>
+<glyph name="Thorn" format="2">
+  <advance width="1354"/>
   <unicode hex="00DE"/>
   <outline>
     <contour>
@@ -8,13 +8,17 @@
       <point x="282" y="0" type="line"/>
       <point x="282" y="327" type="line"/>
       <point x="833" y="327" type="line" smooth="yes"/>
-      <point x="1033" y="327"/>
-      <point x="1126" y="429"/>
-      <point x="1126" y="620" type="curve" smooth="yes"/>
+      <point x="908" y="327"/>
+      <point x="1018" y="365"/>
+      <point x="1091" y="439"/>
+      <point x="1126" y="548"/>
+      <point x="1126" y="620" type="qcurve" smooth="yes"/>
       <point x="1126" y="830" type="line" smooth="yes"/>
-      <point x="1126" y="1021"/>
-      <point x="1033" y="1123"/>
-      <point x="833" y="1123" type="curve" smooth="yes"/>
+      <point x="1126" y="902"/>
+      <point x="1091" y="1011"/>
+      <point x="1018" y="1085"/>
+      <point x="908" y="1123"/>
+      <point x="833" y="1123" type="qcurve" smooth="yes"/>
       <point x="282" y="1123" type="line"/>
       <point x="282" y="1400" type="line"/>
       <point x="242" y="1400" type="line"/>
@@ -23,32 +27,18 @@
       <point x="282" y="363" type="line"/>
       <point x="282" y="1087" type="line"/>
       <point x="831" y="1087" type="line" smooth="yes"/>
-      <point x="1007" y="1087"/>
-      <point x="1086" y="1000"/>
-      <point x="1086" y="832" type="curve" smooth="yes"/>
+      <point x="897" y="1087"/>
+      <point x="993" y="1055"/>
+      <point x="1056" y="990"/>
+      <point x="1086" y="895"/>
+      <point x="1086" y="832" type="qcurve" smooth="yes"/>
       <point x="1086" y="618" type="line" smooth="yes"/>
-      <point x="1086" y="450"/>
-      <point x="1007" y="363"/>
-      <point x="831" y="363" type="curve" smooth="yes"/>
+      <point x="1086" y="555"/>
+      <point x="1056" y="460"/>
+      <point x="993" y="395"/>
+      <point x="897" y="363"/>
+      <point x="831" y="363" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.guides</key>
-  <array>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>684</real>
-      <key>y</key>
-      <real>0</real>
-      <key>name</key>
-      <string>halfwidth</string>
-    </dict>
-  </array>
-  </dict>
-  </lib>
+  <guideline x="677" name="halfwidth" color="0.4,0.4,0.4,1"/>
 </glyph>

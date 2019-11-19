@@ -1,51 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="sterling" format="1">
-  <advance width="2700"/>
+<glyph name="sterling" format="2">
+  <advance width="2725"/>
   <unicode hex="00A3"/>
   <outline>
     <component base="lira-sterling-body"/>
     <component base="currency-crossbar"/>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.guides</key>
-  <array>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>1000</real>
-    </dict>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>782</real>
-      <key>y</key>
-      <real>0</real>
-    </dict>
-  </array>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="lsb">
-      <hstem pos="-14" width="244" />
-      <hstem pos="-14" width="1198" />
-      <hstem pos="0" width="244" />
-      <hstem pos="1170" width="244" />
-      <vstem pos="-451.599976" width="935.599976" />
-      <vstem pos="427" width="464" />
-      <vstem pos="1422" width="64" />
-      <vstem pos="2301" width="463.600006" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
+  <guideline y="1000"/>
+  <guideline x="782"/>
 </glyph>

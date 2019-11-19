@@ -1,72 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hbar" format="1">
-  <advance width="902"/>
+<glyph name="hbar" format="2">
+  <advance width="833"/>
   <unicode hex="0127"/>
+  <anchor x="259" y="1598" name="top"/>
+  <anchor x="445" y="-150" name="bottom"/>
+  <anchor x="35" y="500" name="left"/>
   <outline>
     <contour>
-      <point x="167.92" y="0" type="line"/>
-      <point x="167.92" y="1448" type="line"/>
-      <point x="415.92" y="1448" type="line"/>
-      <point x="415.92" y="978" type="line"/>
-      <point x="429.92" y="996"/>
-      <point x="455.92" y="1006"/>
-      <point x="491.92" y="1006" type="curve" smooth="yes"/>
-      <point x="615.92" y="1006" type="line" smooth="yes"/>
-      <point x="717.92" y="1006"/>
-      <point x="787.92" y="932"/>
-      <point x="787.92" y="824" type="curve" smooth="yes"/>
-      <point x="787.92" y="0" type="line"/>
-      <point x="539.92" y="0" type="line"/>
-      <point x="539.92" y="974" type="line"/>
-      <point x="539.92" y="974"/>
-      <point x="539.92" y="974"/>
-      <point x="539.92" y="974" type="curve"/>
-      <point x="415.92" y="974" type="line"/>
-      <point x="415.92" y="0" type="line"/>
+      <point x="135" y="0" type="line"/>
+      <point x="135" y="1448" type="line"/>
+      <point x="383" y="1448" type="line"/>
+      <point x="383" y="978" type="line"/>
+      <point x="394" y="992"/>
+      <point x="432" y="1006"/>
+      <point x="459" y="1006" type="qcurve" smooth="yes"/>
+      <point x="583" y="1006" type="line" smooth="yes"/>
+      <point x="621" y="1006"/>
+      <point x="685" y="980"/>
+      <point x="730" y="932"/>
+      <point x="755" y="865"/>
+      <point x="755" y="824" type="qcurve" smooth="yes"/>
+      <point x="755" y="0" type="line"/>
+      <point x="507" y="0" type="line"/>
+      <point x="507" y="974" type="line"/>
+      <point x="507" y="974"/>
+      <point x="507" y="974"/>
+      <point x="507" y="974" type="qcurve"/>
+      <point x="383" y="974" type="line"/>
+      <point x="383" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="67.92" y="1246.8" type="line"/>
-      <point x="615.92" y="1246.8" type="line"/>
-      <point x="615.92" y="1214.8" type="line"/>
-      <point x="67.92" y="1214.8" type="line"/>
-    </contour>
-    <contour>
-      <point x="292" y="1598" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="478" y="-150" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="68" y="500" type="move" name="left"/>
+      <point x="35" y="1247" type="line"/>
+      <point x="583" y="1247" type="line"/>
+      <point x="583" y="1215" type="line"/>
+      <point x="35" y="1215" type="line"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.guides</key>
-  <array>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>59</real>
-      <key>y</key>
-      <real>1231</real>
-    </dict>
-    <dict>
-      <key>angle</key>
-      <real>270</real>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>478</real>
-      <key>y</key>
-      <real>974</real>
-    </dict>
-  </array>
-  </dict>
-  </lib>
+  <guideline y="1231" color="1,0,0,1"/>
+  <guideline x="445" color="1,0,0,1"/>
 </glyph>

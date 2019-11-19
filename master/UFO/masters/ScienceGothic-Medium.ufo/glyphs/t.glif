@@ -1,33 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="t" format="1">
-  <advance width="905"/>
+<glyph name="t" format="2">
+  <advance width="898" height="1448"/>
   <unicode hex="0074"/>
+  <anchor x="386" y="1394" name="top"/>
+  <anchor x="518" y="-160" name="bottom"/>
+  <anchor x="510" y="1400" name="right"/>
   <outline>
     <contour>
-      <point x="262" y="204" type="curve"/>
+      <point x="518" y="-10" type="line" smooth="yes"/>
+      <point x="449" y="-10"/>
+      <point x="352" y="14"/>
+      <point x="290" y="65"/>
+      <point x="262" y="146"/>
+      <point x="262" y="204" type="qcurve" smooth="yes"/>
+      <point x="262" y="796" type="line"/>
+      <point x="90" y="796" type="line"/>
+      <point x="90" y="1000" type="line"/>
+      <point x="262" y="1000" type="line"/>
       <point x="262" y="1244" type="line"/>
       <point x="510" y="1244" type="line"/>
+      <point x="510" y="1000" type="line"/>
+      <point x="812" y="1000" type="line"/>
+      <point x="812" y="796" type="line"/>
+      <point x="510" y="796" type="line"/>
       <point x="510" y="194" type="line"/>
       <point x="510" y="194"/>
       <point x="510" y="194"/>
-      <point x="510" y="194" type="curve"/>
+      <point x="510" y="194" type="qcurve"/>
       <point x="802" y="194" type="line"/>
       <point x="760" y="-10" type="line"/>
-      <point x="518" y="-10" type="line"/>
-      <point x="334" y="-10"/>
-      <point x="262" y="50"/>
-    </contour>
-    <contour>
-      <point x="90" y="796" type="line"/>
-      <point x="90" y="1000" type="line"/>
-      <point x="812" y="1000" type="line"/>
-      <point x="812" y="796" type="line"/>
-    </contour>
-    <contour>
-      <point x="660" y="1394" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="518" y="-160" type="move" name="bottom"/>
     </contour>
   </outline>
 </glyph>

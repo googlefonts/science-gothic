@@ -1,53 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="H" format="1">
+<glyph name="H" format="2">
   <advance width="1772" height="1448"/>
   <unicode hex="0048"/>
+  <anchor x="887" y="1550" name="top"/>
+  <anchor x="887" y="-150" name="bottom"/>
+  <anchor x="185" y="700" name="left"/>
   <outline>
     <contour>
       <point x="285" y="0" type="line"/>
       <point x="325" y="0" type="line"/>
-      <point x="325" y="1400" type="line"/>
-      <point x="285" y="1400" type="line"/>
-    </contour>
-    <contour>
+      <point x="325" y="712" type="line"/>
+      <point x="1447" y="712" type="line"/>
       <point x="1447" y="0" type="line"/>
       <point x="1487" y="0" type="line"/>
       <point x="1487" y="1400" type="line"/>
       <point x="1447" y="1400" type="line"/>
-    </contour>
-    <contour>
-      <point x="295" y="712" type="line"/>
-      <point x="1477" y="712" type="line"/>
-      <point x="1477" y="748" type="line"/>
-      <point x="295" y="748" type="line"/>
-    </contour>
-    <contour>
-      <point x="887" y="1550" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="887" y="-150" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="185" y="700" type="move" name="left"/>
+      <point x="1447" y="748" type="line"/>
+      <point x="325" y="748" type="line"/>
+      <point x="325" y="1400" type="line"/>
+      <point x="285" y="1400" type="line"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.guides</key>
-  <array>
-    <dict>
-      <key>angle</key>
-      <real>270</real>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>886</real>
-      <key>y</key>
-      <real>0</real>
-    </dict>
-  </array>
-  </dict>
-  </lib>
+  <guideline x="886" color="1,0,0,1"/>
 </glyph>

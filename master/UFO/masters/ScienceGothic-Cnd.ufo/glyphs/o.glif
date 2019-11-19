@@ -1,64 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="o" format="1">
-  <advance width="748" height="1448"/>
+<glyph name="o" format="2">
+  <advance width="744" height="1448"/>
   <unicode hex="006F"/>
+  <anchor x="372" y="1150" name="top"/>
+  <anchor x="372" y="-150" name="bottom"/>
+  <anchor x="689" y="809" name="horn"/>
+  <anchor x="449" y="0" name="ogonek"/>
   <outline>
     <contour>
-      <point x="57" y="200" type="curve" smooth="yes"/>
-      <point x="57" y="810" type="line" smooth="yes"/>
-      <point x="57" y="954"/>
-      <point x="131" y="1014"/>
-      <point x="313" y="1014" type="curve" smooth="yes"/>
-      <point x="435" y="1014" type="line" smooth="yes"/>
-      <point x="617" y="1014"/>
-      <point x="691" y="954"/>
-      <point x="691" y="810" type="curve" smooth="yes"/>
-      <point x="691" y="200" type="line" smooth="yes"/>
-      <point x="691" y="46"/>
-      <point x="621" y="-14"/>
-      <point x="435" y="-14" type="curve" smooth="yes"/>
-      <point x="313" y="-14" type="line" smooth="yes"/>
-      <point x="129" y="-14"/>
-      <point x="57" y="46"/>
+      <point x="55" y="200" type="line"/>
+      <point x="55" y="810" type="line" smooth="yes"/>
+      <point x="55" y="864"/>
+      <point x="84" y="941"/>
+      <point x="146" y="991"/>
+      <point x="243" y="1014"/>
+      <point x="311" y="1014" type="qcurve" smooth="yes"/>
+      <point x="433" y="1014" type="line" smooth="yes"/>
+      <point x="570" y="1014"/>
+      <point x="689" y="918"/>
+      <point x="689" y="810" type="qcurve" smooth="yes"/>
+      <point x="689" y="200" type="line" smooth="yes"/>
+      <point x="689" y="142"/>
+      <point x="661" y="61"/>
+      <point x="600" y="10"/>
+      <point x="503" y="-14"/>
+      <point x="433" y="-14" type="qcurve" smooth="yes"/>
+      <point x="311" y="-14" type="line" smooth="yes"/>
+      <point x="242" y="-14"/>
+      <point x="145" y="10"/>
+      <point x="83" y="61"/>
+      <point x="55" y="142"/>
+      <point x="55" y="200" type="qcurve"/>
     </contour>
     <contour>
-      <point x="305" y="210" type="line"/>
-      <point x="305" y="210"/>
-      <point x="305" y="210"/>
-      <point x="305" y="210" type="curve"/>
-      <point x="443" y="210" type="line"/>
-      <point x="443" y="210"/>
-      <point x="443" y="210"/>
-      <point x="443" y="210" type="curve"/>
-      <point x="443" y="790" type="line"/>
-      <point x="443" y="790"/>
-      <point x="443" y="790"/>
-      <point x="443" y="790" type="curve"/>
-      <point x="305" y="790" type="line"/>
-      <point x="305" y="790"/>
-      <point x="305" y="790"/>
-      <point x="305" y="790" type="curve"/>
-    </contour>
-    <contour>
-      <point x="375" y="1150" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="375" y="-150" type="move" name="bottom"/>
+      <point x="303" y="210" type="line"/>
+      <point x="303" y="210"/>
+      <point x="303" y="210"/>
+      <point x="303" y="210" type="qcurve"/>
+      <point x="441" y="210" type="line"/>
+      <point x="441" y="210"/>
+      <point x="441" y="210"/>
+      <point x="441" y="210" type="qcurve"/>
+      <point x="441" y="790" type="line"/>
+      <point x="441" y="790"/>
+      <point x="441" y="790"/>
+      <point x="441" y="790" type="qcurve"/>
+      <point x="303" y="790" type="line"/>
+      <point x="303" y="790"/>
+      <point x="303" y="790"/>
+      <point x="303" y="790" type="qcurve"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="._.105554314702640">
-      <hstem pos="-14" width="224" />
-      <hstem pos="790" width="210" />
-      <vstem pos="-191" width="248" />
-      <vstem pos="691" width="248" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

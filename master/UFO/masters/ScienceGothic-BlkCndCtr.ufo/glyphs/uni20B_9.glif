@@ -1,28 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni20B9" format="1">
+<glyph name="uni20B9" format="2">
   <advance width="1335"/>
   <unicode hex="20B9"/>
   <outline>
     <contour>
       <point x="10" y="534" type="line"/>
-      <point x="678" y="534" type="line"/>
-      <point x="930" y="534"/>
-      <point x="1092" y="593"/>
-      <point x="1092" y="878" type="curve" smooth="yes"/>
-      <point x="1091.8" y="1036" type="line" smooth="yes"/>
-      <point x="1091" y="1304"/>
-      <point x="909.8" y="1400"/>
-      <point x="657.8" y="1400" type="curve" smooth="yes"/>
+      <point x="678" y="534" type="line" smooth="yes"/>
+      <point x="773" y="534"/>
+      <point x="926" y="561"/>
+      <point x="1034" y="637"/>
+      <point x="1092" y="771"/>
+      <point x="1092" y="878" type="qcurve" smooth="yes"/>
+      <point x="1092" y="1036" type="line" smooth="yes"/>
+      <point x="1092" y="1137"/>
+      <point x="1027" y="1275"/>
+      <point x="911" y="1362"/>
+      <point x="753" y="1400"/>
+      <point x="658" y="1400" type="qcurve" smooth="yes"/>
       <point x="10" y="1400" type="line"/>
       <point x="10" y="1364" type="line"/>
-      <point x="443.8" y="1364" type="line" smooth="yes"/>
-      <point x="495.8" y="1364"/>
-      <point x="519.8" y="1340"/>
-      <point x="519.8" y="1304" type="curve" smooth="yes"/>
-      <point x="519.8" y="630" type="line" smooth="yes"/>
-      <point x="519.8" y="594"/>
-      <point x="495.8" y="570"/>
-      <point x="443.8" y="570" type="curve" smooth="yes"/>
+      <point x="444" y="1364" type="line" smooth="yes"/>
+      <point x="464" y="1364"/>
+      <point x="492" y="1355"/>
+      <point x="511" y="1340"/>
+      <point x="520" y="1318"/>
+      <point x="520" y="1304" type="qcurve" smooth="yes"/>
+      <point x="520" y="630" type="line" smooth="yes"/>
+      <point x="520" y="617"/>
+      <point x="511" y="594"/>
+      <point x="492" y="579"/>
+      <point x="464" y="570"/>
+      <point x="444" y="570" type="qcurve" smooth="yes"/>
       <point x="10" y="570" type="line"/>
     </contour>
     <contour>
@@ -44,31 +52,6 @@
       <point x="10" y="1400" type="line"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.guides</key>
-  <array>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>988</real>
-    </dict>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>1711</real>
-    </dict>
-  </array>
-  </dict>
-  </lib>
+  <guideline y="988"/>
+  <guideline y="1711"/>
 </glyph>

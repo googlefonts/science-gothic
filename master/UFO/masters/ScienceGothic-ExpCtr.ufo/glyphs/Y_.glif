@@ -1,46 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Y" format="1">
+<glyph name="Y" format="2">
   <advance width="2351"/>
   <unicode hex="0059"/>
+  <anchor x="1220" y="1550" name="top"/>
+  <anchor x="1220" y="-150" name="bottom"/>
   <outline>
     <contour>
-      <point x="1224" y="560" type="line"/>
-      <point x="1224" y="626" type="line"/>
+      <point x="1089" y="0" type="line"/>
+      <point x="1353" y="0" type="line"/>
+      <point x="1353" y="715" type="line"/>
       <point x="2351" y="1400" type="line"/>
       <point x="2287" y="1400" type="line"/>
       <point x="1336" y="746" type="line"/>
       <point x="382" y="1400" type="line"/>
       <point x="0" y="1400" type="line"/>
-    </contour>
-    <contour>
-      <point x="1088" y="0" type="line"/>
-      <point x="1352" y="0" type="line"/>
-      <point x="1352" y="734" type="line"/>
-      <point x="1220" y="692" type="line"/>
-      <point x="1088" y="650" type="line"/>
-    </contour>
-    <contour>
-      <point x="1220" y="1550" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="1220" y="-150" type="move" name="bottom"/>
+      <point x="1089" y="650" type="line"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.guides</key>
-  <array>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>1175.5</real>
-      <key>y</key>
-      <real>0</real>
-    </dict>
-  </array>
-  </dict>
-  </lib>
+  <guideline x="1175.5" color="1,0,0,1"/>
 </glyph>

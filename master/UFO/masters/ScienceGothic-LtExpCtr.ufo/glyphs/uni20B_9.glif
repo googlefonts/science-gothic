@@ -1,28 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni20B9" format="1">
+<glyph name="uni20B9" format="2">
   <advance width="2450"/>
   <unicode hex="20B9"/>
   <outline>
     <contour>
       <point x="5" y="624" type="line"/>
       <point x="1473" y="624" type="line" smooth="yes"/>
-      <point x="1666" y="624"/>
-      <point x="1773" y="731"/>
-      <point x="1773" y="924" type="curve" smooth="yes"/>
+      <point x="1545" y="624"/>
+      <point x="1657" y="663"/>
+      <point x="1734" y="740"/>
+      <point x="1773" y="852"/>
+      <point x="1773" y="924" type="qcurve" smooth="yes"/>
       <point x="1773" y="1100" type="line" smooth="yes"/>
-      <point x="1773" y="1293"/>
-      <point x="1666" y="1400"/>
-      <point x="1473" y="1400" type="curve" smooth="yes"/>
+      <point x="1773" y="1172"/>
+      <point x="1734" y="1284"/>
+      <point x="1657" y="1361"/>
+      <point x="1545" y="1400"/>
+      <point x="1473" y="1400" type="qcurve" smooth="yes"/>
       <point x="5" y="1400" type="line"/>
       <point x="5" y="1364" type="line"/>
       <point x="1471" y="1364" type="line" smooth="yes"/>
-      <point x="1642" y="1364"/>
-      <point x="1733" y="1272"/>
-      <point x="1733" y="1102" type="curve" smooth="yes"/>
+      <point x="1535" y="1364"/>
+      <point x="1633" y="1330"/>
+      <point x="1699" y="1264"/>
+      <point x="1733" y="1166"/>
+      <point x="1733" y="1102" type="qcurve" smooth="yes"/>
       <point x="1733" y="922" type="line" smooth="yes"/>
-      <point x="1733" y="752"/>
-      <point x="1642" y="660"/>
-      <point x="1471" y="660" type="curve" smooth="yes"/>
+      <point x="1733" y="858"/>
+      <point x="1699" y="760"/>
+      <point x="1633" y="694"/>
+      <point x="1535" y="660"/>
+      <point x="1471" y="660" type="qcurve" smooth="yes"/>
       <point x="5" y="660" type="line"/>
     </contour>
     <contour>
@@ -44,62 +52,7 @@
       <point x="5" y="1400" type="line"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.guides</key>
-  <array>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>1225</real>
-      <key>y</key>
-      <real>0</real>
-      <key>name</key>
-      <string>halfwidth</string>
-    </dict>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>1000</real>
-    </dict>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>1367</real>
-    </dict>
-  </array>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="">
-      <hstem pos="0" width="40" />
-      <hstem pos="367" width="40" />
-      <hstem pos="1360" width="40" />
-      <hstem pos="1727" width="40" />
-      <vstem pos="-1458" width="40" />
-      <vstem pos="-1294" width="40" />
-      <vstem pos="365" width="40" />
-      <vstem pos="370" width="40" />
-      <vstem pos="529" width="40" />
-      <vstem pos="534" width="40" />
-      <vstem pos="2193" width="40" />
-      <vstem pos="2357" width="40" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
+  <guideline x="1225" name="halfwidth" color="0.4,0.4,0.4,1"/>
+  <guideline y="1000"/>
+  <guideline y="1367"/>
 </glyph>

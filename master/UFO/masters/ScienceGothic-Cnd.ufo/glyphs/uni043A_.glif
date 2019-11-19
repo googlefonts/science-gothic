@@ -1,55 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni043A" format="1">
-  <advance width="836.25" height="1448"/>
+<glyph name="uni043A" format="2">
+  <advance width="781" height="1448"/>
   <unicode hex="043A"/>
+  <anchor x="449" y="1150" name="top"/>
   <note>might be too wide on conds - based on latin k which has the same problem</note>
   <outline>
     <contour>
-      <point x="299" y="508" type="line"/>
-      <point x="543" y="0" type="line"/>
-      <point x="833" y="0" type="line"/>
-      <point x="514.372" y="626.419" type="line"/>
-      <point x="517.248" y="482.416" type="line"/>
-      <point x="755" y="1000" type="line"/>
-      <point x="519" y="1000" type="line"/>
-    </contour>
-    <contour>
       <point x="65" y="0" type="line"/>
       <point x="313" y="0" type="line"/>
+      <point x="313" y="486" type="line"/>
+      <point x="507" y="0" type="line"/>
+      <point x="781" y="0" type="line"/>
+      <point x="546" y="553" type="line"/>
+      <point x="745" y="1000" type="line"/>
+      <point x="499" y="1000" type="line"/>
+      <point x="313" y="564" type="line"/>
       <point x="313" y="1000" type="line"/>
       <point x="65" y="1000" type="line"/>
     </contour>
-    <contour>
-      <point x="449" y="1150" type="move" name="top"/>
-    </contour>
   </outline>
-  <lib>
-  <dict>
-    <key>note</key>
-    <string>might be too wide on conds - based on latin k which has the same problem</string>
-  <key>com.typemytype.robofont.guides</key>
-  <array>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>327</real>
-      <key>y</key>
-      <real>0</real>
-    </dict>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>433</real>
-      <key>y</key>
-      <real>0</real>
-    </dict>
-  </array>
-  </dict>
-  </lib>
+  <guideline x="327"/>
+  <guideline x="433"/>
 </glyph>

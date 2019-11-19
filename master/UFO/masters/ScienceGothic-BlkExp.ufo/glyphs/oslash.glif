@@ -1,98 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="oslash" format="1">
-  <advance width="2696" height="1448"/>
+<glyph name="oslash" format="2">
+  <advance width="2496" height="1448"/>
   <unicode hex="00F8"/>
+  <anchor x="1248" y="1174" name="top"/>
   <outline>
     <contour>
-      <point x="380" y="254" type="curve" smooth="yes"/>
-      <point x="380" y="780" type="line" smooth="yes"/>
-      <point x="380" y="954"/>
-      <point x="474" y="1034"/>
-      <point x="686" y="1034" type="curve" smooth="yes"/>
-      <point x="2010" y="1034" type="line" smooth="yes"/>
-      <point x="2222" y="1034"/>
-      <point x="2316" y="954"/>
-      <point x="2316" y="780" type="curve" smooth="yes"/>
-      <point x="2316" y="254" type="line" smooth="yes"/>
-      <point x="2316" y="70"/>
-      <point x="2226" y="-10"/>
-      <point x="2010" y="-10" type="curve" smooth="yes"/>
-      <point x="686" y="-10" type="line" smooth="yes"/>
-      <point x="472" y="-10"/>
-      <point x="380" y="70"/>
+      <point x="280" y="254" type="line"/>
+      <point x="280" y="780" type="line" smooth="yes"/>
+      <point x="280" y="845"/>
+      <point x="316" y="941"/>
+      <point x="391" y="1004"/>
+      <point x="507" y="1034"/>
+      <point x="586" y="1034" type="qcurve" smooth="yes"/>
+      <point x="1910" y="1034" type="line" smooth="yes"/>
+      <point x="2069" y="1034"/>
+      <point x="2216" y="911"/>
+      <point x="2216" y="780" type="qcurve" smooth="yes"/>
+      <point x="2216" y="254" type="line" smooth="yes"/>
+      <point x="2216" y="185"/>
+      <point x="2181" y="85"/>
+      <point x="2107" y="21"/>
+      <point x="1991" y="-10"/>
+      <point x="1910" y="-10" type="qcurve" smooth="yes"/>
+      <point x="586" y="-10" type="line" smooth="yes"/>
+      <point x="506" y="-10"/>
+      <point x="390" y="21"/>
+      <point x="315" y="85"/>
+      <point x="280" y="185"/>
+      <point x="280" y="254" type="qcurve"/>
     </contour>
     <contour>
-      <point x="904" y="357" type="line"/>
-      <point x="904" y="357"/>
-      <point x="904" y="357"/>
-      <point x="904" y="357" type="curve"/>
-      <point x="1792" y="357" type="line"/>
-      <point x="1792" y="357"/>
-      <point x="1792" y="357"/>
-      <point x="1792" y="357" type="curve"/>
-      <point x="1792" y="667" type="line"/>
-      <point x="1792" y="667"/>
-      <point x="1792" y="667"/>
-      <point x="1792" y="667" type="curve"/>
-      <point x="904" y="667" type="line"/>
-      <point x="904" y="667"/>
-      <point x="904" y="667"/>
-      <point x="904" y="667" type="curve"/>
+      <point x="804" y="357" type="line"/>
+      <point x="804" y="357"/>
+      <point x="804" y="357"/>
+      <point x="804" y="357" type="qcurve"/>
+      <point x="1692" y="357" type="line"/>
+      <point x="1692" y="357"/>
+      <point x="1692" y="357"/>
+      <point x="1692" y="357" type="qcurve"/>
+      <point x="1692" y="667" type="line"/>
+      <point x="1692" y="667"/>
+      <point x="1692" y="667"/>
+      <point x="1692" y="667" type="qcurve"/>
+      <point x="804" y="667" type="line"/>
+      <point x="804" y="667"/>
+      <point x="804" y="667"/>
+      <point x="804" y="667" type="qcurve"/>
     </contour>
     <contour>
-      <point x="377" y="-40" type="line"/>
-      <point x="306" y="112" type="line"/>
-      <point x="538" y="222" type="line"/>
-      <point x="798" y="345" type="line"/>
-      <point x="1886" y="860" type="line"/>
-      <point x="2089" y="957" type="line"/>
-      <point x="2317" y="1064" type="line"/>
-      <point x="2390" y="914" type="line"/>
-      <point x="2157" y="803" type="line"/>
-      <point x="1953" y="707" type="line"/>
-      <point x="863" y="189" type="line"/>
-      <point x="600" y="65" type="line"/>
-    </contour>
-    <contour>
-      <point x="1348" y="1174" type="move" name="top"/>
+      <point x="277" y="-40" type="line"/>
+      <point x="206" y="112" type="line"/>
+      <point x="438" y="222" type="line"/>
+      <point x="698" y="345" type="line"/>
+      <point x="1786" y="860" type="line"/>
+      <point x="1989" y="957" type="line"/>
+      <point x="2217" y="1064" type="line"/>
+      <point x="2290" y="914" type="line"/>
+      <point x="2057" y="803" type="line"/>
+      <point x="1853" y="707" type="line"/>
+      <point x="763" y="189" type="line"/>
+      <point x="500" y="65" type="line"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.guides</key>
-  <array>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>1064</real>
-    </dict>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>-40</real>
-    </dict>
-  </array>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="">
-      <hstem pos="0" width="310" />
-      <hstem pos="0" width="714" />
-      <hstem pos="0" width="4" />
-      <hstem pos="1014" width="10" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
+  <guideline y="1064"/>
+  <guideline y="-40"/>
 </glyph>

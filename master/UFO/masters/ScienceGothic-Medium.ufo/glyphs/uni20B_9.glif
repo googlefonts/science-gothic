@@ -1,28 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni20B9" format="1">
-  <advance width="1600"/>
+<glyph name="uni20B9" format="2">
+  <advance width="1600" height="1448"/>
   <unicode hex="20B9"/>
   <outline>
     <contour>
       <point x="110" y="600" type="line"/>
-      <point x="788" y="600" type="line"/>
-      <point x="1018" y="600"/>
-      <point x="1132" y="686"/>
-      <point x="1132" y="860" type="curve" smooth="yes"/>
+      <point x="788" y="600" type="line" smooth="yes"/>
+      <point x="874" y="600"/>
+      <point x="1003" y="632"/>
+      <point x="1089" y="697"/>
+      <point x="1132" y="795"/>
+      <point x="1132" y="860" type="qcurve" smooth="yes"/>
       <point x="1132" y="1126" type="line" smooth="yes"/>
-      <point x="1132" y="1354"/>
-      <point x="990" y="1400"/>
-      <point x="788" y="1400" type="curve" smooth="yes"/>
+      <point x="1132" y="1212"/>
+      <point x="1081" y="1319"/>
+      <point x="990" y="1379"/>
+      <point x="864" y="1400"/>
+      <point x="788" y="1400" type="qcurve" smooth="yes"/>
       <point x="110" y="1400" type="line"/>
       <point x="110" y="1240" type="line"/>
       <point x="762" y="1240" type="line" smooth="yes"/>
-      <point x="832" y="1240"/>
-      <point x="868" y="1210"/>
-      <point x="868" y="1140" type="curve" smooth="yes"/>
+      <point x="788" y="1240"/>
+      <point x="828" y="1228"/>
+      <point x="855" y="1204"/>
+      <point x="868" y="1166"/>
+      <point x="868" y="1140" type="qcurve" smooth="yes"/>
       <point x="868" y="860" type="line" smooth="yes"/>
-      <point x="868" y="780"/>
-      <point x="832" y="760"/>
-      <point x="762" y="760" type="curve" smooth="yes"/>
+      <point x="868" y="830"/>
+      <point x="855" y="791"/>
+      <point x="828" y="769"/>
+      <point x="788" y="760"/>
+      <point x="762" y="760" type="qcurve" smooth="yes"/>
       <point x="110" y="760" type="line"/>
     </contour>
     <contour>
@@ -44,62 +52,7 @@
       <point x="110" y="1400" type="line"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.guides</key>
-  <array>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>800</real>
-      <key>y</key>
-      <real>0</real>
-      <key>name</key>
-      <string>halfwidth</string>
-    </dict>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>1328</real>
-    </dict>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>1665</real>
-    </dict>
-  </array>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="">
-      <hstem pos="314" width="1198" />
-      <hstem pos="314" width="244" />
-      <hstem pos="328" width="244" />
-      <hstem pos="651" width="1198" />
-      <hstem pos="651" width="244" />
-      <hstem pos="665" width="244" />
-      <hstem pos="1498" width="244" />
-      <hstem pos="1835" width="244" />
-      <vstem pos="-32" width="408" />
-      <vstem pos="330" width="264" />
-      <vstem pos="1016" width="264" />
-      <vstem pos="1378" width="264" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
+  <guideline x="800" name="halfwidth" color="0.4,0.4,0.4,1"/>
+  <guideline y="1328"/>
+  <guideline y="1665"/>
 </glyph>

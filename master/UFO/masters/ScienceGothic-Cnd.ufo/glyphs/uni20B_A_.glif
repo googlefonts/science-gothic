@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni20BA" format="1">
+<glyph name="uni20BA" format="2">
   <advance width="911"/>
   <unicode hex="20BA"/>
   <outline>
@@ -9,13 +9,21 @@
       <point x="405" y="1400" type="line"/>
       <point x="405" y="244" type="line"/>
       <point x="439" y="244" type="line" smooth="yes"/>
-      <point x="555" y="244"/>
-      <point x="609" y="290"/>
-      <point x="609" y="712" type="curve"/>
+      <point x="468" y="244"/>
+      <point x="516" y="255"/>
+      <point x="554" y="288"/>
+      <point x="581" y="351"/>
+      <point x="600" y="455"/>
+      <point x="609" y="607"/>
+      <point x="609" y="712" type="qcurve"/>
       <point x="877" y="661" type="line"/>
-      <point x="877" y="117"/>
-      <point x="737" y="0"/>
-      <point x="439" y="0" type="curve" smooth="yes"/>
+      <point x="877" y="525"/>
+      <point x="854" y="321"/>
+      <point x="806" y="174"/>
+      <point x="734" y="79"/>
+      <point x="636" y="22"/>
+      <point x="513" y="0"/>
+      <point x="439" y="0" type="qcurve" smooth="yes"/>
     </contour>
     <contour>
       <point x="585" y="1025" type="line"/>
@@ -30,47 +38,4 @@
       <point x="43" y="1058" type="line"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="">
-      <hstem pos="139" width="1210" />
-      <hstem pos="139" width="244" />
-      <hstem pos="157" width="244" />
-      <hstem pos="249" width="244" />
-      <hstem pos="249" width="1210" />
-      <hstem pos="267" width="244" />
-      <hstem pos="369" width="244" />
-      <hstem pos="369" width="1210" />
-      <hstem pos="387" width="244" />
-      <hstem pos="1154" width="1210" />
-      <hstem pos="1154" width="244" />
-      <hstem pos="1172" width="244" />
-      <hstem pos="1264" width="244" />
-      <hstem pos="1264" width="1210" />
-      <hstem pos="1282" width="244" />
-      <hstem pos="1331" width="244" />
-      <hstem pos="1384" width="244" />
-      <hstem pos="1384" width="1210" />
-      <hstem pos="1402" width="244" />
-      <hstem pos="1441" width="244" />
-      <hstem pos="1561" width="244" />
-      <hstem pos="2346" width="244" />
-      <hstem pos="2456" width="244" />
-      <hstem pos="2576" width="244" />
-      <vstem pos="-122.5" width="182.5" />
-      <vstem pos="-46.5" width="182.5" />
-      <vstem pos="45" width="264" />
-      <vstem pos="121" width="264" />
-      <vstem pos="302" width="264" />
-      <vstem pos="378" width="264" />
-      <vstem pos="469" width="264" />
-      <vstem pos="545" width="264" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

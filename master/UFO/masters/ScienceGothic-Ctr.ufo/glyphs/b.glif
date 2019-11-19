@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="b" format="1">
-  <advance width="1450" height="-1448"/>
+<glyph name="b" format="2">
+  <advance width="1441" height="-1448"/>
   <unicode hex="0062"/>
+  <anchor x="744" y="1600" name="top"/>
+  <anchor x="744" y="-152" name="bottom"/>
   <outline>
     <contour>
       <point x="198" y="0" type="line"/>
       <point x="446" y="0" type="line"/>
       <point x="446" y="22" type="line"/>
-      <point x="460" y="4"/>
-      <point x="486" y="-8"/>
-      <point x="522" y="-8" type="curve" smooth="yes"/>
+      <point x="457" y="8"/>
+      <point x="495" y="-8"/>
+      <point x="522" y="-8" type="qcurve" smooth="yes"/>
       <point x="1014" y="-8" type="line" smooth="yes"/>
-      <point x="1198" y="-8"/>
-      <point x="1270" y="54"/>
-      <point x="1270" y="208" type="curve" smooth="yes"/>
+      <point x="1083" y="-8"/>
+      <point x="1180" y="16"/>
+      <point x="1242" y="68"/>
+      <point x="1270" y="150"/>
+      <point x="1270" y="208" type="qcurve" smooth="yes"/>
       <point x="1270" y="804" type="line" smooth="yes"/>
-      <point x="1270" y="948"/>
-      <point x="1196" y="1008"/>
-      <point x="1014" y="1008" type="curve" smooth="yes"/>
+      <point x="1270" y="858"/>
+      <point x="1241" y="935"/>
+      <point x="1179" y="985"/>
+      <point x="1082" y="1008"/>
+      <point x="1014" y="1008" type="qcurve" smooth="yes"/>
       <point x="522" y="1008" type="line" smooth="yes"/>
-      <point x="480" y="1008"/>
-      <point x="454" y="1000"/>
-      <point x="446" y="984" type="curve"/>
+      <point x="490" y="1008"/>
+      <point x="452" y="996"/>
+      <point x="446" y="984" type="qcurve"/>
       <point x="446" y="1448" type="line"/>
       <point x="198" y="1448" type="line"/>
     </contour>
@@ -31,56 +37,13 @@
       <point x="1022" y="976" type="line"/>
       <point x="1022" y="976"/>
       <point x="1022" y="976"/>
-      <point x="1022" y="976" type="curve"/>
+      <point x="1022" y="976" type="qcurve"/>
       <point x="1022" y="24" type="line"/>
       <point x="1022" y="24"/>
       <point x="1022" y="24"/>
-      <point x="1022" y="24" type="curve"/>
-    </contour>
-    <contour>
-      <point x="744" y="1600" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="744" y="-152" type="move" name="bottom"/>
+      <point x="1022" y="24" type="qcurve"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.guides</key>
-  <array>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>988</real>
-    </dict>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>42</real>
-    </dict>
-  </array>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="">
-      <hstem pos="-13" width="13" />
-      <hstem pos="503" width="16" />
-      <hstem pos="724" width="40" />
-      <vstem pos="-45" width="124" />
-      <vstem pos="198" width="303" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
+  <guideline y="988"/>
+  <guideline y="42"/>
 </glyph>

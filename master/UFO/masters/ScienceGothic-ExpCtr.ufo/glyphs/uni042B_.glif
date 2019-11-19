@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni042B" format="1">
-  <advance width="3961"/>
+<glyph name="uni042B" format="2">
+  <advance width="3831"/>
   <unicode hex="042B"/>
+  <anchor x="2071" y="1550" name="top"/>
   <outline>
     <contour>
       <point x="400" y="0" type="line"/>
-      <point x="2203" y="0" type="line" smooth="yes"/>
-      <point x="2405" y="0"/>
-      <point x="2547" y="10"/>
-      <point x="2547" y="238" type="curve" smooth="yes"/>
-      <point x="2547" y="634" type="line" smooth="yes"/>
-      <point x="2547" y="862"/>
-      <point x="2405" y="908"/>
-      <point x="2203" y="908" type="curve" smooth="yes"/>
+      <point x="2223" y="0" type="line" smooth="yes"/>
+      <point x="2299" y="0"/>
+      <point x="2425" y="10"/>
+      <point x="2516" y="57"/>
+      <point x="2567" y="153"/>
+      <point x="2567" y="238" type="qcurve" smooth="yes"/>
+      <point x="2567" y="634" type="line" smooth="yes"/>
+      <point x="2567" y="720"/>
+      <point x="2516" y="827"/>
+      <point x="2425" y="887"/>
+      <point x="2299" y="908"/>
+      <point x="2223" y="908" type="qcurve" smooth="yes"/>
       <point x="664" y="908" type="line"/>
       <point x="664" y="1400" type="line"/>
       <point x="400" y="1400" type="line"/>
@@ -20,42 +25,25 @@
     <contour>
       <point x="664" y="36" type="line"/>
       <point x="664" y="872" type="line"/>
-      <point x="2051" y="872" type="line" smooth="yes"/>
-      <point x="2203" y="872"/>
-      <point x="2283" y="792"/>
-      <point x="2283" y="672" type="curve" smooth="yes"/>
-      <point x="2283" y="200" type="line" smooth="yes"/>
-      <point x="2283" y="80"/>
-      <point x="2203" y="36"/>
-      <point x="2051" y="36" type="curve" smooth="yes"/>
+      <point x="2071" y="872" type="line" smooth="yes"/>
+      <point x="2128" y="872"/>
+      <point x="2215" y="843"/>
+      <point x="2273" y="791"/>
+      <point x="2303" y="717"/>
+      <point x="2303" y="672" type="qcurve" smooth="yes"/>
+      <point x="2303" y="200" type="line" smooth="yes"/>
+      <point x="2303" y="155"/>
+      <point x="2273" y="93"/>
+      <point x="2215" y="54"/>
+      <point x="2128" y="36"/>
+      <point x="2071" y="36" type="qcurve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="3297" y="0" type="line"/>
-      <point x="3561" y="0" type="line"/>
-      <point x="3561" y="1400" type="line"/>
-      <point x="3297" y="1400" type="line"/>
-    </contour>
-    <contour>
-      <point x="1980.5" y="1550" type="move" name="top"/>
+      <point x="3167" y="0" type="line"/>
+      <point x="3431" y="0" type="line"/>
+      <point x="3431" y="1400" type="line"/>
+      <point x="3167" y="1400" type="line"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.guides</key>
-  <array>
-    <dict>
-      <key>angle</key>
-      <real>270</real>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>2547</real>
-      <key>y</key>
-      <real>0</real>
-    </dict>
-  </array>
-  </dict>
-  </lib>
+  <guideline x="2637" color="1,0,0,1"/>
 </glyph>

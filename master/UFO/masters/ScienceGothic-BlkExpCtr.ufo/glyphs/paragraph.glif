@@ -1,44 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="paragraph" format="1">
-  <advance width="2738"/>
+<glyph name="paragraph" format="2">
+  <advance width="2688"/>
   <unicode hex="00B6"/>
   <outline>
     <contour>
-      <point x="2338" y="0" type="line"/>
-      <point x="2146" y="0" type="line"/>
-      <point x="2146" y="1364" type="line"/>
-      <point x="1858" y="1364" type="line"/>
-      <point x="1858" y="0" type="line"/>
-      <point x="1666" y="0" type="line"/>
-      <point x="1666" y="350" type="line"/>
-      <point x="734" y="350" type="line" smooth="yes"/>
-      <point x="482" y="350"/>
-      <point x="320" y="408"/>
-      <point x="320" y="676" type="curve" smooth="yes"/>
-      <point x="320" y="1066" type="line" smooth="yes"/>
-      <point x="320" y="1334"/>
-      <point x="482" y="1400"/>
-      <point x="734" y="1400" type="curve" smooth="yes"/>
-      <point x="2338" y="1400" type="line"/>
+      <point x="2288" y="0" type="line"/>
+      <point x="2096" y="0" type="line"/>
+      <point x="2096" y="1364" type="line"/>
+      <point x="1808" y="1364" type="line"/>
+      <point x="1808" y="0" type="line"/>
+      <point x="1616" y="0" type="line"/>
+      <point x="1616" y="350" type="line"/>
+      <point x="684" y="350" type="line" smooth="yes"/>
+      <point x="590" y="350"/>
+      <point x="437" y="377"/>
+      <point x="329" y="449"/>
+      <point x="270" y="576"/>
+      <point x="270" y="676" type="qcurve" smooth="yes"/>
+      <point x="270" y="1066" type="line" smooth="yes"/>
+      <point x="270" y="1167"/>
+      <point x="329" y="1296"/>
+      <point x="437" y="1371"/>
+      <point x="590" y="1400"/>
+      <point x="684" y="1400" type="qcurve" smooth="yes"/>
+      <point x="2288" y="1400" type="line"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.guides</key>
-  <array>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>1369</real>
-      <key>y</key>
-      <real>0</real>
-      <key>name</key>
-      <string>halfwidth</string>
-    </dict>
-  </array>
-  </dict>
-  </lib>
+  <guideline x="1319" name="halfwidth" color="0.4,0.4,0.4,1"/>
 </glyph>

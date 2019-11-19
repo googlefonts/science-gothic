@@ -1,36 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="sterling" format="1">
-  <advance width="1416"/>
+<glyph name="sterling" format="2">
+  <advance width="1390"/>
   <unicode hex="00A3"/>
   <outline>
-    <component base="lira-sterling-body" xOffset="-0.142857"/>
-    <component base="currency-crossbar" xOffset="-0.142857"/>
+    <component base="lira-sterling-body" xOffset="2"/>
+    <component base="currency-crossbar" xOffset="2"/>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.guides</key>
-  <array>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>0</real>
-      <key>y</key>
-      <real>986</real>
-    </dict>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>782</real>
-      <key>y</key>
-      <real>0</real>
-    </dict>
-  </array>
-  </dict>
-  </lib>
+  <guideline y="986"/>
+  <guideline x="784"/>
 </glyph>

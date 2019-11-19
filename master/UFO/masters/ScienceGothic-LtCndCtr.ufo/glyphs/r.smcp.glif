@@ -1,68 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="r.smcp" format="1">
-  <advance width="530"/>
+<glyph name="r.smcp" format="2">
+  <advance width="504"/>
+  <anchor x="312" y="-150" name="bottom"/>
+  <anchor x="243" y="1210" name="top"/>
   <outline>
-    <contour>
-      <point x="113" y="477" type="line"/>
-      <point x="228" y="477" type="line"/>
-      <point x="228" y="477" type="line"/>
-      <point x="266" y="477" type="line" smooth="yes"/>
-      <point x="381" y="477"/>
-      <point x="429" y="521"/>
-      <point x="429" y="631" type="curve" smooth="yes"/>
-      <point x="429" y="906" type="line" smooth="yes"/>
-      <point x="429" y="1016"/>
-      <point x="381" y="1060"/>
-      <point x="266" y="1060" type="curve" smooth="yes"/>
-      <point x="113" y="1060" type="line"/>
-      <point x="113" y="1027" type="line"/>
-      <point x="264" y="1027" type="line" smooth="yes"/>
-      <point x="359" y="1027"/>
-      <point x="392" y="995"/>
-      <point x="392" y="908" type="curve" smooth="yes"/>
-      <point x="392" y="629" type="line" smooth="yes"/>
-      <point x="392" y="542"/>
-      <point x="359" y="510"/>
-      <point x="264" y="510" type="curve" smooth="yes"/>
-      <point x="113" y="510" type="line"/>
-    </contour>
     <contour>
       <point x="95" y="0" type="line"/>
       <point x="132" y="0" type="line"/>
-      <point x="132" y="1060" type="line"/>
-      <point x="113" y="1060" type="line"/>
+      <point x="132" y="477" type="line"/>
+      <point x="202" y="477" type="line"/>
+      <point x="438" y="0" type="line"/>
+      <point x="479" y="0" type="line"/>
+      <point x="242" y="477" type="line"/>
+      <point x="266" y="477" type="line" smooth="yes"/>
+      <point x="309" y="477"/>
+      <point x="371" y="494"/>
+      <point x="410" y="531"/>
+      <point x="429" y="590"/>
+      <point x="429" y="631" type="qcurve" smooth="yes"/>
+      <point x="429" y="906" type="line" smooth="yes"/>
+      <point x="429" y="947"/>
+      <point x="410" y="1006"/>
+      <point x="371" y="1043"/>
+      <point x="309" y="1060"/>
+      <point x="266" y="1060" type="qcurve" smooth="yes"/>
       <point x="95" y="1060" type="line"/>
     </contour>
     <contour>
-      <point x="438" y="0" type="line"/>
-      <point x="479" y="0" type="line"/>
-      <point x="235" y="491" type="line"/>
-      <point x="195" y="491" type="line"/>
-    </contour>
-    <contour>
-      <point x="312" y="-150" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="282" y="1554" type="move" name="top"/>
+      <point x="132" y="510" type="line"/>
+      <point x="132" y="1027" type="line"/>
+      <point x="264" y="1027" type="line" smooth="yes"/>
+      <point x="336" y="1027"/>
+      <point x="392" y="974"/>
+      <point x="392" y="908" type="qcurve" smooth="yes"/>
+      <point x="392" y="629" type="line" smooth="yes"/>
+      <point x="392" y="564"/>
+      <point x="335" y="510"/>
+      <point x="264" y="510" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.guides</key>
-  <array>
-    <dict>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>265</real>
-      <key>y</key>
-      <real>0</real>
-      <key>name</key>
-      <string>halfwidth</string>
-    </dict>
-  </array>
-  </dict>
-  </lib>
+  <guideline x="252" name="halfwidth" color="0.4,0.4,0.4,1"/>
 </glyph>

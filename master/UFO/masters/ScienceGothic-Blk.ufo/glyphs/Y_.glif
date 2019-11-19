@@ -1,48 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Y" format="1">
+<glyph name="Y" format="2">
   <advance width="1905"/>
   <unicode hex="0059"/>
+  <anchor x="953" y="1550" name="top"/>
+  <anchor x="953" y="-150" name="bottom"/>
   <outline>
     <contour>
-      <point x="971" y="243" type="line"/>
-      <point x="995" y="273" type="line"/>
+      <point x="681" y="0" type="line"/>
+      <point x="1253" y="0" type="line"/>
+      <point x="1253" y="593" type="line"/>
       <point x="1905" y="1400" type="line"/>
       <point x="1270" y="1400" type="line"/>
       <point x="981" y="988" type="line"/>
       <point x="692" y="1400" type="line"/>
       <point x="0" y="1400" type="line"/>
-    </contour>
-    <contour>
-      <point x="680" y="0" type="line"/>
-      <point x="1252" y="0" type="line"/>
-      <point x="1252" y="676" type="line"/>
-      <point x="967" y="663" type="line"/>
-      <point x="680" y="650" type="line"/>
-    </contour>
-    <contour>
-      <point x="953" y="1550" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="953" y="-150" type="move" name="bottom"/>
+      <point x="681" y="589" type="line"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.typemytype.robofont.guides</key>
-  <array>
-    <dict>
-      <key>angle</key>
-      <real>270</real>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>952.5</real>
-      <key>y</key>
-      <real>0</real>
-    </dict>
-  </array>
-  </dict>
-  </lib>
+  <guideline x="952.5" color="1,0,0,1"/>
 </glyph>
