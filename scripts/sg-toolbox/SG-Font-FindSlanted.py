@@ -45,6 +45,5 @@ for work_glyph in process_glyphs:
 output('Glyphs found with Slant transform', glyphs_slantedferences)
 
 # - Finish --------------------------------------------
-font.update()
 print 'DONE.'
 

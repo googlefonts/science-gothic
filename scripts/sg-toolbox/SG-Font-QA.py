@@ -12,6 +12,7 @@
 import string
 import fontlab as fl6
 from typerig.proxy import pFont, pGlyph
+import gc
 
 def output(msg_str, glyph_list):
 	result_string = '/'+' /'.join(sorted(glyph_list)) if len(glyph_list) else None
@@ -43,6 +44,6 @@ output('Mixed reference Glyphs found', glyphs_mixreferences)
 output('Incompatible Glyphs found', glyphs_incompatible)
 
 # - Finish --------------------------------------------
-font.update()
+gc.collect()
 print 'DONE.'
 
