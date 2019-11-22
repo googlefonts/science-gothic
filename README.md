@@ -14,6 +14,9 @@ Get the latest working variable font here: https://github.com/tphinney/science-g
 ### Bugs
 PLEASE report any BUGS OR ISSUES. You can file an issue right here in Github at: https://github.com/tphinney/science-gothic/issues. Or just ask questions on social media, whatever. But feedback is welcome!
 
+### Building Fonts
+Our process for building fonts from our FontLab VFC/VFJ sources > UFO > FontMake > TTF (variable font) is now documented here: https://github.com/tphinney/science-gothic/blob/master/documentation/compiling_fonts.md
+
 
 ## Release Notes
 
