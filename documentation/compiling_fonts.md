@@ -8,7 +8,7 @@ We use a couple of FontLab scripts, which are here in the repo. It is assumed yo
 1. Run _SG-UFO-Prepare.py_ that is in the scripts folder within FL. (Currently, this has no effect because everything is OK.)
 1. Manually decompose problem glyphs not caught by the script. *  (Currently: /notequal)
 1. Run _Font: Check QA_ Script
-1. Check _Features Panel > “Hamburger” menu (top left) > Include Classes: _OpenType_ and _Kerning_ should be checked (on); Tags_ should be unchecked (off)
+1. Check _Features Panel > “Hamburger” menu (top left) > Include Classes:  _Kerning_ and _OpenType_  should be checked (on); _Tags_ and _Virutal Tags_ should be unchecked (off)
 1. Delete any [mark] [mkmk] and [kern] features from the _Features Panel_; then from the hamburger menu, recreate them
 1. Export your UFO+Designspace
 1. Run fontmake from the command line, in the same folder as the output file:
