@@ -2,6 +2,8 @@
 
 This is how the original Science Gothic team did it. If you are working directly with UFO as the masters, instead of a FontLab file, you will skip to near the end of this process (and there is nothing much special about it).
 
+We use a couple of FontLab scripts, which are here in the repo. It is assumed you have these installed and know how to run scripts from FontLab.
+
 1. Convert outlines to TT with `Tools > Actions > Basics > Convert to TT Curves` (be sure to set "All Masters" at top, and check "Apply to entire font" at bottom left)
 1. Run _SG-UFO-Prepare.py_ that is in the scripts folder within FL. (Currently, this has no effect because everything is OK.)
 1. Manually decompose problem glyphs not caught by the script. *  (Currently: /notequal)
