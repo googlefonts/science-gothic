@@ -1,0 +1,1895 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis minimum="100" default="500" name="weight" tag="wght" maximum="900">
+   <labelname xml:lang="en">Weight</labelname>
+   <map input="100" output="0"/>
+   <map input="200" output="45"/>
+   <map input="300" output="118"/>
+   <map input="400" output="235"/>
+   <map input="500" output="421"/>
+   <map input="600" output="526"/>
+   <map input="700" output="656"/>
+   <map input="800" output="810"/>
+   <map input="900" output="1000"/>
+  </axis>
+  <axis minimum="50" default="100" name="width" tag="wdth" maximum="200">
+   <labelname xml:lang="en">Width</labelname>
+   <map input="50" output="0"/>
+   <map input="100" output="500"/>
+   <map input="200" output="1000"/>
+  </axis>
+  <axis minimum="18" default="122" name="y opaque" tag="YOPQ" maximum="122">
+   <labelname xml:lang="en">Y Opaque</labelname>
+  </axis>
+  <axis minimum="-10" default="0" name="slant" tag="slnt" maximum="0">
+   <labelname xml:lang="en">Slant</labelname>
+  </axis>
+ </axes>
+ <sources>
+  <source name="Blk" stylename="Black" familyname="Science Gothic" filename="masters/ScienceGothic-Blk.ufo">
+   <location>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="y opaque" xvalue="122"/>
+    <dimension name="slant" xvalue="0"/>
+   </location>
+  </source>
+  <source name="Blk Cnd" stylename="Black Ultra Condensed" familyname="Science Gothic" filename="masters/ScienceGothic-BlkCnd.ufo">
+   <location>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="y opaque" xvalue="122"/>
+    <dimension name="slant" xvalue="0"/>
+   </location>
+  </source>
+  <source name="Blk Cnd Ctr" stylename="Black Ultra Condensed Contrast" familyname="Science Gothic" filename="masters/ScienceGothic-BlkCndCtr.ufo">
+   <location>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="y opaque" xvalue="18"/>
+    <dimension name="slant" xvalue="0"/>
+   </location>
+  </source>
+  <source name="Blk Cnd Ctr S" stylename="Black Ultra Condensed Contrast" familyname="Science Gothic" filename="masters/ScienceGothic-BlkCndCtrS.ufo">
+   <location>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="y opaque" xvalue="18"/>
+    <dimension name="slant" xvalue="-10"/>
+   </location>
+  </source>
+  <source name="Blk Cnd S" stylename="Black Ultra Condensed" familyname="Science Gothic" filename="masters/ScienceGothic-BlkCndS.ufo">
+   <location>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="y opaque" xvalue="122"/>
+    <dimension name="slant" xvalue="-10"/>
+   </location>
+  </source>
+  <source name="Blk Ctr" stylename="Black Contrast" familyname="Science Gothic" filename="masters/ScienceGothic-BlkCtr.ufo">
+   <location>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="y opaque" xvalue="18"/>
+    <dimension name="slant" xvalue="0"/>
+   </location>
+  </source>
+  <source name="Blk Ctr S" stylename="Black Contrast" familyname="Science Gothic" filename="masters/ScienceGothic-BlkCtrS.ufo">
+   <location>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="y opaque" xvalue="18"/>
+    <dimension name="slant" xvalue="-10"/>
+   </location>
+  </source>
+  <source name="Blk Exp" stylename="Black UltraExpanded" familyname="Science Gothic" filename="masters/ScienceGothic-BlkExp.ufo">
+   <location>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="122"/>
+    <dimension name="slant" xvalue="0"/>
+   </location>
+  </source>
+  <source name="Blk Exp Ctr" stylename="Black UltraExpanded" familyname="Science Gothic" filename="masters/ScienceGothic-BlkExpCtr.ufo">
+   <location>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="18"/>
+    <dimension name="slant" xvalue="0"/>
+   </location>
+  </source>
+  <source name="Blk Exp Ctr S" stylename="Black UltraExpanded" familyname="Science Gothic" filename="masters/ScienceGothic-BlkExpCtrS.ufo">
+   <location>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="18"/>
+    <dimension name="slant" xvalue="-10"/>
+   </location>
+  </source>
+  <source name="Blk Exp S" stylename="Black UltraExpanded" familyname="Science Gothic" filename="masters/ScienceGothic-BlkExpS.ufo">
+   <location>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="122"/>
+    <dimension name="slant" xvalue="-10"/>
+   </location>
+  </source>
+  <source name="Blk S" stylename="Black" familyname="Science Gothic" filename="masters/ScienceGothic-BlkS.ufo">
+   <location>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="y opaque" xvalue="122"/>
+    <dimension name="slant" xvalue="-10"/>
+   </location>
+  </source>
+  <source name="Cnd" stylename="Ultra Condensed" familyname="Science Gothic" filename="masters/ScienceGothic-Cnd.ufo">
+   <location>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="y opaque" xvalue="122"/>
+    <dimension name="slant" xvalue="0"/>
+   </location>
+  </source>
+  <source name="Cnd Ctr" stylename="UltraCondensed Contrast" familyname="Science Gothic" filename="masters/ScienceGothic-CndCtr.ufo">
+   <location>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="y opaque" xvalue="18"/>
+    <dimension name="slant" xvalue="0"/>
+   </location>
+  </source>
+  <source name="Cnd Ctr S" stylename="UltraCondensed Contrast" familyname="Science Gothic" filename="masters/ScienceGothic-CndCtrS.ufo">
+   <location>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="y opaque" xvalue="18"/>
+    <dimension name="slant" xvalue="-10"/>
+   </location>
+  </source>
+  <source name="Cnd S" stylename="Ultra Condensed" familyname="Science Gothic" filename="masters/ScienceGothic-CndS.ufo">
+   <location>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="y opaque" xvalue="122"/>
+    <dimension name="slant" xvalue="-10"/>
+   </location>
+  </source>
+  <source name="Ctr" stylename="Contrast" familyname="Science Gothic" filename="masters/ScienceGothic-Ctr.ufo">
+   <location>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="y opaque" xvalue="18"/>
+    <dimension name="slant" xvalue="0"/>
+   </location>
+  </source>
+  <source name="Ctr S" stylename="Contrast" familyname="Science Gothic" filename="masters/ScienceGothic-CtrS.ufo">
+   <location>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="y opaque" xvalue="18"/>
+    <dimension name="slant" xvalue="-10"/>
+   </location>
+  </source>
+  <source name="Exp" stylename="Ultra Expanded" familyname="Science Gothic" filename="masters/ScienceGothic-Exp.ufo">
+   <location>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="122"/>
+    <dimension name="slant" xvalue="0"/>
+   </location>
+  </source>
+  <source name="Exp Ctr" stylename="UltraExpanded" familyname="Science Gothic" filename="masters/ScienceGothic-ExpCtr.ufo">
+   <location>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="18"/>
+    <dimension name="slant" xvalue="0"/>
+   </location>
+  </source>
+  <source name="Exp Ctr S" stylename="UltraExpanded" familyname="Science Gothic" filename="masters/ScienceGothic-ExpCtrS.ufo">
+   <location>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="18"/>
+    <dimension name="slant" xvalue="-10"/>
+   </location>
+  </source>
+  <source name="Exp S" stylename="Ultra Expanded" familyname="Science Gothic" filename="masters/ScienceGothic-ExpS.ufo">
+   <location>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="122"/>
+    <dimension name="slant" xvalue="-10"/>
+   </location>
+  </source>
+  <source name="Lt" stylename="Thin" familyname="Science Gothic" filename="masters/ScienceGothic-Lt.ufo">
+   <location>
+    <dimension name="weight" xvalue="0"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="y opaque" xvalue="122"/>
+    <dimension name="slant" xvalue="0"/>
+   </location>
+  </source>
+  <source name="Lt Cnd" stylename="Thin Ultra Condensed" familyname="Science Gothic" filename="masters/ScienceGothic-LtCnd.ufo">
+   <location>
+    <dimension name="weight" xvalue="0"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="y opaque" xvalue="122"/>
+    <dimension name="slant" xvalue="0"/>
+   </location>
+  </source>
+  <source name="Lt Cnd Ctr" stylename="Thin Ultra Condensed" familyname="Science Gothic" filename="masters/ScienceGothic-LtCndCtr.ufo">
+   <location>
+    <dimension name="weight" xvalue="0"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="y opaque" xvalue="18"/>
+    <dimension name="slant" xvalue="0"/>
+   </location>
+  </source>
+  <source name="Lt Cnd Ctr S" stylename="Thin Ultra Condensed" familyname="Science Gothic" filename="masters/ScienceGothic-LtCndCtrS.ufo">
+   <location>
+    <dimension name="weight" xvalue="0"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="y opaque" xvalue="18"/>
+    <dimension name="slant" xvalue="-10"/>
+   </location>
+  </source>
+  <source name="Lt Cnd S" stylename="Thin Ultra Condensed" familyname="Science Gothic" filename="masters/ScienceGothic-LtCndS.ufo">
+   <location>
+    <dimension name="weight" xvalue="0"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="y opaque" xvalue="122"/>
+    <dimension name="slant" xvalue="-10"/>
+   </location>
+  </source>
+  <source name="Lt Ctr" stylename="Thin Contrast" familyname="Science Gothic" filename="masters/ScienceGothic-LtCtr.ufo">
+   <location>
+    <dimension name="weight" xvalue="0"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="y opaque" xvalue="18"/>
+    <dimension name="slant" xvalue="0"/>
+   </location>
+  </source>
+  <source name="Lt Ctr S" stylename="Thin Contrast" familyname="Science Gothic" filename="masters/ScienceGothic-LtCtrS.ufo">
+   <location>
+    <dimension name="weight" xvalue="0"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="y opaque" xvalue="18"/>
+    <dimension name="slant" xvalue="-10"/>
+   </location>
+  </source>
+  <source name="Lt Exp" stylename="Thin UltraExpanded" familyname="Science Gothic" filename="masters/ScienceGothic-LtExp.ufo">
+   <location>
+    <dimension name="weight" xvalue="0"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="122"/>
+    <dimension name="slant" xvalue="0"/>
+   </location>
+  </source>
+  <source name="Lt Exp Ctr" stylename="Thin UltraExpanded" familyname="Science Gothic" filename="masters/ScienceGothic-LtExpCtr.ufo">
+   <location>
+    <dimension name="weight" xvalue="0"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="18"/>
+    <dimension name="slant" xvalue="0"/>
+   </location>
+  </source>
+  <source name="Lt Exp Ctr S" stylename="Thin UltraExpanded" familyname="Science Gothic" filename="masters/ScienceGothic-LtExpCtrS.ufo">
+   <location>
+    <dimension name="weight" xvalue="0"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="18"/>
+    <dimension name="slant" xvalue="-10"/>
+   </location>
+  </source>
+  <source name="Lt Exp S" stylename="Thin UltraExpanded" familyname="Science Gothic" filename="masters/ScienceGothic-LtExpS.ufo">
+   <location>
+    <dimension name="weight" xvalue="0"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="122"/>
+    <dimension name="slant" xvalue="-10"/>
+   </location>
+  </source>
+  <source name="Lt S" stylename="Thin" familyname="Science Gothic" filename="masters/ScienceGothic-LtS.ufo">
+   <location>
+    <dimension name="weight" xvalue="0"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="y opaque" xvalue="122"/>
+    <dimension name="slant" xvalue="-10"/>
+   </location>
+  </source>
+  <source name="Medium" stylename="Medium" familyname="Science Gothic" filename="masters/ScienceGothic-Medium.ufo">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="y opaque" xvalue="122"/>
+    <dimension name="slant" xvalue="0"/>
+   </location>
+  </source>
+  <source name="Medium S" stylename="Medium" familyname="Science Gothic" filename="masters/ScienceGothic-MediumS.ufo">
+   <location>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="y opaque" xvalue="122"/>
+    <dimension name="slant" xvalue="-10"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance name="Hairline UltCnd Obl" stylename="Hairline UltCnd Obl" familyname="Science Gothic" filename="instances/ScienceGothic-HairlineUltCndObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="0"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Hairline UltCnd" stylename="Hairline UltCnd" familyname="Science Gothic" filename="instances/ScienceGothic-HairlineUltCnd.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="0"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Hairline Cnd Obl" stylename="Hairline Cnd Obl" familyname="Science Gothic" filename="instances/ScienceGothic-HairlineCndObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="0"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Hairline Cnd" stylename="Hairline Cnd" familyname="Science Gothic" filename="instances/ScienceGothic-HairlineCnd.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="0"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Hairline Obl" stylename="Hairline Obl" familyname="Science Gothic" filename="instances/ScienceGothic-HairlineObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="0"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Hairline" stylename="Hairline" familyname="Science Gothic" filename="instances/ScienceGothic-Hairline.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="0"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Hairline Exp Obl" stylename="Hairline Exp Obl" familyname="Science Gothic" filename="instances/ScienceGothic-HairlineExpObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="0"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Hairline Exp" stylename="Hairline Exp" familyname="Science Gothic" filename="instances/ScienceGothic-HairlineExp.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="0"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Hairline XExp Obl" stylename="Hairline XExp Obl" familyname="Science Gothic" filename="instances/ScienceGothic-HairlineXExpObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="0"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Hairline XExp" stylename="Hairline XExp" familyname="Science Gothic" filename="instances/ScienceGothic-HairlineXExp.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="0"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="ExtraLight UltCnd Obl" stylename="ExtraLight UltCnd Obl" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraLightUltCndObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="45"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="ExtraLight UltCnd" stylename="ExtraLight UltCnd" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraLightUltCnd.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="45"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="ExtraLight Cnd Obl" stylename="ExtraLight Cnd Obl" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraLightCndObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="45"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="ExtraLight Cnd" stylename="ExtraLight Cnd" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraLightCnd.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="45"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="ExtraLight Obl" stylename="ExtraLight Obl" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraLightObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="45"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="ExtraLight" stylename="ExtraLight" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraLight.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="45"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="ExtraLight Exp Obl" stylename="ExtraLight Exp Obl" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraLightExpObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="45"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="ExtraLight Exp" stylename="ExtraLight Exp" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraLightExp.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="45"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="ExtraLight XExp Obl" stylename="ExtraLight XExp Obl" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraLightXExpObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="45"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="ExtraLight XExp" stylename="ExtraLight XExp" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraLightXExp.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="45"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Light UltCnd Obl" stylename="Light UltCnd Obl" familyname="Science Gothic" filename="instances/ScienceGothic-LightUltCndObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="118"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Light UltCnd" stylename="Light UltCnd" familyname="Science Gothic" filename="instances/ScienceGothic-LightUltCnd.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="118"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Light Cnd Obl" stylename="Light Cnd Obl" familyname="Science Gothic" filename="instances/ScienceGothic-LightCndObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="118"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Light Cnd" stylename="Light Cnd" familyname="Science Gothic" filename="instances/ScienceGothic-LightCnd.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="118"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Light Obl" stylename="Light Obl" familyname="Science Gothic" filename="instances/ScienceGothic-LightObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="118"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Light" stylename="Light" familyname="Science Gothic" filename="instances/ScienceGothic-Light.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="118"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Light Exp Obl" stylename="Light Exp Obl" familyname="Science Gothic" filename="instances/ScienceGothic-LightExpObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="118"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Light Exp" stylename="Light Exp" familyname="Science Gothic" filename="instances/ScienceGothic-LightExp.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="118"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Light XExp Obl" stylename="Light XExp Obl" familyname="Science Gothic" filename="instances/ScienceGothic-LightXExpObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="118"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Light XExp" stylename="Light XExp" familyname="Science Gothic" filename="instances/ScienceGothic-LightXExp.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="118"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Medium UltCnd HiCntr Obl" stylename="Medium UltCnd HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-MediumUltCndHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Medium UltCnd HiCntr" stylename="Medium UltCnd HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-MediumUltCndHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Medium UltCnd SmCntr Obl" stylename="Medium UltCnd SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-MediumUltCndSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Medium UltCnd SmCntr" stylename="Medium UltCnd SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-MediumUltCndSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Medium UltCnd Obl" stylename="Medium UltCnd Obl" familyname="Science Gothic" filename="instances/ScienceGothic-MediumUltCndObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Medium UltCnd" stylename="Medium UltCnd" familyname="Science Gothic" filename="instances/ScienceGothic-MediumUltCnd.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Medium Cnd HiCntr Obl" stylename="Medium Cnd HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-MediumCndHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Medium Cnd HiCntr" stylename="Medium Cnd HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-MediumCndHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Medium Cnd SmCntr Obl" stylename="Medium Cnd SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-MediumCndSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Medium Cnd SmCntr" stylename="Medium Cnd SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-MediumCndSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Medium Cnd Obl" stylename="Medium Cnd Obl" familyname="Science Gothic" filename="instances/ScienceGothic-MediumCndObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Medium Cnd" stylename="Medium Cnd" familyname="Science Gothic" filename="instances/ScienceGothic-MediumCnd.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Medium HiCntr Obl" stylename="Medium HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-MediumHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Medium HiCntr" stylename="Medium HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-MediumHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Medium SmCntr Obl" stylename="Medium SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-MediumSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Medium SmCntr" stylename="Medium SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-MediumSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Medium Obl" stylename="Medium Obl" familyname="Science Gothic" filename="instances/ScienceGothic-MediumObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Medium" stylename="Medium" familyname="Science Gothic" filename="instances/ScienceGothic-Medium.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Medium Exp HiCntr Obl" stylename="Medium Exp HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-MediumExpHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Medium Exp HiCntr" stylename="Medium Exp HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-MediumExpHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Medium Exp SmCntr Obl" stylename="Medium Exp SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-MediumExpSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Medium Exp SmCntr" stylename="Medium Exp SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-MediumExpSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Medium Exp Obl" stylename="Medium Exp Obl" familyname="Science Gothic" filename="instances/ScienceGothic-MediumExpObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Medium Exp" stylename="Medium Exp" familyname="Science Gothic" filename="instances/ScienceGothic-MediumExp.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Medium XExp HiCntr Obl" stylename="Medium XExp HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-MediumXExpHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Medium XExp HiCntr" stylename="Medium XExp HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-MediumXExpHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Medium XExp SmCntr Obl" stylename="Medium XExp SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-MediumXExpSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Medium XExp SmCntr" stylename="Medium XExp SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-MediumXExpSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Medium XExp Obl" stylename="Medium XExp Obl" familyname="Science Gothic" filename="instances/ScienceGothic-MediumXExpObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Medium XExp" stylename="Medium XExp" familyname="Science Gothic" filename="instances/ScienceGothic-MediumXExp.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="421"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="SemiBold UltCnd HiCntr Obl" stylename="SemiBold UltCnd HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldUltCndHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="SemiBold UltCnd HiCntr" stylename="SemiBold UltCnd HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldUltCndHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="SemiBold UltCnd SmCntr Obl" stylename="SemiBold UltCnd SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldUltCndSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="SemiBold UltCnd SmCntr" stylename="SemiBold UltCnd SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldUltCndSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="SemiBold UltCnd Obl" stylename="SemiBold UltCnd Obl" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldUltCndObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="SemiBold UltCnd" stylename="SemiBold UltCnd" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldUltCnd.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="SemiBold Cnd HiCntr Obl" stylename="SemiBold Cnd HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldCndHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="SemiBold Cnd HiCntr" stylename="SemiBold Cnd HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldCndHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="SemiBold Cnd SmCntr Obl" stylename="SemiBold Cnd SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldCndSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="SemiBold Cnd SmCntr" stylename="SemiBold Cnd SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldCndSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="SemiBold Cnd Obl" stylename="SemiBold Cnd Obl" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldCndObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="SemiBold Cnd" stylename="SemiBold Cnd" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldCnd.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="SemiBold HiCntr Obl" stylename="SemiBold HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="SemiBold HiCntr" stylename="SemiBold HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="SemiBold SmCntr Obl" stylename="SemiBold SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="SemiBold SmCntr" stylename="SemiBold SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="SemiBold Obl" stylename="SemiBold Obl" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="SemiBold" stylename="SemiBold" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBold.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="SemiBold Exp HiCntr Obl" stylename="SemiBold Exp HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldExpHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="SemiBold Exp HiCntr" stylename="SemiBold Exp HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldExpHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="SemiBold Exp SmCntr Obl" stylename="SemiBold Exp SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldExpSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="SemiBold Exp SmCntr" stylename="SemiBold Exp SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldExpSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="SemiBold Exp Obl" stylename="SemiBold Exp Obl" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldExpObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="SemiBold Exp" stylename="SemiBold Exp" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldExp.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="SemiBold XExp HiCntr Obl" stylename="SemiBold XExp HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldXExpHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="SemiBold XExp HiCntr" stylename="SemiBold XExp HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldXExpHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="SemiBold XExp SmCntr Obl" stylename="SemiBold XExp SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldXExpSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="SemiBold XExp SmCntr" stylename="SemiBold XExp SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldXExpSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="SemiBold XExp Obl" stylename="SemiBold XExp Obl" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldXExpObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="SemiBold XExp" stylename="SemiBold XExp" familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldXExp.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="526"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Bold UltCnd HiCntr Obl" stylename="Bold UltCnd HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BoldUltCndHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Bold UltCnd HiCntr" stylename="Bold UltCnd HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-BoldUltCndHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Bold UltCnd SmCntr Obl" stylename="Bold UltCnd SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BoldUltCndSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Bold UltCnd SmCntr" stylename="Bold UltCnd SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-BoldUltCndSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Bold UltCnd Obl" stylename="Bold UltCnd Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BoldUltCndObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Bold UltCnd" stylename="Bold UltCnd" familyname="Science Gothic" filename="instances/ScienceGothic-BoldUltCnd.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Bold Cnd HiCntr Obl" stylename="Bold Cnd HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BoldCndHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Bold Cnd HiCntr" stylename="Bold Cnd HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-BoldCndHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Bold Cnd SmCntr Obl" stylename="Bold Cnd SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BoldCndSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Bold Cnd SmCntr" stylename="Bold Cnd SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-BoldCndSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Bold Cnd Obl" stylename="Bold Cnd Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BoldCndObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Bold Cnd" stylename="Bold Cnd" familyname="Science Gothic" filename="instances/ScienceGothic-BoldCnd.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Bold HiCntr Obl" stylename="Bold HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BoldHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Bold HiCntr" stylename="Bold HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-BoldHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Bold SmCntr Obl" stylename="Bold SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BoldSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Bold SmCntr" stylename="Bold SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-BoldSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Bold Obl" stylename="Bold Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BoldObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Bold" stylename="Bold" familyname="Science Gothic" filename="instances/ScienceGothic-Bold.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Bold Exp HiCntr Obl" stylename="Bold Exp HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BoldExpHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Bold Exp HiCntr" stylename="Bold Exp HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-BoldExpHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Bold Exp SmCntr Obl" stylename="Bold Exp SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BoldExpSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Bold Exp SmCntr" stylename="Bold Exp SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-BoldExpSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Bold Exp Obl" stylename="Bold Exp Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BoldExpObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Bold Exp" stylename="Bold Exp" familyname="Science Gothic" filename="instances/ScienceGothic-BoldExp.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Bold XExp HiCntr Obl" stylename="Bold XExp HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BoldXExpHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Bold XExp HiCntr" stylename="Bold XExp HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-BoldXExpHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Bold XExp SmCntr Obl" stylename="Bold XExp SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BoldXExpSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Bold XExp SmCntr" stylename="Bold XExp SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-BoldXExpSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Bold XExp Obl" stylename="Bold XExp Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BoldXExpObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Bold XExp" stylename="Bold XExp" familyname="Science Gothic" filename="instances/ScienceGothic-BoldXExp.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="656"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold UltCnd HiCntr Obl" stylename="ExtraBold UltCnd HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldUltCndHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold UltCnd HiCntr" stylename="ExtraBold UltCnd HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldUltCndHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold UltCnd SmCntr Obl" stylename="ExtraBold UltCnd SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldUltCndSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold UltCnd SmCntr" stylename="ExtraBold UltCnd SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldUltCndSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold UltCnd Obl" stylename="ExtraBold UltCnd Obl" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldUltCndObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold UltCnd" stylename="ExtraBold UltCnd" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldUltCnd.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold Cnd HiCntr Obl" stylename="ExtraBold Cnd HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldCndHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold Cnd HiCntr" stylename="ExtraBold Cnd HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldCndHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold Cnd SmCntr Obl" stylename="ExtraBold Cnd SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldCndSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold Cnd SmCntr" stylename="ExtraBold Cnd SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldCndSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold Cnd Obl" stylename="ExtraBold Cnd Obl" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldCndObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold Cnd" stylename="ExtraBold Cnd" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldCnd.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold HiCntr Obl" stylename="ExtraBold HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold HiCntr" stylename="ExtraBold HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold SmCntr Obl" stylename="ExtraBold SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold SmCntr" stylename="ExtraBold SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold Obl" stylename="ExtraBold Obl" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold" stylename="ExtraBold" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBold.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold Exp HiCntr Obl" stylename="ExtraBold Exp HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldExpHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold Exp HiCntr" stylename="ExtraBold Exp HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldExpHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold Exp SmCntr Obl" stylename="ExtraBold Exp SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldExpSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold Exp SmCntr" stylename="ExtraBold Exp SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldExpSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold Exp Obl" stylename="ExtraBold Exp Obl" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldExpObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold Exp" stylename="ExtraBold Exp" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldExp.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold XExp HiCntr Obl" stylename="ExtraBold XExp HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldXExpHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold XExp HiCntr" stylename="ExtraBold XExp HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldXExpHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold XExp SmCntr Obl" stylename="ExtraBold XExp SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldXExpSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold XExp SmCntr" stylename="ExtraBold XExp SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldXExpSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold XExp Obl" stylename="ExtraBold XExp Obl" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldXExpObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold XExp" stylename="ExtraBold XExp" familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldXExp.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="810"/>
+    <dimension name="y opaque" xvalue="122"/>
+   </location>
+  </instance>
+  <instance name="Black UltCnd HiCntr Obl" stylename="Black UltCnd HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BlackUltCndHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Black UltCnd HiCntr" stylename="Black UltCnd HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-BlackUltCndHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Black UltCnd SmCntr Obl" stylename="Black UltCnd SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BlackUltCndSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Black UltCnd SmCntr" stylename="Black UltCnd SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-BlackUltCndSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="0"/>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Black Cnd HiCntr Obl" stylename="Black Cnd HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BlackCndHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Black Cnd HiCntr" stylename="Black Cnd HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-BlackCndHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Black Cnd SmCntr Obl" stylename="Black Cnd SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BlackCndSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Black Cnd SmCntr" stylename="Black Cnd SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-BlackCndSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="250"/>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Black HiCntr Obl" stylename="Black HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BlackHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Black HiCntr" stylename="Black HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-BlackHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Black SmCntr Obl" stylename="Black SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BlackSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Black SmCntr" stylename="Black SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-BlackSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="500"/>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Black Exp HiCntr Obl" stylename="Black Exp HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BlackExpHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Black Exp HiCntr" stylename="Black Exp HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-BlackExpHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Black Exp SmCntr Obl" stylename="Black Exp SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BlackExpSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Black Exp SmCntr" stylename="Black Exp SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-BlackExpSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="750"/>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Black XExp HiCntr Obl" stylename="Black XExp HiCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BlackXExpHiCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Black XExp HiCntr" stylename="Black XExp HiCntr" familyname="Science Gothic" filename="instances/ScienceGothic-BlackXExpHiCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="18"/>
+   </location>
+  </instance>
+  <instance name="Black XExp SmCntr Obl" stylename="Black XExp SmCntr Obl" familyname="Science Gothic" filename="instances/ScienceGothic-BlackXExpSmCntrObl.ufo">
+   <location>
+    <dimension name="slant" xvalue="-10"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+  <instance name="Black XExp SmCntr" stylename="Black XExp SmCntr" familyname="Science Gothic" filename="instances/ScienceGothic-BlackXExpSmCntr.ufo">
+   <location>
+    <dimension name="slant" xvalue="0"/>
+    <dimension name="width" xvalue="1000"/>
+    <dimension name="weight" xvalue="1000"/>
+    <dimension name="y opaque" xvalue="70"/>
+   </location>
+  </instance>
+ </instances>
+ <rules>
+  <rule>
+   <sub name="dollar" with="dollar.alt"/>
+   <conditionset>
+    <condition minimum="600" name="weight"/>
+    <condition name="width" maximum="300"/>
+   </conditionset>
+   <conditionset>
+    <condition minimum="700" name="weight"/>
+    <condition name="width" maximum="490"/>
+   </conditionset>
+   <conditionset>
+    <condition minimum="710" name="weight"/>
+    <condition name="width" maximum="690"/>
+    <condition minimum="80" name="y opaque"/>
+   </conditionset>
+   <conditionset>
+    <condition name="width" maximum="150"/>
+   </conditionset>
+  </rule>
+  <rule>
+   <sub name="Q" with="Q.alt"/>
+   <conditionset>
+    <condition minimum="350" name="weight"/>
+    <condition name="width" maximum="250"/>
+   </conditionset>
+   <conditionset>
+    <condition minimum="700" name="weight"/>
+    <condition name="width" maximum="490"/>
+   </conditionset>
+   <conditionset>
+    <condition minimum="800" name="weight"/>
+   </conditionset>
+   <conditionset>
+    <condition name="width" maximum="90"/>
+   </conditionset>
+  </rule>
+  <rule>
+   <sub name="cent" with="cent.alt"/>
+   <conditionset>
+    <condition minimum="600" name="weight"/>
+    <condition name="width" maximum="300"/>
+   </conditionset>
+   <conditionset>
+    <condition minimum="700" name="weight"/>
+    <condition name="width" maximum="490"/>
+   </conditionset>
+   <conditionset>
+    <condition minimum="900" name="weight"/>
+    <condition name="width" maximum="710"/>
+   </conditionset>
+   <conditionset>
+    <condition name="width" maximum="150"/>
+   </conditionset>
+  </rule>
+  <rule>
+   <sub name="uni20B1" with="uni20B1.alt"/>
+   <conditionset>
+    <condition minimum="890" name="weight"/>
+    <condition name="width" maximum="530"/>
+    <condition minimum="104" name="y opaque"/>
+   </conditionset>
+   <conditionset>
+    <condition minimum="900" name="weight"/>
+    <condition minimum="104" name="y opaque"/>
+   </conditionset>
+   <conditionset>
+    <condition name="width" maximum="200"/>
+   </conditionset>
+  </rule>
+  <rule>
+   <sub name="uni20B2" with="uni20B2.alt"/>
+   <conditionset>
+    <condition minimum="350" name="weight"/>
+    <condition name="width" maximum="250"/>
+   </conditionset>
+   <conditionset>
+    <condition minimum="700" name="weight"/>
+    <condition name="width" maximum="490"/>
+   </conditionset>
+   <conditionset>
+    <condition minimum="900" name="weight"/>
+    <condition name="width" maximum="710"/>
+   </conditionset>
+   <conditionset>
+    <condition name="width" maximum="90"/>
+   </conditionset>
+   <conditionset>
+    <condition name="width" maximum="220"/>
+   </conditionset>
+  </rule>
+  <rule>
+   <sub name="uni20B5" with="uni20B5.alt"/>
+   <conditionset>
+    <condition minimum="350" name="weight"/>
+    <condition name="width" maximum="250"/>
+   </conditionset>
+   <conditionset>
+    <condition minimum="700" name="weight"/>
+    <condition name="width" maximum="490"/>
+   </conditionset>
+   <conditionset>
+    <condition minimum="800" name="weight"/>
+   </conditionset>
+   <conditionset>
+    <condition minimum="900" name="weight"/>
+    <condition name="width" maximum="710"/>
+   </conditionset>
+   <conditionset>
+    <condition name="width" maximum="90"/>
+   </conditionset>
+  </rule>
+  <rule>
+   <sub name="colonmonetary" with="colonmonetary.alt"/>
+   <conditionset>
+    <condition minimum="600" name="weight"/>
+    <condition name="width" maximum="300"/>
+   </conditionset>
+   <conditionset>
+    <condition minimum="900" name="weight"/>
+    <condition name="width" maximum="710"/>
+   </conditionset>
+   <conditionset>
+    <condition name="width" maximum="90"/>
+   </conditionset>
+  </rule>
+  <rule>
+   <sub name="a" with="a.slnt"/>
+   <sub name="aacute" with="aacute.slnt"/>
+   <sub name="abreve" with="abreve.slnt"/>
+   <sub name="acircumflex" with="acircumflex.slnt"/>
+   <sub name="adieresis" with="adieresis.slnt"/>
+   <sub name="agrave" with="agrave.slnt"/>
+   <sub name="amacron" with="amacron.slnt"/>
+   <sub name="aogonek" with="aogonek.slnt"/>
+   <sub name="aring" with="aring.slnt"/>
+   <sub name="aringacute" with="aringacute.slnt"/>
+   <sub name="atilde" with="atilde.slnt"/>
+   <sub name="f" with="f.slnt"/>
+   <sub name="uni0201" with="uni0201.slnt"/>
+   <sub name="uni0203" with="uni0203.slnt"/>
+   <sub name="uni0430" with="uni0430.slnt"/>
+   <sub name="uni04D1" with="uni04D1.slnt"/>
+   <sub name="uni04D3" with="uni04D3.slnt"/>
+   <sub name="uni1EA3" with="uni1EA3.slnt"/>
+   <sub name="uni1EA5" with="uni1EA5.slnt"/>
+   <sub name="uni1EA7" with="uni1EA7.slnt"/>
+   <sub name="uni1EA9" with="uni1EA9.slnt"/>
+   <sub name="uni1EAB" with="uni1EAB.slnt"/>
+   <sub name="uni1EAD" with="uni1EAD.slnt"/>
+   <sub name="uni1EAF" with="uni1EAF.slnt"/>
+   <sub name="uni1EB1" with="uni1EB1.slnt"/>
+   <sub name="uni1EB3" with="uni1EB3.slnt"/>
+   <sub name="uni1EB5" with="uni1EB5.slnt"/>
+   <conditionset>
+    <condition name="slant" maximum="-4.9"/>
+   </conditionset>
+  </rule>
+  <rule>
+   <sub name="uni051A" with="uni051A.alt"/>
+   <conditionset>
+    <condition minimum="350" name="weight"/>
+    <condition name="width" maximum="250"/>
+   </conditionset>
+   <conditionset>
+    <condition minimum="700" name="weight"/>
+    <condition name="width" maximum="490"/>
+   </conditionset>
+   <conditionset>
+    <condition minimum="800" name="weight"/>
+   </conditionset>
+   <conditionset>
+    <condition name="width" maximum="90"/>
+   </conditionset>
+  </rule>
+  <rule>
+   <sub name="q" with="q.alt.sc"/>
+   <conditionset>
+    <condition minimum="350" name="weight"/>
+    <condition name="width" maximum="250"/>
+   </conditionset>
+   <conditionset>
+    <condition minimum="700" name="weight"/>
+    <condition name="width" maximum="490"/>
+   </conditionset>
+   <conditionset>
+    <condition minimum="800" name="weight"/>
+   </conditionset>
+   <conditionset>
+    <condition name="width" maximum="90"/>
+   </conditionset>
+  </rule>
+  <rule>
+   <sub name="uni051B" with="uni051B.alt.sc"/>
+   <conditionset>
+    <condition minimum="350" name="weight"/>
+    <condition name="width" maximum="250"/>
+   </conditionset>
+   <conditionset>
+    <condition minimum="700" name="weight"/>
+    <condition name="width" maximum="490"/>
+   </conditionset>
+   <conditionset>
+    <condition minimum="800" name="weight"/>
+   </conditionset>
+   <conditionset>
+    <condition name="width" maximum="90"/>
+   </conditionset>
+  </rule>
+ </rules>
+</designspace>
