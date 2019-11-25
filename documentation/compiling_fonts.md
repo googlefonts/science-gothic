@@ -4,10 +4,10 @@ This is how the original Science Gothic team did it. If you are working directly
 
 We use a FontLab script, which is here in the repo. It is assumed you have these installed and know how to run scripts from FontLab.
 
-1. Convert outlines to TT with `Tools > Actions > Basics > Convert to TT Curves` (be sure to set "All Masters" at top, and check "Apply to entire font" at bottom left)
 1. Run _Font: Check QA_ script that is in the scripts folder within FL. (Note that "_SG-UFO-Prepare.py_" is basically the same script, only it deletes problem glyphs! But the project is no longer in early stages, so deleting glyphs to make the font build is no longer an acceptable tradeoff.)
-1. Manually decompose problem glyphs not caught by the script. *  (Currently: /notequal)
-1. Run _Font: Check QA_ script again to verify there are no remaining problem glyphs.
+1. Correct any problem glyphs by decomposing them, etc. Manually decompose problem glyphs not caught by the script. *  (Currently: /notequal)
+1. Run _Font: Check QA_ again.
+1. Convert outlines to TT with `Tools > Actions > Basics > Convert to TT Curves` (be sure to set "All Masters" at top, and check "Apply to entire font" at bottom left)
 1. Check _Features Panel > “Hamburger” menu (top left) > Include Classes:  _Kerning_ and _OpenType_  should be checked (on); _Tags_ and _Virtual Tags_ should be unchecked (off)
 1. Delete any [mark] [mkmk] and [kern] features from the _Features Panel_; then from the hamburger menu, recreate them
 1. Export your UFO+Designspace
