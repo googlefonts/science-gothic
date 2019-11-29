@@ -1,6 +1,6 @@
 # FontLab > UFO+Designspace+FontMake workflow:
 
-This is how the original Science Gothic team did it. If you are working directly with UFO as the masters, instead of a FontLab file, you will skip to near the end of this process (and there is nothing much special about it).
+This is how we get from FontLab VFC files to final variable TTFs. If you are working directly with UFO as the masters, instead of a FontLab file, you will skip to near the end of this process (and there is nothing much special about it).
 
 We use a FontLab script, which is here in the repo. It is assumed you have these installed and know how to run scripts from FontLab.
 
