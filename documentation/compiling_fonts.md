@@ -10,7 +10,7 @@ We use a FontLab script, which is here in the repo. It is assumed you have these
 1. Convert outlines to TT with `Tools > Actions > Basics > Convert to TT Curves` (be sure to set "All Masters" at top, and check "Apply to entire font" at bottom left)
 1. Check _Features Panel > “Hamburger” menu (top left) > Include Classes:  _Kerning_ and _OpenType_  should be checked (on); _Tags_ and _Virtual Tags_ should be unchecked (off)
 1. Delete any [mark] [mkmk] and [kern] features from the _Features Panel_; then from the hamburger menu, recreate them
-1. Export your UFO+Designspace
+1. Export your UFO+Designspace (File > Export Font As, select "DesignSpace + UFO" near the bottom)
 1. Run fontmake from the command line, in the same folder as the output file:
 `fontmake -m *.designspace -o variable --keep-overlaps` (if you only have one designspace file in the folder)
 or 
