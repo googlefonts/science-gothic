@@ -110,7 +110,7 @@ This list is in alphabetical order after Thomas.
 
 ## License
 
-Science Gothic fonts and their source files are licensed to others under the open source SIL Open Font License v1.1 (<http://scripts.sil.org/OFL>) with no Reserved Font Name. To view the copyright and specific terms and conditions please refer to [OFL.txt](https://github.com/tphinney/science-gothic/OFL.txt)
+Science Gothic fonts and their source files are licensed to others under the open source SIL Open Font License v1.1 (<http://scripts.sil.org/OFL>) with no Reserved Font Name. To view the specific terms and conditions please refer to [OFL.txt](https://github.com/tphinney/science-gothic/OFL.txt)
 
 Additional non-font source files are licensed to others under the Apache 2.0 open source license (<https://www.apache.org/licenses/LICENSE-2.0>).
 
