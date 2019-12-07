@@ -11,7 +11,7 @@ We intend to make careful use of reasonably predictable relationships between ma
 The process concept is:
 
 1. _Completely_ kern the :Medium master (class kerning, and exceptions if needed) in FontLab 7
-1. For the :Blk master, do kerning _only_ for special combinations that need to be significantly different from those in the :Medium. This is mostly situations where a glyph like L or T that is kerned towards dashes and the like in lighter weights, developes collisions with them in the :BlkEtc. So the :Blk master gets minimal "exception" kerning, essentially.
+1. For the :Blk master, do kerning _only_ for special combinations that need to be significantly different from those in the :Medium. This is mostly situations where a glyph like /L or /T that is kerned towards dashes and the like in lighter weights, developes collisions with them in the :BlkEtc. Or especially a /T against lowercase x-height letters, such as /a /e /o /u. So the :Blk master gets minimal kerning, just for these cases where it needs something very different.
 1. Until we are _really_ happy with the kerning, we only do the following steps at variable font generation time, .
 1. Copy the kerning from the :Medium master to: :LtCnd :LtExp
 1. Copy the kerning from the :Medium master to the :BlkCnd :BlkExp ; then copy the kerning from the :Blk master to the :BlkCnd and :BlkExp. In cases where the :Blk is different, it takes priority, but otherwise the far more extensive:Medium kerning comes over.
