@@ -15,8 +15,6 @@ The process concept is:
 1. Until we are _really_ happy with the kerning, we only do the following steps at variable font generation time, .
 1. Copy the kerning from the :Medium master to: :LtCnd :LtExp
 1. Copy the kerning from the :Medium master to the :BlkCnd :BlkExp ; then copy the kerning from the :Blk master to the :BlkCnd and :BlkExp. In cases where the :Blk is different, it takes priority, but otherwise the far more extensive:Medium kerning comes over.
-1. In each of those 4 masters, “scale” the kerning by a constant that differs per master. (This is the part that needs automation. Can this be done with a script? Some other way?) To start with, we might try:
-- 30% for :LtCnd and :BlkCnd
-- 180% for :LtExp and :BlkExp
+1. In each of those 4 masters, “scale” the kerning by a constant that differs per master. (This is the part that needs automation. Can this be done with a script? Some other way?) To start with, we might try: **30% for :LtCnd and :BlkCnd; 180% for :LtExp and :BlkExp.**
 1. Copy the kerning from the all five of the above masters to their :EtcCtr and :EtcSlnt equivalents
 1. Aside from the :Medium master, all other non-corner masters _will not have kerning done in FontLab at all!_ Instead, Fontlab will automatically add interpolated kerning at export time. (NOTE: need to verify experimentally that this works as expected when it comes to UFO export! No doubt it has been tested with direct variable font export.)
