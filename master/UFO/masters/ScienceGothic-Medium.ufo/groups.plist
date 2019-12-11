@@ -2,6 +2,39 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>public.kern1._lc_anh_1</key>
+  <array>
+    <string>a</string>
+    <string>aogonek</string>
+    <string>h</string>
+    <string>m</string>
+    <string>n</string>
+    <string>uni0430</string>
+    <string>uni1EA1</string>
+  </array>
+  <key>public.kern1._lc_dotlessi_1</key>
+  <array>
+    <string>a.slnt</string>
+    <string>dotlessi</string>
+    <string>oslash</string>
+    <string>q</string>
+    <string>u</string>
+    <string>uni0430.slnt</string>
+    <string>uni0438</string>
+    <string>uni043C</string>
+    <string>uni043D</string>
+    <string>uni043F</string>
+    <string>uni0447</string>
+    <string>uni044B</string>
+    <string>uni044F</string>
+    <string>uni1EE5</string>
+    <string>uogonek</string>
+  </array>
+  <key>public.kern1._lc_f_3</key>
+  <array>
+    <string>f</string>
+    <string>f.slnt</string>
+  </array>
   <key>public.kern1._lc_horn_1</key>
   <array>
     <string>ohorn</string>
@@ -30,10 +63,8 @@
   </array>
   <key>public.kern1._lc_o_1</key>
   <array>
-    <string>a</string>
     <string>ae</string>
     <string>aeacute</string>
-    <string>aogonek</string>
     <string>b</string>
     <string>c</string>
     <string>ccedilla</string>
@@ -41,16 +72,13 @@
     <string>eogonek</string>
     <string>o</string>
     <string>oe</string>
-    <string>oslash</string>
     <string>p</string>
     <string>s</string>
     <string>thorn</string>
-    <string>u</string>
     <string>uni015F</string>
     <string>uni01EB</string>
     <string>uni0219</string>
     <string>uni0259</string>
-    <string>uni0430</string>
     <string>uni0435</string>
     <string>uni043E</string>
     <string>uni0440</string>
@@ -64,10 +92,7 @@
     <string>uni04D5</string>
     <string>uni04D9</string>
     <string>uni04E9</string>
-    <string>uni1EA1</string>
     <string>uni1EB9</string>
-    <string>uni1EE5</string>
-    <string>uogonek</string>
   </array>
   <key>public.kern1._lc_o_diac_1</key>
   <array>
@@ -277,17 +302,6 @@
     <string>bracketleft</string>
     <string>bracketleft.case</string>
   </array>
-  <key>public.kern1._punct_case_dash_3</key>
-  <array>
-    <string>emdash.case</string>
-    <string>endash.case</string>
-    <string>hyphen.case</string>
-  </array>
-  <key>public.kern1._punct_colon_3</key>
-  <array>
-    <string>colon</string>
-    <string>semicolon</string>
-  </array>
   <key>public.kern1._punct_dash_3</key>
   <array>
     <string>divide</string>
@@ -306,6 +320,7 @@
   </array>
   <key>public.kern1._punct_quote_3</key>
   <array>
+    <string>asterisk</string>
     <string>quotedbl</string>
     <string>quotedblleft</string>
     <string>quotedblright</string>
@@ -631,8 +646,18 @@
   <key>public.kern1._sym_bugs_3</key>
   <array>
     <string>degree</string>
+    <string>eight.sups</string>
+    <string>five.sups</string>
+    <string>four.sups</string>
+    <string>nine.sups</string>
+    <string>one.sups</string>
     <string>registered</string>
+    <string>seven.sups</string>
+    <string>six.sups</string>
+    <string>three.sups</string>
     <string>trademark</string>
+    <string>two.sups</string>
+    <string>zero.sups</string>
   </array>
   <key>public.kern1._uc_A_1</key>
   <array>
@@ -699,6 +724,7 @@
     <string>Dcaron</string>
     <string>Dcroat</string>
     <string>Eth</string>
+    <string>Thorn</string>
   </array>
   <key>public.kern1._uc_E_1</key>
   <array>
@@ -887,6 +913,13 @@
     <string>uni1EF8</string>
     <string>yen</string>
   </array>
+  <key>public.kern1._uc_Z_3</key>
+  <array>
+    <string>Z</string>
+    <string>Zacute</string>
+    <string>Zcaron</string>
+    <string>Zdotaccent</string>
+  </array>
   <key>public.kern1._uc_horn_1</key>
   <array>
     <string>Ohorn</string>
@@ -935,14 +968,30 @@
     <string>uni0237</string>
     <string>uni0458</string>
   </array>
+  <key>public.kern2._lc_n_2</key>
+  <array>
+    <string>dotlessi</string>
+    <string>m</string>
+    <string>n</string>
+    <string>ncommaaccent</string>
+    <string>p</string>
+    <string>r</string>
+  </array>
+  <key>public.kern2._lc_n_diac_2</key>
+  <array>
+    <string>nacute</string>
+    <string>ntilde</string>
+    <string>racute</string>
+    <string>rcaron</string>
+  </array>
   <key>public.kern2._lc_o_2</key>
   <array>
     <string>a</string>
+    <string>a.slnt</string>
     <string>ae</string>
     <string>aogonek</string>
     <string>c</string>
     <string>ccedilla</string>
-    <string>cent</string>
     <string>d</string>
     <string>dcaron</string>
     <string>e</string>
@@ -976,7 +1025,6 @@
     <string>uni1EA1</string>
     <string>uni1EB9</string>
     <string>uni1EE5</string>
-    <string>uni20AB</string>
     <string>uogonek</string>
   </array>
   <key>public.kern2._lc_o_diac_2</key>
@@ -995,6 +1043,7 @@
     <string>ccaron</string>
     <string>ccircumflex</string>
     <string>cdotaccent</string>
+    <string>cent</string>
     <string>dcroat</string>
     <string>eacute</string>
     <string>ebreve</string>
@@ -1077,6 +1126,7 @@
     <string>uni1EE1</string>
     <string>uni1EE3</string>
     <string>uni1EE7</string>
+    <string>uni20AB</string>
     <string>uring</string>
     <string>utilde</string>
   </array>
@@ -1219,6 +1269,7 @@
   </array>
   <key>public.kern2._punct_quote_3</key>
   <array>
+    <string>asterisk</string>
     <string>quotedbl</string>
     <string>quotedblleft</string>
     <string>quotedblright</string>
@@ -1462,8 +1513,18 @@
   <key>public.kern2._sym_bugs_3</key>
   <array>
     <string>degree</string>
+    <string>eight.sups</string>
+    <string>five.sups</string>
+    <string>four.sups</string>
+    <string>nine.sups</string>
+    <string>one.sups</string>
     <string>registered</string>
+    <string>seven.sups</string>
+    <string>six.sups</string>
+    <string>three.sups</string>
     <string>trademark</string>
+    <string>two.sups</string>
+    <string>zero.sups</string>
   </array>
   <key>public.kern2._sym_ord_2</key>
   <array>
