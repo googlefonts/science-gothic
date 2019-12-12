@@ -1,4 +1,4 @@
-Science Gothic supports the following languages
+Science Gothic supports the following 354 languages.
 
 ## Written with the Latin alphabet:
   * Abenaki
