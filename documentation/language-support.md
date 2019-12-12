@@ -1,6 +1,6 @@
 Science Gothic supports the following languages
 
-# Latin alphabet:
+## Written with the Latin alphabet:
   * Abenaki
   * Afaan Oromo
   * Afrikaans
@@ -248,25 +248,112 @@ Science Gothic supports the following languages
   * Zulu
   * Zuni
 
-# Cyrillic alphabet:
-  * Azerbaijani/Azeri
-  * Balkar
-  * Belarusian
-  * Bosnian
+## Written with the Cyrillic alphabet:
+  * Abaza
+  * Abkhaz
+  * Adyghe
+  * Agul
+  * Akhvakh
+  * Altay
+  * Andi
+  * Archi
+  * Avar
+  * Azerbaijani/Azeri (Cyrillic)
+  * Bagvalal Balkar
+  * Bashkir
+  * Belarusian (Cyrillic)
+  * Bosnian (Cyrillic)
+  * Botlikh
+  * Budukh
   * Bulgarian
+  * Buryat
+  * Chamalal
   * Chechen
+  * Chukchi
+  * Chuvash
+  * Crimean Tatar (Cyrillic)
+  * Croatian (Cyrillic)
+  * Dargwa/Dargin
+  * Dungan
+  * Enets
   * Erzya
+  * Eskimo
+  * Even
+  * Evenki
+  * Gagauz (Cyrillic)
+  * Godoberi
+  * Hinukh
+  * Hunzib
+  * Ingush
+  * Itelmen
+  * Juhuri/çuhuri (Cyrillic)
+  * Kabardian
+  * Kalmyk
   * Karachay
+  * Karaim (Cyrillic)
+  * Karakalpak (Cyrillic)
+  * Karata
+  * Kazakh
+  * Ket (Cyrillic)
+  * Khakas (Cyrillic)
+  * Khanty
+  * Khinalugh
+  * Kildin Sami
+  * Komi
+  * Koryak
+  * Krymchak
+  * Kryts
+  * Kubachi
   * Kumyk
+  * Kurdish (Cyrillic)
+  * Kurdish (Cyrillic)
+  * Kyrgyz (Cyrillic)
+  * Lak
+  * Lezgian
+  * Lingua Franca Nova (Cyrillic)
   * Macedonian
+  * Mansi
+  * Mari (Hill and Meadow)
   * Moksha
+  * Moldovan (Cyrillic)
+  * Mongolian (Cyrillic)
+  * Montenigrin (Cyrillic)
   * Nanai
+  * Nenets
+  * Nganasan
   * Nogai
+  * Oroch
+  * Orok
   * Ossetian
   * Russian
   * Rusyn
-  * Sakha
-  * Serbian
-  * Talysh
+  * Rutul
+  * Sakha/Yakut
+  * Serbian (Cyrillic)
+  * Shor
+  * Slovio
+  * Tabassaran
+  * Tajik
+  * Talysh (Cyrillic)
+  * Tat
+  * Tatar
+  * Tati
+  * Tindi
+  * Tofa
+  * Tsakhur (Cyrillic)
+  * Tsez
+  * Turkmen
+  * Tuvan/Tuvinian
+  * Udi
+  * Udmurt
   * Ukrainian
-  * Uzbek
+  * Ulch
+  * Urum
+  * Uyghur (Cyrillic)
+  * Uzbek (Cyrillic)
+  * Votik (Cyrillic)
+  * Wakhi (Cyrillic)
+  * West Polesian
+  * Yaghnobi (Cyrillic)
+  * Yukaghir (Northern and Southern)
+  * Yupik
