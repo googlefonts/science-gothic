@@ -1,103 +1,252 @@
 Science Gothic supports the following languages
 
 # Latin alphabet:
+  * Abenaki
+  * Afaan Oromo
   * Afrikaans
   * Albanian
+  * Alsatian
+  * Amis
+  * Anutu
+  * Aragonese
+  * Aranese
+  * Aromanian
+  * Arrernte
+  * Arvanitic (Latin)
+  * Asturian
+  * Atayal
   * Asu
+  * Aymara
+  * Azerbaijani
+  * Bashkir (Latin)
   * Basque
+  * Belarusian (Latin)
   * Bemba
   * Bena
+  * Bikol
+  * Bislama
+  * Bosnian
   * Breton
   * Catalan
+  * Cebuanu
+  * Chamorro
+  * Chavacano
+  * Chichewa
+  * Chickasaw
   * Chiga
+  * Cimbrian
+  * Cofán
   * Cornish
+  * Corsican
+  * Creek
+  * Crimean Tatar (Latin)
   * Croatian
   * Czech
   * Danish
+  * Dawan
+  * Delaware
+  * Dholuo
+  * Drehu
   * Dutch
   * Embu
   * English
-  * Experanto
+  * Esperanto
   * Estonian
   * Faroese
+  * Fijian
   * Filipino
   * Finnish
+  * Folkspraak
   * French
+  * Frisian
   * Friulian
+  * Gagauz (Latin)
   * Galician
   * Ganda
+  * Genoese
   * German
+  * Gikuyu
+  * Gooniyandi
+  * Greenlandic (Kalaallisut)
+  * Guadeloupean Creole
+  * Gwich’in
   * Gusii
+  * Haitian Creole
+  * Hän
   * Hawaiian
+  * Hiligaynon
+  * Hopi
+  * Hotcąk (Latin)
+  * Hungarian
   * Icelandic
-  * Inari Sami
+  * Ido
+  * Igbo
+  * Ilocano
   * Indonesian
+  * Interglossa
+  * Interlingua
   * Irish
+  * Istro-Romanian
   * Italian
+  * Jamaican
+  * Javanese (Latin)
+  * Jèrriais
   * Jola-Fonyi
-  * Kabuverdianu
+  * Kabuverdianu (Cape Verdean Creole)
+  * Kaingang
+  * Kala Lagaw Ya
   * Kalaallisut
   * Kalenjin
   * Kamba
-  * Kikuyu
+  * Kapampangan (Latin)
+  * Kaqchikel
+  * Karakalpak (Latin)
+  * Karelian (Latin)
+  * Kashubian
+  * Kikongo
   * Kinyarwanda
+  * Kiribati
+  * Kirundi
+  * Klingon (Latin)
+  * Kurdish (Latin)
+  * Ladin
+  * Latin
+  * Latino sine Flexione
   * Latvian
   * Lithuanian
-  * Lower Sorbian
+  * Lojban
+  * Lombard
+  * Low Saxon
   * Luo
-  * Luxembourgish
   * Luyia
+  * Luxembourgish
+  * Maasai
   * Machame
-  * Makhuwa-Meetto
+  * Makhuwa
   * Makonde
   * Malagasy
+  * Malay
   * Maltese
   * Manx
+  * Māori
+  * Marquesan
+  * Megleno-Romanian
+  * Meriam Mir
   * Meru
+  * Mirandese
+  * Mohawk
+  * Moldovan
+  * Montagnais
+  * Montenegrin
   * Morisyen
-  * Northern Sami
-  * North Ndebele
-  * Norwegian Bokmål
-  * Norwegian Nynorsk
+  * Murrinh-Patha
+  * Nagamese Creole
+  * Nahuatl
+  * Ndebele
+  * Neapolitan
+  * Ngiyambaa
+  * Niuean
+  * Noongar
+  * Norwegian
+  * Novial
   * Nyankole
+  * Occidental
+  * Occitan
+  * Old Icelandic
+  * Old Norse
+  * Onĕipŏt
   * Oromo
+  * Oshiwambo
+  * Ossetian (Latin)
+  * Palauan
+  * Papiamento
+  * Piedmontese
   * Polish
   * Portuguese
+  * Potawatomi
+  * Q’eqchi’
   * Quechua
+  * Rarotongan
   * Romanian
   * Romansh
   * Rombo
+  * Rotokas
   * Rundi
   * Rwa
+  * Sami (Inari Sami)
+  * Sami (Lule Sami)
+  * Sami (Northern Sami)
+  * Sami (Southern Sami)
   * Samburu
+  * Samoan
   * Sango
-  * Sangu
+  * Saramaccan
+  * Sardinian
   * Scottish Gaelic
   * Sena
-  * Serbian
+  * Serbian (Latin)
+  * Seri
+  * Seychellois Creole
   * Shambala
+  * Shawnee
   * Shona
+  * Sicilian
+  * Silesian
   * Slovak
   * Slovenian
+  * Slovio (Latin)
   * Soga
   * Somali
+  * Sorbian (Lower Sorbian)
+  * Sorbian (Upper Sorbian)
+  * Sotho (Northern)
+  * Sotho (Southern)
   * Spanish
+  * Sranan
+  * Sundanese (Latin)
   * Swahili
+  * Swazi
   * Swedish
-  * Swiss German
-  * Taita
+  * Tagalog
+  * Tahitian
   * Teso
+  * Tetum
+  * Tok Pisin
+  * Tokelauan
   * Tongan
+  * Tshiluba
+  * Tsonga
+  * Tswana
+  * Tumbuka
   * Turkish
-  * Upper Sorbian
-  * Uzbek
+  * Turkmen (Latin)
+  * Tuvaluan
+  * Tzotzil
+  * Uzbek (Latin)
+  * Venetian
+  * Vepsian
   * Vietnamese
   * Volapük
+  * Võro
   * Vunjo
-  * Walser
+  * Wallisian
+  * Walloon
+  * Waray-Waray
+  * Warlpiri
+  * Wayuu
   * Welsh
-  * Western Frisian
+  * Wik-Mungkan
+  * Wiradjuri
+  * Wolof
+  * Xavante
+  * Xhosa
+  * Yapese
+  * Yindjibarndi
+  * Zapotec
+  * Zarma
+  * Zazaki
   * Zulu
+  * Zuni
 
 # Cyrillic alphabet:
   * Azerbaijani/Azeri
