@@ -3,7 +3,7 @@
 # Extend kerning for accented classes
 # Expression file to be used with TR CopyKerning
 # ---------------------------------
-# REV 16/12/19
+# REV 17/12/19
 
 # - Lowercase ---------------------
 # --> o_diac_1
@@ -94,4 +94,17 @@
 #/yacute.sc:/j.sc = /y.sc:/j.sc
 #/yacute.sc:/t.sc /t.sc:/yacute.sc = /y.sc:/t.sc
 
+# - Cyrillic ----------------------
+# -- Small Caps
+#/uni0433.sc:/a.sc = /l.sc:/v.sc|-15
+#/uni0433.sc:/adieresis.sc = /l.sc:/v.sc|-15
+#/a.sc:/uni044A.sc = /t.sc:/a.sc
+#/adieresis.sc:/uni044A.sc = /t.sc:/a.sc
+#/a.sc:/uni0447.sc = А:Ч|*.8
+#/adieresis.sc:/uni0447.sc = А:Ч|*.8
+#/k.sc:/uni0447.sc = K:Ч|*.8
+#/uni044C.sc:/uni0447.sc = /uni042C:Ч|*.8
+#/uni0446.sc:/t.sc = Ц:Т|*.8
 
+# - Mirror ---------------------
+#A:T = T:A
