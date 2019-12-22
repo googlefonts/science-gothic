@@ -2,6 +2,26 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>public.kern1._guillemotleft_3</key>
+  <array>
+    <string>guillemotleft</string>
+    <string>guilsinglleft</string>
+  </array>
+  <key>public.kern1._guillemotleftcase_3</key>
+  <array>
+    <string>guillemotleft.case</string>
+    <string>guilsinglleft.case</string>
+  </array>
+  <key>public.kern1._guillemotright_3</key>
+  <array>
+    <string>guillemotright</string>
+    <string>guilsinglright</string>
+  </array>
+  <key>public.kern1._guillemotrightcase_3</key>
+  <array>
+    <string>guillemotright.case</string>
+    <string>guilsinglright.case</string>
+  </array>
   <key>public.kern1._lc_anh_1</key>
   <array>
     <string>a</string>
@@ -229,31 +249,45 @@
   <key>public.kern1._lc_v_3</key>
   <array>
     <string>uni0475</string>
+    <string>uni0475.sc</string>
     <string>uni04AF</string>
     <string>uni04B1</string>
     <string>v</string>
+    <string>v.sc</string>
   </array>
   <key>public.kern1._lc_w_3</key>
   <array>
     <string>uni051D</string>
+    <string>uni051D.sc</string>
+    <string>uni1E85.sc</string>
     <string>w</string>
+    <string>w.sc</string>
   </array>
   <key>public.kern1._lc_w_diac_3</key>
   <array>
+    <string>uni1E81.sc</string>
+    <string>uni1E83.sc</string>
     <string>wacute</string>
     <string>wcircumflex</string>
+    <string>wcircumflex.sc</string>
     <string>wdieresis</string>
     <string>wgrave</string>
   </array>
   <key>public.kern1._lc_x_3</key>
   <array>
     <string>uni0436</string>
+    <string>uni0436.sc</string>
     <string>uni0445</string>
+    <string>uni0445.sc</string>
     <string>uni0497</string>
+    <string>uni0497.sc</string>
     <string>uni04B3</string>
+    <string>uni04B3.sc</string>
     <string>uni04C2</string>
+    <string>uni04C2.sc</string>
     <string>uni04DD</string>
     <string>x</string>
+    <string>x.sc</string>
   </array>
   <key>public.kern1._lc_y_3</key>
   <array>
@@ -279,8 +313,11 @@
   <key>public.kern1._lc_z_diac_3</key>
   <array>
     <string>zacute</string>
+    <string>zacute.sc</string>
     <string>zcaron</string>
+    <string>zcaron.sc</string>
     <string>zdotaccent</string>
+    <string>zdotaccent.sc</string>
   </array>
   <key>public.kern1._punct_backslash_3</key>
   <array>
@@ -594,32 +631,6 @@
     <string>uni0463.sc</string>
     <string>uni04BB.sc</string>
   </array>
-  <key>public.kern1._sc_v_3</key>
-  <array>
-    <string>uni0475.sc</string>
-    <string>v.sc</string>
-  </array>
-  <key>public.kern1._sc_w_3</key>
-  <array>
-    <string>uni051D.sc</string>
-    <string>uni1E85.sc</string>
-    <string>w.sc</string>
-  </array>
-  <key>public.kern1._sc_w_diac_3</key>
-  <array>
-    <string>uni1E81.sc</string>
-    <string>uni1E83.sc</string>
-    <string>wcircumflex.sc</string>
-  </array>
-  <key>public.kern1._sc_x_3</key>
-  <array>
-    <string>uni0436.sc</string>
-    <string>uni0445.sc</string>
-    <string>uni0497.sc</string>
-    <string>uni04B3.sc</string>
-    <string>uni04C2.sc</string>
-    <string>x.sc</string>
-  </array>
   <key>public.kern1._sc_y_3</key>
   <array>
     <string>uni04AF.sc</string>
@@ -636,12 +647,6 @@
     <string>yacute.sc</string>
     <string>ycircumflex.sc</string>
     <string>ydieresis.sc</string>
-  </array>
-  <key>public.kern1._sc_z_diac_3</key>
-  <array>
-    <string>zacute.sc</string>
-    <string>zcaron.sc</string>
-    <string>zdotaccent.sc</string>
   </array>
   <key>public.kern1._sym_bugs_3</key>
   <array>
@@ -961,6 +966,31 @@
     <string>uni0462</string>
     <string>uni04BA</string>
   </array>
+  <key>public.kern2._guillemotleft_3</key>
+  <array>
+    <string>guillemotleft</string>
+    <string>guilsinglleft</string>
+  </array>
+  <key>public.kern2._guillemotleftcase_3</key>
+  <array>
+    <string>guillemotleft.case</string>
+    <string>guilsinglleft.case</string>
+  </array>
+  <key>public.kern2._guillemotright_3</key>
+  <array>
+    <string>guillemotright</string>
+    <string>guilsinglright</string>
+  </array>
+  <key>public.kern2._guillemotrightcase_3</key>
+  <array>
+    <string>guillemotright.case</string>
+    <string>guilsinglright.case</string>
+  </array>
+  <key>public.kern2._lc_f_3</key>
+  <array>
+    <string>f</string>
+    <string>f.slnt</string>
+  </array>
   <key>public.kern2._lc_j_3</key>
   <array>
     <string>j</string>
@@ -1167,31 +1197,45 @@
   <key>public.kern2._lc_v_3</key>
   <array>
     <string>uni0475</string>
+    <string>uni0475.sc</string>
     <string>uni04AF</string>
     <string>uni04B1</string>
     <string>v</string>
+    <string>v.sc</string>
   </array>
   <key>public.kern2._lc_w_3</key>
   <array>
     <string>uni051D</string>
+    <string>uni051D.sc</string>
+    <string>uni1E85.sc</string>
     <string>w</string>
+    <string>w.sc</string>
   </array>
   <key>public.kern2._lc_w_diac_3</key>
   <array>
+    <string>uni1E81.sc</string>
+    <string>uni1E83.sc</string>
     <string>wacute</string>
     <string>wcircumflex</string>
+    <string>wcircumflex.sc</string>
     <string>wdieresis</string>
     <string>wgrave</string>
   </array>
   <key>public.kern2._lc_x_3</key>
   <array>
     <string>uni0436</string>
+    <string>uni0436.sc</string>
     <string>uni0445</string>
+    <string>uni0445.sc</string>
     <string>uni0497</string>
+    <string>uni0497.sc</string>
     <string>uni04B3</string>
+    <string>uni04B3.sc</string>
     <string>uni04C2</string>
+    <string>uni04C2.sc</string>
     <string>uni04DD</string>
     <string>x</string>
+    <string>x.sc</string>
   </array>
   <key>public.kern2._lc_y_3</key>
   <array>
@@ -1217,8 +1261,11 @@
   <key>public.kern2._lc_z_diac_3</key>
   <array>
     <string>zacute</string>
+    <string>zacute.sc</string>
     <string>zcaron</string>
+    <string>zcaron.sc</string>
     <string>zdotaccent</string>
+    <string>zdotaccent.sc</string>
   </array>
   <key>public.kern2._punct_backslash_3</key>
   <array>
@@ -1461,32 +1508,6 @@
     <string>uni04CC.sc</string>
     <string>uni04F5.sc</string>
   </array>
-  <key>public.kern2._sc_v_3</key>
-  <array>
-    <string>uni0475.sc</string>
-    <string>v.sc</string>
-  </array>
-  <key>public.kern2._sc_w_3</key>
-  <array>
-    <string>uni051D.sc</string>
-    <string>uni1E85.sc</string>
-    <string>w.sc</string>
-  </array>
-  <key>public.kern2._sc_w_diac_3</key>
-  <array>
-    <string>uni1E81.sc</string>
-    <string>uni1E83.sc</string>
-    <string>wcircumflex.sc</string>
-  </array>
-  <key>public.kern2._sc_x_3</key>
-  <array>
-    <string>uni0436.sc</string>
-    <string>uni0445.sc</string>
-    <string>uni0497.sc</string>
-    <string>uni04B3.sc</string>
-    <string>uni04C2.sc</string>
-    <string>x.sc</string>
-  </array>
   <key>public.kern2._sc_y_3</key>
   <array>
     <string>uni04AF.sc</string>
@@ -1503,12 +1524,6 @@
     <string>yacute.sc</string>
     <string>ycircumflex.sc</string>
     <string>ydieresis.sc</string>
-  </array>
-  <key>public.kern2._sc_z_diac_3</key>
-  <array>
-    <string>zacute.sc</string>
-    <string>zcaron.sc</string>
-    <string>zdotaccent.sc</string>
   </array>
   <key>public.kern2._sym_bugs_3</key>
   <array>

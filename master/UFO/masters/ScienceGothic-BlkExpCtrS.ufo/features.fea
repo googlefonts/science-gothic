@@ -1038,6 +1038,8 @@ feature case {
 #< feature
 } case;
 
+
+
 feature kern {
   @_uc_A_1 = [A Aacute Abreve Acircumflex Adieresis Adotbelow Agrave Amacron Aogonek Aring Aringacute Atilde Ldot uni0200 uni0202 uni0410 uni0414 uni041B uni04D0 uni04D2 uni1EA2 uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC uni1EAE uni1EB0 uni1EB2 uni1EB4 uni1EB6];
   @_uc_B_1 = [B uni0411 uni0412 uni0417 uni0498 uni04DE uni1E9E];
@@ -1062,24 +1064,43 @@ feature kern {
   @_lc_r_1 = [r uni0157];
   @_lc_r_diac_1 = [racute rcaron uni0211 uni0213];
   @_lc_t_3 = [t tbar tcaron uni0163 uni021B];
-  @_lc_v_3 = [uni0475 uni04AF uni04B1 v];
-  @_lc_w_3 = [uni051D w];
-  @_lc_w_diac_3 = [wacute wcircumflex wdieresis wgrave];
-  @_lc_x_3 = [uni0436 uni0445 uni0497 uni04B3 uni04C2 uni04DD x];
+  @_lc_v_3 = [uni0475 uni0475.sc uni04AF uni04B1 v v.sc];
+  @_lc_w_3 = [uni051D uni051D.sc uni1E85.sc w w.sc];
+  @_lc_w_diac_3 = [uni1E81.sc uni1E83.sc wacute wcircumflex wcircumflex.sc wdieresis wgrave];
+  @_lc_x_3 = [uni0436 uni0436.sc uni0445 uni0445.sc uni0497 uni0497.sc uni04B3 uni04B3.sc uni04C2 uni04C2.sc uni04DD x x.sc];
   @_lc_y_3 = [uni0443 uni04BB uni1EF5 y];
   @_lc_y_diac_3 = [uni0233 uni045E uni04EF uni04F1 uni04F3 uni1EF3 uni1EF7 uni1EF9 yacute ycircumflex ydieresis];
+  @_lc_z_diac_3 = [zacute zacute.sc zcaron zcaron.sc zdotaccent zdotaccent.sc];
+  @_sc_a_3 = [a.sc aogonek.sc uni0430.sc uni0434.sc uni043B.sc];
+  @_sc_a_diac_3 = [aacute.sc abreve.sc acircumflex.sc adieresis.sc agrave.sc amacron.sc aring.sc aringacute.sc atilde.sc uni0201.sc uni0203.sc uni04D1.sc uni04D3.sc uni1EA5.sc uni1EA7.sc uni1EA9.sc uni1EAB.sc uni1EAD.sc uni1EAF.sc uni1EB1.sc uni1EB3.sc uni1EB5.sc uni1EB7.sc];
+  @_sc_d_1 = [d.sc dcaron.sc dcroat.sc eth.sc];
+  @_sc_k_1 = [k.sc kcommaaccent.sc kgreenlandic.sc uni043A.sc uni045C.sc uni049B.sc uni049D.sc uni04A1.sc];
+  @_sc_l_1 = [l.sc lacute.sc lcaron.sc lcommaaccent.sc ldot.sc lslash.sc];
+  @_sc_p_1 = [p.sc uni0440.sc];
+  @_sc_t_1 = [t.sc tbar.sc tcaron.sc tcedilla.sc uni021B.sc uni0442.sc];
+  @_sc_y_3 = [uni04AF.sc uni04B1.sc uni1EF5.sc y.sc];
+  @_sc_y_diac_3 = [uni0233.sc uni1EF3.sc uni1EF7.sc uni1EF9.sc yacute.sc ycircumflex.sc ydieresis.sc];
+  @_sc_uni0433_1 = [uni0433.sc uni0453.sc uni0491.sc uni0493.sc uni04F7.sc];
+  @_sc_uni0446_1 = [uni0446.sc uni0449.sc uni04A3.sc uni04B7.sc];
+  @_sc_uni044C_1 = [uni044A.sc uni044C.sc uni0452.sc uni0459.sc uni045A.sc uni045B.sc uni0463.sc uni04BB.sc];
   @_punct_base_3 = [comma ellipsis period quotedblbase quotesinglbase];
   @_punct_dash_3 = [divide emdash endash hyphen plus uni00AD uni2010 uni2212];
   @_punct_quote_3 = [asterisk quotedbl quotedblleft quotedblright quoteleft quoteright quotesingle uni02B9 uni02BA uni02BB uni02BC uni2032 uni2033];
+  @_punct_sc_quotes_3 = [quotedbl.sc quotedblleft.sc quotedblright.sc quoteleft.sc quoteright.sc quotesingle.sc];
   @_punct_slash_3 = [slash slash.case];
   @_punct_backslash_3 = [backslash backslash.case];
   @_sym_bugs_3 = [degree eight.sups five.sups four.sups nine.sups one.sups registered seven.sups six.sups three.sups trademark two.sups zero.sups];
   @_lc_f_3 = [f f.slnt];
   @_lc_anh_1 = [a aogonek h m n uni0430 uni1EA1];
   @_lc_dotlessi_1 = [a.slnt dotlessi oslash q u uni0430.slnt uni0438 uni043C uni043D uni043F uni0447 uni044B uni044F uni1EE5 uogonek];
+  @_guillemotleft_3 = [guillemotleft guilsinglleft];
+  @_guillemotright_3 = [guillemotright guilsinglright];
+  @_guillemotleftcase_3 = [guillemotleft.case guilsinglleft.case];
+  @_guillemotrightcase_3 = [guillemotright.case guilsinglright.case];
   @_uc_T_2 = [T Tbar Tcaron uni0162 uni021A uni0402 uni040B uni0422 uni042A uni04A0];
   @_uc_uni0427_2 = [uni0427 uni04B6 uni04B8 uni04CB uni04F4];
   @_lc_uni0442_2 = [uni0442 uni044A uni04A1];
+  @_sc_t_2 = [t.sc tbar.sc tcaron.sc tcedilla.sc uni021B.sc uni0442.sc uni044A.sc uni0452.sc uni045B.sc uni04A1.sc];
   @_uc_A_2 = [A AE AEacute Aacute Abreve Acircumflex Adieresis Adotbelow Agrave Amacron Aogonek Aring Aringacute Atilde uni0200 uni0202 uni0409 uni0410 uni0414 uni041B uni04D0 uni04D2 uni04D4 uni1EA2 uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC uni1EAE uni1EB0 uni1EB2 uni1EB4 uni1EB6];
   @_uc_X_2 = [X uni0416 uni0425 uni0496 uni04B2 uni04C1 uni04DC];
   @_punct_parenright_2 = [parenright parenright.case];
@@ -1087,6 +1108,7 @@ feature kern {
   @_uc_J_2 = [J Jcircumflex uni0408];
   @_lc_o_2 = [a a.slnt ae aogonek c ccedilla d dcaron e eogonek g o oe ohorn oslash q s u uni015F uni01C6 uni01EB uni0219 uni0259 uni0430 uni0435 uni043E uni0441 uni0444 uni0454 uni0455 uni0473 uni04AB uni04D5 uni04D9 uni04E9 uni051B uni1EA1 uni1EB9 uni1EE5 uogonek];
   @_lc_o_diac_2 = [aacute abreve acircumflex adieresis aeacute agrave amacron aring aringacute atilde cacute ccaron ccircumflex cdotaccent cent dcroat eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eth gbreve gcaron gcircumflex gcommaaccent gdotaccent oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslashacute otilde sacute scaron scircumflex uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uni0201 uni0203 uni0205 uni0207 uni020D uni020F uni0215 uni0217 uni022B uni022D uni0231 uni0450 uni0451 uni04D1 uni04D3 uni04D7 uni04E7 uni1EA3 uni1EA5 uni1EA7 uni1EA9 uni1EAB uni1EAD uni1EAF uni1EB1 uni1EB3 uni1EB5 uni1EB7 uni1EBB uni1EBD uni1EBF uni1EC1 uni1EC3 uni1EC5 uni1EC7 uni1ECD uni1ECF uni1ED1 uni1ED3 uni1ED5 uni1ED7 uni1ED9 uni1EDB uni1EDD uni1EDF uni1EE1 uni1EE3 uni1EE7 uni20AB uring utilde];
+  @_sc_j_2 = [j.sc jcircumflex.sc uni0458.sc];
   @_lc_n_2 = [dotlessi m n ncommaaccent p r];
   @_punct_case_dash_3 = [emdash.case endash.case hyphen.case];
   @_uc_uni0423_2 = [uni040E uni0423 uni04EE uni04F0 uni04F2];
@@ -1094,12 +1116,18 @@ feature kern {
   @_uc_O_2 = [C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohorn Ohungarumlaut Omacron Oslash Oslashacute Otilde Q Q.alt at at.case colonmonetary copyright uni018F uni01EA uni020C uni020E uni022A uni022C uni0230 uni0404 uni041E uni0421 uni0424 uni0472 uni04AA uni04D8 uni04E6 uni04E8 uni051A uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8 uni1EDA uni1EDC uni1EDE uni1EE0 uni1EE2 uni20B2 uni20B5];
   @_punct_colon_3 = [colon semicolon];
   @_lc_n_diac_2 = [nacute ntilde racute rcaron];
+  @_sc_o_2 = [c.sc ccedilla.sc g.sc gcommaaccent.sc germandbls.smcp o.sc oe.sc ohorn.sc oogonek.sc oslash.sc q.sc s.sc scedilla.sc u.sc uni0219.sc uni0259.sc uni043E.sc uni0441.sc uni0444.sc uni0454.sc uni0455.sc uni0473.sc uni04AB.sc uni04E9.sc uni051B.sc uni1ECD.sc uni1EE5.sc uogonek.sc];
+  @_sc_uni0447_2 = [uni0447.sc uni04B7.sc uni04B9.sc uni04CC.sc uni04F5.sc];
   @_uc_S_3 = [S Sacute Scaron Scircumflex uni015E uni0218 uni0405];
 
   lookup KERN_LTR  {
   lookupflag IgnoreMarks;
     pos A question -180;
     pos A seven -40;
+    pos F i.sc -100;
+    pos F r.sc -150;
+    pos F z.sc -90;
+    pos F z -100;
     pos I quotesingle -100;
     pos I quotedbl -100;
     pos I quoteleft -100;
@@ -1151,6 +1179,12 @@ feature kern {
     pos L question -180;
     pos L four 40;
     pos P uni044F -10;
+    pos T b.sc -50;
+    pos T e.sc -160;
+    pos T f.sc -70;
+    pos T k.sc -50;
+    pos T r.sc -150;
+    pos T z.sc -90;
     pos T z -100;
     pos T ampersand -75;
     pos T uni0432 -160;
@@ -1159,57 +1193,70 @@ feature kern {
     pos T uni044B -150;
     pos T uni044F -160;
     pos T four -100;
+    pos T lslash.sc -90;
+    pos V z.sc -30;
+    pos V z -90;
     pos V ampersand -44;
     pos V four -55;
+    pos W e.sc -40;
+    pos W z -50;
     pos W four -40;
+    pos Y f.sc -40;
+    pos Y i.sc -50;
+    pos Y k.sc -50;
+    pos Y n.sc -150;
+    pos Y z.sc -90;
+    pos Y z -150;
     pos Y ampersand -90;
-    pos Y ntilde -200;
     pos Y four -70;
-    pos f a -10;
-    pos f c -10;
-    pos f d -10;
-    pos f e -10;
-    pos f g -10;
-    pos f o -10;
-    pos f q -10;
-    pos f r -40;
-    pos f s -10;
-    pos f u -10;
-    pos f v 10;
-    pos f x 15;
-    pos f y 20;
+    pos a.sc seven -120;
+    pos f.sc a.sc -110;
+    pos f.sc w.sc 20;
+    pos f.sc x.sc 20;
+    pos f.sc y.sc 20;
+    pos f.sc w 20;
+    pos f.sc x 20;
+    pos f.sc uni0436 20;
+    pos f.sc uni0445 20;
+    pos f.sc uni0497 20;
+    pos f.sc uni04B3 20;
+    pos f.sc uni04C2 20;
+    pos f.sc uni04DD 20;
+    pos f.sc uni051D 20;
+    pos f.sc uni0430.sc -110;
+    pos f.sc uni0434.sc -110;
+    pos f.sc uni0436.sc 20;
+    pos f.sc uni043B.sc -110;
+    pos f.sc uni0445.sc 20;
+    pos f.sc uni051D.sc 20;
+    pos f.sc uni0497.sc 20;
+    pos f.sc uni04B3.sc 20;
+    pos f.sc uni04C2.sc 20;
+    pos f.sc uni04AF.sc 20;
+    pos f.sc uni04B1.sc 20;
+    pos f.sc aogonek.sc -110;
+    pos f.sc uni1E85.sc 20;
+    pos f.sc uni1EF5.sc 20;
+    pos t.sc four -50;
+    pos v.sc l -20;
+    pos v.sc z -20;
+    pos w.sc l -5;
+    pos w.sc z -10;
+    pos z.sc hyphen -80;
+    pos z.sc uni2010 -80;
+    pos z.sc endash -80;
+    pos z.sc emdash -80;
+    pos z.sc guilsinglleft -20;
+    pos z.sc guilsinglright 40;
+    pos z.sc guillemotleft -20;
+    pos z.sc guillemotright 40;
+    pos z.sc guilsinglleft.case -30;
+    pos z.sc guillemotleft.case -30;
+    pos z.sc plus -80;
+    pos z.sc uni2212 -80;
+    pos z.sc divide -80;
+    pos z.sc uni00AD -80;
     pos f z -20;
-    pos f ae -10;
-    pos f oe -10;
-    pos f uni0259 -10;
-    pos f oslash -10;
-    pos f uni0430 -10;
-    pos f uni0435 -10;
-    pos f uni043E -10;
-    pos f uni0441 -10;
-    pos f uni0444 -10;
-    pos f uni0454 -10;
-    pos f uni0455 -10;
-    pos f uni0473 -10;
-    pos f uni04D5 -10;
-    pos f uni04D9 -10;
-    pos f uni051B -10;
-    pos f uni04E9 -10;
-    pos f uni01EB -10;
-    pos f aogonek -10;
-    pos f uni04AB -10;
-    pos f uogonek -10;
-    pos f eogonek -10;
-    pos f uni01C6 -10;
-    pos f ohorn -10;
-    pos f ccedilla -10;
-    pos f dcaron -10;
-    pos f uni015F -10;
-    pos f uni0219 -10;
-    pos f uni1EE5 -10;
-    pos f uni1EB9 -10;
-    pos f uni1EA1 -10;
-    pos f a.slnt -10;
     pos g uni0237 200;
     pos g j 200;
     pos g jcircumflex 200;
@@ -1227,6 +1274,8 @@ feature kern {
     pos i uni02BC -10;
     pos i uni02BB -10;
     pos i asterisk -10;
+    pos l v.sc -20;
+    pos l w.sc -5;
     pos l v -20;
     pos l w -5;
     pos l y -20;
@@ -1234,9 +1283,12 @@ feature kern {
     pos l uni0475 -20;
     pos l uni04BB -20;
     pos l uni051D -5;
+    pos l uni051D.sc -5;
     pos l uni04AF -20;
     pos l uni04B1 -20;
+    pos l uni0475.sc -20;
     pos l uni1EF5 -20;
+    pos l uni1E85.sc -5;
     pos r z -20;
     pos v l -20;
     pos v z -20;
@@ -1244,6 +1296,8 @@ feature kern {
     pos w z -10;
     pos y l -20;
     pos y z -20;
+    pos z w.sc 40;
+    pos z x.sc 20;
     pos z w 40;
     pos z x 20;
     pos z y 20;
@@ -1256,7 +1310,14 @@ feature kern {
     pos z uni04C2 20;
     pos z uni04DD 20;
     pos z uni051D 40;
+    pos z uni0436.sc 20;
+    pos z uni0445.sc 20;
+    pos z uni051D.sc 40;
+    pos z uni0497.sc 20;
+    pos z uni04B3.sc 20;
+    pos z uni04C2.sc 20;
     pos z uni1EF5 20;
+    pos z uni1E85.sc 40;
     pos ampersand T -180;
     pos ampersand V -120;
     pos ampersand Y -180;
@@ -1281,24 +1342,177 @@ feature kern {
     pos ampersand uni1EF4 -180;
     pos ampersand uni1EF6 -180;
     pos ampersand uni1EF8 -180;
+    pos questiondown C -100;
+    pos questiondown G -100;
+    pos questiondown J -50;
+    pos questiondown O -100;
+    pos questiondown Q -100;
+    pos questiondown V -150;
+    pos questiondown W -120;
+    pos questiondown Y -220;
+    pos questiondown uni0237 280;
+    pos questiondown j 280;
+    pos questiondown y 30;
+    pos questiondown yen -220;
+    pos questiondown colonmonetary -100;
+    pos questiondown uni20A9 -120;
+    pos questiondown uni20B2 -100;
+    pos questiondown uni20B5 -100;
+    pos questiondown uni20AE -120;
+    pos questiondown copyright -100;
+    pos questiondown OE -100;
+    pos questiondown uni018F -100;
+    pos questiondown Oacute -100;
+    pos questiondown Ocircumflex -100;
+    pos questiondown Ccaron -100;
+    pos questiondown Gdotaccent -100;
+    pos questiondown Jcircumflex -50;
+    pos questiondown Omacron -100;
+    pos questiondown Ohungarumlaut -100;
+    pos questiondown jcircumflex 280;
+    pos questiondown uni0404 -100;
+    pos questiondown uni0408 -50;
+    pos questiondown uni041E -100;
+    pos questiondown uni0421 -100;
+    pos questiondown uni0424 -100;
+    pos questiondown uni0443 30;
+    pos questiondown uni0458 280;
+    pos questiondown uni0472 -100;
+    pos questiondown uni0474 -150;
+    pos questiondown uni04AE -220;
+    pos questiondown uni04B0 -220;
+    pos questiondown uni04E6 -100;
+    pos questiondown uni04E8 -100;
+    pos questiondown uni051C -120;
+    pos questiondown uni051A -100;
+    pos questiondown uni04BB 30;
+    pos questiondown uni04D8 -100;
+    pos questiondown uni04AA -100;
+    pos questiondown Ograve -100;
+    pos questiondown Otilde -100;
+    pos questiondown Odieresis -100;
+    pos questiondown Yacute -220;
+    pos questiondown Cacute -100;
+    pos questiondown Ccircumflex -100;
+    pos questiondown Cdotaccent -100;
+    pos questiondown Gcircumflex -100;
+    pos questiondown Gbreve -100;
+    pos questiondown Obreve -100;
+    pos questiondown Wcircumflex -120;
+    pos questiondown Ycircumflex -220;
+    pos questiondown Ydieresis -220;
+    pos questiondown uni01EA -100;
+    pos questiondown Gcaron -100;
+    pos questiondown Ohorn -100;
+    pos questiondown Oslash -100;
+    pos questiondown Gcommaaccent -100;
+    pos questiondown Wgrave -120;
+    pos questiondown Wacute -120;
+    pos questiondown Wdieresis -120;
+    pos questiondown uni0232 -220;
+    pos questiondown Ccedilla -100;
+    pos questiondown Oslashacute -100;
+    pos questiondown uni020C -100;
+    pos questiondown uni020E -100;
+    pos questiondown at -100;
+    pos questiondown uni022A -100;
+    pos questiondown uni022C -100;
+    pos questiondown uni0230 -100;
+    pos questiondown uni1ECC -100;
+    pos questiondown uni1ECE -100;
+    pos questiondown uni1ED8 -100;
+    pos questiondown at.case -100;
+    pos questiondown uni1ED2 -100;
+    pos questiondown uni1ED6 -100;
+    pos questiondown uni1EF5 30;
+    pos questiondown uni1ED0 -100;
+    pos questiondown uni1EDA -100;
+    pos questiondown uni1EDC -100;
+    pos questiondown uni1EDE -100;
+    pos questiondown uni1EE0 -100;
+    pos questiondown uni1EE2 -100;
+    pos questiondown uni1ED4 -100;
+    pos questiondown uni1EF2 -220;
+    pos questiondown uni1EF4 -220;
+    pos questiondown uni1EF6 -220;
+    pos questiondown uni1EF8 -220;
+    pos questiondown Q.alt -100;
+    pos hyphen z.sc -70;
     pos hyphen seven -220;
+    pos uni2010 z.sc -70;
     pos uni2010 seven -220;
+    pos endash z.sc -70;
     pos endash seven -220;
+    pos emdash z.sc -70;
     pos emdash seven -220;
+    pos guilsinglleft z.sc 40;
+    pos guilsinglleft four 90;
+    pos guilsinglleft nine -40;
+    pos guilsinglleft one.tnum 20;
+    pos guilsinglright z.sc -20;
+    pos guilsinglright four 120;
+    pos guilsinglright seven -100;
+    pos guilsinglright nine 7;
+    pos guillemotleft z.sc 40;
+    pos guillemotleft four 90;
+    pos guillemotleft nine -40;
+    pos guillemotleft one.tnum 20;
+    pos guillemotright z.sc -20;
+    pos guillemotright four 120;
+    pos guillemotright seven -100;
+    pos guillemotright nine 7;
+    pos guilsinglleft.case z.sc 40;
+    pos guilsinglleft.case four 150;
+    pos guilsinglleft.case one.tnum -50;
+    pos guilsinglright.case z.sc -30;
+    pos guilsinglright.case four 100;
+    pos guilsinglright.case seven -70;
+    pos guilsinglright.case nine -50;
+    pos guilsinglright.case one.tnum -140;
+    pos guillemotleft.case z.sc 40;
+    pos guillemotleft.case four 150;
+    pos guillemotleft.case one.tnum -50;
+    pos guillemotright.case z.sc -30;
+    pos guillemotright.case four 100;
+    pos guillemotright.case seven -70;
+    pos guillemotright.case nine -50;
+    pos guillemotright.case one.tnum -140;
+    pos yen f.sc -40;
+    pos yen i.sc -50;
+    pos yen k.sc -50;
+    pos yen n.sc -150;
+    pos yen z.sc -90;
+    pos yen z -150;
     pos yen ampersand -90;
-    pos yen ntilde -200;
     pos yen four -70;
+    pos franc i.sc -100;
+    pos franc r.sc -150;
+    pos franc z.sc -90;
+    pos franc z -100;
+    pos uni20A9 e.sc -40;
+    pos uni20A9 z -50;
     pos uni20A9 four -40;
     pos uni20B1 uni044F -10;
+    pos uni20AE e.sc -40;
+    pos uni20AE z -50;
     pos uni20AE four -40;
+    pos plus z.sc -70;
     pos plus seven -220;
+    pos uni2212 z.sc -70;
     pos uni2212 seven -220;
+    pos divide z.sc -70;
     pos divide seven -220;
     pos Aring question -180;
     pos Aring seven -40;
     pos Lacute ampersand 6;
     pos Lacute question -180;
     pos Lacute four 40;
+    pos Tbar b.sc -50;
+    pos Tbar e.sc -160;
+    pos Tbar f.sc -70;
+    pos Tbar k.sc -50;
+    pos Tbar r.sc -150;
+    pos Tbar z.sc -90;
     pos Tbar z -100;
     pos Tbar ampersand -75;
     pos Tbar uni0432 -160;
@@ -1307,6 +1521,7 @@ feature kern {
     pos Tbar uni044B -150;
     pos Tbar uni044F -160;
     pos Tbar four -100;
+    pos Tbar lslash.sc -90;
     pos uni0157 z -20;
     pos uni0403 uni043D -150;
     pos uni0403 uni0440 -130;
@@ -1319,6 +1534,12 @@ feature kern {
     pos uni041B question -180;
     pos uni041B seven -40;
     pos uni0420 uni044F -10;
+    pos uni0422 b.sc -50;
+    pos uni0422 e.sc -160;
+    pos uni0422 f.sc -70;
+    pos uni0422 k.sc -50;
+    pos uni0422 r.sc -150;
+    pos uni0422 z.sc -90;
     pos uni0422 z -100;
     pos uni0422 ampersand -75;
     pos uni0422 uni0432 -160;
@@ -1327,6 +1548,7 @@ feature kern {
     pos uni0422 uni044B -150;
     pos uni0422 uni044F -160;
     pos uni0422 four -100;
+    pos uni0422 lslash.sc -90;
     pos uni0423 uni0427 -40;
     pos uni0423 uni04B6 -40;
     pos uni0423 uni04B8 -40;
@@ -1336,16 +1558,29 @@ feature kern {
     pos uni0429 uni042F -20;
     pos uni0443 l -20;
     pos uni0443 z -20;
+    pos uni0474 z.sc -30;
+    pos uni0474 z -90;
     pos uni0474 ampersand -44;
     pos uni0474 four -55;
+    pos uni04AE f.sc -40;
+    pos uni04AE i.sc -50;
+    pos uni04AE k.sc -50;
+    pos uni04AE n.sc -150;
+    pos uni04AE z.sc -90;
+    pos uni04AE z -150;
     pos uni04AE ampersand -90;
-    pos uni04AE ntilde -200;
     pos uni04AE four -70;
     pos uni0490 uni043D -150;
     pos uni0490 uni0440 -130;
     pos uni0492 uni043D -150;
     pos uni0492 uni0440 -130;
     pos uni04A2 uni042F -20;
+    pos uni04A4 b.sc -50;
+    pos uni04A4 e.sc -160;
+    pos uni04A4 f.sc -70;
+    pos uni04A4 k.sc -50;
+    pos uni04A4 r.sc -150;
+    pos uni04A4 z.sc -90;
     pos uni04A4 z -100;
     pos uni04A4 ampersand -75;
     pos uni04A4 uni0432 -160;
@@ -1354,8 +1589,14 @@ feature kern {
     pos uni04A4 uni044B -150;
     pos uni04A4 uni044F -160;
     pos uni04A4 four -100;
+    pos uni04A4 lslash.sc -90;
+    pos uni04B0 f.sc -40;
+    pos uni04B0 i.sc -50;
+    pos uni04B0 k.sc -50;
+    pos uni04B0 n.sc -150;
+    pos uni04B0 z.sc -90;
+    pos uni04B0 z -150;
     pos uni04B0 ampersand -90;
-    pos uni04B0 ntilde -200;
     pos uni04B0 four -70;
     pos uni04B6 uni042F -20;
     pos uni04D0 question -180;
@@ -1364,6 +1605,8 @@ feature kern {
     pos uni04D2 seven -40;
     pos uni04F6 uni043D -150;
     pos uni04F6 uni0440 -130;
+    pos uni051C e.sc -40;
+    pos uni051C z -50;
     pos uni051C four -40;
     pos uni0475 l -20;
     pos uni0475 z -20;
@@ -1371,13 +1614,27 @@ feature kern {
     pos uni04BB z -20;
     pos uni051D l -5;
     pos uni051D z -10;
+    pos uni0430.sc seven -120;
+    pos uni0434.sc seven -120;
+    pos uni043B.sc seven -120;
+    pos uni0442.sc four -50;
+    pos uni051D.sc l -5;
+    pos uni051D.sc z -10;
     pos four T -40;
     pos four W -40;
     pos four X -40;
     pos four Y -70;
+    pos four t.sc -50;
+    pos four y.sc -50;
+    pos four guilsinglleft 40;
+    pos four guillemotleft 40;
+    pos four guilsinglleft.case 20;
+    pos four guillemotleft.case 20;
     pos four yen -70;
     pos four uni20A9 -40;
     pos four uni20AE -40;
+    pos four registered -180;
+    pos four trademark -180;
     pos four Tbar -40;
     pos four uni0402 -40;
     pos four uni040B -40;
@@ -1393,22 +1650,46 @@ feature kern {
     pos four uni04C1 -40;
     pos four uni04DC -40;
     pos four uni051C -40;
+    pos four uni0442.sc -50;
+    pos four uni044A.sc -50;
+    pos four uni0452.sc -50;
+    pos four uni045B.sc -50;
+    pos four degree -180;
     pos four Yacute -70;
     pos four Tcaron -40;
     pos four Wcircumflex -40;
     pos four Ycircumflex -70;
     pos four Ydieresis -70;
+    pos four zero.sups -180;
+    pos four one.sups -180;
+    pos four two.sups -180;
+    pos four three.sups -180;
+    pos four four.sups -180;
+    pos four five.sups -180;
+    pos four six.sups -180;
+    pos four seven.sups -180;
+    pos four eight.sups -180;
+    pos four nine.sups -180;
+    pos four uni04A1.sc -50;
+    pos four uni04AF.sc -50;
+    pos four uni04B1.sc -50;
     pos four uni0162 -40;
     pos four Wgrave -40;
     pos four Wacute -40;
     pos four Wdieresis -40;
     pos four uni021A -40;
     pos four uni0232 -70;
+    pos four tcaron.sc -50;
+    pos four tbar.sc -50;
     pos four uni1EF2 -70;
     pos four uni1EF4 -70;
     pos four uni1EF6 -70;
     pos four uni1EF8 -70;
+    pos four tcedilla.sc -50;
+    pos four uni021B.sc -50;
+    pos four uni1EF5.sc -50;
     pos seven A -85;
+    pos seven a.sc -50;
     pos seven parenright 50;
     pos seven parenright.case 50;
     pos seven slash -85;
@@ -1422,6 +1703,12 @@ feature kern {
     pos seven comma -250;
     pos seven quotesinglbase -250;
     pos seven quotedblbase -250;
+    pos seven guilsinglleft -100;
+    pos seven guillemotleft -100;
+    pos seven guilsinglleft.case -80;
+    pos seven guillemotleft.case -80;
+    pos seven registered 80;
+    pos seven trademark 80;
     pos seven plus -220;
     pos seven uni2212 -220;
     pos seven divide -220;
@@ -1434,6 +1721,10 @@ feature kern {
     pos seven uni04D0 -85;
     pos seven uni04D2 -85;
     pos seven uni04D4 -85;
+    pos seven uni0430.sc -50;
+    pos seven uni0434.sc -50;
+    pos seven uni043B.sc -50;
+    pos seven degree 80;
     pos seven Agrave -85;
     pos seven Aacute -85;
     pos seven Acircumflex -85;
@@ -1443,8 +1734,19 @@ feature kern {
     pos seven Abreve -85;
     pos seven Aogonek -85;
     pos seven AEacute -85;
+    pos seven zero.sups 80;
+    pos seven one.sups 80;
+    pos seven two.sups 80;
+    pos seven three.sups 80;
+    pos seven four.sups 80;
+    pos seven five.sups 80;
+    pos seven six.sups 80;
+    pos seven seven.sups 80;
+    pos seven eight.sups 80;
+    pos seven nine.sups 80;
     pos seven uni0202 -85;
     pos seven uni00AD -220;
+    pos seven aogonek.sc -50;
     pos seven Aringacute -85;
     pos seven uni0200 -85;
     pos seven Adotbelow -85;
@@ -1459,9 +1761,55 @@ feature kern {
     pos seven uni1EAE -85;
     pos seven uni1EB2 -85;
     pos seven uni1EB4 -85;
+    pos nine guilsinglleft -40;
+    pos nine guilsinglright -40;
+    pos nine guillemotleft -40;
+    pos nine guillemotright -40;
     pos Lslash ampersand 6;
     pos Lslash question -180;
     pos Lslash four 40;
+    pos one.tnum T -70;
+    pos one.tnum V -100;
+    pos one.tnum W -50;
+    pos one.tnum Y -100;
+    pos one.tnum backslash -100;
+    pos one.tnum backslash.case -100;
+    pos one.tnum guilsinglleft -70;
+    pos one.tnum guilsinglright 20;
+    pos one.tnum guillemotleft -70;
+    pos one.tnum guillemotright 20;
+    pos one.tnum guilsinglleft.case -140;
+    pos one.tnum guilsinglright.case -50;
+    pos one.tnum guillemotleft.case -140;
+    pos one.tnum guillemotright.case -50;
+    pos one.tnum yen -100;
+    pos one.tnum uni20A9 -50;
+    pos one.tnum uni20AE -50;
+    pos one.tnum Tbar -70;
+    pos one.tnum uni0402 -70;
+    pos one.tnum uni040B -70;
+    pos one.tnum uni0422 -70;
+    pos one.tnum uni042A -70;
+    pos one.tnum uni0474 -100;
+    pos one.tnum uni04AE -100;
+    pos one.tnum uni04A0 -70;
+    pos one.tnum uni04B0 -100;
+    pos one.tnum uni051C -50;
+    pos one.tnum Yacute -100;
+    pos one.tnum Tcaron -70;
+    pos one.tnum Wcircumflex -50;
+    pos one.tnum Ycircumflex -100;
+    pos one.tnum Ydieresis -100;
+    pos one.tnum uni0162 -70;
+    pos one.tnum Wgrave -50;
+    pos one.tnum Wacute -50;
+    pos one.tnum Wdieresis -50;
+    pos one.tnum uni021A -70;
+    pos one.tnum uni0232 -100;
+    pos one.tnum uni1EF2 -100;
+    pos one.tnum uni1EF4 -100;
+    pos one.tnum uni1EF6 -100;
+    pos one.tnum uni1EF8 -100;
     pos Agrave question -180;
     pos Agrave seven -40;
     pos Aacute question -180;
@@ -1472,13 +1820,24 @@ feature kern {
     pos Atilde seven -40;
     pos Adieresis question -180;
     pos Adieresis seven -40;
+    pos Yacute f.sc -40;
+    pos Yacute i.sc -50;
+    pos Yacute k.sc -50;
+    pos Yacute n.sc -150;
+    pos Yacute z.sc -90;
+    pos Yacute z -150;
     pos Yacute ampersand -90;
-    pos Yacute ntilde -200;
     pos Yacute four -70;
     pos Amacron question -180;
     pos Amacron seven -40;
     pos Abreve question -180;
     pos Abreve seven -40;
+    pos Tcaron b.sc -50;
+    pos Tcaron e.sc -160;
+    pos Tcaron f.sc -70;
+    pos Tcaron k.sc -50;
+    pos Tcaron r.sc -150;
+    pos Tcaron z.sc -90;
     pos Tcaron z -100;
     pos Tcaron ampersand -75;
     pos Tcaron uni0432 -160;
@@ -1487,12 +1846,25 @@ feature kern {
     pos Tcaron uni044B -150;
     pos Tcaron uni044F -160;
     pos Tcaron four -100;
+    pos Tcaron lslash.sc -90;
+    pos Wcircumflex e.sc -40;
+    pos Wcircumflex z -50;
     pos Wcircumflex four -40;
+    pos Ycircumflex f.sc -40;
+    pos Ycircumflex i.sc -50;
+    pos Ycircumflex k.sc -50;
+    pos Ycircumflex n.sc -150;
+    pos Ycircumflex z.sc -90;
+    pos Ycircumflex z -150;
     pos Ycircumflex ampersand -90;
-    pos Ycircumflex ntilde -200;
     pos Ycircumflex four -70;
+    pos Ydieresis f.sc -40;
+    pos Ydieresis i.sc -50;
+    pos Ydieresis k.sc -50;
+    pos Ydieresis n.sc -150;
+    pos Ydieresis z.sc -90;
+    pos Ydieresis z -150;
     pos Ydieresis ampersand -90;
-    pos Ydieresis ntilde -200;
     pos Ydieresis four -70;
     pos Aogonek question -180;
     pos Aogonek seven -40;
@@ -1500,9 +1872,34 @@ feature kern {
     pos uni04AF z -20;
     pos uni04B1 l -20;
     pos uni04B1 z -20;
+    pos questiondown.sc v.sc -100;
+    pos questiondown.sc w.sc -50;
+    pos questiondown.sc y.sc -120;
+    pos questiondown.sc v -100;
+    pos questiondown.sc w -50;
+    pos questiondown.sc uni0475 -100;
+    pos questiondown.sc uni051D -50;
+    pos questiondown.sc uni051D.sc -50;
+    pos questiondown.sc uni04AF -100;
+    pos questiondown.sc uni04B1 -100;
+    pos questiondown.sc uni0475.sc -100;
+    pos questiondown.sc uni04AF.sc -120;
+    pos questiondown.sc uni04B1.sc -120;
+    pos questiondown.sc uni1E85.sc -50;
+    pos questiondown.sc uni1EF5.sc -120;
+    pos uni0475.sc l -20;
+    pos uni0475.sc z -20;
+    pos uni04D1.sc seven -120;
+    pos uni04D3.sc seven -120;
     pos Lcommaaccent ampersand 6;
     pos Lcommaaccent question -180;
     pos Lcommaaccent four 40;
+    pos uni0162 b.sc -50;
+    pos uni0162 e.sc -160;
+    pos uni0162 f.sc -70;
+    pos uni0162 k.sc -50;
+    pos uni0162 r.sc -150;
+    pos uni0162 z.sc -90;
     pos uni0162 z -100;
     pos uni0162 ampersand -75;
     pos uni0162 uni0432 -160;
@@ -1511,11 +1908,24 @@ feature kern {
     pos uni0162 uni044B -150;
     pos uni0162 uni044F -160;
     pos uni0162 four -100;
+    pos uni0162 lslash.sc -90;
     pos uni0202 question -180;
     pos uni0202 seven -40;
+    pos Wgrave e.sc -40;
+    pos Wgrave z -50;
     pos Wgrave four -40;
+    pos Wacute e.sc -40;
+    pos Wacute z -50;
     pos Wacute four -40;
+    pos Wdieresis e.sc -40;
+    pos Wdieresis z -50;
     pos Wdieresis four -40;
+    pos uni021A b.sc -50;
+    pos uni021A e.sc -160;
+    pos uni021A f.sc -70;
+    pos uni021A k.sc -50;
+    pos uni021A r.sc -150;
+    pos uni021A z.sc -90;
     pos uni021A z -100;
     pos uni021A ampersand -75;
     pos uni021A uni0432 -160;
@@ -1524,16 +1934,85 @@ feature kern {
     pos uni021A uni044B -150;
     pos uni021A uni044F -160;
     pos uni021A four -100;
+    pos uni021A lslash.sc -90;
+    pos uni0232 f.sc -40;
+    pos uni0232 i.sc -50;
+    pos uni0232 k.sc -50;
+    pos uni0232 n.sc -150;
+    pos uni0232 z.sc -90;
+    pos uni0232 z -150;
     pos uni0232 ampersand -90;
-    pos uni0232 ntilde -200;
     pos uni0232 four -70;
     pos Ldot question -180;
     pos Ldot seven -40;
+    pos uni00AD z.sc -70;
     pos uni00AD seven -220;
+    pos adieresis.sc seven -120;
+    pos amacron.sc seven -120;
+    pos tcaron.sc four -50;
+    pos aogonek.sc seven -120;
+    pos agrave.sc seven -120;
+    pos aacute.sc seven -120;
+    pos acircumflex.sc seven -120;
+    pos atilde.sc seven -120;
+    pos abreve.sc seven -120;
     pos Aringacute question -180;
     pos Aringacute seven -40;
+    pos questiondown.case T -100;
+    pos questiondown.case V -80;
+    pos questiondown.case W -60;
+    pos questiondown.case Y -140;
+    pos questiondown.case t.sc -100;
+    pos questiondown.case v.sc -50;
+    pos questiondown.case y.sc -100;
+    pos questiondown.case v -50;
+    pos questiondown.case yen -140;
+    pos questiondown.case uni20A9 -60;
+    pos questiondown.case uni20AE -60;
+    pos questiondown.case Tbar -100;
+    pos questiondown.case uni0402 -100;
+    pos questiondown.case uni040B -100;
+    pos questiondown.case uni0422 -100;
+    pos questiondown.case uni042A -100;
+    pos questiondown.case uni0474 -80;
+    pos questiondown.case uni04AE -140;
+    pos questiondown.case uni04A0 -100;
+    pos questiondown.case uni04B0 -140;
+    pos questiondown.case uni051C -60;
+    pos questiondown.case uni0475 -50;
+    pos questiondown.case uni0442.sc -100;
+    pos questiondown.case uni044A.sc -100;
+    pos questiondown.case uni0452.sc -100;
+    pos questiondown.case uni045B.sc -100;
+    pos questiondown.case Yacute -140;
+    pos questiondown.case Tcaron -100;
+    pos questiondown.case Wcircumflex -60;
+    pos questiondown.case Ycircumflex -140;
+    pos questiondown.case Ydieresis -140;
+    pos questiondown.case uni04AF -50;
+    pos questiondown.case uni04B1 -50;
+    pos questiondown.case uni0475.sc -50;
+    pos questiondown.case uni04A1.sc -100;
+    pos questiondown.case uni04AF.sc -100;
+    pos questiondown.case uni04B1.sc -100;
+    pos questiondown.case uni0162 -100;
+    pos questiondown.case Wgrave -60;
+    pos questiondown.case Wacute -60;
+    pos questiondown.case Wdieresis -60;
+    pos questiondown.case uni021A -100;
+    pos questiondown.case uni0232 -140;
+    pos questiondown.case tcaron.sc -100;
+    pos questiondown.case tbar.sc -100;
+    pos questiondown.case uni1EF2 -140;
+    pos questiondown.case uni1EF4 -140;
+    pos questiondown.case uni1EF6 -140;
+    pos questiondown.case uni1EF8 -140;
+    pos questiondown.case tcedilla.sc -100;
+    pos questiondown.case uni021B.sc -100;
+    pos questiondown.case uni1EF5.sc -100;
     pos uni0200 question -180;
     pos uni0200 seven -40;
+    pos tbar.sc four -50;
     pos Adotbelow question -180;
     pos Adotbelow seven -40;
     pos uni1EA2 question -180;
@@ -1542,6 +2021,7 @@ feature kern {
     pos uni1EAC seven -40;
     pos uni1EB6 question -180;
     pos uni1EB6 seven -40;
+    pos aring.sc seven -120;
     pos uni1EA6 question -180;
     pos uni1EA6 seven -40;
     pos uni1EAA question -180;
@@ -1554,17 +2034,37 @@ feature kern {
     pos uni1EA4 seven -40;
     pos uni1EA8 question -180;
     pos uni1EA8 seven -40;
+    pos uni1EF2 f.sc -40;
+    pos uni1EF2 i.sc -50;
+    pos uni1EF2 k.sc -50;
+    pos uni1EF2 n.sc -150;
+    pos uni1EF2 z.sc -90;
+    pos uni1EF2 z -150;
     pos uni1EF2 ampersand -90;
-    pos uni1EF2 ntilde -200;
     pos uni1EF2 four -70;
+    pos uni1EF4 f.sc -40;
+    pos uni1EF4 i.sc -50;
+    pos uni1EF4 k.sc -50;
+    pos uni1EF4 n.sc -150;
+    pos uni1EF4 z.sc -90;
+    pos uni1EF4 z -150;
     pos uni1EF4 ampersand -90;
-    pos uni1EF4 ntilde -200;
     pos uni1EF4 four -70;
+    pos uni1EF6 f.sc -40;
+    pos uni1EF6 i.sc -50;
+    pos uni1EF6 k.sc -50;
+    pos uni1EF6 n.sc -150;
+    pos uni1EF6 z.sc -90;
+    pos uni1EF6 z -150;
     pos uni1EF6 ampersand -90;
-    pos uni1EF6 ntilde -200;
     pos uni1EF6 four -70;
+    pos uni1EF8 f.sc -40;
+    pos uni1EF8 i.sc -50;
+    pos uni1EF8 k.sc -50;
+    pos uni1EF8 n.sc -150;
+    pos uni1EF8 z.sc -90;
+    pos uni1EF8 z -150;
     pos uni1EF8 ampersand -90;
-    pos uni1EF8 ntilde -200;
     pos uni1EF8 four -70;
     pos uni1EAE question -180;
     pos uni1EAE seven -40;
@@ -1572,21 +2072,43 @@ feature kern {
     pos uni1EB2 seven -40;
     pos uni1EB4 question -180;
     pos uni1EB4 seven -40;
+    pos tcedilla.sc four -50;
+    pos aringacute.sc seven -120;
+    pos uni0201.sc seven -120;
+    pos uni0203.sc seven -120;
+    pos uni021B.sc four -50;
+    pos uni1E85.sc l -5;
+    pos uni1E85.sc z -10;
+    pos uni1EA5.sc seven -120;
+    pos uni1EA7.sc seven -120;
+    pos uni1EA9.sc seven -120;
+    pos uni1EAB.sc seven -120;
+    pos uni1EAD.sc seven -120;
+    pos uni1EAF.sc seven -120;
+    pos uni1EB1.sc seven -120;
+    pos uni1EB3.sc seven -120;
+    pos uni1EB5.sc seven -120;
+    pos uni1EB7.sc seven -120;
+    pos f.slnt z -20;
   subtable;
-    pos @_uc_A_1 @_uc_T_2 -130;
-    pos @_uc_A_1 @_uc_V_3 -145;
-    pos @_uc_A_1 @_uc_W_3 -115;
+    pos @_uc_A_1 @_uc_T_2 -120;
+    pos @_uc_A_1 @_uc_V_3 -120;
+    pos @_uc_A_1 @_uc_W_3 -65;
     pos @_uc_A_1 @_uc_Y_3 -180;
     pos @_uc_A_1 @_uc_uni0427_2 -125;
     pos @_uc_A_1 @_lc_t_3 -50;
-    pos @_uc_A_1 @_lc_v_3 -76;
+    pos @_uc_A_1 @_lc_v_3 -75;
     pos @_uc_A_1 @_lc_w_3 -50;
-    pos @_uc_A_1 @_lc_y_3 -70;
+    pos @_uc_A_1 @_lc_y_3 -50;
     pos @_uc_A_1 @_lc_uni0442_2 -50;
+    pos @_uc_A_1 @_sc_t_2 -80;
+    pos @_uc_A_1 @_sc_y_3 -90;
     pos @_uc_A_1 @_punct_quote_3 -180;
     pos @_uc_A_1 @_sym_bugs_3 -290;
+    pos @_uc_A_1 @_guillemotright_3 40;
+    pos @_uc_A_1 @_guillemotleftcase_3 -60;
     pos @_uc_B_1 @_uc_Y_3 -10;
-    pos @_uc_D_1 @_uc_A_2 -50;
+    pos @_uc_D_1 @_uc_A_2 -20;
     pos @_uc_D_1 @_uc_T_2 -40;
     pos @_uc_D_1 @_uc_V_3 -55;
     pos @_uc_D_1 @_uc_W_3 -20;
@@ -1599,25 +2121,40 @@ feature kern {
     pos @_uc_D_1 @_punct_quote_3 -50;
     pos @_uc_D_1 @_punct_slash_3 -60;
     pos @_uc_E_1 @_lc_uni0442_2 -10;
-    pos @_uc_F_1 @_uc_A_2 -180;
-    pos @_uc_F_1 @_uc_J_2 -200;
+    pos @_uc_F_1 @_uc_A_2 -190;
+    pos @_uc_F_1 @_uc_J_2 -230;
     pos @_uc_F_1 @_uc_Z_3 -90;
-    pos @_uc_F_1 @_lc_o_2 -240;
+    pos @_uc_F_1 @_lc_o_2 -150;
     pos @_uc_F_1 @_lc_o_diac_2 -180;
+    pos @_uc_F_1 @_lc_t_3 -30;
+    pos @_uc_F_1 @_lc_v_3 -40;
+    pos @_uc_F_1 @_lc_w_3 -40;
+    pos @_uc_F_1 @_lc_x_3 -40;
+    pos @_uc_F_1 @_lc_y_3 -40;
+    pos @_uc_F_1 @_sc_a_3 -260;
+    pos @_uc_F_1 @_sc_j_2 -350;
     pos @_uc_F_1 @_punct_base_3 -330;
-    pos @_uc_F_1 @_lc_n_2 -240;
+    pos @_uc_F_1 @_lc_n_2 -150;
     pos @_uc_KX_1 @_uc_T_2 -10;
     pos @_uc_KX_1 @_uc_Y_3 -10;
     pos @_uc_KX_1 @_uc_uni0427_2 -90;
     pos @_uc_KX_1 @_lc_y_3 -100;
     pos @_uc_KX_1 @_lc_uni0442_2 -130;
-    pos @_uc_KX_1 @_punct_dash_3 -260;
+    pos @_uc_KX_1 @_sc_t_2 -60;
+    pos @_uc_KX_1 @_sc_y_3 -80;
+    pos @_uc_KX_1 @_punct_dash_3 -190;
     pos @_uc_KX_1 @_punct_case_dash_3 -360;
-    pos @_uc_L_1 @_uc_A_2 10;
+    pos @_uc_KX_1 @_guillemotleftcase_3 -120;
+    pos @_uc_KX_1 @_guillemotrightcase_3 -50;
+    pos @_uc_L_1 @_uc_A_2 60;
     pos @_uc_L_1 @_uc_T_2 -220;
     pos @_uc_L_1 @_uc_V_3 -160;
     pos @_uc_L_1 @_uc_W_3 -85;
     pos @_uc_L_1 @_uc_Y_3 -120;
+    pos @_uc_L_1 @_lc_v_3 -20;
+    pos @_uc_L_1 @_sc_t_2 -30;
+    pos @_uc_L_1 @_sc_y_3 -60;
+    pos @_uc_L_1 @_punct_dash_3 -220;
     pos @_uc_L_1 @_punct_quote_3 -330;
     pos @_uc_L_1 @_sym_bugs_3 -350;
     pos @_uc_O_1 @_uc_uni0423_2 -10;
@@ -1627,6 +2164,8 @@ feature kern {
     pos @_uc_P_1 @_uc_Z_3 -20;
     pos @_uc_P_1 @_lc_o_2 -20;
     pos @_uc_P_1 @_lc_uni0442_2 20;
+    pos @_uc_P_1 @_sc_a_3 -100;
+    pos @_uc_P_1 @_sc_j_2 -50;
     pos @_uc_P_1 @_punct_base_3 -330;
     pos @_uc_P_1 @_punct_slash_3 -150;
     pos @_uc_R_1 @_uc_O_2 -25;
@@ -1642,52 +2181,85 @@ feature kern {
     pos @_uc_T_1 @_lc_o_diac_2 -110;
     pos @_uc_T_1 @_lc_v_3 -150;
     pos @_uc_T_1 @_lc_w_3 -150;
+    pos @_uc_T_1 @_lc_w_diac_3 -150;
     pos @_uc_T_1 @_lc_x_3 -150;
     pos @_uc_T_1 @_lc_y_3 -150;
+    pos @_uc_T_1 @_lc_y_diac_3 -150;
     pos @_uc_T_1 @_lc_uni043B_3 -150;
+    pos @_uc_T_1 @_sc_j_2 -200;
+    pos @_uc_T_1 @_sc_y_3 -20;
     pos @_uc_T_1 @_punct_base_3 -250;
-    pos @_uc_T_1 @_punct_dash_3 -330;
+    pos @_uc_T_1 @_punct_dash_3 -280;
+    pos @_uc_T_1 @_punct_quote_3 40;
     pos @_uc_T_1 @_punct_slash_3 -125;
     pos @_uc_T_1 @_punct_colon_3 -130;
     pos @_uc_T_1 @_sym_bugs_3 150;
     pos @_uc_T_1 @_lc_n_2 -240;
     pos @_uc_T_1 @_lc_n_diac_2 -80;
-    pos @_uc_V_3 @_uc_A_2 -145;
+    pos @_uc_V_3 @_uc_A_2 -120;
     pos @_uc_V_3 @_uc_J_2 -100;
     pos @_uc_V_3 @_uc_Z_3 -20;
     pos @_uc_V_3 @_lc_o_2 -140;
     pos @_uc_V_3 @_lc_o_diac_2 -120;
+    pos @_uc_V_3 @_lc_y_3 -20;
+    pos @_uc_V_3 @_sc_a_3 -200;
+    pos @_uc_V_3 @_sc_j_2 -110;
     pos @_uc_V_3 @_punct_base_3 -250;
-    pos @_uc_V_3 @_punct_dash_3 -220;
+    pos @_uc_V_3 @_punct_dash_3 -120;
     pos @_uc_V_3 @_punct_braceright_2 40;
+    pos @_uc_V_3 @_punct_quote_3 40;
     pos @_uc_V_3 @_punct_slash_3 -85;
     pos @_uc_V_3 @_punct_colon_3 -90;
     pos @_uc_V_3 @_sym_bugs_3 100;
     pos @_uc_V_3 @_lc_n_2 -130;
-    pos @_uc_W_3 @_uc_A_2 -115;
+    pos @_uc_V_3 @_guillemotleft_3 -130;
+    pos @_uc_V_3 @_guillemotright_3 -60;
+    pos @_uc_V_3 @_guillemotleftcase_3 -90;
+    pos @_uc_V_3 @_guillemotrightcase_3 -45;
+    pos @_uc_W_3 @_uc_A_2 -65;
     pos @_uc_W_3 @_uc_J_2 -80;
     pos @_uc_W_3 @_uc_Z_3 -10;
     pos @_uc_W_3 @_lc_o_2 -80;
     pos @_uc_W_3 @_lc_o_diac_2 -80;
+    pos @_uc_W_3 @_sc_j_2 -100;
     pos @_uc_W_3 @_punct_base_3 -250;
-    pos @_uc_W_3 @_punct_dash_3 -220;
+    pos @_uc_W_3 @_punct_dash_3 -90;
     pos @_uc_W_3 @_punct_braceright_2 40;
     pos @_uc_W_3 @_punct_slash_3 -85;
     pos @_uc_W_3 @_punct_colon_3 -40;
     pos @_uc_W_3 @_sym_bugs_3 100;
     pos @_uc_W_3 @_lc_n_2 -130;
+    pos @_uc_W_3 @_guillemotleft_3 -50;
+    pos @_uc_W_3 @_guillemotleftcase_3 -40;
     pos @_uc_Y_3 @_uc_A_2 -170;
-    pos @_uc_Y_3 @_uc_J_2 -120;
+    pos @_uc_Y_3 @_uc_J_2 -180;
     pos @_uc_Y_3 @_uc_Z_3 -50;
-    pos @_uc_Y_3 @_lc_o_2 -240;
+    pos @_uc_Y_3 @_lc_o_2 -150;
     pos @_uc_Y_3 @_lc_o_diac_2 -200;
+    pos @_uc_Y_3 @_lc_t_3 -70;
+    pos @_uc_Y_3 @_lc_v_3 -100;
+    pos @_uc_Y_3 @_lc_w_3 -90;
+    pos @_uc_Y_3 @_lc_x_3 -90;
+    pos @_uc_Y_3 @_lc_y_3 -80;
+    pos @_uc_Y_3 @_sc_j_2 -200;
+    pos @_uc_Y_3 @_sc_o_2 -200;
+    pos @_uc_Y_3 @_sc_y_3 -20;
     pos @_uc_Y_3 @_punct_base_3 -250;
     pos @_uc_Y_3 @_punct_dash_3 -220;
     pos @_uc_Y_3 @_punct_slash_3 -85;
     pos @_uc_Y_3 @_sym_bugs_3 100;
-    pos @_uc_Y_3 @_lc_n_2 -220;
+    pos @_uc_Y_3 @_lc_n_2 -150;
+    pos @_uc_Y_3 @_lc_n_diac_2 -200;
+    pos @_uc_Y_3 @_lc_f_3 -20;
+    pos @_uc_Y_3 @_guillemotleft_3 -260;
+    pos @_uc_Y_3 @_guillemotright_3 -200;
+    pos @_uc_Y_3 @_guillemotleftcase_3 -200;
+    pos @_uc_Y_3 @_guillemotrightcase_3 -140;
     pos @_uc_Z_3 @_punct_parenright_2 30;
     pos @_uc_Z_3 @_punct_braceright_2 30;
+    pos @_uc_Z_3 @_guillemotright_3 10;
+    pos @_uc_Z_3 @_guillemotleftcase_3 -70;
+    pos @_uc_Z_3 @_guillemotrightcase_3 -10;
     pos @_uc_uni042C_1 @_uc_T_2 -120;
     pos @_uc_uni042C_1 @_uc_uni0427_2 -30;
     pos @_uc_uni0413_1 @_uc_A_2 -125;
@@ -1705,43 +2277,186 @@ feature kern {
     pos @_lc_o_1 @_uc_V_3 -130;
     pos @_lc_o_1 @_lc_t_3 -30;
     pos @_lc_o_1 @_lc_v_3 -10;
+    pos @_lc_o_1 @_lc_w_diac_3 -10;
     pos @_lc_o_1 @_lc_y_3 -10;
+    pos @_lc_o_1 @_lc_y_diac_3 -10;
     pos @_lc_o_diac_1 @_uc_T_2 -110;
+    pos @_lc_o_diac_1 @_uc_V_3 -130;
+    pos @_lc_o_diac_1 @_lc_t_3 -30;
+    pos @_lc_o_diac_1 @_lc_v_3 -10;
+    pos @_lc_o_diac_1 @_lc_y_3 -10;
     pos @_lc_r_1 @_lc_y_3 10;
     pos @_lc_r_1 @_punct_base_3 -330;
     pos @_lc_r_1 @_punct_slash_3 -90;
+    pos @_lc_r_diac_1 @_lc_y_3 10;
     pos @_lc_r_diac_1 @_punct_base_3 -330;
+    pos @_lc_r_diac_1 @_punct_slash_3 -90;
     pos @_lc_t_3 @_lc_t_3 -20;
     pos @_lc_t_3 @_lc_v_3 10;
     pos @_lc_t_3 @_lc_w_3 15;
     pos @_lc_t_3 @_lc_y_3 20;
     pos @_lc_v_3 @_uc_T_2 -150;
     pos @_lc_v_3 @_lc_o_2 -10;
+    pos @_lc_v_3 @_lc_w_diac_3 40;
     pos @_lc_v_3 @_lc_x_3 40;
     pos @_lc_v_3 @_lc_y_3 40;
+    pos @_lc_v_3 @_lc_y_diac_3 40;
+    pos @_lc_v_3 @_sc_a_3 -60;
+    pos @_lc_v_3 @_sc_a_diac_3 -60;
+    pos @_lc_v_3 @_sc_j_2 -60;
+    pos @_lc_v_3 @_sc_t_2 40;
     pos @_lc_v_3 @_punct_base_3 -250;
+    pos @_lc_v_3 @_punct_dash_3 -50;
     pos @_lc_v_3 @_punct_quote_3 30;
+    pos @_lc_v_3 @_punct_sc_quotes_3 40;
     pos @_lc_v_3 @_punct_slash_3 -60;
+    pos @_lc_v_3 @_sym_bugs_3 50;
+    pos @_lc_v_3 @_guillemotleft_3 -50;
+    pos @_lc_v_3 @_guillemotright_3 10;
+    pos @_lc_v_3 @_guillemotleftcase_3 -10;
+    pos @_lc_v_3 @_guillemotrightcase_3 30;
     pos @_lc_w_3 @_uc_T_2 -150;
     pos @_lc_w_3 @_lc_o_2 -10;
     pos @_lc_w_3 @_lc_v_3 40;
     pos @_lc_w_3 @_lc_x_3 40;
     pos @_lc_w_3 @_lc_y_3 40;
+    pos @_lc_w_3 @_lc_y_diac_3 40;
+    pos @_lc_w_3 @_lc_z_diac_3 -10;
+    pos @_lc_w_3 @_sc_a_3 -40;
+    pos @_lc_w_3 @_sc_a_diac_3 -40;
+    pos @_lc_w_3 @_sc_j_2 -50;
+    pos @_lc_w_3 @_sc_t_2 40;
     pos @_lc_w_3 @_punct_base_3 -200;
+    pos @_lc_w_3 @_punct_dash_3 20;
     pos @_lc_w_3 @_punct_quote_3 20;
+    pos @_lc_w_3 @_guillemotleft_3 -10;
+    pos @_lc_w_3 @_guillemotright_3 20;
+    pos @_lc_w_3 @_guillemotleftcase_3 -10;
+    pos @_lc_w_3 @_guillemotrightcase_3 40;
+    pos @_lc_w_diac_3 @_uc_T_2 -150;
+    pos @_lc_w_diac_3 @_lc_o_2 -10;
+    pos @_lc_w_diac_3 @_lc_v_3 40;
+    pos @_lc_w_diac_3 @_lc_x_3 40;
+    pos @_lc_w_diac_3 @_lc_y_3 40;
+    pos @_lc_w_diac_3 @_lc_z_diac_3 -10;
+    pos @_lc_w_diac_3 @_sc_a_3 -40;
+    pos @_lc_w_diac_3 @_sc_a_diac_3 -40;
+    pos @_lc_w_diac_3 @_sc_j_2 -50;
+    pos @_lc_w_diac_3 @_sc_t_2 40;
     pos @_lc_w_diac_3 @_punct_base_3 -200;
+    pos @_lc_w_diac_3 @_punct_dash_3 20;
+    pos @_lc_w_diac_3 @_punct_quote_3 20;
+    pos @_lc_w_diac_3 @_guillemotleft_3 -10;
+    pos @_lc_w_diac_3 @_guillemotright_3 20;
+    pos @_lc_w_diac_3 @_guillemotleftcase_3 -10;
+    pos @_lc_w_diac_3 @_guillemotrightcase_3 40;
     pos @_lc_x_3 @_uc_T_2 -100;
     pos @_lc_x_3 @_lc_v_3 40;
     pos @_lc_x_3 @_lc_w_3 40;
+    pos @_lc_x_3 @_lc_w_diac_3 40;
     pos @_lc_x_3 @_lc_y_3 40;
+    pos @_lc_x_3 @_lc_y_diac_3 40;
+    pos @_lc_x_3 @_punct_dash_3 -80;
+    pos @_lc_x_3 @_guillemotleft_3 -90;
+    pos @_lc_x_3 @_guillemotright_3 10;
+    pos @_lc_x_3 @_guillemotleftcase_3 -50;
+    pos @_lc_x_3 @_guillemotrightcase_3 5;
     pos @_lc_y_3 @_uc_T_2 -150;
     pos @_lc_y_3 @_lc_o_2 -10;
     pos @_lc_y_3 @_lc_v_3 40;
     pos @_lc_y_3 @_lc_w_3 40;
+    pos @_lc_y_3 @_lc_w_diac_3 40;
     pos @_lc_y_3 @_lc_x_3 40;
+    pos @_lc_y_3 @_lc_z_diac_3 -20;
     pos @_lc_y_3 @_punct_base_3 -250;
     pos @_lc_y_3 @_punct_quote_3 20;
+    pos @_lc_y_diac_3 @_uc_T_2 -50;
+    pos @_lc_y_diac_3 @_lc_o_2 -10;
+    pos @_lc_y_diac_3 @_lc_v_3 40;
+    pos @_lc_y_diac_3 @_lc_w_3 40;
+    pos @_lc_y_diac_3 @_lc_x_3 40;
+    pos @_lc_y_diac_3 @_lc_z_diac_3 -20;
     pos @_lc_y_diac_3 @_punct_base_3 -250;
+    pos @_lc_y_diac_3 @_punct_quote_3 20;
+    pos @_lc_z_diac_3 @_lc_w_3 40;
+    pos @_lc_z_diac_3 @_lc_w_diac_3 40;
+    pos @_lc_z_diac_3 @_lc_x_3 20;
+    pos @_lc_z_diac_3 @_lc_y_3 20;
+    pos @_lc_z_diac_3 @_lc_y_diac_3 20;
+    pos @_sc_a_3 @_lc_v_3 -60;
+    pos @_sc_a_3 @_lc_w_3 -40;
+    pos @_sc_a_3 @_lc_w_diac_3 -40;
+    pos @_sc_a_3 @_sc_a_3 50;
+    pos @_sc_a_3 @_sc_t_2 -60;
+    pos @_sc_a_3 @_sc_y_3 -120;
+    pos @_sc_a_3 @_sc_uni0447_2 -100;
+    pos @_sc_a_3 @_punct_sc_quotes_3 -120;
+    pos @_sc_a_3 @_sym_bugs_3 -200;
+    pos @_sc_a_3 @_guillemotleft_3 -30;
+    pos @_sc_a_3 @_guillemotright_3 10;
+    pos @_sc_a_3 @_guillemotleftcase_3 -60;
+    pos @_sc_a_3 @_guillemotrightcase_3 -30;
+    pos @_sc_a_diac_3 @_lc_v_3 -60;
+    pos @_sc_a_diac_3 @_lc_w_3 -40;
+    pos @_sc_a_diac_3 @_lc_w_diac_3 -40;
+    pos @_sc_a_diac_3 @_sc_t_2 -80;
+    pos @_sc_a_diac_3 @_sc_y_3 -120;
+    pos @_sc_a_diac_3 @_sc_uni0447_2 -100;
+    pos @_sc_a_diac_3 @_punct_sc_quotes_3 -120;
+    pos @_sc_a_diac_3 @_sym_bugs_3 -200;
+    pos @_sc_a_diac_3 @_guillemotleft_3 -30;
+    pos @_sc_a_diac_3 @_guillemotright_3 10;
+    pos @_sc_a_diac_3 @_guillemotleftcase_3 -60;
+    pos @_sc_a_diac_3 @_guillemotrightcase_3 -30;
+    pos @_sc_d_1 @_sc_a_3 -80;
+    pos @_sc_d_1 @_sc_a_diac_3 -80;
+    pos @_sc_k_1 @_sc_uni0447_2 -72;
+    pos @_sc_l_1 @_lc_v_3 -100;
+    pos @_sc_l_1 @_lc_w_3 -60;
+    pos @_sc_l_1 @_sc_a_3 60;
+    pos @_sc_l_1 @_sc_a_diac_3 60;
+    pos @_sc_l_1 @_sc_t_2 -140;
+    pos @_sc_l_1 @_sc_y_3 -80;
+    pos @_sc_l_1 @_punct_dash_3 -180;
+    pos @_sc_l_1 @_punct_sc_quotes_3 -250;
+    pos @_sc_l_1 @_sym_bugs_3 -250;
+    pos @_sc_p_1 @_sc_a_3 -60;
+    pos @_sc_p_1 @_sc_a_diac_3 -60;
+    pos @_sc_p_1 @_punct_base_3 -220;
+    pos @_sc_t_1 @_lc_v_3 40;
+    pos @_sc_t_1 @_lc_w_3 40;
+    pos @_sc_t_1 @_lc_w_diac_3 40;
+    pos @_sc_t_1 @_lc_x_3 40;
+    pos @_sc_t_1 @_sc_a_3 -60;
+    pos @_sc_t_1 @_sc_a_diac_3 -80;
+    pos @_sc_t_1 @_sc_y_3 40;
+    pos @_sc_t_1 @_sc_y_diac_3 40;
+    pos @_sc_t_1 @_punct_base_3 -250;
+    pos @_sc_t_1 @_punct_dash_3 -60;
+    pos @_sc_t_1 @_punct_sc_quotes_3 40;
+    pos @_sc_t_1 @_guillemotleft_3 -60;
+    pos @_sc_t_1 @_guillemotright_3 40;
+    pos @_sc_y_3 @_sc_a_3 -120;
+    pos @_sc_y_3 @_sc_a_diac_3 -120;
+    pos @_sc_y_3 @_sc_j_2 -120;
+    pos @_sc_y_3 @_sc_t_2 40;
+    pos @_sc_y_3 @_punct_dash_3 -100;
+    pos @_sc_y_3 @_guillemotleft_3 -100;
+    pos @_sc_y_3 @_guillemotright_3 -10;
+    pos @_sc_y_3 @_guillemotleftcase_3 -60;
+    pos @_sc_y_3 @_guillemotrightcase_3 20;
+    pos @_sc_y_diac_3 @_sc_j_2 -120;
+    pos @_sc_y_diac_3 @_sc_t_2 40;
+    pos @_sc_y_diac_3 @_punct_dash_3 -100;
+    pos @_sc_y_diac_3 @_guillemotleft_3 -100;
+    pos @_sc_y_diac_3 @_guillemotright_3 -10;
+    pos @_sc_y_diac_3 @_guillemotleftcase_3 -60;
+    pos @_sc_y_diac_3 @_guillemotrightcase_3 20;
+    pos @_sc_uni0433_1 @_sc_a_3 -115;
+    pos @_sc_uni0433_1 @_sc_a_diac_3 -115;
+    pos @_sc_uni0446_1 @_sc_t_2 -90;
+    pos @_sc_uni044C_1 @_sc_t_2 -120;
+    pos @_sc_uni044C_1 @_sc_uni0447_2 -25;
     pos @_punct_base_3 @_uc_T_2 -250;
     pos @_punct_base_3 @_uc_V_3 -250;
     pos @_punct_base_3 @_uc_W_3 -250;
@@ -1749,25 +2464,43 @@ feature kern {
     pos @_punct_base_3 @_lc_v_3 -250;
     pos @_punct_base_3 @_lc_w_3 -200;
     pos @_punct_base_3 @_lc_w_diac_3 -200;
+    pos @_punct_base_3 @_lc_y_3 -250;
     pos @_punct_base_3 @_lc_y_diac_3 -250;
     pos @_punct_base_3 @_punct_backslash_3 -250;
-    pos @_punct_dash_3 @_uc_T_2 -330;
-    pos @_punct_dash_3 @_uc_V_3 -220;
-    pos @_punct_dash_3 @_uc_W_3 -220;
+    pos @_punct_dash_3 @_uc_J_2 50;
+    pos @_punct_dash_3 @_uc_T_2 -280;
+    pos @_punct_dash_3 @_uc_V_3 -120;
+    pos @_punct_dash_3 @_uc_W_3 -90;
+    pos @_punct_dash_3 @_uc_X_2 -190;
     pos @_punct_dash_3 @_uc_Y_3 -220;
+    pos @_punct_dash_3 @_lc_v_3 -50;
+    pos @_punct_dash_3 @_lc_w_3 20;
+    pos @_punct_dash_3 @_lc_w_diac_3 20;
+    pos @_punct_dash_3 @_lc_x_3 -80;
+    pos @_punct_dash_3 @_sc_j_2 20;
+    pos @_punct_dash_3 @_sc_t_2 -60;
+    pos @_punct_dash_3 @_sc_y_3 -100;
+    pos @_punct_dash_3 @_sc_y_diac_3 -100;
     pos @_punct_dash_3 @_punct_backslash_3 -220;
     pos @_punct_dash_3 @_sym_bugs_3 -290;
     pos @_punct_quote_3 @_uc_A_2 -280;
     pos @_punct_quote_3 @_uc_S_3 -100;
+    pos @_punct_quote_3 @_uc_T_2 40;
     pos @_punct_quote_3 @_uc_V_3 30;
     pos @_punct_quote_3 @_uc_W_3 30;
     pos @_punct_quote_3 @_uc_Y_3 30;
     pos @_punct_quote_3 @_lc_o_2 -100;
     pos @_punct_quote_3 @_lc_v_3 30;
     pos @_punct_quote_3 @_lc_w_3 20;
+    pos @_punct_quote_3 @_lc_w_diac_3 20;
     pos @_punct_quote_3 @_lc_y_3 20;
     pos @_punct_quote_3 @_punct_slash_3 -280;
     pos @_punct_quote_3 @_punct_backslash_3 30;
+    pos @_punct_sc_quotes_3 @_lc_v_3 40;
+    pos @_punct_sc_quotes_3 @_sc_a_3 -120;
+    pos @_punct_sc_quotes_3 @_sc_a_diac_3 -120;
+    pos @_punct_sc_quotes_3 @_sc_j_2 -120;
+    pos @_punct_sc_quotes_3 @_sc_t_2 40;
     pos @_punct_slash_3 @_uc_A_2 -85;
     pos @_punct_slash_3 @_lc_o_2 -100;
     pos @_punct_slash_3 @_punct_base_3 -250;
@@ -1791,23 +2524,77 @@ feature kern {
     pos @_sym_bugs_3 @_uc_X_2 100;
     pos @_sym_bugs_3 @_uc_Y_3 100;
     pos @_sym_bugs_3 @_punct_dash_3 -290;
+    pos @_lc_f_3 @_lc_o_2 -20;
+    pos @_lc_f_3 @_lc_v_3 10;
+    pos @_lc_f_3 @_lc_x_3 15;
+    pos @_lc_f_3 @_lc_y_3 20;
     pos @_lc_f_3 @_punct_parenright_2 60;
     pos @_lc_f_3 @_punct_braceright_2 100;
     pos @_lc_f_3 @_punct_quote_3 40;
     pos @_lc_f_3 @_punct_slash_3 -40;
+    pos @_lc_f_3 @_lc_n_2 -40;
     pos @_lc_anh_1 @_uc_T_2 -240;
     pos @_lc_anh_1 @_uc_V_3 -130;
     pos @_lc_anh_1 @_uc_W_3 -90;
     pos @_lc_anh_1 @_uc_Y_3 -220;
+    pos @_lc_anh_1 @_sym_bugs_3 -50;
     pos @_lc_dotlessi_1 @_uc_T_2 -240;
     pos @_lc_dotlessi_1 @_uc_V_3 -130;
     pos @_lc_dotlessi_1 @_uc_W_3 -130;
     pos @_lc_dotlessi_1 @_uc_Y_3 -220;
+    pos @_guillemotleft_3 @_uc_A_2 40;
+    pos @_guillemotleft_3 @_uc_V_3 -60;
+    pos @_guillemotleft_3 @_uc_Y_3 -200;
+    pos @_guillemotleft_3 @_uc_Z_3 40;
+    pos @_guillemotleft_3 @_lc_v_3 10;
+    pos @_guillemotleft_3 @_lc_w_3 20;
+    pos @_guillemotleft_3 @_lc_w_diac_3 20;
+    pos @_guillemotleft_3 @_lc_x_3 10;
+    pos @_guillemotleft_3 @_sc_a_3 10;
+    pos @_guillemotleft_3 @_sc_a_diac_3 10;
+    pos @_guillemotleft_3 @_sc_t_2 40;
+    pos @_guillemotleft_3 @_sc_y_3 -10;
+    pos @_guillemotright_3 @_uc_V_3 -130;
+    pos @_guillemotright_3 @_uc_W_3 -50;
+    pos @_guillemotright_3 @_uc_Y_3 -260;
+    pos @_guillemotright_3 @_uc_Z_3 -40;
+    pos @_guillemotright_3 @_lc_v_3 -50;
+    pos @_guillemotright_3 @_lc_w_3 -10;
+    pos @_guillemotright_3 @_lc_w_diac_3 -10;
+    pos @_guillemotright_3 @_lc_x_3 -90;
+    pos @_guillemotright_3 @_sc_a_3 -30;
+    pos @_guillemotright_3 @_sc_a_diac_3 -30;
+    pos @_guillemotright_3 @_sc_t_2 -60;
+    pos @_guillemotright_3 @_sc_y_3 -100;
+    pos @_guillemotleftcase_3 @_uc_V_3 -45;
+    pos @_guillemotleftcase_3 @_uc_X_2 -50;
+    pos @_guillemotleftcase_3 @_uc_Y_3 -140;
+    pos @_guillemotleftcase_3 @_lc_v_3 30;
+    pos @_guillemotleftcase_3 @_lc_w_3 40;
+    pos @_guillemotleftcase_3 @_lc_w_diac_3 40;
+    pos @_guillemotleftcase_3 @_lc_x_3 5;
+    pos @_guillemotleftcase_3 @_sc_a_3 -30;
+    pos @_guillemotleftcase_3 @_sc_a_diac_3 -30;
+    pos @_guillemotleftcase_3 @_sc_y_3 20;
+    pos @_guillemotrightcase_3 @_uc_A_2 -60;
+    pos @_guillemotrightcase_3 @_uc_V_3 -90;
+    pos @_guillemotrightcase_3 @_uc_W_3 -40;
+    pos @_guillemotrightcase_3 @_uc_X_2 -120;
+    pos @_guillemotrightcase_3 @_uc_Y_3 -200;
+    pos @_guillemotrightcase_3 @_uc_Z_3 -60;
+    pos @_guillemotrightcase_3 @_lc_v_3 -10;
+    pos @_guillemotrightcase_3 @_lc_w_3 -10;
+    pos @_guillemotrightcase_3 @_lc_w_diac_3 -10;
+    pos @_guillemotrightcase_3 @_lc_x_3 -50;
+    pos @_guillemotrightcase_3 @_sc_a_3 -60;
+    pos @_guillemotrightcase_3 @_sc_a_diac_3 -60;
+    pos @_guillemotrightcase_3 @_sc_y_3 -60;
   lookupflag 0;
   } KERN_LTR;
 
   lookup KERN_LTR;
 } kern;
+
 feature mark {
 # GPOS feature : Mark Positioning
     markClass acute <anchor 267 1150> @top;
@@ -1815,8 +2602,8 @@ feature mark {
     markClass acutecomb <anchor 0 1150> @top;
     markClass acutecomb <anchor -157 1085> @topright;
     markClass acutecomb.case <anchor 0 1150> @top;
-    markClass grave <anchor -400 1150> @top;
-    markClass grave <anchor -243 1085> @topright;
+    markClass grave <anchor 400 1150> @top;
+    markClass grave <anchor 557 1085> @topright;
     markClass gravecomb <anchor 0 1150> @top;
     markClass gravecomb <anchor 157 1085> @topright;
     markClass gravecomb.case <anchor 0 1150> @top;
@@ -1934,7 +2721,7 @@ feature mark {
       pos base C
           <anchor 826 -164> mark @bottom;
       pos base D
-          <anchor 815 -150> mark @bottom;
+          <anchor 797 -150> mark @bottom;
       pos base E
           <anchor 829 -150> mark @bottom;
       pos base G
@@ -1982,7 +2769,7 @@ feature mark {
       pos base c.sc
           <anchor 706 -164> mark @bottom;
       pos base d.sc
-          <anchor 698 -150> mark @bottom;
+          <anchor 680 -150> mark @bottom;
       pos base e.sc
           <anchor 713 -150> mark @bottom;
       pos base g.sc
@@ -2078,7 +2865,7 @@ feature mark {
       pos base AE
           <anchor 1199 -150> mark @bottom;
       pos base Eth
-          <anchor 815 -150> mark @bottom;
+          <anchor 797 -150> mark @bottom;
       pos base uni018F
           <anchor 858 -164> mark @bottom;
       pos base ae
@@ -2126,7 +2913,7 @@ feature mark {
       pos base Ccaron
           <anchor 826 -164> mark @bottom;
       pos base Dcroat
-          <anchor 815 -150> mark @bottom;
+          <anchor 797 -150> mark @bottom;
       pos base Gdotaccent
           <anchor 870 -164> mark @bottom;
       pos base Hcircumflex
@@ -2454,7 +3241,7 @@ feature mark {
       pos base Cdotaccent
           <anchor 826 -164> mark @bottom;
       pos base Dcaron
-          <anchor 815 -150> mark @bottom;
+          <anchor 797 -150> mark @bottom;
       pos base Emacron
           <anchor 829 -150> mark @bottom;
       pos base emacron
@@ -2568,7 +3355,7 @@ feature mark {
       pos base uni01CA
           <anchor 2540 -150> mark @bottom;
       pos base uni01C4
-          <anchor 2517 -150> mark @bottom;
+          <anchor 2477 -150> mark @bottom;
       pos base uni01C8
           <anchor 786 -150> mark @bottom;
       pos base uni01CB
@@ -2580,7 +3367,7 @@ feature mark {
       pos base uni01CC
           <anchor 696 -150> mark @bottom;
       pos base uni01C5
-          <anchor 2377 -150> mark @bottom;
+          <anchor 2337 -150> mark @bottom;
       pos base Ntilde
           <anchor 915 -150> mark @bottom;
       pos base Gcaron
@@ -2720,7 +3507,7 @@ feature mark {
       pos base ccaron.sc
           <anchor 706 -164> mark @bottom;
       pos base dcaron.sc
-          <anchor 698 -150> mark @bottom;
+          <anchor 680 -150> mark @bottom;
       pos base gcircumflex.sc
           <anchor 745 -150> mark @bottom;
       pos base gbreve.sc
@@ -2912,11 +3699,11 @@ feature mark {
       pos base uni1EF9
           <anchor 911 -190> mark @bottom;
       pos base eth.sc
-          <anchor 698 -150> mark @bottom;
+          <anchor 680 -150> mark @bottom;
       pos base tbar.sc
           <anchor 719 -150> mark @bottom;
       pos base dcroat.sc
-          <anchor 698 -150> mark @bottom;
+          <anchor 680 -150> mark @bottom;
       pos base idotless.sc
           <anchor 325 -150> mark @bottom;
       pos base ohorn.sc
@@ -3110,7 +3897,7 @@ feature mark {
       pos base tcedilla.sc
           <anchor 581 -150> mark @bottom;
       pos base dzcaron.sc
-          <anchor 2138 -150> mark @bottom;
+          <anchor 2098 -150> mark @bottom;
       pos base lj.sc
           <anchor 1777 -150> mark @bottom;
       pos base oogonek.sc
@@ -3382,7 +4169,7 @@ feature mark {
       pos base C
           <anchor 826 1564> mark @top;
       pos base D
-          <anchor 815 1550> mark @top;
+          <anchor 797 1550> mark @top;
       pos base E
           <anchor 829 1550> mark @top;
       pos base G
@@ -3430,7 +4217,7 @@ feature mark {
       pos base c.sc
           <anchor 706 1234> mark @top;
       pos base d.sc
-          <anchor 698 1210> mark @top;
+          <anchor 680 1210> mark @top;
       pos base e.sc
           <anchor 713 1210> mark @top;
       pos base g.sc
@@ -3540,7 +4327,7 @@ feature mark {
       pos base AE
           <anchor 1389 1550> mark @top;
       pos base Eth
-          <anchor 815 1550> mark @top;
+          <anchor 797 1550> mark @top;
       pos base uni018F
           <anchor 858 1564> mark @top;
       pos base ae
@@ -3590,7 +4377,7 @@ feature mark {
       pos base Ccaron
           <anchor -825 591> mark @top;
       pos base Dcroat
-          <anchor 815 1550> mark @top;
+          <anchor 797 1550> mark @top;
       pos base Gdotaccent
           <anchor 870 1893> mark @top;
       pos base Hcircumflex
@@ -3878,7 +4665,7 @@ feature mark {
       pos base uni0436.sc
           <anchor 882 1210> mark @top;
       pos base uni0437.sc
-          <anchor 716 1210> mark @top;
+          <anchor 642 1210> mark @top;
       pos base uni0438.sc
           <anchor 787 1210> mark @top;
       pos base uni043A.sc
@@ -3894,13 +4681,13 @@ feature mark {
       pos base uni0442.sc
           <anchor 581 1210> mark @top;
       pos base uni0443.sc
-          <anchor 751 1210> mark @top;
+          <anchor 736 1210> mark @top;
       pos base uni0447.sc
           <anchor 741 1210> mark @top;
       pos base uni044B.sc
           <anchor 948 1210> mark @top;
       pos base uni044D.sc
-          <anchor 706 1210> mark @top;
+          <anchor 662 1210> mark @top;
       pos base uni0454.sc
           <anchor 706 1210> mark @top;
       pos base uni0455.sc
@@ -4014,7 +4801,7 @@ feature mark {
       pos base Cdotaccent
           <anchor 826 1893> mark @top;
       pos base Dcaron
-          <anchor -814 605> mark @top;
+          <anchor -796 605> mark @top;
       pos base Emacron
           <anchor 829 1830> mark @top;
       pos base emacron
@@ -4128,7 +4915,7 @@ feature mark {
       pos base uni01CA
           <anchor 3016 1578> mark @top;
       pos base uni01C4
-          <anchor -2583 605> mark @top;
+          <anchor -2543 605> mark @top;
       pos base uni01C8
           <anchor 1696 1150> mark @top;
       pos base uni01CB
@@ -4140,7 +4927,7 @@ feature mark {
       pos base uni01CC
           <anchor 1682 1150> mark @top;
       pos base uni01C5
-          <anchor -2376 985> mark @top;
+          <anchor -2336 985> mark @top;
       pos base Ntilde
           <anchor 915 1860> mark @top;
       pos base Gcaron
@@ -4186,15 +4973,15 @@ feature mark {
       pos base uni04D7.sc
           <anchor 713 1570> mark @top;
       pos base uni04F3.sc
-          <anchor 751 1210> mark @top;
+          <anchor 736 1210> mark @top;
       pos base uni04F1.sc
-          <anchor 751 1520> mark @top;
+          <anchor 736 1520> mark @top;
       pos base uni04E7.sc
           <anchor 771 1520> mark @top;
       pos base uni04EF.sc
-          <anchor 751 1505> mark @top;
+          <anchor 736 1505> mark @top;
       pos base uni04DF.sc
-          <anchor 716 1520> mark @top;
+          <anchor 642 1520> mark @top;
       pos base uni045D.sc
           <anchor 787 1210> mark @top;
       pos base uni045C.sc
@@ -4210,7 +4997,7 @@ feature mark {
       pos base uni04D9.sc
           <anchor 917 1564> mark @top;
       pos base uni045E.sc
-          <anchor 751 1570> mark @top;
+          <anchor 736 1570> mark @top;
       pos base Oslash
           <anchor 997 1610> mark @top;
       pos base uni04AF.sc
@@ -4228,9 +5015,9 @@ feature mark {
       pos base uni04AB.sc
           <anchor 706 1234> mark @top;
       pos base uni0499.sc
-          <anchor 716 1210> mark @top;
+          <anchor 642 1210> mark @top;
       pos base uni04BB.sc
-          <anchor 740 -150> mark @top;
+          <anchor 760 -150> mark @top;
       pos base uni04BA
           <anchor 876 -150> mark @top;
       pos base uni015F
@@ -4314,7 +5101,7 @@ feature mark {
       pos base ccaron.sc
           <anchor -705 901> mark @top;
       pos base dcaron.sc
-          <anchor -697 925> mark @top;
+          <anchor -679 925> mark @top;
       pos base gcircumflex.sc
           <anchor 745 1608> mark @top;
       pos base gbreve.sc
@@ -4510,11 +5297,11 @@ feature mark {
       pos base uni1EF9
           <anchor 588 1465> mark @top;
       pos base eth.sc
-          <anchor 698 1550> mark @top;
+          <anchor 680 1550> mark @top;
       pos base tbar.sc
           <anchor 719 1550> mark @top;
       pos base dcroat.sc
-          <anchor 698 1550> mark @top;
+          <anchor 680 1550> mark @top;
       pos base idotless.sc
           <anchor 325 1210> mark @top;
       pos base ohorn.sc
@@ -4708,7 +5495,7 @@ feature mark {
       pos base tcedilla.sc
           <anchor 581 1210> mark @top;
       pos base dzcaron.sc
-          <anchor -2137 925> mark @top;
+          <anchor -2097 925> mark @top;
       pos base lj.sc
           <anchor 2149 1210> mark @top;
       pos base oogonek.sc
@@ -5061,7 +5848,7 @@ feature mark {
       pos base uni0435.sc
           <anchor 1149 0> mark @ogonek;
       pos base uni0437.sc
-          <anchor 806 0> mark @ogonek;
+          <anchor 732 0> mark @ogonek;
       pos base uni043E.sc
           <anchor 869 0> mark @ogonek;
       pos base uni0456.sc
@@ -5205,9 +5992,9 @@ feature mark {
       pos base uni04E7.sc
           <anchor 869 0> mark @ogonek;
       pos base uni04DF.sc
-          <anchor 806 0> mark @ogonek;
+          <anchor 732 0> mark @ogonek;
       pos base uni0499.sc
-          <anchor 806 0> mark @ogonek;
+          <anchor 732 0> mark @ogonek;
       pos base uni0203
           <anchor 1130 0> mark @ogonek;
       pos base uni0207
@@ -6010,7 +6797,7 @@ feature mark {
 
   lookup markLTR7 {
       pos base Egrave
-          <anchor -682 1485> mark @topright;
+          <anchor 976 1485> mark @topright;
       pos base Eacute
           <anchor 682 1485> mark @topright;
       pos base Iacute
@@ -6052,17 +6839,17 @@ feature mark {
       pos base wcircumflex
           <anchor 1207 1267> mark @topright;
       pos base uni0400
-          <anchor -682 1485> mark @topright;
+          <anchor 976 1485> mark @topright;
       pos base uni0403
           <anchor 622 1485> mark @topright;
       pos base uni040C
           <anchor 712 1485> mark @topright;
       pos base uni040D
-          <anchor -763 1485> mark @topright;
+          <anchor 1057 1485> mark @topright;
       pos base uni04F2
           <anchor 960 1485> mark @topright;
       pos base Agrave
-          <anchor -681 1485> mark @topright;
+          <anchor 975 1485> mark @topright;
       pos base Aacute
           <anchor 681 1485> mark @topright;
       pos base Acircumflex
@@ -6070,13 +6857,13 @@ feature mark {
       pos base Ecircumflex
           <anchor 1241 1585> mark @topright;
       pos base Igrave
-          <anchor -185 1485> mark @topright;
+          <anchor 479 1485> mark @topright;
       pos base Icircumflex
           <anchor 744 1585> mark @topright;
       pos base Ograve
-          <anchor -749 1499> mark @topright;
+          <anchor 1043 1499> mark @topright;
       pos base Ugrave
-          <anchor -701 1485> mark @topright;
+          <anchor 995 1485> mark @topright;
       pos base Uacute
           <anchor 701 1485> mark @topright;
       pos base Ucircumflex
@@ -6094,7 +6881,7 @@ feature mark {
       pos base ccircumflex
           <anchor 1063 1267> mark @topright;
       pos base Dcaron
-          <anchor -1226 900> mark @topright;
+          <anchor -1208 900> mark @topright;
       pos base Ecaron
           <anchor -1240 900> mark @topright;
       pos base ecaron
@@ -6134,17 +6921,17 @@ feature mark {
       pos base zcaron
           <anchor -950 1266> mark @topright;
       pos base uni01C4
-          <anchor -2995 900> mark @topright;
+          <anchor -2955 900> mark @topright;
       pos base uni01C6
           <anchor -2364 1266> mark @topright;
       pos base uni01C5
-          <anchor -2760 1266> mark @topright;
+          <anchor -2720 1266> mark @topright;
       pos base Gcaron
           <anchor -1281 886> mark @topright;
       pos base gcaron
           <anchor -1069 1266> mark @topright;
       pos base Wgrave
-          <anchor -866 1485> mark @topright;
+          <anchor 1160 1485> mark @topright;
       pos base Wacute
           <anchor 866 1485> mark @topright;
       pos base ecircumflex.sc
@@ -6160,7 +6947,7 @@ feature mark {
       pos base ccaron.sc
           <anchor -1089 1182> mark @topright;
       pos base dcaron.sc
-          <anchor -1081 1206> mark @topright;
+          <anchor -1063 1206> mark @topright;
       pos base gcircumflex.sc
           <anchor 1129 1327> mark @topright;
       pos base hcircumflex.sc
@@ -6214,11 +7001,11 @@ feature mark {
       pos base uni1EC7
           <anchor 1072 1267> mark @topright;
       pos base uni1EA6
-          <anchor -1273 1585> mark @topright;
+          <anchor 1567 1585> mark @topright;
       pos base uni1EC0
-          <anchor -1274 1585> mark @topright;
+          <anchor 1568 1585> mark @topright;
       pos base uni1ED2
-          <anchor -1341 1599> mark @topright;
+          <anchor 1635 1599> mark @topright;
       pos base uni1EA7
           <anchor 1056 1267> mark @topright;
       pos base uni1EC1
@@ -6238,7 +7025,7 @@ feature mark {
       pos base uni1ED7
           <anchor 1082 1267> mark @topright;
       pos base uni1EB0
-          <anchor -681 1835> mark @topright;
+          <anchor 975 1835> mark @topright;
       pos base uni1EA4
           <anchor 1240 1585> mark @topright;
       pos base uni1EBE
@@ -6254,11 +7041,11 @@ feature mark {
       pos base uni1EDA
           <anchor 749 1499> mark @topright;
       pos base uni1EDC
-          <anchor -749 1499> mark @topright;
+          <anchor 1043 1499> mark @topright;
       pos base uni1EE8
           <anchor 701 1485> mark @topright;
       pos base uni1EEA
-          <anchor -701 1485> mark @topright;
+          <anchor 995 1485> mark @topright;
       pos base uni1ED4
           <anchor 1308 1599> mark @topright;
       pos base uni1EA8
@@ -6272,7 +7059,7 @@ feature mark {
       pos base uni1ED5
           <anchor 1082 1267> mark @topright;
       pos base uni1EF2
-          <anchor -651 1485> mark @topright;
+          <anchor 945 1485> mark @topright;
       pos base uni1EAD
           <anchor 1056 1267> mark @topright;
       pos base uni1ED9
@@ -6280,7 +7067,7 @@ feature mark {
       pos base uni1EAE
           <anchor 681 1835> mark @topright;
       pos base dzcaron.sc
-          <anchor -2521 1206> mark @topright;
+          <anchor -2481 1206> mark @topright;
       pos base uni1EA5.sc
           <anchor 1062 1327> mark @topright;
       pos base uni1EA7.sc
@@ -6340,8 +7127,8 @@ feature mkmk {
 #    markClass acutecomb <anchor 0 1150> @top;
 #    markClass acutecomb <anchor -157 1085> @topright;
 #    markClass acutecomb.case <anchor 0 1150> @top;
-#    markClass grave <anchor -400 1150> @top;
-#    markClass grave <anchor -243 1085> @topright;
+#    markClass grave <anchor 400 1150> @top;
+#    markClass grave <anchor 557 1085> @topright;
 #    markClass gravecomb <anchor 0 1150> @top;
 #    markClass gravecomb <anchor 157 1085> @topright;
 #    markClass gravecomb.case <anchor 0 1150> @top;
@@ -6443,7 +7230,7 @@ feature mkmk {
       pos mark circumflexcomb_gravecomb
           <anchor 384 1267> mark @topright;
       pos mark circumflexcomb_gravecomb.case
-          <anchor -445 1185> mark @topright;
+          <anchor 739 1185> mark @topright;
       pos mark brevecomb_acutecomb.case
           <anchor -147 1435> mark @topright;
   } mkmkLTR1;
@@ -6546,3 +7333,4 @@ feature mkmk {
   lookup mkmkLTR1;
   lookup mkmkLTR2;
 } mkmk;
+
