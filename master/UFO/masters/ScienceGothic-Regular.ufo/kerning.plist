@@ -21,6 +21,19 @@
     <key>public.kern2._uc_Y_3</key>
     <integer>-180</integer>
   </dict>
+  <key>exclamdown</key>
+  <dict>
+    <key>public.kern2._uc_T_2</key>
+    <integer>-120</integer>
+    <key>public.kern2._uc_V_3</key>
+    <integer>-85</integer>
+    <key>public.kern2._uc_W_3</key>
+    <integer>-50</integer>
+    <key>public.kern2._uc_X_2</key>
+    <integer>-40</integer>
+    <key>public.kern2._uc_Y_3</key>
+    <integer>-150</integer>
+  </dict>
   <key>f.sc</key>
   <dict>
     <key>public.kern2._lc_w_3</key>
@@ -32,12 +45,19 @@
     <key>public.kern2._sc_y_3</key>
     <integer>20</integer>
   </dict>
+  <key>five</key>
+  <dict>
+    <key>public.kern2._percent</key>
+    <integer>-50</integer>
+  </dict>
   <key>four</key>
   <dict>
     <key>public.kern2._guillemotleft_3</key>
     <integer>40</integer>
     <key>public.kern2._guillemotleftcase_3</key>
     <integer>20</integer>
+    <key>public.kern2._percent</key>
+    <integer>-120</integer>
     <key>public.kern2._sc_t_2</key>
     <integer>-50</integer>
     <key>public.kern2._sc_y_3</key>
@@ -110,12 +130,14 @@
     <integer>-50</integer>
     <key>public.kern2._uc_O_2</key>
     <integer>-100</integer>
+    <key>public.kern2._uc_T_2</key>
+    <integer>-220</integer>
     <key>public.kern2._uc_V_3</key>
-    <integer>-150</integer>
+    <integer>-220</integer>
     <key>public.kern2._uc_W_3</key>
     <integer>-120</integer>
     <key>public.kern2._uc_Y_3</key>
-    <integer>-220</integer>
+    <integer>-250</integer>
   </dict>
   <key>questiondown.case</key>
   <dict>
@@ -126,13 +148,13 @@
     <key>public.kern2._sc_y_3</key>
     <integer>-100</integer>
     <key>public.kern2._uc_T_2</key>
-    <integer>-100</integer>
+    <integer>-120</integer>
     <key>public.kern2._uc_V_3</key>
-    <integer>-80</integer>
+    <integer>-90</integer>
     <key>public.kern2._uc_W_3</key>
     <integer>-60</integer>
     <key>public.kern2._uc_Y_3</key>
-    <integer>-140</integer>
+    <integer>-160</integer>
   </dict>
   <key>questiondown.sc</key>
   <dict>
@@ -150,11 +172,13 @@
     <key>public.kern2._guillemotleftcase_3</key>
     <integer>-80</integer>
     <key>public.kern2._punct_base_3</key>
-    <integer>-250</integer>
+    <integer>-260</integer>
     <key>public.kern2._punct_dash_3</key>
     <integer>-220</integer>
     <key>public.kern2._punct_parenright_2</key>
     <integer>50</integer>
+    <key>public.kern2._punct_quote_3</key>
+    <integer>90</integer>
     <key>public.kern2._punct_slash_3</key>
     <integer>-85</integer>
     <key>public.kern2._sc_a_3</key>
@@ -169,6 +193,11 @@
     <key>public.kern2._uc_uni0427_2</key>
     <integer>-40</integer>
   </dict>
+  <key>uni20BA</key>
+  <dict>
+    <key>seven</key>
+    <integer>-140</integer>
+  </dict>
   <key>z</key>
   <dict>
     <key>public.kern2._lc_w_3</key>
@@ -176,6 +205,8 @@
     <key>public.kern2._lc_x_3</key>
     <integer>20</integer>
     <key>public.kern2._lc_y_3</key>
+    <integer>20</integer>
+    <key>public.kern2._lc_y_diac_3</key>
     <integer>20</integer>
   </dict>
   <key>z.sc</key>
@@ -329,6 +360,8 @@
   </dict>
   <key>public.kern1._lc_anh_1</key>
   <dict>
+    <key>public.kern2._punct_quote_3</key>
+    <integer>-80</integer>
     <key>public.kern2._sym_bugs_3</key>
     <integer>-50</integer>
     <key>public.kern2._uc_T_2</key>
@@ -368,9 +401,9 @@
     <key>public.kern2._punct_braceright_2</key>
     <integer>100</integer>
     <key>public.kern2._punct_parenright_2</key>
-    <integer>60</integer>
+    <integer>70</integer>
     <key>public.kern2._punct_quote_3</key>
-    <integer>40</integer>
+    <integer>50</integer>
     <key>public.kern2._punct_slash_3</key>
     <integer>-40</integer>
   </dict>
@@ -386,10 +419,14 @@
     <integer>-10</integer>
     <key>public.kern2._lc_y_diac_3</key>
     <integer>-10</integer>
+    <key>public.kern2._punct_quote_3</key>
+    <integer>-80</integer>
     <key>public.kern2._uc_T_2</key>
     <integer>-240</integer>
     <key>public.kern2._uc_V_3</key>
     <integer>-130</integer>
+    <key>public.kern2._uc_W_3</key>
+    <integer>-80</integer>
   </dict>
   <key>public.kern1._lc_o_diac_1</key>
   <dict>
@@ -584,6 +621,8 @@
     <integer>40</integer>
     <key>public.kern2._punct_dash_3</key>
     <integer>-80</integer>
+    <key>public.kern2._punct_quote_3</key>
+    <integer>30</integer>
     <key>public.kern2._uc_T_2</key>
     <integer>-100</integer>
   </dict>
@@ -607,6 +646,8 @@
     <integer>-20</integer>
     <key>public.kern2._punct_base_3</key>
     <integer>-250</integer>
+    <key>public.kern2._punct_dash_3</key>
+    <integer>-30</integer>
     <key>public.kern2._punct_quote_3</key>
     <integer>20</integer>
     <key>public.kern2._uc_T_2</key>
@@ -626,6 +667,8 @@
     <integer>-20</integer>
     <key>public.kern2._punct_base_3</key>
     <integer>-250</integer>
+    <key>public.kern2._punct_dash_3</key>
+    <integer>-30</integer>
     <key>public.kern2._punct_quote_3</key>
     <integer>20</integer>
     <key>public.kern2._uc_T_2</key>
@@ -633,6 +676,12 @@
   </dict>
   <key>public.kern1._lc_z_diac_3</key>
   <dict>
+    <key>public.kern2._guillemotleft_3</key>
+    <integer>-20</integer>
+    <key>public.kern2._guillemotleftcase_3</key>
+    <integer>-30</integer>
+    <key>public.kern2._guillemotright_3</key>
+    <integer>40</integer>
     <key>public.kern2._lc_w_3</key>
     <integer>40</integer>
     <key>public.kern2._lc_w_diac_3</key>
@@ -643,6 +692,13 @@
     <integer>20</integer>
     <key>public.kern2._lc_y_diac_3</key>
     <integer>20</integer>
+    <key>public.kern2._punct_dash_3</key>
+    <integer>-80</integer>
+  </dict>
+  <key>public.kern1._percent</key>
+  <dict>
+    <key>four</key>
+    <integer>60</integer>
   </dict>
   <key>public.kern1._punct_backslash_3</key>
   <dict>
@@ -669,6 +725,8 @@
   </dict>
   <key>public.kern1._punct_base_3</key>
   <dict>
+    <key>seven</key>
+    <integer>-270</integer>
     <key>public.kern2._lc_v_3</key>
     <integer>-250</integer>
     <key>public.kern2._lc_w_3</key>
@@ -689,6 +747,19 @@
     <integer>-250</integer>
     <key>public.kern2._uc_Y_3</key>
     <integer>-250</integer>
+  </dict>
+  <key>public.kern1._punct_braceleft_1</key>
+  <dict>
+    <key>public.kern2._uc_T_2</key>
+    <integer>80</integer>
+    <key>public.kern2._uc_V_3</key>
+    <integer>60</integer>
+    <key>public.kern2._uc_W_3</key>
+    <integer>60</integer>
+    <key>public.kern2._uc_X_2</key>
+    <integer>60</integer>
+    <key>public.kern2._uc_Y_3</key>
+    <integer>60</integer>
   </dict>
   <key>public.kern1._punct_dash_3</key>
   <dict>
@@ -729,16 +800,37 @@
     <key>public.kern2._uc_Y_3</key>
     <integer>-220</integer>
   </dict>
+  <key>public.kern1._punct_parenleft_1</key>
+  <dict>
+    <key>public.kern2._uc_T_2</key>
+    <integer>70</integer>
+    <key>public.kern2._uc_W_3</key>
+    <integer>80</integer>
+    <key>public.kern2._uc_X_2</key>
+    <integer>70</integer>
+    <key>public.kern2._uc_Y_3</key>
+    <integer>80</integer>
+  </dict>
   <key>public.kern1._punct_quote_3</key>
   <dict>
+    <key>seven</key>
+    <integer>90</integer>
+    <key>public.kern2._lc_f_3</key>
+    <integer>-60</integer>
+    <key>public.kern2._lc_n_2</key>
+    <integer>-120</integer>
     <key>public.kern2._lc_o_2</key>
     <integer>-100</integer>
+    <key>public.kern2._lc_t_3</key>
+    <integer>-60</integer>
     <key>public.kern2._lc_v_3</key>
     <integer>30</integer>
     <key>public.kern2._lc_w_3</key>
     <integer>20</integer>
     <key>public.kern2._lc_w_diac_3</key>
     <integer>20</integer>
+    <key>public.kern2._lc_x_3</key>
+    <integer>30</integer>
     <key>public.kern2._lc_y_3</key>
     <integer>20</integer>
     <key>public.kern2._punct_backslash_3</key>
@@ -747,6 +839,8 @@
     <integer>-280</integer>
     <key>public.kern2._uc_A_2</key>
     <integer>-280</integer>
+    <key>public.kern2._uc_J_2</key>
+    <integer>-200</integer>
     <key>public.kern2._uc_S_3</key>
     <integer>-100</integer>
     <key>public.kern2._uc_T_2</key>
@@ -1013,6 +1107,8 @@
     <integer>-50</integer>
     <key>public.kern2._lc_y_3</key>
     <integer>-50</integer>
+    <key>public.kern2._punct_dash_3</key>
+    <integer>-40</integer>
     <key>public.kern2._punct_quote_3</key>
     <integer>-180</integer>
     <key>public.kern2._sc_t_2</key>
@@ -1118,6 +1214,8 @@
     <integer>-130</integer>
     <key>public.kern2._lc_y_3</key>
     <integer>-100</integer>
+    <key>public.kern2._punct_braceright_2</key>
+    <integer>20</integer>
     <key>public.kern2._punct_case_dash_3</key>
     <integer>-360</integer>
     <key>public.kern2._punct_dash_3</key>
@@ -1181,6 +1279,8 @@
     <integer>20</integer>
     <key>public.kern2._punct_base_3</key>
     <integer>-330</integer>
+    <key>public.kern2._punct_quote_3</key>
+    <integer>60</integer>
     <key>public.kern2._punct_slash_3</key>
     <integer>-150</integer>
     <key>public.kern2._sc_a_3</key>
@@ -1223,6 +1323,8 @@
     <integer>-50</integer>
     <key>lslash.sc</key>
     <integer>-90</integer>
+    <key>question</key>
+    <integer>30</integer>
     <key>r.sc</key>
     <integer>-150</integer>
     <key>uni0432</key>
@@ -1263,10 +1365,14 @@
     <integer>-150</integer>
     <key>public.kern2._punct_base_3</key>
     <integer>-250</integer>
+    <key>public.kern2._punct_braceright_2</key>
+    <integer>80</integer>
     <key>public.kern2._punct_colon_3</key>
     <integer>-130</integer>
     <key>public.kern2._punct_dash_3</key>
     <integer>-280</integer>
+    <key>public.kern2._punct_parenright_2</key>
+    <integer>70</integer>
     <key>public.kern2._punct_quote_3</key>
     <integer>40</integer>
     <key>public.kern2._punct_slash_3</key>
@@ -1315,7 +1421,7 @@
     <key>public.kern2._punct_base_3</key>
     <integer>-250</integer>
     <key>public.kern2._punct_braceright_2</key>
-    <integer>40</integer>
+    <integer>60</integer>
     <key>public.kern2._punct_colon_3</key>
     <integer>-90</integer>
     <key>public.kern2._punct_dash_3</key>
@@ -1358,11 +1464,13 @@
     <key>public.kern2._punct_base_3</key>
     <integer>-250</integer>
     <key>public.kern2._punct_braceright_2</key>
-    <integer>40</integer>
+    <integer>60</integer>
     <key>public.kern2._punct_colon_3</key>
     <integer>-40</integer>
     <key>public.kern2._punct_dash_3</key>
     <integer>-90</integer>
+    <key>public.kern2._punct_parenright_2</key>
+    <integer>80</integer>
     <key>public.kern2._punct_slash_3</key>
     <integer>-85</integer>
     <key>public.kern2._sc_j_2</key>
@@ -1405,11 +1513,11 @@
     <key>public.kern2._lc_f_3</key>
     <integer>-20</integer>
     <key>public.kern2._lc_n_2</key>
-    <integer>-150</integer>
+    <integer>-190</integer>
     <key>public.kern2._lc_n_diac_2</key>
     <integer>-200</integer>
     <key>public.kern2._lc_o_2</key>
-    <integer>-150</integer>
+    <integer>-200</integer>
     <key>public.kern2._lc_o_diac_2</key>
     <integer>-200</integer>
     <key>public.kern2._lc_t_3</key>
@@ -1424,8 +1532,12 @@
     <integer>-80</integer>
     <key>public.kern2._punct_base_3</key>
     <integer>-250</integer>
+    <key>public.kern2._punct_braceright_2</key>
+    <integer>60</integer>
     <key>public.kern2._punct_dash_3</key>
     <integer>-220</integer>
+    <key>public.kern2._punct_parenright_2</key>
+    <integer>70</integer>
     <key>public.kern2._punct_slash_3</key>
     <integer>-85</integer>
     <key>public.kern2._sc_j_2</key>
