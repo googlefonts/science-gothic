@@ -101,7 +101,7 @@ This list is in alphabetical order after Thomas.
     D: Designer
 
     N: Igor Freiberger
-    D: Designer for a few early weeks of the project
+    D: Designer (for a few early weeks of the project)
 
     N: Vassil Kateliev
     W: http://www.kateliev.com/
@@ -116,4 +116,4 @@ Additional non-font source files are licensed to others under the Apache 2.0 ope
 
 ## Language Coverage & Glyph Set
 
-Ultimately this typeface will have extended Latin and extended Cyrillic, with over 1200 glyphs. [FontLab .enc encoding file](https://github.com/tphinney/science-gothic/blob/master/Science%20Gothic.enc).
+This typeface has extended Latin and extended Cyrillic, with over 1200 glyphs. [FontLab .enc encoding file](https://github.com/tphinney/science-gothic/blob/master/Science%20Gothic.enc).
