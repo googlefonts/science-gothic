@@ -22,9 +22,9 @@ The process concept is:
     - :Cnd (after copying, scale it to ~ 40% for negative kerning and ~ 80% for positive kerning); edit
     - :Exp (after copying it, scale 175% for negative kerning, 125% for positive kerning); edit
 1. Copy kerning to :CndS and :ExpS
-1. Copy the kerning to corner masters, possibly with some auto-adjust, then edit them.
-    - Copy :Cnd to :LtCnd, edit
-    - Copy :Exp to :LtExp, edit
+1. Copy the kerning to corner masters, with scaling adjustments, then edit them.
+    - Copy :Cnd to :LtCnd and scale values by 50%, edit
+    - Copy :Exp to :LtExp and scale TBD %, edit
 
 1. TBD whether the :BlkCnd should start with kerning copied from :Blk, or with :Cnd; whether :BlkExp should start with :Blk, or with :Exp
 
