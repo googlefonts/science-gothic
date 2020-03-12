@@ -16,6 +16,6 @@ We use a FontLab script, which is here in the repo. It is assumed you have these
 or 
 `fontmake -m ScienceGothic-3a-18m.designspace -o variable --keep-overlaps` (substitute exact file name if different)
 1. Make sure final font file is named correctly, per Google specs. e.g. ScienceGothic[YOPQ,wdth,wght,slnt].ttf
-1. Remove MVAR table with gftools fix-unwanted tables script, per https://github.com/tphinney/science-gothic/issues/244
+1. Remove MVAR table with gftools "gftools fix-unwanted-tables *.ttf", as required by https://github.com/tphinney/science-gothic/issues/244
 ----
 * Running the script will not always find every broken glyph. For example, at one point /zero.zero was the ultimate evil. It was compatible and did not use a mixed reference, but nevertheless fontmake would result an error. (Eventually Thomas rebuilt it and the problem went away.) If you encounter a case like this at the fontmake stage later on, back up to this point andfix (flatten) the incompatible characters, even though the script shows no reason for a problem.
