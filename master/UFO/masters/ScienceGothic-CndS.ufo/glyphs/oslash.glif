@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oslash" format="2">
-  <advance width="769" height="1448"/>
+  <advance width="769.279" height="1448"/>
   <unicode hex="00F8"/>
   <anchor x="463" y="1150" name="top"/>
   <outline>
@@ -15,7 +15,7 @@
       <point x="502.198" y="1014" type="line" smooth="yes"/>
       <point x="639.198" y="1014"/>
       <point x="742.198" y="918"/>
-      <point x="722.198" y="810" type="qcurve"/>
+      <point x="722.198" y="810" type="qcurve" smooth="yes"/>
       <point x="616.198" y="200" type="line" smooth="yes"/>
       <point x="606.198" y="142"/>
       <point x="564.198" y="61"/>
@@ -62,6 +62,12 @@
       <point x="149.198" y="99" type="line"/>
     </contour>
   </outline>
-  <guideline y="1060"/>
-  <guideline y="-60"/>
+  <guideline angle="0" x="0" y="1060"/>
+  <guideline angle="0" x="0" y="-60"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  </dict>
+  </lib>
 </glyph>

@@ -2,8 +2,8 @@
 <glyph name="R" format="2">
   <advance width="1537"/>
   <unicode hex="0052"/>
-  <anchor x="769" y="-150" name="bottom"/>
-  <anchor x="769" y="1550" name="top"/>
+  <anchor x="768.5" y="-150" name="bottom"/>
+  <anchor x="768.5" y="1550" name="top"/>
   <outline>
     <contour>
       <point x="-32" y="0" type="line"/>
@@ -35,7 +35,7 @@
       <point x="859" y="1355"/>
       <point x="875" y="1340"/>
       <point x="880" y="1318"/>
-      <point x="878" y="1304" type="qcurve" smooth="yes"/>
+      <point x="878" y="1304" type="qcurve"/>
       <point x="760" y="630" type="line" smooth="yes"/>
       <point x="758" y="617"/>
       <point x="745" y="594"/>
@@ -44,4 +44,10 @@
       <point x="673" y="570" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,1,0.602,0</string>
+  </dict>
+  </lib>
 </glyph>

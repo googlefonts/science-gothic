@@ -2,6 +2,104 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>public.kern1._guillemotleft_3</key>
+  <array>
+    <string>guillemotleft</string>
+    <string>guilsinglleft</string>
+  </array>
+  <key>public.kern1._guillemotleftcase_3</key>
+  <array>
+    <string>guillemotleft.case</string>
+    <string>guilsinglleft.case</string>
+  </array>
+  <key>public.kern1._guillemotright_3</key>
+  <array>
+    <string>guillemotright</string>
+    <string>guilsinglright</string>
+  </array>
+  <key>public.kern1._guillemotrightcase_3</key>
+  <array>
+    <string>guillemotright.case</string>
+    <string>guilsinglright.case</string>
+  </array>
+  <key>public.kern1._lc_anh_1</key>
+  <array>
+    <string>a</string>
+    <string>aogonek</string>
+    <string>h</string>
+    <string>hbar</string>
+    <string>m</string>
+    <string>n</string>
+    <string>nacute</string>
+    <string>ncommaaccent</string>
+    <string>ntilde</string>
+    <string>uni0125</string>
+    <string>uni0430</string>
+    <string>uni0452</string>
+    <string>uni045B</string>
+    <string>uni1EA1</string>
+  </array>
+  <key>public.kern1._lc_dotlessi_1</key>
+  <array>
+    <string>a.slnt</string>
+    <string>aacute.slnt</string>
+    <string>abreve.slnt</string>
+    <string>acircumflex.slnt</string>
+    <string>adieresis.slnt</string>
+    <string>agrave.slnt</string>
+    <string>amacron.slnt</string>
+    <string>aogonek.slnt</string>
+    <string>aring.slnt</string>
+    <string>aringacute.slnt</string>
+    <string>atilde.slnt</string>
+    <string>dotlessi</string>
+    <string>q</string>
+    <string>u</string>
+    <string>uni0201.slnt</string>
+    <string>uni0203.slnt</string>
+    <string>uni0430.slnt</string>
+    <string>uni0438</string>
+    <string>uni0439</string>
+    <string>uni043C</string>
+    <string>uni043D</string>
+    <string>uni043F</string>
+    <string>uni0447</string>
+    <string>uni0448</string>
+    <string>uni044B</string>
+    <string>uni044F</string>
+    <string>uni045D</string>
+    <string>uni045F</string>
+    <string>uni046B</string>
+    <string>uni0495</string>
+    <string>uni04B9</string>
+    <string>uni04CC</string>
+    <string>uni04D1.slnt</string>
+    <string>uni04D3.slnt</string>
+    <string>uni04E3</string>
+    <string>uni04E5</string>
+    <string>uni04F5</string>
+    <string>uni04F9</string>
+    <string>uni051B</string>
+    <string>uni1EA1.slnt</string>
+    <string>uni1EA3.slnt</string>
+    <string>uni1EA5.slnt</string>
+    <string>uni1EA7.slnt</string>
+    <string>uni1EA9.slnt</string>
+    <string>uni1EAB.slnt</string>
+    <string>uni1EAD.slnt</string>
+    <string>uni1EAF.slnt</string>
+    <string>uni1EB1.slnt</string>
+    <string>uni1EB3.slnt</string>
+    <string>uni1EB5.slnt</string>
+    <string>uni1EB7.slnt</string>
+    <string>uni1EE5</string>
+    <string>uogonek</string>
+  </array>
+  <key>public.kern1._lc_f_3</key>
+  <array>
+    <string>f</string>
+    <string>f.slnt</string>
+  </array>
   <key>public.kern1._lc_horn_1</key>
   <array>
     <string>ohorn</string>
@@ -17,13 +115,6 @@
     <string>uni1EEF</string>
     <string>uni1EF1</string>
   </array>
-  <key>public.kern1._lc_j_3</key>
-  <array>
-    <string>j</string>
-    <string>jcircumflex</string>
-    <string>uni0237</string>
-    <string>uni0458</string>
-  </array>
   <key>public.kern1._lc_k_1</key>
   <array>
     <string>k</string>
@@ -37,32 +128,30 @@
   </array>
   <key>public.kern1._lc_o_1</key>
   <array>
-    <string>a</string>
     <string>ae</string>
     <string>aeacute</string>
-    <string>aogonek</string>
     <string>b</string>
     <string>c</string>
     <string>ccedilla</string>
     <string>e</string>
     <string>eogonek</string>
+    <string>eth</string>
     <string>o</string>
     <string>oe</string>
     <string>oslash</string>
     <string>p</string>
     <string>s</string>
     <string>thorn</string>
-    <string>u</string>
     <string>uni015F</string>
     <string>uni01EB</string>
     <string>uni0219</string>
     <string>uni0259</string>
-    <string>uni0430</string>
     <string>uni0435</string>
     <string>uni043E</string>
     <string>uni0440</string>
     <string>uni0441</string>
     <string>uni0444</string>
+    <string>uni044D</string>
     <string>uni044E</string>
     <string>uni0454</string>
     <string>uni0455</string>
@@ -71,10 +160,7 @@
     <string>uni04D5</string>
     <string>uni04D9</string>
     <string>uni04E9</string>
-    <string>uni1EA1</string>
     <string>uni1EB9</string>
-    <string>uni1EE5</string>
-    <string>uogonek</string>
   </array>
   <key>public.kern1._lc_o_diac_1</key>
   <array>
@@ -165,6 +251,14 @@
     <string>uni0211</string>
     <string>uni0213</string>
   </array>
+  <key>public.kern1._lc_t_3</key>
+  <array>
+    <string>t</string>
+    <string>tbar</string>
+    <string>tcaron</string>
+    <string>uni0163</string>
+    <string>uni021B</string>
+  </array>
   <key>public.kern1._lc_uni0432_1</key>
   <array>
     <string>uni0432</string>
@@ -184,6 +278,7 @@
   <array>
     <string>uni0434</string>
     <string>uni043B</string>
+    <string>uni0459</string>
   </array>
   <key>public.kern1._lc_uni0442_1</key>
   <array>
@@ -205,22 +300,55 @@
     <string>uni045A</string>
     <string>uni0463</string>
   </array>
+  <key>public.kern1._lc_v_3</key>
+  <array>
+    <string>uni0475</string>
+    <string>uni0475.sc</string>
+    <string>uni04AF</string>
+    <string>uni04B1</string>
+    <string>v</string>
+    <string>v.sc</string>
+  </array>
+  <key>public.kern1._lc_w_3</key>
+  <array>
+    <string>uni051D</string>
+    <string>uni051D.sc</string>
+    <string>uni1E85.sc</string>
+    <string>w</string>
+    <string>w.sc</string>
+  </array>
   <key>public.kern1._lc_w_diac_3</key>
   <array>
+    <string>uni1E81.sc</string>
+    <string>uni1E83.sc</string>
     <string>wacute</string>
     <string>wcircumflex</string>
+    <string>wcircumflex.sc</string>
     <string>wdieresis</string>
     <string>wgrave</string>
   </array>
   <key>public.kern1._lc_x_3</key>
   <array>
     <string>uni0436</string>
+    <string>uni0436.sc</string>
     <string>uni0445</string>
+    <string>uni0445.sc</string>
     <string>uni0497</string>
+    <string>uni0497.sc</string>
     <string>uni04B3</string>
+    <string>uni04B3.sc</string>
     <string>uni04C2</string>
+    <string>uni04C2.sc</string>
     <string>uni04DD</string>
     <string>x</string>
+    <string>x.sc</string>
+  </array>
+  <key>public.kern1._lc_y_3</key>
+  <array>
+    <string>uni0443</string>
+    <string>uni04BB</string>
+    <string>uni1EF5</string>
+    <string>y</string>
   </array>
   <key>public.kern1._lc_y_diac_3</key>
   <array>
@@ -239,8 +367,16 @@
   <key>public.kern1._lc_z_diac_3</key>
   <array>
     <string>zacute</string>
+    <string>zacute.sc</string>
     <string>zcaron</string>
+    <string>zcaron.sc</string>
     <string>zdotaccent</string>
+    <string>zdotaccent.sc</string>
+  </array>
+  <key>public.kern1._percent</key>
+  <array>
+    <string>percent</string>
+    <string>perthousand</string>
   </array>
   <key>public.kern1._punct_backslash_3</key>
   <array>
@@ -261,12 +397,6 @@
     <string>braceleft.case</string>
     <string>bracketleft</string>
     <string>bracketleft.case</string>
-  </array>
-  <key>public.kern1._punct_case_dash_3</key>
-  <array>
-    <string>emdash.case</string>
-    <string>endash.case</string>
-    <string>hyphen.case</string>
   </array>
   <key>public.kern1._punct_colon_3</key>
   <array>
@@ -289,20 +419,30 @@
     <string>parenleft</string>
     <string>parenleft.case</string>
   </array>
-  <key>public.kern1._punct_quote_3</key>
+  <key>public.kern1._punct_quote_l_3</key>
   <array>
-    <string>quotedbl</string>
     <string>quotedblleft</string>
-    <string>quotedblright</string>
     <string>quoteleft</string>
-    <string>quoteright</string>
-    <string>quotesingle</string>
+    <string>uni02BB</string>
+  </array>
+  <key>public.kern1._punct_quote_prime_3</key>
+  <array>
     <string>uni02B9</string>
     <string>uni02BA</string>
-    <string>uni02BB</string>
-    <string>uni02BC</string>
     <string>uni2032</string>
     <string>uni2033</string>
+  </array>
+  <key>public.kern1._punct_quote_r_3</key>
+  <array>
+    <string>quotedblright</string>
+    <string>quoteright</string>
+    <string>uni02BC</string>
+  </array>
+  <key>public.kern1._punct_quote_str_3</key>
+  <array>
+    <string>asterisk</string>
+    <string>quotedbl</string>
+    <string>quotesingle</string>
   </array>
   <key>public.kern1._punct_sc_quotes_3</key>
   <array>
@@ -401,6 +541,45 @@
     <string>uni1EC5.sc</string>
     <string>uni1EC7.sc</string>
   </array>
+  <key>public.kern1._sc_h_1</key>
+  <array>
+    <string>eng.sc</string>
+    <string>h.sc</string>
+    <string>i.sc</string>
+    <string>lj.sc</string>
+    <string>m.sc</string>
+    <string>n.sc</string>
+    <string>nj.sc</string>
+    <string>uni0438.sc</string>
+    <string>uni043C.sc</string>
+    <string>uni043D.sc</string>
+    <string>uni043F.sc</string>
+    <string>uni0443.sc</string>
+    <string>uni0447.sc</string>
+    <string>uni0448.sc</string>
+    <string>uni044B.sc</string>
+    <string>uni044F.sc</string>
+    <string>uni045F.sc</string>
+    <string>uni046B.sc</string>
+    <string>uni04CC.sc</string>
+  </array>
+  <key>public.kern1._sc_h_diac_1</key>
+  <array>
+    <string>hbar.sc</string>
+    <string>hcircumflex.sc</string>
+    <string>nacute.sc</string>
+    <string>ncaron.sc</string>
+    <string>ntilde.sc</string>
+    <string>uni045D.sc</string>
+    <string>uni045E.sc</string>
+    <string>uni04E3.sc</string>
+    <string>uni04E5.sc</string>
+    <string>uni04EF.sc</string>
+    <string>uni04F1.sc</string>
+    <string>uni04F3.sc</string>
+    <string>uni04F5.sc</string>
+    <string>uni04F9.sc</string>
+  </array>
   <key>public.kern1._sc_horn_1</key>
   <array>
     <string>ohorn.sc</string>
@@ -437,24 +616,27 @@
     <string>ccedilla.sc</string>
     <string>g.sc</string>
     <string>gcommaaccent.sc</string>
-    <string>germandbls.sc</string>
+    <string>germandbls.smcp</string>
     <string>o.sc</string>
     <string>oogonek.sc</string>
     <string>oslash.sc</string>
     <string>q.sc</string>
     <string>s.sc</string>
     <string>scedilla.sc</string>
+    <string>thorn.sc</string>
     <string>u.sc</string>
     <string>uni0219.sc</string>
     <string>uni0259.sc</string>
     <string>uni043E.sc</string>
     <string>uni0441.sc</string>
     <string>uni0444.sc</string>
+    <string>uni044D.sc</string>
     <string>uni044E.sc</string>
     <string>uni0454.sc</string>
     <string>uni0455.sc</string>
     <string>uni0473.sc</string>
     <string>uni04AB.sc</string>
+    <string>uni04D9.sc</string>
     <string>uni04E9.sc</string>
     <string>uni051B.sc</string>
     <string>uni1ECD.sc</string>
@@ -564,32 +746,6 @@
     <string>uni0463.sc</string>
     <string>uni04BB.sc</string>
   </array>
-  <key>public.kern1._sc_v_3</key>
-  <array>
-    <string>uni0475.sc</string>
-    <string>v.sc</string>
-  </array>
-  <key>public.kern1._sc_w_3</key>
-  <array>
-    <string>uni051D.sc</string>
-    <string>uni1E85.sc</string>
-    <string>w.sc</string>
-  </array>
-  <key>public.kern1._sc_w_diac_3</key>
-  <array>
-    <string>uni1E81.sc</string>
-    <string>uni1E83.sc</string>
-    <string>wcircumflex.sc</string>
-  </array>
-  <key>public.kern1._sc_x_3</key>
-  <array>
-    <string>uni0436.sc</string>
-    <string>uni0445.sc</string>
-    <string>uni0497.sc</string>
-    <string>uni04B3.sc</string>
-    <string>uni04C2.sc</string>
-    <string>x.sc</string>
-  </array>
   <key>public.kern1._sc_y_3</key>
   <array>
     <string>uni04AF.sc</string>
@@ -607,17 +763,21 @@
     <string>ycircumflex.sc</string>
     <string>ydieresis.sc</string>
   </array>
-  <key>public.kern1._sc_z_diac_3</key>
-  <array>
-    <string>zacute.sc</string>
-    <string>zcaron.sc</string>
-    <string>zdotaccent.sc</string>
-  </array>
   <key>public.kern1._sym_bugs_3</key>
   <array>
     <string>degree</string>
+    <string>eight.sups</string>
+    <string>five.sups</string>
+    <string>four.sups</string>
+    <string>nine.sups</string>
+    <string>one.sups</string>
     <string>registered</string>
+    <string>seven.sups</string>
+    <string>six.sups</string>
+    <string>three.sups</string>
     <string>trademark</string>
+    <string>two.sups</string>
+    <string>zero.sups</string>
   </array>
   <key>public.kern1._uc_A_1</key>
   <array>
@@ -684,6 +844,7 @@
     <string>Dcaron</string>
     <string>Dcroat</string>
     <string>Eth</string>
+    <string>Thorn</string>
   </array>
   <key>public.kern1._uc_E_1</key>
   <array>
@@ -721,16 +882,6 @@
     <string>F</string>
     <string>franc</string>
   </array>
-  <key>public.kern1._uc_G_1</key>
-  <array>
-    <string>G</string>
-    <string>Gbreve</string>
-    <string>Gcaron</string>
-    <string>Gcircumflex</string>
-    <string>Gcommaaccent</string>
-    <string>Gdotaccent</string>
-    <string>uni20B2</string>
-  </array>
   <key>public.kern1._uc_KX_1</key>
   <array>
     <string>K</string>
@@ -758,6 +909,12 @@
   </array>
   <key>public.kern1._uc_O_1</key>
   <array>
+    <string>G</string>
+    <string>Gbreve</string>
+    <string>Gcaron</string>
+    <string>Gcircumflex</string>
+    <string>Gcommaaccent</string>
+    <string>Gdotaccent</string>
     <string>O</string>
     <string>Oacute</string>
     <string>Obreve</string>
@@ -796,6 +953,7 @@
     <string>uni1ED4</string>
     <string>uni1ED6</string>
     <string>uni1ED8</string>
+    <string>uni20B2</string>
   </array>
   <key>public.kern1._uc_P_1</key>
   <array>
@@ -812,16 +970,6 @@
     <string>uni0210</string>
     <string>uni0212</string>
     <string>uni20B9</string>
-  </array>
-  <key>public.kern1._uc_S_3</key>
-  <array>
-    <string>S</string>
-    <string>Sacute</string>
-    <string>Scaron</string>
-    <string>Scircumflex</string>
-    <string>uni015E</string>
-    <string>uni0218</string>
-    <string>uni0405</string>
   </array>
   <key>public.kern1._uc_T_1</key>
   <array>
@@ -880,7 +1028,6 @@
     <string>uni1EF4</string>
     <string>uni1EF6</string>
     <string>uni1EF8</string>
-    <string>yen</string>
   </array>
   <key>public.kern1._uc_Z_3</key>
   <array>
@@ -930,6 +1077,31 @@
     <string>uni0462</string>
     <string>uni04BA</string>
   </array>
+  <key>public.kern2._guillemotleft_3</key>
+  <array>
+    <string>guillemotleft</string>
+    <string>guilsinglleft</string>
+  </array>
+  <key>public.kern2._guillemotleftcase_3</key>
+  <array>
+    <string>guillemotleft.case</string>
+    <string>guilsinglleft.case</string>
+  </array>
+  <key>public.kern2._guillemotright_3</key>
+  <array>
+    <string>guillemotright</string>
+    <string>guilsinglright</string>
+  </array>
+  <key>public.kern2._guillemotrightcase_3</key>
+  <array>
+    <string>guillemotright.case</string>
+    <string>guilsinglright.case</string>
+  </array>
+  <key>public.kern2._lc_f_3</key>
+  <array>
+    <string>f</string>
+    <string>f.slnt</string>
+  </array>
   <key>public.kern2._lc_j_3</key>
   <array>
     <string>j</string>
@@ -937,14 +1109,66 @@
     <string>uni0237</string>
     <string>uni0458</string>
   </array>
+  <key>public.kern2._lc_n_2</key>
+  <array>
+    <string>dotlessi</string>
+    <string>kgreenlandic</string>
+    <string>m</string>
+    <string>n</string>
+    <string>ncommaaccent</string>
+    <string>p</string>
+    <string>r</string>
+    <string>uni0211</string>
+    <string>uni0213</string>
+    <string>uni0432</string>
+    <string>uni0433</string>
+    <string>uni0438</string>
+    <string>uni0439</string>
+    <string>uni043A</string>
+    <string>uni043C</string>
+    <string>uni043D</string>
+    <string>uni043F</string>
+    <string>uni0440</string>
+    <string>uni0446</string>
+    <string>uni0448</string>
+    <string>uni0449</string>
+    <string>uni044B</string>
+    <string>uni044C</string>
+    <string>uni044E</string>
+    <string>uni0453</string>
+    <string>uni045A</string>
+    <string>uni045C</string>
+    <string>uni045D</string>
+    <string>uni045F</string>
+    <string>uni046B</string>
+    <string>uni0491</string>
+    <string>uni0493</string>
+    <string>uni0495</string>
+    <string>uni049B</string>
+    <string>uni049D</string>
+    <string>uni04A3</string>
+    <string>uni04A5</string>
+    <string>uni04E3</string>
+    <string>uni04E5</string>
+    <string>uni04F7</string>
+    <string>uni04F9</string>
+  </array>
+  <key>public.kern2._lc_n_diac_2</key>
+  <array>
+    <string>nacute</string>
+    <string>ntilde</string>
+    <string>racute</string>
+    <string>rcaron</string>
+  </array>
   <key>public.kern2._lc_o_2</key>
   <array>
     <string>a</string>
+    <string>a.slnt</string>
     <string>ae</string>
     <string>aogonek</string>
+    <string>aogonek.slnt</string>
     <string>c</string>
     <string>ccedilla</string>
-    <string>cent</string>
     <string>d</string>
     <string>dcaron</string>
     <string>e</string>
@@ -956,13 +1180,16 @@
     <string>oslash</string>
     <string>q</string>
     <string>s</string>
+    <string>thorn</string>
     <string>u</string>
+    <string>uhorn</string>
     <string>uni015F</string>
     <string>uni01C6</string>
     <string>uni01EB</string>
     <string>uni0219</string>
     <string>uni0259</string>
     <string>uni0430</string>
+    <string>uni0430.slnt</string>
     <string>uni0435</string>
     <string>uni043E</string>
     <string>uni0441</string>
@@ -976,27 +1203,37 @@
     <string>uni04E9</string>
     <string>uni051B</string>
     <string>uni1EA1</string>
+    <string>uni1EA1.slnt</string>
     <string>uni1EB9</string>
     <string>uni1EE5</string>
-    <string>uni20AB</string>
     <string>uogonek</string>
   </array>
   <key>public.kern2._lc_o_diac_2</key>
   <array>
     <string>aacute</string>
+    <string>aacute.slnt</string>
     <string>abreve</string>
+    <string>abreve.slnt</string>
     <string>acircumflex</string>
+    <string>acircumflex.slnt</string>
     <string>adieresis</string>
+    <string>adieresis.slnt</string>
     <string>aeacute</string>
     <string>agrave</string>
+    <string>agrave.slnt</string>
     <string>amacron</string>
+    <string>amacron.slnt</string>
     <string>aring</string>
+    <string>aring.slnt</string>
     <string>aringacute</string>
+    <string>aringacute.slnt</string>
     <string>atilde</string>
+    <string>atilde.slnt</string>
     <string>cacute</string>
     <string>ccaron</string>
     <string>ccircumflex</string>
     <string>cdotaccent</string>
+    <string>cent</string>
     <string>dcroat</string>
     <string>eacute</string>
     <string>ebreve</string>
@@ -1032,7 +1269,9 @@
     <string>uhungarumlaut</string>
     <string>umacron</string>
     <string>uni0201</string>
+    <string>uni0201.slnt</string>
     <string>uni0203</string>
+    <string>uni0203.slnt</string>
     <string>uni0205</string>
     <string>uni0207</string>
     <string>uni020D</string>
@@ -1045,20 +1284,33 @@
     <string>uni0450</string>
     <string>uni0451</string>
     <string>uni04D1</string>
+    <string>uni04D1.slnt</string>
     <string>uni04D3</string>
+    <string>uni04D3.slnt</string>
     <string>uni04D7</string>
     <string>uni04E7</string>
     <string>uni1EA3</string>
+    <string>uni1EA3.slnt</string>
     <string>uni1EA5</string>
+    <string>uni1EA5.slnt</string>
     <string>uni1EA7</string>
+    <string>uni1EA7.slnt</string>
     <string>uni1EA9</string>
+    <string>uni1EA9.slnt</string>
     <string>uni1EAB</string>
+    <string>uni1EAB.slnt</string>
     <string>uni1EAD</string>
+    <string>uni1EAD.slnt</string>
     <string>uni1EAF</string>
+    <string>uni1EAF.slnt</string>
     <string>uni1EB1</string>
+    <string>uni1EB1.slnt</string>
     <string>uni1EB3</string>
+    <string>uni1EB3.slnt</string>
     <string>uni1EB5</string>
+    <string>uni1EB5.slnt</string>
     <string>uni1EB7</string>
+    <string>uni1EB7.slnt</string>
     <string>uni1EBB</string>
     <string>uni1EBD</string>
     <string>uni1EBF</string>
@@ -1079,6 +1331,12 @@
     <string>uni1EE1</string>
     <string>uni1EE3</string>
     <string>uni1EE7</string>
+    <string>uni1EE9</string>
+    <string>uni1EEB</string>
+    <string>uni1EED</string>
+    <string>uni1EEF</string>
+    <string>uni1EF1</string>
+    <string>uni20AB</string>
     <string>uring</string>
     <string>utilde</string>
   </array>
@@ -1101,6 +1359,7 @@
   <array>
     <string>uni0434</string>
     <string>uni043B</string>
+    <string>uni0459</string>
   </array>
   <key>public.kern2._lc_uni0442_2</key>
   <array>
@@ -1119,31 +1378,45 @@
   <key>public.kern2._lc_v_3</key>
   <array>
     <string>uni0475</string>
+    <string>uni0475.sc</string>
     <string>uni04AF</string>
     <string>uni04B1</string>
     <string>v</string>
+    <string>v.sc</string>
   </array>
   <key>public.kern2._lc_w_3</key>
   <array>
     <string>uni051D</string>
+    <string>uni051D.sc</string>
+    <string>uni1E85.sc</string>
     <string>w</string>
+    <string>w.sc</string>
   </array>
   <key>public.kern2._lc_w_diac_3</key>
   <array>
+    <string>uni1E81.sc</string>
+    <string>uni1E83.sc</string>
     <string>wacute</string>
     <string>wcircumflex</string>
+    <string>wcircumflex.sc</string>
     <string>wdieresis</string>
     <string>wgrave</string>
   </array>
   <key>public.kern2._lc_x_3</key>
   <array>
     <string>uni0436</string>
+    <string>uni0436.sc</string>
     <string>uni0445</string>
+    <string>uni0445.sc</string>
     <string>uni0497</string>
+    <string>uni0497.sc</string>
     <string>uni04B3</string>
+    <string>uni04B3.sc</string>
     <string>uni04C2</string>
+    <string>uni04C2.sc</string>
     <string>uni04DD</string>
     <string>x</string>
+    <string>x.sc</string>
   </array>
   <key>public.kern2._lc_y_3</key>
   <array>
@@ -1169,8 +1442,16 @@
   <key>public.kern2._lc_z_diac_3</key>
   <array>
     <string>zacute</string>
+    <string>zacute.sc</string>
     <string>zcaron</string>
+    <string>zcaron.sc</string>
     <string>zdotaccent</string>
+    <string>zdotaccent.sc</string>
+  </array>
+  <key>public.kern2._percent</key>
+  <array>
+    <string>percent</string>
+    <string>perthousand</string>
   </array>
   <key>public.kern2._punct_backslash_3</key>
   <array>
@@ -1219,20 +1500,30 @@
     <string>parenright</string>
     <string>parenright.case</string>
   </array>
-  <key>public.kern2._punct_quote_3</key>
+  <key>public.kern2._punct_quote_l_3</key>
   <array>
-    <string>quotedbl</string>
     <string>quotedblleft</string>
-    <string>quotedblright</string>
     <string>quoteleft</string>
-    <string>quoteright</string>
-    <string>quotesingle</string>
+    <string>uni02BB</string>
+  </array>
+  <key>public.kern2._punct_quote_prime_3</key>
+  <array>
     <string>uni02B9</string>
     <string>uni02BA</string>
-    <string>uni02BB</string>
-    <string>uni02BC</string>
     <string>uni2032</string>
     <string>uni2033</string>
+  </array>
+  <key>public.kern2._punct_quote_r_3</key>
+  <array>
+    <string>quotedblright</string>
+    <string>quoteright</string>
+    <string>uni02BC</string>
+  </array>
+  <key>public.kern2._punct_quote_str_3</key>
+  <array>
+    <string>asterisk</string>
+    <string>quotedbl</string>
+    <string>quotesingle</string>
   </array>
   <key>public.kern2._punct_sc_quotes_3</key>
   <array>
@@ -1288,6 +1579,106 @@
     <string>aeacute.sc</string>
     <string>uni0459.sc</string>
   </array>
+  <key>public.kern2._sc_h_2</key>
+  <array>
+    <string>b.sc</string>
+    <string>d.sc</string>
+    <string>dzcaron.sc</string>
+    <string>e.sc</string>
+    <string>eng.sc</string>
+    <string>f.sc</string>
+    <string>h.sc</string>
+    <string>i.sc</string>
+    <string>k.sc</string>
+    <string>kgreenlandic.sc</string>
+    <string>l.sc</string>
+    <string>lcaron.sc</string>
+    <string>lcommaaccent.sc</string>
+    <string>ldot.sc</string>
+    <string>lj.sc</string>
+    <string>m.sc</string>
+    <string>n.sc</string>
+    <string>ncommaaccent.sc</string>
+    <string>nj.sc</string>
+    <string>p.sc</string>
+    <string>r.sc</string>
+    <string>rcommaaccent.sc</string>
+    <string>thorn.sc</string>
+    <string>uni0431.sc</string>
+    <string>uni0432.sc</string>
+    <string>uni0433.sc</string>
+    <string>uni0435.sc</string>
+    <string>uni0438.sc</string>
+    <string>uni0439.sc</string>
+    <string>uni043A.sc</string>
+    <string>uni043C.sc</string>
+    <string>uni043D.sc</string>
+    <string>uni043F.sc</string>
+    <string>uni0440.sc</string>
+    <string>uni0446.sc</string>
+    <string>uni0448.sc</string>
+    <string>uni0449.sc</string>
+    <string>uni044B.sc</string>
+    <string>uni044E.sc</string>
+    <string>uni045A.sc</string>
+    <string>uni045F.sc</string>
+    <string>uni046B.sc</string>
+    <string>uni0491.sc</string>
+    <string>uni0495.sc</string>
+    <string>uni049B.sc</string>
+    <string>uni049D.sc</string>
+    <string>uni04A3.sc</string>
+    <string>uni04BB.sc</string>
+    <string>uni04CF.sc</string>
+    <string>uni04F7.sc</string>
+  </array>
+  <key>public.kern2._sc_h_diac_2</key>
+  <array>
+    <string>dcroat.sc</string>
+    <string>eacute.sc</string>
+    <string>ebreve.sc</string>
+    <string>ecaron.sc</string>
+    <string>ecircumflex.sc</string>
+    <string>edieresis.sc</string>
+    <string>edotaccent.sc</string>
+    <string>egrave.sc</string>
+    <string>emacron.sc</string>
+    <string>hbar.sc</string>
+    <string>hcircumflex.sc</string>
+    <string>kcommaaccent.sc</string>
+    <string>lacute.sc</string>
+    <string>lslash.sc</string>
+    <string>nacute.sc</string>
+    <string>ncaron.sc</string>
+    <string>ntilde.sc</string>
+    <string>racute.sc</string>
+    <string>rcaron.sc</string>
+    <string>uni0205.sc</string>
+    <string>uni0207.sc</string>
+    <string>uni0211.sc</string>
+    <string>uni0213.sc</string>
+    <string>uni0450.sc</string>
+    <string>uni0451.sc</string>
+    <string>uni0453.sc</string>
+    <string>uni045C.sc</string>
+    <string>uni045D.sc</string>
+    <string>uni04D7.sc</string>
+    <string>uni04E3.sc</string>
+    <string>uni04E5.sc</string>
+    <string>uni04F9.sc</string>
+    <string>uni1EBB.sc</string>
+    <string>uni1EBD.sc</string>
+    <string>uni1EBF.sc</string>
+    <string>uni1EC1.sc</string>
+    <string>uni1EC3.sc</string>
+    <string>uni1EC5.sc</string>
+    <string>uni1EC7.sc</string>
+    <string>uni1EE9.sc</string>
+    <string>uni1EEB.sc</string>
+    <string>uni1EED.sc</string>
+    <string>uni1EEF.sc</string>
+    <string>uni1EF1.sc</string>
+  </array>
   <key>public.kern2._sc_j_2</key>
   <array>
     <string>j.sc</string>
@@ -1300,10 +1691,9 @@
     <string>ccedilla.sc</string>
     <string>g.sc</string>
     <string>gcommaaccent.sc</string>
-    <string>germandbls.sc</string>
+    <string>germandbls.smcp</string>
     <string>o.sc</string>
     <string>oe.sc</string>
-    <string>ohorn.sc</string>
     <string>oogonek.sc</string>
     <string>oslash.sc</string>
     <string>q.sc</string>
@@ -1319,6 +1709,7 @@
     <string>uni0455.sc</string>
     <string>uni0473.sc</string>
     <string>uni04AB.sc</string>
+    <string>uni04D9.sc</string>
     <string>uni04E9.sc</string>
     <string>uni051B.sc</string>
     <string>uni1ECD.sc</string>
@@ -1412,32 +1803,6 @@
     <string>uni04CC.sc</string>
     <string>uni04F5.sc</string>
   </array>
-  <key>public.kern2._sc_v_3</key>
-  <array>
-    <string>uni0475.sc</string>
-    <string>v.sc</string>
-  </array>
-  <key>public.kern2._sc_w_3</key>
-  <array>
-    <string>uni051D.sc</string>
-    <string>uni1E85.sc</string>
-    <string>w.sc</string>
-  </array>
-  <key>public.kern2._sc_w_diac_3</key>
-  <array>
-    <string>uni1E81.sc</string>
-    <string>uni1E83.sc</string>
-    <string>wcircumflex.sc</string>
-  </array>
-  <key>public.kern2._sc_x_3</key>
-  <array>
-    <string>uni0436.sc</string>
-    <string>uni0445.sc</string>
-    <string>uni0497.sc</string>
-    <string>uni04B3.sc</string>
-    <string>uni04C2.sc</string>
-    <string>x.sc</string>
-  </array>
   <key>public.kern2._sc_y_3</key>
   <array>
     <string>uni04AF.sc</string>
@@ -1455,17 +1820,21 @@
     <string>ycircumflex.sc</string>
     <string>ydieresis.sc</string>
   </array>
-  <key>public.kern2._sc_z_diac_3</key>
-  <array>
-    <string>zacute.sc</string>
-    <string>zcaron.sc</string>
-    <string>zdotaccent.sc</string>
-  </array>
   <key>public.kern2._sym_bugs_3</key>
   <array>
     <string>degree</string>
+    <string>eight.sups</string>
+    <string>five.sups</string>
+    <string>four.sups</string>
+    <string>nine.sups</string>
+    <string>one.sups</string>
     <string>registered</string>
+    <string>seven.sups</string>
+    <string>six.sups</string>
+    <string>three.sups</string>
     <string>trademark</string>
+    <string>two.sups</string>
+    <string>zero.sups</string>
   </array>
   <key>public.kern2._sym_ord_2</key>
   <array>
@@ -1660,7 +2029,6 @@
     <string>uni1EF4</string>
     <string>uni1EF6</string>
     <string>uni1EF8</string>
-    <string>yen</string>
   </array>
   <key>public.kern2._uc_Z_3</key>
   <array>

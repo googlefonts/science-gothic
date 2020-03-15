@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oslash.sc" format="2">
-  <advance width="519"/>
+  <advance width="519.24"/>
   <anchor x="355" y="1237" name="top"/>
   <outline>
     <contour>
       <point x="124.145" y="910" type="line"/>
-      <point x="-8.85533" y="151" type="line" smooth="yes"/>
+      <point x="-8.8553" y="151" type="line" smooth="yes"/>
       <point x="-15.8553" y="109"/>
-      <point x="-7.85533" y="51"/>
+      <point x="-7.8553" y="51"/>
       <point x="25.1447" y="13"/>
       <point x="85.1447" y="-4"/>
       <point x="128.145" y="-4" type="qcurve" smooth="yes"/>
@@ -17,7 +17,7 @@
       <point x="305.145" y="51"/>
       <point x="334.145" y="109"/>
       <point x="341.145" y="151" type="qcurve" smooth="yes"/>
-      <point x="473.145" y="909" type="line"/>
+      <point x="473.145" y="909" type="line" smooth="yes"/>
       <point x="481.145" y="951"/>
       <point x="472.145" y="1009"/>
       <point x="438.145" y="1046"/>
@@ -61,11 +61,17 @@
       <point x="446.145" y="1020" type="line"/>
       <point x="442.145" y="1013" type="line"/>
       <point x="16.1447" y="112" type="line"/>
-      <point x="8.14467" y="95" type="line"/>
+      <point x="8.1447" y="95" type="line"/>
       <point x="-44.8553" y="-17" type="line"/>
     </contour>
   </outline>
-  <guideline y="-26"/>
-  <guideline y="-26"/>
-  <guideline y="1430"/>
+  <guideline angle="0" x="0" y="-26"/>
+  <guideline angle="0" x="0" y="-26"/>
+  <guideline angle="0" x="0" y="1430"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  </dict>
+  </lib>
 </glyph>

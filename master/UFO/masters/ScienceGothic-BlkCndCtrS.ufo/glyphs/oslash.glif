@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oslash" format="2">
-  <advance width="1285" height="1448"/>
+  <advance width="1285.47" height="1448"/>
   <unicode hex="00F8"/>
   <anchor x="727" y="1174" name="top"/>
   <outline>
     <contour>
-      <point x="-6.91573" y="258" type="line"/>
-      <point x="83.0843" y="776" type="line"/>
+      <point x="-6.9157" y="258" type="line"/>
+      <point x="83.0843" y="776" type="line" smooth="yes"/>
       <point x="95.0843" y="841"/>
       <point x="148.084" y="937"/>
       <point x="234.084" y="1000"/>
@@ -25,9 +25,9 @@
       <point x="253.084" y="-6" type="line" smooth="yes"/>
       <point x="173.084" y="-6"/>
       <point x="62.0843" y="25"/>
-      <point x="-0.915735" y="89"/>
+      <point x="-0.9157" y="89"/>
       <point x="-18.9157" y="189"/>
-      <point x="-6.91573" y="258" type="qcurve"/>
+      <point x="-6.9157" y="258" type="qcurve"/>
     </contour>
     <contour>
       <point x="477.084" y="26" type="line"/>
@@ -62,6 +62,12 @@
       <point x="131.084" y="140" type="line"/>
     </contour>
   </outline>
-  <guideline y="1060"/>
-  <guideline y="-60"/>
+  <guideline angle="0" x="0" y="1060"/>
+  <guideline angle="0" x="0" y="-60"/>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.999,1,0.6,0</string>
+  </dict>
+  </lib>
 </glyph>
