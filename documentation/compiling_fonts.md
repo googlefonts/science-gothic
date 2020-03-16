@@ -1,8 +1,10 @@
-# FontLab > UFO+Designspace+FontMake workflow:
+# Our FontLab > UFO+Designspace+FontMake workflow:
 
-This is how we get from FontLab VFC files to final variable TTFs. If you are working directly with UFO as the masters, instead of a FontLab file, you will skip to near the end of this process (and there is nothing much special about it).
+This is how we get from FontLab VFC files to final variable TTFs. 
 
-We use a FontLab script, which is here in the repo. It is assumed you have these installed and know how to run scripts from FontLab.
+If you are working directly with UFOs only, and not starting with the FontLab source, you would skip to point 9 below.
+
+For point 1 and 3, we use a FontLab script, which is here in the repo. It is assumed you have this script installed and know how to run scripts from FontLab.
 
 1. Run _Font: Check QA_ script that is in the scripts folder within FL. (Note that "_SG-UFO-Prepare.py_" is basically the same script, only it deletes problem glyphs! But the project is no longer in early stages, so deleting glyphs to make the font build is no longer an acceptable tradeoff.)
 1. Correct any problem glyphs by decomposing them, etc. Manually decompose problem glyphs not caught by the script. *  (Currently none)
@@ -19,6 +21,12 @@ or
 1. Remove MVAR table with gftools `gftools fix-unwanted-tables *.ttf`, as required by https://github.com/tphinney/science-gothic/issues/244
 1. Run `gftools-fix-nonhinting.py *.ttf ScienceGothic[YOPQ,wdth,wght,slnt]1.ttf` per https://github.com/tphinney/science-gothic/issues/239
 1. Remove old unfixed files
-1. Make sure final font file is named correctly, per Google specs. e.g. ScienceGothic[YOPQ,wdth,wght,slnt].ttf
+1. Make sure final font file is named correctly, per Google specs. e.g. `ScienceGothic[YOPQ,wdth,wght,slnt].ttf`
+1. TESTING steps are part of the compile process, as follows...
+1. Run `fontbakery check-googlefonts ScienceGothic[YOPQ,wdth,wght,slnt].ttf`
+1. Run `ftxvalidator ScienceGothic[YOPQ,wdth,wght,slnt].ttf`
+
+At this time, we are still fixing some issues identified by FontBakery. It also appears ftxvalidator might not be running properly—TBD.
+
 ----
 * Running the script will not always find every broken glyph. For example, at one point /zero.zero was the ultimate evil. It was compatible and did not use a mixed reference, but nevertheless fontmake would result an error. (Eventually Thomas rebuilt it and the problem went away.) If you encounter a case like this at the fontmake stage later on, back up to this point and fix (flatten) the incompatible characters, even though the script shows no reason for a problem.
