@@ -20,6 +20,7 @@ or
 `fontmake -m ScienceGothic[YOPQ,wdth,wght,slnt].designspace -o variable --keep-overlaps` (substitute exact file name if different)
 1. Remove MVAR table with gftools `gftools fix-unwanted-tables *.ttf`, as required by https://github.com/tphinney/science-gothic/issues/244
 1. Run `gftools-fix-nonhinting.py *.ttf ScienceGothic[YOPQ,wdth,wght,slnt]1.ttf` per https://github.com/tphinney/science-gothic/issues/239
+1. run `gftools fix-dsig --autofix *.ttf` (Note: this may need to be the last step in any sequence of fixes) #251
 1. Remove old unfixed files
 1. Make sure final font file is named correctly, per Google specs. e.g. `ScienceGothic[YOPQ,wdth,wght,slnt].ttf`
 1. TESTING steps are part of the compile process, as follows...
