@@ -29,10 +29,12 @@ or
 1. Make sure final font file is named correctly, per Google specs. e.g. `ScienceGothic[YOPQ,wdth,wght,slnt].ttf`
 1. TESTING steps are part of the compile process, as follows...
 1. Run `fontbakery check-googlefonts ScienceGothic[YOPQ,wdth,wght,slnt].ttf`
-1. Run `ftxvalidator ScienceGothic[YOPQ,wdth,wght,slnt].ttf`
+1. Either:
+Run `ftxvalidator ScienceGothic[YOPQ,wdth,wght,slnt].ttf`
+or install and validate in Apple’s Font Book
 
 At this time, we have fixed most issues identified by FontBakery, but have a few items to discuss with Google. 
-We do not yet have ftxvalidator running properly.
+We do not yet have ftxvalidator running properly, but have a workaround.
 
 ----
 * Running the script will not always find every broken glyph. For example, at one point /zero.zero was the ultimate evil. It was compatible and did not use a mixed reference, but nevertheless fontmake would result an error. (Eventually Thomas rebuilt it and the problem went away.) If you encounter a case like this at the fontmake stage later on, back up to this point and fix (flatten) the incompatible characters, even though the script shows no reason for a problem.
