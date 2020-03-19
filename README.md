@@ -20,6 +20,11 @@ Our process for building fonts from our FontLab VFC/VFJ sources > UFO > FontMake
 
 ## Release Notes
 
+### 19 March 2020
+- Kerning is still in progress.
+- Only a small handful of bugs left at this point.
+- Just about done fixing all issues identified by FontBakery
+
 ### 17 November 2019
 
 - Slant axis is enabled! Note the form change for /a and /f when they get more than half slanted. This has generated a fair number of bugs for some glyphs in their slanted versions, but nothing unmanageable. 
@@ -86,27 +91,10 @@ Renamed the project to Science Gothic!
 ### 10 July 2019
 Started the repo
 
-## Acknowledgements
+## Who Is Behind This?
 
-If you make modifications be sure to add your name (N), optional email (E), web-address (if you have one) (W) and description (D).
-This list is in alphabetical order after Thomas.
-
-    N: Thomas Phinney, Font Detective LLC
-    W: https://www.thomasphinney.com
-    W: https://thefontdetective.com
-    D: Admin, Design Lead, Designer
-
-    N: Brandon Buerkle
-    W: https://www.societyoffonts.com/
-    D: Designer
-
-    N: Igor Freiberger
-    D: Designer (for a few early weeks of the project)
-
-    N: Vassil Kateliev
-    W: http://www.kateliev.com/
-    D: Designer, Python scripting, Cyrillic
-    
+Copyright holder: https://github.com/tphinney/science-gothic/blob/master/AUTHORS.txt
+Contributors: https://github.com/tphinney/science-gothic/blob/master/CONTRIBUTORS.txt
 
 ## License
 
