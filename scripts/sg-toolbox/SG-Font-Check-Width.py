@@ -11,12 +11,12 @@
 # - Dependencies -----------------
 import string
 import fontlab as fl6
-from typerig.brain import isclose, ratfrac
-from typerig.proxy import pFont, pGlyph
-from typerig.string import diactiricalMarks
+from typerig.proxy import *
+from typerig.core.func.math import isclose, ratfrac
+from typerig.proxy.objects.string import diactiricalMarks
 
 # - Init ------------------------------------------------
-app_version = '0.2'
+app_version = '0.3'
 app_name = '[SG] Check: Width inconsistancies'
 
 font = pFont()

@@ -9,16 +9,16 @@
 # that you use it at your own risk!
 
 # - Dependancies
-from typerig.brain import linInterp as lerp
+from typerig.proxy import *
+from typerig.core.func.math import linInterp as lerp
 from typerig.glyph import eGlyph
-from typerig.proxy import pFont, pGlyph
 
 # - Functions ------------------------------------------
 def lerpXY(t0, t1, tx, ty):
 	return (lerp(t0[0], t1[0], tx), lerp(t0[1], t1[1], ty))
 
 # - Init ------------------------------------------------
-app_version = '0.1'
+app_version = '0.2'
 app_name = '[SG] Interpolate glyphs'
 font = pFont()
 

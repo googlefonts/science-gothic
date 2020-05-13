@@ -9,16 +9,18 @@
 # that you use it at your own risk!
 
 # - Dependencies -----------------
-import fontlab as fl6
-from PythonQt import QtCore, QtGui
-
 import os
 from collections import OrderedDict
-from typerig.gui import getProcessGlyphs
+
+import fontlab as fl6
+from PythonQt import QtCore, 
+
+from typerig.gui.gui import QtGui
+from typerig.gui.widgets import getProcessGlyphs
 from typerig.proxy import pFont, pGlyph
 
 # - Init --------------------------------
-app_version = '0.6'
+app_version = '0.7'
 app_name = '[SG] Glyph Checkout'
 table_dict = {1:OrderedDict([('Glyph Name', None), ('Tags', None), ('Time', None), ('Date', None)])}
 

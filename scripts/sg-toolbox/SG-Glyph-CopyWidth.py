@@ -11,11 +11,10 @@
 # - Dependencies -----------------
 import fontlab as fl6
 from PythonQt import QtCore, QtGui
-from typerig.proxy import pFont, pGlyph
-from typerig.node import eNodesContainer
+from typerig.proxy import *
 
 # - Init --------------------------------
-app_version = '0.3'
+app_version = '0.4'
 app_name = '[SG] Copy Bbox Width'
 
 # - Classes ----------------------

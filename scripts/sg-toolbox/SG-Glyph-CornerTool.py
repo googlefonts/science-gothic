@@ -9,20 +9,18 @@
 # that you use it at your own risk!
 
 # - Dependencies -----------------
-import fontlab as fl6
-from PythonQt import QtCore, QtGui
-
 import os
 from collections import OrderedDict
-from typerig.gui import getProcessGlyphs
-from typerig.proxy import pFont, pContour
-from typerig.glyph import eGlyph
-from typerig.node import eNode
-from typerig.brain import Line, Curve
-from typerig.curve import eCurveEx
+
+import fontlab as fl6
+from PythonQt import QtCore
+
+from typerig.proxy import *
+from typerig.gui import QtGui
+from typerig.gui.widgets import getProcessGlyphs
 
 # - Init --------------------------------
-app_version = '1.5'
+app_version = '1.7'
 app_name = '[SG] Corner Tool'
 
 # -- Parts -----------------------------
@@ -197,8 +195,8 @@ class dlg_cornerTool(QtGui.QDialog):
 				segment_nodes = probe.getSegmentNodes()
 				selSegment = eCurveEx(segment_nodes)
 				probe_line = Line(segment_nodes[0], segment_nodes[-1])
-				lenght = probe_line.getLenght()
-				c0, c1 = selSegment.curve.getHobbyCurvature()
+				lenght = probe_line.length
+				c0, c1 = selSegment.curve.solve_hobby_curvature()
 				
 				if mode == 0:
 					presets['User'][layer][0] = (round(lenght,3), (round(c0.real,3), round(c1.real,3)))
@@ -224,7 +222,7 @@ class dlg_cornerTool(QtGui.QDialog):
 				selection = selected_nodes[layer]
 				lenght, curvature = preset[preset_index]
 				c0, c1 = curvature
-				selection[0].cornerRound(lenght, [(c0,c1),(c1,c0)][swap])
+				selection[0].cornerRound(lenght, curvature=[(c0,c1),(c1,c0)][swap])
 
 			else:
 				cid, nid = selected_contours[layer]
@@ -258,7 +256,7 @@ class dlg_cornerTool(QtGui.QDialog):
 					# - Round
 					lenght, curvature = preset[preset_index]
 					c0, c1 = curvature
-					node_first.cornerRound(lenght, [(c0,c1),(c1,c0)][swap])
+					node_first.cornerRound(lenght, curvature=[(c0,c1),(c1,c0)][swap])
 
 		glyph.update()
 		glyph.updateObject(glyph.fl, 'DONE:\t Glyph: %s\tOuter corner.' %glyph.name) 

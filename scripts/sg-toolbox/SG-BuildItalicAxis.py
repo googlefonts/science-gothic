@@ -9,19 +9,20 @@
 # that you use it at your own risk!
 
 # - Dependencies -----------------
-import fontlab as fl6
-from PythonQt import QtCore, QtGui
-
 import os
 from math import radians
+
+import fontlab as fl6
+from PythonQt import QtCore
+
 from itertools import product
 from collections import OrderedDict
 
-from typerig.proxy import pFont, pGlyph
-#from typerig.brain import fontFamilly, linAxis, geoAxis, linspread, geospread
+from typerig.gui import QtGui
+from typerig.proxy import *
 
 # - Init --------------------------------
-app_version = '1.41'
+app_version = '1.42'
 app_name = 'Build Italic Axis'
 fileFormats = ['FontLab Encoding File (*.enc)', 'Text File (*.txt)']
 

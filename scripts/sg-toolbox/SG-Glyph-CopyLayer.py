@@ -9,13 +9,15 @@
 # that you use it at your own risk!
 
 # - Dependencies -----------------
-import fontlab as fl6
-from PythonQt import QtCore, QtGui
-
 import os
 from collections import OrderedDict
-from typerig.gui import getProcessGlyphs
-from typerig.proxy import pFont, pGlyph
+
+import fontlab as fl6
+from PythonQt import QtCore
+
+from typerig.gui import QtGui
+from typerig.gui.widgets import getProcessGlyphs
+from typerig.proxy import *
 
 # - Init --------------------------------
 app_version = '1.97'
