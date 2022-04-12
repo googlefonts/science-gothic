@@ -39,7 +39,7 @@ global pLayers
 global pMode
 pLayers = None
 pMode = 0
-app_name, app_version = 'SG | Audit', '1.4'
+app_name, app_version = 'SG | Audit', '1.5'
 
 # - Config -----------------------------
 o = 'on'
@@ -153,6 +153,25 @@ class auditGlyph(pGlyph):
 	
 		if '.' not in self.name:
 			self.__write_record(not len(self.unicodes), error_name, error_layers)
+
+	def audit_anchors_consistent(self, reference_layer_name, examine_layers_list):
+		# - Helper
+		def fetch_anchor_names(layer_name):
+			return tuple(sorted([a.name for a in self.anchors(layer_name)]))
+
+		# - Init
+		error_name = 'Anchors >> Not consistent across masters' 
+		error_layers = []
+
+		reference_anchors = fetch_anchor_names(reference_layer_name)
+
+		# - Process
+		for layer_name in examine_layers_list:
+			if reference_anchors != fetch_anchor_names(layer_name):
+				error_layers.append(layer_name)
+
+		# - End
+		self.__write_record(len(error_layers), error_name, error_layers)
 
 	def audit_contour_start(self, reference_layer_name, examine_layers_list):
 		# - Test Helpers
