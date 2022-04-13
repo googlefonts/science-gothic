@@ -39,7 +39,7 @@ global pLayers
 global pMode
 pLayers = None
 pMode = 0
-app_name, app_version = 'SG | Audit', '1.5'
+app_name, app_version = 'SG | Audit', '1.6'
 
 # - Config -----------------------------
 o = 'on'
@@ -608,6 +608,7 @@ class tool_tab(QtGui.QWidget):
 
 		for fg_glyph in probe_glyphs:
 			audit_glyph = auditGlyph(fg_glyph, self.active_font.fg, self.audit_report)
+			if audit_glyph.layer().autoLayer: continue # - Skip auto layers
 			
 			if self.btn_audit_tests.isChecked():
 				selected_tests = [('audit' + item.text()).replace(' ', '_').lower() for item in self.audit_list.selectedItems()]
