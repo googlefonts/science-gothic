@@ -39,7 +39,7 @@ global pLayers
 global pMode
 pLayers = None
 pMode = 0
-app_name, app_version = 'SG | Audit', '1.6'
+app_name, app_version = 'Science Gothic | Audit', '1.6'
 
 # - Config -----------------------------
 o = 'on'
