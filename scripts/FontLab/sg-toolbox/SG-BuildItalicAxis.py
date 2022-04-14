@@ -1,7 +1,7 @@
 #FLM: Font: Build Italic Axis (TypeRig)
 # ----------------------------------------
-# (C) Vassil Kateliev, 2019 (http://www.kateliev.com)
-# (C) Karandash Type Foundry (http://www.karandash.eu)
+# (C) Vassil Kateliev, 2019-2022 (http://www.kateliev.com)
+# (C) Karandash Type Foundry 	 (http://www.karandash.eu)
 #-----------------------------------------
 # www.typerig.com
 
@@ -9,6 +9,7 @@
 # that you use it at your own risk!
 
 # - Dependencies -----------------
+from __future__ import print_function
 import os
 from math import radians
 
@@ -18,11 +19,12 @@ from PythonQt import QtCore
 from itertools import product
 from collections import OrderedDict
 
-from typerig.gui import QtGui
-from typerig.proxy import *
+from typerig.proxy.fl.gui import QtGui
+from typerig.proxy.fl.objects.font import pFont
+from typerig.proxy.fl.objects.glyph import pGlyph
 
 # - Init --------------------------------
-app_version = '1.42'
+app_version = '1.45'
 app_name = 'Build Italic Axis'
 fileFormats = ['FontLab Encoding File (*.enc)', 'Text File (*.txt)']
 
@@ -32,7 +34,7 @@ italic_transform_shift = -120
 
 # -- Master & Axis related
 italic_axis_names = [('Slant', 'slnt', 'sl'), ('Italic', 'ital', 'it')] #Registered: https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg
-italic_axis_names_T = map(list, zip(*italic_axis_names))
+italic_axis_names_T = list(map(list, zip(*italic_axis_names)))
 
 # -- GUI related
 table_dict = {1:OrderedDict([('Master Name', None), ('Angle', None), ('Shift', None)])}
@@ -187,7 +189,7 @@ class dlg_BuildAxis(QtGui.QDialog):
 					if not curline.startswith('%'):
 						self.exclude_list.append(curline.strip())
 
-		print 'LOAD: Exclude list;\tFile: %s.' %fname
+		print('LOAD: Exclude list;\tFile: %s.' %fname)
 
 	def table_execute(self):
 		execute_prompt = QtGui.QMessageBox.question(self, 'Please confirm', 'Are you sure that you want to create a new axis and append it to the font?', QtGui.QMessageBox.Yes | QtGui.QMessageBox.No, QtGui.QMessageBox.No)
@@ -197,17 +199,17 @@ class dlg_BuildAxis(QtGui.QDialog):
 			tab_process_masters = self.tab_masters.getTable()
 			
 			# - Process masters: Duplicate
-			print '\nSTEP:\t Duplicating masters. ' + '-'*50		
+			print('\nSTEP:\t Duplicating masters. ' + '-'*50)
 			for index, master_dict in tab_process_masters.iteritems():
 				new_name = master_dict['Master Name']
 				old_name = self.active_font.pMasters.names[int(index)]
 				self.active_font.pMasters.add(new_name, True, self.active_font.fl, old_name, True, False, self.active_font.pMasters.locate(old_name))
-				print 'ADD:\t Master: %s; Source: %s.' %(new_name, old_name)
+				print('ADD:\t Master: %s; Source: %s.' %(new_name, old_name))
 
 			self.active_font.update()
 			self.active_font.updateObject(self.active_font.fl, 'Master table updated!\tFont: %s' %self.active_font.path)
 
-			print '\nSTEP:\t Transforming masters. ' + '-'*50
+			print('\nSTEP:\t Transforming masters. ' + '-'*50)
 			for index, master_dict in tab_process_masters.iteritems():
 				# - Init
 				process_layer = master_dict['Master Name']
@@ -236,18 +238,18 @@ class dlg_BuildAxis(QtGui.QDialog):
 							#wLayer.applyTransform(transform_from_origin)
 
 							wGlyph.update()
-							#print 'MODIFY:\t Glyph: %s;\tLayer: %s.' %(wGlyph.name, process_layer)
+							#print('MODIFY:\t Glyph: %s;\tLayer: %s.' %(wGlyph.name, process_layer))
 							#wGlyph.updateObject(wGlyph.fl, ' Glyph: %s; Layer: %s' %(wGlyph.name, process_layer))
 						else:
-							print 'WARN:\t Glyph: %s;\tLayer: %s.\tGlyph is missing Outline or Layer! ' %(wGlyph.name, process_layer)
+							print('WARN:\t Glyph: %s;\tLayer: %s.\tGlyph is missing Outline or Layer! ' %(wGlyph.name, process_layer))
 					else:
-						print 'SKIP:\t Glyph: %s;\tExcluded from processing!' %wGlyph.name
+						print('SKIP:\t Glyph: %s;\tExcluded from processing!' %wGlyph.name)
 
 			self.active_font.update()
 			self.active_font.updateObject(self.active_font.fl, 'Glyphs Processed;\tFont: %s.' %self.active_font.path)
 
 			# - Process Font: Add new Axis
-			print '\nSTEP:\t Building axis. ' + '-'*50
+			print('\nSTEP:\t Building axis. ' + '-'*50)
 
 			# -- Init
 			new_axis = fl6.flAxis(self.cmb_axis_name.currentText,self.cmb_axis_short.currentText, self.cmb_axis_tag.currentText)
@@ -258,10 +260,10 @@ class dlg_BuildAxis(QtGui.QDialog):
 			self.active_font.update()
 			self.active_font.updateObject(self.active_font.fl, 'Axis: %s;\tFont: %s' %(self.cmb_axis_name.currentText, self.active_font.path))
 			
-			print '\nDONE:\t %s (%s)' %(app_name, app_version)
+			print('\nDONE:\t %s (%s)' %(app_name, app_version))
 			
 		else:
-			print '\nABORT:\t %s (%s)\nWARN:\t No action taken!' %(app_name, app_version)
+			print('\nABORT:\t %s (%s)\nWARN:\t No action taken!' %(app_name, app_version))
 
 # - RUN ------------------------------
 dialog = dlg_BuildAxis()
