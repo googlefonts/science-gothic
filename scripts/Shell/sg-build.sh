@@ -1,5 +1,5 @@
 # SCRIPT:   Science Gothic Build Variable Font 
-# VER:      1.2
+# VER:      1.3
 # -----------------------------------------------------------
 # (C) Vassil Kateliev, 2022         (http://www.kateliev.com)
 #------------------------------------------------------------
@@ -47,6 +47,7 @@ if [ $do_build == true ];
 then
     echo "BUILD >>> Generating Variable Font: $file_designspace_in"
     fontmake -m "$designspace" -o variable --output-dir "$path_fontmake_out" --verbose WARNING --keep-overlaps
+    mv $path_fontmake_out ${path_fontmake_out/-VF/""}
 fi
 
 # -- Run Google QA on the resulting .ttfs

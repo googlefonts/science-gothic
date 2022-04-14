@@ -1,5 +1,5 @@
 # SCRIPT:   Science Gothic Build Variable Font 
-# VER:      1.2
+# VER:      1.3
 # -----------------------------------------------------------
 # (C) Vassil Kateliev, 2022         (http://www.kateliev.com)
 #------------------------------------------------------------
@@ -51,6 +51,7 @@ $path_backup = (Join-Path -Path $path_designspace_in -Child $pref_backup_folder)
 if (-not $nobuild) {
     Write-output "`nBUILD >>> Generating Variable Font: $file_designspace_in"
     fontmake -m $designspace -o variable --output-dir $path_fontmake_out --verbose WARNING --keep-overlaps
+    Get-ChildItem -Path $path_fontmake_out -Filter '*-VF*' -Recurse | Rename-Item -NewName {$_.name -replace '-VF', ''}
 }
 
 # -- Run Google QA on the resulting .ttfs
