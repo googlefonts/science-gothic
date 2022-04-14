@@ -1,14 +1,14 @@
 # Science Gothic
 ## libre variable font
 
-Science Gothic™ is a variable font with extreme weight, width, contrast and slant axes—the equivalent of 100+ or 1000+ separate fonts, depending on how you count instances. The medium weight is based closely on Bank Gothic, a typeface from the early 1930s—but a lowercase, design axes, and language coverage have been added. Bank Gothic was originally designed by Morris Fuller Benton in 1930–34 for American Type Founders. Science Gothic is a team effort, with primary development by Thomas Phinney, Brandon Buerkle and Vassil Kateliev. Special thanks to Igor Freiberger for his early contributions.
+Science Gothic™ is a san serif variable font. It has extreme weight and width variation, as well as contrast and slant options. The medium weight is based closely on Morris Fuller Benton’s Bank Gothic (1930–34) by Morris Full Benton for American Typefounders. Science Gothic adds four design axes (extreme weight and width, plus contrast and slant), a lowercase, and extensive language coverage. Science Gothic is a team effort, by Thomas Phinney, Brandon Buerkle and Vassil Kateliev. Special thanks to Igor Freiberger for his early contributions.
 
-This repo is where development and updates to this project can be found. Source files are updated nearly daily, in multiple formats: FontLab VFJ (vector font JSON) format, FontLab VFC (binary) format. Several times a week we also update UFO source files, and variable TTF end-user fonts. Occasionally we also generate fonts corresponding to masters and instances.
+This repo is where development and updates to this project can be found. Source files are in multiple formats: FontLab VFJ (vector font JSON) format, FontLab VFC (binary) format. Generated versions include UFO source files, and variable TTF end-user fonts. Occasionally we previously generated fonts corresponding to masters and instances, but these have not been not maintained going forward.
 
 (Particularly major updates are described below, but not every update.)
 
 ### DOWNLOAD THE VARIABLE FONT
-Get the latest working variable font here: https://github.com/tphinney/science-gothic/tree/master/fonts/variable/UFO%20FontMake
+Get the latest working variable font here: https://github.com/tphinney/science-gothic/tree/master/fonts/variable
 
 
 ### Bugs
@@ -19,6 +19,10 @@ Our process for building fonts from our FontLab VFC/VFJ sources > UFO > FontMake
 
 
 ## Release Notes
+
+### 14 Apr 2022
+- most bugs quashed
+- close to being release quality
 
 ### 19 March 2020
 - Kerning is still in progress.
