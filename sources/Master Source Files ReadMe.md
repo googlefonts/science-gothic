@@ -1,18 +1,15 @@
-# About the Master folder
+# About the Sources folder
 
 ## General
 
-tl;dr: The VFJ file is guaranteed to be the most up-to-date source. 
+tl;dr: The VFC file is guaranteed to be the most up-to-date source. 
 
-This folder contains font sources for the project. Sources can be VFC (FontLab VI native binary file format), VFJ (FontLab VI native JSON text format), or UFO (Universal Font Object, an open source text format). Additionally, there is a .designspace file, defining axes, masters and coordinates, which can be used with UFO or other formats.
+This folder contains font sources for the project in VFC (FontLab 7 native binary file format). We have posted some production sources in UFO (Universal Font Object, an open source text format), but no longer post them regularly due to the huge number of files involved. Additionally, there is a .designspace file, defining axes, masters and coordinates, which can be used with UFO or other formats.
 
-- VFJ is the standard format for ongoing development work for the project. Normally, the latest sources will always be present in VFJ.
+- We no longer post VFJ due to size, it not being documented (which removes the main benefit of its plain-text form), and because FontLab rewrites the whole VFJ in ways that do not allow useful diffs.
 
-- VFC is being used in this project primarily for backups and individual developer work in progress. Any current tool that can open VFC can also open VFJ. So, if you want source, get the VFJ instead (although it may take longer to open).
-
-- UFO will be added later, as part of the open source build chain.
-
-## File Naming Conventions
+## Old File Naming Conventions
+(Not used in current files)
 
 - 3a or 4a refers to the number of Variable Font axes supported (3-axis or 4-axis). The difference is whether the slant (oblique) axis is present. This axis is generated mostly automatically by build scripts, with a little human tweaking. A new 4a font will normally be posted no less than once every two weeks (typically weekly).
 
