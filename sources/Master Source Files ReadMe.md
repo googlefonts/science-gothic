@@ -1,4 +1,4 @@
-# About the Master folder
+# About the Sources folder
 
 ## General
 
