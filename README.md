@@ -20,6 +20,9 @@ Our process for building fonts from our FontLab VFC/VFJ sources > UFO > FontMake
 
 ## Release Notes
 
+### 21 Dec 2022
+- Ownership transferred to Google
+
 ### 14 Apr 2022
 - most bugs quashed
 - close to being release quality
