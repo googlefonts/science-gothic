@@ -8,14 +8,14 @@ This repo is where development and updates to this project can be found. Source 
 (Particularly major updates are described below, but not every update.)
 
 ### DOWNLOAD THE VARIABLE FONT
-Get the latest working variable font here: https://github.com/tphinney/science-gothic/tree/master/fonts/variable
+Get the latest working variable font here: https://github.com/googlefonts/science-gothic/tree/master/fonts/variable
 
 
 ### Bugs
-PLEASE report any BUGS OR ISSUES. You can file an issue right here in Github at: https://github.com/tphinney/science-gothic/issues. Or just ask questions on social media, whatever. But feedback is welcome!
+PLEASE report any BUGS OR ISSUES. You can file an issue right here in Github at: https://github.com/googlefonts/science-gothic/issues. Or just ask questions on social media, whatever. But feedback is welcome!
 
 ### Building Fonts
-Our process for building fonts from our FontLab VFC/VFJ sources > UFO > FontMake > TTF (variable font) is now documented here: https://github.com/tphinney/science-gothic/blob/master/documentation/compiling_fonts.md
+Our process for building fonts from our FontLab VFC/VFJ sources > UFO > FontMake > TTF (variable font) is now documented here: https://github.com/googlefonts/science-gothic/blob/master/documentation/compiling_fonts.md
 
 
 ## Release Notes
@@ -53,7 +53,7 @@ Made significant org/name changes to the former Contrast axis, now called “Y O
 
 ### 18 September 2019
 
-Added UFO sources, and first variable TTF built from UFO + FontMake (with latest FontMake and Python) rather than from exporting from FontLab. Although FontLab VI uses UFO + FontMake internally for its variable font generation, it uses an older version of FontMake. The UFO + FontMake approach makes it easier for future development to be made with any UFO-compatible font editor. See https://github.com/tphinney/science-gothic/issues/91 for details.
+Added UFO sources, and first variable TTF built from UFO + FontMake (with latest FontMake and Python) rather than from exporting from FontLab. Although FontLab VI uses UFO + FontMake internally for its variable font generation, it uses an older version of FontMake. The UFO + FontMake approach makes it easier for future development to be made with any UFO-compatible font editor. See https://github.com/googlefonts/science-gothic/issues/91 for details.
 
 49% done glyph design work.
 
@@ -97,15 +97,15 @@ Started the repo
 
 ## Who Is Behind This?
 
-Copyright holder: https://github.com/tphinney/science-gothic/blob/master/AUTHORS.txt
-Contributors: https://github.com/tphinney/science-gothic/blob/master/CONTRIBUTORS.txt
+* Copyright holder: https://github.com/googlefonts/science-gothic/blob/master/AUTHORS.txt
+* Contributors: https://github.com/googlefonts/science-gothic/blob/master/CONTRIBUTORS.txt
 
 ## License
 
-Science Gothic fonts and their source files are licensed to others under the open source SIL Open Font License v1.1 (<http://scripts.sil.org/OFL>) with no Reserved Font Name. To view the specific terms and conditions please refer to [OFL.txt](https://github.com/tphinney/science-gothic/OFL.txt)
+Science Gothic fonts and their source files are licensed to others under the open source SIL Open Font License v1.1 (<http://scripts.sil.org/OFL>) with no Reserved Font Name. To view the specific terms and conditions please refer to [OFL.txt](https://github.com/googlefonts/science-gothic/OFL.txt)
 
 Additional non-font source files are licensed to others under the Apache 2.0 open source license (<https://www.apache.org/licenses/LICENSE-2.0>).
 
 ## Language Coverage & Glyph Set
 
-This typeface has extended Latin and extended Cyrillic, with over 1200 glyphs. [FontLab .enc encoding file](https://github.com/tphinney/science-gothic/blob/master/Science%20Gothic.enc).
+This typeface has extended Latin and extended Cyrillic, with over 1200 glyphs. [FontLab .enc encoding file](https://github.com/googlefonts/science-gothic/blob/master/Science%20Gothic.enc).
