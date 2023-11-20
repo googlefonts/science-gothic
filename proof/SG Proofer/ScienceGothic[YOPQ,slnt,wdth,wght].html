@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  	<title>Science Gothic: Variable Proofer 1.2</title>
+	<link rel="stylesheet" type="text/css" href="resource/style.css">
+
+</head>
+
+<body>
+<!-- Text Options Script and floater -->
+<div id="font_options" class="font-options">
+	<div class="slider-box">
+		<p>Size</p>
+		<input type="range" min="8" max="480" value="24" id="fsize" class="slider">
+		<div class="range-output" id="fsize-val"> 24 </div>
+	</div>
+	
+	<div class="slider-box">
+		<p>wght</p>
+		<input type="range" min="100" max="900" value="400" id="weight" class="slider">
+		<div class="range-output" id="weight-val"> 400 </div>
+	</div>
+
+	<div class="slider-box">
+		<p>wdth</p>
+		<input type="range" min="50" max="200" value="100" id="width" class="slider">
+		<div class="range-output" id="wdth-val"> 100 </div>
+	</div>
+
+	<div class="slider-box">
+		<p>slnt</p>
+		<input type="range" min="-10" max="0" value="0" id="slant" class="slider">
+		<div class="range-output" id="slnt-val"> 0 </div>
+	</div>
+
+	<div class="slider-box">
+		<p>YOPQ</p>
+		<input type="range" min="18" max="122" value="122" id="YOPQ" class="slider">
+		<div class="range-output" id="YOPQ-val"> 122 </div>
+	</div>
+	
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="resource/script.js"></script>
+
+<!-- Document -->
+<div class="container">
+	<h1>Science Gothic: Variable Proofer</h1>
+	<div class="text-column">
+		<p id="font-selector">
+			<select id="input-font" class="input"  onchange="changeFont(this);">
+      			<option value="Science Gothic" selected ="selected">Science Gothic</option>
+      			<option value="Google Sans">Google Sans</option>
+			</select>
+		</p>
+	</div>
+	
+	<div id="font-proof" class="proof_input" contenteditable=True>
+		<p>1. We promptly judged antique ivory buckles for the next prize.</p>
+	</div>
+
+	<div id="font-proof" class="proof_input" contenteditable=True>
+		<p>(2) Victor jagt zwölf Boxkämpfer quer über den großen Sylter Deich!</p>
+	</div>
+
+	<div id="font-proof" class="proof_input" contenteditable=True>
+		<p>[3] Съешь же ещё этих мягких французских булок да выпей чаю.</p>
+	</div>
+
+	<div id="font-proof" class="proof_input" contenteditable=True>
+		<p>{4} Příliš žluťoučký kůň úpěl ďábelské ódy?</p>
+	</div>
+
+	<div id="font-proof" class="proof_input" contenteditable=True>
+		<p>5: Ré só que vê galã sexy pôr kiwi talhado à força em baú põe juíza má em pânico.</p>
+	</div>
+	
+</div>
+	
+</body>
+</html>

@@ -1,0 +1,228 @@
+/* ---- Fonts ---- */
+@font-face {
+	font-family: "Science Gothic";
+	src: url("../../../fonts/variable/ScienceGothic[YOPQ,slnt,wdth,wght].ttf") format("truetype");
+	font-feature-settings: "rlig" on;
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Google Sans";
+	src: url("../fonts/GoogleSans-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Google Sans";
+	src: url("../fonts/GoogleSans-Bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* ---- Init ---- */
+:root {
+	--vf-YOPQ: 122;
+	--vf-slnt: 0;
+	--vf-wdth: 100;
+	--vf-wght: 400;
+	--vf-size: 48px;
+	--vf-speed:160ms;
+	--color-accent-one: #1B2C8C;
+	--color-accent-two: #BF372A;
+	--color-text: #1B2C8C;
+	--color-text-inverse: #FFFF;
+	--color-back-one: #F2F1E9;
+	--color-back-two: #e2e1cf;
+}
+
+/* ---- Styles ---- */
+body,
+html {
+	font-family: Google Sans;
+	font-size: 20px;
+	background: var(--color-back-one);
+	color: var(--color-text);
+
+}
+
+h1 {
+	text-align:left;
+	color: var(--color-accent-one);
+	font-size:52px;
+	margin:60px 0 60px;
+}
+
+h2 {
+	text-align:center;
+	color: var(--color-accent-one);
+	font-size:42px;
+	margin:100px 0 40px;
+}
+
+h3 {
+	text-align:left;
+	color: var(--color-accent-two);
+	font-size:42px;
+	margin:100px 0 40px;
+	
+}
+
+h4 {
+	color: var(--color-accent-two);
+	text-align: left;
+	font-size: 32px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+h6 {
+	color: var(--color-accent-two);
+	text-align: left;
+	font-size: 18px;
+	margin-top: -50px;
+	margin-bottom: 20px;
+}
+
+select {
+	font-family: Google Sans;
+	font-weight: bold;
+	color: var(--color-text);
+	font-size: 16px;
+	padding: 5px;
+	border: none;
+	border-radius: 10px;
+	background: white;
+}
+
+#font-selector {
+}
+
+.font-options {
+	bottom: 2%;
+	left: 2%;
+	box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+	font-family: sans-serif;
+	position: fixed;
+	background: white;
+	border-radius: 10px;
+	border: none;
+	opacity: 0.85;
+	padding: 10px;
+	word-wrap: normal;
+	font-size: 1em;
+}
+
+.slider-box {
+	display: inline-block;
+	font-family: Google Sans;
+	font-size: 16px;
+	margin: 6px;
+	vertical-align: middle;
+}
+
+.slider-box > p {
+	display: inline-block;
+	width: 50px;
+	margin: 0px;
+	font-weight: bold;
+}
+
+.range-output {
+	display: inline-block;
+	background: var(--color-accent-one);
+	color: var(--color-text-inverse);
+	border: none;
+	padding: 3px 6px;
+	border-radius: 12px;
+	width: 30px;
+	vertical-align: middle;
+	text-align: right;
+}
+
+.slider {
+	-webkit-appearance: none;
+	appearance: none;
+	outline: none;
+	display: inline-block;
+	position: relative;
+	background: var(--color-accent-two);
+	width: 100px;
+	vertical-align: middle;
+}
+
+.slider::-webkit-slider-runnable-track {
+	height: 2px;
+	border: none;
+	border-radius: 3px;
+	vertical-align: middle;
+}
+
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	border: none;
+	height: 12px; 
+	width: 12px;
+	border-radius: 510%;
+	background: var(--color-accent-one);
+	border: 2px solid var(--color-accent-one);
+	margin-top: -5px;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.slider::-webkit-slider-thumb:hover {
+	-webkit-transform: scale(1.5);
+}
+
+.slider::-webkit-slider-thumb:clicked {
+	-webkit-transform: scale(1.5);
+	border: none;
+}
+
+.container{
+	width: 95%;
+	vertical-align: top;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.text-column{
+	width: 50%;
+	column-gap: 5%;
+	text-align: left;
+	display: inline-block;
+	vertical-align: top;
+	column-fill: auto;
+	align-items: top;
+	justify-content: top;
+}
+
+.proof_input {
+	align-items: center;
+	background-color: #fff;
+	border-radius: 10px;
+	color: var(--color-text);
+	display: inline-block;
+	font-family: Science Gothic;
+	font-size: var(--vf-size);
+	font-variation-settings: "YOPQ" var(--vf-YOPQ), "slnt" var(--vf-slnt), "wdth" var(--vf-wdth), "wght" var(--vf-wght);
+	min-height: 100px;
+	padding: 20px;
+	text-align: left;
+	text-decoration: none;
+	width: 98%;
+	margin-bottom: 20px;
+}
+
+.proof_input:hover {
+	-webkit-text-stroke: 1px red;
+}
+
+
+
+
+
+
+
