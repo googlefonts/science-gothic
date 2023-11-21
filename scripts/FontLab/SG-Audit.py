@@ -40,7 +40,7 @@ global pLayers
 global pMode
 pLayers = None
 pMode = 0
-app_name, app_version = 'Science Gothic | Audit', '1.7'
+app_name, app_version = 'Science Gothic | Audit', '1.8'
 
 # - Config -----------------------------
 o = 'on'
@@ -179,7 +179,11 @@ class auditGlyph(pGlyph):
 		# - Helper
 		def anchor_within_bounds(layer_name, tolerance):
 			italic_angle = glob_font_angles[layer_name]
-			advance_width = self.getAdvance(layer_name)
+
+			origin = Point(0, 1000)
+			advance_width = Point(self.getAdvance(layer_name), 1000)
+			advance_width.angle = origin.angle = italic_angle
+
 			anchor_list = []
 
 			for anchor in self.anchors(layer_name): 
@@ -187,7 +191,7 @@ class auditGlyph(pGlyph):
 				new_point = Point(anchor.point.x(), anchor.point.y())
 				new_point.angle = italic_angle
 
-				if not -tolerance <= new_point.solve_width() <= advance_width + tolerance:
+				if not origin.solve_width() - tolerance <= new_point.solve_width() <= advance_width.solve_width() + tolerance:
 					anchor_list.append(anchor.name)
 			
 			return anchor_list
