@@ -28,6 +28,7 @@ from typerig.proxy.fl.objects.node import eNode
 from typerig.proxy.fl.objects.contour import pContour
 
 from typerig.core.objects.line import Line
+from typerig.core.objects.point import Point
 from typerig.core.base.message import *
 
 from PythonQt import QtCore
@@ -39,7 +40,7 @@ global pLayers
 global pMode
 pLayers = None
 pMode = 0
-app_name, app_version = 'Science Gothic | Audit', '1.6'
+app_name, app_version = 'Science Gothic | Audit', '1.7'
 
 # - Config -----------------------------
 o = 'on'
@@ -172,6 +173,47 @@ class auditGlyph(pGlyph):
 
 		# - End
 		self.__write_record(len(error_layers), error_name, error_layers)
+
+	def audit_anchors_out_of_bounds(self, reference_layer_name, examine_layers_list):
+
+		# - Helper
+		def anchor_within_bounds(layer_name, tolerance):
+			italic_angle = glob_font_angles[layer_name]
+			advance_width = self.getAdvance(layer_name)
+			anchor_list = []
+
+			for anchor in self.anchors(layer_name): 
+				
+				new_point = Point(anchor.point.x(), anchor.point.y())
+				new_point.angle = italic_angle
+
+				if not -tolerance <= new_point.solve_width() <= advance_width + tolerance:
+					anchor_list.append(anchor.name)
+			
+			return anchor_list
+
+		# - Init
+		error_layers = []
+		error_layers_dict = {}
+		tolerance = 50 # 50u out of bounds deviation is allowed
+		error_name = 'Anchors >> Anchor out of Horizontal bounds' 
+
+		# - Process
+		for layer_name in examine_layers_list:
+			layer_anchor_errors = anchor_within_bounds(layer_name, tolerance)
+
+			if len(layer_anchor_errors):
+				error_layers.append((layer_name, layer_anchor_errors))
+
+		# - Reorganize
+		for layer_name, layer_anchors in error_layers:
+			for anchor in layer_anchors:
+				error_layers_dict.setdefault(anchor,[]).append(layer_name)
+
+		report_stream = ["<{}>: {} ".format(key, "; ".join(value)) for key, value in error_layers_dict.items()]
+
+		# - End
+		self.__write_record(len(error_layers), error_name, report_stream)
 
 	def audit_contour_start(self, reference_layer_name, examine_layers_list):
 		# - Test Helpers
@@ -453,6 +495,13 @@ class tool_tab(QtGui.QWidget):
 		self.active_font = pFont()
 		layer_names = [layer.name for layer in temp.layers() if '#' not in layer.name]
 		
+		global glob_font_angles
+		glob_font_angles = {}
+
+		for layer_name in self.active_font.masters():
+			self.active_font.fl.setMaster(layer_name)
+			glob_font_angles[layer_name] = temp.italicAngle()
+
 		# - Widgets
 		# -- Progress bar
 		self.progress = QtGui.QProgressBar()
