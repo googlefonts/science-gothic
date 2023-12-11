@@ -10,7 +10,7 @@ fonts {
   filename: "ScienceGothic[YOPQ,wdth,wght,slnt].ttf"
   post_script_name: "ScienceGothic-Regular"
   full_name: "Science Gothic Regular"
-  copyright: "Copyright 2019, 2020 Font Detective LLC. (https://github.com/tphinney/science-gothic)"
+  copyright: "Copyright 2019-2023 Font Detective LLC. (https://github.com/tphinney/science-gothic)"
 }
 subsets: "latin"
 subsets: "latin-ext"
