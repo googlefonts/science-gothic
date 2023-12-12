@@ -10,6 +10,7 @@ For points 5 and 7, we use a FontLab script, which is here in the repo. You need
 1. Update the date/time stamp in the font to current.
 1. Save the font. 
 1. Save the font under a temp name. Further changes are being made on this copy of the font.
+1. In FontLab do Font > Update Glyphs. This forces FontLab to do a full update. Otherwise its “lazy load” conflicts with the subsequent scripts and generates bogus errors.  :(
 1. Run the _SG-Font-Check QA_ script that is in the scripts folder within FL. (Note that "_SG-UFO-Prepare.py_" is basically the same script, only it deletes problem glyphs! As the project is no longer in early stages, deleting glyphs to make the font build is no longer okay.)
 1. Correct any problem glyphs by decomposing them, etc. Manually decompose problem glyphs not caught by the script. *  (Currently none)
 1. If problems were fixed, Run _SG-Font-Check QA_ again.
