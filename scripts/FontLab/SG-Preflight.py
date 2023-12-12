@@ -1,6 +1,6 @@
 #FLM: SG Preflight
 # -----------------------------------------------------------
-# (C) Vassil Kateliev, 2022 	(http://www.kateliev.com)
+# (C) Vassil Kateliev, 2022-2023 	(http://www.kateliev.com)
 # (C) Karandash Type Foundry 		(http://www.karandash.eu)
 #------------------------------------------------------------
 
@@ -34,10 +34,11 @@ from typerig.proxy.fl.gui import QtGui
 from typerig.proxy.fl.gui.widgets import getProcessGlyphs, fontMarkColors
 
 # - Init ---------------------------
-app_name, app_version = 'Science Gothic | Icon Preflight', '1.1'
+app_name, app_version = 'Science Gothic | Icon Preflight', '2.0'
 
 # - Config -----------------------------
 fontMarkColors = fontMarkColors[1:-1] # Removes White and Gray
+contour_actions_JSON = ['{"id":"round_to_integer"}', '{"id": "decompose"}', '{"id": "converttosplines"}']
 
 # -- Strings and messages configuration
 empty_record = [('Empty Audit Record', [])]
@@ -48,7 +49,7 @@ search_name = '.fill'
 
 # -- Allowed suffixes
 glyph_suffix_separator = '.'
-suffix_allowed = ['slnt', 'sups', 'loclCAT', 'case', 'zero', 'smcp', 'c2sc', 'notdef', 'alt2', 'alt', 'dnom', 'tnum', 'numr', 'sc', 'cyr', 'sinf']
+suffix_allowed = ['slnt', 'sups', 'loclCAT', 'loclBGR', 'case', 'zero', 'smcp', 'c2sc', 'notdef', 'alt2', 'alt', 'dnom', 'tnum', 'numr', 'sc', 'cyr', 'sinf']
 suffix_allowed = [glyph_suffix_separator + item for item in suffix_allowed]
 
 # - Functions --------------------------
@@ -221,11 +222,13 @@ class SGPreflight(QtGui.QDialog):
 		self.btn_preflight_clean = QtGui.QPushButton('Cleanup auto layers, unused tags and labels')
 		self.btn_preflight_clean_flag = QtGui.QPushButton('Remove glyphs marked with:')
 		self.btn_preflight_actions = QtGui.QPushButton('Open Actions')
+		self.btn_preflight_do_actions = QtGui.QPushButton('Run Actions')
 		self.btn_preflight_save = QtGui.QPushButton('Save Font')
 		self.btn_preflight_export = QtGui.QPushButton('Export Font')
 
 		self.btn_preflight_info.clicked.connect(lambda n: self.auto_fl.run('Font_Info'))
 		self.btn_preflight_actions.clicked.connect(lambda n: self.auto_fl.run('Action'))
+		self.btn_preflight_do_actions.clicked.connect(lambda: self.process_actions())
 		self.btn_preflight_save.clicked.connect(lambda n: self.auto_fl.run('SaveFontAs'))
 		self.btn_preflight_export.clicked.connect(lambda n: self.auto_fl.run('Export_Fonts'))
 		self.btn_preflight_clean.clicked.connect(lambda: self.process_cleanup(mode='auto'))
@@ -251,7 +254,8 @@ class SGPreflight(QtGui.QDialog):
 		lay_preflight.addWidget(self.btn_preflight_clean_flag, 		7, 0, 1, 2)
 		lay_preflight.addWidget(self.cmb_select_color, 				7, 2, 1, 2)
 		lay_preflight.addWidget(QtGui.QLabel('4: All glyphs/masters: Apply rounding; Decompose; Convert to TT curves.'), 8, 0, 1, 4)
-		lay_preflight.addWidget(self.btn_preflight_actions,			9, 0, 1, 4)
+		lay_preflight.addWidget(self.btn_preflight_actions,			9, 0, 1, 2)
+		lay_preflight.addWidget(self.btn_preflight_do_actions,		9, 2, 1, 2)
 		lay_preflight.addWidget(QtGui.QLabel('5: Save your work.'), 10, 0, 1, 4)
 		lay_preflight.addWidget(self.btn_preflight_save, 			11, 0, 1, 4)
 		lay_preflight.addWidget(QtGui.QLabel('6: Export fonts.'),	12, 0, 1, 4)
@@ -355,10 +359,20 @@ class SGPreflight(QtGui.QDialog):
 					
 					for tag in glyph.tags:
 						match = re.search(search_tag, tag)
+						
 						if not bool(match):
 							new_tags.append(tag)
 
 					glyph.tags = new_tags
+
+				# -- Remove all non-master layers
+				remove_layers = [layer for layer in glyph.layers() if layer.name not in process_layers]
+				
+				for layer_to_delete in remove_layers:
+					glyph.fl.removeLayer(layer_to_delete)
+
+				# -- Remove color flags
+				glyph.setMark(0)
 
 			# - Remove temporary glyphs with some user defined mark
 			if mode == 'temp': 
@@ -384,6 +398,29 @@ class SGPreflight(QtGui.QDialog):
 		output(0, app_name, 'Font: %s; Cleanup Finished!' %self.active_font.name)
 		self.active_font.update()
 		self.progress.setValue(0)
+
+	def process_actions(self):
+		# - Init
+		process_layers = self.active_font.masters()
+		process_glyphs = self.active_font.glyphs(extend=fl6.flGlyph)
+		
+		# - Set progress bar
+		all_glyph_counter = 50
+		self.progress.setValue(all_glyph_counter)
+		glyph_count = len(process_glyphs)
+
+		output(1, app_name, 'Performing global font actions! Please wait the operation to be over!')
+				
+		# - Perform flPackage action
+		self.active_font.fl.runActions(process_glyphs, contour_actions_JSON, 2, True) # 0 - Active, 1 - Selection/window, 2 - All layers/masters
+			
+		# - Set progress bar
+		all_glyph_counter = 0
+		self.progress.setValue(all_glyph_counter)
+		glyph_count = len(process_glyphs)
+
+		output(0, app_name, 'Font: {};'.format(self.active_font.name))
+		#self.active_font.update()
 
 # - Run ----------------------
 Preflight = SGPreflight()
