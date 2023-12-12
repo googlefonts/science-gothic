@@ -4,15 +4,16 @@ This is how we get from FontLab VFC files to final variable TTFs.
 
 If you are working directly with UFOs only, and not starting with the FontLab source, you would skip to point 13 below.
 
-For points 5 and 7, we use a FontLab script, which is here in the repo. It is assumed you have this script installed and know how to run scripts from FontLab. (Note: the script is only relevant if one is editing glyphs, at the current kerning stage of the project it is highly unlikely we will be breaking glyph-master compatibility.)
+For points 5 and 7, we use a FontLab script, which is here in the repo. You need to install these scripts in FontLab and know how to run scripts from FontLab. (Note: the script is mostly relevant if one is editing glyphs, for many other kinds of work, it is unlikely you will be breaking glyph-master compatibility.)
 
 1. Bump the version string in the font. 
 1. Update the date/time stamp in the font to current.
 1. Save the font. 
 1. Save the font under a temp name. Further changes are being made on this copy of the font.
-1. Run _Font: Check QA_ script that is in the scripts folder within FL. (Note that "_SG-UFO-Prepare.py_" is basically the same script, only it deletes problem glyphs! As the project is no longer in early stages, deleting glyphs to make the font build is no longer okay.)
+1. In FontLab do Font > Update Glyphs. This forces FontLab to do a full update. Otherwise its “lazy load” conflicts with the subsequent scripts and generates bogus errors.  :(
+1. Run the _SG-Font-Check QA_ script that is in the scripts folder within FL. (Note that "_SG-UFO-Prepare.py_" is basically the same script, only it deletes problem glyphs! As the project is no longer in early stages, deleting glyphs to make the font build is no longer okay.)
 1. Correct any problem glyphs by decomposing them, etc. Manually decompose problem glyphs not caught by the script. *  (Currently none)
-1. If problems were fixed, Run _Font: Check QA_ again.
+1. If problems were fixed, Run _SG-Font-Check QA_ again.
 1. Convert outlines to TT with `Tools > Actions > Basics > Convert to TT Curves` (be sure to set "All Masters" at top, and check "Apply to entire font" at bottom left)
 1. Check _Features Panel > “Hamburger” menu (top left) > Include Classes:  _Kerning_ and _OpenType_  should be checked (on); _Tags_ and _Virtual Tags_ should be unchecked (off)
 1. Delete any [mark] [mkmk] and [kern] features from the _Features Panel_; then from the panel’s hamburger menu, recreate them
