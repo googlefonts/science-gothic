@@ -1,7 +1,7 @@
 # Science Gothic
 ## libre variable font
 
-Science Gothic™ is a libre sans serif variable font commissioned by Google Fonts. The medium weight is based closely on Morris Fuller Benton’s Bank Gothic (1930–34) all-caps typeface for American Type Founders. Science Gothic adds a lowercase, extensive language coverage, and four design axes: extreme weight and width, plus contrast (Y Opaque or ‘YOPQ’), and slant. Science Gothic is a team effort, by Thomas Phinney, Vassil Kateliev and Brandon Buerkle. Special thanks to Igor Freiberger for his early contributions.
+Science Gothic™ is a libre sans serif variable font commissioned by Google Fonts. Its wide design range allows it to take on many different looks and uses, striking or classy, from superheroes and detectives to cosmetics to business and technology. The medium weight is based closely on Morris Fuller Benton’s Bank Gothic (1930–34) all-caps typeface for American Type Founders. Science Gothic adds a lowercase, extensive language coverage, and four design axes: extreme weight and width, plus contrast (Y Opaque or ‘YOPQ’), and slant. Science Gothic is a team effort, by Thomas Phinney, Vassil Kateliev and Brandon Buerkle. Special thanks to Igor Freiberger for his early contributions.
 
 This repo is where development and updates to this project can be found. Source files are in multiple formats: FontLab VFJ (vector font JSON) format, FontLab VFC (binary) format. Generated versions include UFO source files, and variable TTF end-user fonts. Occasionally we previously generated fonts corresponding to masters and instances, but these have not been not maintained going forward.
 
