@@ -1,7 +1,7 @@
 # SCRIPT:   Science Gothic Build Variable Font 
-# VER:      1.3
+# VER:      2.0
 # -----------------------------------------------------------
-# (C) Vassil Kateliev, 2022         (http://www.kateliev.com)
+# (C) Vassil Kateliev, 2022-2024    (http://www.kateliev.com)
 #------------------------------------------------------------
 # No warranties. By using this you agree
 # that you use it at your own risk!
@@ -21,6 +21,7 @@ while getopts "f:isbpt" opt; do
     f)  designspace=$OPTARG ;;  # get designspace to process
     b)  do_build=false ;;       # do not build the font
     t)  do_test=false ;;        # do not test the ttfs
+    p)  do_post=false ;;
     \?) echo "Invalid option: -$OPTARG" >&2 ;;
   esac
 done
@@ -45,9 +46,34 @@ date
 # -- Generate variable fonts
 if [ $do_build == true ];
 then
-    echo "BUILD >>> Generating Variable Font: $file_designspace_in"
+    echo "\nBUILD >>> Generating Variable Font: $file_designspace_in"
     fontmake -m "$designspace" -o variable --output-dir "$path_fontmake_out" --verbose WARNING --keep-overlaps
     mv $path_fontmake_out ${path_fontmake_out/-VF/""}
+fi
+
+# -- Process output variable fonts
+if [ $do_post == true ];
+then
+    echo "\nPOST >>> Processing Variable Fonts: $path_fontmake_out"
+    # -- Process files
+    for path_ttf in $(find $path_fontmake_out -type f -name "*.ttf");
+        do
+            echo "\nPOST >>> Fixing Hinting: $path_ttf"
+            gftools fix-nonhinting $path_ttf $path_ttf
+            
+            echo "\nPOST >>> Fixing Unwanted Tables: $path_ttf"
+            gftools fix-unwanted-tables $path_ttf
+
+            echo "\nPOST >>> Fixing DSIG table: $path_ttf"
+            gftools fix-dsig.py --autofix $path_ttf
+
+            echo "\nPOST >>> Validating fonts: $path_ttf"
+            ftxvalidator $path_ttf
+
+        done
+
+    # -- Cleanup
+    rm $path_fontmake_out/*backup-fonttools* -f
 fi
 
 # -- Run Google QA on the resulting .ttfs
@@ -55,7 +81,7 @@ if [ $do_test == true ];
 then
     echo "BUILD >>> Running Google-Fonts QA on: $path_fontmake_out"
     cd "$path_fontmake_out"
-    fontbakery check-googlefonts *.ttf --html "gs-split-build-report.html" #"${$designspace%%.*}.html"
+    fontbakery check-googlefonts *.ttf --html "sg-build-report.html" 
     cd "$path_current_run"
 fi
 
