@@ -1,5 +1,5 @@
 # SCRIPT:   Science Gothic Build Variable Font 
-# VER:      2.1
+# VER:      2.2
 # -----------------------------------------------------------
 # (C) Vassil Kateliev, 2022-2024   (http://www.kateliev.com)
 #------------------------------------------------------------
@@ -66,7 +66,7 @@ if (-not $nopost) {
     foreach ($path_ttf in $list_path_ttf) {
 
         Write-output "`nPOST >>> Fixing Unwanted Tables: $path_ttf"
-        python3 $py_tables $path_ttf
+        python $py_font_tables $path_ttf
 
         Write-output "`nPOST >>> Fixing Hinting: $path_ttf"
         gftools fix-nonhinting $path_ttf $path_ttf
