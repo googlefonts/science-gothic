@@ -1,5 +1,5 @@
 # SCRIPT:   Science Gothic Build Variable Font 
-# VER:      2.0
+# VER:      2.1
 # -----------------------------------------------------------
 # (C) Vassil Kateliev, 2022-2024    (http://www.kateliev.com)
 #------------------------------------------------------------
@@ -28,6 +28,9 @@ done
 
 # - Configuration -------------------------------------------
 script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &> /dev/null && pwd)"
+
+# -- Tools
+py_tables=$script_dir/"../Python/sg-fix-unwanted-tables.py"
 
 # -- Preferred naming patterns
 pref_variable_output="variable_ttf"  # Preferred fontmake output folder name
@@ -58,14 +61,15 @@ then
     # -- Process files
     for path_ttf in $(find $path_fontmake_out -type f -name "*.ttf");
         do
-            echo "\nPOST >>> Fixing Hinting: $path_ttf"
-            gftools fix-nonhinting $path_ttf $path_ttf
-            
             echo "\nPOST >>> Fixing Unwanted Tables: $path_ttf"
-            gftools fix-unwanted-tables $path_ttf
+            python3 "$py_tables" "$path_ttf"
+            
+            echo "\nPOST >>> Fixing Hinting: $path_ttf"
+            gftools-fix-nonhinting.py $path_ttf $path_ttf
 
-            echo "\nPOST >>> Fixing DSIG table: $path_ttf"
-            gftools fix-dsig.py --autofix $path_ttf
+            #!!! Removed. Consult: https://github.com/googlefonts/science-gothic/issues/331
+            #echo "\nPOST >>> Fixing DSIG table: $path_ttf"
+            #gftools fix-dsig.py --autofix $path_ttf
 
             echo "\nPOST >>> Validating fonts: $path_ttf"
             ftxvalidator $path_ttf

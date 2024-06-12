@@ -20,10 +20,28 @@ param (
     [switch]$nopost = $false
 ) 
 
+# - Functions
+function Resolve-FullPath {
+    [cmdletbinding()]
+    param
+    (
+        [Parameter(
+            Mandatory=$true,
+            Position=0,
+            ValueFromPipeline=$true)]
+        [string] $path
+    )
+     
+    $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($path)
+}
+
 # - Configuration
 # -- Preffered naming patterns
 $pref_variable_output = 'fonts'      # Preffered fontmake output folder name
 $pref_backup_folder = 'backup'              # Preffered backup folder name
+
+# -- Tools
+$py_font_tables = Resolve-FullPath "$PSScriptRoot\..\Python\sg-fix-unwanted-tables.py"
 
 # - Init
 $path_current_run = Get-Location
@@ -48,16 +66,14 @@ if (-not $nopost) {
     foreach ($path_ttf in $list_path_ttf) {
 
         Write-output "`nPOST >>> Fixing Unwanted Tables: $path_ttf"
-        gftools fix-unwanted-tables.py $path_ttf
+        python3 $py_tables $path_ttf
 
         Write-output "`nPOST >>> Fixing Hinting: $path_ttf"
         gftools fix-nonhinting $path_ttf $path_ttf
 
-        Write-output "`nPOST >>> Fixing DSIG table: $path_ttf"
-        gftools fix-dsig.py --autofix $path_ttf
-
-        Write-output "`nPOST >>> Validating fonts: $path_ttf"
-        ftxvalidator $path_ttf
+        #!!! Removed. Consult: https://github.com/googlefonts/science-gothic/issues/331
+        #Write-output "`nPOST >>> Fixing DSIG table: $path_ttf"
+        #gftools fix-dsig --autofix $path_ttf
 
     }
     
