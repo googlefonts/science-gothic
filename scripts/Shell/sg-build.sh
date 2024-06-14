@@ -1,5 +1,5 @@
 # SCRIPT:   Science Gothic Build Variable Font 
-# VER:      2.1
+# VER:      2.2
 # -----------------------------------------------------------
 # (C) Vassil Kateliev, 2022-2024    (http://www.kateliev.com)
 #------------------------------------------------------------
@@ -85,7 +85,7 @@ if [ $do_test == true ];
 then
     echo "BUILD >>> Running Google-Fonts QA on: $path_fontmake_out"
     cd "$path_fontmake_out"
-    fontbakery check-googlefonts *.ttf --html "sg-build-report.html" 
+    fontbakery check-googlefonts *.ttf --html "sg-build-report.html" --full-lists
     cd "$path_current_run"
 fi
 

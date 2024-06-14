@@ -88,7 +88,7 @@ if (-not $nopost) {
 if (-not $notest) {
     Write-output "`nTEST >>> Running Google-Fonts QA on: $path_fontmake_out"
     cd $path_fontmake_out
-    fontbakery check-googlefonts *.ttf --html $designspace.replace("``","").replace(".designspace", ".html")
+    fontbakery check-googlefonts *.ttf --html $designspace.replace("``","").replace(".designspace", ".html") --full-lists
     cd $path_current_run
 }
 
