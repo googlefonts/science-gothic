@@ -32,7 +32,7 @@ for accent in not_marks:
 	for recipe in all_recipes:
 		if all([accent in recipe,
 			  	accent +'comb' not in recipe, 
-			  	accent not in recipe.split('=',1)[0]]): 
+			  	]): 
 			
 			collect_output.setdefault(accent,[]).append(recipe)
 
