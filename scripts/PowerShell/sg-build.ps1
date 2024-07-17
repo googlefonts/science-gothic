@@ -1,5 +1,5 @@
 # SCRIPT:   Science Gothic Build Variable Font 
-# VER:      2.2
+# VER:      2.3
 # -----------------------------------------------------------
 # (C) Vassil Kateliev, 2022-2024   (http://www.kateliev.com)
 #------------------------------------------------------------
@@ -42,6 +42,7 @@ $pref_backup_folder = 'backup'              # Preffered backup folder name
 
 # -- Tools
 $py_font_tables = Resolve-FullPath "$PSScriptRoot\..\Python\sg-fix-unwanted-tables.py"
+$path_stylespace = Resolve-FullPath "$PSScriptRoot\..\..\lib\ScienceGothic[YOPQ,slnt,wdth,wght].stylespace"
 
 # - Init
 $path_current_run = Get-Location
@@ -64,6 +65,8 @@ if (-not $nopost) {
     $list_path_ttf = @(Get-ChildItem -Path $path_fontmake_out -Include *.ttf -Recurse)
 
     foreach ($path_ttf in $list_path_ttf) {
+        Write-output "`nPOST >>> Fixing Stylespace: $path_ttf"
+        statmake --designspace $designspace --stylespace $path_stylespace $path_ttf
 
         Write-output "`nPOST >>> Fixing Unwanted Tables: $path_ttf"
         python $py_font_tables $path_ttf

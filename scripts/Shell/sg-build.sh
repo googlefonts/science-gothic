@@ -1,5 +1,5 @@
 # SCRIPT:   Science Gothic Build Variable Font 
-# VER:      2.2
+# VER:      2.3
 # -----------------------------------------------------------
 # (C) Vassil Kateliev, 2022-2024    (http://www.kateliev.com)
 #------------------------------------------------------------
@@ -28,6 +28,7 @@ done
 
 # - Configuration -------------------------------------------
 script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &> /dev/null && pwd)"
+path_stylespace=$script_dir/"../../lib/ScienceGothic[YOPQ,slnt,wdth,wght].stylespace"
 
 # -- Tools
 py_tables=$script_dir/"../Python/sg-fix-unwanted-tables.py"
@@ -61,6 +62,9 @@ then
     # -- Process files
     for path_ttf in $(find $path_fontmake_out -type f -name "*.ttf");
         do
+            echo "\nPOST >>> Fixing Stylespace: $path_ttf"
+            statmake --designspace "$designspace" --stylespace "$path_stylespace" "$path_ttf"
+
             echo "\nPOST >>> Fixing Unwanted Tables: $path_ttf"
             python3 "$py_tables" "$path_ttf"
             
