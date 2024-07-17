@@ -15,6 +15,7 @@
 # - Arguments -----------------------------------------------
 do_build=true   # -b -> build the font
 do_test=true    # -t -> test the ttfs
+do_post=true   # -p -> posptocess the ttfs
 
 while getopts "f:isbpt" opt; do
   case $opt in
