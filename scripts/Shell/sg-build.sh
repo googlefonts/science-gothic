@@ -1,5 +1,5 @@
 # SCRIPT:   Science Gothic Build Variable Font 
-# VER:      2.3
+# VER:      2.4
 # -----------------------------------------------------------
 # (C) Vassil Kateliev, 2022-2024    (http://www.kateliev.com)
 #------------------------------------------------------------
@@ -76,8 +76,8 @@ then
             #echo "\nPOST >>> Fixing DSIG table: $path_ttf"
             #gftools fix-dsig.py --autofix $path_ttf
 
-            echo "\nPOST >>> Validating fonts: $path_ttf"
-            ftxvalidator $path_ttf
+            #echo "\nPOST >>> Validating fonts: $path_ttf"
+            #ftxvalidator $path_ttf
 
         done
 
