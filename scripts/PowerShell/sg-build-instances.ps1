@@ -52,7 +52,7 @@ $path_backup = (Join-Path -Path $path_designspace_in -Child $pref_backup_folder)
 
 # - Process
 # -- Generate variable fonts
-if $build {
+if ($build) {
     Write-output "`nBUILD >>> Generating Instances from: $file_designspace_in"
     fontmake -m $designspace -o ttf  -i --output-dir $path_fontmake_out --round-instances --keep-overlaps
 
@@ -61,7 +61,7 @@ if $build {
 }
 
 # -- Postprocess output variable fonts
-if $post {
+if ($post) {
     Write-output "`nPOST >>> Processing Fonts: $path_fontmake_out"
     $list_path_ttf = @(Get-ChildItem -Path $path_fontmake_out -Include *.ttf -Recurse)
 
@@ -74,7 +74,7 @@ if $post {
 }
 
 # -- Run Google QA on the resulting .ttfs
-if $test {
+if ($test) {
     Write-output "`nTEST >>> Running Google-Fonts QA on: $path_fontmake_out"
     cd $path_fontmake_out
     fontbakery check-googlefonts *.ttf --html $designspace.replace("``","").replace(".designspace", ".html") --full-lists
