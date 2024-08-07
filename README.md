@@ -1,5 +1,5 @@
 # Science Gothic
-## libre variable font
+## General
 
 Science Gothic™ is a libre sans serif variable font commissioned by Google Fonts. Its wide design range allows it to take on many different looks and uses, striking or classy, from superheroes and detectives to cosmetics to business and technology. The basic design is based closely on Morris Fuller Benton’s Bank Gothic (1930–34) all-caps typeface for American Type Founders. Science Gothic adds a lowercase, extensive language coverage, and four design axes: extreme weight and width (much greater than the original), plus contrast (Y Opaque or ‘YOPQ’), and slant. Science Gothic is a team effort, by Thomas Phinney, Vassil Kateliev and Brandon Buerkle. Special thanks to Igor Freiberger for his early contributions.
 
@@ -7,14 +7,14 @@ This repo is where development and updates to this project can be found. Source 
 
 (Particularly major updates are described below, but not every update.)
 
-### DOWNLOAD THE VARIABLE FONT
-Get the latest working variable font here: https://github.com/googlefonts/science-gothic/tree/master/fonts/variable
+## DOWNLOAD THE FONT
+Get the latest working variable font here: https://github.com/googlefonts/science-gothic/tree/main/fonts/variable
+Less flexible static fonts are here: https://github.com/googlefonts/science-gothic/tree/main/fonts/static/Instances
 
-
-### Bugs
+## Bugs
 PLEASE report any BUGS OR ISSUES. You can file an issue right here in Github at: https://github.com/googlefonts/science-gothic/issues. Or just ask questions on social media, whatever. But feedback is welcome!
 
-### Building Fonts
+## Building Fonts
 Our process for building fonts from our FontLab VFC/VFJ sources > UFO > FontMake > TTF (variable font) is now documented here: https://github.com/googlefonts/science-gothic/blob/master/documentation/compiling_fonts.md
 
 
