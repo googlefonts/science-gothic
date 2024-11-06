@@ -9,18 +9,20 @@
 # that you use it at your own risk!
 
 # - Dependencies -----------------
-import os
+from __future__ import absolute_import, print_function
 from collections import OrderedDict
 
 import fontlab as fl6
 from PythonQt import QtCore
 
-from typerig.gui import QtGui
-from typerig.gui.widgets import getProcessGlyphs
-from typerig.proxy import *
+from typerig.proxy.fl.objects.font import pFont
+from typerig.proxy.fl.objects.glyph import pGlyph
+
+from typerig.proxy.fl.gui import QtGui
+from typerig.proxy.fl.gui.widgets import getTRIconFont, getProcessGlyphs
 
 # - Init --------------------------------
-app_version = '1.97'
+app_version = '1.98'
 app_name = '[SG] Copy Layers'
 
 # -- Copy Presets (by request)
@@ -41,7 +43,7 @@ copy_presets = {'contrast':[('Blk','Blk Ctr'),
 				'ctr_light_s':[('Lt','Lt Ctr'),
 							('Lt Cnd','Lt Cnd Ctr'),
 							('Lt Exp','Lt Exp Ctr'),
-              ('Lt S','Lt Ctr S'),
+							('Lt S','Lt Ctr S'),
 							('Lt Cnd S','Lt Cnd Ctr S'),
 							('Lt Exp S','Lt Exp Ctr S')],
 
@@ -55,15 +57,15 @@ copy_presets = {'contrast':[('Blk','Blk Ctr'),
 							[('Medium','Lt'),
 							('Medium','Blk')],
 
- 				'slant': [('Lt','Lt S'),
-              ('Medium','Medium S'),
-          		('Blk','Blk S'),
-         			('Lt Cnd','Lt Cnd S'),
-              ('Cnd','Cnd S'),
-      				('Blk Cnd','Blk Cnd S'),
-    				  ('Lt Exp','Lt Exp S'),
-    				  ('Exp','Exp S'),
-         			('Blk Exp','Blk Exp S'),
+				'slant': [	('Lt','Lt S'),
+							('Medium','Medium S'),
+							('Blk','Blk S'),
+							('Lt Cnd','Lt Cnd S'),
+							('Cnd','Cnd S'),
+							('Blk Cnd','Blk Cnd S'),
+							('Lt Exp','Lt Exp S'),
+							('Exp','Exp S'),
+							('Blk Exp','Blk Exp S'),
 							('Lt','Lt Ctr S'),
 							('Ctr','Ctr S'),
 							('Blk Ctr','Blk Ctr S'),
@@ -259,12 +261,12 @@ class dlg_CopyLayer(QtGui.QDialog):
 	def copyLayer(self, glyph, srcLayerName, dstLayerName, options, cleanDST=False, addLayer=False):
 		# -- Check if srcLayerExists
 		if glyph.layer(srcLayerName) is None:
-			print 'WARN:\tGlyph: %s\tMissing source layer: %s\tSkipped!' %(glyph.name, srcLayerName)
+			print('WARN:\tGlyph: %s\tMissing source layer: %s\tSkipped!' %(glyph.name, srcLayerName))
 			return
 
 		# -- Check if dstLayerExists
 		if glyph.layer(dstLayerName) is None:
-			print 'WARN:\tGlyph: %s\tMissing destination layer: %s\tAdd new: %s.' %(glyph.name, dstLayerName, addLayer)
+			print('WARN:\tGlyph: %s\tMissing destination layer: %s\tAdd new: %s.' %(glyph.name, dstLayerName, addLayer))
 			
 			if addLayer:
 				newLayer = fl6.flLayer()
@@ -310,7 +312,7 @@ class dlg_CopyLayer(QtGui.QDialog):
 			self.tab_masters.setTable({n:OrderedDict([('Master Name', master), ('SRC', False), ('DST', False)]) for n, master in enumerate(self.active_font.pMasters.names)})
 			self.tab_masters.resizeColumnsToContents()
 		else:
-			#print ';'.join(sorted(self.active_font.pMasters.names))
+			#print(';'.join(sorted(self.active_font.pMasters.names)))
 			self.tab_masters.setTable({n:OrderedDict([('Master Name', master), ('SRC', False), ('DST', self.edt_checkStr.text in master)]) for n, master in enumerate(self.active_font.pMasters.names)})
 			self.tab_masters.resizeColumnsToContents()
 
