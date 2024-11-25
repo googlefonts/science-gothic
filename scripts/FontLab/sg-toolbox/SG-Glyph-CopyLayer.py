@@ -22,7 +22,7 @@ from typerig.proxy.fl.gui import QtGui
 from typerig.proxy.fl.gui.widgets import getTRIconFont, getProcessGlyphs
 
 # - Init --------------------------------
-app_version = '1.98'
+app_version = '1.99'
 app_name = '[SG] Copy Layers'
 
 # -- Copy Presets (by request)
@@ -30,7 +30,7 @@ copy_presets = {'contrast':[('Blk','Blk Ctr'),
 							('Blk Cnd','Blk Cnd Ctr'),
 							('Blk Exp','Blk Exp Ctr'),
 							('Cnd','Cnd Ctr'),
-							('Medium','Ctr'),
+							('Regular','Ctr'),
 							('Exp','Exp Ctr'),
 							('Lt','Lt Ctr'),
 							('Lt Cnd','Lt Cnd Ctr'),
@@ -48,17 +48,17 @@ copy_presets = {'contrast':[('Blk','Blk Ctr'),
 							('Lt Exp S','Lt Exp Ctr S')],
 
 				'width': 	[('Blk','Blk Cnd'),
-							('Medium','Cnd'),
+							('Regular','Cnd'),
 							('Lt','Lt Cnd'),
 							('Blk','Blk Exp'),
-							('Medium','Exp'),
+							('Regular','Exp'),
 							('Lt','Lt Exp')],
 				'weight':
-							[('Medium','Lt'),
-							('Medium','Blk')],
+							[('Regular','Lt'),
+							('Regular','Blk')],
 
 				'slant': [	('Lt','Lt S'),
-							('Medium','Medium S'),
+							('Regular','Regular S'),
 							('Blk','Blk S'),
 							('Lt Cnd','Lt Cnd S'),
 							('Cnd','Cnd S'),
