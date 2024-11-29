@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tcaron.sc" format="2">
-  <advance width="2183"/>
+  <advance width="2184"/>
   <anchor x="1259" y="1632" name="top"/>
   <anchor x="948" y="-150" name="bottom"/>
+  <anchor x="438" y="1358" name="topright"/>
   <outline>
-    <component base="t.sc"/>
-    <component base="uni030C" xOffset="1106" yOffset="84"/>
+    <contour>
+      <point x="2245" y="1086" type="line"/>
+      <point x="82" y="1086" type="line"/>
+      <point x="76" y="1053" type="line"/>
+      <point x="892" y="1053" type="line"/>
+      <point x="708" y="0" type="line"/>
+      <point x="1239" y="0" type="line"/>
+      <point x="1423" y="1053" type="line"/>
+      <point x="2239" y="1053" type="line"/>
+    </contour>
+    <contour>
+      <point x="1954" y="1532" type="line"/>
+      <point x="1898" y="1532" type="line"/>
+      <point x="1425" y="1204" type="line"/>
+      <point x="1062" y="1532" type="line"/>
+      <point x="469" y="1532" type="line"/>
+      <point x="903" y="1184" type="line"/>
+      <point x="1448" y="1184" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=t.sc+uni030C@top</string>
   </dict>
   </lib>
 </glyph>

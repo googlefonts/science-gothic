@@ -1,16 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0439" format="2">
-  <advance width="1412" height="1448"/>
+  <advance width="1402"/>
   <unicode hex="0439"/>
-  <anchor x="857" y="1510" name="top"/>
+  <anchor x="847" y="1510" name="top"/>
   <outline>
-    <component base="uni0438"/>
-    <component base="uni0306.cyr" xOffset="715"/>
+    <contour>
+      <point x="48" y="0" type="line"/>
+      <point x="246" y="0" type="line"/>
+      <point x="979" y="636" type="line"/>
+      <point x="868" y="0" type="line"/>
+      <point x="1116" y="0" type="line"/>
+      <point x="1291" y="1000" type="line"/>
+      <point x="1091" y="1000" type="line"/>
+      <point x="358" y="358" type="line"/>
+      <point x="471" y="1000" type="line"/>
+      <point x="223" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="540" y="1410" type="line"/>
+      <point x="523.875" y="1318.5"/>
+      <point x="534.469" y="1199.69"/>
+      <point x="594.281" y="1130.31"/>
+      <point x="706.5" y="1103"/>
+      <point x="792" y="1103" type="qcurve" smooth="yes"/>
+      <point x="877.125" y="1103"/>
+      <point x="988.188" y="1130.31"/>
+      <point x="1059.81" y="1199.69"/>
+      <point x="1101.88" y="1318.5"/>
+      <point x="1118" y="1410" type="qcurve"/>
+      <point x="963" y="1410" type="line"/>
+      <point x="954.75" y="1363.5"/>
+      <point x="933.062" y="1304.38"/>
+      <point x="897.438" y="1270.62"/>
+      <point x="843.5" y="1258"/>
+      <point x="803" y="1258" type="qcurve" smooth="yes"/>
+      <point x="761.375" y="1258"/>
+      <point x="711.031" y="1270.62"/>
+      <point x="687.219" y="1304.38"/>
+      <point x="686.75" y="1363.5"/>
+      <point x="695" y="1410" type="qcurve"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=uni0438</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=uni0438</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0438+brevecomb.cyr@top</string>
   </dict>
   </lib>
 </glyph>

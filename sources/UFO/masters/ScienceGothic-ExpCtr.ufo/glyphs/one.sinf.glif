@@ -2,12 +2,24 @@
 <glyph name="one.sinf" format="2">
   <advance width="849"/>
   <outline>
-    <component base="one.dnom" yOffset="-300"/>
+    <contour>
+      <point x="329" y="-300" type="line"/>
+      <point x="529" y="-300" type="line"/>
+      <point x="529" y="492" type="line"/>
+      <point x="96" y="437" type="line"/>
+      <point x="96" y="407" type="line"/>
+      <point x="329" y="436" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="0.4,0.4,0.4,1" name="halfwidth" x="424.5" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>one.dnom</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>one.dnom</string>
+  <key>com.fontlab.recipe</key>
+  <string>= one.dnom @,-300</string>
   </dict>
   </lib>
 </glyph>

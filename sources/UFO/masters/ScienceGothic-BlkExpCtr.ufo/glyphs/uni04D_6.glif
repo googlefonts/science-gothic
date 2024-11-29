@@ -6,13 +6,54 @@
   <anchor x="1570" y="-150" name="bottom"/>
   <anchor x="2211" y="0" name="ogonek"/>
   <outline>
-    <component base="E"/>
-    <component base="uni0306.cyr" xOffset="1570" yOffset="376"/>
+    <contour>
+      <point x="400" y="0" type="line"/>
+      <point x="2740" y="0" type="line"/>
+      <point x="2740" y="36" type="line"/>
+      <point x="972" y="36" type="line"/>
+      <point x="972" y="700" type="line"/>
+      <point x="2054" y="700" type="line"/>
+      <point x="2054" y="736" type="line"/>
+      <point x="972" y="736" type="line"/>
+      <point x="972" y="1364" type="line"/>
+      <point x="2706" y="1364" type="line"/>
+      <point x="2706" y="1400" type="line"/>
+      <point x="400" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1091" y="1837" type="line"/>
+      <point x="1091" y="1737.62"/>
+      <point x="1132.16" y="1599.66"/>
+      <point x="1239.59" y="1513.59"/>
+      <point x="1425.88" y="1475"/>
+      <point x="1571" y="1475" type="qcurve" smooth="yes"/>
+      <point x="1716.12" y="1475"/>
+      <point x="1901.78" y="1513.59"/>
+      <point x="2008.47" y="1599.66"/>
+      <point x="2049" y="1737.62"/>
+      <point x="2049" y="1837" type="qcurve"/>
+      <point x="1784" y="1837" type="line"/>
+      <point x="1784" y="1726.75"/>
+      <point x="1752.31" y="1596.06"/>
+      <point x="1695.69" y="1527.44"/>
+      <point x="1617.5" y="1507"/>
+      <point x="1571" y="1507" type="qcurve" smooth="yes"/>
+      <point x="1523.38" y="1507"/>
+      <point x="1444.28" y="1527.44"/>
+      <point x="1387.47" y="1596.06"/>
+      <point x="1356" y="1726.75"/>
+      <point x="1356" y="1837" type="qcurve"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="-10" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=Е</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=Е</string>
+  <key>com.fontlab.recipe</key>
+  <string>=E+brevecomb.cyr@top</string>
   </dict>
   </lib>
 </glyph>

@@ -7,13 +7,52 @@
   <anchor x="827" y="0" name="ogonek"/>
   <anchor x="1450" y="1024" name="horn"/>
   <outline>
-    <component base="u"/>
-    <component base="uni0323" xOffset="810"/>
+    <contour>
+      <point x="170" y="204" type="line" smooth="yes"/>
+      <point x="170" y="77.2272"/>
+      <point x="299.301" y="0"/>
+      <point x="414" y="0" type="qcurve" smooth="yes"/>
+      <point x="1204" y="0" type="line" smooth="yes"/>
+      <point x="1318.7" y="0"/>
+      <point x="1450" y="77.2272"/>
+      <point x="1450" y="204" type="qcurve" smooth="yes"/>
+      <point x="1450" y="1024" type="line"/>
+      <point x="926" y="1024" type="line"/>
+      <point x="926" y="32" type="line"/>
+      <point x="926" y="32"/>
+      <point x="926" y="32"/>
+      <point x="926" y="32" type="qcurve"/>
+      <point x="694" y="32" type="line"/>
+      <point x="694" y="32"/>
+      <point x="694" y="32"/>
+      <point x="694" y="32" type="qcurve"/>
+      <point x="694" y="1024" type="line"/>
+      <point x="170" y="1024" type="line"/>
+    </contour>
+    <contour>
+      <point x="614" y="-199" type="qcurve" smooth="yes"/>
+      <point x="614" y="-331" type="line" smooth="yes"/>
+      <point x="614" y="-410.988"/>
+      <point x="642.503" y="-439"/>
+      <point x="724" y="-439" type="qcurve" smooth="yes"/>
+      <point x="896" y="-439" type="line" smooth="yes"/>
+      <point x="977.497" y="-439"/>
+      <point x="1006" y="-410.988"/>
+      <point x="1006" y="-331" type="qcurve" smooth="yes"/>
+      <point x="1006" y="-199" type="line" smooth="yes"/>
+      <point x="1006" y="-119.012"/>
+      <point x="977.497" y="-91"/>
+      <point x="896" y="-91" type="qcurve" smooth="yes"/>
+      <point x="724" y="-91" type="line" smooth="yes"/>
+      <point x="642.503" y="-91"/>
+      <point x="614" y="-119.012"/>
+    </contour>
   </outline>
+  <guideline angle="0" x="0" y="-100"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=u+uni0323@bottom</string>
   </dict>
   </lib>
 </glyph>

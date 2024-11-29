@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflex" format="2">
-  <advance width="867" height="1448"/>
+  <advance width="867"/>
   <unicode hex="02C6"/>
-  <anchor x="444" y="1150" name="_top"/>
-  <anchor x="523" y="1598" name="_bottom"/>
-  <anchor x="849" y="1267" name="topright"/>
-  <anchor x="514" y="1548" name="top"/>
   <outline>
-    <component base="uni0302" xOffset="369"/>
+    <contour>
+      <point x="50" y="1085" type="line"/>
+      <point x="287" y="1085" type="line"/>
+      <point x="483" y="1305" type="line"/>
+      <point x="608" y="1085" type="line"/>
+      <point x="817" y="1085" type="line"/>
+      <point x="579" y="1448" type="line"/>
+      <point x="418" y="1448" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0302 ^ 50, 50</string>
   </dict>
   </lib>
 </glyph>

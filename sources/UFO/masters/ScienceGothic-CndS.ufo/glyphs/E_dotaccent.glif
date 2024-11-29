@@ -1,18 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Edotaccent" format="2">
-  <advance width="688"/>
+  <advance width="691"/>
   <unicode hex="0116"/>
-  <anchor x="563" y="1839" name="top"/>
-  <anchor x="215" y="-150" name="bottom"/>
-  <anchor x="444" y="0" name="ogonek"/>
+  <anchor x="566" y="1839" name="top"/>
+  <anchor x="218" y="-150" name="bottom"/>
+  <anchor x="447" y="0" name="ogonek"/>
   <outline>
-    <component base="E"/>
-    <component base="uni0307.case" xOffset="429" yOffset="400"/>
+    <contour>
+      <point x="-45" y="0" type="line"/>
+      <point x="533" y="0" type="line"/>
+      <point x="576" y="244" type="line"/>
+      <point x="262" y="244" type="line"/>
+      <point x="323" y="596" type="line"/>
+      <point x="603" y="596" type="line"/>
+      <point x="646" y="840" type="line"/>
+      <point x="366" y="840" type="line"/>
+      <point x="421" y="1156" type="line"/>
+      <point x="721" y="1156" type="line"/>
+      <point x="763" y="1400" type="line"/>
+      <point x="199" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="396" y="1598" type="line" smooth="yes"/>
+      <point x="383.926" y="1527.07"/>
+      <point x="403.822" y="1502"/>
+      <point x="474" y="1502" type="qcurve" smooth="yes"/>
+      <point x="538" y="1502" type="line" smooth="yes"/>
+      <point x="608.178" y="1502"/>
+      <point x="637.926" y="1527.07"/>
+      <point x="650" y="1598" type="qcurve" smooth="yes"/>
+      <point x="662" y="1664" type="line" smooth="yes"/>
+      <point x="674.074" y="1734.18"/>
+      <point x="654.178" y="1759"/>
+      <point x="584" y="1759" type="qcurve" smooth="yes"/>
+      <point x="520" y="1759" type="line" smooth="yes"/>
+      <point x="449.822" y="1759"/>
+      <point x="420.074" y="1734.18"/>
+      <point x="408" y="1664" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="-156" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=E+dotaccentcomb.case@top</string>
   </dict>
   </lib>
 </glyph>

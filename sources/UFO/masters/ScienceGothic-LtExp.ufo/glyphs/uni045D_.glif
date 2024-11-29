@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni045D" format="2">
-  <advance width="2033"/>
+  <advance width="2020"/>
   <unicode hex="045D"/>
-  <anchor x="1023" y="1150" name="top"/>
+  <anchor x="1010" y="1150" name="top"/>
   <outline>
-    <component base="uni0438"/>
-    <component base="gravecomb" xOffset="1023"/>
+    <contour>
+      <point x="313" y="0" type="line"/>
+      <point x="347" y="0" type="line"/>
+      <point x="1671" y="960" type="line"/>
+      <point x="1671" y="0" type="line"/>
+      <point x="1707" y="0" type="line"/>
+      <point x="1707" y="1000" type="line"/>
+      <point x="1673" y="1000" type="line"/>
+      <point x="349" y="40" type="line"/>
+      <point x="349" y="1000" type="line"/>
+      <point x="313" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="1190" y="1085" type="line"/>
+      <point x="726" y="1448" type="line"/>
+      <point x="665" y="1448" type="line"/>
+      <point x="1139" y="1085" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0438+gravecomb@top</string>
   </dict>
   </lib>
 </glyph>

@@ -1,18 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Idotaccent" format="2">
-  <advance width="664" height="1448"/>
+  <advance width="667"/>
   <unicode hex="0130"/>
-  <anchor x="541" y="1879" name="top"/>
-  <anchor x="186" y="-150" name="bottom"/>
-  <anchor x="276" y="0" name="ogonek"/>
+  <anchor x="544" y="1879" name="top"/>
+  <anchor x="189" y="-150" name="bottom"/>
+  <anchor x="279" y="0" name="ogonek"/>
   <outline>
-    <component base="I"/>
-    <component base="uni0307.case" xOffset="404" yOffset="400"/>
+    <contour>
+      <point x="83" y="0" type="line"/>
+      <point x="347" y="0" type="line"/>
+      <point x="591" y="1400" type="line"/>
+      <point x="327" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="375" y="1638" type="line" smooth="yes"/>
+      <point x="362.172" y="1567.07"/>
+      <point x="382.822" y="1542"/>
+      <point x="453" y="1542" type="qcurve" smooth="yes"/>
+      <point x="517" y="1542" type="line" smooth="yes"/>
+      <point x="587.178" y="1542"/>
+      <point x="616.172" y="1567.07"/>
+      <point x="629" y="1638" type="qcurve" smooth="yes"/>
+      <point x="641" y="1704" type="line" smooth="yes"/>
+      <point x="653.074" y="1774.18"/>
+      <point x="632.178" y="1799"/>
+      <point x="562" y="1799" type="qcurve" smooth="yes"/>
+      <point x="498" y="1799" type="line" smooth="yes"/>
+      <point x="427.822" y="1799"/>
+      <point x="399.074" y="1774.18"/>
+      <point x="387" y="1704" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=I+dotaccentcomb.case@top</string>
   </dict>
   </lib>
 </glyph>

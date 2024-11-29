@@ -4,14 +4,36 @@
   <unicode hex="017E"/>
   <anchor x="209" y="1490" name="top"/>
   <anchor x="209" y="-150" name="bottom"/>
+  <anchor x="80" y="1242" name="topright"/>
   <outline>
-    <component base="z"/>
-    <component base="uni030C" xOffset="209"/>
+    <contour>
+      <point x="34" y="0" type="line"/>
+      <point x="383" y="0" type="line"/>
+      <point x="383" y="32" type="line"/>
+      <point x="62" y="32" type="line"/>
+      <point x="70" y="21" type="line"/>
+      <point x="377" y="976" type="line"/>
+      <point x="377" y="1000" type="line"/>
+      <point x="64" y="1000" type="line"/>
+      <point x="64" y="968" type="line"/>
+      <point x="349" y="968" type="line"/>
+      <point x="341" y="979" type="line"/>
+      <point x="34" y="24" type="line"/>
+    </contour>
+    <contour>
+      <point x="338" y="1390" type="line"/>
+      <point x="306" y="1390" type="line"/>
+      <point x="209" y="1135" type="line"/>
+      <point x="113" y="1390" type="line"/>
+      <point x="80" y="1390" type="line"/>
+      <point x="194" y="1095" type="line"/>
+      <point x="223" y="1095" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=z+uni030C@top</string>
   </dict>
   </lib>
 </glyph>

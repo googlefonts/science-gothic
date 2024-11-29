@@ -1,18 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Wcircumflex" format="2">
-  <advance width="1994"/>
+  <advance width="1995"/>
   <unicode hex="0174"/>
   <anchor x="921" y="-150" name="bottom"/>
   <anchor x="1209" y="1550" name="top"/>
   <anchor x="1568" y="1585" name="topright"/>
   <outline>
-    <component base="W"/>
-    <component base="uni0302.case" xOffset="1071" yOffset="400"/>
+    <contour>
+      <point x="353" y="0" type="line"/>
+      <point x="553" y="0" type="line"/>
+      <point x="1102" y="1224" type="line"/>
+      <point x="1296" y="0" type="line"/>
+      <point x="1489" y="0" type="line"/>
+      <point x="2121" y="1400" type="line"/>
+      <point x="2081" y="1400" type="line"/>
+      <point x="1534" y="187" type="line"/>
+      <point x="1341" y="1400" type="line"/>
+      <point x="1141" y="1400" type="line"/>
+      <point x="592" y="176" type="line"/>
+      <point x="395" y="1400" type="line"/>
+      <point x="127" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="815" y="1485" type="line"/>
+      <point x="875" y="1485" type="line"/>
+      <point x="1133" y="1723" type="line"/>
+      <point x="1301" y="1485" type="line"/>
+      <point x="1550" y="1485" type="line"/>
+      <point x="1303" y="1800" type="line"/>
+      <point x="1162" y="1800" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=W+uni0302.case@top</string>
   </dict>
   </lib>
 </glyph>

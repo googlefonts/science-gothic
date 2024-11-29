@@ -4,14 +4,53 @@
   <unicode hex="0158"/>
   <anchor x="1514" y="-150" name="bottom"/>
   <anchor x="1514" y="1550" name="top"/>
+  <anchor x="879" y="1700" name="topright"/>
   <outline>
-    <component base="R"/>
-    <component base="uni030C.case" xOffset="1514" yOffset="400"/>
+    <contour>
+      <point x="400" y="0" type="line"/>
+      <point x="664" y="0" type="line"/>
+      <point x="664" y="560" type="line"/>
+      <point x="1337" y="560" type="line"/>
+      <point x="2344" y="0" type="line"/>
+      <point x="2814" y="0" type="line"/>
+      <point x="1784" y="560" type="line"/>
+      <point x="2329" y="560" type="line" smooth="yes"/>
+      <point x="2480.5" y="560"/>
+      <point x="2673" y="663"/>
+      <point x="2673" y="834" type="qcurve" smooth="yes"/>
+      <point x="2673" y="1126" type="line" smooth="yes"/>
+      <point x="2673" y="1297"/>
+      <point x="2480.5" y="1400"/>
+      <point x="2329" y="1400" type="qcurve" smooth="yes"/>
+      <point x="400" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="664" y="596" type="line"/>
+      <point x="664" y="1364" type="line"/>
+      <point x="2177" y="1364" type="line" smooth="yes"/>
+      <point x="2291.7" y="1364"/>
+      <point x="2409" y="1254.55"/>
+      <point x="2409" y="1164" type="qcurve" smooth="yes"/>
+      <point x="2409" y="796" type="line" smooth="yes"/>
+      <point x="2409" y="705.448"/>
+      <point x="2291.7" y="596"/>
+      <point x="2177" y="596" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="2116" y="1800" type="line"/>
+      <point x="2053" y="1800" type="line"/>
+      <point x="1646" y="1517" type="line"/>
+      <point x="1232" y="1800" type="line"/>
+      <point x="879" y="1800" type="line"/>
+      <point x="1369" y="1485" type="line"/>
+      <point x="1651" y="1485" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="0.4,0.4,0.4,1" name="halfwidth" x="1514" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=R+uni030C.case@top</string>
   </dict>
   </lib>
 </glyph>

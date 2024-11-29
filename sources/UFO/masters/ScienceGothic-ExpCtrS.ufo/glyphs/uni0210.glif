@@ -4,14 +4,56 @@
   <unicode hex="0210"/>
   <anchor x="1514" y="-150" name="bottom"/>
   <anchor x="1514" y="1550" name="top"/>
+  <anchor x="1265.53" y="1535" name="topright"/>
   <outline>
-    <component base="R"/>
-    <component base="uni030F.case" xOffset="1440" yOffset="450"/>
+    <contour>
+      <point x="283" y="0" type="line"/>
+      <point x="547" y="0" type="line"/>
+      <point x="645" y="560" type="line"/>
+      <point x="1338" y="560" type="line"/>
+      <point x="2247" y="0" type="line"/>
+      <point x="2697" y="0" type="line"/>
+      <point x="1765" y="560" type="line"/>
+      <point x="2310" y="560" type="line" smooth="yes"/>
+      <point x="2461.5" y="560"/>
+      <point x="2672" y="663"/>
+      <point x="2702" y="834" type="qcurve" smooth="yes"/>
+      <point x="2753" y="1126" type="line" smooth="yes"/>
+      <point x="2782.25" y="1297"/>
+      <point x="2607.5" y="1400"/>
+      <point x="2456" y="1400" type="qcurve" smooth="yes"/>
+      <point x="527" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="651" y="596" type="line"/>
+      <point x="785" y="1364" type="line"/>
+      <point x="2298" y="1364" type="line" smooth="yes"/>
+      <point x="2412.7" y="1364"/>
+      <point x="2510.85" y="1254.55"/>
+      <point x="2495" y="1164" type="qcurve" smooth="yes"/>
+      <point x="2431" y="796" type="line" smooth="yes"/>
+      <point x="2415.15" y="705.448"/>
+      <point x="2278.7" y="596"/>
+      <point x="2164" y="596" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1990.43" y="1535" type="line"/>
+      <point x="1710.53" y="1850" type="line"/>
+      <point x="1355.23" y="1850" type="line"/>
+      <point x="1924.98" y="1535" type="line"/>
+    </contour>
+    <contour>
+      <point x="1311.43" y="1535" type="line"/>
+      <point x="1031.53" y="1850" type="line"/>
+      <point x="676.23" y="1850" type="line"/>
+      <point x="1245.98" y="1535" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="0.4,0.4,0.4,1" name="halfwidth" x="1514" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=R+uni030F.case@top</string>
   </dict>
   </lib>
 </glyph>

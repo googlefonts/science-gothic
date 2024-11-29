@@ -7,12 +7,17 @@
   <anchor x="278" y="1448" name="right"/>
   <anchor x="520" y="700" name="eldot"/>
   <outline>
-    <component base="l"/>
+    <contour>
+      <point x="242" y="0" type="line"/>
+      <point x="278" y="0" type="line"/>
+      <point x="278" y="1448" type="line"/>
+      <point x="242" y="1448" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=l</string>
   </dict>
   </lib>
 </glyph>

@@ -7,14 +7,71 @@
   <anchor x="689" y="809" name="horn"/>
   <anchor x="449" y="0" name="ogonek"/>
   <outline>
-    <component base="o"/>
-    <component base="uni0307" xOffset="372"/>
-    <component base="uni0304" xOffset="372" yOffset="310"/>
+    <contour>
+      <point x="55" y="200" type="line" smooth="yes"/>
+      <point x="55" y="83.7916"/>
+      <point x="172.154" y="-14"/>
+      <point x="311" y="-14" type="qcurve" smooth="yes"/>
+      <point x="433" y="-14" type="line" smooth="yes"/>
+      <point x="573.356" y="-14"/>
+      <point x="689" y="83.7916"/>
+      <point x="689" y="200" type="qcurve" smooth="yes"/>
+      <point x="689" y="810" type="line" smooth="yes"/>
+      <point x="689" y="918.662"/>
+      <point x="570.337" y="1014"/>
+      <point x="433" y="1014" type="qcurve" smooth="yes"/>
+      <point x="311" y="1014" type="line" smooth="yes"/>
+      <point x="173.663" y="1014"/>
+      <point x="55" y="918.662"/>
+      <point x="55" y="810" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="303" y="210" type="qcurve"/>
+      <point x="303" y="790" type="line"/>
+      <point x="303" y="790"/>
+      <point x="303" y="790"/>
+      <point x="303" y="790" type="qcurve"/>
+      <point x="441" y="790" type="line"/>
+      <point x="441" y="790"/>
+      <point x="441" y="790"/>
+      <point x="441" y="790" type="qcurve"/>
+      <point x="441" y="210" type="line"/>
+      <point x="441" y="210"/>
+      <point x="441" y="210"/>
+      <point x="441" y="210" type="qcurve"/>
+      <point x="303" y="210" type="line"/>
+      <point x="303" y="210"/>
+      <point x="303" y="210"/>
+    </contour>
+    <contour>
+      <point x="252" y="1282" type="qcurve" smooth="yes"/>
+      <point x="252" y="1220" type="line" smooth="yes"/>
+      <point x="252" y="1155.1"/>
+      <point x="275.595" y="1132"/>
+      <point x="342" y="1132" type="qcurve" smooth="yes"/>
+      <point x="402" y="1132" type="line" smooth="yes"/>
+      <point x="468.405" y="1132"/>
+      <point x="492" y="1155.1"/>
+      <point x="492" y="1220" type="qcurve" smooth="yes"/>
+      <point x="492" y="1282" type="line" smooth="yes"/>
+      <point x="492" y="1346.9"/>
+      <point x="468.405" y="1370"/>
+      <point x="402" y="1370" type="qcurve" smooth="yes"/>
+      <point x="342" y="1370" type="line" smooth="yes"/>
+      <point x="275.595" y="1370"/>
+      <point x="252" y="1346.9"/>
+    </contour>
+    <contour>
+      <point x="180" y="1448" type="line"/>
+      <point x="564" y="1448" type="line"/>
+      <point x="564" y="1608" type="line"/>
+      <point x="180" y="1608" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= o + uni0307@top + uni0304@top</string>
   </dict>
   </lib>
 </glyph>

@@ -1,17 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eogonek.sc" format="2">
-  <advance width="1207"/>
+  <advance width="1208"/>
   <anchor x="834" y="1210" name="top"/>
   <anchor x="597" y="-150" name="bottom"/>
   <anchor x="1082" y="0" name="ogonek"/>
   <outline>
-    <component base="e.sc"/>
-    <component base="uni0328" xOffset="969"/>
+    <contour>
+      <point x="167" y="0" type="line"/>
+      <point x="1085" y="0" type="line"/>
+      <point x="1091" y="33" type="line"/>
+      <point x="210" y="33" type="line"/>
+      <point x="296" y="527" type="line"/>
+      <point x="852" y="527" type="line"/>
+      <point x="858" y="560" type="line"/>
+      <point x="302" y="560" type="line"/>
+      <point x="383" y="1027" type="line"/>
+      <point x="1248" y="1027" type="line"/>
+      <point x="1254" y="1060" type="line"/>
+      <point x="352" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="1082" y="0" type="qcurve"/>
+      <point x="1046" y="0" type="line"/>
+      <point x="934.319" y="-68.6686"/>
+      <point x="824.658" y="-172.15"/>
+      <point x="814.383" y="-231.034" type="qcurve" smooth="yes"/>
+      <point x="805.039" y="-284.585"/>
+      <point x="859.504" y="-359"/>
+      <point x="916.403" y="-359" type="qcurve" smooth="yes"/>
+      <point x="942.51" y="-359"/>
+      <point x="1002.12" y="-342.092"/>
+      <point x="1024" y="-327" type="qcurve"/>
+      <point x="1030" y="-297" type="line"/>
+      <point x="999.816" y="-312.847"/>
+      <point x="949.856" y="-329"/>
+      <point x="927.887" y="-329" type="qcurve" smooth="yes"/>
+      <point x="884.96" y="-329"/>
+      <point x="840.651" y="-272.362"/>
+      <point x="848.802" y="-227.352" type="qcurve" smooth="yes"/>
+      <point x="858.007" y="-176.528"/>
+      <point x="962.773" y="-73.9508"/>
+    </contour>
   </outline>
+  <guideline angle="260.1" color="1,0,0,1" x="1085" y="-0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=e.sc+uni0328@ogonek</string>
   </dict>
   </lib>
 </glyph>

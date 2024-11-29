@@ -1,18 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ibreve" format="2">
-  <advance width="204"/>
+  <advance width="208"/>
   <unicode hex="012D"/>
-  <anchor x="-45" y="-150" name="bottom"/>
-  <anchor x="232" y="1433" name="top"/>
-  <anchor x="-1" y="0" name="ogonek"/>
+  <anchor x="-41" y="-150" name="bottom"/>
+  <anchor x="236" y="1433" name="top"/>
+  <anchor x="3" y="0" name="ogonek"/>
   <outline>
-    <component base="dotlessi"/>
-    <component base="uni0306" xOffset="97"/>
+    <contour>
+      <point x="-33" y="0" type="line"/>
+      <point x="3" y="0" type="line"/>
+      <point x="178" y="1000" type="line"/>
+      <point x="142" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="109" y="1333" type="line"/>
+      <point x="96.625" y="1264"/>
+      <point x="93.625" y="1179.25"/>
+      <point x="112.375" y="1132.75"/>
+      <point x="152.875" y="1117"/>
+      <point x="184" y="1117" type="qcurve" smooth="yes"/>
+      <point x="215.125" y="1117"/>
+      <point x="258.938" y="1132.75"/>
+      <point x="291.562" y="1179.25"/>
+      <point x="316.625" y="1264"/>
+      <point x="329" y="1333" type="qcurve"/>
+      <point x="299" y="1333" type="line"/>
+      <point x="287.75" y="1270"/>
+      <point x="266.781" y="1196.75"/>
+      <point x="241.469" y="1159.25"/>
+      <point x="208.875" y="1149"/>
+      <point x="186" y="1149" type="qcurve" smooth="yes"/>
+      <point x="163.125" y="1149"/>
+      <point x="134.281" y="1159.25"/>
+      <point x="122.469" y="1196.75"/>
+      <point x="127.75" y="1270"/>
+      <point x="139" y="1333" type="qcurve"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=dotlessi+brevecomb@top</string>
   </dict>
   </lib>
 </glyph>

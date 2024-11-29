@@ -2,6 +2,27 @@
 <glyph name="quotesingle.sc" format="2">
   <advance width="930"/>
   <outline>
-    <component base="quotesingle" yOffset="-310"/>
+    <contour>
+      <point x="180" y="874" type="line"/>
+      <point x="320" y="475" type="line"/>
+      <point x="610" y="475" type="line"/>
+      <point x="750" y="874" type="line"/>
+      <point x="750" y="1023" type="line" smooth="yes"/>
+      <point x="750" y="1109.78"/>
+      <point x="724.196" y="1140"/>
+      <point x="651" y="1140" type="qcurve" smooth="yes"/>
+      <point x="279" y="1140" type="line" smooth="yes"/>
+      <point x="205.804" y="1140"/>
+      <point x="180" y="1109.78"/>
+      <point x="180" y="1023" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=quotesingle</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=quotesingle</string>
+  </dict>
+  </lib>
 </glyph>

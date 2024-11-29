@@ -3,16 +3,38 @@
   <advance width="1159"/>
   <unicode hex="0174"/>
   <anchor x="579.5" y="-150" name="bottom"/>
-  <anchor x="580" y="1550" name="top"/>
-  <anchor x="835.5" y="1575" name="topright"/>
+  <anchor x="579.5" y="1550" name="top"/>
+  <anchor x="836" y="1575" name="topright"/>
   <outline>
-    <component base="W"/>
-    <component base="uni0302.case" xOffset="580" yOffset="400"/>
+    <contour>
+      <point x="241" y="0" type="line"/>
+      <point x="455" y="0" type="line"/>
+      <point x="575" y="772" type="line"/>
+      <point x="695" y="0" type="line"/>
+      <point x="917" y="0" type="line"/>
+      <point x="1169" y="1400" type="line"/>
+      <point x="933" y="1400" type="line"/>
+      <point x="814" y="567" type="line"/>
+      <point x="695" y="1400" type="line"/>
+      <point x="484" y="1400" type="line"/>
+      <point x="365" y="573" type="line"/>
+      <point x="246" y="1400" type="line"/>
+      <point x="-10" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="333" y="1475" type="line"/>
+      <point x="534" y="1475" type="line"/>
+      <point x="577" y="1593" type="line"/>
+      <point x="620" y="1475" type="line"/>
+      <point x="836" y="1475" type="line"/>
+      <point x="674" y="1800" type="line"/>
+      <point x="495" y="1800" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=W+uni0302.case@top</string>
   </dict>
   </lib>
 </glyph>

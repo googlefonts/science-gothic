@@ -21,21 +21,29 @@
       <point x="734" y="0" type="line"/>
       <point x="998" y="0" type="line"/>
       <point x="998" y="814" type="line" smooth="yes"/>
-      <point x="998" y="903"/>
+      <point x="998" y="902.5"/>
       <point x="951" y="1014"/>
       <point x="864" y="1077"/>
-      <point x="741" y="1100"/>
+      <point x="740.5" y="1100"/>
       <point x="664" y="1100" type="qcurve" smooth="yes"/>
       <point x="654" y="1100" type="line"/>
       <point x="654" y="1410" type="line"/>
       <point x="390" y="1360" type="line"/>
       <point x="390" y="1100" type="line"/>
       <point x="380" y="1100" type="line" smooth="yes"/>
-      <point x="304" y="1100"/>
-      <point x="181" y="1077"/>
-      <point x="94" y="1014"/>
-      <point x="46" y="903"/>
+      <point x="228.5" y="1100"/>
+      <point x="46" y="991"/>
       <point x="46" y="814" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=(rsb("P")+O)/2</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=(P+O)/2</string>
+  <key>com.fontlab.recipe</key>
+  <string>=U@,~+I@center,0</string>
+  </dict>
+  </lib>
 </glyph>

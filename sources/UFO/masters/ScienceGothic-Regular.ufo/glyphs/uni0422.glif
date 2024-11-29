@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0422" format="2">
-  <advance width="1416" height="1448"/>
+  <advance width="1416"/>
   <unicode hex="0422"/>
   <anchor x="708" y="1550" name="top"/>
   <anchor x="708" y="-150" name="bottom"/>
   <outline>
-    <component base="T"/>
+    <contour>
+      <point x="576" y="0" type="line"/>
+      <point x="840" y="0" type="line"/>
+      <point x="840" y="1156" type="line"/>
+      <point x="1396" y="1156" type="line"/>
+      <point x="1396" y="1400" type="line"/>
+      <point x="20" y="1400" type="line"/>
+      <point x="20" y="1156" type="line"/>
+      <point x="576" y="1156" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=T</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=T</string>
+  <key>com.fontlab.recipe</key>
+  <string>=T</string>
   </dict>
   </lib>
 </glyph>

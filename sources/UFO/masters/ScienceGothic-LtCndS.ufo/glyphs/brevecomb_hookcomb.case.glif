@@ -3,13 +3,57 @@
   <anchor x="83" y="1150" name="_top"/>
   <anchor x="138" y="1460" name="top"/>
   <outline>
-    <component base="uni0306.case"/>
-    <component base="uni0309.case" xOffset="60" yOffset="310"/>
+    <contour>
+      <point x="-22" y="1360" type="line"/>
+      <point x="-34.375" y="1291"/>
+      <point x="-30.1562" y="1205.62"/>
+      <point x="-1.09375" y="1158.38"/>
+      <point x="50.75" y="1142"/>
+      <point x="86" y="1142" type="qcurve" smooth="yes"/>
+      <point x="121.25" y="1142"/>
+      <point x="175.781" y="1158.38"/>
+      <point x="217.969" y="1205.62"/>
+      <point x="249.625" y="1291"/>
+      <point x="262" y="1360" type="qcurve"/>
+      <point x="228" y="1360" type="line"/>
+      <point x="216.75" y="1297"/>
+      <point x="190.438" y="1224.38"/>
+      <point x="157.062" y="1187.62"/>
+      <point x="115" y="1178"/>
+      <point x="88" y="1178" type="qcurve" smooth="yes"/>
+      <point x="61" y="1178"/>
+      <point x="22.0625" y="1187.62"/>
+      <point x="1.4375" y="1224.38"/>
+      <point x="0.75" y="1297"/>
+      <point x="12" y="1360" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="96" y="1426" type="qcurve"/>
+      <point x="136" y="1426" type="line"/>
+      <point x="169.957" y="1454.67"/>
+      <point x="228.945" y="1534.93"/>
+      <point x="238" y="1587" type="qcurve" smooth="yes"/>
+      <point x="249.319" y="1649.63"/>
+      <point x="205.994" y="1724"/>
+      <point x="166" y="1724" type="qcurve" smooth="yes"/>
+      <point x="138.834" y="1724"/>
+      <point x="104.62" y="1708.58"/>
+      <point x="85" y="1695" type="qcurve"/>
+      <point x="97" y="1671" type="line"/>
+      <point x="112.092" y="1681.56"/>
+      <point x="136.89" y="1692"/>
+      <point x="155" y="1692" type="qcurve" smooth="yes"/>
+      <point x="179.902" y="1692"/>
+      <point x="212.055" y="1646.29"/>
+      <point x="203" y="1598" type="qcurve"/>
+      <point x="195.454" y="1551.21"/>
+      <point x="145.804" y="1470.52"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= brevecomb.case + uni0309.case@top</string>
   </dict>
   </lib>
 </glyph>

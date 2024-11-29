@@ -1,16 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Dcroat" format="2">
-  <advance width="1372"/>
+  <advance width="1374"/>
   <unicode hex="0110"/>
-  <anchor x="617" y="1550" name="top"/>
-  <anchor x="617" y="-150" name="bottom"/>
+  <anchor x="618.3" y="1550" name="top"/>
+  <anchor x="618.3" y="-150" name="bottom"/>
   <outline>
-    <component base="Eth"/>
+    <contour>
+      <point x="-28" y="0" type="line"/>
+      <point x="559" y="0" type="line" smooth="yes"/>
+      <point x="709" y="0"/>
+      <point x="967.031" y="61.9375"/>
+      <point x="1169.72" y="211.562"/>
+      <point x="1310.38" y="461.75"/>
+      <point x="1343" y="650" type="qcurve" smooth="yes"/>
+      <point x="1374.12" y="827"/>
+      <point x="1337.75" y="1105.62"/>
+      <point x="1202.75" y="1298.38"/>
+      <point x="969.125" y="1400"/>
+      <point x="803" y="1400" type="qcurve" smooth="yes"/>
+      <point x="216" y="1400" type="line"/>
+      <point x="97" y="720" type="line"/>
+      <point x="40" y="720" type="line"/>
+      <point x="34" y="688" type="line"/>
+      <point x="92" y="688" type="line"/>
+    </contour>
+    <contour>
+      <point x="550" y="36" type="line"/>
+      <point x="664" y="688" type="line"/>
+      <point x="703" y="688" type="line"/>
+      <point x="709" y="720" type="line"/>
+      <point x="669" y="720" type="line"/>
+      <point x="782" y="1364" type="line"/>
+      <point x="792" y="1364" type="line" smooth="yes"/>
+      <point x="817.125" y="1364"/>
+      <point x="845.5" y="1295.66"/>
+      <point x="847" y="1142.09"/>
+      <point x="819.125" y="894.875"/>
+      <point x="788" y="716" type="qcurve" smooth="yes"/>
+      <point x="756.5" y="534.125"/>
+      <point x="697.344" y="276.156"/>
+      <point x="640.906" y="112.094"/>
+      <point x="586.625" y="36"/>
+      <point x="560" y="36" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=Eth</string>
   </dict>
   </lib>
 </glyph>

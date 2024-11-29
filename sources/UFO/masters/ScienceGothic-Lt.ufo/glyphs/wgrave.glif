@@ -5,13 +5,32 @@
   <anchor x="748" y="1150" name="top"/>
   <anchor x="748" y="-150" name="bottom"/>
   <outline>
-    <component base="w"/>
-    <component base="gravecomb" xOffset="748"/>
+    <contour>
+      <point x="371" y="0" type="line"/>
+      <point x="402" y="0" type="line"/>
+      <point x="746" y="954" type="line"/>
+      <point x="1091" y="0" type="line"/>
+      <point x="1125" y="0" type="line"/>
+      <point x="1488" y="1000" type="line"/>
+      <point x="1452" y="1000" type="line"/>
+      <point x="1108" y="50" type="line"/>
+      <point x="764" y="1000" type="line"/>
+      <point x="731" y="1000" type="line"/>
+      <point x="387" y="49" type="line"/>
+      <point x="49" y="1000" type="line"/>
+      <point x="10" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="866" y="1085" type="line"/>
+      <point x="562" y="1448" type="line"/>
+      <point x="517" y="1448" type="line"/>
+      <point x="827" y="1085" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=w+gravecomb@top</string>
   </dict>
   </lib>
 </glyph>

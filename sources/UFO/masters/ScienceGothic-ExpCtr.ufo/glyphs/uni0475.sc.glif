@@ -5,19 +5,15 @@
     <contour>
       <point x="967" y="0" type="line"/>
       <point x="1159" y="0" type="line"/>
-      <point x="2024" y="971" type="line"/>
-      <point x="2041" y="989"/>
-      <point x="2072" y="1011"/>
-      <point x="2105" y="1023"/>
-      <point x="2142" y="1027"/>
+      <point x="2024" y="971" type="line" smooth="yes"/>
+      <point x="2057.2" y="1007.98"/>
+      <point x="2118.72" y="1027"/>
       <point x="2164" y="1027" type="qcurve" smooth="yes"/>
       <point x="2260" y="1027" type="line"/>
       <point x="2269" y="1060" type="line"/>
       <point x="2164" y="1060" type="line" smooth="yes"/>
-      <point x="2136" y="1060"/>
-      <point x="2090" y="1054"/>
-      <point x="2050" y="1039"/>
-      <point x="2014" y="1012"/>
+      <point x="2107.41" y="1060"/>
+      <point x="2032.98" y="1033.26"/>
       <point x="1996" y="991" type="qcurve" smooth="yes"/>
       <point x="1188" y="83" type="line"/>
       <point x="302" y="1060" type="line"/>
@@ -26,8 +22,10 @@
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,1,0.602,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=v.sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=v.sc</string>
   </dict>
   </lib>
 </glyph>

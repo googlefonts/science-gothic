@@ -1,18 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0407" format="2">
-  <advance width="884"/>
+  <advance width="1320"/>
   <unicode hex="0407"/>
-  <anchor x="442" y="1900" name="top"/>
-  <anchor x="442" y="-150" name="bottom"/>
-  <anchor x="575" y="0" name="ogonek"/>
+  <anchor x="660" y="1890" name="top"/>
+  <anchor x="660" y="-150" name="bottom"/>
+  <anchor x="793" y="0" name="ogonek"/>
   <outline>
-    <component base="I"/>
-    <component base="uni0308.case" xOffset="442" yOffset="400"/>
+    <contour>
+      <point x="528" y="0" type="line"/>
+      <point x="792" y="0" type="line"/>
+      <point x="792" y="1400" type="line"/>
+      <point x="528" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="310" y="1640" type="line" smooth="yes"/>
+      <point x="310" y="1573.6"/>
+      <point x="333.595" y="1550"/>
+      <point x="400" y="1550" type="qcurve" smooth="yes"/>
+      <point x="460" y="1550" type="line" smooth="yes"/>
+      <point x="526.405" y="1550"/>
+      <point x="550" y="1573.6"/>
+      <point x="550" y="1640" type="qcurve" smooth="yes"/>
+      <point x="550" y="1702" type="line" smooth="yes"/>
+      <point x="550" y="1766.9"/>
+      <point x="526.405" y="1790"/>
+      <point x="460" y="1790" type="qcurve" smooth="yes"/>
+      <point x="400" y="1790" type="line" smooth="yes"/>
+      <point x="333.595" y="1790"/>
+      <point x="310" y="1766.9"/>
+      <point x="310" y="1702" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="770" y="1640" type="line" smooth="yes"/>
+      <point x="770" y="1573.6"/>
+      <point x="793.595" y="1550"/>
+      <point x="860" y="1550" type="qcurve" smooth="yes"/>
+      <point x="920" y="1550" type="line" smooth="yes"/>
+      <point x="986.405" y="1550"/>
+      <point x="1010" y="1573.6"/>
+      <point x="1010" y="1640" type="qcurve" smooth="yes"/>
+      <point x="1010" y="1702" type="line" smooth="yes"/>
+      <point x="1010" y="1766.9"/>
+      <point x="986.405" y="1790"/>
+      <point x="920" y="1790" type="qcurve" smooth="yes"/>
+      <point x="860" y="1790" type="line" smooth="yes"/>
+      <point x="793.595" y="1790"/>
+      <point x="770" y="1766.9"/>
+      <point x="770" y="1702" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=Idieresis</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=Idieresis</string>
+  <key>com.fontlab.recipe</key>
+  <string>=I+uni0308.case@top</string>
   </dict>
   </lib>
 </glyph>

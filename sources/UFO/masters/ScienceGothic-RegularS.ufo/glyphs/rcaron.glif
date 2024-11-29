@@ -1,18 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rcaron" format="2">
-  <advance width="1142" height="1448"/>
+  <advance width="1142"/>
   <unicode hex="0159"/>
-  <anchor x="781" y="1558" name="top"/>
-  <anchor x="156" y="-150" name="bottom"/>
-  <anchor x="46" y="505" name="left"/>
+  <anchor x="782" y="1558" name="top"/>
+  <anchor x="157" y="-150" name="bottom"/>
+  <anchor x="47" y="505" name="left"/>
+  <anchor x="348" y="1276" name="topright"/>
   <outline>
-    <component base="r"/>
-    <component base="uni030C" xOffset="628" yOffset="10"/>
+    <contour>
+      <point x="62" y="0" type="line"/>
+      <point x="310" y="0" type="line"/>
+      <point x="447" y="786" type="line"/>
+      <point x="853" y="786" type="line"/>
+      <point x="853" y="786"/>
+      <point x="853" y="786"/>
+      <point x="853" y="786" type="qcurve"/>
+      <point x="830" y="654" type="line"/>
+      <point x="1086" y="701" type="line"/>
+      <point x="1097" y="760" type="line" smooth="yes"/>
+      <point x="1108.62" y="826.75"/>
+      <point x="1089.16" y="921.562"/>
+      <point x="1022.59" y="981.938"/>
+      <point x="906.75" y="1010"/>
+      <point x="822" y="1010" type="qcurve" smooth="yes"/>
+      <point x="768" y="1010" type="line" smooth="yes"/>
+      <point x="650.282" y="1010"/>
+      <point x="507.239" y="957.313"/>
+      <point x="468" y="906" type="qcurve"/>
+      <point x="485" y="1000" type="line"/>
+      <point x="237" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="1147" y="1458" type="line"/>
+      <point x="910" y="1458" type="line"/>
+      <point x="714" y="1238" type="line"/>
+      <point x="589" y="1458" type="line"/>
+      <point x="380" y="1458" type="line"/>
+      <point x="618" y="1095" type="line"/>
+      <point x="779" y="1095" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="0" x="0" y="988"/>
+  <guideline angle="0" x="0" y="870"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=r+uni030C@top</string>
   </dict>
   </lib>
 </glyph>

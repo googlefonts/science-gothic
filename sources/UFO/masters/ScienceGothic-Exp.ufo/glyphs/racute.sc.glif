@@ -4,13 +4,50 @@
   <anchor x="1212.5" y="-150" name="bottom"/>
   <anchor x="1226" y="1210" name="top"/>
   <outline>
-    <component base="r.sc"/>
-    <component base="acutecomb" xOffset="1226" yOffset="60"/>
+    <contour>
+      <point x="310" y="0" type="line"/>
+      <point x="560" y="0" type="line"/>
+      <point x="560" y="393" type="line"/>
+      <point x="1089" y="393" type="line"/>
+      <point x="1824" y="0" type="line"/>
+      <point x="2301" y="0" type="line"/>
+      <point x="1547" y="393" type="line"/>
+      <point x="1885" y="393" type="line" smooth="yes"/>
+      <point x="2029.13" y="393"/>
+      <point x="2168" y="490.319"/>
+      <point x="2168" y="602" type="qcurve" smooth="yes"/>
+      <point x="2168" y="838" type="line" smooth="yes"/>
+      <point x="2168" y="913"/>
+      <point x="2125.41" y="1001.12"/>
+      <point x="2049.84" y="1046.88"/>
+      <point x="1946.12" y="1060"/>
+      <point x="1885" y="1060" type="qcurve" smooth="yes"/>
+      <point x="310" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="560" y="605" type="line"/>
+      <point x="560" y="848" type="line"/>
+      <point x="1850" y="848" type="line" smooth="yes"/>
+      <point x="1879.43" y="848"/>
+      <point x="1918" y="822.166"/>
+      <point x="1918" y="795" type="qcurve" smooth="yes"/>
+      <point x="1918" y="658" type="line" smooth="yes"/>
+      <point x="1918" y="630.834"/>
+      <point x="1879.43" y="605"/>
+      <point x="1850" y="605" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="936" y="1145" type="line"/>
+      <point x="1225" y="1145" type="line"/>
+      <point x="1826" y="1508" type="line"/>
+      <point x="1505" y="1508" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="0.4,0.4,0.4,1" name="halfwidth" x="1212.5" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=r.sc+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

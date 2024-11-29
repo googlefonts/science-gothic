@@ -1,16 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ntilde.sc" format="2">
-  <advance width="1579" height="1448"/>
+  <advance width="1579"/>
   <anchor x="936" y="1525" name="top"/>
-  <anchor x="643.049" y="-150" name="bottom"/>
+  <anchor x="643" y="-150" name="bottom"/>
   <outline>
-    <component base="n.sc"/>
-    <component base="tildecomb" xOffset="801" yOffset="60"/>
+    <contour>
+      <point x="82" y="0" type="line"/>
+      <point x="317" y="0" type="line"/>
+      <point x="436" y="684" type="line"/>
+      <point x="1074" y="0" type="line"/>
+      <point x="1262" y="0" type="line"/>
+      <point x="1447" y="1060" type="line"/>
+      <point x="1212" y="1060" type="line"/>
+      <point x="1092" y="372" type="line"/>
+      <point x="455" y="1060" type="line"/>
+      <point x="267" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="482" y="1219" type="qcurve"/>
+      <point x="647" y="1191" type="line"/>
+      <point x="666.62" y="1243.82"/>
+      <point x="726.325" y="1280"/>
+      <point x="755" y="1280" type="qcurve" smooth="yes"/>
+      <point x="785.75" y="1280"/>
+      <point x="846.031" y="1251.88"/>
+      <point x="912.219" y="1218.12"/>
+      <point x="987.875" y="1190"/>
+      <point x="1034" y="1190" type="qcurve" smooth="yes"/>
+      <point x="1102.25" y="1190"/>
+      <point x="1266.5" y="1286.5"/>
+      <point x="1319" y="1432" type="qcurve"/>
+      <point x="1154" y="1460" type="line"/>
+      <point x="1134.38" y="1407.18"/>
+      <point x="1074.67" y="1371"/>
+      <point x="1046" y="1371" type="qcurve" smooth="yes"/>
+      <point x="1015.25" y="1371"/>
+      <point x="954.969" y="1398.81"/>
+      <point x="888.781" y="1432.19"/>
+      <point x="813.125" y="1460"/>
+      <point x="767" y="1460" type="qcurve" smooth="yes"/>
+      <point x="698.75" y="1460"/>
+      <point x="533.75" y="1363"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=n.sc+tildecomb@top</string>
   </dict>
   </lib>
 </glyph>

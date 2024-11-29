@@ -1,10 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexcomb_tildecomb" format="2">
   <anchor x="0" y="1150" name="_top"/>
-  <anchor x="-1" y="1578" name="_bottom"/>
-  <anchor x="285" y="1267" name="topright"/>
   <outline>
-    <component base="uni0302"/>
-    <component base="tildecomb" yOffset="298"/>
+    <contour>
+      <point x="-286" y="1105" type="line"/>
+      <point x="-245" y="1105" type="line"/>
+      <point x="-1" y="1377" type="line"/>
+      <point x="243" y="1105" type="line"/>
+      <point x="285" y="1105" type="line"/>
+      <point x="21" y="1400" type="line"/>
+      <point x="-21" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="-317" y="1467" type="qcurve"/>
+      <point x="-288" y="1458" type="line"/>
+      <point x="-273.663" y="1525.91"/>
+      <point x="-202.577" y="1597"/>
+      <point x="-149" y="1597" type="qcurve" smooth="yes"/>
+      <point x="-104" y="1597"/>
+      <point x="-37.9062" y="1553.56"/>
+      <point x="25.6562" y="1501.44"/>
+      <point x="97.375" y="1458"/>
+      <point x="148" y="1458" type="qcurve" smooth="yes"/>
+      <point x="212.896" y="1458"/>
+      <point x="298.89" y="1539.77"/>
+      <point x="317" y="1619" type="qcurve"/>
+      <point x="288" y="1627" type="line"/>
+      <point x="272.153" y="1558.33"/>
+      <point x="200.822" y="1488"/>
+      <point x="148" y="1488" type="qcurve" smooth="yes"/>
+      <point x="103.375" y="1488"/>
+      <point x="37.375" y="1531.44"/>
+      <point x="-26.375" y="1583.56"/>
+      <point x="-98.375" y="1627"/>
+      <point x="-149" y="1627" type="qcurve" smooth="yes"/>
+      <point x="-213.896" y="1627"/>
+      <point x="-300.399" y="1544.72"/>
+    </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0302+tildecomb@top</string>
+  </dict>
+  </lib>
 </glyph>

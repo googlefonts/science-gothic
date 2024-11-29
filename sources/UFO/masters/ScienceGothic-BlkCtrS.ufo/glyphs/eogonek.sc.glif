@@ -1,17 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eogonek.sc" format="2">
-  <advance width="1481"/>
+  <advance width="1483"/>
   <anchor x="934" y="1236" name="top"/>
   <anchor x="692" y="-150" name="bottom"/>
   <anchor x="988" y="0" name="ogonek"/>
   <outline>
-    <component base="e.sc"/>
-    <component base="uni0328" xOffset="1081"/>
+    <contour>
+      <point x="82" y="0" type="line"/>
+      <point x="1360" y="0" type="line"/>
+      <point x="1366" y="33" type="line"/>
+      <point x="619" y="33" type="line"/>
+      <point x="705" y="527" type="line"/>
+      <point x="1128" y="527" type="line"/>
+      <point x="1134" y="560" type="line"/>
+      <point x="711" y="560" type="line"/>
+      <point x="797" y="1053" type="line"/>
+      <point x="1533" y="1053" type="line"/>
+      <point x="1539" y="1086" type="line"/>
+      <point x="272" y="1086" type="line"/>
+    </contour>
+    <contour>
+      <point x="988" y="0" type="qcurve"/>
+      <point x="954" y="0" type="line"/>
+      <point x="910.988" y="-51.3128"/>
+      <point x="807.012" y="-174.442"/>
+      <point x="764" y="-225" type="qcurve"/>
+      <point x="748.153" y="-316.307"/>
+      <point x="894.016" y="-428"/>
+      <point x="1029.36" y="-428" type="qcurve" smooth="yes"/>
+      <point x="1076.63" y="-428"/>
+      <point x="1166.42" y="-411.129"/>
+      <point x="1220" y="-390" type="qcurve"/>
+      <point x="1330" y="-154" type="line"/>
+      <point x="1286.23" y="-171.356"/>
+      <point x="1190.25" y="-190"/>
+      <point x="1141.84" y="-190" type="qcurve" smooth="yes"/>
+      <point x="1046.88" y="-190"/>
+      <point x="937.164" y="-122.691"/>
+      <point x="946.893" y="-69.467" type="qcurve" smooth="yes"/>
+      <point x="949.992" y="-52.5134"/>
+      <point x="970.644" y="-15.8466"/>
+    </contour>
   </outline>
+  <guideline angle="260.1" color="1,0,0,1" x="991" y="-0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=e.sc+uni0328@ogonek</string>
   </dict>
   </lib>
 </glyph>

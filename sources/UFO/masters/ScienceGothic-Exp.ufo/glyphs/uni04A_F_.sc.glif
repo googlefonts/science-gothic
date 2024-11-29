@@ -4,12 +4,23 @@
   <anchor x="1058" y="1210" name="top"/>
   <anchor x="1042" y="-150" name="bottom"/>
   <outline>
-    <component base="y.sc"/>
+    <contour>
+      <point x="915" y="0" type="line"/>
+      <point x="1175" y="0" type="line"/>
+      <point x="1175" y="456" type="line"/>
+      <point x="2084" y="1060" type="line"/>
+      <point x="1699" y="1060" type="line"/>
+      <point x="1058" y="632" type="line"/>
+      <point x="413" y="1060" type="line"/>
+      <point x="0" y="1060" type="line"/>
+      <point x="915" y="457" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="1,0,0,1" x="1042" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=y.sc</string>
   </dict>
   </lib>
 </glyph>

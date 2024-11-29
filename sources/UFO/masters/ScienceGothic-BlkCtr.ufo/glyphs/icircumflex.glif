@@ -7,13 +7,26 @@
   <anchor x="214" y="0" name="ogonek"/>
   <anchor x="896" y="1298" name="topright"/>
   <outline>
-    <component base="dotlessi"/>
-    <component base="uni0302" xOffset="442" yOffset="24"/>
+    <contour>
+      <point x="180" y="0" type="line"/>
+      <point x="704" y="0" type="line"/>
+      <point x="704" y="1024" type="line"/>
+      <point x="180" y="1024" type="line"/>
+    </contour>
+    <contour>
+      <point x="45" y="1124" type="line"/>
+      <point x="84" y="1124" type="line"/>
+      <point x="289" y="1438" type="line"/>
+      <point x="475" y="1124" type="line"/>
+      <point x="896" y="1124" type="line"/>
+      <point x="599" y="1472" type="line"/>
+      <point x="274" y="1472" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=dotlessi+uni0302@top</string>
   </dict>
   </lib>
 </glyph>

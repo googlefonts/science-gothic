@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="igrave" format="2">
-  <advance width="886"/>
+  <advance width="890"/>
   <unicode hex="00EC"/>
-  <anchor x="296" y="-150" name="bottom"/>
-  <anchor x="523" y="1150" name="top"/>
-  <anchor x="240" y="0" name="ogonek"/>
+  <anchor x="300" y="-150" name="bottom"/>
+  <anchor x="527" y="1150" name="top"/>
+  <anchor x="244" y="0" name="ogonek"/>
   <outline>
-    <component base="dotlessi"/>
-    <component base="gravecomb" xOffset="448"/>
+    <contour>
+      <point x="202" y="0" type="line"/>
+      <point x="450" y="0" type="line"/>
+      <point x="625" y="1000" type="line"/>
+      <point x="377" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="699" y="1085" type="line"/>
+      <point x="285" y="1448" type="line"/>
+      <point x="-27" y="1448" type="line"/>
+      <point x="645" y="1085" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=dotlessi+gravecomb@top</string>
   </dict>
   </lib>
 </glyph>

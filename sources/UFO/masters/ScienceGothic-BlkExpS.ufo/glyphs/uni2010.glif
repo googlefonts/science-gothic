@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2010" format="2">
-  <advance width="1647"/>
+  <advance width="1650"/>
   <unicode hex="2010"/>
   <outline>
-    <component base="hyphen"/>
+    <contour>
+      <point x="249" y="818" type="line"/>
+      <point x="177" y="406" type="line"/>
+      <point x="1377" y="406" type="line"/>
+      <point x="1449" y="818" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="0" x="0" y="610"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= hyphen</string>
   </dict>
   </lib>
 </glyph>

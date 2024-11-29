@@ -3,12 +3,24 @@
   <advance width="663"/>
   <unicode hex="00B9"/>
   <outline>
-    <component base="one.dnom" yOffset="950"/>
+    <contour>
+      <point x="209" y="950" type="line"/>
+      <point x="503" y="950" type="line"/>
+      <point x="503" y="1746" type="line"/>
+      <point x="48" y="1696" type="line"/>
+      <point x="48" y="1666" type="line"/>
+      <point x="209" y="1682" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="0.4,0.4,0.4,1" name="halfwidth" x="331.5" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>one.dnom</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>one.dnom</string>
+  <key>com.fontlab.recipe</key>
+  <string>= one.dnom @,950</string>
   </dict>
   </lib>
 </glyph>

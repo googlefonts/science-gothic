@@ -4,13 +4,35 @@
   <anchor x="1644" y="1210" name="top"/>
   <anchor x="1434" y="-150" name="bottom"/>
   <outline>
-    <component base="k.sc"/>
-    <component base="acute" xOffset="1326" yOffset="60"/>
+    <contour>
+      <point x="282" y="0" type="line"/>
+      <point x="813" y="0" type="line"/>
+      <point x="901" y="505" type="line"/>
+      <point x="856" y="505" type="line"/>
+      <point x="1913" y="0" type="line"/>
+      <point x="2879" y="0" type="line"/>
+      <point x="1322" y="702" type="line"/>
+      <point x="953" y="597" type="line"/>
+      <point x="2913" y="1086" type="line"/>
+      <point x="2791" y="1086" type="line"/>
+      <point x="833" y="597" type="line"/>
+      <point x="918" y="597" type="line"/>
+      <point x="1003" y="1086" type="line"/>
+      <point x="472" y="1086" type="line"/>
+    </contour>
+    <contour>
+      <point x="1376" y="1160" type="line"/>
+      <point x="1429" y="1160" type="line"/>
+      <point x="2554" y="1508" type="line"/>
+      <point x="1769" y="1508" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="685650" y="0"/>
+  <guideline angle="90" x="685734" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=k.sc+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

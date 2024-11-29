@@ -7,13 +7,32 @@
   <anchor x="2211" y="0" name="ogonek"/>
   <anchor x="1802" y="1550" name="topright"/>
   <outline>
-    <component base="E"/>
-    <component base="gravecomb.case" xOffset="1054" yOffset="450"/>
+    <contour>
+      <point x="400" y="0" type="line"/>
+      <point x="2740" y="0" type="line"/>
+      <point x="2740" y="36" type="line"/>
+      <point x="972" y="36" type="line"/>
+      <point x="972" y="700" type="line"/>
+      <point x="2054" y="700" type="line"/>
+      <point x="2054" y="736" type="line"/>
+      <point x="972" y="736" type="line"/>
+      <point x="972" y="1364" type="line"/>
+      <point x="2706" y="1364" type="line"/>
+      <point x="2706" y="1400" type="line"/>
+      <point x="400" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1852" y="1550" type="line"/>
+      <point x="1573" y="1850" type="line"/>
+      <point x="772" y="1850" type="line"/>
+      <point x="1780" y="1550" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="-10" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=E+gravecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

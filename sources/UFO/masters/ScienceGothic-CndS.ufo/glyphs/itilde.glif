@@ -1,18 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="itilde" format="2">
-  <advance width="372"/>
+  <advance width="376"/>
   <unicode hex="0129"/>
-  <anchor x="39" y="-150" name="bottom"/>
-  <anchor x="315" y="1430" name="top"/>
-  <anchor x="96" y="0" name="ogonek"/>
+  <anchor x="43" y="-150" name="bottom"/>
+  <anchor x="319" y="1430" name="top"/>
+  <anchor x="100" y="0" name="ogonek"/>
   <outline>
-    <component base="dotlessi"/>
-    <component base="tildecomb" xOffset="181"/>
+    <contour>
+      <point x="-53" y="0" type="line"/>
+      <point x="191" y="0" type="line"/>
+      <point x="366" y="1000" type="line"/>
+      <point x="122" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="4" y="1142" type="qcurve"/>
+      <point x="157" y="1114" type="line"/>
+      <point x="164.546" y="1126.83"/>
+      <point x="189.38" y="1149"/>
+      <point x="209" y="1149" type="qcurve" smooth="yes"/>
+      <point x="223.25" y="1149"/>
+      <point x="255.969" y="1138.06"/>
+      <point x="294.781" y="1124.94"/>
+      <point x="340.625" y="1114"/>
+      <point x="368" y="1114" type="qcurve" smooth="yes"/>
+      <point x="450.5" y="1114"/>
+      <point x="536.75" y="1217.75"/>
+      <point x="563" y="1307" type="qcurve"/>
+      <point x="410" y="1335" type="line"/>
+      <point x="402.454" y="1322.17"/>
+      <point x="377.62" y="1300"/>
+      <point x="358" y="1300" type="qcurve" smooth="yes"/>
+      <point x="343.75" y="1300"/>
+      <point x="311.031" y="1310.94"/>
+      <point x="272.219" y="1324.06"/>
+      <point x="226.375" y="1335"/>
+      <point x="199" y="1335" type="qcurve" smooth="yes"/>
+      <point x="123.25" y="1335"/>
+      <point x="30.25" y="1231.25"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=dotlessi+tildecomb@top</string>
   </dict>
   </lib>
 </glyph>

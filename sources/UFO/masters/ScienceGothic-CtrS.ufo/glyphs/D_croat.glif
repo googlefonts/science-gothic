@@ -1,16 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Dcroat" format="2">
-  <advance width="1839"/>
+  <advance width="1840"/>
   <unicode hex="0110"/>
   <anchor x="828" y="1550" name="top"/>
   <anchor x="828" y="-150" name="bottom"/>
   <outline>
-    <component base="Eth"/>
+    <contour>
+      <point x="103" y="0" type="line"/>
+      <point x="882" y="0" type="line" smooth="yes"/>
+      <point x="1025.25" y="0"/>
+      <point x="1285.03" y="61.9375"/>
+      <point x="1495.22" y="211.562"/>
+      <point x="1644.38" y="461.75"/>
+      <point x="1677" y="650" type="qcurve" smooth="yes"/>
+      <point x="1708.12" y="827"/>
+      <point x="1652.84" y="1105.62"/>
+      <point x="1503.41" y="1298.38"/>
+      <point x="1271.5" y="1400"/>
+      <point x="1126" y="1400" type="qcurve" smooth="yes"/>
+      <point x="347" y="1400" type="line"/>
+      <point x="228" y="716" type="line"/>
+      <point x="110" y="716" type="line"/>
+      <point x="104" y="684" type="line"/>
+      <point x="222" y="684" type="line"/>
+    </contour>
+    <contour>
+      <point x="373" y="36" type="line"/>
+      <point x="486" y="684" type="line"/>
+      <point x="824" y="684" type="line"/>
+      <point x="830" y="716" type="line"/>
+      <point x="492" y="716" type="line"/>
+      <point x="605" y="1364" type="line"/>
+      <point x="1077" y="1364" type="line" smooth="yes"/>
+      <point x="1186.88" y="1364"/>
+      <point x="1344.84" y="1295.34"/>
+      <point x="1433.91" y="1141.41"/>
+      <point x="1450.5" y="893.875"/>
+      <point x="1419" y="715" type="qcurve" smooth="yes"/>
+      <point x="1386.75" y="528.25"/>
+      <point x="1283.12" y="269.375"/>
+      <point x="1139.88" y="108.125"/>
+      <point x="956.75" y="36"/>
+      <point x="845" y="36" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=Eth</string>
   </dict>
   </lib>
 </glyph>

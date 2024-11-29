@@ -6,13 +6,49 @@
   <anchor x="739" y="1550" name="top"/>
   <anchor x="511" y="1476" name="topright"/>
   <outline>
-    <component base="R"/>
-    <component base="acutecomb.case" xOffset="739" yOffset="376"/>
+    <contour>
+      <point x="80" y="0" type="line"/>
+      <point x="652" y="0" type="line"/>
+      <point x="652" y="444" type="line"/>
+      <point x="652" y="444" type="line"/>
+      <point x="855" y="0" type="line"/>
+      <point x="1483" y="0" type="line"/>
+      <point x="1180" y="539" type="line"/>
+      <point x="1180" y="539" type="line"/>
+      <point x="1251.25" y="573.5"/>
+      <point x="1330" y="711"/>
+      <point x="1330" y="828" type="qcurve" smooth="yes"/>
+      <point x="1330" y="1066" type="line" smooth="yes"/>
+      <point x="1330" y="1267"/>
+      <point x="1105" y="1400"/>
+      <point x="916" y="1400" type="qcurve" smooth="yes"/>
+      <point x="80" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="652" y="820" type="line"/>
+      <point x="652" y="960" type="line"/>
+      <point x="707" y="960" type="line" smooth="yes"/>
+      <point x="740.957" y="960"/>
+      <point x="768" y="927.166"/>
+      <point x="768" y="900" type="qcurve" smooth="yes"/>
+      <point x="768" y="880" type="line" smooth="yes"/>
+      <point x="768" y="852.834"/>
+      <point x="740.957" y="820"/>
+      <point x="707" y="820" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="451" y="1476" type="line"/>
+      <point x="931" y="1476" type="line"/>
+      <point x="1333" y="1776" type="line"/>
+      <point x="670" y="1776" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="0.4,0.4,0.4,1" name="halfwidth" x="739" y="0"/>
+  <guideline angle="0" x="0" y="1004"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=R+acutecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

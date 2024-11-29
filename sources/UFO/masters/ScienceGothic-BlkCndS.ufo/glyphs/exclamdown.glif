@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="exclamdown" format="2">
-  <advance width="714"/>
+  <advance width="718"/>
   <unicode hex="00A1"/>
   <outline>
-    <component base="exclam" xScale="-1" yScale="-1" xOffset="651.411" yOffset="1018"/>
+    <contour>
+      <point x="678" y="883" type="line" smooth="yes"/>
+      <point x="693.847" y="973.552"/>
+      <point x="652.552" y="1024"/>
+      <point x="562" y="1024" type="qcurve" smooth="yes"/>
+      <point x="274" y="1024" type="line" smooth="yes"/>
+      <point x="184" y="1024"/>
+      <point x="123.75" y="973"/>
+      <point x="108" y="883" type="qcurve" smooth="yes"/>
+      <point x="93" y="794" type="line" smooth="yes"/>
+      <point x="77.1534" y="704.203"/>
+      <point x="119.448" y="654"/>
+      <point x="210" y="654" type="qcurve" smooth="yes"/>
+      <point x="497" y="654" type="line" smooth="yes"/>
+      <point x="587" y="654"/>
+      <point x="647.25" y="704.25"/>
+      <point x="663" y="792" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="574" y="556" type="line"/>
+      <point x="98" y="556" type="line"/>
+      <point x="-112" y="-382" type="line"/>
+      <point x="458" y="-382" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=exclam</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=exclam</string>
+  <key>com.fontlab.recipe</key>
+  <string>= exclam@~,~(xHeight-capHeight)</string>
   </dict>
   </lib>
 </glyph>

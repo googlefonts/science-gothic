@@ -1,16 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="racute.sc" format="2">
-  <advance width="1584"/>
-  <anchor x="846.633" y="-150" name="bottom"/>
-  <anchor x="934.633" y="1236" name="top"/>
+  <advance width="1406"/>
+  <anchor x="758.633" y="-150" name="bottom"/>
+  <anchor x="847" y="1236" name="top"/>
   <outline>
-    <component base="r.sc"/>
-    <component base="acutecomb" xOffset="856" yOffset="62"/>
+    <contour>
+      <point x="60" y="0" type="line"/>
+      <point x="590" y="0" type="line"/>
+      <point x="653" y="360" type="line"/>
+      <point x="703" y="360" type="line"/>
+      <point x="883" y="0" type="line"/>
+      <point x="1457" y="0" type="line"/>
+      <point x="1254" y="343" type="line"/>
+      <point x="1254" y="343" type="line"/>
+      <point x="1333.99" y="367.147"/>
+      <point x="1440.63" y="484.546"/>
+      <point x="1461" y="600" type="qcurve" smooth="yes"/>
+      <point x="1498" y="811" type="line" smooth="yes"/>
+      <point x="1511.88" y="892.75"/>
+      <point x="1481.5" y="999.125"/>
+      <point x="1402" y="1061.38"/>
+      <point x="1277.88" y="1086"/>
+      <point x="1198" y="1086" type="qcurve" smooth="yes"/>
+      <point x="250" y="1086" type="line"/>
+    </contour>
+    <contour>
+      <point x="699" y="623" type="line"/>
+      <point x="717" y="730" type="line"/>
+      <point x="909" y="730" type="line" smooth="yes"/>
+      <point x="932.393" y="730"/>
+      <point x="961.018" y="712.374"/>
+      <point x="958" y="692" type="qcurve"/>
+      <point x="953" y="662" type="line" smooth="yes"/>
+      <point x="949.227" y="640.871"/>
+      <point x="914.147" y="623"/>
+      <point x="890" y="623" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="501" y="1162" type="line"/>
+      <point x="1001" y="1162" type="line"/>
+      <point x="1466" y="1510" type="line"/>
+      <point x="865" y="1510" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=r.sc+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

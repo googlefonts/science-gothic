@@ -5,15 +5,42 @@
   <anchor x="1409" y="1550" name="top"/>
   <anchor x="1409" y="-150" name="bottom"/>
   <anchor x="2166" y="0" name="ogonek"/>
-  <anchor x="2102" y="1585" name="topright"/>
   <outline>
-    <component base="E"/>
-    <component base="circumflexcomb_gravecomb.case" xOffset="1409" yOffset="400"/>
+    <contour>
+      <point x="400" y="0" type="line"/>
+      <point x="2418" y="0" type="line"/>
+      <point x="2418" y="36" type="line"/>
+      <point x="664" y="36" type="line"/>
+      <point x="664" y="700" type="line"/>
+      <point x="1702" y="700" type="line"/>
+      <point x="1702" y="736" type="line"/>
+      <point x="664" y="736" type="line"/>
+      <point x="664" y="1364" type="line"/>
+      <point x="2384" y="1364" type="line"/>
+      <point x="2384" y="1400" type="line"/>
+      <point x="400" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="846" y="1485" type="line"/>
+      <point x="898" y="1485" type="line"/>
+      <point x="1265" y="1769" type="line"/>
+      <point x="1622" y="1485" type="line"/>
+      <point x="1912" y="1485" type="line"/>
+      <point x="1492" y="1800" type="line"/>
+      <point x="1249" y="1800" type="line"/>
+    </contour>
+    <contour>
+      <point x="2155" y="1667" type="line"/>
+      <point x="2098" y="1667" type="line"/>
+      <point x="1672" y="1900" type="line"/>
+      <point x="1962" y="1900" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="-90" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=E+circumflexcomb_gravecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

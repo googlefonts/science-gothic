@@ -3,14 +3,34 @@
   <advance width="1730"/>
   <anchor x="865" y="1634" name="top"/>
   <anchor x="865" y="-150" name="bottom"/>
+  <anchor x="396" y="1360" name="topright"/>
   <outline>
-    <component base="n.sc"/>
-    <component base="uni030C" xOffset="865" yOffset="86"/>
+    <contour>
+      <point x="200" y="0" type="line"/>
+      <point x="233" y="0" type="line"/>
+      <point x="233" y="665" type="line"/>
+      <point x="1241" y="0" type="line"/>
+      <point x="1530" y="0" type="line"/>
+      <point x="1530" y="1086" type="line"/>
+      <point x="1497" y="1086" type="line"/>
+      <point x="1497" y="421" type="line"/>
+      <point x="489" y="1086" type="line"/>
+      <point x="200" y="1086" type="line"/>
+    </contour>
+    <contour>
+      <point x="1247" y="1534" type="line"/>
+      <point x="1208" y="1534" type="line"/>
+      <point x="1003" y="1220" type="line"/>
+      <point x="817" y="1534" type="line"/>
+      <point x="396" y="1534" type="line"/>
+      <point x="693" y="1186" type="line"/>
+      <point x="1018" y="1186" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=n.sc+uni030C@top</string>
   </dict>
   </lib>
 </glyph>

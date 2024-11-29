@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ncaron.sc" format="2">
-  <advance width="1793"/>
-  <anchor x="1063" y="1624" name="top"/>
-  <anchor x="750.633" y="-150" name="bottom"/>
+  <advance width="1615"/>
+  <anchor x="975" y="1624" name="top"/>
+  <anchor x="663" y="-150" name="bottom"/>
+  <anchor x="441" y="1350" name="topright"/>
   <outline>
-    <component base="n.sc"/>
-    <component base="uni030C" xOffset="910" yOffset="86"/>
+    <contour>
+      <point x="60" y="0" type="line"/>
+      <point x="561" y="0" type="line"/>
+      <point x="635" y="420" type="line"/>
+      <point x="1110" y="0" type="line"/>
+      <point x="1494" y="0" type="line"/>
+      <point x="1684" y="1086" type="line"/>
+      <point x="1182" y="1086" type="line"/>
+      <point x="1108" y="665" type="line"/>
+      <point x="632" y="1086" type="line"/>
+      <point x="250" y="1086" type="line"/>
+    </contour>
+    <contour>
+      <point x="1428" y="1524" type="line"/>
+      <point x="975" y="1524" type="line"/>
+      <point x="902" y="1381" type="line"/>
+      <point x="861" y="1524" type="line"/>
+      <point x="472" y="1524" type="line"/>
+      <point x="702" y="1176" type="line"/>
+      <point x="1074" y="1176" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=n.sc+uni030C@top</string>
   </dict>
   </lib>
 </glyph>

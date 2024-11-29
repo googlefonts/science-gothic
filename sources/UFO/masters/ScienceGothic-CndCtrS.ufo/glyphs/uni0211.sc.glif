@@ -2,15 +2,58 @@
 <glyph name="uni0211.sc" format="2">
   <advance width="766"/>
   <anchor x="383" y="-150" name="bottom"/>
-  <anchor x="478.049" y="1210" name="top"/>
+  <anchor x="478" y="1210" name="top"/>
   <outline>
-    <component base="r.sc"/>
-    <component base="uni030F" xOffset="395" yOffset="60"/>
+    <contour>
+      <point x="-12" y="0" type="line"/>
+      <point x="238" y="0" type="line"/>
+      <point x="307" y="394" type="line"/>
+      <point x="317" y="394" type="line"/>
+      <point x="389" y="0" type="line"/>
+      <point x="643" y="0" type="line"/>
+      <point x="543" y="455" type="line"/>
+      <point x="543" y="455" type="line"/>
+      <point x="596.577" y="476.883"/>
+      <point x="669.926" y="560.049"/>
+      <point x="682" y="634" type="qcurve" smooth="yes"/>
+      <point x="720" y="852" type="line" smooth="yes"/>
+      <point x="730.875" y="916.875"/>
+      <point x="699.75" y="998.094"/>
+      <point x="627.75" y="1043.66"/>
+      <point x="520.875" y="1060"/>
+      <point x="456" y="1060" type="qcurve" smooth="yes"/>
+      <point x="173" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="318" y="460" type="line"/>
+      <point x="417" y="1027" type="line"/>
+      <point x="434" y="1027" type="line" smooth="yes"/>
+      <point x="466.448" y="1027"/>
+      <point x="495.282" y="993.166"/>
+      <point x="490" y="966" type="qcurve"/>
+      <point x="412" y="521" type="line" smooth="yes"/>
+      <point x="406.718" y="493.08"/>
+      <point x="367.448" y="460"/>
+      <point x="335" y="460" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="675.835" y="1145" type="line"/>
+      <point x="624.77" y="1460" type="line"/>
+      <point x="413.97" y="1460" type="line"/>
+      <point x="640.135" y="1145" type="line"/>
+    </contour>
+    <contour>
+      <point x="414.835" y="1145" type="line"/>
+      <point x="363.77" y="1460" type="line"/>
+      <point x="152.97" y="1460" type="line"/>
+      <point x="379.135" y="1145" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="0.4,0.4,0.4,1" name="halfwidth" x="383" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=r.sc+uni030F@top</string>
   </dict>
   </lib>
 </glyph>

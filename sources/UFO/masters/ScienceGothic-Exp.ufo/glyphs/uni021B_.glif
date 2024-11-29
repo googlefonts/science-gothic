@@ -6,13 +6,54 @@
   <anchor x="665" y="-160" name="bottom"/>
   <anchor x="669" y="1400" name="right"/>
   <outline>
-    <component base="t"/>
-    <component base="uni0326" xOffset="665" yOffset="-10"/>
+    <contour>
+      <point x="676" y="-10" type="qcurve" smooth="yes"/>
+      <point x="1170" y="-10" type="line"/>
+      <point x="1212" y="194" type="line"/>
+      <point x="668" y="194" type="line"/>
+      <point x="668" y="194"/>
+      <point x="668" y="194"/>
+      <point x="668" y="194" type="qcurve"/>
+      <point x="668" y="796" type="line"/>
+      <point x="1220" y="796" type="line"/>
+      <point x="1220" y="1000" type="line"/>
+      <point x="668" y="1000" type="line"/>
+      <point x="668" y="1244" type="line"/>
+      <point x="420" y="1244" type="line"/>
+      <point x="420" y="1000" type="line"/>
+      <point x="108" y="1000" type="line"/>
+      <point x="108" y="796" type="line"/>
+      <point x="420" y="796" type="line"/>
+      <point x="420" y="204" type="line" smooth="yes"/>
+      <point x="420" y="87.7916"/>
+      <point x="537.154" y="-10"/>
+    </contour>
+    <contour>
+      <point x="558" y="-590" type="line"/>
+      <point x="628" y="-615" type="line"/>
+      <point x="775" y="-363" type="line"/>
+      <point x="780.282" y="-353.19"/>
+      <point x="784" y="-313.184"/>
+      <point x="784" y="-283" type="qcurve" smooth="yes"/>
+      <point x="784" y="-229" type="line" smooth="yes"/>
+      <point x="784" y="-161.086"/>
+      <point x="761.159" y="-137"/>
+      <point x="694" y="-137" type="qcurve" smooth="yes"/>
+      <point x="635" y="-137" type="line" smooth="yes"/>
+      <point x="568.595" y="-137"/>
+      <point x="545" y="-161.086"/>
+      <point x="545" y="-229" type="qcurve" smooth="yes"/>
+      <point x="545" y="-283" type="line" smooth="yes"/>
+      <point x="545" y="-353.178"/>
+      <point x="568.595" y="-377"/>
+      <point x="635" y="-377" type="qcurve" smooth="yes"/>
+      <point x="657" y="-377" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=t+uni0326@bottom</string>
   </dict>
   </lib>
 </glyph>

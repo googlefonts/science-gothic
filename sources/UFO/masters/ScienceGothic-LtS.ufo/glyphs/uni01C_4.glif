@@ -1,17 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni01C4" format="2">
-  <advance width="3174"/>
+  <advance width="3175"/>
   <unicode hex="01C4"/>
-  <anchor x="2717" y="1880" name="top"/>
-  <anchor x="2347" y="-150" name="bottom"/>
+  <anchor x="2718" y="1880" name="top"/>
+  <anchor x="2348" y="-150" name="bottom"/>
+  <anchor x="2365" y="1700" name="topright"/>
   <outline>
-    <component base="D"/>
-    <component base="Zcaron" xOffset="1775"/>
+    <contour>
+      <point x="214" y="36" type="line"/>
+      <point x="446" y="1364" type="line"/>
+      <point x="1006" y="1364" type="line" smooth="yes"/>
+      <point x="1156" y="1364"/>
+      <point x="1377.69" y="1299.47"/>
+      <point x="1510.81" y="1147.78"/>
+      <point x="1550.25" y="897.625"/>
+      <point x="1518" y="712" type="qcurve" smooth="yes"/>
+      <point x="1486.5" y="530.875"/>
+      <point x="1360.03" y="274.344"/>
+      <point x="1172.72" y="111.406"/>
+      <point x="925.875" y="36"/>
+      <point x="774" y="36" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="168" y="0" type="line"/>
+      <point x="768" y="0" type="line" smooth="yes"/>
+      <point x="925.875" y="0"/>
+      <point x="1186.56" y="76.1562"/>
+      <point x="1386.44" y="243.594"/>
+      <point x="1522.62" y="509.875"/>
+      <point x="1556" y="700" type="qcurve" smooth="yes"/>
+      <point x="1589.75" y="894.625"/>
+      <point x="1546.88" y="1162.03"/>
+      <point x="1405.12" y="1327.22"/>
+      <point x="1170.25" y="1400"/>
+      <point x="1012" y="1400" type="qcurve" smooth="yes"/>
+      <point x="412" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1711" y="0" type="line"/>
+      <point x="2985" y="0" type="line"/>
+      <point x="2991" y="36" type="line"/>
+      <point x="1776" y="36" type="line"/>
+      <point x="1779" y="28" type="line"/>
+      <point x="3224" y="1382" type="line"/>
+      <point x="3227" y="1400" type="line"/>
+      <point x="2039" y="1400" type="line"/>
+      <point x="2033" y="1364" type="line"/>
+      <point x="3162" y="1364" type="line"/>
+      <point x="3159" y="1372" type="line"/>
+      <point x="1714" y="18" type="line"/>
+    </contour>
+    <contour>
+      <point x="3019" y="1800" type="line"/>
+      <point x="2965" y="1800" type="line"/>
+      <point x="2648" y="1509" type="line"/>
+      <point x="2430" y="1800" type="line"/>
+      <point x="2383" y="1800" type="line"/>
+      <point x="2623" y="1485" type="line"/>
+      <point x="2669" y="1485" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="0" x="0" y="1549"/>
+  <guideline angle="0" x="0" y="1325"/>
+  <guideline angle="0" x="0" y="73"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= D &amp; Zcaron</string>
   </dict>
   </lib>
 </glyph>

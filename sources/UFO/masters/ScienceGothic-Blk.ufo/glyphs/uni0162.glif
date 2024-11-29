@@ -5,13 +5,52 @@
   <anchor x="812" y="1550" name="top"/>
   <anchor x="812" y="-150" name="bottom"/>
   <outline>
-    <component base="T"/>
-    <component base="uni0327.case" xOffset="812"/>
+    <contour>
+      <point x="526" y="0" type="line"/>
+      <point x="1098" y="0" type="line"/>
+      <point x="1098" y="916" type="line"/>
+      <point x="1574" y="916" type="line"/>
+      <point x="1574" y="1400" type="line"/>
+      <point x="50" y="1400" type="line"/>
+      <point x="50" y="916" type="line"/>
+      <point x="526" y="916" type="line"/>
+    </contour>
+    <contour>
+      <point x="734" y="0" type="line"/>
+      <point x="664" y="-221" type="line"/>
+      <point x="678.337" y="-214.209"/>
+      <point x="700.38" y="-209"/>
+      <point x="720" y="-209" type="qcurve" smooth="yes"/>
+      <point x="740.374" y="-209"/>
+      <point x="770" y="-233.853"/>
+      <point x="770" y="-258" type="qcurve" smooth="yes"/>
+      <point x="770" y="-282.902"/>
+      <point x="739.147" y="-311"/>
+      <point x="715" y="-311" type="qcurve" smooth="yes"/>
+      <point x="689.344" y="-311"/>
+      <point x="646.564" y="-301.791"/>
+      <point x="636" y="-295" type="qcurve"/>
+      <point x="589" y="-388" type="line"/>
+      <point x="632.012" y="-412.902"/>
+      <point x="724.896" y="-438"/>
+      <point x="783" y="-438" type="qcurve" smooth="yes"/>
+      <point x="830.625" y="-438"/>
+      <point x="919.719" y="-416.582"/>
+      <point x="988.531" y="-370.577"/>
+      <point x="1030" y="-298.4"/>
+      <point x="1030" y="-247.639" type="qcurve" smooth="yes"/>
+      <point x="1030" y="-213.275"/>
+      <point x="1008.81" y="-153.077"/>
+      <point x="964.188" y="-107.582"/>
+      <point x="895" y="-79.875"/>
+      <point x="847" y="-78" type="qcurve"/>
+      <point x="871" y="0" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=T+uni0327.case@bottom</string>
   </dict>
   </lib>
 </glyph>

@@ -2,12 +2,27 @@
 <glyph name="seven.numr" format="2">
   <advance width="524"/>
   <outline>
-    <component base="seven.dnom" yOffset="614"/>
+    <contour>
+      <point x="28" y="1233" type="line"/>
+      <point x="228" y="1206" type="line"/>
+      <point x="228" y="1368" type="line"/>
+      <point x="337" y="1368" type="line"/>
+      <point x="135" y="614" type="line"/>
+      <point x="331" y="614" type="line"/>
+      <point x="516" y="1321" type="line"/>
+      <point x="516" y="1398" type="line"/>
+      <point x="28" y="1398" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="0.4,0.4,0.4,1" name="halfwidth" x="262" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>seven.dnom</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>seven.dnom</string>
+  <key>com.fontlab.recipe</key>
+  <string>= seven.dnom @,614</string>
   </dict>
   </lib>
 </glyph>

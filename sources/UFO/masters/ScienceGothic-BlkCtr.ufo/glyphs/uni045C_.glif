@@ -4,13 +4,32 @@
   <unicode hex="045C"/>
   <anchor x="1048" y="1150" name="top"/>
   <outline>
-    <component base="uni043A"/>
-    <component base="acutecomb" xOffset="1048" yOffset="-24"/>
+    <contour>
+      <point x="180" y="0" type="line"/>
+      <point x="704" y="0" type="line"/>
+      <point x="704" y="459" type="line"/>
+      <point x="1136" y="0" type="line"/>
+      <point x="1838" y="0" type="line"/>
+      <point x="1112" y="733" type="line"/>
+      <point x="1716" y="1024" type="line"/>
+      <point x="1639" y="1024" type="line"/>
+      <point x="704" y="573" type="line"/>
+      <point x="704" y="1024" type="line"/>
+      <point x="180" y="1024" type="line"/>
+    </contour>
+    <contour>
+      <point x="861" y="1076" type="line"/>
+      <point x="897" y="1076" type="line"/>
+      <point x="1535" y="1424" type="line"/>
+      <point x="981" y="1424" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="372" y="0"/>
+  <guideline angle="90" x="456" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni043A+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

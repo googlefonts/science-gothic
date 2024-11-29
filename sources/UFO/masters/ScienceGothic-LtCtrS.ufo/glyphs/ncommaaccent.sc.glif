@@ -1,16 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ncommaaccent.sc" format="2">
   <advance width="1551"/>
-  <anchor x="867.049" y="1210" name="top"/>
-  <anchor x="630.049" y="-150" name="bottom"/>
+  <anchor x="867" y="1210" name="top"/>
+  <anchor x="630" y="-150" name="bottom"/>
   <outline>
-    <component base="n.sc"/>
-    <component base="uni0326" xOffset="648"/>
+    <contour>
+      <point x="167" y="0" type="line"/>
+      <point x="201" y="0" type="line"/>
+      <point x="376" y="1004" type="line"/>
+      <point x="1119" y="0" type="line"/>
+      <point x="1149" y="0" type="line"/>
+      <point x="1334" y="1060" type="line"/>
+      <point x="1300" y="1060" type="line"/>
+      <point x="1125" y="56" type="line"/>
+      <point x="383" y="1060" type="line"/>
+      <point x="352" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="592" y="-228" type="line"/>
+      <point x="606" y="-233" type="line"/>
+      <point x="654" y="-168" type="line" smooth="yes"/>
+      <point x="656.264" y="-164.982"/>
+      <point x="659.491" y="-156.301"/>
+      <point x="661" y="-148" type="qcurve"/>
+      <point x="665" y="-121" type="line"/>
+      <point x="668.018" y="-105.908"/>
+      <point x="663.847" y="-100"/>
+      <point x="648" y="-100" type="qcurve" smooth="yes"/>
+      <point x="620" y="-100" type="line" smooth="yes"/>
+      <point x="604.908" y="-100"/>
+      <point x="598.018" y="-105.908"/>
+      <point x="595" y="-121" type="qcurve"/>
+      <point x="591" y="-148" type="line"/>
+      <point x="587.982" y="-163.092"/>
+      <point x="592.908" y="-169"/>
+      <point x="608" y="-169" type="qcurve" smooth="yes"/>
+      <point x="617" y="-169" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=n.sc+uni0326@bottom</string>
   </dict>
   </lib>
 </glyph>

@@ -5,13 +5,41 @@
   <anchor x="157" y="-150" name="bottom"/>
   <anchor x="200" y="0" name="ogonek"/>
   <outline>
-    <component base="i.sc"/>
-    <component base="uni0311" xOffset="312" yOffset="60"/>
+    <contour>
+      <point x="167" y="0" type="line"/>
+      <point x="204" y="0" type="line"/>
+      <point x="389" y="1060" type="line"/>
+      <point x="352" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="168.565" y="1194" type="qcurve"/>
+      <point x="200.565" y="1194" type="line"/>
+      <point x="212.482" y="1260.75"/>
+      <point x="244.459" y="1340.25"/>
+      <point x="295.648" y="1382.25"/>
+      <point x="371.582" y="1395"/>
+      <point x="427.457" y="1395" type="qcurve" smooth="yes"/>
+      <point x="483.332" y="1395"/>
+      <point x="554.71" y="1382.25"/>
+      <point x="590.897" y="1340.25"/>
+      <point x="594.482" y="1260.75"/>
+      <point x="582.565" y="1194" type="qcurve"/>
+      <point x="614.565" y="1194" type="line"/>
+      <point x="627.738" y="1267.5"/>
+      <point x="626.867" y="1358.06"/>
+      <point x="588.583" y="1407.94"/>
+      <point x="507.788" y="1425"/>
+      <point x="441.038" y="1425" type="qcurve" smooth="yes"/>
+      <point x="372.788" y="1425"/>
+      <point x="280.458" y="1407.94"/>
+      <point x="218.992" y="1358.06"/>
+      <point x="181.738" y="1267.5"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=i.sc+uni0311@top</string>
   </dict>
   </lib>
 </glyph>

@@ -1,18 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni040C" format="2">
-  <advance width="2372"/>
+  <advance width="2375"/>
   <unicode hex="040C"/>
-  <anchor x="1379" y="1550" name="top"/>
-  <anchor x="1215" y="-150" name="bottom"/>
-  <anchor x="1226" y="1485" name="topright"/>
+  <anchor x="1382" y="1550" name="top"/>
+  <anchor x="1218" y="-150" name="bottom"/>
+  <anchor x="1229" y="1485" name="topright"/>
   <outline>
-    <component base="uni041A"/>
-    <component base="acutecomb.case" xOffset="1300" yOffset="400"/>
+    <contour>
+      <point x="2287" y="1400" type="line"/>
+      <point x="2189" y="1400" type="line"/>
+      <point x="370" y="713" type="line"/>
+      <point x="398" y="713" type="line"/>
+      <point x="517" y="1400" type="line"/>
+      <point x="477" y="1400" type="line"/>
+      <point x="233" y="0" type="line"/>
+      <point x="273" y="0" type="line"/>
+      <point x="397" y="710" type="line"/>
+      <point x="382" y="710" type="line"/>
+      <point x="2155" y="0" type="line"/>
+      <point x="2255" y="0" type="line"/>
+      <point x="450" y="719" type="line"/>
+      <point x="450" y="711" type="line"/>
+    </contour>
+    <contour>
+      <point x="1185" y="1485" type="line"/>
+      <point x="1250" y="1485" type="line"/>
+      <point x="1775" y="1800" type="line"/>
+      <point x="1698" y="1800" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=K</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=K</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni041A+acutecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

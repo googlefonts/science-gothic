@@ -1,16 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="onequarter" format="2">
-  <advance width="1868" height="1448"/>
+  <advance width="1816"/>
   <unicode hex="00BC"/>
   <outline>
-    <component base="one.numr"/>
-    <component base="fraction" xOffset="670"/>
-    <component base="four.dnom" xOffset="831"/>
+    <contour>
+      <point x="230" y="614" type="line"/>
+      <point x="430" y="614" type="line"/>
+      <point x="430" y="1407" type="line"/>
+      <point x="64" y="1330" type="line"/>
+      <point x="64" y="1208" type="line"/>
+      <point x="230" y="1211" type="line"/>
+    </contour>
+    <contour>
+      <point x="1055" y="1400" type="line"/>
+      <point x="127" y="0" type="line"/>
+      <point x="350" y="0" type="line"/>
+      <point x="1278" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="799" y="159" type="line"/>
+      <point x="1347" y="159" type="line"/>
+      <point x="1347" y="0" type="line"/>
+      <point x="1547" y="0" type="line"/>
+      <point x="1547" y="159" type="line"/>
+      <point x="1712" y="159" type="line"/>
+      <point x="1712" y="337" type="line"/>
+      <point x="1547" y="337" type="line"/>
+      <point x="1547" y="791" type="line"/>
+      <point x="1361" y="791" type="line"/>
+      <point x="799" y="331" type="line"/>
+    </contour>
+    <contour>
+      <point x="1056" y="337" type="line"/>
+      <point x="1347" y="575" type="line"/>
+      <point x="1347" y="337" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="0.4,0.4,0.4,1" name="halfwidth" x="908" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>one.numr</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>four.dnom</string>
+  <key>com.fontlab.recipe</key>
+  <string>=one.numr &amp; fraction &amp; four.dnom</string>
   </dict>
   </lib>
 </glyph>

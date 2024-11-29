@@ -1,19 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uhungarumlaut" format="2">
-  <advance width="1283"/>
+  <advance width="1284"/>
   <unicode hex="0171"/>
   <anchor x="726" y="1174" name="top"/>
   <anchor x="495" y="-150" name="bottom"/>
   <anchor x="540" y="0" name="ogonek"/>
   <anchor x="1270" y="1024" name="horn"/>
   <outline>
-    <component base="u"/>
-    <component base="uni030B" xOffset="651" yOffset="24"/>
+    <contour>
+      <point x="-13" y="204" type="line" smooth="yes"/>
+      <point x="-35.638" y="77.2272"/>
+      <point x="80.3008" y="0"/>
+      <point x="195" y="0" type="qcurve" smooth="yes"/>
+      <point x="845" y="0" type="line" smooth="yes"/>
+      <point x="959.699" y="0"/>
+      <point x="1104.36" y="77.2272"/>
+      <point x="1127" y="204" type="qcurve" smooth="yes"/>
+      <point x="1270" y="1024" type="line"/>
+      <point x="746" y="1024" type="line"/>
+      <point x="573" y="32" type="line"/>
+      <point x="573" y="32"/>
+      <point x="573" y="32"/>
+      <point x="573" y="32" type="qcurve"/>
+      <point x="481" y="32" type="line"/>
+      <point x="481" y="32"/>
+      <point x="481" y="32"/>
+      <point x="481" y="32" type="qcurve"/>
+      <point x="654" y="1024" type="line"/>
+      <point x="130" y="1024" type="line"/>
+    </contour>
+    <contour>
+      <point x="391.99" y="1124" type="line"/>
+      <point x="419.99" y="1124" type="line"/>
+      <point x="935.399" y="1472" type="line"/>
+      <point x="518.899" y="1472" type="line"/>
+    </contour>
+    <contour>
+      <point x="847.99" y="1124" type="line"/>
+      <point x="875.99" y="1124" type="line"/>
+      <point x="1391.4" y="1472" type="line"/>
+      <point x="974.899" y="1472" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=u+uni030B@top</string>
   </dict>
   </lib>
 </glyph>

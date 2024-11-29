@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="guillemotleft.case" format="2">
-  <advance width="588"/>
+  <advance width="587"/>
   <outline>
-    <component base="guillemotleft" yOffset="100"/>
+    <contour>
+      <point x="242" y="230" type="line"/>
+      <point x="281" y="230" type="line"/>
+      <point x="39" y="600" type="line"/>
+      <point x="281" y="970" type="line"/>
+      <point x="242" y="970" type="line"/>
+      <point x="0" y="600" type="line"/>
+    </contour>
+    <contour>
+      <point x="445" y="230" type="line"/>
+      <point x="484" y="230" type="line"/>
+      <point x="242" y="600" type="line"/>
+      <point x="484" y="970" type="line"/>
+      <point x="445" y="970" type="line"/>
+      <point x="203" y="600" type="line"/>
+    </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=guillemotleft</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=guillemotleft</string>
+  </dict>
+  </lib>
 </glyph>

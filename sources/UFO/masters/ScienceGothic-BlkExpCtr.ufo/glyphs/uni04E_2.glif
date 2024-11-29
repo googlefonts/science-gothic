@@ -5,13 +5,33 @@
   <anchor x="1647" y="-150" name="bottom"/>
   <anchor x="1647" y="1734" name="top"/>
   <outline>
-    <component base="uni0418"/>
-    <component base="uni0304.case" xOffset="1647" yOffset="400"/>
+    <contour>
+      <point x="400" y="0" type="line"/>
+      <point x="904" y="0" type="line"/>
+      <point x="2432" y="1295" type="line"/>
+      <point x="2432" y="0" type="line"/>
+      <point x="3004" y="0" type="line"/>
+      <point x="3004" y="1400" type="line"/>
+      <point x="2502" y="1400" type="line"/>
+      <point x="972" y="102" type="line"/>
+      <point x="972" y="1400" type="line"/>
+      <point x="400" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1117" y="1634" type="line"/>
+      <point x="1117" y="1598" type="line"/>
+      <point x="2177" y="1598" type="line"/>
+      <point x="2177" y="1634" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=uni0418</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=uni0418</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0418+uni0304.case@top</string>
   </dict>
   </lib>
 </glyph>

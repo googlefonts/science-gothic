@@ -6,13 +6,23 @@
   <anchor x="320" y="1150" name="top"/>
   <anchor x="235" y="0" name="ogonek"/>
   <outline>
-    <component base="dotlessi"/>
-    <component base="gravecomb" xOffset="320"/>
+    <contour>
+      <point x="198" y="0" type="line"/>
+      <point x="442" y="0" type="line"/>
+      <point x="442" y="1000" type="line"/>
+      <point x="198" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="499" y="1085" type="line"/>
+      <point x="261" y="1448" type="line"/>
+      <point x="-2" y="1448" type="line"/>
+      <point x="457" y="1085" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=dotlessi+gravecomb@top</string>
   </dict>
   </lib>
 </glyph>

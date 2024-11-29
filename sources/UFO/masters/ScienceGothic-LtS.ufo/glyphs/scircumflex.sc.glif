@@ -1,17 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="scircumflex.sc" format="2">
-  <advance width="1387"/>
+  <advance width="1389"/>
   <anchor x="852" y="1588" name="top"/>
   <anchor x="548" y="-150" name="bottom"/>
   <anchor x="1091" y="1327" name="topright"/>
   <outline>
-    <component base="s.sc" xOffset="-1"/>
-    <component base="uni0302" xOffset="708" yOffset="60"/>
+    <contour>
+      <point x="174" y="292" type="line"/>
+      <point x="162" y="221" type="line" smooth="yes"/>
+      <point x="142.5" y="107"/>
+      <point x="244.25" y="0"/>
+      <point x="359" y="0" type="qcurve" smooth="yes"/>
+      <point x="795" y="0" type="line" smooth="yes"/>
+      <point x="909.75" y="0"/>
+      <point x="1048.5" y="107"/>
+      <point x="1068" y="221" type="qcurve" smooth="yes"/>
+      <point x="1087" y="332" type="line" smooth="yes"/>
+      <point x="1097.12" y="388.625"/>
+      <point x="1081.16" y="471.844"/>
+      <point x="1031.09" y="526.406"/>
+      <point x="948" y="553"/>
+      <point x="891" y="553" type="qcurve" smooth="yes"/>
+      <point x="473" y="553" type="line" smooth="yes"/>
+      <point x="374.902" y="553"/>
+      <point x="290.399" y="641.411"/>
+      <point x="307" y="738" type="qcurve" smooth="yes"/>
+      <point x="325" y="842" type="line" smooth="yes"/>
+      <point x="342.356" y="938.589"/>
+      <point x="457.902" y="1027"/>
+      <point x="556" y="1027" type="qcurve" smooth="yes"/>
+      <point x="960" y="1027" type="line" smooth="yes"/>
+      <point x="1058.85" y="1027"/>
+      <point x="1143.36" y="938.589"/>
+      <point x="1126" y="842" type="qcurve" smooth="yes"/>
+      <point x="1113" y="766" type="line"/>
+      <point x="1152" y="774" type="line"/>
+      <point x="1163" y="839" type="line" smooth="yes"/>
+      <point x="1172.75" y="896"/>
+      <point x="1156.69" y="979.312"/>
+      <point x="1106.81" y="1033.69"/>
+      <point x="1024" y="1060"/>
+      <point x="967" y="1060" type="qcurve" smooth="yes"/>
+      <point x="562" y="1060" type="line" smooth="yes"/>
+      <point x="505" y="1060"/>
+      <point x="412.438" y="1033.69"/>
+      <point x="343.062" y="979.312"/>
+      <point x="297.75" y="896"/>
+      <point x="288" y="839" type="qcurve" smooth="yes"/>
+      <point x="271" y="741" type="line" smooth="yes"/>
+      <point x="250.75" y="627"/>
+      <point x="353" y="520"/>
+      <point x="467" y="520" type="qcurve" smooth="yes"/>
+      <point x="885" y="520" type="line" smooth="yes"/>
+      <point x="983.853" y="520"/>
+      <point x="1067.6" y="430.589"/>
+      <point x="1051" y="334" type="qcurve" smooth="yes"/>
+      <point x="1031" y="219" type="line" smooth="yes"/>
+      <point x="1013.64" y="121.657"/>
+      <point x="898.853" y="33"/>
+      <point x="800" y="33" type="qcurve" smooth="yes"/>
+      <point x="364" y="33" type="line" smooth="yes"/>
+      <point x="265.902" y="33"/>
+      <point x="181.644" y="121.411"/>
+      <point x="199" y="218" type="qcurve" smooth="yes"/>
+      <point x="213" y="300" type="line"/>
+    </contour>
+    <contour>
+      <point x="491" y="1165" type="line"/>
+      <point x="536" y="1165" type="line"/>
+      <point x="832" y="1463" type="line"/>
+      <point x="1024" y="1165" type="line"/>
+      <point x="1062" y="1165" type="line"/>
+      <point x="855" y="1488" type="line"/>
+      <point x="813" y="1488" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=s.sc+uni0302@top</string>
   </dict>
   </lib>
 </glyph>

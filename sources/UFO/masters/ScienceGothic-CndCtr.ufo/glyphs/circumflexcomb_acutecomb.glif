@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexcomb_acutecomb" format="2">
   <anchor x="0" y="1150" name="_top"/>
-  <anchor x="0" y="1550" name="_bottom"/>
-  <anchor x="217" y="1238" name="topright"/>
-  <anchor x="0" y="1500" name="top"/>
   <outline>
-    <component base="uni0302"/>
-    <component base="acutecomb" xOffset="269" yOffset="153"/>
+    <contour>
+      <point x="-208" y="1075" type="line"/>
+      <point x="-174" y="1075" type="line"/>
+      <point x="-102" y="1314" type="line"/>
+      <point x="-39" y="1075" type="line"/>
+      <point x="157" y="1075" type="line"/>
+      <point x="42" y="1400" type="line"/>
+      <point x="-108" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="147" y="1238" type="line"/>
+      <point x="185" y="1238" type="line"/>
+      <point x="365" y="1553" type="line"/>
+      <point x="169" y="1553" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0302+circumflexcomb_acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

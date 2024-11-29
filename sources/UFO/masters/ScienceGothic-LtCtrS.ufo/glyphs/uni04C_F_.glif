@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni04CF" format="2">
-  <advance width="519"/>
+  <advance width="520"/>
   <unicode hex="04CF"/>
-  <anchor x="418" y="1598" name="top"/>
-  <anchor x="113" y="-150" name="bottom"/>
-  <anchor x="410" y="1448" name="right"/>
-  <anchor x="521" y="700" name="eldot"/>
+  <anchor x="419" y="1598" name="top"/>
+  <anchor x="114" y="-150" name="bottom"/>
+  <anchor x="411" y="1448" name="right"/>
+  <anchor x="522" y="700" name="eldot"/>
   <outline>
-    <component base="l"/>
+    <contour>
+      <point x="123" y="0" type="line"/>
+      <point x="159" y="0" type="line"/>
+      <point x="412" y="1448" type="line"/>
+      <point x="376" y="1448" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=l</string>
   </dict>
   </lib>
 </glyph>

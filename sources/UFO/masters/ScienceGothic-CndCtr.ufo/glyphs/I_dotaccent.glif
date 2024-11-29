@@ -6,13 +6,35 @@
   <anchor x="238" y="-150" name="bottom"/>
   <anchor x="144" y="0" name="ogonek"/>
   <outline>
-    <component base="I"/>
-    <component base="uni0307.case" xOffset="238" yOffset="400"/>
+    <contour>
+      <point x="106" y="0" type="line"/>
+      <point x="370" y="0" type="line"/>
+      <point x="370" y="1400" type="line"/>
+      <point x="106" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="111" y="1638" type="line" smooth="yes"/>
+      <point x="111" y="1567.07"/>
+      <point x="135.822" y="1542"/>
+      <point x="206" y="1542" type="qcurve" smooth="yes"/>
+      <point x="270" y="1542" type="line" smooth="yes"/>
+      <point x="340.178" y="1542"/>
+      <point x="365" y="1567.07"/>
+      <point x="365" y="1638" type="qcurve" smooth="yes"/>
+      <point x="365" y="1704" type="line" smooth="yes"/>
+      <point x="365" y="1774.18"/>
+      <point x="340.178" y="1799"/>
+      <point x="270" y="1799" type="qcurve" smooth="yes"/>
+      <point x="206" y="1799" type="line" smooth="yes"/>
+      <point x="135.822" y="1799"/>
+      <point x="111" y="1774.18"/>
+      <point x="111" y="1704" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=I+dotaccentcomb.case@top</string>
   </dict>
   </lib>
 </glyph>

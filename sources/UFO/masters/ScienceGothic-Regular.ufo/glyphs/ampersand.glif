@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ampersand" format="2">
-  <advance width="1652" height="1448"/>
+  <advance width="1652"/>
   <unicode hex="0026"/>
   <outline>
     <contour>
-      <point x="302" y="-10" type="line"/>
+      <point x="302" y="-10" type="qcurve" smooth="yes"/>
       <point x="720" y="-10" type="line" smooth="yes"/>
-      <point x="769" y="-10"/>
-      <point x="843" y="0"/>
-      <point x="903" y="22"/>
-      <point x="957" y="60"/>
+      <point x="769.125" y="-10"/>
+      <point x="842.625" y="-0.21875"/>
+      <point x="903.375" y="22.4688"/>
+      <point x="957.375" y="59.625"/>
       <point x="987" y="87" type="qcurve" smooth="yes"/>
       <point x="1102" y="194" type="line"/>
       <point x="1294" y="0" type="line"/>
@@ -21,64 +21,47 @@
       <point x="584" y="1074" type="line"/>
       <point x="584" y="1074"/>
       <point x="584" y="1074"/>
-      <point x="584" y="1074"/>
-      <point x="584" y="1074"/>
       <point x="584" y="1074" type="qcurve"/>
       <point x="584" y="1178" type="line"/>
-      <point x="584" y="1178"/>
-      <point x="584" y="1178"/>
       <point x="584" y="1178"/>
       <point x="584" y="1178"/>
       <point x="584" y="1178" type="qcurve"/>
       <point x="940" y="1178" type="line"/>
       <point x="940" y="1178"/>
       <point x="940" y="1178"/>
-      <point x="940" y="1178"/>
-      <point x="940" y="1178"/>
       <point x="940" y="1178" type="qcurve"/>
       <point x="940" y="968" type="line"/>
       <point x="1164" y="1012" type="line"/>
       <point x="1164" y="1164" type="line" smooth="yes"/>
-      <point x="1164" y="1222"/>
-      <point x="1124" y="1315"/>
-      <point x="1050" y="1379"/>
-      <point x="943" y="1414"/>
+      <point x="1164" y="1280.96"/>
+      <point x="1010.83" y="1414"/>
       <point x="875" y="1414" type="qcurve" smooth="yes"/>
       <point x="602" y="1414" type="line" smooth="yes"/>
-      <point x="538" y="1414"/>
-      <point x="436" y="1379"/>
-      <point x="367" y="1313"/>
-      <point x="330" y="1217"/>
+      <point x="472.209" y="1414"/>
+      <point x="330" y="1279"/>
       <point x="330" y="1156" type="qcurve" smooth="yes"/>
       <point x="330" y="1120" type="line" smooth="yes"/>
-      <point x="330" y="1074"/>
-      <point x="344" y="1001"/>
-      <point x="374" y="938"/>
-      <point x="421" y="878"/>
+      <point x="330" y="1073.88"/>
+      <point x="344.25" y="1001.16"/>
+      <point x="374.25" y="937.594"/>
+      <point x="420.75" y="878"/>
       <point x="453" y="845" type="qcurve"/>
       <point x="152" y="644" type="line" smooth="yes"/>
-      <point x="126" y="626"/>
-      <point x="87" y="587"/>
-      <point x="62" y="542"/>
-      <point x="50" y="491"/>
+      <point x="99.178" y="608.534"/>
+      <point x="50" y="520.859"/>
       <point x="50" y="462" type="qcurve" smooth="yes"/>
       <point x="50" y="204" type="line" smooth="yes"/>
-      <point x="50" y="152"/>
-      <point x="82" y="72"/>
-      <point x="146" y="18"/>
-      <point x="240" y="-10"/>
-      <point x="302" y="-10" type="qcurve"/>
+      <point x="50" y="151.5"/>
+      <point x="82.3438" y="71.5"/>
+      <point x="145.906" y="17.5"/>
+      <point x="240.125" y="-10"/>
     </contour>
     <contour>
       <point x="308" y="222" type="line"/>
       <point x="308" y="222"/>
       <point x="308" y="222"/>
-      <point x="308" y="222"/>
-      <point x="308" y="222"/>
       <point x="308" y="222" type="qcurve"/>
       <point x="308" y="468" type="line"/>
-      <point x="308" y="468"/>
-      <point x="308" y="468"/>
       <point x="308" y="468"/>
       <point x="308" y="468"/>
       <point x="308" y="468" type="qcurve"/>
@@ -87,9 +70,15 @@
       <point x="800" y="222" type="line"/>
       <point x="800" y="222"/>
       <point x="800" y="222"/>
-      <point x="800" y="222"/>
-      <point x="800" y="222"/>
       <point x="800" y="222" type="qcurve"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=H*.25</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=0</string>
+  </dict>
+  </lib>
 </glyph>

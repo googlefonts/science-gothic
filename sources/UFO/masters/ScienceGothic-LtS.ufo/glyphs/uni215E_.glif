@@ -1,16 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni215E" format="2">
-  <advance width="1919"/>
+  <advance width="1871"/>
   <unicode hex="215E"/>
   <outline>
-    <component base="seven.numr"/>
-    <component base="fraction" xOffset="723"/>
-    <component base="eight.dnom" xOffset="764"/>
+    <contour>
+      <point x="170" y="1235" type="line"/>
+      <point x="203" y="1227" type="line"/>
+      <point x="227" y="1368" type="line"/>
+      <point x="793" y="1368" type="line"/>
+      <point x="262" y="614" type="line"/>
+      <point x="303" y="614" type="line"/>
+      <point x="841" y="1377" type="line"/>
+      <point x="845" y="1398" type="line"/>
+      <point x="199" y="1398" type="line"/>
+    </contour>
+    <contour>
+      <point x="1312" y="1400" type="line"/>
+      <point x="143" y="0" type="line"/>
+      <point x="179" y="0" type="line"/>
+      <point x="1348" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="912" y="158" type="qcurve" smooth="yes"/>
+      <point x="930" y="265" type="line" smooth="yes"/>
+      <point x="944.337" y="344.233"/>
+      <point x="1058.29" y="383"/>
+      <point x="1093" y="383" type="qcurve" smooth="yes"/>
+      <point x="1437" y="383" type="line" smooth="yes"/>
+      <point x="1454.25" y="383"/>
+      <point x="1501.72" y="375.656"/>
+      <point x="1542.03" y="351.094"/>
+      <point x="1565.12" y="304.375"/>
+      <point x="1558" y="265" type="qcurve" smooth="yes"/>
+      <point x="1540" y="158" type="line" smooth="yes"/>
+      <point x="1526.42" y="82.54"/>
+      <point x="1423.18" y="29"/>
+      <point x="1353" y="29" type="qcurve" smooth="yes"/>
+      <point x="1052" y="29" type="line" smooth="yes"/>
+      <point x="982.577" y="29"/>
+      <point x="898.417" y="82.54"/>
+    </contour>
+    <contour>
+      <point x="1606" y="633" type="qcurve" smooth="yes"/>
+      <point x="1589" y="536" type="line" smooth="yes"/>
+      <point x="1579.19" y="480.16"/>
+      <point x="1496.25" y="413"/>
+      <point x="1414" y="413" type="qcurve" smooth="yes"/>
+      <point x="1126" y="413" type="line" smooth="yes"/>
+      <point x="1042.99" y="413"/>
+      <point x="985.19" y="480.16"/>
+      <point x="995" y="536" type="qcurve" smooth="yes"/>
+      <point x="1012" y="633" type="line" smooth="yes"/>
+      <point x="1021.06" y="688.086"/>
+      <point x="1107.52" y="755"/>
+      <point x="1186" y="755" type="qcurve" smooth="yes"/>
+      <point x="1474" y="755" type="line" smooth="yes"/>
+      <point x="1552.48" y="755"/>
+      <point x="1615.06" y="688.086"/>
+    </contour>
+    <contour>
+      <point x="877" y="156" type="line" smooth="yes"/>
+      <point x="861.153" y="65.448"/>
+      <point x="961.485" y="-1"/>
+      <point x="1046" y="-1" type="qcurve" smooth="yes"/>
+      <point x="1350" y="-1" type="line" smooth="yes"/>
+      <point x="1435.27" y="-1"/>
+      <point x="1557.15" y="65.448"/>
+      <point x="1573" y="156" type="qcurve" smooth="yes"/>
+      <point x="1591" y="256" type="line" smooth="yes"/>
+      <point x="1604.58" y="332.215"/>
+      <point x="1535.56" y="396.472"/>
+      <point x="1485" y="401" type="qcurve"/>
+      <point x="1537.07" y="407.037"/>
+      <point x="1613.19" y="481.896"/>
+      <point x="1623" y="540" type="qcurve" smooth="yes"/>
+      <point x="1640" y="635" type="line" smooth="yes"/>
+      <point x="1652.07" y="704.423"/>
+      <point x="1573.82" y="785"/>
+      <point x="1481" y="785" type="qcurve" smooth="yes"/>
+      <point x="1188" y="785" type="line" smooth="yes"/>
+      <point x="1095.18" y="785"/>
+      <point x="990.074" y="704.423"/>
+      <point x="978" y="635" type="qcurve" smooth="yes"/>
+      <point x="961" y="540" type="line" smooth="yes"/>
+      <point x="951.19" y="481.896"/>
+      <point x="1001.2" y="407.037"/>
+      <point x="1051" y="401" type="qcurve"/>
+      <point x="998.933" y="396.472"/>
+      <point x="908.583" y="332.215"/>
+      <point x="895" y="256" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="0.4,0.4,0.4,1" name="halfwidth" x="935.5" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>seven.numr</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>eight.dnom</string>
+  <key>com.fontlab.recipe</key>
+  <string>= seven.numr &amp; fraction &amp; eight.dnom</string>
   </dict>
   </lib>
 </glyph>

@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="guilsinglright" format="2">
-  <advance width="606" height="1448"/>
+  <advance width="608"/>
   <unicode hex="203A"/>
   <outline>
-    <component base="guilsinglleft" xScale="-1" yScale="-1" xOffset="542.133" yOffset="1000"/>
+    <contour>
+      <point x="326" y="870" type="line"/>
+      <point x="104" y="870" type="line"/>
+      <point x="282" y="500" type="line"/>
+      <point x="-25" y="130" type="line"/>
+      <point x="197" y="130" type="line"/>
+      <point x="504" y="500" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=rsb("guilsinglleft")</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=lsb("guilsinglleft")</string>
+  <key>com.fontlab.recipe</key>
+  <string>=guilsinglleft@~,~</string>
   </dict>
   </lib>
 </glyph>

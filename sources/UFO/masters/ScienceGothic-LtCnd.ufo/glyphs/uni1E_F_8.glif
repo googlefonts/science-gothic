@@ -3,15 +3,55 @@
   <advance width="514"/>
   <unicode hex="1EF8"/>
   <anchor x="262" y="1676" name="top"/>
-  <anchor x="262" y="-150" name="bottom"/>
+  <anchor x="257" y="-150" name="bottom"/>
   <outline>
-    <component base="Y"/>
-    <component base="tildecomb.case" xOffset="262" yOffset="400"/>
+    <contour>
+      <point x="237" y="0" type="line"/>
+      <point x="277" y="0" type="line"/>
+      <point x="277" y="634" type="line"/>
+      <point x="514" y="1400" type="line"/>
+      <point x="476" y="1400" type="line"/>
+      <point x="259" y="694" type="line"/>
+      <point x="42" y="1400" type="line"/>
+      <point x="0" y="1400" type="line"/>
+      <point x="237" y="634" type="line"/>
+    </contour>
+    <contour>
+      <point x="134" y="1554" type="qcurve"/>
+      <point x="167" y="1547" type="line"/>
+      <point x="173.037" y="1573.41"/>
+      <point x="189.644" y="1595"/>
+      <point x="207" y="1595" type="qcurve" smooth="yes"/>
+      <point x="219.75" y="1595"/>
+      <point x="242.906" y="1580"/>
+      <point x="267.844" y="1562"/>
+      <point x="296.625" y="1547"/>
+      <point x="315" y="1547" type="qcurve" smooth="yes"/>
+      <point x="328.125" y="1547"/>
+      <point x="351.75" y="1554.16"/>
+      <point x="371.25" y="1571.59"/>
+      <point x="385.875" y="1600.88"/>
+      <point x="390" y="1623" type="qcurve"/>
+      <point x="357" y="1630" type="line"/>
+      <point x="350.963" y="1603.59"/>
+      <point x="334.356" y="1582"/>
+      <point x="317" y="1582" type="qcurve" smooth="yes"/>
+      <point x="304.25" y="1582"/>
+      <point x="281.094" y="1597"/>
+      <point x="256.156" y="1615"/>
+      <point x="227.375" y="1630"/>
+      <point x="209" y="1630" type="qcurve" smooth="yes"/>
+      <point x="195.875" y="1630"/>
+      <point x="172.25" y="1622.84"/>
+      <point x="152.75" y="1605.41"/>
+      <point x="138.125" y="1576.12"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="1,0,0,1" x="262" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=Y+tildecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

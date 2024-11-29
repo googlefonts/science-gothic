@@ -2,18 +2,50 @@
 <glyph name="uni0215" format="2">
   <advance width="2201"/>
   <unicode hex="0215"/>
-  <anchor x="1181" y="1150" name="top"/>
-  <anchor x="952" y="-160" name="bottom"/>
-  <anchor x="1001" y="-0" name="ogonek"/>
-  <anchor x="1946" y="1000" name="horn"/>
+  <anchor x="1182" y="1150" name="top"/>
+  <anchor x="953" y="-160" name="bottom"/>
+  <anchor x="1002" y="0" name="ogonek"/>
+  <anchor x="1947" y="1000" name="horn"/>
   <outline>
-    <component base="u" xOffset="1"/>
-    <component base="uni030F" xOffset="1105" yOffset="50"/>
+    <contour>
+      <point x="224" y="194" type="line" smooth="yes"/>
+      <point x="202.117" y="67.2272"/>
+      <point x="317.301" y="-10"/>
+      <point x="432" y="-10" type="qcurve" smooth="yes"/>
+      <point x="1524" y="-10" type="line" smooth="yes"/>
+      <point x="1638.7" y="-10"/>
+      <point x="1784.12" y="67.2272"/>
+      <point x="1806" y="194" type="qcurve" smooth="yes"/>
+      <point x="1947" y="1000" type="line"/>
+      <point x="1699" y="1000" type="line"/>
+      <point x="1528" y="22" type="line"/>
+      <point x="1528" y="22"/>
+      <point x="1528" y="22"/>
+      <point x="1528" y="22" type="qcurve"/>
+      <point x="442" y="22" type="line"/>
+      <point x="442" y="22"/>
+      <point x="442" y="22"/>
+      <point x="442" y="22" type="qcurve"/>
+      <point x="613" y="1000" type="line"/>
+      <point x="365" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="1579.99" y="1135" type="line"/>
+      <point x="1258.98" y="1498" type="line"/>
+      <point x="958.082" y="1498" type="line"/>
+      <point x="1528.14" y="1135" type="line"/>
+    </contour>
+    <contour>
+      <point x="1062.99" y="1135" type="line"/>
+      <point x="741.982" y="1498" type="line"/>
+      <point x="441.082" y="1498" type="line"/>
+      <point x="1011.14" y="1135" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=u+uni030F@top</string>
   </dict>
   </lib>
 </glyph>

@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0233.sc" format="2">
-  <advance width="664"/>
+  <advance width="665"/>
   <anchor x="478" y="1458" name="top"/>
   <anchor x="188" y="-150" name="bottom"/>
   <outline>
-    <component base="y.sc"/>
-    <component base="uni0304" xOffset="346" yOffset="60"/>
+    <contour>
+      <point x="89" y="0" type="line"/>
+      <point x="339" y="0" type="line"/>
+      <point x="397" y="330" type="line"/>
+      <point x="741" y="1060" type="line"/>
+      <point x="501" y="1060" type="line"/>
+      <point x="327" y="634" type="line"/>
+      <point x="300" y="1060" type="line"/>
+      <point x="57" y="1060" type="line"/>
+      <point x="147" y="330" type="line"/>
+    </contour>
+    <contour>
+      <point x="240" y="1198" type="line"/>
+      <point x="624" y="1198" type="line"/>
+      <point x="652" y="1358" type="line"/>
+      <point x="268" y="1358" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="260.1" color="1,0,0,1" x="214" y="-0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= y.sc + uni0304@top</string>
   </dict>
   </lib>
 </glyph>

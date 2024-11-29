@@ -4,16 +4,43 @@
   <unicode hex="0125"/>
   <anchor x="675" y="2020" name="top"/>
   <anchor x="667" y="-150" name="bottom"/>
-  <anchor x="49" y="512" name="left"/>
   <anchor x="1081" y="1746" name="topright"/>
   <outline>
-    <component base="h"/>
-    <component base="uni0302" xOffset="530" yOffset="472"/>
+    <contour>
+      <point x="60" y="0" type="line"/>
+      <point x="584" y="0" type="line"/>
+      <point x="757" y="992" type="line"/>
+      <point x="975" y="992" type="line"/>
+      <point x="975" y="992"/>
+      <point x="975" y="992"/>
+      <point x="975" y="992" type="qcurve"/>
+      <point x="802" y="0" type="line"/>
+      <point x="1326" y="0" type="line"/>
+      <point x="1452" y="724" type="line" smooth="yes"/>
+      <point x="1479" y="878.5"/>
+      <point x="1334" y="1024"/>
+      <point x="1139" y="1024" type="qcurve" smooth="yes"/>
+      <point x="839" y="1024" type="line" smooth="yes"/>
+      <point x="811.834" y="1024"/>
+      <point x="770.828" y="1009.58"/>
+      <point x="758" y="996" type="qcurve"/>
+      <point x="841" y="1472" type="line"/>
+      <point x="317" y="1472" type="line"/>
+    </contour>
+    <contour>
+      <point x="199" y="1572" type="line"/>
+      <point x="242" y="1572" type="line"/>
+      <point x="500" y="1886" type="line"/>
+      <point x="633" y="1572" type="line"/>
+      <point x="1050" y="1572" type="line"/>
+      <point x="815" y="1920" type="line"/>
+      <point x="490" y="1920" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=h+uni0302@top</string>
   </dict>
   </lib>
 </glyph>

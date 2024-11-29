@@ -1,15 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedblleft" format="2">
-  <advance width="2202"/>
+  <advance width="2222"/>
   <unicode hex="201C"/>
   <outline>
-    <component base="quoteleft"/>
-    <component base="quoteleft" xOffset="914"/>
+    <contour>
+      <point x="815" y="1528" type="line"/>
+      <point x="493" y="1182" type="line" smooth="yes"/>
+      <point x="460.552" y="1147.29"/>
+      <point x="432.301" y="1089.29"/>
+      <point x="424" y="1041" type="qcurve" smooth="yes"/>
+      <point x="382" y="797" type="line" smooth="yes"/>
+      <point x="366.153" y="707.957"/>
+      <point x="408.448" y="658"/>
+      <point x="499" y="658" type="qcurve" smooth="yes"/>
+      <point x="787" y="658" type="line" smooth="yes"/>
+      <point x="877" y="658"/>
+      <point x="936.25" y="708.5"/>
+      <point x="952" y="797" type="qcurve" smooth="yes"/>
+      <point x="994" y="1041" type="line" smooth="yes"/>
+      <point x="1009.85" y="1131.55"/>
+      <point x="967.552" y="1182"/>
+      <point x="877" y="1182" type="qcurve" smooth="yes"/>
+      <point x="601" y="1182" type="line"/>
+      <point x="841" y="1522" type="line"/>
+    </contour>
+    <contour>
+      <point x="1745" y="1528" type="line"/>
+      <point x="1423" y="1182" type="line" smooth="yes"/>
+      <point x="1390.55" y="1147.29"/>
+      <point x="1362.3" y="1089.29"/>
+      <point x="1354" y="1041" type="qcurve" smooth="yes"/>
+      <point x="1312" y="797" type="line" smooth="yes"/>
+      <point x="1296.15" y="707.957"/>
+      <point x="1338.45" y="658"/>
+      <point x="1429" y="658" type="qcurve" smooth="yes"/>
+      <point x="1717" y="658" type="line" smooth="yes"/>
+      <point x="1807" y="658"/>
+      <point x="1866.25" y="708.5"/>
+      <point x="1882" y="797" type="qcurve" smooth="yes"/>
+      <point x="1924" y="1041" type="line" smooth="yes"/>
+      <point x="1939.85" y="1131.55"/>
+      <point x="1897.55" y="1182"/>
+      <point x="1807" y="1182" type="qcurve" smooth="yes"/>
+      <point x="1531" y="1182" type="line"/>
+      <point x="1771" y="1522" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=quoteleft</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=quoteleft</string>
+  <key>com.fontlab.recipe</key>
+  <string>= quoteleft &amp; quoteleft</string>
   </dict>
   </lib>
 </glyph>

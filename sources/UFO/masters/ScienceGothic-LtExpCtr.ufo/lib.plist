@@ -6,7 +6,6 @@
   <array>
     <string>.notdef</string>
     <string>NULL</string>
-    <string>CR</string>
     <string>space</string>
     <string>A</string>
     <string>B</string>
@@ -70,7 +69,7 @@
     <string>h</string>
     <string>dotlessi</string>
     <string>i</string>
-    <string>uni0237</string>
+    <string>jdotless</string>
     <string>j</string>
     <string>k</string>
     <string>l</string>
@@ -160,29 +159,29 @@
     <string>gravecomb.case</string>
     <string>asciicircum</string>
     <string>circumflex</string>
-    <string>uni0302</string>
-    <string>uni0302.case</string>
+    <string>circumflexcomb</string>
+    <string>circumflexcomb.case</string>
     <string>tildecomb</string>
     <string>dieresis</string>
-    <string>uni0308</string>
-    <string>uni0308.case</string>
+    <string>dieresiscomb</string>
+    <string>dieresiscomb.case</string>
     <string>macron</string>
-    <string>uni0304</string>
-    <string>uni0304.case</string>
+    <string>macroncomb</string>
+    <string>macroncomb.case</string>
     <string>ring</string>
-    <string>uni030A</string>
+    <string>ringcomb</string>
     <string>breve</string>
-    <string>uni0306</string>
-    <string>uni0306.case</string>
+    <string>brevecomb</string>
+    <string>brevecomb.case</string>
     <string>dotaccent</string>
-    <string>uni0307</string>
-    <string>uni0307.case</string>
-    <string>uni02C7</string>
+    <string>dotaccentcomb</string>
+    <string>dotaccentcomb.case</string>
+    <string>caron</string>
     <string>hungarumlaut</string>
     <string>uni030B</string>
     <string>uni030B.case</string>
-    <string>uni030C</string>
-    <string>uni030C.case</string>
+    <string>caroncomb</string>
+    <string>caroncomb.case</string>
     <string>uni0324</string>
     <string>uni0324.case</string>
     <string>uni0326</string>
@@ -215,6 +214,7 @@
     <string>daggerdbl</string>
     <string>uniFFFD</string>
     <string>copyright</string>
+    <string>Dcircle</string>
     <string>registered</string>
     <string>trademark</string>
     <string>ordfeminine</string>
@@ -486,7 +486,7 @@
     <string>uni04F7</string>
     <string>uni04F9</string>
     <string>uni051D</string>
-    <string>uni0306.cyr</string>
+    <string>brevecomb.cyr</string>
     <string>uni0430.sc</string>
     <string>uni0431.sc</string>
     <string>uni0432.sc</string>
@@ -553,7 +553,7 @@
     <string>ogonek</string>
     <string>uni0328.case</string>
     <string>germandbls</string>
-    <string>uni000D</string>
+    <string>CR</string>
     <string>zero</string>
     <string>four</string>
     <string>seven</string>
@@ -581,7 +581,6 @@
     <string>uni049D</string>
     <string>Lslash</string>
     <string>lslash</string>
-    <string>one.tnum</string>
     <string>Agrave</string>
     <string>Aacute</string>
     <string>Acircumflex</string>
@@ -847,7 +846,6 @@
     <string>ldot</string>
     <string>Ldot</string>
     <string>ldot.sc</string>
-    <string>uni00AD</string>
     <string>quoteleft.sc</string>
     <string>quoteright.sc</string>
     <string>quotedblleft.sc</string>
@@ -878,8 +876,8 @@
     <string>gbreve.sc</string>
     <string>gdotaccent.sc</string>
     <string>gcommaaccent.sc</string>
-    <string>hcircumflex.sc</string>
-    <string>kcommaaccent.sc</string>
+    <string>uni0125.sc</string>
+    <string>uni0137.sc</string>
     <string>lacute.sc</string>
     <string>nacute.sc</string>
     <string>ncommaaccent.sc</string>
@@ -980,21 +978,27 @@
     <string>uni1EF7</string>
     <string>uni1EF9</string>
     <string>circumflexcomb_acutecomb</string>
-    <string>circumflexcomb_tildecomb</string>
-    <string>brevecomb_gravecomb</string>
-    <string>brevecomb_tildecomb</string>
     <string>circumflexcomb_acutecomb.case</string>
-    <string>circumflexcomb_tildecomb.case</string>
-    <string>brevecomb_gravecomb.case</string>
-    <string>brevecomb_tildecomb.case</string>
     <string>circumflexcomb_gravecomb</string>
     <string>circumflexcomb_gravecomb.case</string>
+    <string>brevecomb_gravecomb</string>
+    <string>brevecomb_gravecomb.case</string>
+    <string>brevecomb_acutecomb</string>
+    <string>brevecomb_acutecomb.case</string>
+    <string>circumflexcomb_tildecomb</string>
+    <string>circumflexcomb_tildecomb.case</string>
+    <string>brevecomb_tildecomb</string>
+    <string>brevecomb_tildecomb.case</string>
+    <string>brevecomb_hookcomb</string>
+    <string>brevecomb_hookcomb.case</string>
+    <string>ring_acute</string>
+    <string>uni030A.case</string>
     <string>eth.sc</string>
     <string>hbar.sc</string>
     <string>lslash.sc</string>
     <string>tbar.sc</string>
     <string>dcroat.sc</string>
-    <string>idotless.sc</string>
+    <string>dotlessi.sc</string>
     <string>ohorn.sc</string>
     <string>uhorn.sc</string>
     <string>at</string>
@@ -1099,17 +1103,17 @@
     <string>uni1EB2</string>
     <string>uni1EB4</string>
     <string>iogonek.sc</string>
-    <string>rcommaaccent.sc</string>
-    <string>tcedilla.sc</string>
-    <string>dzcaron.sc</string>
-    <string>lj.sc</string>
-    <string>oogonek.sc</string>
+    <string>uni0157.sc</string>
+    <string>uni0163.sc</string>
+    <string>uni01C6.sc</string>
+    <string>uni01C9.sc</string>
+    <string>uni01EB.sc</string>
     <string>uogonek.sc</string>
     <string>aringacute.sc</string>
     <string>aeacute.sc</string>
-    <string>nj.sc</string>
+    <string>uni01CC.sc</string>
     <string>oslashacute.sc</string>
-    <string>scedilla.sc</string>
+    <string>uni015F.sc</string>
     <string>uni0201.sc</string>
     <string>uni0205.sc</string>
     <string>uni0209.sc</string>
@@ -1124,9 +1128,9 @@
     <string>uni0217.sc</string>
     <string>uni0219.sc</string>
     <string>uni021B.sc</string>
-    <string>uni1E81.sc</string>
-    <string>uni1E83.sc</string>
-    <string>uni1E85.sc</string>
+    <string>wgrave.sc</string>
+    <string>wacute.sc</string>
+    <string>wdieresis.sc</string>
     <string>uni0233.sc</string>
     <string>uni1EA5.sc</string>
     <string>uni1EA7.sc</string>
@@ -1138,6 +1142,8 @@
     <string>uni1EB3.sc</string>
     <string>uni1EB5.sc</string>
     <string>uni1EB7.sc</string>
+    <string>uni1EA1.sc</string>
+    <string>uni1EA3.sc</string>
     <string>uni1EB9.sc</string>
     <string>uni1EBB.sc</string>
     <string>uni1EBD.sc</string>
@@ -1180,10 +1186,9 @@
     <string>periodcentered.loclCAT</string>
     <string>periodcentered.sc</string>
     <string>periodcentered.loclCAT.case</string>
-    <string>a.slnt</string>
-    <string>uni030A.case</string>
-    <string>f.slnt</string>
     <string>kgreenlandic</string>
+    <string>f.slnt</string>
+    <string>a.slnt</string>
     <string>agrave.slnt</string>
     <string>aacute.slnt</string>
     <string>acircumflex.slnt</string>
@@ -1210,18 +1215,83 @@
     <string>uni0430.slnt</string>
     <string>uni04D1.slnt</string>
     <string>uni04D3.slnt</string>
-    <string>brevecomb_acutecomb</string>
-    <string>brevecomb_acutecomb.case</string>
-    <string>brevecomb_hookcomb</string>
-    <string>brevecomb_hookcomb.case</string>
     <string>aogonek.slnt</string>
     <string>Eng</string>
     <string>uni051A.alt</string>
+    <string>q.alt</string>
+    <string>uni051B.alt</string>
     <string>q.alt.sc</string>
     <string>uni051B.alt.sc</string>
     <string>eng.sc</string>
     <string>dollar.alt2</string>
     <string>uni00A0</string>
+    <string>uni0414.alt</string>
+    <string>uni041B.alt</string>
+    <string>uni0434.alt</string>
+    <string>uni043B.alt</string>
+    <string>uni0434.sc.alt</string>
+    <string>uni043B.sc.alt</string>
+    <string>uni0431.loclBGR</string>
+    <string>uni0432.loclBGR</string>
+    <string>uni0437.loclBGR</string>
+    <string>uni0433.loclBGR</string>
+    <string>uni0434.loclBGR</string>
+    <string>uni0436.loclBGR</string>
+    <string>uni043A.loclBGR</string>
+    <string>uni0438.loclBGR</string>
+    <string>uni0439.loclBGR</string>
+    <string>uni043F.loclBGR</string>
+    <string>uni0442.loclBGR</string>
+    <string>uni0446.loclBGR</string>
+    <string>uni0448.loclBGR</string>
+    <string>uni0449.loclBGR</string>
+    <string>uni044A.loclBGR</string>
+    <string>uni044B.loclBGR</string>
+    <string>uni044C.loclBGR</string>
+    <string>uni044E.loclBGR</string>
+    <string>Bhook</string>
+    <string>Dhook</string>
+    <string>Eopen</string>
+    <string>Khook</string>
+    <string>Nhookleft</string>
+    <string>Oopen</string>
+    <string>Yhook</string>
+    <string>Macute</string>
+    <string>Ndotaccent</string>
+    <string>Ngrave</string>
+    <string>Sdotbelow</string>
+    <string>bhook</string>
+    <string>dhook</string>
+    <string>eopen</string>
+    <string>khook</string>
+    <string>nhookleft</string>
+    <string>oopen</string>
+    <string>yhook</string>
+    <string>macute</string>
+    <string>ndotaccent</string>
+    <string>ngrave</string>
+    <string>sdotbelow</string>
+    <string>macute.sc</string>
+    <string>ndotaccent.sc</string>
+    <string>ngrave.sc</string>
+    <string>sdotbelow.sc</string>
+    <string>bhook.sc</string>
+    <string>dhook.sc</string>
+    <string>eopen.sc</string>
+    <string>khook.sc</string>
+    <string>nhookleft.sc</string>
+    <string>oopen.sc</string>
+    <string>yhook.sc</string>
+    <string>circledotted</string>
+    <string>one.tnum</string>
+    <string>two.tnum</string>
+    <string>three.tnum</string>
+    <string>four.tnum</string>
+    <string>five.tnum</string>
+    <string>six.tnum</string>
+    <string>seven.tnum</string>
+    <string>eight.tnum</string>
+    <string>nine.tnum</string>
   </array>
 </dict>
 </plist>

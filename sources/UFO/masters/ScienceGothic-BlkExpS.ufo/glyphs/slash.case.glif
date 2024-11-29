@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="slash.case" format="2">
-  <advance width="1862"/>
+  <advance width="1864"/>
   <outline>
-    <component base="slash" xOffset="6" yOffset="35"/>
+    <contour>
+      <point x="1337" y="1465" type="line"/>
+      <point x="13" y="-65" type="line"/>
+      <point x="534" y="-65" type="line"/>
+      <point x="1858" y="1465" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=slash</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=slash</string>
+  <key>com.fontlab.recipe</key>
+  <string>=slash@,cap_slash_shift</string>
   </dict>
   </lib>
 </glyph>

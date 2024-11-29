@@ -5,14 +5,40 @@
   <anchor x="261" y="1550" name="top"/>
   <anchor x="261" y="-150" name="bottom"/>
   <anchor x="481" y="0" name="ogonek_in"/>
+  <anchor x="191" y="1485" name="topright"/>
   <outline>
-    <component base="A"/>
-    <component base="uni030F.case" xOffset="262" yOffset="400"/>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="37" y="0" type="line"/>
+      <point x="92" y="328" type="line"/>
+      <point x="426" y="328" type="line"/>
+      <point x="481" y="0" type="line"/>
+      <point x="520" y="0" type="line"/>
+      <point x="281" y="1400" type="line"/>
+      <point x="237" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="98" y="364" type="line"/>
+      <point x="258" y="1319" type="line"/>
+      <point x="419" y="364" type="line"/>
+    </contour>
+    <contour>
+      <point x="413" y="1485" type="line"/>
+      <point x="203" y="1800" type="line"/>
+      <point x="157" y="1800" type="line"/>
+      <point x="373" y="1485" type="line"/>
+    </contour>
+    <contour>
+      <point x="231" y="1485" type="line"/>
+      <point x="21" y="1800" type="line"/>
+      <point x="-25" y="1800" type="line"/>
+      <point x="191" y="1485" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=A+uni030F.case@top</string>
   </dict>
   </lib>
 </glyph>

@@ -4,15 +4,56 @@
   <unicode hex="0146"/>
   <anchor x="1028" y="1150" name="top"/>
   <anchor x="1028" y="-150" name="bottom"/>
-  <anchor x="230" y="500" name="left"/>
   <outline>
-    <component base="n"/>
-    <component base="uni0326" xOffset="1028"/>
+    <contour>
+      <point x="326" y="0" type="line"/>
+      <point x="362" y="0" type="line"/>
+      <point x="362" y="968" type="line"/>
+      <point x="1558" y="968" type="line" smooth="yes"/>
+      <point x="1625.16" y="968"/>
+      <point x="1684" y="899.159"/>
+      <point x="1684" y="832" type="qcurve" smooth="yes"/>
+      <point x="1684" y="0" type="line"/>
+      <point x="1720" y="0" type="line"/>
+      <point x="1720" y="838" type="line" smooth="yes"/>
+      <point x="1720" y="916.75"/>
+      <point x="1636.75" y="1000"/>
+      <point x="1558" y="1000" type="qcurve" smooth="yes"/>
+      <point x="438" y="1000" type="line" smooth="yes"/>
+      <point x="410.834" y="1000"/>
+      <point x="372.564" y="985.583"/>
+      <point x="362" y="972" type="qcurve"/>
+      <point x="362" y="1000" type="line"/>
+      <point x="326" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="1009" y="-244" type="line"/>
+      <point x="1023" y="-249" type="line"/>
+      <point x="1059" y="-185" type="line"/>
+      <point x="1060.51" y="-181.982"/>
+      <point x="1063" y="-174.546"/>
+      <point x="1063" y="-167" type="qcurve" smooth="yes"/>
+      <point x="1063" y="-138" type="line" smooth="yes"/>
+      <point x="1063" y="-123.663"/>
+      <point x="1057.34" y="-118"/>
+      <point x="1043" y="-118" type="qcurve" smooth="yes"/>
+      <point x="1014" y="-118" type="line" smooth="yes"/>
+      <point x="998.908" y="-118"/>
+      <point x="993" y="-123.663"/>
+      <point x="993" y="-138" type="qcurve" smooth="yes"/>
+      <point x="993" y="-167" type="line" smooth="yes"/>
+      <point x="993" y="-181.337"/>
+      <point x="998.908" y="-187"/>
+      <point x="1014" y="-187" type="qcurve" smooth="yes"/>
+      <point x="1023" y="-187" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="0" x="0" y="988"/>
+  <guideline angle="0" x="0" y="870"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=n+uni0326@bottom</string>
   </dict>
   </lib>
 </glyph>

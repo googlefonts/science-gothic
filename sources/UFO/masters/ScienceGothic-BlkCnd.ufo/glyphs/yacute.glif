@@ -5,13 +5,37 @@
   <anchor x="621" y="1174" name="top"/>
   <anchor x="1051" y="-120" name="bottom"/>
   <outline>
-    <component base="y"/>
-    <component base="acutecomb" xOffset="621"/>
+    <contour>
+      <point x="88" y="-428" type="line"/>
+      <point x="225" y="-428" type="line" smooth="yes"/>
+      <point x="353.25" y="-428"/>
+      <point x="544.219" y="-393.688"/>
+      <point x="686.531" y="-310.812"/>
+      <point x="788.625" y="-172.25"/>
+      <point x="828" y="-68" type="qcurve" smooth="yes"/>
+      <point x="1241" y="1024" type="line"/>
+      <point x="771" y="1024" type="line"/>
+      <point x="646" y="676" type="line"/>
+      <point x="540" y="1024" type="line"/>
+      <point x="0" y="1024" type="line"/>
+      <point x="404" y="0" type="line"/>
+      <point x="375" y="-80" type="line"/>
+      <point x="375" y="-80"/>
+      <point x="375" y="-80"/>
+      <point x="375" y="-80" type="qcurve"/>
+      <point x="16" y="-80" type="line"/>
+    </contour>
+    <contour>
+      <point x="313" y="1100" type="line"/>
+      <point x="763" y="1100" type="line"/>
+      <point x="1144" y="1448" type="line"/>
+      <point x="595" y="1448" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=y+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

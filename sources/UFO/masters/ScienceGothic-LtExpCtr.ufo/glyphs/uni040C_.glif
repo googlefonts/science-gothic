@@ -6,13 +6,37 @@
   <anchor x="1335" y="-150" name="bottom"/>
   <anchor x="1105" y="1485" name="topright"/>
   <outline>
-    <component base="uni041A"/>
-    <component base="acutecomb.case" xOffset="1255" yOffset="400"/>
+    <contour>
+      <point x="2160" y="1400" type="line"/>
+      <point x="2067" y="1400" type="line"/>
+      <point x="361" y="713" type="line"/>
+      <point x="390" y="713" type="line"/>
+      <point x="390" y="1400" type="line"/>
+      <point x="350" y="1400" type="line"/>
+      <point x="350" y="0" type="line"/>
+      <point x="390" y="0" type="line"/>
+      <point x="390" y="710" type="line"/>
+      <point x="358" y="710" type="line"/>
+      <point x="2263" y="0" type="line"/>
+      <point x="2372" y="0" type="line"/>
+      <point x="442" y="719" type="line"/>
+      <point x="441" y="710" type="line"/>
+    </contour>
+    <contour>
+      <point x="1075" y="1485" type="line"/>
+      <point x="1133" y="1485" type="line"/>
+      <point x="1602" y="1800" type="line"/>
+      <point x="1533" y="1800" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=K</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=K</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni041A+acutecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

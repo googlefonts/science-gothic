@@ -1,16 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2153" format="2">
-  <advance width="1660"/>
+  <advance width="1626"/>
   <unicode hex="2153"/>
   <outline>
-    <component base="one.numr"/>
-    <component base="fraction" xOffset="521"/>
-    <component base="three.dnom" xOffset="888"/>
+    <contour>
+      <point x="139" y="614" type="line"/>
+      <point x="433" y="614" type="line"/>
+      <point x="433" y="1412" type="line"/>
+      <point x="32" y="1349" type="line"/>
+      <point x="32" y="1150" type="line"/>
+      <point x="139" y="1157" type="line"/>
+    </contour>
+    <contour>
+      <point x="951" y="1400" type="line"/>
+      <point x="103" y="0" type="line"/>
+      <point x="406" y="0" type="line"/>
+      <point x="1254" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="918" y="218" type="line"/>
+      <point x="918" y="162" type="line" smooth="yes"/>
+      <point x="918" y="58.6198"/>
+      <point x="1032.88" y="-10"/>
+      <point x="1134" y="-10" type="qcurve" smooth="yes"/>
+      <point x="1334" y="-10" type="line" smooth="yes"/>
+      <point x="1436.63" y="-10"/>
+      <point x="1562" y="64.8652"/>
+      <point x="1562" y="169" type="qcurve" smooth="yes"/>
+      <point x="1562" y="234" type="line" smooth="yes"/>
+      <point x="1562" y="320.024"/>
+      <point x="1489.95" y="396.963"/>
+      <point x="1416" y="403" type="qcurve"/>
+      <point x="1485.42" y="415.074"/>
+      <point x="1549" y="488.804"/>
+      <point x="1549" y="562" type="qcurve" smooth="yes"/>
+      <point x="1549" y="622" type="line" smooth="yes"/>
+      <point x="1549" y="704.251"/>
+      <point x="1442.17" y="794"/>
+      <point x="1332" y="794" type="qcurve" smooth="yes"/>
+      <point x="1136" y="794" type="line" smooth="yes"/>
+      <point x="1081.25" y="794"/>
+      <point x="999.75" y="773.062"/>
+      <point x="945.75" y="731.438"/>
+      <point x="919" y="669.25"/>
+      <point x="919" y="628" type="qcurve" smooth="yes"/>
+      <point x="919" y="576" type="line"/>
+      <point x="1195" y="529" type="line"/>
+      <point x="1195" y="587" type="line"/>
+      <point x="1195" y="587"/>
+      <point x="1195" y="587"/>
+      <point x="1195" y="587" type="qcurve"/>
+      <point x="1224" y="587" type="line" smooth="yes"/>
+      <point x="1244.37" y="587"/>
+      <point x="1273" y="569.11"/>
+      <point x="1273" y="551" type="qcurve" smooth="yes"/>
+      <point x="1273" y="522" type="line" smooth="yes"/>
+      <point x="1273" y="505.399"/>
+      <point x="1251.36" y="484"/>
+      <point x="1234" y="484" type="qcurve" smooth="yes"/>
+      <point x="1197" y="484" type="line"/>
+      <point x="1197" y="310" type="line"/>
+      <point x="1238" y="310" type="line" smooth="yes"/>
+      <point x="1257.62" y="310"/>
+      <point x="1286" y="289.11"/>
+      <point x="1286" y="271" type="qcurve" smooth="yes"/>
+      <point x="1286" y="237" type="line" smooth="yes"/>
+      <point x="1286" y="217.38"/>
+      <point x="1253.88" y="197"/>
+      <point x="1232" y="197" type="qcurve" smooth="yes"/>
+      <point x="1194" y="197" type="line"/>
+      <point x="1194" y="197"/>
+      <point x="1194" y="197"/>
+      <point x="1194" y="197" type="qcurve"/>
+      <point x="1194" y="266" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="0.4,0.4,0.4,1" name="halfwidth" x="813" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>one.numr</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>three.dnom</string>
+  <key>com.fontlab.recipe</key>
+  <string>= one.numr &amp; fraction &amp; three.dnom</string>
   </dict>
   </lib>
 </glyph>

@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zacute.sc" format="2">
-  <advance width="1815"/>
+  <advance width="1816"/>
   <anchor x="908" y="1210" name="top"/>
   <anchor x="908" y="-150" name="bottom"/>
   <outline>
-    <component base="z.sc"/>
-    <component base="acutecomb" xOffset="832" yOffset="60"/>
+    <contour>
+      <point x="-65" y="0" type="line"/>
+      <point x="1625" y="0" type="line"/>
+      <point x="1631" y="33" type="line"/>
+      <point x="33" y="33" type="line"/>
+      <point x="1805" y="1043" type="line"/>
+      <point x="1808" y="1060" type="line"/>
+      <point x="187" y="1060" type="line"/>
+      <point x="181" y="1027" type="line"/>
+      <point x="1710" y="1027" type="line"/>
+      <point x="-62" y="17" type="line"/>
+    </contour>
+    <contour>
+      <point x="713" y="1145" type="line"/>
+      <point x="768" y="1145" type="line"/>
+      <point x="1306" y="1508" type="line"/>
+      <point x="1241" y="1508" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=z.sc+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

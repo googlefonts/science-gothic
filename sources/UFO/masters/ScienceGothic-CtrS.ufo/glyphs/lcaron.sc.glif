@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lcaron.sc" format="2">
-  <advance width="1187"/>
+  <advance width="1188"/>
   <anchor x="435" y="1210" name="top"/>
   <anchor x="552" y="-150" name="bottom"/>
   <anchor x="176" y="700" name="left"/>
   <anchor x="843" y="1060" name="right"/>
   <anchor x="916" y="560" name="eldot"/>
   <outline>
-    <component base="l.sc"/>
-    <component base="caroncomb.alt" xOffset="715" yOffset="-388"/>
+    <contour>
+      <point x="102" y="0" type="line"/>
+      <point x="1060" y="0" type="line"/>
+      <point x="1066" y="33" type="line"/>
+      <point x="358" y="33" type="line"/>
+      <point x="537" y="1060" type="line"/>
+      <point x="287" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="987" y="723" type="line"/>
+      <point x="1026" y="731" type="line"/>
+      <point x="1236" y="1060" type="line"/>
+      <point x="1047" y="1060" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=l.sc+caroncomb.alt@right</string>
   </dict>
   </lib>
 </glyph>

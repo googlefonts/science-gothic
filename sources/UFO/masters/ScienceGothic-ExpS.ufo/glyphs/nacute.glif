@@ -1,18 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nacute" format="2">
-  <advance width="2098"/>
+  <advance width="2099"/>
   <unicode hex="0144"/>
-  <anchor x="1134" y="1150" name="top"/>
-  <anchor x="907" y="-150" name="bottom"/>
-  <anchor x="136" y="500" name="left"/>
+  <anchor x="1135" y="1150" name="top"/>
+  <anchor x="908" y="-150" name="bottom"/>
   <outline>
-    <component base="n"/>
-    <component base="acutecomb" xOffset="1059"/>
+    <contour>
+      <point x="150" y="0" type="line"/>
+      <point x="398" y="0" type="line"/>
+      <point x="535" y="786" type="line"/>
+      <point x="1607" y="786" type="line"/>
+      <point x="1607" y="786"/>
+      <point x="1607" y="786"/>
+      <point x="1607" y="786" type="qcurve"/>
+      <point x="1470" y="0" type="line"/>
+      <point x="1718" y="0" type="line"/>
+      <point x="1851" y="760" type="line" smooth="yes"/>
+      <point x="1874.25" y="893.5"/>
+      <point x="1745.5" y="1010"/>
+      <point x="1576" y="1010" type="qcurve" smooth="yes"/>
+      <point x="856" y="1010" type="line" smooth="yes"/>
+      <point x="738.282" y="1010"/>
+      <point x="595.239" y="957.313"/>
+      <point x="556" y="906" type="qcurve"/>
+      <point x="573" y="1000" type="line"/>
+      <point x="325" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="824" y="1085" type="line"/>
+      <point x="1133" y="1085" type="line"/>
+      <point x="1798" y="1448" type="line"/>
+      <point x="1457" y="1448" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="0" x="0" y="988"/>
+  <guideline angle="0" x="0" y="870"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=n+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

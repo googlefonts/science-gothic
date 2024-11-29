@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="guilsinglright.case" format="2">
-  <advance width="655"/>
+  <advance width="657"/>
   <outline>
-    <component base="guilsinglleft.case" xScale="-1" yScale="-1" xOffset="626.948" yOffset="1200"/>
+    <contour>
+      <point x="225" y="970" type="line"/>
+      <point x="183" y="970" type="line"/>
+      <point x="470" y="600" type="line"/>
+      <point x="54" y="230" type="line"/>
+      <point x="96" y="230" type="line"/>
+      <point x="512" y="600" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=guilsinglright</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=guilsinglright</string>
+  <key>com.fontlab.recipe</key>
+  <string>=guilsinglleft.case@~,~</string>
   </dict>
   </lib>
 </glyph>

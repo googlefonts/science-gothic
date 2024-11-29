@@ -2,15 +2,51 @@
 <glyph name="racute.sc" format="2">
   <advance width="752"/>
   <anchor x="376" y="-150" name="bottom"/>
-  <anchor x="450.049" y="1210" name="top"/>
+  <anchor x="450" y="1210" name="top"/>
   <outline>
-    <component base="r.sc"/>
-    <component base="acutecomb" xOffset="371" yOffset="60"/>
+    <contour>
+      <point x="-46" y="0" type="line"/>
+      <point x="204" y="0" type="line"/>
+      <point x="273" y="398" type="line"/>
+      <point x="288" y="398" type="line"/>
+      <point x="362" y="0" type="line"/>
+      <point x="629" y="0" type="line"/>
+      <point x="522" y="443" type="line"/>
+      <point x="522" y="443" type="line"/>
+      <point x="586.896" y="467.147"/>
+      <point x="670.399" y="567.957"/>
+      <point x="687" y="657" type="qcurve" smooth="yes"/>
+      <point x="718" y="834" type="line" smooth="yes"/>
+      <point x="731.125" y="907.125"/>
+      <point x="704.312" y="996.031"/>
+      <point x="634.188" y="1044.22"/>
+      <point x="525.625" y="1060"/>
+      <point x="457" y="1060" type="qcurve" smooth="yes"/>
+      <point x="139" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="311" y="611" type="line"/>
+      <point x="352" y="848" type="line"/>
+      <point x="412" y="848" type="line" smooth="yes"/>
+      <point x="439.92" y="848"/>
+      <point x="464.282" y="814.429"/>
+      <point x="459" y="785" type="qcurve" smooth="yes"/>
+      <point x="440" y="674" type="line" smooth="yes"/>
+      <point x="434.718" y="646.08"/>
+      <point x="398.92" y="611"/>
+      <point x="371" y="611" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="288" y="1145" type="line"/>
+      <point x="512" y="1145" type="line"/>
+      <point x="802" y="1460" type="line"/>
+      <point x="554" y="1460" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=r.sc+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

@@ -3,13 +3,57 @@
   <anchor x="79" y="1150" name="_top"/>
   <anchor x="141" y="1500" name="top"/>
   <outline>
-    <component base="uni0306.case"/>
-    <component base="uni0309.case" xOffset="64" yOffset="350"/>
+    <contour>
+      <point x="-143" y="1400" type="line"/>
+      <point x="-159.875" y="1303.25"/>
+      <point x="-145.875" y="1184.06"/>
+      <point x="-88.125" y="1118.44"/>
+      <point x="11.375" y="1096"/>
+      <point x="80" y="1096" type="qcurve" smooth="yes"/>
+      <point x="148.25" y="1096"/>
+      <point x="249.219" y="1118.44"/>
+      <point x="322.531" y="1184.06"/>
+      <point x="372.125" y="1303.25"/>
+      <point x="389" y="1400" type="qcurve"/>
+      <point x="214" y="1400" type="line"/>
+      <point x="206.5" y="1356.88"/>
+      <point x="184.188" y="1304.22"/>
+      <point x="155.312" y="1275.53"/>
+      <point x="120.25" y="1266"/>
+      <point x="100" y="1266" type="qcurve" smooth="yes"/>
+      <point x="78.625" y="1266"/>
+      <point x="46.4062" y="1275.53"/>
+      <point x="27.8438" y="1304.22"/>
+      <point x="24.5" y="1356.88"/>
+      <point x="32" y="1400" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="44" y="1450" type="qcurve"/>
+      <point x="185" y="1450" type="line"/>
+      <point x="240.84" y="1477.17"/>
+      <point x="312.19" y="1557.4"/>
+      <point x="322" y="1614" type="qcurve" smooth="yes"/>
+      <point x="334.074" y="1681.16"/>
+      <point x="253.178" y="1773"/>
+      <point x="183" y="1773" type="qcurve" smooth="yes"/>
+      <point x="117.35" y="1773"/>
+      <point x="31.5214" y="1728.47"/>
+      <point x="-13" y="1693" type="qcurve"/>
+      <point x="24" y="1593" type="line"/>
+      <point x="37.5828" y="1601.3"/>
+      <point x="67.3988" y="1615"/>
+      <point x="84" y="1615" type="qcurve" smooth="yes"/>
+      <point x="111.166" y="1615"/>
+      <point x="132.773" y="1581.39"/>
+      <point x="129" y="1558" type="qcurve" smooth="yes"/>
+      <point x="122.963" y="1524.04"/>
+      <point x="74.9386" y="1468.87"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= brevecomb.case + uni0309.case@top</string>
   </dict>
   </lib>
 </glyph>

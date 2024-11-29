@@ -1,18 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tcaron" format="2">
-  <advance width="921"/>
+  <advance width="920"/>
   <unicode hex="0165"/>
   <anchor x="482" y="1400" name="top"/>
   <anchor x="381" y="-150" name="bottom"/>
   <anchor x="510" y="1400" name="right"/>
   <outline>
-    <component base="t"/>
-    <component base="caroncomb.alt" xOffset="382" yOffset="-48"/>
+    <contour>
+      <point x="393" y="0" type="qcurve" smooth="yes"/>
+      <point x="660" y="0" type="line"/>
+      <point x="676" y="32" type="line"/>
+      <point x="399" y="32" type="line" smooth="yes"/>
+      <point x="331.841" y="32"/>
+      <point x="281.681" y="100.841"/>
+      <point x="293" y="168" type="qcurve" smooth="yes"/>
+      <point x="433" y="968" type="line"/>
+      <point x="869" y="968" type="line"/>
+      <point x="875" y="1000" type="line"/>
+      <point x="439" y="1000" type="line"/>
+      <point x="481" y="1244" type="line"/>
+      <point x="445" y="1244" type="line"/>
+      <point x="403" y="1000" type="line"/>
+      <point x="153" y="1000" type="line"/>
+      <point x="147" y="968" type="line"/>
+      <point x="397" y="968" type="line"/>
+      <point x="257" y="165" type="line" smooth="yes"/>
+      <point x="242.663" y="84.2578"/>
+      <point x="312.258" y="0"/>
+    </contour>
+    <contour>
+      <point x="612" y="1065" type="line"/>
+      <point x="644" y="1072" type="line"/>
+      <point x="762" y="1400" type="line"/>
+      <point x="728" y="1400" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= t + caroncomb.alt@right</string>
   </dict>
   </lib>
 </glyph>

@@ -3,14 +3,32 @@
   <advance width="2242"/>
   <anchor x="1121" y="1608" name="top"/>
   <anchor x="1121" y="-150" name="bottom"/>
+  <anchor x="498" y="1326" name="topright"/>
   <outline>
-    <component base="t.sc"/>
-    <component base="uni030C" xOffset="1121" yOffset="60"/>
+    <contour>
+      <point x="2162" y="1060" type="line"/>
+      <point x="80" y="1060" type="line"/>
+      <point x="80" y="1027" type="line"/>
+      <point x="996" y="1027" type="line"/>
+      <point x="996" y="0" type="line"/>
+      <point x="1246" y="0" type="line"/>
+      <point x="1246" y="1027" type="line"/>
+      <point x="2162" y="1027" type="line"/>
+    </contour>
+    <contour>
+      <point x="1714" y="1508" type="line"/>
+      <point x="1662" y="1508" type="line"/>
+      <point x="1225" y="1165" type="line"/>
+      <point x="788" y="1508" type="line"/>
+      <point x="498" y="1508" type="line"/>
+      <point x="988" y="1145" type="line"/>
+      <point x="1251" y="1145" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=t.sc+uni030C@top</string>
   </dict>
   </lib>
 </glyph>

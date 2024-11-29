@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexcomb_gravecomb" format="2">
   <anchor x="60" y="1150" name="_top"/>
-  <anchor x="168" y="1598" name="_bottom"/>
-  <anchor x="536" y="1274" name="topright"/>
   <outline>
-    <component base="uni0302"/>
-    <component base="gravecomb" xOffset="672" yOffset="174"/>
+    <contour>
+      <point x="-273" y="1100" type="line"/>
+      <point x="-234" y="1100" type="line"/>
+      <point x="-9" y="1392" type="line"/>
+      <point x="77" y="1100" type="line"/>
+      <point x="497" y="1100" type="line"/>
+      <point x="312" y="1448" type="line"/>
+      <point x="-3" y="1448" type="line"/>
+    </contour>
+    <contour>
+      <point x="725" y="1274" type="line"/>
+      <point x="689" y="1274" type="line"/>
+      <point x="330" y="1622" type="line"/>
+      <point x="751" y="1622" type="line"/>
+    </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0302+gravecomb@topright</string>
+  </dict>
+  </lib>
 </glyph>

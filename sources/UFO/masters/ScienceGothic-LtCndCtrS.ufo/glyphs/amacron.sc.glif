@@ -3,15 +3,34 @@
   <advance width="423"/>
   <anchor x="315" y="1286" name="top"/>
   <anchor x="65" y="-150" name="bottom"/>
-  <anchor x="301" y="0" name="ogonek"/>
+  <anchor x="303" y="0" name="ogonek"/>
   <outline>
-    <component base="a.sc"/>
-    <component base="uni0304" xOffset="194" yOffset="10"/>
+    <contour>
+      <point x="-120" y="0" type="line"/>
+      <point x="-83" y="0" type="line"/>
+      <point x="262" y="978" type="line"/>
+      <point x="266" y="0" type="line"/>
+      <point x="303" y="0" type="line"/>
+      <point x="295" y="1060" type="line"/>
+      <point x="256" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="-5" y="244" type="line"/>
+      <point x="271" y="244" type="line"/>
+      <point x="271" y="277" type="line"/>
+      <point x="7" y="277" type="line"/>
+    </contour>
+    <contour>
+      <point x="172" y="1154" type="line"/>
+      <point x="412" y="1154" type="line"/>
+      <point x="418" y="1186" type="line"/>
+      <point x="178" y="1186" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=a.sc+uni0304@top</string>
   </dict>
   </lib>
 </glyph>

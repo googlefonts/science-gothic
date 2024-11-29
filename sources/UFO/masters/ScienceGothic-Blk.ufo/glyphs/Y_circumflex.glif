@@ -3,16 +3,35 @@
   <advance width="1905"/>
   <unicode hex="0176"/>
   <anchor x="953" y="1856" name="top"/>
-  <anchor x="953" y="-150" name="bottom"/>
+  <anchor x="967" y="-150" name="bottom"/>
   <anchor x="1473" y="1576" name="topright"/>
   <outline>
-    <component base="Y"/>
-    <component base="uni0302.case" xOffset="953" yOffset="376"/>
+    <contour>
+      <point x="681" y="0" type="line"/>
+      <point x="1253" y="0" type="line"/>
+      <point x="1253" y="593" type="line"/>
+      <point x="1905" y="1400" type="line"/>
+      <point x="1270" y="1400" type="line"/>
+      <point x="981" y="988" type="line"/>
+      <point x="692" y="1400" type="line"/>
+      <point x="0" y="1400" type="line"/>
+      <point x="681" y="589" type="line"/>
+    </contour>
+    <contour>
+      <point x="437" y="1476" type="line"/>
+      <point x="893" y="1476" type="line"/>
+      <point x="950" y="1619" type="line"/>
+      <point x="1007" y="1476" type="line"/>
+      <point x="1473" y="1476" type="line"/>
+      <point x="1217" y="1776" type="line"/>
+      <point x="693" y="1776" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="1,0,0,1" x="952.5" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=Y+uni0302.case@top</string>
   </dict>
   </lib>
 </glyph>

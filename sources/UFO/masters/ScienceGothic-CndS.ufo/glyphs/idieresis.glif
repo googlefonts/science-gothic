@@ -1,18 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="idieresis" format="2">
-  <advance width="372"/>
+  <advance width="376"/>
   <unicode hex="00EF"/>
-  <anchor x="39" y="-150" name="bottom"/>
-  <anchor x="317" y="1440" name="top"/>
-  <anchor x="96" y="0" name="ogonek"/>
+  <anchor x="43" y="-150" name="bottom"/>
+  <anchor x="321" y="1440" name="top"/>
+  <anchor x="100" y="0" name="ogonek"/>
   <outline>
-    <component base="dotlessi"/>
-    <component base="uni0308" xOffset="182"/>
+    <contour>
+      <point x="-53" y="0" type="line"/>
+      <point x="191" y="0" type="line"/>
+      <point x="366" y="1000" type="line"/>
+      <point x="122" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="14" y="1200" type="line" smooth="yes"/>
+      <point x="1.9264" y="1133.6"/>
+      <point x="21.5952" y="1110"/>
+      <point x="88" y="1110" type="qcurve" smooth="yes"/>
+      <point x="128" y="1110" type="line" smooth="yes"/>
+      <point x="194.405" y="1110"/>
+      <point x="221.926" y="1133.6"/>
+      <point x="234" y="1200" type="qcurve" smooth="yes"/>
+      <point x="245" y="1262" type="line" smooth="yes"/>
+      <point x="256.319" y="1326.9"/>
+      <point x="236.405" y="1350"/>
+      <point x="170" y="1350" type="qcurve" smooth="yes"/>
+      <point x="130" y="1350" type="line" smooth="yes"/>
+      <point x="63.5952" y="1350"/>
+      <point x="36.319" y="1326.9"/>
+      <point x="25" y="1262" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="324" y="1200" type="line" smooth="yes"/>
+      <point x="311.926" y="1133.6"/>
+      <point x="331.595" y="1110"/>
+      <point x="398" y="1110" type="qcurve" smooth="yes"/>
+      <point x="438" y="1110" type="line" smooth="yes"/>
+      <point x="504.405" y="1110"/>
+      <point x="531.926" y="1133.6"/>
+      <point x="544" y="1200" type="qcurve" smooth="yes"/>
+      <point x="555" y="1262" type="line" smooth="yes"/>
+      <point x="566.319" y="1326.9"/>
+      <point x="546.405" y="1350"/>
+      <point x="480" y="1350" type="qcurve" smooth="yes"/>
+      <point x="440" y="1350" type="line" smooth="yes"/>
+      <point x="373.595" y="1350"/>
+      <point x="346.319" y="1326.9"/>
+      <point x="335" y="1262" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=dotlessi+dieresiscomb@top</string>
   </dict>
   </lib>
 </glyph>

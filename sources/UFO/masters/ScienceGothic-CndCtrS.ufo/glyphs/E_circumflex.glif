@@ -1,19 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ecircumflex" format="2">
-  <advance width="694"/>
+  <advance width="693"/>
   <unicode hex="00CA"/>
   <anchor x="605" y="1880" name="top"/>
   <anchor x="249" y="-150" name="bottom"/>
   <anchor x="361" y="0" name="ogonek"/>
   <anchor x="793" y="1575" name="topright"/>
   <outline>
-    <component base="E"/>
-    <component base="uni0302.case" xOffset="467" yOffset="400"/>
+    <contour>
+      <point x="-11" y="0" type="line"/>
+      <point x="567" y="0" type="line"/>
+      <point x="573" y="36" type="line"/>
+      <point x="259" y="36" type="line"/>
+      <point x="375" y="700" type="line"/>
+      <point x="655" y="700" type="line"/>
+      <point x="661" y="736" type="line"/>
+      <point x="381" y="736" type="line"/>
+      <point x="491" y="1364" type="line"/>
+      <point x="791" y="1364" type="line"/>
+      <point x="797" y="1400" type="line"/>
+      <point x="233" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="377" y="1475" type="line"/>
+      <point x="418" y="1475" type="line"/>
+      <point x="526" y="1669" type="line"/>
+      <point x="562" y="1475" type="line"/>
+      <point x="775" y="1475" type="line"/>
+      <point x="670" y="1800" type="line"/>
+      <point x="560" y="1800" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="-127" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=E+uni0302.case@top</string>
   </dict>
   </lib>
 </glyph>

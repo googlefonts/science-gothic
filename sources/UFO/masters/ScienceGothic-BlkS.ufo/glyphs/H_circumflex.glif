@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Hcircumflex" format="2">
-  <advance width="2074"/>
+  <advance width="1896"/>
   <unicode hex="0124"/>
-  <anchor x="1243" y="1856" name="top"/>
-  <anchor x="892" y="-150" name="bottom"/>
-  <anchor x="82" y="700" name="left"/>
-  <anchor x="1713" y="1576" name="topright"/>
+  <anchor x="1065" y="1856" name="top"/>
+  <anchor x="714" y="-150" name="bottom"/>
+  <anchor x="1535" y="1576" name="topright"/>
   <outline>
-    <component base="H"/>
-    <component base="uni0302.case" xOffset="1105" yOffset="376"/>
+    <contour>
+      <point x="62" y="0" type="line"/>
+      <point x="634" y="0" type="line"/>
+      <point x="718" y="482" type="line"/>
+      <point x="1288" y="482" type="line"/>
+      <point x="1204" y="0" type="line"/>
+      <point x="1776" y="0" type="line"/>
+      <point x="2020" y="1400" type="line"/>
+      <point x="1448" y="1400" type="line"/>
+      <point x="1373" y="966" type="line"/>
+      <point x="803" y="966" type="line"/>
+      <point x="878" y="1400" type="line"/>
+      <point x="306" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="482" y="1476" type="line"/>
+      <point x="958" y="1476" type="line"/>
+      <point x="1030" y="1619" type="line"/>
+      <point x="1072" y="1476" type="line"/>
+      <point x="1518" y="1476" type="line"/>
+      <point x="1314" y="1776" type="line"/>
+      <point x="790" y="1776" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="260.1" color="1,0,0,1" x="739" y="-0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=H+uni0302.case@top</string>
   </dict>
   </lib>
 </glyph>

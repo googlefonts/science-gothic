@@ -1,16 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="threequarters" format="2">
-  <advance width="3751"/>
+  <advance width="3495"/>
   <unicode hex="00BE"/>
   <outline>
-    <component base="three.numr"/>
-    <component base="fraction" xOffset="1954"/>
-    <component base="four.dnom" xOffset="2071"/>
+    <contour>
+      <point x="320" y="835" type="line"/>
+      <point x="320" y="760" type="line" smooth="yes"/>
+      <point x="320" y="669.448"/>
+      <point x="426.994" y="614"/>
+      <point x="510" y="614" type="qcurve" smooth="yes"/>
+      <point x="1348" y="614" type="line" smooth="yes"/>
+      <point x="1432.52" y="614"/>
+      <point x="1554" y="692.92"/>
+      <point x="1554" y="788" type="qcurve" smooth="yes"/>
+      <point x="1554" y="859" type="line" smooth="yes"/>
+      <point x="1554" y="939.742"/>
+      <point x="1459.33" y="1011.72"/>
+      <point x="1405" y="1017" type="qcurve"/>
+      <point x="1477.44" y="1028.32"/>
+      <point x="1551" y="1098.56"/>
+      <point x="1551" y="1171" type="qcurve" smooth="yes"/>
+      <point x="1551" y="1226" type="line" smooth="yes"/>
+      <point x="1551" y="1315.8"/>
+      <point x="1446.12" y="1398"/>
+      <point x="1345" y="1398" type="qcurve" smooth="yes"/>
+      <point x="517" y="1398" type="line" smooth="yes"/>
+      <point x="470.125" y="1398"/>
+      <point x="399.031" y="1380.44"/>
+      <point x="351.219" y="1345.56"/>
+      <point x="327" y="1293.5"/>
+      <point x="327" y="1259" type="qcurve" smooth="yes"/>
+      <point x="327" y="1167" type="line"/>
+      <point x="527" y="1140" type="line"/>
+      <point x="527" y="1378" type="line"/>
+      <point x="527" y="1378"/>
+      <point x="527" y="1378"/>
+      <point x="527" y="1378" type="qcurve"/>
+      <point x="1302" y="1378" type="line" smooth="yes"/>
+      <point x="1326.9" y="1378"/>
+      <point x="1351" y="1343.17"/>
+      <point x="1351" y="1316" type="qcurve" smooth="yes"/>
+      <point x="1351" y="1079" type="line" smooth="yes"/>
+      <point x="1351" y="1054.1"/>
+      <point x="1326.15" y="1022"/>
+      <point x="1302" y="1022" type="qcurve" smooth="yes"/>
+      <point x="806" y="1022" type="line"/>
+      <point x="806" y="1002" type="line"/>
+      <point x="1302" y="1002" type="line" smooth="yes"/>
+      <point x="1326.9" y="1002"/>
+      <point x="1354" y="969.656"/>
+      <point x="1354" y="944" type="qcurve" smooth="yes"/>
+      <point x="1354" y="699" type="line" smooth="yes"/>
+      <point x="1354" y="670.325"/>
+      <point x="1328.41" y="634"/>
+      <point x="1302" y="634" type="qcurve" smooth="yes"/>
+      <point x="520" y="634" type="line"/>
+      <point x="520" y="634"/>
+      <point x="520" y="634"/>
+      <point x="520" y="634" type="qcurve"/>
+      <point x="520" y="862" type="line"/>
+    </contour>
+    <contour>
+      <point x="2451" y="1400" type="line"/>
+      <point x="1051" y="0" type="line"/>
+      <point x="1094" y="0" type="line"/>
+      <point x="2494" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1895" y="215" type="line"/>
+      <point x="2811" y="215" type="line"/>
+      <point x="2811" y="0" type="line"/>
+      <point x="3011" y="0" type="line"/>
+      <point x="3011" y="215" type="line"/>
+      <point x="3287" y="215" type="line"/>
+      <point x="3287" y="245" type="line"/>
+      <point x="3011" y="245" type="line"/>
+      <point x="3011" y="784" type="line"/>
+      <point x="2940" y="784" type="line"/>
+      <point x="1895" y="245" type="line"/>
+    </contour>
+    <contour>
+      <point x="1960" y="245" type="line"/>
+      <point x="2811" y="684" type="line"/>
+      <point x="2811" y="245" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>three.numr</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>four.dnom</string>
+  <key>com.fontlab.recipe</key>
+  <string>=three.numr &amp; fraction &amp; four.dnom</string>
   </dict>
   </lib>
 </glyph>

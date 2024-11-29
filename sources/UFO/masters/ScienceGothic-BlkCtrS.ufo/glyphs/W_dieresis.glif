@@ -1,17 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Wdieresis" format="2">
-  <advance width="2602"/>
+  <advance width="2603"/>
   <unicode hex="1E84"/>
-  <anchor x="1301" y="-150" name="bottom"/>
+  <anchor x="1301.5" y="-150" name="bottom"/>
   <anchor x="1519" y="1550" name="top"/>
   <outline>
-    <component base="W"/>
-    <component base="uni0308.case" xOffset="1376" yOffset="378"/>
+    <contour>
+      <point x="425" y="0" type="line"/>
+      <point x="799" y="0" type="line"/>
+      <point x="1393" y="1092" type="line"/>
+      <point x="1593" y="0" type="line"/>
+      <point x="1967" y="0" type="line"/>
+      <point x="2729" y="1400" type="line"/>
+      <point x="2689" y="1400" type="line"/>
+      <point x="2096" y="307" type="line"/>
+      <point x="1906" y="1400" type="line"/>
+      <point x="1521" y="1400" type="line"/>
+      <point x="927" y="305" type="line"/>
+      <point x="706" y="1400" type="line"/>
+      <point x="127" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="965" y="1588" type="line" smooth="yes"/>
+      <point x="950.663" y="1506.5"/>
+      <point x="973.503" y="1478"/>
+      <point x="1055" y="1478" type="qcurve" smooth="yes"/>
+      <point x="1237" y="1478" type="line" smooth="yes"/>
+      <point x="1318.5" y="1478"/>
+      <point x="1352.66" y="1506.5"/>
+      <point x="1367" y="1588" type="qcurve" smooth="yes"/>
+      <point x="1392" y="1730" type="line" smooth="yes"/>
+      <point x="1405.58" y="1809.99"/>
+      <point x="1382.5" y="1838"/>
+      <point x="1301" y="1838" type="qcurve" smooth="yes"/>
+      <point x="1119" y="1838" type="line" smooth="yes"/>
+      <point x="1037.5" y="1838"/>
+      <point x="1003.58" y="1809.99"/>
+      <point x="990" y="1730" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1555" y="1588" type="line" smooth="yes"/>
+      <point x="1540.66" y="1506.5"/>
+      <point x="1563.5" y="1478"/>
+      <point x="1645" y="1478" type="qcurve" smooth="yes"/>
+      <point x="1827" y="1478" type="line" smooth="yes"/>
+      <point x="1908.5" y="1478"/>
+      <point x="1942.66" y="1506.5"/>
+      <point x="1957" y="1588" type="qcurve" smooth="yes"/>
+      <point x="1982" y="1730" type="line" smooth="yes"/>
+      <point x="1995.58" y="1809.99"/>
+      <point x="1972.5" y="1838"/>
+      <point x="1891" y="1838" type="qcurve" smooth="yes"/>
+      <point x="1709" y="1838" type="line" smooth="yes"/>
+      <point x="1627.5" y="1838"/>
+      <point x="1593.58" y="1809.99"/>
+      <point x="1580" y="1730" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=W+dieresiscomb.case@top</string>
   </dict>
   </lib>
 </glyph>

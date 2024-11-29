@@ -2,7 +2,20 @@
 <glyph name="uni0331" format="2">
   <unicode hex="0331"/>
   <anchor x="1" y="-150" name="_bottom"/>
+  <anchor x="0" y="-239" name="_top"/>
+  <anchor x="0" y="-23" name="top"/>
   <outline>
-    <component base="uni0304" yOffset="-1389"/>
+    <contour>
+      <point x="-325" y="-155" type="line"/>
+      <point x="325" y="-155" type="line"/>
+      <point x="325" y="-123" type="line"/>
+      <point x="-325" y="-123" type="line"/>
+    </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0304@,-</string>
+  </dict>
+  </lib>
 </glyph>

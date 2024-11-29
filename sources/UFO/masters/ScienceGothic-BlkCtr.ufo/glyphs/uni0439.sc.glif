@@ -3,13 +3,51 @@
   <advance width="1837"/>
   <anchor x="993" y="1623" name="top"/>
   <outline>
-    <component base="uni0438.sc"/>
-    <component base="uni0306.cyr" xOffset="992" yOffset="62"/>
+    <contour>
+      <point x="200" y="0" type="line"/>
+      <point x="715" y="0" type="line"/>
+      <point x="1101" y="942" type="line"/>
+      <point x="1101" y="0" type="line"/>
+      <point x="1637" y="0" type="line"/>
+      <point x="1637" y="1086" type="line"/>
+      <point x="1122" y="1086" type="line"/>
+      <point x="736" y="139" type="line"/>
+      <point x="736" y="1086" type="line"/>
+      <point x="200" y="1086" type="line"/>
+    </contour>
+    <contour>
+      <point x="614" y="1523" type="line"/>
+      <point x="614" y="1423.62"/>
+      <point x="637.969" y="1285.66"/>
+      <point x="717.281" y="1199.59"/>
+      <point x="867.625" y="1161"/>
+      <point x="994" y="1161" type="qcurve" smooth="yes"/>
+      <point x="1120.38" y="1161"/>
+      <point x="1270.09" y="1199.59"/>
+      <point x="1348.66" y="1285.66"/>
+      <point x="1372" y="1423.62"/>
+      <point x="1372" y="1523" type="qcurve"/>
+      <point x="1107" y="1523" type="line"/>
+      <point x="1107" y="1409"/>
+      <point x="1098.12" y="1277.38"/>
+      <point x="1073.38" y="1210.62"/>
+      <point x="1029.25" y="1193"/>
+      <point x="994" y="1193" type="qcurve" smooth="yes"/>
+      <point x="957.625" y="1193"/>
+      <point x="912.594" y="1210.62"/>
+      <point x="887.656" y="1277.38"/>
+      <point x="879" y="1409"/>
+      <point x="879" y="1523" type="qcurve"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=h.sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=h.sc</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0438.sc+brevecomb.cyr@top</string>
   </dict>
   </lib>
 </glyph>

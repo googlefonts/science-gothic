@@ -3,12 +3,33 @@
   <advance width="881"/>
   <unicode hex="2074"/>
   <outline>
-    <component base="four.dnom" xOffset="-1" yOffset="950"/>
+    <contour>
+      <point x="4" y="1161" type="line"/>
+      <point x="559" y="1161" type="line"/>
+      <point x="559" y="950" type="line"/>
+      <point x="593" y="950" type="line"/>
+      <point x="593" y="1161" type="line"/>
+      <point x="733" y="1161" type="line"/>
+      <point x="733" y="1191" type="line"/>
+      <point x="593" y="1191" type="line"/>
+      <point x="593" y="1716" type="line"/>
+      <point x="555" y="1716" type="line"/>
+      <point x="4" y="1183" type="line"/>
+    </contour>
+    <contour>
+      <point x="56" y="1191" type="line"/>
+      <point x="559" y="1678" type="line"/>
+      <point x="559" y="1191" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>four.dnom</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>four.dnom</string>
+  <key>com.fontlab.recipe</key>
+  <string>= four.dnom @,950</string>
   </dict>
   </lib>
 </glyph>

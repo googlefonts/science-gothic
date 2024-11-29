@@ -4,14 +4,55 @@
   <unicode hex="010E"/>
   <anchor x="600" y="1880" name="top"/>
   <anchor x="243" y="-150" name="bottom"/>
+  <anchor x="314" y="1700" name="topright"/>
   <outline>
-    <component base="D"/>
-    <component base="uni030C.case" xOffset="459" yOffset="400"/>
+    <contour>
+      <point x="261" y="244" type="line"/>
+      <point x="420" y="1156" type="line"/>
+      <point x="484" y="1156" type="line" smooth="yes"/>
+      <point x="522.25" y="1156"/>
+      <point x="571.469" y="1132"/>
+      <point x="589.281" y="1042"/>
+      <point x="573.625" y="865"/>
+      <point x="547" y="712" type="qcurve" smooth="yes"/>
+      <point x="519.25" y="553.75"/>
+      <point x="472.75" y="367.938"/>
+      <point x="423.25" y="271.562"/>
+      <point x="364.75" y="244"/>
+      <point x="325" y="244" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="-45" y="0" type="line"/>
+      <point x="293" y="0" type="line" smooth="yes"/>
+      <point x="404.75" y="0"/>
+      <point x="564.312" y="48.8125"/>
+      <point x="681.688" y="194.688"/>
+      <point x="767.75" y="461.75"/>
+      <point x="806" y="680" type="qcurve" smooth="yes"/>
+      <point x="842" y="887"/>
+      <point x="845.812" y="1163.75"/>
+      <point x="771.188" y="1330.25"/>
+      <point x="613" y="1400"/>
+      <point x="487" y="1400" type="qcurve" smooth="yes"/>
+      <point x="199" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="835" y="1800" type="line"/>
+      <point x="624" y="1800" type="line"/>
+      <point x="565" y="1682" type="line"/>
+      <point x="538" y="1800" type="line"/>
+      <point x="332" y="1800" type="line"/>
+      <point x="437" y="1475" type="line"/>
+      <point x="616" y="1475" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="0" x="0" y="1549"/>
+  <guideline angle="0" x="0" y="1325"/>
+  <guideline angle="0" x="0" y="73"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=D+uni030C.case@top</string>
   </dict>
   </lib>
 </glyph>

@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yacute.sc" format="2">
-  <advance width="1781"/>
+  <advance width="1782"/>
   <anchor x="988" y="1210" name="top"/>
   <anchor x="748" y="-150" name="bottom"/>
   <outline>
-    <component base="y.sc"/>
-    <component base="acutecomb" xOffset="913" yOffset="60"/>
+    <contour>
+      <point x="756" y="0" type="line"/>
+      <point x="793" y="0" type="line"/>
+      <point x="878" y="486" type="line"/>
+      <point x="1848" y="1060" type="line"/>
+      <point x="1785" y="1060" type="line"/>
+      <point x="862" y="515" type="line"/>
+      <point x="127" y="1060" type="line"/>
+      <point x="67" y="1060" type="line"/>
+      <point x="841" y="486" type="line"/>
+    </contour>
+    <contour>
+      <point x="793" y="1145" type="line"/>
+      <point x="848" y="1145" type="line"/>
+      <point x="1386" y="1508" type="line"/>
+      <point x="1321" y="1508" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="260.1" color="1,0,0,1" x="773" y="-0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=y.sc+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

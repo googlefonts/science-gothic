@@ -3,12 +3,25 @@
   <advance width="1284"/>
   <unicode hex="005D"/>
   <outline>
-    <component base="bracketleft" xScale="-1" yScale="-1" xOffset="1284" yOffset="1192"/>
+    <contour>
+      <point x="884" y="1448" type="line"/>
+      <point x="200" y="1448" type="line"/>
+      <point x="200" y="1416" type="line"/>
+      <point x="636" y="1416" type="line"/>
+      <point x="636" y="-224" type="line"/>
+      <point x="200" y="-224" type="line"/>
+      <point x="200" y="-256" type="line"/>
+      <point x="884" y="-256" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=rsb("bracketleft")</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=lsb("bracketleft")</string>
+  <key>com.fontlab.recipe</key>
+  <string>=bracketleft@~,~</string>
   </dict>
   </lib>
 </glyph>

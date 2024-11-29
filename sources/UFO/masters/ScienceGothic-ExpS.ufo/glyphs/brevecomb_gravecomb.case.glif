@@ -1,16 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="brevecomb_gravecomb.case" format="2">
   <anchor x="79" y="1150" name="_top"/>
-  <anchor x="141" y="1500" name="top"/>
-  <anchor x="373.822" y="1435" name="topright"/>
   <outline>
-    <component base="uni0306.case"/>
-    <component base="gravecomb.case" xOffset="-286" yOffset="350"/>
+    <contour>
+      <point x="-283" y="1400" type="line"/>
+      <point x="-298.375" y="1311.5"/>
+      <point x="-265.469" y="1198.75"/>
+      <point x="-170.781" y="1134.25"/>
+      <point x="-15.25" y="1110"/>
+      <point x="92" y="1110" type="qcurve" smooth="yes"/>
+      <point x="199.25" y="1110"/>
+      <point x="351.094" y="1134.25"/>
+      <point x="453.656" y="1198.75"/>
+      <point x="513.625" y="1311.5"/>
+      <point x="529" y="1400" type="qcurve"/>
+      <point x="360" y="1400" type="line"/>
+      <point x="353.625" y="1362.88"/>
+      <point x="317.375" y="1315.78"/>
+      <point x="253.625" y="1288.97"/>
+      <point x="160.375" y="1279"/>
+      <point x="97" y="1279" type="qcurve" smooth="yes"/>
+      <point x="33.625" y="1279"/>
+      <point x="-52.9375" y="1288.97"/>
+      <point x="-103.562" y="1315.78"/>
+      <point x="-120.375" y="1362.88"/>
+      <point x="-114" y="1400" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="57" y="1497" type="line"/>
+      <point x="287" y="1497" type="line"/>
+      <point x="92" y="1730" type="line"/>
+      <point x="-193" y="1730" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=brevecomb.case+gravecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

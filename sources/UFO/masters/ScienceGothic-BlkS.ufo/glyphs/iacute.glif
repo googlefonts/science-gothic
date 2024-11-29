@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iacute" format="2">
-  <advance width="783"/>
+  <advance width="782"/>
   <unicode hex="00ED"/>
-  <anchor x="245" y="-150" name="bottom"/>
-  <anchor x="476" y="1174" name="top"/>
-  <anchor x="381" y="0" name="ogonek"/>
+  <anchor x="246" y="-150" name="bottom"/>
+  <anchor x="477" y="1174" name="top"/>
+  <anchor x="382" y="0" name="ogonek"/>
   <outline>
-    <component base="dotlessi"/>
-    <component base="acutecomb" xOffset="397"/>
+    <contour>
+      <point x="10" y="0" type="line"/>
+      <point x="534" y="0" type="line"/>
+      <point x="713" y="1024" type="line"/>
+      <point x="189" y="1024" type="line"/>
+    </contour>
+    <contour>
+      <point x="131" y="1100" type="line"/>
+      <point x="631" y="1100" type="line"/>
+      <point x="1096" y="1448" type="line"/>
+      <point x="495" y="1448" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=dotlessi+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bracketright" format="2">
-  <advance width="680"/>
+  <advance width="679"/>
   <unicode hex="005D"/>
   <outline>
-    <component base="bracketleft" xScale="-1" yScale="-1" xOffset="680" yOffset="1192"/>
+    <contour>
+      <point x="394" y="1448" type="line"/>
+      <point x="85" y="1448" type="line"/>
+      <point x="85" y="1416" type="line"/>
+      <point x="358" y="1416" type="line"/>
+      <point x="358" y="-224" type="line"/>
+      <point x="85" y="-224" type="line"/>
+      <point x="85" y="-256" type="line"/>
+      <point x="394" y="-256" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=rsb("bracketleft")</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=lsb("bracketleft")</string>
+  <key>com.fontlab.recipe</key>
+  <string>=bracketleft@~,~</string>
   </dict>
   </lib>
 </glyph>

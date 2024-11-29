@@ -1,18 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rcaron" format="2">
-  <advance width="1042"/>
+  <advance width="1041"/>
   <unicode hex="0159"/>
   <anchor x="564" y="1528" name="top"/>
   <anchor x="260" y="-150" name="bottom"/>
   <anchor x="142" y="500" name="left"/>
+  <anchor x="279" y="1266" name="topright"/>
   <outline>
-    <component base="r"/>
-    <component base="uni030C" xOffset="564"/>
+    <contour>
+      <point x="242" y="0" type="line"/>
+      <point x="278" y="0" type="line"/>
+      <point x="278" y="968" type="line"/>
+      <point x="785" y="968" type="line" smooth="yes"/>
+      <point x="852.159" y="968"/>
+      <point x="914" y="898.405"/>
+      <point x="914" y="832" type="qcurve" smooth="yes"/>
+      <point x="914" y="752" type="line"/>
+      <point x="950" y="760" type="line"/>
+      <point x="950" y="835" type="line" smooth="yes"/>
+      <point x="950" y="875.125"/>
+      <point x="928.531" y="936.719"/>
+      <point x="886.719" y="978.531"/>
+      <point x="825.125" y="1000"/>
+      <point x="785" y="1000" type="qcurve" smooth="yes"/>
+      <point x="354" y="1000" type="line" smooth="yes"/>
+      <point x="326.834" y="1000"/>
+      <point x="288.564" y="985.583"/>
+      <point x="278" y="972" type="qcurve"/>
+      <point x="278" y="1000" type="line"/>
+      <point x="242" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="850" y="1428" type="line"/>
+      <point x="809" y="1428" type="line"/>
+      <point x="565" y="1130" type="line"/>
+      <point x="321" y="1428" type="line"/>
+      <point x="279" y="1428" type="line"/>
+      <point x="543" y="1105" type="line"/>
+      <point x="585" y="1105" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=r+uni030C@top</string>
   </dict>
   </lib>
 </glyph>

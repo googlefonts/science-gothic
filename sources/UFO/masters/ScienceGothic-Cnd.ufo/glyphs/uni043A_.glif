@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni043A" format="2">
-  <advance width="781" height="1448"/>
+  <advance width="781"/>
   <unicode hex="043A"/>
   <anchor x="449" y="1150" name="top"/>
   <note>might be too wide on conds - based on latin k which has the same problem</note>
@@ -21,4 +21,12 @@
   </outline>
   <guideline angle="90" x="327" y="0"/>
   <guideline angle="90" x="433" y="0"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=n</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=k</string>
+  </dict>
+  </lib>
 </glyph>

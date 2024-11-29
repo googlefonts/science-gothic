@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="brevecomb_acutecomb" format="2">
   <anchor x="0" y="1174" name="_top"/>
-  <anchor x="0" y="1549" name="top"/>
   <outline>
-    <component base="uni0306"/>
-    <component base="acutecomb" yOffset="375"/>
+    <contour>
+      <point x="-360" y="1449" type="line"/>
+      <point x="-360" y="1338.75"/>
+      <point x="-333.844" y="1201.81"/>
+      <point x="-256.406" y="1125.69"/>
+      <point x="-115.125" y="1099"/>
+      <point x="0" y="1099" type="qcurve" smooth="yes"/>
+      <point x="115.125" y="1099"/>
+      <point x="255.781" y="1125.69"/>
+      <point x="332.469" y="1201.81"/>
+      <point x="358" y="1338.75"/>
+      <point x="358" y="1449" type="qcurve"/>
+      <point x="103" y="1449" type="line"/>
+      <point x="103" y="1337.62"/>
+      <point x="94.4375" y="1210.41"/>
+      <point x="71.5625" y="1146.84"/>
+      <point x="31.5" y="1131"/>
+      <point x="0" y="1131" type="qcurve" smooth="yes"/>
+      <point x="-32.625" y="1131"/>
+      <point x="-73.5938" y="1146.84"/>
+      <point x="-96.6562" y="1210.41"/>
+      <point x="-105" y="1337.62"/>
+      <point x="-105" y="1449" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="-94" y="1536" type="line"/>
+      <point x="-58" y="1536" type="line"/>
+      <point x="278" y="1762" type="line"/>
+      <point x="-76" y="1762" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=brevecomb+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

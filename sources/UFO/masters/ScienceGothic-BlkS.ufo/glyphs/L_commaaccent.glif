@@ -1,20 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lcommaaccent" format="2">
-  <advance width="1554"/>
+  <advance width="1466"/>
   <unicode hex="013B"/>
-  <anchor x="619" y="1550" name="top"/>
-  <anchor x="696" y="-150" name="bottom"/>
-  <anchor x="82" y="700" name="left"/>
-  <anchor x="1016" y="1400" name="right"/>
-  <anchor x="1264" y="800" name="eldot"/>
+  <anchor x="531" y="1550" name="top"/>
+  <anchor x="608" y="-150" name="bottom"/>
+  <anchor x="-6" y="700" name="left"/>
+  <anchor x="928" y="1400" name="right"/>
+  <anchor x="1176" y="800" name="eldot"/>
   <outline>
-    <component base="L"/>
-    <component base="uni0326.case" xOffset="711"/>
+    <contour>
+      <point x="61" y="0" type="line"/>
+      <point x="1385" y="0" type="line"/>
+      <point x="1469" y="484" type="line"/>
+      <point x="717" y="484" type="line"/>
+      <point x="877" y="1400" type="line"/>
+      <point x="305" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="355" y="-678" type="line"/>
+      <point x="495" y="-708" type="line"/>
+      <point x="734" y="-457" type="line" smooth="yes"/>
+      <point x="744.564" y="-445.681"/>
+      <point x="757.718" y="-410.429"/>
+      <point x="763" y="-381" type="qcurve" smooth="yes"/>
+      <point x="791" y="-219" type="line" smooth="yes"/>
+      <point x="801.564" y="-159.387"/>
+      <point x="773.632" y="-126"/>
+      <point x="711" y="-126" type="qcurve" smooth="yes"/>
+      <point x="513" y="-126" type="line" smooth="yes"/>
+      <point x="450.368" y="-126"/>
+      <point x="409.564" y="-159.387"/>
+      <point x="399" y="-219" type="qcurve" smooth="yes"/>
+      <point x="371" y="-381" type="line" smooth="yes"/>
+      <point x="360.436" y="-441.368"/>
+      <point x="388.368" y="-475"/>
+      <point x="451" y="-475" type="qcurve" smooth="yes"/>
+      <point x="499" y="-475" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=L+uni0326.case@bottom</string>
   </dict>
   </lib>
 </glyph>

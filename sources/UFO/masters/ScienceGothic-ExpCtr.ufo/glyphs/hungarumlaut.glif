@@ -2,14 +2,24 @@
 <glyph name="hungarumlaut" format="2">
   <advance width="1400"/>
   <unicode hex="02DD"/>
-  <anchor x="407.95" y="1100" name="_top"/>
   <outline>
-    <component base="uni030B" xOffset="409"/>
+    <contour>
+      <point x="100" y="1085" type="line"/>
+      <point x="148" y="1085" type="line"/>
+      <point x="783" y="1448" type="line"/>
+      <point x="485" y="1448" type="line"/>
+    </contour>
+    <contour>
+      <point x="617" y="1085" type="line"/>
+      <point x="665" y="1085" type="line"/>
+      <point x="1300" y="1448" type="line"/>
+      <point x="1002" y="1448" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni030B^100,100</string>
   </dict>
   </lib>
 </glyph>

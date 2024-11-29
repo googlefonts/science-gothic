@@ -2,12 +2,51 @@
 <glyph name="zero.sups" format="2">
   <advance width="399"/>
   <outline>
-    <component base="zero.dnom" yOffset="953"/>
+    <contour>
+      <point x="194" y="950" type="qcurve" smooth="yes"/>
+      <point x="206" y="950" type="line" smooth="yes"/>
+      <point x="268.632" y="950"/>
+      <point x="323" y="1002.86"/>
+      <point x="323" y="1067" type="qcurve" smooth="yes"/>
+      <point x="323" y="1624" type="line" smooth="yes"/>
+      <point x="323" y="1687.39"/>
+      <point x="267.877" y="1740"/>
+      <point x="206" y="1740" type="qcurve" smooth="yes"/>
+      <point x="194" y="1740" type="line" smooth="yes"/>
+      <point x="133.632" y="1740"/>
+      <point x="76" y="1687.39"/>
+      <point x="76" y="1624" type="qcurve" smooth="yes"/>
+      <point x="76" y="1067" type="line" smooth="yes"/>
+      <point x="76" y="1002.86"/>
+      <point x="132.877" y="950"/>
+    </contour>
+    <contour>
+      <point x="191" y="980" type="line" smooth="yes"/>
+      <point x="146.479" y="980"/>
+      <point x="110" y="1016.48"/>
+      <point x="110" y="1061" type="qcurve" smooth="yes"/>
+      <point x="110" y="1629" type="line" smooth="yes"/>
+      <point x="110" y="1673.52"/>
+      <point x="146.479" y="1710"/>
+      <point x="191" y="1710" type="qcurve" smooth="yes"/>
+      <point x="209" y="1710" type="line" smooth="yes"/>
+      <point x="255.031" y="1710"/>
+      <point x="289" y="1673.52"/>
+      <point x="289" y="1629" type="qcurve" smooth="yes"/>
+      <point x="289" y="1061" type="line" smooth="yes"/>
+      <point x="289" y="1016.48"/>
+      <point x="255.031" y="980"/>
+      <point x="209" y="980" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>zero.dnom</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>zero.dnom</string>
+  <key>com.fontlab.recipe</key>
+  <string>= zero.dnom @,950</string>
   </dict>
   </lib>
 </glyph>

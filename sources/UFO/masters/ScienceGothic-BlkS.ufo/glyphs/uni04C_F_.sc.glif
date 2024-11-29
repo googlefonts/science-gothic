@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni04CF.sc" format="2">
-  <advance width="890"/>
-  <anchor x="541" y="1236" name="top"/>
-  <anchor x="299" y="-150" name="bottom"/>
-  <anchor x="431" y="0" name="ogonek"/>
+  <advance width="712"/>
+  <anchor x="453" y="1236" name="top"/>
+  <anchor x="211" y="-150" name="bottom"/>
+  <anchor x="343" y="0" name="ogonek"/>
   <outline>
-    <component base="i.sc"/>
+    <contour>
+      <point x="60" y="0" type="line"/>
+      <point x="591" y="0" type="line"/>
+      <point x="781" y="1086" type="line"/>
+      <point x="250" y="1086" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=i.sc</string>
   </dict>
   </lib>
 </glyph>

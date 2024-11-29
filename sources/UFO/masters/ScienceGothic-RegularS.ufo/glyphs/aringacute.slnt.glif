@@ -1,18 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aringacute.slnt" format="2">
-  <advance width="1409" height="1448"/>
-  <anchor x="841" y="1574" name="top"/>
-  <anchor x="540" y="-150" name="bottom"/>
-  <anchor x="1060" y="0" name="ogonek"/>
+  <advance width="1410"/>
+  <anchor x="768" y="1150" name="top"/>
+  <anchor x="541" y="-150" name="bottom"/>
+  <anchor x="1061" y="0" name="ogonek"/>
   <outline>
-    <component base="a.slnt"/>
-    <component base="uni030A" xOffset="692"/>
-    <component base="acute" xOffset="553" yOffset="424"/>
+    <contour>
+      <point x="869" y="0" type="line"/>
+      <point x="1117" y="0" type="line"/>
+      <point x="1291" y="1000" type="line"/>
+      <point x="1043" y="1000" type="line"/>
+      <point x="1026" y="900" type="line"/>
+      <point x="1014.68" y="955.84"/>
+      <point x="905.362" y="1010"/>
+      <point x="805" y="1010" type="qcurve" smooth="yes"/>
+      <point x="467" y="1010" type="line" smooth="yes"/>
+      <point x="330.417" y="1010"/>
+      <point x="193.865" y="915.417"/>
+      <point x="175" y="806" type="qcurve" smooth="yes"/>
+      <point x="70" y="204" type="line" smooth="yes"/>
+      <point x="49.6258" y="87.7916"/>
+      <point x="150.154" y="-10"/>
+      <point x="289" y="-10" type="qcurve" smooth="yes"/>
+      <point x="473" y="-10" type="line" smooth="yes"/>
+      <point x="550.724" y="-10"/>
+      <point x="679.405" y="32.2148"/>
+      <point x="736" y="79" type="qcurve" smooth="yes"/>
+      <point x="1161" y="430" type="line"/>
+      <point x="1039" y="591" type="line"/>
+      <point x="582" y="214" type="line"/>
+      <point x="582" y="214"/>
+      <point x="582" y="214"/>
+      <point x="582" y="214" type="qcurve"/>
+      <point x="320" y="214" type="line"/>
+      <point x="320" y="214"/>
+      <point x="320" y="214"/>
+      <point x="320" y="214" type="qcurve"/>
+      <point x="420" y="786" type="line"/>
+      <point x="420" y="786"/>
+      <point x="420" y="786"/>
+      <point x="420" y="786" type="qcurve"/>
+      <point x="1006" y="786" type="line"/>
+      <point x="934" y="373" type="line"/>
+      <point x="934" y="373" type="line"/>
+    </contour>
+    <contour>
+      <point x="593" y="1252" type="qcurve" smooth="yes"/>
+      <point x="584" y="1200.62"/>
+      <point x="589.812" y="1133.72"/>
+      <point x="627.688" y="1094.53"/>
+      <point x="701.75" y="1079"/>
+      <point x="761" y="1079" type="qcurve" smooth="yes"/>
+      <point x="820.25" y="1079"/>
+      <point x="900.188" y="1094.22"/>
+      <point x="952.312" y="1133.03"/>
+      <point x="982" y="1199.62"/>
+      <point x="991" y="1251" type="qcurve" smooth="yes"/>
+      <point x="1000" y="1302.38"/>
+      <point x="993.875" y="1369.28"/>
+      <point x="955.625" y="1408.47"/>
+      <point x="881.25" y="1424"/>
+      <point x="822" y="1424" type="qcurve" smooth="yes"/>
+      <point x="762.75" y="1424"/>
+      <point x="683.125" y="1408.78"/>
+      <point x="631.375" y="1369.97"/>
+      <point x="602" y="1303.38"/>
+    </contour>
+    <contour>
+      <point x="720" y="1252" type="qcurve" smooth="yes"/>
+      <point x="726.037" y="1288.22"/>
+      <point x="758.988" y="1312"/>
+      <point x="802" y="1312" type="qcurve" smooth="yes"/>
+      <point x="845.012" y="1312"/>
+      <point x="870.037" y="1288.22"/>
+      <point x="864" y="1252" type="qcurve" smooth="yes"/>
+      <point x="857.963" y="1215.78"/>
+      <point x="824.012" y="1191"/>
+      <point x="781" y="1191" type="qcurve" smooth="yes"/>
+      <point x="737.988" y="1191"/>
+      <point x="713.963" y="1215.78"/>
+    </contour>
+    <contour>
+      <point x="921" y="1494" type="line"/>
+      <point x="1164" y="1727" type="line"/>
+      <point x="959" y="1727" type="line"/>
+      <point x="746" y="1494" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="0" x="0" y="988"/>
+  <guideline angle="0" x="0" y="42"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=a.slnt + ring_acute@top</string>
   </dict>
   </lib>
 </glyph>

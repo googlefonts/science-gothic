@@ -1,18 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="i" format="2">
-  <advance width="887"/>
+  <advance width="906"/>
   <unicode hex="0069"/>
-  <anchor x="296" y="-150" name="bottom"/>
-  <anchor x="523" y="1150" name="top"/>
-  <anchor x="240" y="0" name="ogonek"/>
+  <anchor x="310" y="-150" name="bottom"/>
+  <anchor x="537" y="1150" name="top"/>
+  <anchor x="254" y="0" name="ogonek"/>
   <outline>
-    <component base="dotlessi"/>
-    <component base="ijdot" xOffset="-10"/>
+    <contour>
+      <point x="212" y="0" type="line"/>
+      <point x="460" y="0" type="line"/>
+      <point x="635" y="1000" type="line"/>
+      <point x="387" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="418" y="1230" type="line" smooth="yes"/>
+      <point x="405.926" y="1163.6"/>
+      <point x="425.595" y="1140"/>
+      <point x="492" y="1140" type="qcurve" smooth="yes"/>
+      <point x="576" y="1140" type="line" smooth="yes"/>
+      <point x="642.405" y="1140"/>
+      <point x="669.926" y="1163.6"/>
+      <point x="682" y="1230" type="qcurve" smooth="yes"/>
+      <point x="696" y="1312" type="line" smooth="yes"/>
+      <point x="707.319" y="1376.9"/>
+      <point x="687.405" y="1400"/>
+      <point x="621" y="1400" type="qcurve" smooth="yes"/>
+      <point x="537" y="1400" type="line" smooth="yes"/>
+      <point x="470.595" y="1400"/>
+      <point x="443.319" y="1376.9"/>
+      <point x="432" y="1312" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=l</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=l</string>
+  <key>com.fontlab.recipe</key>
+  <string>=dotlessi+ijdot@top</string>
   </dict>
   </lib>
 </glyph>

@@ -2,17 +2,33 @@
 <glyph name="uni1EF2" format="2">
   <advance width="1559"/>
   <unicode hex="1EF2"/>
-  <anchor x="821" y="1556" name="top"/>
-  <anchor x="803" y="-150" name="bottom"/>
+  <anchor x="820.526" y="1556" name="top"/>
+  <anchor x="817" y="-149" name="bottom"/>
   <anchor x="952" y="1491" name="topright"/>
   <outline>
-    <component base="Y"/>
-    <component base="gravecomb.case" xOffset="626" yOffset="406"/>
+    <contour>
+      <point x="685" y="1" type="line"/>
+      <point x="949" y="1" type="line"/>
+      <point x="949" y="656" type="line"/>
+      <point x="1559" y="1400" type="line"/>
+      <point x="1513" y="1400" type="line"/>
+      <point x="934" y="697" type="line"/>
+      <point x="378" y="1400" type="line"/>
+      <point x="0" y="1400" type="line"/>
+      <point x="685" y="582" type="line"/>
+    </contour>
+    <contour>
+      <point x="1002" y="1491" type="line"/>
+      <point x="748" y="1806" type="line"/>
+      <point x="445" y="1806" type="line"/>
+      <point x="938" y="1491" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="1,0,0,1" x="767" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=Y+gravecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

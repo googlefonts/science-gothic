@@ -4,14 +4,52 @@
   <unicode hex="010E"/>
   <anchor x="483" y="1880" name="top"/>
   <anchor x="126" y="-150" name="bottom"/>
+  <anchor x="309" y="1700" name="topright"/>
   <outline>
-    <component base="D"/>
-    <component base="uni030C.case" xOffset="342" yOffset="400"/>
+    <contour>
+      <point x="24" y="36" type="line"/>
+      <point x="256" y="1364" type="line"/>
+      <point x="364" y="1364" type="line" smooth="yes"/>
+      <point x="440.875" y="1364"/>
+      <point x="527.625" y="1317.88"/>
+      <point x="555.375" y="1177.62"/>
+      <point x="528.125" y="919.25"/>
+      <point x="491" y="707" type="qcurve" smooth="yes"/>
+      <point x="455" y="499.625"/>
+      <point x="394.531" y="238.094"/>
+      <point x="318.219" y="90.1562"/>
+      <point x="212.375" y="36"/>
+      <point x="131" y="36" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="-22" y="0" type="line"/>
+      <point x="126" y="0" type="line" smooth="yes"/>
+      <point x="217.875" y="0"/>
+      <point x="338.688" y="55.9062"/>
+      <point x="425.312" y="209.844"/>
+      <point x="492.125" y="482.875"/>
+      <point x="530" y="700" type="qcurve" smooth="yes"/>
+      <point x="568.25" y="920.5"/>
+      <point x="593.844" y="1194.38"/>
+      <point x="556.906" y="1346.62"/>
+      <point x="451.625" y="1400"/>
+      <point x="359" y="1400" type="qcurve" smooth="yes"/>
+      <point x="222" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="608" y="1800" type="line"/>
+      <point x="569" y="1800" type="line"/>
+      <point x="419" y="1529" type="line"/>
+      <point x="364" y="1800" type="line"/>
+      <point x="327" y="1800" type="line"/>
+      <point x="396" y="1485" type="line"/>
+      <point x="431" y="1485" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=D+uni030C.case@top</string>
   </dict>
   </lib>
 </glyph>

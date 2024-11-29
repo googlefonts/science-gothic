@@ -2,8 +2,39 @@
 <glyph name="uni032E" format="2">
   <unicode hex="032E"/>
   <anchor x="-1" y="-150" name="_bottom"/>
+  <anchor x="0" y="-387" name="_top"/>
+  <anchor x="0" y="0" name="top"/>
   <outline>
-    <component base="uni0306" yOffset="-1561"/>
+    <contour>
+      <point x="-480" y="-100" type="line"/>
+      <point x="-480" y="-199.375"/>
+      <point x="-438.844" y="-337.344"/>
+      <point x="-331.406" y="-423.406"/>
+      <point x="-145.125" y="-462"/>
+      <point x="0" y="-462" type="qcurve" smooth="yes"/>
+      <point x="145.125" y="-462"/>
+      <point x="330.781" y="-423.406"/>
+      <point x="437.469" y="-337.344"/>
+      <point x="478" y="-199.375"/>
+      <point x="478" y="-100" type="qcurve"/>
+      <point x="213" y="-100" type="line"/>
+      <point x="213" y="-136"/>
+      <point x="181.312" y="-185.625"/>
+      <point x="124.688" y="-216.375"/>
+      <point x="46.5" y="-230"/>
+      <point x="0" y="-230" type="qcurve" smooth="yes"/>
+      <point x="-47.625" y="-230"/>
+      <point x="-126.719" y="-216.375"/>
+      <point x="-183.531" y="-185.625"/>
+      <point x="-215" y="-136"/>
+      <point x="-215" y="-100" type="qcurve"/>
+    </contour>
   </outline>
   <guideline angle="0" x="0" y="-100"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>=brevecomb@,-462</string>
+  </dict>
+  </lib>
 </glyph>

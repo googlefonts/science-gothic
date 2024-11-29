@@ -5,12 +5,10 @@
   <note>Conventional solution for Blk Cond is not very good. Consider alternates.</note>
   <outline>
     <contour>
-      <point x="425" y="-14" type="line"/>
+      <point x="425" y="-14" type="qcurve" smooth="yes"/>
       <point x="864" y="-14" type="line" smooth="yes"/>
-      <point x="945" y="-14"/>
-      <point x="1079" y="10"/>
-      <point x="1173" y="74"/>
-      <point x="1225" y="185"/>
+      <point x="1026.75" y="-14"/>
+      <point x="1225" y="97.5"/>
       <point x="1225" y="273" type="qcurve" smooth="yes"/>
       <point x="1225" y="326" type="line"/>
       <point x="705" y="373" type="line"/>
@@ -37,23 +35,24 @@
       <point x="701" y="729" type="line"/>
       <point x="1221" y="773" type="line"/>
       <point x="1221" y="813" type="line" smooth="yes"/>
-      <point x="1221" y="901"/>
-      <point x="1169" y="1012"/>
-      <point x="1075" y="1076"/>
-      <point x="941" y="1100"/>
+      <point x="1221" y="988.5"/>
+      <point x="1022.75" y="1100"/>
       <point x="860" y="1100" type="qcurve" smooth="yes"/>
       <point x="425" y="1100" type="line" smooth="yes"/>
-      <point x="344" y="1100"/>
-      <point x="210" y="1076"/>
-      <point x="116" y="1012"/>
-      <point x="64" y="901"/>
+      <point x="262.25" y="1100"/>
+      <point x="64" y="988.5"/>
       <point x="64" y="813" type="qcurve" smooth="yes"/>
       <point x="64" y="273" type="line" smooth="yes"/>
-      <point x="64" y="185"/>
-      <point x="116" y="74"/>
-      <point x="210" y="10"/>
-      <point x="344" y="-14"/>
-      <point x="425" y="-14" type="qcurve"/>
+      <point x="64" y="97.5"/>
+      <point x="262.25" y="-14"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=c.sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=c.sc</string>
+  </dict>
+  </lib>
 </glyph>

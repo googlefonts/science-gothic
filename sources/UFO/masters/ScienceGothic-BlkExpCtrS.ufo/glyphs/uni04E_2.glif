@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni04E2" format="2">
-  <advance width="3404"/>
+  <advance width="3407"/>
   <unicode hex="04E2"/>
   <anchor x="1501" y="-150" name="bottom"/>
   <anchor x="1830" y="1734" name="top"/>
   <outline>
-    <component base="uni0418"/>
-    <component base="uni0304.case" xOffset="1704" yOffset="400"/>
+    <contour>
+      <point x="283" y="0" type="line"/>
+      <point x="787" y="0" type="line"/>
+      <point x="2541" y="1295" type="line"/>
+      <point x="2315" y="0" type="line"/>
+      <point x="2887" y="0" type="line"/>
+      <point x="3131" y="1400" type="line"/>
+      <point x="2629" y="1400" type="line"/>
+      <point x="873" y="102" type="line"/>
+      <point x="1099" y="1400" type="line"/>
+      <point x="527" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1283" y="1634" type="line"/>
+      <point x="1276" y="1598" type="line"/>
+      <point x="2336" y="1598" type="line"/>
+      <point x="2343" y="1634" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=uni0418</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=uni0418</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0418+uni0304.case@top</string>
   </dict>
   </lib>
 </glyph>

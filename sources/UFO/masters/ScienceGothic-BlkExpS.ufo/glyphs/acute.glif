@@ -2,15 +2,18 @@
 <glyph name="acute" format="2">
   <advance width="1462"/>
   <unicode hex="00B4"/>
-  <anchor x="522" y="1150" name="_top"/>
-  <anchor x="150" y="1100" name="_topright"/>
   <outline>
-    <component base="acutecomb" xOffset="447"/>
+    <contour>
+      <point x="50" y="1100" type="line"/>
+      <point x="737" y="1100" type="line"/>
+      <point x="1412" y="1448" type="line"/>
+      <point x="714" y="1448" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=acutecomb ^ 50, 50</string>
   </dict>
   </lib>
 </glyph>

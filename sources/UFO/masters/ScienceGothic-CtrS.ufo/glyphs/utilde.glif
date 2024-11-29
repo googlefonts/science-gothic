@@ -7,13 +7,63 @@
   <anchor x="598" y="0" name="ogonek"/>
   <anchor x="1270" y="1000" name="horn"/>
   <outline>
-    <component base="u"/>
-    <component base="tildecomb" xOffset="701"/>
+    <contour>
+      <point x="100" y="194" type="line" smooth="yes"/>
+      <point x="78.1166" y="67.2272"/>
+      <point x="193.301" y="-10"/>
+      <point x="308" y="-10" type="qcurve" smooth="yes"/>
+      <point x="850" y="-10" type="line" smooth="yes"/>
+      <point x="964.699" y="-10"/>
+      <point x="1110.12" y="67.2272"/>
+      <point x="1132" y="194" type="qcurve" smooth="yes"/>
+      <point x="1273" y="1000" type="line"/>
+      <point x="1025" y="1000" type="line"/>
+      <point x="854" y="22" type="line"/>
+      <point x="854" y="22"/>
+      <point x="854" y="22"/>
+      <point x="854" y="22" type="qcurve"/>
+      <point x="318" y="22" type="line"/>
+      <point x="318" y="22"/>
+      <point x="318" y="22"/>
+      <point x="318" y="22" type="qcurve"/>
+      <point x="489" y="1000" type="line"/>
+      <point x="241" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="450" y="1146" type="qcurve"/>
+      <point x="479" y="1142" type="line"/>
+      <point x="498.62" y="1194.82"/>
+      <point x="565.552" y="1231"/>
+      <point x="598" y="1231" type="qcurve" smooth="yes"/>
+      <point x="649.375" y="1231"/>
+      <point x="732.312" y="1199.44"/>
+      <point x="809.188" y="1161.56"/>
+      <point x="886.875" y="1130"/>
+      <point x="933" y="1130" type="qcurve" smooth="yes"/>
+      <point x="1001.25" y="1130"/>
+      <point x="1098.75" y="1238.5"/>
+      <point x="1152" y="1384" type="qcurve"/>
+      <point x="1122" y="1389" type="line"/>
+      <point x="1102.38" y="1336.18"/>
+      <point x="1036.45" y="1300"/>
+      <point x="1004" y="1300" type="qcurve" smooth="yes"/>
+      <point x="952.625" y="1300"/>
+      <point x="869.688" y="1331.56"/>
+      <point x="792.812" y="1369.44"/>
+      <point x="715.125" y="1401"/>
+      <point x="669" y="1401" type="qcurve" smooth="yes"/>
+      <point x="600.75" y="1401"/>
+      <point x="501" y="1290"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="251" y="0"/>
+  <guideline angle="90" x="911" y="0"/>
+  <guideline angle="90" x="281" y="0"/>
+  <guideline angle="90" x="881" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=u+tildecomb@top</string>
   </dict>
   </lib>
 </glyph>

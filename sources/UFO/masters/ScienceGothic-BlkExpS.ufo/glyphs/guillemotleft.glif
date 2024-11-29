@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="guillemotleft" format="2">
-  <advance width="1364"/>
+  <advance width="1365"/>
   <unicode hex="00AB"/>
   <outline>
-    <component base="guilsinglleft" xOffset="-95"/>
-    <component base="guilsinglleft" xOffset="463"/>
+    <contour>
+      <point x="265" y="130" type="line"/>
+      <point x="606" y="130" type="line"/>
+      <point x="312" y="512" type="line"/>
+      <point x="739" y="894" type="line"/>
+      <point x="398" y="894" type="line"/>
+      <point x="-29" y="512" type="line"/>
+    </contour>
+    <contour>
+      <point x="823" y="130" type="line"/>
+      <point x="1164" y="130" type="line"/>
+      <point x="870" y="512" type="line"/>
+      <point x="1297" y="894" type="line"/>
+      <point x="956" y="894" type="line"/>
+      <point x="529" y="512" type="line"/>
+    </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=guilsingleleft</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=guilsinglleft</string>
+  </dict>
+  </lib>
 </glyph>

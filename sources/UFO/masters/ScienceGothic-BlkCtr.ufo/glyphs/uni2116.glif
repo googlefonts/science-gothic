@@ -17,24 +17,24 @@
     </contour>
     <contour>
       <point x="1286" y="772" type="line" smooth="yes"/>
-      <point x="1286" y="681"/>
-      <point x="1379" y="599"/>
+      <point x="1286" y="681.448"/>
+      <point x="1379.36" y="599"/>
       <point x="1485" y="599" type="qcurve" smooth="yes"/>
       <point x="1968" y="599" type="line" smooth="yes"/>
-      <point x="2075" y="599"/>
-      <point x="2168" y="682"/>
+      <point x="2075.15" y="599"/>
+      <point x="2168" y="681.448"/>
       <point x="2168" y="772" type="qcurve" smooth="yes"/>
       <point x="2168" y="1117" type="line" smooth="yes"/>
-      <point x="2168" y="1203"/>
-      <point x="2073" y="1283"/>
+      <point x="2168" y="1203.02"/>
+      <point x="2072.89" y="1283"/>
       <point x="1968" y="1283" type="qcurve" smooth="yes"/>
       <point x="1485" y="1283" type="line" smooth="yes"/>
-      <point x="1381" y="1283"/>
-      <point x="1286" y="1203"/>
+      <point x="1380.87" y="1283"/>
+      <point x="1286" y="1203.02"/>
       <point x="1286" y="1117" type="qcurve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="1626" y="631" type="line"/>
+      <point x="1626" y="631" type="qcurve"/>
       <point x="1626" y="1251" type="line"/>
       <point x="1626" y="1251"/>
       <point x="1626" y="1251"/>
@@ -50,7 +50,6 @@
       <point x="1626" y="631" type="line"/>
       <point x="1626" y="631"/>
       <point x="1626" y="631"/>
-      <point x="1626" y="631" type="qcurve"/>
     </contour>
     <contour>
       <point x="1352" y="305" type="line"/>
@@ -59,4 +58,14 @@
       <point x="2102" y="305" type="line"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=H</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=H*.5</string>
+  <key>com.fontlab.recipe</key>
+  <string>= N &amp; ordmasculine + hyphen @ center, (bottom-200)</string>
+  </dict>
+  </lib>
 </glyph>

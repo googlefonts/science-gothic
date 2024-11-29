@@ -8,13 +8,40 @@
   <anchor x="652" y="1400" name="right"/>
   <anchor x="881" y="700" name="eldot"/>
   <outline>
-    <component base="L"/>
-    <component base="uni0326.case" xOffset="546"/>
+    <contour>
+      <point x="80" y="0" type="line"/>
+      <point x="1012" y="0" type="line"/>
+      <point x="1012" y="36" type="line"/>
+      <point x="652" y="36" type="line"/>
+      <point x="652" y="1400" type="line"/>
+      <point x="80" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="496" y="-699" type="line"/>
+      <point x="516" y="-704" type="line"/>
+      <point x="723" y="-454" type="line" smooth="yes"/>
+      <point x="732.81" y="-441.926"/>
+      <point x="742" y="-406.939"/>
+      <point x="742" y="-376" type="qcurve" smooth="yes"/>
+      <point x="742" y="-214" type="line" smooth="yes"/>
+      <point x="742" y="-154.387"/>
+      <point x="704.405" y="-121"/>
+      <point x="638" y="-121" type="qcurve" smooth="yes"/>
+      <point x="454" y="-121" type="line" smooth="yes"/>
+      <point x="387.595" y="-121"/>
+      <point x="350" y="-154.387"/>
+      <point x="350" y="-214" type="qcurve" smooth="yes"/>
+      <point x="350" y="-376" type="line" smooth="yes"/>
+      <point x="350" y="-437.123"/>
+      <point x="387.595" y="-471"/>
+      <point x="454" y="-471" type="qcurve" smooth="yes"/>
+      <point x="590" y="-471" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=L+uni0326.case@bottom</string>
   </dict>
   </lib>
 </glyph>

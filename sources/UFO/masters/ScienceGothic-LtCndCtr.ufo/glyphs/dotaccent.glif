@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotaccent" format="2">
-  <advance width="256"/>
+  <advance width="90"/>
   <unicode hex="02D9"/>
-  <anchor x="128" y="1351" name="top"/>
   <outline>
-    <component base="uni0307" xOffset="128"/>
+    <contour>
+      <point x="5" y="1191" type="qcurve" smooth="yes"/>
+      <point x="5" y="1159" type="line" smooth="yes"/>
+      <point x="5" y="1140.89"/>
+      <point x="10.8896" y="1135"/>
+      <point x="29" y="1135" type="qcurve" smooth="yes"/>
+      <point x="61" y="1135" type="line" smooth="yes"/>
+      <point x="79.1104" y="1135"/>
+      <point x="85" y="1140.89"/>
+      <point x="85" y="1159" type="qcurve" smooth="yes"/>
+      <point x="85" y="1191" type="line" smooth="yes"/>
+      <point x="85" y="1209.11"/>
+      <point x="79.1104" y="1215"/>
+      <point x="61" y="1215" type="qcurve" smooth="yes"/>
+      <point x="29" y="1215" type="line" smooth="yes"/>
+      <point x="10.8896" y="1215"/>
+      <point x="5" y="1209.11"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=T</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=T</string>
+  <key>com.fontlab.recipe</key>
+  <string>uni0307</string>
   </dict>
   </lib>
 </glyph>

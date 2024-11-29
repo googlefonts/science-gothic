@@ -1,17 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="amacron.sc" format="2">
-  <advance width="1355" height="1448"/>
+  <advance width="1355"/>
   <anchor x="821" y="1505" name="top"/>
   <anchor x="532" y="-150" name="bottom"/>
-  <anchor x="1155" y="0" name="ogonek"/>
+  <anchor x="1173" y="0" name="ogonek"/>
   <outline>
-    <component base="a.sc"/>
-    <component base="uni0304" xOffset="685" yOffset="60"/>
+    <contour>
+      <point x="-120" y="0" type="line"/>
+      <point x="149" y="0" type="line"/>
+      <point x="695" y="762" type="line"/>
+      <point x="976" y="0" type="line"/>
+      <point x="1235" y="0" type="line"/>
+      <point x="837" y="1060" type="line"/>
+      <point x="638" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="204" y="234" type="line"/>
+      <point x="1011" y="234" type="line"/>
+      <point x="933" y="446" type="line"/>
+      <point x="354" y="446" type="line"/>
+    </contour>
+    <contour>
+      <point x="440" y="1245" type="line"/>
+      <point x="1110" y="1245" type="line"/>
+      <point x="1138" y="1405" type="line"/>
+      <point x="468" y="1405" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=a.sc+uni0304@top</string>
   </dict>
   </lib>
 </glyph>

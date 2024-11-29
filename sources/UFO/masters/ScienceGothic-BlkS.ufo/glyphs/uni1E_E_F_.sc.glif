@@ -1,18 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1EEF.sc" format="2">
-  <advance width="1556"/>
-  <anchor x="1002" y="1623" name="top"/>
-  <anchor x="692" y="-150" name="bottom"/>
-  <anchor x="1577" y="1086" name="horn"/>
-  <anchor x="904" y="0" name="ogonek"/>
+  <advance width="1894"/>
+  <anchor x="914" y="1623" name="top"/>
+  <anchor x="604" y="-150" name="bottom"/>
+  <anchor x="1489" y="1086" name="horn"/>
+  <anchor x="816" y="0" name="ogonek"/>
   <outline>
-    <component base="uhorn.sc"/>
-    <component base="tildecomb" xOffset="858" yOffset="86"/>
+    <contour>
+      <point x="239" y="1086" type="line"/>
+      <point x="96" y="271" type="line" smooth="yes"/>
+      <point x="81" y="184"/>
+      <point x="109.531" y="74.4375"/>
+      <point x="187.719" y="12.5625"/>
+      <point x="311.125" y="-10"/>
+      <point x="391" y="-10" type="qcurve" smooth="yes"/>
+      <point x="1040" y="-10" type="line" smooth="yes"/>
+      <point x="1202" y="-10"/>
+      <point x="1405" y="97"/>
+      <point x="1435" y="271" type="qcurve" smooth="yes"/>
+      <point x="1578" y="1086" type="line"/>
+      <point x="1047" y="1086" type="line"/>
+      <point x="932" y="427" type="line"/>
+      <point x="932" y="427"/>
+      <point x="932" y="427"/>
+      <point x="932" y="427" type="qcurve"/>
+      <point x="655" y="427" type="line"/>
+      <point x="655" y="427"/>
+      <point x="655" y="427"/>
+      <point x="655" y="427" type="qcurve"/>
+      <point x="770" y="1086" type="line"/>
+    </contour>
+    <contour>
+      <point x="1536" y="851" type="line"/>
+      <point x="1676.62" y="851"/>
+      <point x="1868.72" y="895.344"/>
+      <point x="1993.03" y="984.406"/>
+      <point x="2060.25" y="1118.38"/>
+      <point x="2076" y="1208" type="qcurve" smooth="yes"/>
+      <point x="2085.06" y="1259.31"/>
+      <point x="2096" y="1392.37"/>
+      <point x="2096" y="1455" type="qcurve"/>
+      <point x="1732" y="1390" type="line"/>
+      <point x="1732" y="1346.23"/>
+      <point x="1726.28" y="1270.94"/>
+      <point x="1721" y="1240" type="qcurve" smooth="yes"/>
+      <point x="1707.42" y="1163.03"/>
+      <point x="1641.39" y="1086"/>
+      <point x="1578" y="1086" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="346" y="1211" type="qcurve"/>
+      <point x="626" y="1163" type="line"/>
+      <point x="629.773" y="1178.85"/>
+      <point x="673.479" y="1227"/>
+      <point x="718" y="1227" type="qcurve" smooth="yes"/>
+      <point x="750.625" y="1227"/>
+      <point x="815.75" y="1207"/>
+      <point x="889.25" y="1183"/>
+      <point x="975.375" y="1163"/>
+      <point x="1029" y="1163" type="qcurve" smooth="yes"/>
+      <point x="1177.5" y="1163"/>
+      <point x="1332.25" y="1342.75"/>
+      <point x="1384" y="1480" type="qcurve"/>
+      <point x="1105" y="1528" type="line"/>
+      <point x="1100.47" y="1512.15"/>
+      <point x="1056.52" y="1464"/>
+      <point x="1012" y="1464" type="qcurve" smooth="yes"/>
+      <point x="979.375" y="1464"/>
+      <point x="914.25" y="1484"/>
+      <point x="840.75" y="1508"/>
+      <point x="754.625" y="1528"/>
+      <point x="701" y="1528" type="qcurve" smooth="yes"/>
+      <point x="552.5" y="1528"/>
+      <point x="399.25" y="1360.25"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="155" y="0"/>
+  <guideline angle="90" x="1145" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uhorn.sc+tildecomb@top</string>
   </dict>
   </lib>
 </glyph>

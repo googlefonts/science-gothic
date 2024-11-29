@@ -2,12 +2,33 @@
 <glyph name="four.numr" format="2">
   <advance width="881"/>
   <outline>
-    <component base="four.dnom" xOffset="-1" yOffset="614"/>
+    <contour>
+      <point x="4" y="825" type="line"/>
+      <point x="559" y="825" type="line"/>
+      <point x="559" y="614" type="line"/>
+      <point x="593" y="614" type="line"/>
+      <point x="593" y="825" type="line"/>
+      <point x="733" y="825" type="line"/>
+      <point x="733" y="855" type="line"/>
+      <point x="593" y="855" type="line"/>
+      <point x="593" y="1380" type="line"/>
+      <point x="555" y="1380" type="line"/>
+      <point x="4" y="847" type="line"/>
+    </contour>
+    <contour>
+      <point x="56" y="855" type="line"/>
+      <point x="559" y="1342" type="line"/>
+      <point x="559" y="855" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>four.dnom</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>four.dnom</string>
+  <key>com.fontlab.recipe</key>
+  <string>= four.dnom @,614</string>
   </dict>
   </lib>
 </glyph>

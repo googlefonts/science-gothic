@@ -5,15 +5,70 @@
   <anchor x="237" y="1150" name="top"/>
   <anchor x="237" y="-150" name="bottom"/>
   <anchor x="302" y="0" name="ogonek"/>
-  <anchor x="366" y="1243" name="topright"/>
   <outline>
-    <component base="e"/>
-    <component base="circumflexcomb_gravecomb" xOffset="237"/>
+    <contour>
+      <point x="68" y="141" type="line" smooth="yes"/>
+      <point x="68" y="67.8038"/>
+      <point x="132.258" y="-4"/>
+      <point x="213" y="-4" type="qcurve" smooth="yes"/>
+      <point x="259" y="-4" type="line" smooth="yes"/>
+      <point x="339.742" y="-4"/>
+      <point x="404" y="67.8038"/>
+      <point x="404" y="141" type="qcurve" smooth="yes"/>
+      <point x="404" y="246" type="line"/>
+      <point x="368" y="254" type="line"/>
+      <point x="368" y="144" type="line" smooth="yes"/>
+      <point x="368" y="79.859"/>
+      <point x="315.595" y="28"/>
+      <point x="259" y="28" type="qcurve" smooth="yes"/>
+      <point x="213" y="28" type="line" smooth="yes"/>
+      <point x="156.405" y="28"/>
+      <point x="104" y="79.859"/>
+      <point x="104" y="144" type="qcurve" smooth="yes"/>
+      <point x="104" y="488" type="line"/>
+      <point x="404" y="488" type="line"/>
+      <point x="404" y="859" type="line" smooth="yes"/>
+      <point x="404" y="932.196"/>
+      <point x="339.742" y="1004"/>
+      <point x="259" y="1004" type="qcurve" smooth="yes"/>
+      <point x="213" y="1004" type="line" smooth="yes"/>
+      <point x="132.258" y="1004"/>
+      <point x="68" y="932.196"/>
+      <point x="68" y="859" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="104" y="520" type="line"/>
+      <point x="104" y="856" type="line" smooth="yes"/>
+      <point x="104" y="920.141"/>
+      <point x="156.405" y="972"/>
+      <point x="213" y="972" type="qcurve" smooth="yes"/>
+      <point x="259" y="972" type="line" smooth="yes"/>
+      <point x="315.595" y="972"/>
+      <point x="368" y="920.141"/>
+      <point x="368" y="856" type="qcurve" smooth="yes"/>
+      <point x="368" y="520" type="line"/>
+    </contour>
+    <contour>
+      <point x="153" y="1095" type="line"/>
+      <point x="185" y="1095" type="line"/>
+      <point x="252" y="1335" type="line"/>
+      <point x="318" y="1095" type="line"/>
+      <point x="351" y="1095" type="line"/>
+      <point x="272" y="1390" type="line"/>
+      <point x="233" y="1390" type="line"/>
+    </contour>
+    <contour>
+      <point x="395" y="1243" type="line"/>
+      <point x="366" y="1243" type="line"/>
+      <point x="311" y="1538" type="line"/>
+      <point x="345" y="1538" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="0" color="1,0,0,1" x="0" y="-1004"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=e+circumflexcomb_gravecomb@top</string>
   </dict>
   </lib>
 </glyph>

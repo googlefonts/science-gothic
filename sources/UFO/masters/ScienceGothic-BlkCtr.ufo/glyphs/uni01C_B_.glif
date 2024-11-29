@@ -5,13 +5,57 @@
   <anchor x="2266" y="1174" name="top"/>
   <anchor x="905" y="-150" name="bottom"/>
   <outline>
-    <component base="N"/>
-    <component base="j" xOffset="1810"/>
+    <contour>
+      <point x="200" y="0" type="line"/>
+      <point x="236" y="0" type="line"/>
+      <point x="236" y="870" type="line"/>
+      <point x="1338" y="0" type="line"/>
+      <point x="1610" y="0" type="line"/>
+      <point x="1610" y="1400" type="line"/>
+      <point x="1574" y="1400" type="line"/>
+      <point x="1574" y="530" type="line"/>
+      <point x="472" y="1400" type="line"/>
+      <point x="200" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1392" y="-396" type="line"/>
+      <point x="1398" y="-428" type="line"/>
+      <point x="2268" y="-428" type="line" smooth="yes"/>
+      <point x="2326.5" y="-428"/>
+      <point x="2422.38" y="-381.25"/>
+      <point x="2490.62" y="-295.75"/>
+      <point x="2528" y="-175.5"/>
+      <point x="2528" y="-102" type="qcurve" smooth="yes"/>
+      <point x="2528" y="1024" type="line"/>
+      <point x="2004" y="1024" type="line"/>
+      <point x="2004" y="-396" type="line"/>
+      <point x="2004" y="-396"/>
+      <point x="2004" y="-396"/>
+      <point x="2004" y="-396" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="1990" y="1232" type="line" smooth="yes"/>
+      <point x="1990" y="1150.5"/>
+      <point x="2018.5" y="1122"/>
+      <point x="2100" y="1122" type="qcurve" smooth="yes"/>
+      <point x="2432" y="1122" type="line" smooth="yes"/>
+      <point x="2513.5" y="1122"/>
+      <point x="2542" y="1150.5"/>
+      <point x="2542" y="1232" type="qcurve" smooth="yes"/>
+      <point x="2542" y="1364" type="line" smooth="yes"/>
+      <point x="2542" y="1443.99"/>
+      <point x="2513.5" y="1472"/>
+      <point x="2432" y="1472" type="qcurve" smooth="yes"/>
+      <point x="2100" y="1472" type="line" smooth="yes"/>
+      <point x="2018.5" y="1472"/>
+      <point x="1990" y="1443.99"/>
+      <point x="1990" y="1364" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= N &amp; j</string>
   </dict>
   </lib>
 </glyph>

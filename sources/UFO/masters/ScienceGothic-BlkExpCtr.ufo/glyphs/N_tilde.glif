@@ -5,13 +5,57 @@
   <anchor x="1574" y="1992" name="top"/>
   <anchor x="1574" y="-150" name="bottom"/>
   <outline>
-    <component base="N"/>
-    <component base="tildecomb.case" xOffset="1574" yOffset="400"/>
+    <contour>
+      <point x="400" y="0" type="line"/>
+      <point x="436" y="0" type="line"/>
+      <point x="436" y="843" type="line"/>
+      <point x="2572" y="0" type="line"/>
+      <point x="2748" y="0" type="line"/>
+      <point x="2748" y="1400" type="line"/>
+      <point x="2712" y="1400" type="line"/>
+      <point x="2712" y="557" type="line"/>
+      <point x="576" y="1400" type="line"/>
+      <point x="400" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1024" y="1520" type="qcurve"/>
+      <point x="1054" y="1515" type="line"/>
+      <point x="1059.28" y="1542.17"/>
+      <point x="1105.33" y="1619"/>
+      <point x="1174" y="1619" type="qcurve" smooth="yes"/>
+      <point x="1217.88" y="1619"/>
+      <point x="1356.75" y="1574.62"/>
+      <point x="1517.25" y="1521.38"/>
+      <point x="1684.62" y="1477"/>
+      <point x="1757" y="1477" type="qcurve" smooth="yes"/>
+      <point x="1835" y="1477"/>
+      <point x="1959.06" y="1541.78"/>
+      <point x="2050.94" y="1646.97"/>
+      <point x="2110.5" y="1780.38"/>
+      <point x="2124" y="1849" type="qcurve"/>
+      <point x="2094" y="1854" type="line"/>
+      <point x="2088.72" y="1826.83"/>
+      <point x="2042.67" y="1750"/>
+      <point x="1974" y="1750" type="qcurve" smooth="yes"/>
+      <point x="1930.12" y="1750"/>
+      <point x="1791.25" y="1794.38"/>
+      <point x="1630.75" y="1847.62"/>
+      <point x="1463.38" y="1892"/>
+      <point x="1391" y="1892" type="qcurve" smooth="yes"/>
+      <point x="1313" y="1892"/>
+      <point x="1188.94" y="1831.72"/>
+      <point x="1097.06" y="1729.53"/>
+      <point x="1037.5" y="1594.62"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="1024" y="0"/>
+  <guideline angle="90" x="2124" y="0"/>
+  <guideline angle="90" x="1054" y="0"/>
+  <guideline angle="90" x="2094" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=N+tildecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

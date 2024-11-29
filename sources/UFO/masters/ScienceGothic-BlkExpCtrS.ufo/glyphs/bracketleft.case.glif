@@ -1,13 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bracketleft.case" format="2">
-  <advance width="1492"/>
+  <advance width="1496"/>
   <outline>
-    <component base="bracketleft" xOffset="14" yOffset="78"/>
+    <contour>
+      <point x="252" y="-178" type="line"/>
+      <point x="1144" y="-178" type="line"/>
+      <point x="1150" y="-146" type="line"/>
+      <point x="698" y="-146" type="line"/>
+      <point x="984" y="1494" type="line"/>
+      <point x="1436" y="1494" type="line"/>
+      <point x="1442" y="1526" type="line"/>
+      <point x="550" y="1526" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=bracketleft</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=bracketleft</string>
+  <key>com.fontlab.recipe</key>
+  <string>=bracketleft@,cap_bracket_shift</string>
   </dict>
   </lib>
 </glyph>

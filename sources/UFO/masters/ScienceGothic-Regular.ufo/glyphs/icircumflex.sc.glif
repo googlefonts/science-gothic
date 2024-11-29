@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="icircumflex.sc" format="2">
-  <advance width="650" height="1448"/>
+  <advance width="650"/>
   <anchor x="325" y="1608" name="top"/>
   <anchor x="325" y="-150" name="bottom"/>
   <anchor x="396" y="0" name="ogonek"/>
   <anchor x="709" y="1327" name="topright"/>
   <outline>
-    <component base="i.sc"/>
-    <component base="uni0302" xOffset="325" yOffset="60"/>
+    <contour>
+      <point x="200" y="0" type="line"/>
+      <point x="450" y="0" type="line"/>
+      <point x="450" y="1060" type="line"/>
+      <point x="200" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="-58" y="1145" type="line"/>
+      <point x="162" y="1145" type="line"/>
+      <point x="323" y="1365" type="line"/>
+      <point x="483" y="1145" type="line"/>
+      <point x="709" y="1145" type="line"/>
+      <point x="407" y="1508" type="line"/>
+      <point x="246" y="1508" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=i.sc+uni0302@top</string>
   </dict>
   </lib>
 </glyph>

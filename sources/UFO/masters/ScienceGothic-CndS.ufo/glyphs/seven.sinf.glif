@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seven.sinf" format="2">
-  <advance width="498"/>
+  <advance width="499"/>
   <outline>
-    <component base="seven.dnom" xOffset="-53" yOffset="-300"/>
+    <contour>
+      <point x="-60" y="248" type="line"/>
+      <point x="116" y="213" type="line"/>
+      <point x="133" y="311" type="line"/>
+      <point x="231" y="311" type="line"/>
+      <point x="-88" y="-300" type="line"/>
+      <point x="131" y="-300" type="line"/>
+      <point x="431" y="319" type="line"/>
+      <point x="460" y="484" type="line"/>
+      <point x="-19" y="484" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="0.4,0.4,0.4,1" name="halfwidth" x="249.5" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>seven.dnom</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>seven.dnom</string>
+  <key>com.fontlab.recipe</key>
+  <string>= seven.dnom @,-300</string>
   </dict>
   </lib>
 </glyph>

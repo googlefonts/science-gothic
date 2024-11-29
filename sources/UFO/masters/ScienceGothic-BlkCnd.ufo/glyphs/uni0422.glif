@@ -5,12 +5,25 @@
   <anchor x="587" y="1550" name="top"/>
   <anchor x="587" y="-150" name="bottom"/>
   <outline>
-    <component base="T"/>
+    <contour>
+      <point x="301" y="0" type="line"/>
+      <point x="873" y="0" type="line"/>
+      <point x="873" y="916" type="line"/>
+      <point x="1149" y="916" type="line"/>
+      <point x="1149" y="1400" type="line"/>
+      <point x="25" y="1400" type="line"/>
+      <point x="25" y="916" type="line"/>
+      <point x="301" y="916" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=T</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=T</string>
+  <key>com.fontlab.recipe</key>
+  <string>=T</string>
   </dict>
   </lib>
 </glyph>

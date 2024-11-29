@@ -2,15 +2,38 @@
 <glyph name="tilde" format="2">
   <advance width="1067"/>
   <unicode hex="02DC"/>
-  <anchor x="513" y="1150" name="_top"/>
-  <anchor x="576" y="1505" name="top"/>
   <outline>
-    <component base="tildecomb" xOffset="434"/>
+    <contour>
+      <point x="50" y="1158" type="qcurve"/>
+      <point x="205" y="1130" type="line"/>
+      <point x="224.62" y="1182.82"/>
+      <point x="293.215" y="1230"/>
+      <point x="340" y="1230" type="qcurve" smooth="yes"/>
+      <point x="370.75" y="1230"/>
+      <point x="460.094" y="1198.75"/>
+      <point x="562.656" y="1161.25"/>
+      <point x="671.125" y="1130"/>
+      <point x="721" y="1130" type="qcurve" smooth="yes"/>
+      <point x="796.75" y="1130"/>
+      <point x="981" y="1234"/>
+      <point x="1017" y="1372" type="qcurve"/>
+      <point x="862" y="1400" type="line"/>
+      <point x="842.38" y="1347.18"/>
+      <point x="773.785" y="1300"/>
+      <point x="727" y="1300" type="qcurve" smooth="yes"/>
+      <point x="696.25" y="1300"/>
+      <point x="606.906" y="1331.25"/>
+      <point x="504.344" y="1368.75"/>
+      <point x="395.875" y="1400"/>
+      <point x="346" y="1400" type="qcurve" smooth="yes"/>
+      <point x="270.25" y="1400"/>
+      <point x="85.25" y="1294.5"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= tildecomb ^ 50, 50</string>
   </dict>
   </lib>
 </glyph>

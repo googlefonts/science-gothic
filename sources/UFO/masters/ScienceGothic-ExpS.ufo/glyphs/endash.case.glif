@@ -2,12 +2,18 @@
 <glyph name="endash.case" format="2">
   <advance width="1550"/>
   <outline>
-    <component base="endash" xOffset="-18" yOffset="100"/>
+    <contour>
+      <point x="-14" y="812" type="line"/>
+      <point x="-53" y="588" type="line"/>
+      <point x="1497" y="588" type="line"/>
+      <point x="1536" y="812" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="0" x="0" y="700"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=endash@,cap_dash_shift</string>
   </dict>
   </lib>
 </glyph>

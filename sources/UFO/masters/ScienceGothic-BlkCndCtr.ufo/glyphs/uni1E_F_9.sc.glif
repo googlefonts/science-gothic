@@ -4,13 +4,53 @@
   <anchor x="700" y="1567" name="top"/>
   <anchor x="590" y="-150" name="bottom"/>
   <outline>
-    <component base="y.sc"/>
-    <component base="tildecomb" xOffset="700" yOffset="60"/>
+    <contour>
+      <point x="324" y="0" type="line"/>
+      <point x="855" y="0" type="line"/>
+      <point x="855" y="401" type="line"/>
+      <point x="1192" y="1086" type="line"/>
+      <point x="1155" y="1086" type="line"/>
+      <point x="835" y="434" type="line"/>
+      <point x="538" y="1086" type="line"/>
+      <point x="-10" y="1086" type="line"/>
+      <point x="324" y="403" type="line"/>
+    </contour>
+    <contour>
+      <point x="360" y="1165" type="qcurve"/>
+      <point x="390" y="1160" type="line"/>
+      <point x="395.282" y="1179.62"/>
+      <point x="426.687" y="1231"/>
+      <point x="478" y="1231" type="qcurve" smooth="yes"/>
+      <point x="511.375" y="1231"/>
+      <point x="594" y="1204.75"/>
+      <point x="684" y="1173.25"/>
+      <point x="777.125" y="1147"/>
+      <point x="821" y="1147" type="qcurve" smooth="yes"/>
+      <point x="932" y="1147"/>
+      <point x="1020.5" y="1329.25"/>
+      <point x="1040" y="1474" type="qcurve"/>
+      <point x="1010" y="1479" type="line"/>
+      <point x="1004.72" y="1459.38"/>
+      <point x="973.313" y="1408"/>
+      <point x="922" y="1408" type="qcurve" smooth="yes"/>
+      <point x="888.625" y="1408"/>
+      <point x="806.281" y="1434.25"/>
+      <point x="716.469" y="1465.75"/>
+      <point x="623.25" y="1492"/>
+      <point x="579" y="1492" type="qcurve" smooth="yes"/>
+      <point x="468" y="1492"/>
+      <point x="379.5" y="1321.75"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="1,0,0,1" x="590" y="0"/>
+  <guideline angle="90" x="360" y="0"/>
+  <guideline angle="90" x="1040" y="0"/>
+  <guideline angle="90" x="390" y="0"/>
+  <guideline angle="90" x="1010" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=y.sc+tildecomb@top</string>
   </dict>
   </lib>
 </glyph>

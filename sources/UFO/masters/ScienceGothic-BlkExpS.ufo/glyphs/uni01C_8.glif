@@ -8,13 +8,53 @@
   <anchor x="2116" y="1400" name="right"/>
   <anchor x="1996" y="800" name="eldot"/>
   <outline>
-    <component base="L"/>
-    <component base="j" xOffset="2710"/>
+    <contour>
+      <point x="203" y="0" type="line"/>
+      <point x="2543" y="0" type="line"/>
+      <point x="2622" y="454" type="line"/>
+      <point x="854" y="454" type="line"/>
+      <point x="1019" y="1400" type="line"/>
+      <point x="447" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1834" y="-80" type="line"/>
+      <point x="1845" y="-428" type="line"/>
+      <point x="3030" y="-428" type="line" smooth="yes"/>
+      <point x="3088.5" y="-428"/>
+      <point x="3192.62" y="-381.25"/>
+      <point x="3275.88" y="-295.75"/>
+      <point x="3334.25" y="-175.5"/>
+      <point x="3347" y="-102" type="qcurve" smooth="yes"/>
+      <point x="3544" y="1024" type="line"/>
+      <point x="3020" y="1024" type="line"/>
+      <point x="2827" y="-80" type="line"/>
+      <point x="2827" y="-80"/>
+      <point x="2827" y="-80"/>
+      <point x="2827" y="-80" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="3043" y="1232" type="line" smooth="yes"/>
+      <point x="3028.66" y="1150.5"/>
+      <point x="3052.5" y="1122"/>
+      <point x="3134" y="1122" type="qcurve" smooth="yes"/>
+      <point x="3466" y="1122" type="line" smooth="yes"/>
+      <point x="3547.5" y="1122"/>
+      <point x="3580.66" y="1150.5"/>
+      <point x="3595" y="1232" type="qcurve" smooth="yes"/>
+      <point x="3618" y="1364" type="line" smooth="yes"/>
+      <point x="3632.34" y="1443.99"/>
+      <point x="3608.5" y="1472"/>
+      <point x="3527" y="1472" type="qcurve" smooth="yes"/>
+      <point x="3195" y="1472" type="line" smooth="yes"/>
+      <point x="3113.5" y="1472"/>
+      <point x="3080.34" y="1443.99"/>
+      <point x="3066" y="1364" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= L &amp; j</string>
   </dict>
   </lib>
 </glyph>

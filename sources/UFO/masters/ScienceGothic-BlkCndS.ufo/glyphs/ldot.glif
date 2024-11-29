@@ -7,13 +7,35 @@
   <anchor x="729" y="1472" name="right"/>
   <anchor x="662" y="700" name="eldot"/>
   <outline>
-    <component base="l"/>
-    <component base="periodcentered.loclCAT" xOffset="559" yOffset="-575"/>
+    <contour>
+      <point x="-49" y="0" type="line"/>
+      <point x="475" y="0" type="line"/>
+      <point x="732" y="1472" type="line"/>
+      <point x="208" y="1472" type="line"/>
+    </contour>
+    <contour>
+      <point x="603" y="685" type="line" smooth="yes"/>
+      <point x="588.663" y="603.503"/>
+      <point x="597.779" y="575"/>
+      <point x="634" y="575" type="qcurve" smooth="yes"/>
+      <point x="646" y="575" type="line" smooth="yes"/>
+      <point x="682.221" y="575"/>
+      <point x="700.663" y="603.503"/>
+      <point x="715" y="685" type="qcurve"/>
+      <point x="720" y="717" type="line" smooth="yes"/>
+      <point x="734.337" y="796.988"/>
+      <point x="725.221" y="825"/>
+      <point x="689" y="825" type="qcurve" smooth="yes"/>
+      <point x="677" y="825" type="line" smooth="yes"/>
+      <point x="640.779" y="825"/>
+      <point x="622.337" y="796.988"/>
+      <point x="608" y="717" type="qcurve"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= l + periodcentered.loclCAT@eldot</string>
   </dict>
   </lib>
 </glyph>

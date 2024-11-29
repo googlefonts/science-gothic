@@ -2,12 +2,51 @@
 <glyph name="zero.sinf" format="2">
   <advance width="804"/>
   <outline>
-    <component base="zero.dnom" yOffset="-290"/>
+    <contour>
+      <point x="294" y="-300" type="qcurve" smooth="yes"/>
+      <point x="509" y="-300" type="line" smooth="yes"/>
+      <point x="619.926" y="-300"/>
+      <point x="740" y="-226.19"/>
+      <point x="740" y="-113" type="qcurve" smooth="yes"/>
+      <point x="740" y="324" type="line" smooth="yes"/>
+      <point x="740" y="433.417"/>
+      <point x="614.644" y="504"/>
+      <point x="509" y="504" type="qcurve" smooth="yes"/>
+      <point x="294" y="504" type="line" smooth="yes"/>
+      <point x="188.356" y="504"/>
+      <point x="64" y="433.417"/>
+      <point x="64" y="324" type="qcurve" smooth="yes"/>
+      <point x="64" y="-113" type="line" smooth="yes"/>
+      <point x="64" y="-225.435"/>
+      <point x="183.074" y="-300"/>
+    </contour>
+    <contour>
+      <point x="358" y="-48" type="line"/>
+      <point x="358" y="-48"/>
+      <point x="358" y="-48"/>
+      <point x="358" y="-48" type="qcurve"/>
+      <point x="358" y="252" type="line"/>
+      <point x="358" y="252"/>
+      <point x="358" y="252"/>
+      <point x="358" y="252" type="qcurve"/>
+      <point x="446" y="252" type="line"/>
+      <point x="446" y="252"/>
+      <point x="446" y="252"/>
+      <point x="446" y="252" type="qcurve"/>
+      <point x="446" y="-48" type="line"/>
+      <point x="446" y="-48"/>
+      <point x="446" y="-48"/>
+      <point x="446" y="-48" type="qcurve"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>zero.dnom</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>zero.dnom</string>
+  <key>com.fontlab.recipe</key>
+  <string>= zero.dnom @,-300</string>
   </dict>
   </lib>
 </glyph>

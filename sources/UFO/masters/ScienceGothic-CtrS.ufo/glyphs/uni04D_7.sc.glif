@@ -1,17 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni04D7.sc" format="2">
-  <advance width="1255"/>
+  <advance width="1256"/>
   <anchor x="887" y="1570" name="top"/>
   <anchor x="586" y="-150" name="bottom"/>
   <anchor x="924" y="0" name="ogonek"/>
   <outline>
-    <component base="e.sc"/>
-    <component base="uni0306.cyr" xOffset="745" yOffset="60"/>
+    <contour>
+      <point x="102" y="0" type="line"/>
+      <point x="1128" y="0" type="line"/>
+      <point x="1134" y="33" type="line"/>
+      <point x="358" y="33" type="line"/>
+      <point x="444" y="527" type="line"/>
+      <point x="895" y="527" type="line"/>
+      <point x="901" y="560" type="line"/>
+      <point x="450" y="560" type="line"/>
+      <point x="531" y="1027" type="line"/>
+      <point x="1291" y="1027" type="line"/>
+      <point x="1297" y="1060" type="line"/>
+      <point x="287" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="581" y="1470" type="line"/>
+      <point x="564.875" y="1378.5"/>
+      <point x="573.594" y="1259.69"/>
+      <point x="631.156" y="1190.31"/>
+      <point x="741.5" y="1163"/>
+      <point x="827" y="1163" type="qcurve" smooth="yes"/>
+      <point x="912.125" y="1163"/>
+      <point x="1025.06" y="1190.31"/>
+      <point x="1098.94" y="1259.69"/>
+      <point x="1142.88" y="1378.5"/>
+      <point x="1159" y="1470" type="qcurve"/>
+      <point x="1004" y="1470" type="line"/>
+      <point x="987.125" y="1374.38"/>
+      <point x="956.719" y="1264.53"/>
+      <point x="917.531" y="1209.22"/>
+      <point x="863.5" y="1195"/>
+      <point x="823" y="1195" type="qcurve" smooth="yes"/>
+      <point x="781.375" y="1195"/>
+      <point x="731.125" y="1209.22"/>
+      <point x="710.875" y="1264.53"/>
+      <point x="719.125" y="1374.38"/>
+      <point x="736" y="1470" type="qcurve"/>
+    </contour>
   </outline>
+  <guideline angle="260.1" color="1,0,0,1" x="927" y="-0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=e.sc+brevecomb.cyr@top</string>
   </dict>
   </lib>
 </glyph>

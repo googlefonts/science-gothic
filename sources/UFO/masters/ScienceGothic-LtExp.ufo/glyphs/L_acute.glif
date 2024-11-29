@@ -9,13 +9,25 @@
   <anchor x="1404" y="700" name="eldot"/>
   <anchor x="228" y="1485" name="topright"/>
   <outline>
-    <component base="L"/>
-    <component base="acutecomb.case" xOffset="370" yOffset="400"/>
+    <contour>
+      <point x="350" y="0" type="line"/>
+      <point x="2062" y="0" type="line"/>
+      <point x="2062" y="36" type="line"/>
+      <point x="390" y="36" type="line"/>
+      <point x="390" y="1400" type="line"/>
+      <point x="350" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="188" y="1485" type="line"/>
+      <point x="249" y="1485" type="line"/>
+      <point x="719" y="1800" type="line"/>
+      <point x="646" y="1800" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=L+acutecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

@@ -6,12 +6,30 @@
   <anchor x="1348" y="-150" name="bottom"/>
   <anchor x="2338" y="0" name="ogonek_in"/>
   <outline>
-    <component base="A"/>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="320" y="0" type="line"/>
+      <point x="610" y="326" type="line"/>
+      <point x="2047" y="326" type="line"/>
+      <point x="2338" y="0" type="line"/>
+      <point x="2696" y="0" type="line"/>
+      <point x="1441" y="1400" type="line"/>
+      <point x="1247" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="824" y="566" type="line"/>
+      <point x="1327" y="1131" type="line"/>
+      <point x="1832" y="566" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=A</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=A</string>
+  <key>com.fontlab.recipe</key>
+  <string>=A</string>
   </dict>
   </lib>
 </glyph>

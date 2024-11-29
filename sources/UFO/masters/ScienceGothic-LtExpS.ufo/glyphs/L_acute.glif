@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lacute" format="2">
-  <advance width="2067"/>
+  <advance width="2070"/>
   <unicode hex="0139"/>
-  <anchor x="521" y="1550" name="top"/>
-  <anchor x="1060" y="-150" name="bottom"/>
-  <anchor x="252" y="700" name="left"/>
-  <anchor x="1514" y="1400" name="right"/>
-  <anchor x="1406" y="700" name="eldot"/>
-  <anchor x="368" y="1485" name="topright"/>
+  <anchor x="524" y="1550" name="top"/>
+  <anchor x="1063" y="-150" name="bottom"/>
+  <anchor x="255" y="700" name="left"/>
+  <anchor x="1517" y="1400" name="right"/>
+  <anchor x="1409" y="700" name="eldot"/>
+  <anchor x="371" y="1485" name="topright"/>
   <outline>
-    <component base="L"/>
-    <component base="acutecomb.case" xOffset="442" yOffset="400"/>
+    <contour>
+      <point x="233" y="0" type="line"/>
+      <point x="1945" y="0" type="line"/>
+      <point x="1951" y="36" type="line"/>
+      <point x="279" y="36" type="line"/>
+      <point x="517" y="1400" type="line"/>
+      <point x="477" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="327" y="1485" type="line"/>
+      <point x="392" y="1485" type="line"/>
+      <point x="917" y="1800" type="line"/>
+      <point x="840" y="1800" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=L+acutecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

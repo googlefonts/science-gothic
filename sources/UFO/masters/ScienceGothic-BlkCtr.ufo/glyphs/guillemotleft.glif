@@ -3,7 +3,29 @@
   <advance width="1129"/>
   <unicode hex="00AB"/>
   <outline>
-    <component base="guilsinglleft" xOffset="-72"/>
-    <component base="guilsinglleft" xOffset="419"/>
+    <contour>
+      <point x="530" y="130" type="line"/>
+      <point x="566" y="130" type="line"/>
+      <point x="324" y="512" type="line"/>
+      <point x="566" y="894" type="line"/>
+      <point x="530" y="894" type="line"/>
+      <point x="0" y="512" type="line"/>
+    </contour>
+    <contour>
+      <point x="1021" y="130" type="line"/>
+      <point x="1057" y="130" type="line"/>
+      <point x="815" y="512" type="line"/>
+      <point x="1057" y="894" type="line"/>
+      <point x="1021" y="894" type="line"/>
+      <point x="491" y="512" type="line"/>
+    </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=guilsingleleft</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=guilsinglleft</string>
+  </dict>
+  </lib>
 </glyph>

@@ -1,20 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ograve" format="2">
-  <advance width="589"/>
+  <advance width="591"/>
   <unicode hex="00D2"/>
-  <anchor x="450" y="1550" name="top"/>
-  <anchor x="151" y="-150" name="bottom"/>
-  <anchor x="598" y="1208" name="horn"/>
-  <anchor x="195" y="0" name="ogonek"/>
-  <anchor x="480.822" y="1485" name="topright"/>
+  <anchor x="451" y="1550" name="top"/>
+  <anchor x="152" y="-150" name="bottom"/>
+  <anchor x="599" y="1208" name="horn"/>
+  <anchor x="196" y="0" name="ogonek"/>
+  <anchor x="482" y="1485" name="topright"/>
   <outline>
-    <component base="O"/>
-    <component base="gravecomb.case" xOffset="371" yOffset="400"/>
+    <contour>
+      <point x="175" y="1208" type="qcurve" smooth="yes"/>
+      <point x="-2" y="192" type="line" smooth="yes"/>
+      <point x="-20.865" y="84.8468"/>
+      <point x="55.8468" y="-8"/>
+      <point x="163" y="-8" type="qcurve" smooth="yes"/>
+      <point x="191" y="-8" type="line" smooth="yes"/>
+      <point x="298.153" y="-8"/>
+      <point x="407.135" y="84.8468"/>
+      <point x="426" y="192" type="qcurve" smooth="yes"/>
+      <point x="603" y="1208" type="line" smooth="yes"/>
+      <point x="621.75" y="1314.5"/>
+      <point x="544.5" y="1408"/>
+      <point x="438" y="1408" type="qcurve" smooth="yes"/>
+      <point x="410" y="1408" type="line" smooth="yes"/>
+      <point x="303.5" y="1408"/>
+      <point x="193.75" y="1314.5"/>
+    </contour>
+    <contour>
+      <point x="215" y="1210" type="line" smooth="yes"/>
+      <point x="230.847" y="1299.8"/>
+      <point x="313.693" y="1372"/>
+      <point x="405" y="1372" type="qcurve" smooth="yes"/>
+      <point x="429" y="1372" type="line" smooth="yes"/>
+      <point x="520.307" y="1372"/>
+      <point x="578.847" y="1299.8"/>
+      <point x="563" y="1210" type="qcurve" smooth="yes"/>
+      <point x="385" y="190" type="line" smooth="yes"/>
+      <point x="369.153" y="100.203"/>
+      <point x="286.307" y="28"/>
+      <point x="195" y="28" type="qcurve" smooth="yes"/>
+      <point x="171" y="28" type="line" smooth="yes"/>
+      <point x="79.6934" y="28"/>
+      <point x="21.1534" y="100.203"/>
+      <point x="37" y="190" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="518" y="1485" type="line"/>
+      <point x="363" y="1800" type="line"/>
+      <point x="319" y="1800" type="line"/>
+      <point x="479" y="1485" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=O+gravecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

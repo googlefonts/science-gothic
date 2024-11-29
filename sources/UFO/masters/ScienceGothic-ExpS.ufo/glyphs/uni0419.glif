@@ -1,17 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0419" format="2">
-  <advance width="2928"/>
+  <advance width="2931"/>
   <unicode hex="0419"/>
   <anchor x="1328" y="-150" name="bottom"/>
   <anchor x="1690" y="1917" name="top"/>
   <outline>
-    <component base="uni0418"/>
-    <component base="uni0306.cyr" xOffset="1547" yOffset="400"/>
+    <contour>
+      <point x="193" y="0" type="line"/>
+      <point x="437" y="0" type="line"/>
+      <point x="2434" y="1128" type="line"/>
+      <point x="2237" y="0" type="line"/>
+      <point x="2501" y="0" type="line"/>
+      <point x="2745" y="1400" type="line"/>
+      <point x="2501" y="1400" type="line"/>
+      <point x="504" y="269" type="line"/>
+      <point x="701" y="1400" type="line"/>
+      <point x="437" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1294" y="1817" type="line"/>
+      <point x="1277.5" y="1723.25"/>
+      <point x="1305.19" y="1603.88"/>
+      <point x="1391.81" y="1535.62"/>
+      <point x="1536.5" y="1510"/>
+      <point x="1637" y="1510" type="qcurve" smooth="yes"/>
+      <point x="1737.12" y="1510"/>
+      <point x="1879.47" y="1535.62"/>
+      <point x="1976.78" y="1603.88"/>
+      <point x="2035.5" y="1723.25"/>
+      <point x="2052" y="1817" type="qcurve"/>
+      <point x="1894" y="1817" type="line"/>
+      <point x="1885.75" y="1770.5"/>
+      <point x="1849.38" y="1711.38"/>
+      <point x="1788.62" y="1677.62"/>
+      <point x="1701.25" y="1665"/>
+      <point x="1642" y="1665" type="qcurve" smooth="yes"/>
+      <point x="1581.62" y="1665"/>
+      <point x="1500.97" y="1677.62"/>
+      <point x="1455.78" y="1711.38"/>
+      <point x="1443.75" y="1770.5"/>
+      <point x="1452" y="1817" type="qcurve"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=uni0418</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=uni0418</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0418+brevecomb.cyr@top</string>
   </dict>
   </lib>
 </glyph>

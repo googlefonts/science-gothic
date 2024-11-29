@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="imacron.sc" format="2">
-  <advance width="650" height="1448"/>
+  <advance width="650"/>
   <anchor x="325" y="1505" name="top"/>
   <anchor x="325" y="-150" name="bottom"/>
   <anchor x="396" y="0" name="ogonek"/>
   <outline>
-    <component base="i.sc"/>
-    <component base="uni0304" xOffset="325" yOffset="60"/>
+    <contour>
+      <point x="200" y="0" type="line"/>
+      <point x="450" y="0" type="line"/>
+      <point x="450" y="1060" type="line"/>
+      <point x="200" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="-10" y="1245" type="line"/>
+      <point x="660" y="1245" type="line"/>
+      <point x="660" y="1405" type="line"/>
+      <point x="-10" y="1405" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=i.sc+uni0304@top</string>
   </dict>
   </lib>
 </glyph>

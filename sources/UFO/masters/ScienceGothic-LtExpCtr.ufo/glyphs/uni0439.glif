@@ -1,16 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0439" format="2">
-  <advance width="2030"/>
+  <advance width="2014"/>
   <unicode hex="0439"/>
-  <anchor x="1023" y="1518" name="top"/>
+  <anchor x="1007" y="1518" name="top"/>
   <outline>
-    <component base="uni0438"/>
-    <component base="uni0306.cyr" xOffset="1023"/>
+    <contour>
+      <point x="310" y="0" type="line"/>
+      <point x="344" y="0" type="line"/>
+      <point x="1668" y="960" type="line"/>
+      <point x="1668" y="0" type="line"/>
+      <point x="1704" y="0" type="line"/>
+      <point x="1704" y="1000" type="line"/>
+      <point x="1670" y="1000" type="line"/>
+      <point x="346" y="40" type="line"/>
+      <point x="346" y="1000" type="line"/>
+      <point x="310" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="732" y="1418" type="line"/>
+      <point x="732" y="1329.88"/>
+      <point x="751" y="1222.22"/>
+      <point x="809.5" y="1163.53"/>
+      <point x="917.75" y="1144"/>
+      <point x="1007" y="1144" type="qcurve" smooth="yes"/>
+      <point x="1096.25" y="1144"/>
+      <point x="1204.5" y="1163.53"/>
+      <point x="1263" y="1222.22"/>
+      <point x="1282" y="1329.88"/>
+      <point x="1282" y="1418" type="qcurve"/>
+      <point x="1252" y="1418" type="line"/>
+      <point x="1252" y="1334.75"/>
+      <point x="1235.34" y="1238.31"/>
+      <point x="1183.41" y="1189.19"/>
+      <point x="1086.88" y="1176"/>
+      <point x="1007" y="1176" type="qcurve" smooth="yes"/>
+      <point x="927.125" y="1176"/>
+      <point x="830.594" y="1189.19"/>
+      <point x="778.656" y="1238.31"/>
+      <point x="762" y="1334.75"/>
+      <point x="762" y="1418" type="qcurve"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=uni0438</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=uni0438</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0438+brevecomb.cyr@top</string>
   </dict>
   </lib>
 </glyph>

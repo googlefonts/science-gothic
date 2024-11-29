@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ncaron" format="2">
-  <advance width="1830" height="1448"/>
+  <advance width="1830"/>
   <unicode hex="0147"/>
   <anchor x="1124" y="1880" name="top"/>
   <anchor x="769" y="-150" name="bottom"/>
+  <anchor x="677" y="1700" name="topright"/>
   <outline>
-    <component base="N"/>
-    <component base="uni030C.case" xOffset="983" yOffset="400"/>
+    <contour>
+      <point x="83" y="0" type="line"/>
+      <point x="327" y="0" type="line"/>
+      <point x="498" y="980" type="line"/>
+      <point x="1309" y="0" type="line"/>
+      <point x="1513" y="0" type="line"/>
+      <point x="1757" y="1400" type="line"/>
+      <point x="1513" y="1400" type="line"/>
+      <point x="1342" y="421" type="line"/>
+      <point x="531" y="1400" type="line"/>
+      <point x="327" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1518" y="1800" type="line"/>
+      <point x="1250" y="1800" type="line"/>
+      <point x="1065" y="1608" type="line"/>
+      <point x="929" y="1800" type="line"/>
+      <point x="695" y="1800" type="line"/>
+      <point x="942" y="1485" type="line"/>
+      <point x="1159" y="1485" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=N+uni030C.case@top</string>
   </dict>
   </lib>
 </glyph>

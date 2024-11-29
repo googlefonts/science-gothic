@@ -1,18 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Eogonek" format="2">
-  <advance width="689"/>
+  <advance width="688"/>
   <unicode hex="0118"/>
   <anchor x="361" y="1550" name="top"/>
   <anchor x="361" y="-150" name="bottom"/>
   <anchor x="564" y="0" name="ogonek"/>
   <outline>
-    <component base="E"/>
-    <component base="uni0328.case" xOffset="471"/>
+    <contour>
+      <point x="72" y="0" type="line"/>
+      <point x="650" y="0" type="line"/>
+      <point x="650" y="244" type="line"/>
+      <point x="336" y="244" type="line"/>
+      <point x="336" y="596" type="line"/>
+      <point x="616" y="596" type="line"/>
+      <point x="616" y="840" type="line"/>
+      <point x="336" y="840" type="line"/>
+      <point x="336" y="1156" type="line"/>
+      <point x="636" y="1156" type="line"/>
+      <point x="636" y="1400" type="line"/>
+      <point x="72" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="564" y="0" type="qcurve"/>
+      <point x="411" y="0" type="line"/>
+      <point x="353.65" y="-52.822"/>
+      <point x="292" y="-179.164"/>
+      <point x="292" y="-247.319" type="qcurve" smooth="yes"/>
+      <point x="292" y="-336.121"/>
+      <point x="396.841" y="-439"/>
+      <point x="494.75" y="-439" type="qcurve" smooth="yes"/>
+      <point x="528.896" y="-439"/>
+      <point x="589.816" y="-425.337"/>
+      <point x="620" y="-411" type="qcurve"/>
+      <point x="650" y="-226" type="line"/>
+      <point x="633.399" y="-232.791"/>
+      <point x="599.803" y="-240"/>
+      <point x="583.823" y="-240" type="qcurve" smooth="yes"/>
+      <point x="540.944" y="-240"/>
+      <point x="492" y="-189.059"/>
+      <point x="492" y="-143.117" type="qcurve" smooth="yes"/>
+      <point x="492" y="-98.5074"/>
+      <point x="534.571" y="-15.8466"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="-39" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= E +uni0328.case@ogonek</string>
   </dict>
   </lib>
 </glyph>

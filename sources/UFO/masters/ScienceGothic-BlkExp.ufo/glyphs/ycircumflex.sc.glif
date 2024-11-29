@@ -5,13 +5,32 @@
   <anchor x="1185" y="-150" name="bottom"/>
   <anchor x="1988" y="1334" name="topright"/>
   <outline>
-    <component base="y.sc"/>
-    <component base="uni0302" xOffset="1207" yOffset="60"/>
+    <contour>
+      <point x="919" y="0" type="line"/>
+      <point x="1450" y="0" type="line"/>
+      <point x="1450" y="330" type="line"/>
+      <point x="2380" y="1086" type="line"/>
+      <point x="1665" y="1086" type="line"/>
+      <point x="1207" y="704" type="line"/>
+      <point x="756" y="1086" type="line"/>
+      <point x="0" y="1086" type="line"/>
+      <point x="919" y="348" type="line"/>
+    </contour>
+    <contour>
+      <point x="435" y="1160" type="line"/>
+      <point x="1042" y="1160" type="line"/>
+      <point x="1207" y="1321" type="line"/>
+      <point x="1372" y="1160" type="line"/>
+      <point x="1988" y="1160" type="line"/>
+      <point x="1437" y="1508" type="line"/>
+      <point x="989" y="1508" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="1,0,0,1" x="1190" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=y.sc+uni0302@top</string>
   </dict>
   </lib>
 </glyph>

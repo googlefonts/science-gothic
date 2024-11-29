@@ -3,13 +3,57 @@
   <advance width="1467"/>
   <unicode hex="201C"/>
   <outline>
-    <component base="quoteleft"/>
-    <component base="quoteleft" xOffset="594"/>
+    <contour>
+      <point x="485" y="1487" type="line"/>
+      <point x="311" y="1198" type="line" smooth="yes"/>
+      <point x="292.135" y="1167.06"/>
+      <point x="279" y="1113.54"/>
+      <point x="279" y="1066" type="qcurve" smooth="yes"/>
+      <point x="279" y="995" type="line" smooth="yes"/>
+      <point x="279" y="908.221"/>
+      <point x="309.712" y="878"/>
+      <point x="398" y="878" type="qcurve" smooth="yes"/>
+      <point x="475" y="878" type="line" smooth="yes"/>
+      <point x="562.75" y="878"/>
+      <point x="594" y="908.75"/>
+      <point x="594" y="995" type="qcurve" smooth="yes"/>
+      <point x="594" y="1066" type="line" smooth="yes"/>
+      <point x="594" y="1154.29"/>
+      <point x="563.288" y="1185"/>
+      <point x="475" y="1185" type="qcurve" smooth="yes"/>
+      <point x="447" y="1185" type="line"/>
+      <point x="577" y="1455" type="line"/>
+    </contour>
+    <contour>
+      <point x="1079" y="1487" type="line"/>
+      <point x="905" y="1198" type="line" smooth="yes"/>
+      <point x="886.135" y="1167.06"/>
+      <point x="873" y="1113.54"/>
+      <point x="873" y="1066" type="qcurve" smooth="yes"/>
+      <point x="873" y="995" type="line" smooth="yes"/>
+      <point x="873" y="908.221"/>
+      <point x="903.712" y="878"/>
+      <point x="992" y="878" type="qcurve" smooth="yes"/>
+      <point x="1069" y="878" type="line" smooth="yes"/>
+      <point x="1156.75" y="878"/>
+      <point x="1188" y="908.75"/>
+      <point x="1188" y="995" type="qcurve" smooth="yes"/>
+      <point x="1188" y="1066" type="line" smooth="yes"/>
+      <point x="1188" y="1154.29"/>
+      <point x="1157.29" y="1185"/>
+      <point x="1069" y="1185" type="qcurve" smooth="yes"/>
+      <point x="1041" y="1185" type="line"/>
+      <point x="1171" y="1455" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=quoteleft</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=quoteleft</string>
+  <key>com.fontlab.recipe</key>
+  <string>= quoteleft &amp; quoteleft</string>
   </dict>
   </lib>
 </glyph>

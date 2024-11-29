@@ -4,7 +4,7 @@
   <unicode hex="0152"/>
   <outline>
     <contour>
-      <point x="682" y="0" type="line"/>
+      <point x="682" y="0" type="qcurve" smooth="yes"/>
       <point x="4702" y="0" type="line"/>
       <point x="4702" y="424" type="line"/>
       <point x="2934" y="424" type="line"/>
@@ -16,29 +16,24 @@
       <point x="4668" y="976" type="line"/>
       <point x="4668" y="1400" type="line"/>
       <point x="682" y="1400" type="line" smooth="yes"/>
-      <point x="588" y="1400"/>
-      <point x="435" y="1375"/>
-      <point x="328" y="1306"/>
-      <point x="270" y="1181"/>
+      <point x="587.5" y="1400"/>
+      <point x="435.125" y="1375.38"/>
+      <point x="327.875" y="1305.62"/>
+      <point x="270" y="1180.5"/>
       <point x="270" y="1080" type="qcurve" smooth="yes"/>
       <point x="270" y="332" type="line" smooth="yes"/>
-      <point x="270" y="229"/>
-      <point x="325" y="100"/>
-      <point x="430" y="27"/>
+      <point x="270" y="229.25"/>
+      <point x="324.5" y="99.8125"/>
+      <point x="429.5" y="26.6875"/>
       <point x="583" y="0"/>
-      <point x="682" y="0" type="qcurve"/>
     </contour>
     <contour>
       <point x="2362" y="424" type="line"/>
       <point x="842" y="424" type="line"/>
       <point x="842" y="424"/>
       <point x="842" y="424"/>
-      <point x="842" y="424"/>
-      <point x="842" y="424"/>
       <point x="842" y="424" type="qcurve"/>
       <point x="842" y="976" type="line"/>
-      <point x="842" y="976"/>
-      <point x="842" y="976"/>
       <point x="842" y="976"/>
       <point x="842" y="976"/>
       <point x="842" y="976" type="qcurve"/>
@@ -46,4 +41,12 @@
     </contour>
   </outline>
   <guideline angle="90" color="1,0,0,1" x="2362" y="0"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=O</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=E</string>
+  </dict>
+  </lib>
 </glyph>

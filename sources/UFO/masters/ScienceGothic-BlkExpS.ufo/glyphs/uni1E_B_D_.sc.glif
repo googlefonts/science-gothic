@@ -1,17 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1EBD.sc" format="2">
-  <advance width="2437"/>
+  <advance width="2438"/>
   <anchor x="1452" y="1633" name="top"/>
   <anchor x="1140" y="-150" name="bottom"/>
   <anchor x="1916" y="0" name="ogonek"/>
   <outline>
-    <component base="e.sc"/>
-    <component base="tildecomb" xOffset="1306" yOffset="86"/>
+    <contour>
+      <point x="202" y="0" type="line"/>
+      <point x="2136" y="0" type="line"/>
+      <point x="2195" y="340" type="line"/>
+      <point x="792" y="340" type="line"/>
+      <point x="805" y="410" type="line"/>
+      <point x="1657" y="410" type="line"/>
+      <point x="1703" y="676" type="line"/>
+      <point x="851" y="676" type="line"/>
+      <point x="863" y="746" type="line"/>
+      <point x="2244" y="746" type="line"/>
+      <point x="2304" y="1086" type="line"/>
+      <point x="392" y="1086" type="line"/>
+    </contour>
+    <contour>
+      <point x="827" y="1211" type="qcurve"/>
+      <point x="1107" y="1163" type="line"/>
+      <point x="1116.81" y="1190.17"/>
+      <point x="1163.93" y="1237"/>
+      <point x="1216" y="1237" type="qcurve" smooth="yes"/>
+      <point x="1252.38" y="1237"/>
+      <point x="1332.19" y="1213.88"/>
+      <point x="1421.81" y="1186.12"/>
+      <point x="1522.62" y="1163"/>
+      <point x="1580" y="1163" type="qcurve" smooth="yes"/>
+      <point x="1736" y="1163"/>
+      <point x="1923.25" y="1342.75"/>
+      <point x="1975" y="1480" type="qcurve"/>
+      <point x="1695" y="1528" type="line"/>
+      <point x="1685.19" y="1500.83"/>
+      <point x="1638.07" y="1454"/>
+      <point x="1586" y="1454" type="qcurve" smooth="yes"/>
+      <point x="1549.62" y="1454"/>
+      <point x="1469.81" y="1477.12"/>
+      <point x="1380.19" y="1504.88"/>
+      <point x="1279.38" y="1528"/>
+      <point x="1222" y="1528" type="qcurve" smooth="yes"/>
+      <point x="1066" y="1528"/>
+      <point x="880.25" y="1360.25"/>
+    </contour>
   </outline>
+  <guideline angle="260.1" color="1,0,0,1" x="1919" y="-0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= e.sc + tildecomb@top</string>
   </dict>
   </lib>
 </glyph>

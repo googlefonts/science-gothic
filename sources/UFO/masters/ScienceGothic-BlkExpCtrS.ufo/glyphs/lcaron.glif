@@ -7,13 +7,23 @@
   <anchor x="981" y="1472" name="right"/>
   <anchor x="1166" y="700" name="eldot"/>
   <outline>
-    <component base="l"/>
-    <component base="caroncomb.alt" xOffset="851"/>
+    <contour>
+      <point x="200" y="0" type="line"/>
+      <point x="724" y="0" type="line"/>
+      <point x="981" y="1472" type="line"/>
+      <point x="457" y="1472" type="line"/>
+    </contour>
+    <contour>
+      <point x="1242" y="1170" type="line"/>
+      <point x="1278" y="1177" type="line"/>
+      <point x="1591" y="1472" type="line"/>
+      <point x="1184" y="1472" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= l + caroncomb.alt@right</string>
   </dict>
   </lib>
 </glyph>

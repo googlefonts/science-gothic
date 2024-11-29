@@ -1,19 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Eacute" format="2">
-  <advance width="2750"/>
+  <advance width="2753"/>
   <unicode hex="00C9"/>
-  <anchor x="1721" y="1550" name="top"/>
-  <anchor x="1424" y="-150" name="bottom"/>
-  <anchor x="2091" y="0" name="ogonek"/>
-  <anchor x="1489" y="1550" name="topright"/>
+  <anchor x="1724" y="1550" name="top"/>
+  <anchor x="1427" y="-150" name="bottom"/>
+  <anchor x="2094" y="0" name="ogonek"/>
+  <anchor x="1492" y="1550" name="topright"/>
   <outline>
-    <component base="E"/>
-    <component base="acutecomb.case" xOffset="1650" yOffset="450"/>
+    <contour>
+      <point x="283" y="0" type="line"/>
+      <point x="2623" y="0" type="line"/>
+      <point x="2629" y="36" type="line"/>
+      <point x="861" y="36" type="line"/>
+      <point x="977" y="700" type="line"/>
+      <point x="2059" y="700" type="line"/>
+      <point x="2065" y="736" type="line"/>
+      <point x="983" y="736" type="line"/>
+      <point x="1093" y="1364" type="line"/>
+      <point x="2827" y="1364" type="line"/>
+      <point x="2833" y="1400" type="line"/>
+      <point x="527" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1438" y="1550" type="line"/>
+      <point x="1514" y="1550" type="line"/>
+      <point x="2594" y="1850" type="line"/>
+      <point x="1753" y="1850" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="-127" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=E+acutecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

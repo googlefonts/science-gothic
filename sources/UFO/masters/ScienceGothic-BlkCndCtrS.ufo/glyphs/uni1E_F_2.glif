@@ -1,18 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1EF2" format="2">
-  <advance width="1316"/>
+  <advance width="1317"/>
   <unicode hex="1EF2"/>
   <anchor x="970" y="1550" name="top"/>
-  <anchor x="572" y="-150" name="bottom"/>
-  <anchor x="1024.11" y="1500" name="topright"/>
+  <anchor x="514" y="-150" name="bottom"/>
+  <anchor x="1024" y="1500" name="topright"/>
   <outline>
-    <component base="Y"/>
-    <component base="gravecomb.case" xOffset="467" yOffset="400"/>
+    <contour>
+      <point x="254" y="0" type="line"/>
+      <point x="826" y="0" type="line"/>
+      <point x="921" y="543" type="line"/>
+      <point x="1453" y="1400" type="line"/>
+      <point x="1411" y="1400" type="line"/>
+      <point x="905" y="585" type="line"/>
+      <point x="695" y="1400" type="line"/>
+      <point x="117" y="1400" type="line"/>
+      <point x="352" y="560" type="line"/>
+    </contour>
+    <contour>
+      <point x="1060" y="1500" type="line"/>
+      <point x="1019" y="1800" type="line"/>
+      <point x="488" y="1800" type="line"/>
+      <point x="1024" y="1500" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="260.099" color="1,0,0,1" x="598" y="-0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=Y+gravecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

@@ -1,17 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="emacron.sc" format="2">
-  <advance width="1867"/>
-  <anchor x="1241" y="1446" name="top"/>
-  <anchor x="960" y="-150" name="bottom"/>
-  <anchor x="1742" y="0" name="ogonek"/>
+  <advance width="1871"/>
+  <anchor x="1244" y="1446" name="top"/>
+  <anchor x="963" y="-150" name="bottom"/>
+  <anchor x="1745" y="0" name="ogonek"/>
   <outline>
-    <component base="e.sc"/>
-    <component base="uni0304" xOffset="1110" yOffset="60"/>
+    <contour>
+      <point x="232" y="0" type="line"/>
+      <point x="1745" y="0" type="line"/>
+      <point x="1751" y="33" type="line"/>
+      <point x="275" y="33" type="line"/>
+      <point x="361" y="527" type="line"/>
+      <point x="1300" y="527" type="line"/>
+      <point x="1306" y="560" type="line"/>
+      <point x="367" y="560" type="line"/>
+      <point x="448" y="1027" type="line"/>
+      <point x="1897" y="1027" type="line"/>
+      <point x="1903" y="1060" type="line"/>
+      <point x="417" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="739" y="1314" type="line"/>
+      <point x="1704" y="1314" type="line"/>
+      <point x="1709" y="1346" type="line"/>
+      <point x="744" y="1346" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="260.1" color="1,0,0,1" x="1745" y="-0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=e.sc+uni0304@top</string>
   </dict>
   </lib>
 </glyph>

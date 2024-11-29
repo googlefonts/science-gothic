@@ -4,6 +4,11 @@
   <unicode hex="0414"/>
   <outline>
     <contour>
+      <point x="410" y="1400" type="line"/>
+      <point x="148" y="484" type="line"/>
+      <point x="0" y="484" type="line"/>
+      <point x="0" y="-260" type="line"/>
+      <point x="430" y="-260" type="line"/>
       <point x="456" y="0" type="line"/>
       <point x="996" y="0" type="line"/>
       <point x="1022" y="-260" type="line"/>
@@ -11,11 +16,6 @@
       <point x="1452" y="484" type="line"/>
       <point x="1302" y="484" type="line"/>
       <point x="1040" y="1400" type="line"/>
-      <point x="410" y="1400" type="line"/>
-      <point x="148" y="484" type="line"/>
-      <point x="0" y="484" type="line"/>
-      <point x="0" y="-260" type="line"/>
-      <point x="430" y="-260" type="line"/>
     </contour>
     <contour>
       <point x="612" y="384" type="line"/>
@@ -25,8 +25,10 @@
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,1,0.602,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=A+10</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=A+10</string>
   </dict>
   </lib>
 </glyph>

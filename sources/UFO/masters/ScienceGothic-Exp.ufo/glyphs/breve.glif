@@ -1,15 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="breve" format="2">
-  <advance width="918"/>
+  <advance width="778"/>
   <unicode hex="02D8"/>
-  <anchor x="458" y="1517" name="top"/>
   <outline>
-    <component base="uni0306" xOffset="458"/>
+    <contour>
+      <point x="10" y="1417" type="line"/>
+      <point x="10" y="1323.25"/>
+      <point x="53.375" y="1203.88"/>
+      <point x="145.625" y="1135.62"/>
+      <point x="289.5" y="1110"/>
+      <point x="390" y="1110" type="qcurve" smooth="yes"/>
+      <point x="490.125" y="1110"/>
+      <point x="633.281" y="1135.62"/>
+      <point x="724.969" y="1203.88"/>
+      <point x="768" y="1323.25"/>
+      <point x="768" y="1417" type="qcurve"/>
+      <point x="610" y="1417" type="line"/>
+      <point x="610" y="1370.5"/>
+      <point x="585.688" y="1311.38"/>
+      <point x="532.812" y="1277.62"/>
+      <point x="449.25" y="1265"/>
+      <point x="390" y="1265" type="qcurve" smooth="yes"/>
+      <point x="329.625" y="1265"/>
+      <point x="245.156" y="1277.62"/>
+      <point x="192.094" y="1311.38"/>
+      <point x="168" y="1370.5"/>
+      <point x="168" y="1417" type="qcurve"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=T</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=T</string>
+  <key>com.fontlab.recipe</key>
+  <string>brevecomb</string>
   </dict>
   </lib>
 </glyph>

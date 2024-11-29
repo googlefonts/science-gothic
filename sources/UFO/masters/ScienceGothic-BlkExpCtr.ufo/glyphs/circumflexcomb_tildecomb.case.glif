@@ -1,9 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexcomb_tildecomb.case" format="2">
   <anchor x="0" y="1150" name="_top"/>
-  <anchor x="913" y="1200" name="topright"/>
   <outline>
-    <component base="uni0302.case"/>
-    <component base="tildecomb.case" xOffset="140" yOffset="395"/>
+    <contour>
+      <point x="-689" y="1100" type="line"/>
+      <point x="-637" y="1100" type="line"/>
+      <point x="-218" y="1382" type="line"/>
+      <point x="199" y="1100" type="line"/>
+      <point x="796" y="1100" type="line"/>
+      <point x="300" y="1400" type="line"/>
+      <point x="-245" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="-520" y="1530" type="qcurve"/>
+      <point x="-490" y="1525" type="line"/>
+      <point x="-479.436" y="1580.84"/>
+      <point x="-433.767" y="1629"/>
+      <point x="-390" y="1629" type="qcurve" smooth="yes"/>
+      <point x="-343.5" y="1629"/>
+      <point x="-191.781" y="1586.19"/>
+      <point x="-17.9688" y="1534.81"/>
+      <point x="159.625" y="1492"/>
+      <point x="232" y="1492" type="qcurve" smooth="yes"/>
+      <point x="355.754" y="1492"/>
+      <point x="498.117" y="1642.04"/>
+      <point x="520" y="1799" type="qcurve"/>
+      <point x="490" y="1804" type="line"/>
+      <point x="478.681" y="1743.63"/>
+      <point x="440.994" y="1700"/>
+      <point x="401" y="1700" type="qcurve" smooth="yes"/>
+      <point x="353.75" y="1700"/>
+      <point x="201" y="1742.81"/>
+      <point x="25.5" y="1794.19"/>
+      <point x="-155" y="1837"/>
+      <point x="-230" y="1837" type="qcurve" smooth="yes"/>
+      <point x="-357.527" y="1837"/>
+      <point x="-500.38" y="1687.71"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="-410" y="0"/>
+  <guideline angle="90" x="690" y="0"/>
+  <guideline angle="90" x="-380" y="0"/>
+  <guideline angle="90" x="660" y="0"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0302.case+tildecomb.case@top</string>
+  </dict>
+  </lib>
 </glyph>

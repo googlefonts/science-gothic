@@ -1,14 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="questiondown" format="2">
-  <advance width="1824"/>
+  <advance width="1826"/>
   <unicode hex="00BF"/>
   <outline>
-    <component base="question" xScale="-1" yScale="-1" xOffset="1759.27" yOffset="996"/>
+    <contour>
+      <point x="1016" y="666" type="line"/>
+      <point x="976" y="666" type="line"/>
+      <point x="958" y="561" type="line" smooth="yes"/>
+      <point x="937.626" y="443.282"/>
+      <point x="826.491" y="351.264"/>
+      <point x="705" y="349" type="qcurve" smooth="yes"/>
+      <point x="450" y="344" type="line" smooth="yes"/>
+      <point x="324.736" y="341.736"/>
+      <point x="194.356" y="193.607"/>
+      <point x="177" y="94" type="qcurve" smooth="yes"/>
+      <point x="133" y="-156" type="line" smooth="yes"/>
+      <point x="109.607" y="-290.319"/>
+      <point x="235.951" y="-404"/>
+      <point x="408" y="-404" type="qcurve" smooth="yes"/>
+      <point x="1142" y="-404" type="line" smooth="yes"/>
+      <point x="1312.54" y="-404"/>
+      <point x="1479.61" y="-288.81"/>
+      <point x="1503" y="-156" type="qcurve" smooth="yes"/>
+      <point x="1524" y="-36" type="line"/>
+      <point x="1485" y="-28" type="line"/>
+      <point x="1463" y="-156" type="line" smooth="yes"/>
+      <point x="1442.63" y="-272.963"/>
+      <point x="1299.67" y="-368"/>
+      <point x="1148" y="-368" type="qcurve" smooth="yes"/>
+      <point x="414" y="-368" type="line" smooth="yes"/>
+      <point x="258.552" y="-368"/>
+      <point x="152.626" y="-272.208"/>
+      <point x="173" y="-156" type="qcurve" smooth="yes"/>
+      <point x="217" y="94" type="line" smooth="yes"/>
+      <point x="232.847" y="186.061"/>
+      <point x="342.884" y="305.736"/>
+      <point x="444" y="308" type="qcurve" smooth="yes"/>
+      <point x="699" y="313" type="line" smooth="yes"/>
+      <point x="839.356" y="316.018"/>
+      <point x="975.362" y="429.7"/>
+      <point x="998" y="561" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1097" y="974" type="line" smooth="yes"/>
+      <point x="1100.77" y="993.62"/>
+      <point x="1095.62" y="1000"/>
+      <point x="1076" y="1000" type="qcurve" smooth="yes"/>
+      <point x="1034" y="1000" type="line" smooth="yes"/>
+      <point x="1014.5" y="1000"/>
+      <point x="1006.75" y="993.5"/>
+      <point x="1003" y="974" type="qcurve"/>
+      <point x="995" y="927" type="line" smooth="yes"/>
+      <point x="991.227" y="907.38"/>
+      <point x="996.38" y="901"/>
+      <point x="1016" y="901" type="qcurve" smooth="yes"/>
+      <point x="1058" y="901" type="line" smooth="yes"/>
+      <point x="1077.5" y="901"/>
+      <point x="1085.25" y="907.5"/>
+      <point x="1089" y="927" type="qcurve"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=rsb("question")</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=lsb("question")</string>
+  <key>com.fontlab.recipe</key>
+  <string>= question@~,~(xHeight-capHeight)</string>
   </dict>
   </lib>
 </glyph>

@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni045C.sc" format="2">
-  <advance width="739"/>
+  <advance width="736"/>
   <anchor x="461" y="1210" name="top"/>
-  <anchor x="250.5" y="-150.001" name="bottom"/>
+  <anchor x="251" y="-150" name="bottom"/>
   <outline>
-    <component base="k.sc"/>
-    <component base="acute" xOffset="270" yOffset="60"/>
+    <contour>
+      <point x="72" y="0" type="line"/>
+      <point x="322" y="0" type="line"/>
+      <point x="322" y="521" type="line"/>
+      <point x="314" y="520" type="line"/>
+      <point x="467" y="0" type="line"/>
+      <point x="746" y="0" type="line"/>
+      <point x="536" y="615" type="line"/>
+      <point x="536" y="504" type="line"/>
+      <point x="719" y="1060" type="line"/>
+      <point x="463" y="1060" type="line"/>
+      <point x="307" y="552" type="line"/>
+      <point x="322" y="552" type="line"/>
+      <point x="322" y="1060" type="line"/>
+      <point x="72" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="320" y="1145" type="line"/>
+      <point x="524" y="1145" type="line"/>
+      <point x="759" y="1460" type="line"/>
+      <point x="531" y="1460" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=k.sc+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

@@ -2,12 +2,39 @@
 <glyph name="exclamdown.sc" format="2">
   <advance width="725"/>
   <outline>
-    <component base="exclam.sc" xScale="-1" yScale="-1" xOffset="725" yOffset="1056"/>
+    <contour>
+      <point x="410" y="1034" type="line" smooth="yes"/>
+      <point x="410" y="1053.62"/>
+      <point x="403.62" y="1060"/>
+      <point x="384" y="1060" type="qcurve" smooth="yes"/>
+      <point x="341" y="1060" type="line" smooth="yes"/>
+      <point x="321.38" y="1060"/>
+      <point x="315" y="1053.62"/>
+      <point x="315" y="1034" type="qcurve" smooth="yes"/>
+      <point x="315" y="992" type="line" smooth="yes"/>
+      <point x="315" y="972.38"/>
+      <point x="321.38" y="966"/>
+      <point x="341" y="966" type="qcurve" smooth="yes"/>
+      <point x="384" y="966" type="line" smooth="yes"/>
+      <point x="403.62" y="966"/>
+      <point x="410" y="972.38"/>
+      <point x="410" y="992" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="380" y="802" type="line"/>
+      <point x="345" y="802" type="line"/>
+      <point x="343" y="-4" type="line"/>
+      <point x="382" y="-4" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=rsb("exclam.sc")</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=lsb("exclam.sc")</string>
+  <key>com.fontlab.recipe</key>
+  <string>=exclam.sc@~</string>
   </dict>
   </lib>
 </glyph>

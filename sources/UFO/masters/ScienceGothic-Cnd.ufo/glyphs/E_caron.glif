@@ -1,18 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ecaron" format="2">
-  <advance width="689"/>
+  <advance width="688"/>
   <unicode hex="011A"/>
   <anchor x="361" y="1880" name="top"/>
   <anchor x="361" y="-150" name="bottom"/>
   <anchor x="564" y="0" name="ogonek"/>
+  <anchor x="110" y="1700" name="topright"/>
   <outline>
-    <component base="E"/>
-    <component base="uni030C.case" xOffset="361" yOffset="400"/>
+    <contour>
+      <point x="72" y="0" type="line"/>
+      <point x="650" y="0" type="line"/>
+      <point x="650" y="244" type="line"/>
+      <point x="336" y="244" type="line"/>
+      <point x="336" y="596" type="line"/>
+      <point x="616" y="596" type="line"/>
+      <point x="616" y="840" type="line"/>
+      <point x="336" y="840" type="line"/>
+      <point x="336" y="1156" type="line"/>
+      <point x="636" y="1156" type="line"/>
+      <point x="636" y="1400" type="line"/>
+      <point x="72" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="613" y="1800" type="line"/>
+      <point x="412" y="1800" type="line"/>
+      <point x="369" y="1682" type="line"/>
+      <point x="326" y="1800" type="line"/>
+      <point x="110" y="1800" type="line"/>
+      <point x="272" y="1475" type="line"/>
+      <point x="451" y="1475" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="-39" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=E+uni030C.case@top</string>
   </dict>
   </lib>
 </glyph>

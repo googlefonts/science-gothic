@@ -1,13 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zero.sups" format="2">
-  <advance width="1608"/>
+  <advance width="1612"/>
   <outline>
-    <component base="zero.dnom" xOffset="167" yOffset="951"/>
+    <contour>
+      <point x="505" y="950" type="qcurve" smooth="yes"/>
+      <point x="1203" y="950" type="line" smooth="yes"/>
+      <point x="1288.27" y="950"/>
+      <point x="1393.66" y="1033.99"/>
+      <point x="1408" y="1117" type="qcurve" smooth="yes"/>
+      <point x="1487" y="1569" type="line" smooth="yes"/>
+      <point x="1501.34" y="1652.01"/>
+      <point x="1425.27" y="1736"/>
+      <point x="1340" y="1736" type="qcurve" smooth="yes"/>
+      <point x="642" y="1736" type="line" smooth="yes"/>
+      <point x="557.485" y="1736"/>
+      <point x="451.337" y="1652.01"/>
+      <point x="437" y="1569" type="qcurve" smooth="yes"/>
+      <point x="358" y="1117" type="line" smooth="yes"/>
+      <point x="343.663" y="1033.99"/>
+      <point x="419.73" y="950"/>
+    </contour>
+    <contour>
+      <point x="507" y="980" type="line" smooth="yes"/>
+      <point x="439.086" y="980"/>
+      <point x="379.681" y="1047.1"/>
+      <point x="391" y="1112" type="qcurve" smooth="yes"/>
+      <point x="472" y="1574" type="line" smooth="yes"/>
+      <point x="483.319" y="1638.9"/>
+      <point x="566.086" y="1706"/>
+      <point x="634" y="1706" type="qcurve" smooth="yes"/>
+      <point x="1338" y="1706" type="line" smooth="yes"/>
+      <point x="1405.91" y="1706"/>
+      <point x="1465.32" y="1638.9"/>
+      <point x="1454" y="1574" type="qcurve" smooth="yes"/>
+      <point x="1373" y="1112" type="line" smooth="yes"/>
+      <point x="1361.68" y="1047.1"/>
+      <point x="1278.91" y="980"/>
+      <point x="1211" y="980" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>zero.dnom</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>zero.dnom</string>
+  <key>com.fontlab.recipe</key>
+  <string>= zero.dnom @,950</string>
   </dict>
   </lib>
 </glyph>

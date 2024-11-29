@@ -1,19 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uhorn" format="2">
-  <advance width="1450"/>
+  <advance width="1927"/>
   <unicode hex="01B0"/>
   <anchor x="810" y="1174" name="top"/>
   <anchor x="810" y="-150" name="bottom"/>
   <anchor x="827" y="0" name="ogonek"/>
   <anchor x="1450" y="1024" name="horn"/>
   <outline>
-    <component base="u"/>
-    <component base="uni031B" xOffset="1450"/>
+    <contour>
+      <point x="170" y="204" type="line" smooth="yes"/>
+      <point x="170" y="77.2272"/>
+      <point x="299.301" y="0"/>
+      <point x="414" y="0" type="qcurve" smooth="yes"/>
+      <point x="1204" y="0" type="line" smooth="yes"/>
+      <point x="1318.7" y="0"/>
+      <point x="1450" y="77.2272"/>
+      <point x="1450" y="204" type="qcurve" smooth="yes"/>
+      <point x="1450" y="1024" type="line"/>
+      <point x="926" y="1024" type="line"/>
+      <point x="926" y="32" type="line"/>
+      <point x="926" y="32"/>
+      <point x="926" y="32"/>
+      <point x="926" y="32" type="qcurve"/>
+      <point x="694" y="32" type="line"/>
+      <point x="694" y="32"/>
+      <point x="694" y="32"/>
+      <point x="694" y="32" type="qcurve"/>
+      <point x="694" y="1024" type="line"/>
+      <point x="170" y="1024" type="line"/>
+    </contour>
+    <contour>
+      <point x="1450" y="994" type="line"/>
+      <point x="1598.12" y="994"/>
+      <point x="1784.22" y="1027.38"/>
+      <point x="1889.03" y="1091.12"/>
+      <point x="1927" y="1183.75"/>
+      <point x="1927" y="1243" type="qcurve" smooth="yes"/>
+      <point x="1927" y="1276.96"/>
+      <point x="1914.32" y="1351.5"/>
+      <point x="1903" y="1393" type="qcurve"/>
+      <point x="1551" y="1328" type="line"/>
+      <point x="1558.55" y="1284.23"/>
+      <point x="1566" y="1208.94"/>
+      <point x="1566" y="1178" type="qcurve" smooth="yes"/>
+      <point x="1566" y="1101.03"/>
+      <point x="1513.39" y="1024"/>
+      <point x="1450" y="1024" type="qcurve"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>u</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>v</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uhorn</string>
   </dict>
   </lib>
 </glyph>

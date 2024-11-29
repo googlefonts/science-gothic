@@ -1,19 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0400" format="2">
-  <advance width="1568" height="1448"/>
+  <advance width="1571"/>
   <unicode hex="0400"/>
   <anchor x="980" y="1550" name="top"/>
   <anchor x="683" y="-150" name="bottom"/>
   <anchor x="1261" y="0" name="ogonek"/>
-  <anchor x="1115.82" y="1485" name="topright"/>
+  <anchor x="1116" y="1485" name="topright"/>
   <outline>
-    <component base="E"/>
-    <component base="gravecomb.case" xOffset="901" yOffset="400"/>
+    <contour>
+      <point x="83" y="0" type="line"/>
+      <point x="1341" y="0" type="line"/>
+      <point x="1384" y="244" type="line"/>
+      <point x="390" y="244" type="line"/>
+      <point x="451" y="596" type="line"/>
+      <point x="1039" y="596" type="line"/>
+      <point x="1082" y="840" type="line"/>
+      <point x="494" y="840" type="line"/>
+      <point x="549" y="1156" type="line"/>
+      <point x="1523" y="1156" type="line"/>
+      <point x="1565" y="1400" type="line"/>
+      <point x="327" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1136" y="1485" type="line"/>
+      <point x="905" y="1800" type="line"/>
+      <point x="631" y="1800" type="line"/>
+      <point x="908" y="1485" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="-227" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=E</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=E</string>
+  <key>com.fontlab.recipe</key>
+  <string>=E+gravecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

@@ -1,19 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uacute" format="2">
-  <advance width="2201"/>
+  <advance width="2200"/>
   <unicode hex="00FA"/>
   <anchor x="1181" y="1150" name="top"/>
   <anchor x="952" y="-160" name="bottom"/>
-  <anchor x="1001" y="-0" name="ogonek"/>
+  <anchor x="1001" y="0" name="ogonek"/>
   <anchor x="1946" y="1000" name="horn"/>
   <outline>
-    <component base="u" xOffset="1"/>
-    <component base="acutecomb" xOffset="1106"/>
+    <contour>
+      <point x="224" y="194" type="line" smooth="yes"/>
+      <point x="202.117" y="67.2272"/>
+      <point x="317.301" y="-10"/>
+      <point x="432" y="-10" type="qcurve" smooth="yes"/>
+      <point x="1524" y="-10" type="line" smooth="yes"/>
+      <point x="1638.7" y="-10"/>
+      <point x="1784.12" y="67.2272"/>
+      <point x="1806" y="194" type="qcurve" smooth="yes"/>
+      <point x="1947" y="1000" type="line"/>
+      <point x="1699" y="1000" type="line"/>
+      <point x="1528" y="22" type="line"/>
+      <point x="1528" y="22"/>
+      <point x="1528" y="22"/>
+      <point x="1528" y="22" type="qcurve"/>
+      <point x="442" y="22" type="line"/>
+      <point x="442" y="22"/>
+      <point x="442" y="22"/>
+      <point x="442" y="22" type="qcurve"/>
+      <point x="613" y="1000" type="line"/>
+      <point x="365" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="979" y="1085" type="line"/>
+      <point x="1040" y="1085" type="line"/>
+      <point x="1850" y="1448" type="line"/>
+      <point x="1496" y="1448" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=u+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

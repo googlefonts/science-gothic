@@ -5,13 +5,59 @@
   <anchor x="569" y="1900" name="top"/>
   <anchor x="569" y="-150" name="bottom"/>
   <outline>
-    <component base="uni0416"/>
-    <component base="uni0306.cyr" xOffset="569" yOffset="400"/>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="285" y="0" type="line"/>
+      <point x="453" y="572" type="line"/>
+      <point x="453" y="0" type="line"/>
+      <point x="717" y="0" type="line"/>
+      <point x="717" y="572" type="line"/>
+      <point x="885" y="0" type="line"/>
+      <point x="1170" y="0" type="line"/>
+      <point x="868" y="948" type="line"/>
+      <point x="1118" y="1400" type="line"/>
+      <point x="1077" y="1400" type="line"/>
+      <point x="717" y="744" type="line"/>
+      <point x="717" y="1400" type="line"/>
+      <point x="453" y="1400" type="line"/>
+      <point x="453" y="744" type="line"/>
+      <point x="93" y="1400" type="line"/>
+      <point x="52" y="1400" type="line"/>
+      <point x="302" y="948" type="line"/>
+    </contour>
+    <contour>
+      <point x="339" y="1800" type="line"/>
+      <point x="339" y="1703.25"/>
+      <point x="362.219" y="1584.06"/>
+      <point x="416.031" y="1518.44"/>
+      <point x="504.125" y="1496"/>
+      <point x="569" y="1496" type="qcurve" smooth="yes"/>
+      <point x="633.5" y="1496"/>
+      <point x="720.875" y="1518.44"/>
+      <point x="774.125" y="1584.06"/>
+      <point x="797" y="1703.25"/>
+      <point x="797" y="1800" type="qcurve"/>
+      <point x="639" y="1800" type="line"/>
+      <point x="639" y="1703.62"/>
+      <point x="629.5" y="1594.53"/>
+      <point x="611.5" y="1540.72"/>
+      <point x="585.5" y="1528"/>
+      <point x="569" y="1528" type="qcurve" smooth="yes"/>
+      <point x="551.375" y="1528"/>
+      <point x="524.469" y="1540.72"/>
+      <point x="506.281" y="1594.53"/>
+      <point x="497" y="1703.62"/>
+      <point x="497" y="1800" type="qcurve"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=uni0416</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=uni0416</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0416+brevecomb.cyr@top</string>
   </dict>
   </lib>
 </glyph>

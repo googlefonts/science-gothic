@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni27E9" format="2">
-  <advance width="1007"/>
+  <advance width="1009"/>
   <unicode hex="27E9"/>
   <outline>
-    <component base="uni27E8" xScale="-1" yScale="-1" xOffset="1013.9" yOffset="1400"/>
+    <contour>
+      <point x="311" y="1400" type="line"/>
+      <point x="267" y="1400" type="line"/>
+      <point x="647" y="721" type="line"/>
+      <point x="23" y="0" type="line"/>
+      <point x="67" y="0" type="line"/>
+      <point x="884" y="700" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=rsb("uni27E8")</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=lsb("uni27E8")</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni27E8@~,~</string>
   </dict>
   </lib>
 </glyph>

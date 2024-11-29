@@ -1,19 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1EE1.sc" format="2">
-  <advance width="1541" height="1448"/>
-  <anchor x="981" y="1885" name="top"/>
+  <advance width="1541"/>
+  <anchor x="861" y="1210" name="top"/>
   <anchor x="624" y="-150" name="bottom"/>
   <anchor x="1402" y="867" name="horn"/>
   <anchor x="748" y="0" name="ogonek"/>
   <outline>
-    <component base="o.sc"/>
-    <component base="uni0306" xOffset="783" yOffset="60"/>
-    <component base="tildecomb" xOffset="846" yOffset="420"/>
+    <contour>
+      <point x="203" y="867" type="qcurve" smooth="yes"/>
+      <point x="88" y="205" type="line" smooth="yes"/>
+      <point x="63.0982" y="64.6444"/>
+      <point x="201.7" y="-10"/>
+      <point x="333" y="-10" type="qcurve" smooth="yes"/>
+      <point x="967" y="-10" type="line" smooth="yes"/>
+      <point x="1098.3" y="-10"/>
+      <point x="1265.1" y="63.1352"/>
+      <point x="1290" y="205" type="qcurve" smooth="yes"/>
+      <point x="1405" y="867" type="line" smooth="yes"/>
+      <point x="1429" y="1002"/>
+      <point x="1277.5" y="1070"/>
+      <point x="1156" y="1070" type="qcurve" smooth="yes"/>
+      <point x="522" y="1070" type="line" smooth="yes"/>
+      <point x="399.755" y="1070"/>
+      <point x="227.147" y="1002.83"/>
+    </contour>
+    <contour>
+      <point x="449" y="843" type="line"/>
+      <point x="449" y="843"/>
+      <point x="449" y="843"/>
+      <point x="449" y="843" type="qcurve"/>
+      <point x="1151" y="843" type="line"/>
+      <point x="1151" y="843"/>
+      <point x="1151" y="843"/>
+      <point x="1151" y="843" type="qcurve"/>
+      <point x="1042" y="217" type="line"/>
+      <point x="1042" y="217"/>
+      <point x="1042" y="217"/>
+      <point x="1042" y="217" type="qcurve"/>
+      <point x="340" y="217" type="line"/>
+      <point x="340" y="217"/>
+      <point x="340" y="217"/>
+      <point x="340" y="217" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="618" y="1460" type="line"/>
+      <point x="602.25" y="1371.12"/>
+      <point x="611.125" y="1252.97"/>
+      <point x="670.375" y="1182.28"/>
+      <point x="785" y="1153"/>
+      <point x="875" y="1153" type="qcurve" smooth="yes"/>
+      <point x="956.375" y="1153"/>
+      <point x="1064.66" y="1178.62"/>
+      <point x="1136.09" y="1246.88"/>
+      <point x="1179.5" y="1366.25"/>
+      <point x="1196" y="1460" type="qcurve"/>
+      <point x="1041" y="1460" type="line"/>
+      <point x="1032.75" y="1413.5"/>
+      <point x="1011" y="1354.38"/>
+      <point x="975" y="1320.62"/>
+      <point x="920.25" y="1308"/>
+      <point x="879" y="1308" type="qcurve" smooth="yes"/>
+      <point x="838.125" y="1308"/>
+      <point x="788.594" y="1320.62"/>
+      <point x="765.156" y="1354.38"/>
+      <point x="764.75" y="1413.5"/>
+      <point x="773" y="1460" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="532" y="1564" type="qcurve"/>
+      <point x="684" y="1527" type="line"/>
+      <point x="698.337" y="1566.99"/>
+      <point x="756.798" y="1616"/>
+      <point x="790" y="1616" type="qcurve" smooth="yes"/>
+      <point x="815.875" y="1616"/>
+      <point x="864.281" y="1588.5"/>
+      <point x="919.969" y="1555.5"/>
+      <point x="988.25" y="1528"/>
+      <point x="1034" y="1528" type="qcurve" smooth="yes"/>
+      <point x="1120.02" y="1528"/>
+      <point x="1257.01" y="1638.13"/>
+      <point x="1297" y="1740" type="qcurve"/>
+      <point x="1149" y="1786" type="line"/>
+      <point x="1134.66" y="1746.01"/>
+      <point x="1075.2" y="1697"/>
+      <point x="1042" y="1697" type="qcurve" smooth="yes"/>
+      <point x="1016.12" y="1697"/>
+      <point x="968.156" y="1724.81"/>
+      <point x="913.594" y="1758.19"/>
+      <point x="847.25" y="1786"/>
+      <point x="803" y="1786" type="qcurve" smooth="yes"/>
+      <point x="715.466" y="1786"/>
+      <point x="570.485" y="1667.38"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= o.sc +brevecomb_tildecomb@top</string>
   </dict>
   </lib>
 </glyph>

@@ -5,13 +5,33 @@
   <anchor x="892" y="-150" name="bottom"/>
   <anchor x="1358" y="1327" name="topright"/>
   <outline>
-    <component base="y.sc"/>
-    <component base="uni0302" xOffset="895" yOffset="60"/>
+    <contour>
+      <point x="874" y="0" type="line"/>
+      <point x="911" y="0" type="line"/>
+      <point x="911" y="486" type="line"/>
+      <point x="1781" y="1060" type="line"/>
+      <point x="1723" y="1060" type="line"/>
+      <point x="895" y="515" type="line"/>
+      <point x="65" y="1060" type="line"/>
+      <point x="0" y="1060" type="line"/>
+      <point x="874" y="486" type="line"/>
+    </contour>
+    <contour>
+      <point x="432" y="1155" type="line"/>
+      <point x="484" y="1155" type="line"/>
+      <point x="895" y="1472" type="line"/>
+      <point x="1306" y="1155" type="line"/>
+      <point x="1358" y="1155" type="line"/>
+      <point x="911" y="1498" type="line"/>
+      <point x="879" y="1498" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="1,0,0,1" x="1108" y="0"/>
+  <guideline angle="90" color="1,0,0,1" x="890.5" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=y.sc+uni0302@top</string>
   </dict>
   </lib>
 </glyph>

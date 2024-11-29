@@ -6,13 +6,53 @@
   <anchor x="442" y="-150" name="bottom"/>
   <anchor x="575" y="0" name="ogonek"/>
   <outline>
-    <component base="I"/>
-    <component base="uni0308.case" xOffset="442" yOffset="400"/>
+    <contour>
+      <point x="310" y="0" type="line"/>
+      <point x="574" y="0" type="line"/>
+      <point x="574" y="1400" type="line"/>
+      <point x="310" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="62" y="1630" type="line" smooth="yes"/>
+      <point x="62" y="1563.6"/>
+      <point x="85.5952" y="1540"/>
+      <point x="152" y="1540" type="qcurve" smooth="yes"/>
+      <point x="222" y="1540" type="line" smooth="yes"/>
+      <point x="288.405" y="1540"/>
+      <point x="312" y="1563.6"/>
+      <point x="312" y="1630" type="qcurve" smooth="yes"/>
+      <point x="312" y="1702" type="line" smooth="yes"/>
+      <point x="312" y="1766.9"/>
+      <point x="288.405" y="1790"/>
+      <point x="222" y="1790" type="qcurve" smooth="yes"/>
+      <point x="152" y="1790" type="line" smooth="yes"/>
+      <point x="85.5952" y="1790"/>
+      <point x="62" y="1766.9"/>
+      <point x="62" y="1702" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="572" y="1630" type="line" smooth="yes"/>
+      <point x="572" y="1563.6"/>
+      <point x="595.595" y="1540"/>
+      <point x="662" y="1540" type="qcurve" smooth="yes"/>
+      <point x="732" y="1540" type="line" smooth="yes"/>
+      <point x="798.405" y="1540"/>
+      <point x="822" y="1563.6"/>
+      <point x="822" y="1630" type="qcurve" smooth="yes"/>
+      <point x="822" y="1702" type="line" smooth="yes"/>
+      <point x="822" y="1766.9"/>
+      <point x="798.405" y="1790"/>
+      <point x="732" y="1790" type="qcurve" smooth="yes"/>
+      <point x="662" y="1790" type="line" smooth="yes"/>
+      <point x="595.595" y="1790"/>
+      <point x="572" y="1766.9"/>
+      <point x="572" y="1702" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=I+dieresiscomb.case@top</string>
   </dict>
   </lib>
 </glyph>

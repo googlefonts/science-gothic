@@ -2,12 +2,18 @@
 <glyph name="emdash.case" format="2">
   <advance width="3200"/>
   <outline>
-    <component base="emdash" xOffset="-16" yOffset="88"/>
+    <contour>
+      <point x="7" y="906" type="line"/>
+      <point x="-65" y="494" type="line"/>
+      <point x="3135" y="494" type="line"/>
+      <point x="3207" y="906" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="0" x="0" y="700"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=emdash@,cap_dash_shift</string>
   </dict>
   </lib>
 </glyph>

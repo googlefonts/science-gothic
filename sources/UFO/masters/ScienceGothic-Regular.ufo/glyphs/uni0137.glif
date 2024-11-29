@@ -1,18 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0137" format="2">
-  <advance width="1374" height="1448"/>
+  <advance width="1374"/>
   <unicode hex="0137"/>
   <anchor x="302" y="1598" name="top"/>
   <anchor x="644" y="-150" name="bottom"/>
   <anchor x="80" y="724" name="left"/>
   <outline>
-    <component base="k"/>
-    <component base="uni0326" xOffset="644"/>
+    <contour>
+      <point x="180" y="0" type="line"/>
+      <point x="428" y="0" type="line"/>
+      <point x="428" y="498" type="line"/>
+      <point x="415" y="498" type="line"/>
+      <point x="990" y="0" type="line"/>
+      <point x="1369" y="0" type="line"/>
+      <point x="720" y="556" type="line"/>
+      <point x="720" y="540" type="line"/>
+      <point x="1250" y="1000" type="line"/>
+      <point x="930" y="1000" type="line"/>
+      <point x="415" y="545" type="line"/>
+      <point x="428" y="545" type="line"/>
+      <point x="428" y="1448" type="line"/>
+      <point x="180" y="1448" type="line"/>
+    </contour>
+    <contour>
+      <point x="536" y="-580" type="line"/>
+      <point x="607" y="-605" type="line"/>
+      <point x="752" y="-358" type="line" smooth="yes"/>
+      <point x="759.546" y="-345.172"/>
+      <point x="765" y="-303.184"/>
+      <point x="765" y="-273" type="qcurve" smooth="yes"/>
+      <point x="765" y="-219" type="line" smooth="yes"/>
+      <point x="765" y="-150.331"/>
+      <point x="740.914" y="-126"/>
+      <point x="673" y="-126" type="qcurve" smooth="yes"/>
+      <point x="614" y="-126" type="line" smooth="yes"/>
+      <point x="546.841" y="-126"/>
+      <point x="523" y="-150.331"/>
+      <point x="523" y="-219" type="qcurve" smooth="yes"/>
+      <point x="523" y="-273" type="line" smooth="yes"/>
+      <point x="523" y="-342.423"/>
+      <point x="546.841" y="-367"/>
+      <point x="614" y="-367" type="qcurve" smooth="yes"/>
+      <point x="636" y="-367" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=k+uni0326@bottom</string>
   </dict>
   </lib>
 </glyph>

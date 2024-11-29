@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ucircumflex" format="2">
-  <advance width="2458"/>
+  <advance width="2459"/>
   <unicode hex="00FB"/>
   <anchor x="1393" y="1622" name="top"/>
   <anchor x="1083" y="-150" name="bottom"/>
@@ -8,13 +8,42 @@
   <anchor x="2209" y="1024" name="horn"/>
   <anchor x="2141" y="1348" name="topright"/>
   <outline>
-    <component base="u"/>
-    <component base="uni0302" xOffset="1248" yOffset="74"/>
+    <contour>
+      <point x="223" y="204" type="line" smooth="yes"/>
+      <point x="200.362" y="77.2272"/>
+      <point x="316.301" y="0"/>
+      <point x="431" y="0" type="qcurve" smooth="yes"/>
+      <point x="1784" y="0" type="line" smooth="yes"/>
+      <point x="1898.7" y="0"/>
+      <point x="2043.36" y="77.2272"/>
+      <point x="2066" y="204" type="qcurve" smooth="yes"/>
+      <point x="2209" y="1024" type="line"/>
+      <point x="1685" y="1024" type="line"/>
+      <point x="1512" y="32" type="line"/>
+      <point x="1512" y="32"/>
+      <point x="1512" y="32"/>
+      <point x="1512" y="32" type="qcurve"/>
+      <point x="717" y="32" type="line"/>
+      <point x="717" y="32"/>
+      <point x="717" y="32"/>
+      <point x="717" y="32" type="qcurve"/>
+      <point x="890" y="1024" type="line"/>
+      <point x="366" y="1024" type="line"/>
+    </contour>
+    <contour>
+      <point x="625" y="1174" type="line"/>
+      <point x="681" y="1174" type="line"/>
+      <point x="1154" y="1502" type="line"/>
+      <point x="1517" y="1174" type="line"/>
+      <point x="2110" y="1174" type="line"/>
+      <point x="1676" y="1522" type="line"/>
+      <point x="1131" y="1522" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=u+uni0302@top</string>
   </dict>
   </lib>
 </glyph>

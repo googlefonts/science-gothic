@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macron" format="2">
-  <advance width="905"/>
+  <advance width="906"/>
   <unicode hex="00AF"/>
-  <anchor x="535" y="1150" name="_top"/>
-  <anchor x="573" y="1366" name="top"/>
   <outline>
-    <component base="uni0304" xOffset="444"/>
+    <contour>
+      <point x="68" y="1234" type="line"/>
+      <point x="1033" y="1234" type="line"/>
+      <point x="1039" y="1266" type="line"/>
+      <point x="74" y="1266" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=T</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=T</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0304</string>
   </dict>
   </lib>
 </glyph>

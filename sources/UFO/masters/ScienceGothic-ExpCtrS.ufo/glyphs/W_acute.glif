@@ -1,18 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Wacute" format="2">
-  <advance width="3168"/>
+  <advance width="3169"/>
   <unicode hex="1E82"/>
-  <anchor x="1584" y="-150" name="bottom"/>
+  <anchor x="1584.5" y="-150" name="bottom"/>
   <anchor x="1737" y="1550" name="top"/>
   <anchor x="1585" y="1535" name="topright"/>
   <outline>
-    <component base="W"/>
-    <component base="acutecomb.case" xOffset="1666" yOffset="450"/>
+    <contour>
+      <point x="645" y="0" type="line"/>
+      <point x="843" y="0" type="line"/>
+      <point x="1691" y="1220" type="line"/>
+      <point x="2117" y="0" type="line"/>
+      <point x="2315" y="0" type="line"/>
+      <point x="3295" y="1400" type="line"/>
+      <point x="3251" y="1400" type="line"/>
+      <point x="2342" y="102" type="line"/>
+      <point x="1889" y="1400" type="line"/>
+      <point x="1772" y="1400" type="line"/>
+      <point x="869" y="101" type="line"/>
+      <point x="392" y="1400" type="line"/>
+      <point x="127" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1531" y="1535" type="line"/>
+      <point x="1608" y="1535" type="line"/>
+      <point x="2409" y="1850" type="line"/>
+      <point x="1991" y="1850" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=W+acutecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

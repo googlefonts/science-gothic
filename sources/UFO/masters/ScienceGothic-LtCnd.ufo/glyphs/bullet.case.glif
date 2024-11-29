@@ -2,12 +2,29 @@
 <glyph name="bullet.case" format="2">
   <advance width="324"/>
   <outline>
-    <component base="bullet" yOffset="100"/>
+    <contour>
+      <point x="95" y="661" type="line" smooth="yes"/>
+      <point x="95" y="641.38"/>
+      <point x="101.38" y="635"/>
+      <point x="121" y="635" type="qcurve" smooth="yes"/>
+      <point x="203" y="635" type="line" smooth="yes"/>
+      <point x="222.5" y="635"/>
+      <point x="229" y="641.5"/>
+      <point x="229" y="661" type="qcurve" smooth="yes"/>
+      <point x="229" y="738" type="line" smooth="yes"/>
+      <point x="229" y="757.62"/>
+      <point x="222.62" y="764"/>
+      <point x="203" y="764" type="qcurve" smooth="yes"/>
+      <point x="121" y="764" type="line" smooth="yes"/>
+      <point x="101.5" y="764"/>
+      <point x="95" y="757.5"/>
+      <point x="95" y="738" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=bullet@,cap_dash_shift</string>
   </dict>
   </lib>
 </glyph>

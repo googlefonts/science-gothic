@@ -5,13 +5,47 @@
   <anchor x="519" y="-150" name="bottom"/>
   <anchor x="317" y="0" name="ogonek"/>
   <outline>
-    <component base="i.sc"/>
-    <component base="tildecomb" xOffset="685" yOffset="86"/>
+    <contour>
+      <point x="282" y="0" type="line"/>
+      <point x="813" y="0" type="line"/>
+      <point x="1003" y="1086" type="line"/>
+      <point x="472" y="1086" type="line"/>
+    </contour>
+    <contour>
+      <point x="206" y="1211" type="qcurve"/>
+      <point x="235" y="1206" type="line"/>
+      <point x="245.564" y="1233.17"/>
+      <point x="305.331" y="1310"/>
+      <point x="374" y="1310" type="qcurve" smooth="yes"/>
+      <point x="425.375" y="1310"/>
+      <point x="567.062" y="1264.06"/>
+      <point x="723.438" y="1208.94"/>
+      <point x="882.375" y="1163"/>
+      <point x="951" y="1163" type="qcurve" smooth="yes"/>
+      <point x="1107" y="1163"/>
+      <point x="1302.25" y="1342.75"/>
+      <point x="1354" y="1480" type="qcurve"/>
+      <point x="1325" y="1485" type="line"/>
+      <point x="1314.44" y="1457.83"/>
+      <point x="1254.67" y="1381"/>
+      <point x="1186" y="1381" type="qcurve" smooth="yes"/>
+      <point x="1134.62" y="1381"/>
+      <point x="992.938" y="1426.94"/>
+      <point x="836.562" y="1482.06"/>
+      <point x="677.625" y="1528"/>
+      <point x="609" y="1528" type="qcurve" smooth="yes"/>
+      <point x="453" y="1528"/>
+      <point x="259.25" y="1360.25"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="145" y="0"/>
+  <guideline angle="90" x="1115" y="0"/>
+  <guideline angle="90" x="175" y="0"/>
+  <guideline angle="90" x="1085" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=i.sc+tildecomb@top</string>
   </dict>
   </lib>
 </glyph>

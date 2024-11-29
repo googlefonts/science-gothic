@@ -3,16 +3,38 @@
   <advance width="2196"/>
   <anchor x="1259" y="1608" name="top"/>
   <anchor x="952" y="-150" name="bottom"/>
-  <anchor x="1952" y="0" name="ogonek"/>
+  <anchor x="2028" y="0" name="ogonek"/>
   <anchor x="1793" y="1327" name="topright"/>
   <outline>
-    <component base="a.sc"/>
-    <component base="uni0302" xOffset="1114" yOffset="60"/>
+    <contour>
+      <point x="-120" y="0" type="line"/>
+      <point x="210" y="0" type="line"/>
+      <point x="1128" y="815" type="line"/>
+      <point x="1764" y="0" type="line"/>
+      <point x="2076" y="0" type="line"/>
+      <point x="1252" y="1060" type="line"/>
+      <point x="1067" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="294" y="234" type="line"/>
+      <point x="1716" y="234" type="line"/>
+      <point x="1545" y="457" type="line"/>
+      <point x="520" y="457" type="line"/>
+    </contour>
+    <contour>
+      <point x="595" y="1145" type="line"/>
+      <point x="903" y="1145" type="line"/>
+      <point x="1235" y="1385" type="line"/>
+      <point x="1493" y="1145" type="line"/>
+      <point x="1761" y="1145" type="line"/>
+      <point x="1332" y="1508" type="line"/>
+      <point x="1152" y="1508" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=a.sc+uni0302@top</string>
   </dict>
   </lib>
 </glyph>

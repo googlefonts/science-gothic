@@ -2,14 +2,67 @@
 <glyph name="uni1ED1" format="2">
   <advance width="1570"/>
   <unicode hex="1ED1"/>
-  <anchor x="785" y="1548" name="top"/>
+  <anchor x="785" y="1174" name="top"/>
   <anchor x="785" y="-150" name="bottom"/>
   <anchor x="1455" y="780" name="horn"/>
   <anchor x="971" y="0" name="ogonek"/>
-  <anchor x="1263" y="1274" name="topright"/>
   <outline>
-    <component base="o"/>
-    <component base="uni0302" xOffset="785"/>
-    <component base="acutecomb" xOffset="1511" yOffset="174"/>
+    <contour>
+      <point x="115" y="254" type="line" smooth="yes"/>
+      <point x="115" y="115.154"/>
+      <point x="259.516" y="-10"/>
+      <point x="421" y="-10" type="qcurve" smooth="yes"/>
+      <point x="1149" y="-10" type="line" smooth="yes"/>
+      <point x="1311.99" y="-10"/>
+      <point x="1455" y="115.154"/>
+      <point x="1455" y="254" type="qcurve" smooth="yes"/>
+      <point x="1455" y="780" type="line" smooth="yes"/>
+      <point x="1455" y="911.3"/>
+      <point x="1308.98" y="1034"/>
+      <point x="1149" y="1034" type="qcurve" smooth="yes"/>
+      <point x="421" y="1034" type="line" smooth="yes"/>
+      <point x="261.025" y="1034"/>
+      <point x="115" y="911.3"/>
+      <point x="115" y="780" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="639" y="372" type="qcurve"/>
+      <point x="639" y="652" type="line"/>
+      <point x="639" y="652"/>
+      <point x="639" y="652"/>
+      <point x="639" y="652" type="qcurve"/>
+      <point x="931" y="652" type="line"/>
+      <point x="931" y="652"/>
+      <point x="931" y="652"/>
+      <point x="931" y="652" type="qcurve"/>
+      <point x="931" y="372" type="line"/>
+      <point x="931" y="372"/>
+      <point x="931" y="372"/>
+      <point x="931" y="372" type="qcurve"/>
+      <point x="639" y="372" type="line"/>
+      <point x="639" y="372"/>
+      <point x="639" y="372"/>
+    </contour>
+    <contour>
+      <point x="317" y="1100" type="line"/>
+      <point x="714" y="1100" type="line"/>
+      <point x="741" y="1234" type="line"/>
+      <point x="768" y="1100" type="line"/>
+      <point x="1173" y="1100" type="line"/>
+      <point x="921" y="1448" type="line"/>
+      <point x="569" y="1448" type="line"/>
+    </contour>
+    <contour>
+      <point x="1109" y="1274" type="line"/>
+      <point x="1369" y="1274" type="line"/>
+      <point x="1592" y="1622" type="line"/>
+      <point x="1187" y="1622" type="line"/>
+    </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>=o+circumflexcomb_acutecomb@top</string>
+  </dict>
+  </lib>
 </glyph>

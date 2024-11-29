@@ -5,13 +5,55 @@
   <anchor x="1045" y="1561" name="top"/>
   <anchor x="1689" y="-100" name="bottom"/>
   <outline>
-    <component base="y"/>
-    <component base="uni0306.cyr" xOffset="1045"/>
+    <contour>
+      <point x="98" y="-428" type="line"/>
+      <point x="542" y="-428" type="line" smooth="yes"/>
+      <point x="670.25" y="-428"/>
+      <point x="856.031" y="-393.688"/>
+      <point x="1009.22" y="-310.812"/>
+      <point x="1148.88" y="-172.25"/>
+      <point x="1231" y="-68" type="qcurve" smooth="yes"/>
+      <point x="2090" y="1024" type="line"/>
+      <point x="1530" y="1024" type="line"/>
+      <point x="1091" y="456" type="line"/>
+      <point x="640" y="1024" type="line"/>
+      <point x="0" y="1024" type="line"/>
+      <point x="782" y="57" type="line"/>
+      <point x="675" y="-80" type="line"/>
+      <point x="675" y="-80"/>
+      <point x="675" y="-80"/>
+      <point x="675" y="-80" type="qcurve"/>
+      <point x="26" y="-80" type="line"/>
+    </contour>
+    <contour>
+      <point x="565" y="1461" type="line"/>
+      <point x="565" y="1361.62"/>
+      <point x="606.156" y="1223.66"/>
+      <point x="713.594" y="1137.59"/>
+      <point x="899.875" y="1099"/>
+      <point x="1045" y="1099" type="qcurve" smooth="yes"/>
+      <point x="1190.12" y="1099"/>
+      <point x="1375.78" y="1137.59"/>
+      <point x="1482.47" y="1223.66"/>
+      <point x="1523" y="1361.62"/>
+      <point x="1523" y="1461" type="qcurve"/>
+      <point x="1258" y="1461" type="line"/>
+      <point x="1258" y="1425"/>
+      <point x="1226.31" y="1375.38"/>
+      <point x="1169.69" y="1344.62"/>
+      <point x="1091.5" y="1331"/>
+      <point x="1045" y="1331" type="qcurve" smooth="yes"/>
+      <point x="997.375" y="1331"/>
+      <point x="918.281" y="1344.62"/>
+      <point x="861.469" y="1375.38"/>
+      <point x="830" y="1425"/>
+      <point x="830" y="1461" type="qcurve"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=y+brevecomb.cyr@top</string>
   </dict>
   </lib>
 </glyph>

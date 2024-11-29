@@ -1,18 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni04D6" format="2">
-  <advance width="1156"/>
+  <advance width="1159"/>
   <unicode hex="04D6"/>
   <anchor x="802" y="1925" name="top"/>
   <anchor x="439" y="-150" name="bottom"/>
   <anchor x="781" y="0" name="ogonek"/>
   <outline>
-    <component base="E"/>
-    <component base="uni0306.cyr" xOffset="657" yOffset="376"/>
+    <contour>
+      <point x="-37" y="0" type="line"/>
+      <point x="973" y="0" type="line"/>
+      <point x="1047" y="424" type="line"/>
+      <point x="609" y="424" type="line"/>
+      <point x="626" y="520" type="line"/>
+      <point x="1010" y="520" type="line"/>
+      <point x="1074" y="890" type="line"/>
+      <point x="690" y="890" type="line"/>
+      <point x="705" y="976" type="line"/>
+      <point x="1129" y="976" type="line"/>
+      <point x="1203" y="1400" type="line"/>
+      <point x="207" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="427" y="1825" type="line"/>
+      <point x="407.5" y="1714.75"/>
+      <point x="415.656" y="1577.81"/>
+      <point x="487.094" y="1501.69"/>
+      <point x="629.875" y="1475"/>
+      <point x="745" y="1475" type="qcurve" smooth="yes"/>
+      <point x="860.125" y="1475"/>
+      <point x="999.281" y="1501.69"/>
+      <point x="1081.97" y="1577.81"/>
+      <point x="1125.5" y="1714.75"/>
+      <point x="1145" y="1825" type="qcurve"/>
+      <point x="890" y="1825" type="line"/>
+      <point x="882.875" y="1786"/>
+      <point x="865.656" y="1737.5"/>
+      <point x="838.094" y="1710.5"/>
+      <point x="796.5" y="1701"/>
+      <point x="765" y="1701" type="qcurve" smooth="yes"/>
+      <point x="732.375" y="1701"/>
+      <point x="692.938" y="1710.5"/>
+      <point x="674.562" y="1737.5"/>
+      <point x="674.875" y="1786"/>
+      <point x="682" y="1825" type="qcurve"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="-183" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=Е</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=Е</string>
+  <key>com.fontlab.recipe</key>
+  <string>=E+brevecomb.cyr@top</string>
   </dict>
   </lib>
 </glyph>

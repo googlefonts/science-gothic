@@ -3,15 +3,58 @@
   <advance width="1693"/>
   <anchor x="999" y="1557" name="top"/>
   <anchor x="601" y="-150" name="bottom"/>
-  <anchor x="984" y="0" name="ogonek"/>
+  <anchor x="1040" y="0" name="ogonek"/>
   <outline>
-    <component base="a.sc"/>
-    <component base="tildecomb" xOffset="862" yOffset="60"/>
+    <contour>
+      <point x="-120" y="0" type="line"/>
+      <point x="-78" y="0" type="line"/>
+      <point x="636" y="891" type="line"/>
+      <point x="990" y="0" type="line"/>
+      <point x="1573" y="0" type="line"/>
+      <point x="1086" y="1086" type="line"/>
+      <point x="750" y="1086" type="line"/>
+    </contour>
+    <contour>
+      <point x="110" y="257" type="line"/>
+      <point x="1110" y="257" type="line"/>
+      <point x="1096" y="290" type="line"/>
+      <point x="134" y="290" type="line"/>
+    </contour>
+    <contour>
+      <point x="566" y="1171" type="qcurve"/>
+      <point x="595" y="1166" type="line"/>
+      <point x="599.528" y="1181.85"/>
+      <point x="641.387" y="1250"/>
+      <point x="701" y="1250" type="qcurve" smooth="yes"/>
+      <point x="737.375" y="1250"/>
+      <point x="825" y="1220.31"/>
+      <point x="918" y="1184.69"/>
+      <point x="1011.62" y="1155"/>
+      <point x="1054" y="1155" type="qcurve" smooth="yes"/>
+      <point x="1180" y="1155"/>
+      <point x="1300" y="1346.75"/>
+      <point x="1351" y="1484" type="qcurve"/>
+      <point x="1322" y="1489" type="line"/>
+      <point x="1317.47" y="1473.15"/>
+      <point x="1274.61" y="1405"/>
+      <point x="1215" y="1405" type="qcurve" smooth="yes"/>
+      <point x="1178.62" y="1405"/>
+      <point x="1091.31" y="1434.69"/>
+      <point x="998.688" y="1470.31"/>
+      <point x="905.375" y="1500"/>
+      <point x="863" y="1500" type="qcurve" smooth="yes"/>
+      <point x="737" y="1500"/>
+      <point x="619.25" y="1320.25"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="377" y="0"/>
+  <guideline angle="90" x="1107" y="0"/>
+  <guideline angle="90" x="1077" y="0"/>
+  <guideline angle="90" x="407" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=a.sc+tildecomb@top</string>
   </dict>
   </lib>
 </glyph>

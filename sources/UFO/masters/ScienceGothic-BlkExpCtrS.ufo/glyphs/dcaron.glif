@@ -6,13 +6,51 @@
   <anchor x="1159" y="-150" name="bottom"/>
   <anchor x="2452" y="1472" name="right"/>
   <outline>
-    <component base="d"/>
-    <component base="caroncomb.alt" xOffset="2322"/>
+    <contour>
+      <point x="221" y="264" type="line" smooth="yes"/>
+      <point x="196.853" y="125.154"/>
+      <point x="319.516" y="0"/>
+      <point x="481" y="0" type="qcurve" smooth="yes"/>
+      <point x="1595" y="0" type="line" smooth="yes"/>
+      <point x="1622.17" y="0"/>
+      <point x="1663.17" y="14.4172"/>
+      <point x="1676" y="28" type="qcurve"/>
+      <point x="1671" y="0" type="line"/>
+      <point x="2195" y="0" type="line"/>
+      <point x="2452" y="1472" type="line"/>
+      <point x="1928" y="1472" type="line"/>
+      <point x="1846" y="1000" type="line"/>
+      <point x="1841.47" y="1012.07"/>
+      <point x="1805.69" y="1024"/>
+      <point x="1774" y="1024" type="qcurve" smooth="yes"/>
+      <point x="660" y="1024" type="line" smooth="yes"/>
+      <point x="500.025" y="1024"/>
+      <point x="332.393" y="901.3"/>
+      <point x="309" y="770" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1844" y="992" type="line"/>
+      <point x="1677" y="32" type="line"/>
+      <point x="705" y="32" type="line"/>
+      <point x="705" y="32"/>
+      <point x="705" y="32"/>
+      <point x="705" y="32" type="qcurve"/>
+      <point x="872" y="992" type="line"/>
+      <point x="872" y="992"/>
+      <point x="872" y="992"/>
+      <point x="872" y="992" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="2713" y="1170" type="line"/>
+      <point x="2749" y="1177" type="line"/>
+      <point x="3062" y="1472" type="line"/>
+      <point x="2655" y="1472" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= d + caroncomb.alt@right</string>
   </dict>
   </lib>
 </glyph>

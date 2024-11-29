@@ -5,13 +5,53 @@
   <anchor x="304" y="-150" name="bottom"/>
   <anchor x="321" y="0" name="ogonek"/>
   <outline>
-    <component base="i.sc"/>
-    <component base="uni0308" xOffset="304" yOffset="60"/>
+    <contour>
+      <point x="285" y="0" type="line"/>
+      <point x="322" y="0" type="line"/>
+      <point x="322" y="1060" type="line"/>
+      <point x="285" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="112" y="1295" type="line" smooth="yes"/>
+      <point x="112" y="1276.13"/>
+      <point x="119.135" y="1269"/>
+      <point x="138" y="1269" type="qcurve" smooth="yes"/>
+      <point x="156" y="1269" type="line" smooth="yes"/>
+      <point x="174.865" y="1269"/>
+      <point x="182" y="1276.13"/>
+      <point x="182" y="1295" type="qcurve" smooth="yes"/>
+      <point x="182" y="1313" type="line" smooth="yes"/>
+      <point x="182" y="1331.87"/>
+      <point x="175.11" y="1339"/>
+      <point x="157" y="1339" type="qcurve" smooth="yes"/>
+      <point x="138" y="1339" type="line" smooth="yes"/>
+      <point x="119.135" y="1339"/>
+      <point x="112" y="1331.87"/>
+      <point x="112" y="1313" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="426" y="1295" type="line" smooth="yes"/>
+      <point x="426" y="1276.13"/>
+      <point x="433.135" y="1269"/>
+      <point x="452" y="1269" type="qcurve" smooth="yes"/>
+      <point x="470" y="1269" type="line" smooth="yes"/>
+      <point x="488.865" y="1269"/>
+      <point x="496" y="1276.13"/>
+      <point x="496" y="1295" type="qcurve" smooth="yes"/>
+      <point x="496" y="1313" type="line" smooth="yes"/>
+      <point x="496" y="1331.87"/>
+      <point x="489.11" y="1339"/>
+      <point x="471" y="1339" type="qcurve" smooth="yes"/>
+      <point x="452" y="1339" type="line" smooth="yes"/>
+      <point x="433.135" y="1339"/>
+      <point x="426" y="1331.87"/>
+      <point x="426" y="1313" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=i.sc+uni0308@top</string>
   </dict>
   </lib>
 </glyph>

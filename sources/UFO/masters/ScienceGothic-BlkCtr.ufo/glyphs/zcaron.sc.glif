@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zcaron.sc" format="2">
   <advance width="1513"/>
-  <anchor x="757" y="1632" name="top"/>
+  <anchor x="756.5" y="1632" name="top"/>
   <anchor x="756.5" y="-150" name="bottom"/>
+  <anchor x="288" y="1358" name="topright"/>
   <outline>
-    <component base="z.sc"/>
-    <component base="uni030C" xOffset="757" yOffset="84"/>
+    <contour>
+      <point x="55" y="0" type="line"/>
+      <point x="1443" y="0" type="line"/>
+      <point x="1443" y="33" type="line"/>
+      <point x="657" y="33" type="line"/>
+      <point x="1431" y="1072" type="line"/>
+      <point x="1431" y="1086" type="line"/>
+      <point x="142" y="1086" type="line"/>
+      <point x="142" y="1053" type="line"/>
+      <point x="829" y="1053" type="line"/>
+      <point x="55" y="14" type="line"/>
+    </contour>
+    <contour>
+      <point x="1139" y="1532" type="line"/>
+      <point x="1100" y="1532" type="line"/>
+      <point x="895" y="1218" type="line"/>
+      <point x="709" y="1532" type="line"/>
+      <point x="288" y="1532" type="line"/>
+      <point x="585" y="1184" type="line"/>
+      <point x="910" y="1184" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=z.sc+uni030C@top</string>
   </dict>
   </lib>
 </glyph>

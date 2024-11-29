@@ -7,13 +7,52 @@
   <anchor x="149" y="0" name="ogonek"/>
   <anchor x="482" y="1000" name="horn"/>
   <outline>
-    <component base="u"/>
-    <component base="uni0323" xOffset="251"/>
+    <contour>
+      <point x="-15" y="145" type="line" smooth="yes"/>
+      <point x="-27.8282" y="71.8038"/>
+      <point x="24.2578" y="0"/>
+      <point x="105" y="0" type="qcurve" smooth="yes"/>
+      <point x="167" y="0" type="line" smooth="yes"/>
+      <point x="240.196" y="0"/>
+      <point x="323.417" y="64.2578"/>
+      <point x="337" y="145" type="qcurve" smooth="yes"/>
+      <point x="487" y="1000" type="line"/>
+      <point x="451" y="1000" type="line"/>
+      <point x="302" y="148" type="line" smooth="yes"/>
+      <point x="290.681" y="83.1044"/>
+      <point x="230.35" y="32"/>
+      <point x="173" y="32" type="qcurve" smooth="yes"/>
+      <point x="111" y="32" type="line" smooth="yes"/>
+      <point x="53.6504" y="32"/>
+      <point x="10.681" y="83.1044"/>
+      <point x="22" y="148" type="qcurve" smooth="yes"/>
+      <point x="171" y="1000" type="line"/>
+      <point x="135" y="1000" type="line"/>
+    </contour>
+    <contour>
+      <point x="59" y="-184" type="qcurve" smooth="yes"/>
+      <point x="51" y="-226" type="line" smooth="yes"/>
+      <point x="47.9816" y="-244.11"/>
+      <point x="52.8896" y="-250"/>
+      <point x="71" y="-250" type="qcurve" smooth="yes"/>
+      <point x="103" y="-250" type="line" smooth="yes"/>
+      <point x="121.11" y="-250"/>
+      <point x="127.982" y="-244.11"/>
+      <point x="131" y="-226" type="qcurve"/>
+      <point x="139" y="-184" type="line" smooth="yes"/>
+      <point x="142.018" y="-165.89"/>
+      <point x="137.11" y="-160"/>
+      <point x="119" y="-160" type="qcurve" smooth="yes"/>
+      <point x="87" y="-160" type="line" smooth="yes"/>
+      <point x="68.8896" y="-160"/>
+      <point x="62.0184" y="-165.89"/>
+    </contour>
   </outline>
+  <guideline angle="0" x="0" y="-100"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=u+uni0323@bottom</string>
   </dict>
   </lib>
 </glyph>

@@ -1,18 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Emacron" format="2">
-  <advance width="2243"/>
+  <advance width="2246"/>
   <unicode hex="0112"/>
-  <anchor x="1486" y="1783" name="top"/>
-  <anchor x="1148" y="-150" name="bottom"/>
-  <anchor x="2107" y="0" name="ogonek"/>
+  <anchor x="1489" y="1783" name="top"/>
+  <anchor x="1151" y="-150" name="bottom"/>
+  <anchor x="2110" y="0" name="ogonek"/>
   <outline>
-    <component base="E"/>
-    <component base="uni0304.case" xOffset="1355" yOffset="400"/>
+    <contour>
+      <point x="233" y="0" type="line"/>
+      <point x="2121" y="0" type="line"/>
+      <point x="2127" y="36" type="line"/>
+      <point x="279" y="36" type="line"/>
+      <point x="395" y="700" type="line"/>
+      <point x="1573" y="700" type="line"/>
+      <point x="1579" y="736" type="line"/>
+      <point x="401" y="736" type="line"/>
+      <point x="511" y="1364" type="line"/>
+      <point x="2325" y="1364" type="line"/>
+      <point x="2331" y="1400" type="line"/>
+      <point x="477" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="989" y="1683" type="line"/>
+      <point x="983" y="1647" type="line"/>
+      <point x="1948" y="1647" type="line"/>
+      <point x="1954" y="1683" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=E+uni0304.case@top</string>
   </dict>
   </lib>
 </glyph>

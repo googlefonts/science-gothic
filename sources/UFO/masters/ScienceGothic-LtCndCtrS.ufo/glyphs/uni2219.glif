@@ -3,12 +3,33 @@
   <advance width="231"/>
   <unicode hex="2219"/>
   <outline>
-    <component base="periodcentered"/>
+    <contour>
+      <point x="67" y="591" type="line" smooth="yes"/>
+      <point x="63.9816" y="572.135"/>
+      <point x="69.8896" y="565"/>
+      <point x="88" y="565" type="qcurve" smooth="yes"/>
+      <point x="111" y="565" type="line" smooth="yes"/>
+      <point x="129.75" y="565"/>
+      <point x="138" y="572.25"/>
+      <point x="141" y="591" type="qcurve" smooth="yes"/>
+      <point x="148" y="633" type="line"/>
+      <point x="151.773" y="651.865"/>
+      <point x="145.865" y="659"/>
+      <point x="127" y="659" type="qcurve" smooth="yes"/>
+      <point x="105" y="659" type="line" smooth="yes"/>
+      <point x="86.25" y="659"/>
+      <point x="77.75" y="651.75"/>
+      <point x="74" y="633" type="qcurve"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=periodcentered</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=periodcentered</string>
+  <key>com.fontlab.recipe</key>
+  <string>=periodcentered</string>
   </dict>
   </lib>
 </glyph>

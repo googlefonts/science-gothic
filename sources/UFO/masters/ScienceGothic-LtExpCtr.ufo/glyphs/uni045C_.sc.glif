@@ -2,15 +2,35 @@
 <glyph name="uni045C.sc" format="2">
   <advance width="1974"/>
   <anchor x="1212" y="1210" name="top"/>
-  <anchor x="1002" y="-150.001" name="bottom"/>
+  <anchor x="1002" y="-150" name="bottom"/>
   <outline>
-    <component base="k.sc"/>
-    <component base="acute" xOffset="982" yOffset="60"/>
+    <contour>
+      <point x="350" y="0" type="line"/>
+      <point x="387" y="0" type="line"/>
+      <point x="387" y="532" type="line"/>
+      <point x="374" y="532" type="line"/>
+      <point x="1879" y="0" type="line"/>
+      <point x="1974" y="0" type="line"/>
+      <point x="428" y="549" type="line"/>
+      <point x="428" y="535" type="line"/>
+      <point x="1804" y="1060" type="line"/>
+      <point x="1718" y="1060" type="line"/>
+      <point x="374" y="547" type="line"/>
+      <point x="387" y="547" type="line"/>
+      <point x="387" y="1060" type="line"/>
+      <point x="350" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="1032" y="1145" type="line"/>
+      <point x="1083" y="1145" type="line"/>
+      <point x="1557" y="1508" type="line"/>
+      <point x="1496" y="1508" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=k.sc+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

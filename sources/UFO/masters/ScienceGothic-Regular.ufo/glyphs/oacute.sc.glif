@@ -1,18 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oacute.sc" format="2">
-  <advance width="1542" height="1448"/>
+  <advance width="1542"/>
   <anchor x="771" y="1210" name="top"/>
   <anchor x="771" y="-150" name="bottom"/>
   <anchor x="1372" y="867" name="horn"/>
   <anchor x="869" y="0" name="ogonek"/>
   <outline>
-    <component base="o.sc"/>
-    <component base="acutecomb" xOffset="771" yOffset="60"/>
+    <contour>
+      <point x="170" y="867" type="qcurve" smooth="yes"/>
+      <point x="170" y="205" type="line" smooth="yes"/>
+      <point x="170" y="64.6444"/>
+      <point x="321.7" y="-10"/>
+      <point x="453" y="-10" type="qcurve" smooth="yes"/>
+      <point x="1087" y="-10" type="line" smooth="yes"/>
+      <point x="1218.3" y="-10"/>
+      <point x="1372" y="63.1352"/>
+      <point x="1372" y="205" type="qcurve" smooth="yes"/>
+      <point x="1372" y="867" type="line" smooth="yes"/>
+      <point x="1372" y="1002"/>
+      <point x="1208.5" y="1070"/>
+      <point x="1087" y="1070" type="qcurve" smooth="yes"/>
+      <point x="453" y="1070" type="line" smooth="yes"/>
+      <point x="330.755" y="1070"/>
+      <point x="170" y="1002.83"/>
+    </contour>
+    <contour>
+      <point x="420" y="843" type="line"/>
+      <point x="420" y="843"/>
+      <point x="420" y="843"/>
+      <point x="420" y="843" type="qcurve"/>
+      <point x="1122" y="843" type="line"/>
+      <point x="1122" y="843"/>
+      <point x="1122" y="843"/>
+      <point x="1122" y="843" type="qcurve"/>
+      <point x="1122" y="217" type="line"/>
+      <point x="1122" y="217"/>
+      <point x="1122" y="217"/>
+      <point x="1122" y="217" type="qcurve"/>
+      <point x="420" y="217" type="line"/>
+      <point x="420" y="217"/>
+      <point x="420" y="217"/>
+      <point x="420" y="217" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="554" y="1145" type="line"/>
+      <point x="779" y="1145" type="line"/>
+      <point x="1121" y="1508" type="line"/>
+      <point x="866" y="1508" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=o.sc+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

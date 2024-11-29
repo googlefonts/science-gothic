@@ -8,13 +8,41 @@
   <anchor x="813" y="1400" name="horn"/>
   <anchor x="398" y="1485" name="topright"/>
   <outline>
-    <component base="U"/>
-    <component base="acutecomb.case" xOffset="457" yOffset="400"/>
+    <contour>
+      <point x="101" y="1400" type="line"/>
+      <point x="101" y="276" type="line" smooth="yes"/>
+      <point x="101" y="187.5"/>
+      <point x="148.25" y="76"/>
+      <point x="236.75" y="13"/>
+      <point x="363.5" y="-10"/>
+      <point x="443" y="-10" type="qcurve" smooth="yes"/>
+      <point x="469" y="-10" type="line" smooth="yes"/>
+      <point x="629.5" y="-10"/>
+      <point x="813" y="99"/>
+      <point x="813" y="276" type="qcurve" smooth="yes"/>
+      <point x="813" y="1400" type="line"/>
+      <point x="549" y="1400" type="line"/>
+      <point x="549" y="26" type="line"/>
+      <point x="549" y="26"/>
+      <point x="549" y="26"/>
+      <point x="549" y="26" type="qcurve"/>
+      <point x="365" y="26" type="line"/>
+      <point x="365" y="26"/>
+      <point x="365" y="26"/>
+      <point x="365" y="26" type="qcurve"/>
+      <point x="365" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="358" y="1485" type="line"/>
+      <point x="400" y="1485" type="line"/>
+      <point x="734" y="1800" type="line"/>
+      <point x="459" y="1800" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=U+acutecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

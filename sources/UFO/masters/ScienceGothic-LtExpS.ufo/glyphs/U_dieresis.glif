@@ -1,19 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Udieresis" format="2">
-  <advance width="2604"/>
+  <advance width="2608"/>
   <unicode hex="00DC"/>
-  <anchor x="1498" y="1799" name="top"/>
-  <anchor x="1157" y="-150" name="bottom"/>
-  <anchor x="1203" y="0" name="ogonek"/>
-  <anchor x="2387" y="1400" name="horn"/>
+  <anchor x="1501" y="1799" name="top"/>
+  <anchor x="1160" y="-150" name="bottom"/>
+  <anchor x="1206" y="0" name="ogonek"/>
+  <anchor x="2390" y="1400" name="horn"/>
   <outline>
-    <component base="U"/>
-    <component base="uni0308.case" xOffset="1367" yOffset="400"/>
+    <contour>
+      <point x="469" y="1400" type="line"/>
+      <point x="277" y="300" type="line" smooth="yes"/>
+      <point x="264.625" y="227.625"/>
+      <point x="284.75" y="115.781"/>
+      <point x="347.75" y="39.4688"/>
+      <point x="452.625" y="0"/>
+      <point x="525" y="0" type="qcurve" smooth="yes"/>
+      <point x="1846" y="0" type="line" smooth="yes"/>
+      <point x="1990.75" y="0"/>
+      <point x="2173.25" y="155.25"/>
+      <point x="2198" y="300" type="qcurve" smooth="yes"/>
+      <point x="2390" y="1400" type="line"/>
+      <point x="2350" y="1400" type="line"/>
+      <point x="2158" y="298" type="line" smooth="yes"/>
+      <point x="2135.36" y="169.718"/>
+      <point x="1978.28" y="36"/>
+      <point x="1850" y="36" type="qcurve" smooth="yes"/>
+      <point x="533" y="36" type="line" smooth="yes"/>
+      <point x="404.718" y="36"/>
+      <point x="294.362" y="169.718"/>
+      <point x="317" y="298" type="qcurve" smooth="yes"/>
+      <point x="509" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1224" y="1662" type="line" smooth="yes"/>
+      <point x="1220.98" y="1644.64"/>
+      <point x="1226.64" y="1638"/>
+      <point x="1244" y="1638" type="qcurve" smooth="yes"/>
+      <point x="1269" y="1638" type="line" smooth="yes"/>
+      <point x="1286.36" y="1638"/>
+      <point x="1293.98" y="1644.64"/>
+      <point x="1297" y="1662" type="qcurve" smooth="yes"/>
+      <point x="1301" y="1687" type="line" smooth="yes"/>
+      <point x="1304.02" y="1704.36"/>
+      <point x="1299.36" y="1711"/>
+      <point x="1282" y="1711" type="qcurve" smooth="yes"/>
+      <point x="1257" y="1711" type="line" smooth="yes"/>
+      <point x="1239.64" y="1711"/>
+      <point x="1231.02" y="1704.36"/>
+      <point x="1228" y="1687" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1657" y="1662" type="line" smooth="yes"/>
+      <point x="1653.98" y="1644.64"/>
+      <point x="1659.64" y="1638"/>
+      <point x="1677" y="1638" type="qcurve" smooth="yes"/>
+      <point x="1702" y="1638" type="line" smooth="yes"/>
+      <point x="1719.36" y="1638"/>
+      <point x="1726.98" y="1644.64"/>
+      <point x="1730" y="1662" type="qcurve" smooth="yes"/>
+      <point x="1734" y="1687" type="line" smooth="yes"/>
+      <point x="1737.02" y="1704.36"/>
+      <point x="1732.36" y="1711"/>
+      <point x="1715" y="1711" type="qcurve" smooth="yes"/>
+      <point x="1690" y="1711" type="line" smooth="yes"/>
+      <point x="1672.64" y="1711"/>
+      <point x="1664.02" y="1704.36"/>
+      <point x="1661" y="1687" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=U+dieresiscomb.case@top</string>
   </dict>
   </lib>
 </glyph>

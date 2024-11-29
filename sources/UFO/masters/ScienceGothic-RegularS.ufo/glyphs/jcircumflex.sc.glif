@@ -1,17 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jcircumflex.sc" format="2">
-  <advance width="1280" height="1448"/>
+  <advance width="1281"/>
   <anchor x="1132" y="1608" name="top"/>
   <anchor x="453" y="-150" name="bottom"/>
   <anchor x="1467" y="1327" name="topright"/>
   <outline>
-    <component base="j.sc"/>
-    <component base="uni0302" xOffset="987" yOffset="60"/>
+    <contour>
+      <point x="1161" y="1060" type="line"/>
+      <point x="911" y="1060" type="line"/>
+      <point x="763" y="214" type="line"/>
+      <point x="763" y="214"/>
+      <point x="763" y="214"/>
+      <point x="763" y="214" type="qcurve"/>
+      <point x="269" y="214" type="line"/>
+      <point x="269" y="214"/>
+      <point x="269" y="214"/>
+      <point x="269" y="214" type="qcurve"/>
+      <point x="318" y="492" type="line"/>
+      <point x="59" y="440" type="line"/>
+      <point x="15" y="190" type="line" smooth="yes"/>
+      <point x="-4.5" y="78.25"/>
+      <point x="110.25" y="-13"/>
+      <point x="264" y="-13" type="qcurve" smooth="yes"/>
+      <point x="692" y="-13" type="line" smooth="yes"/>
+      <point x="843.5" y="-13"/>
+      <point x="989.5" y="78.25"/>
+      <point x="1009" y="190" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="668" y="1145" type="line"/>
+      <point x="905" y="1145" type="line"/>
+      <point x="1101" y="1365" type="line"/>
+      <point x="1226" y="1145" type="line"/>
+      <point x="1435" y="1145" type="line"/>
+      <point x="1197" y="1508" type="line"/>
+      <point x="1036" y="1508" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=j.sc+uni0302@top</string>
   </dict>
   </lib>
 </glyph>

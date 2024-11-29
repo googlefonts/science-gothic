@@ -1,16 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni215B" format="2">
-  <advance width="3169"/>
+  <advance width="2969"/>
   <unicode hex="215B"/>
   <outline>
-    <component base="one.numr"/>
-    <component base="fraction" xOffset="1058"/>
-    <component base="eight.dnom" xOffset="1161"/>
+    <contour>
+      <point x="364" y="614" type="line"/>
+      <point x="658" y="614" type="line"/>
+      <point x="658" y="1411" type="line"/>
+      <point x="96" y="1348" type="line"/>
+      <point x="96" y="1318" type="line"/>
+      <point x="364" y="1347" type="line"/>
+    </contour>
+    <contour>
+      <point x="1660" y="1400" type="line"/>
+      <point x="260" y="0" type="line"/>
+      <point x="303" y="0" type="line"/>
+      <point x="1703" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1592" y="125" type="qcurve" smooth="yes"/>
+      <point x="1592" y="281" type="line" smooth="yes"/>
+      <point x="1592" y="325.521"/>
+      <point x="1642.74" y="386"/>
+      <point x="1685" y="386" type="qcurve" smooth="yes"/>
+      <point x="2316" y="386" type="line" smooth="yes"/>
+      <point x="2337.38" y="386"/>
+      <point x="2372.09" y="369.781"/>
+      <point x="2396.66" y="341.469"/>
+      <point x="2410" y="303.125"/>
+      <point x="2410" y="281" type="qcurve" smooth="yes"/>
+      <point x="2410" y="125" type="line" smooth="yes"/>
+      <point x="2410" y="80.4786"/>
+      <point x="2358.01" y="20"/>
+      <point x="2315" y="20" type="qcurve" smooth="yes"/>
+      <point x="1687" y="20" type="line" smooth="yes"/>
+      <point x="1643.99" y="20"/>
+      <point x="1592" y="80.4786"/>
+    </contour>
+    <contour>
+      <point x="2401" y="660" type="qcurve" smooth="yes"/>
+      <point x="2401" y="510" type="line" smooth="yes"/>
+      <point x="2401" y="465.479"/>
+      <point x="2349.26" y="406"/>
+      <point x="2307" y="406" type="qcurve" smooth="yes"/>
+      <point x="1695" y="406" type="line" smooth="yes"/>
+      <point x="1652.74" y="406"/>
+      <point x="1601" y="465.479"/>
+      <point x="1601" y="510" type="qcurve" smooth="yes"/>
+      <point x="1601" y="660" type="line" smooth="yes"/>
+      <point x="1601" y="704.521"/>
+      <point x="1652.99" y="764"/>
+      <point x="1696" y="764" type="qcurve" smooth="yes"/>
+      <point x="2306" y="764" type="line" smooth="yes"/>
+      <point x="2349.01" y="764"/>
+      <point x="2401" y="704.521"/>
+    </contour>
+    <contour>
+      <point x="1321" y="198" type="line" smooth="yes"/>
+      <point x="1321" y="83.3008"/>
+      <point x="1455.88" y="0"/>
+      <point x="1557" y="0" type="qcurve" smooth="yes"/>
+      <point x="2445" y="0" type="line" smooth="yes"/>
+      <point x="2546.87" y="0"/>
+      <point x="2681" y="84.0554"/>
+      <point x="2681" y="198" type="qcurve" smooth="yes"/>
+      <point x="2681" y="222" type="line" smooth="yes"/>
+      <point x="2681" y="317.834"/>
+      <point x="2608.29" y="389.19"/>
+      <point x="2560" y="399" type="qcurve"/>
+      <point x="2605.28" y="408.81"/>
+      <point x="2673" y="485.877"/>
+      <point x="2673" y="547" type="qcurve" smooth="yes"/>
+      <point x="2673" y="595" type="line" smooth="yes"/>
+      <point x="2673" y="682.534"/>
+      <point x="2562.44" y="784"/>
+      <point x="2450" y="784" type="qcurve" smooth="yes"/>
+      <point x="1552" y="784" type="line" smooth="yes"/>
+      <point x="1440.32" y="784"/>
+      <point x="1329" y="682.288"/>
+      <point x="1329" y="594" type="qcurve" smooth="yes"/>
+      <point x="1329" y="547" type="line" smooth="yes"/>
+      <point x="1329" y="485.877"/>
+      <point x="1395.46" y="408.81"/>
+      <point x="1443" y="399" type="qcurve"/>
+      <point x="1393.95" y="389.19"/>
+      <point x="1321" y="315.834"/>
+      <point x="1321" y="220" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="0.4,0.4,0.4,1" name="halfwidth" x="1484.5" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>one.numr</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>eight.dnom</string>
+  <key>com.fontlab.recipe</key>
+  <string>= one.numr &amp; fraction &amp; eight.dnom</string>
   </dict>
   </lib>
 </glyph>

@@ -1,19 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ohungarumlaut" format="2">
-  <advance width="2054"/>
+  <advance width="1877"/>
   <unicode hex="0150"/>
-  <anchor x="1187" y="1564" name="top"/>
-  <anchor x="888" y="-164" name="bottom"/>
-  <anchor x="1965" y="1080" name="horn"/>
-  <anchor x="1100" y="0" name="ogonek"/>
+  <anchor x="1099" y="1564" name="top"/>
+  <anchor x="800" y="-164" name="bottom"/>
+  <anchor x="1877" y="1080" name="horn"/>
+  <anchor x="1012" y="0" name="ogonek"/>
+  <anchor x="1300.2" y="1490" name="topright"/>
   <outline>
-    <component base="O"/>
-    <component base="uni030B.case" xOffset="1107" yOffset="390"/>
+    <contour>
+      <point x="227" y="1080" type="qcurve" smooth="yes"/>
+      <point x="96" y="332" type="line" smooth="yes"/>
+      <point x="60.5338" y="125.24"/>
+      <point x="248.786" y="-14"/>
+      <point x="448" y="-14" type="qcurve" smooth="yes"/>
+      <point x="1362" y="-14" type="line" smooth="yes"/>
+      <point x="1561.21" y="-14"/>
+      <point x="1799.78" y="123.73"/>
+      <point x="1836" y="332" type="qcurve" smooth="yes"/>
+      <point x="1967" y="1080" type="line" smooth="yes"/>
+      <point x="2002.25" y="1281"/>
+      <point x="1800" y="1414"/>
+      <point x="1611" y="1414" type="qcurve" smooth="yes"/>
+      <point x="697" y="1414" type="line" smooth="yes"/>
+      <point x="508" y="1414"/>
+      <point x="262.25" y="1281"/>
+    </contour>
+    <contour>
+      <point x="773" y="930" type="line"/>
+      <point x="773" y="930"/>
+      <point x="773" y="930"/>
+      <point x="773" y="930" type="qcurve"/>
+      <point x="1369" y="930" type="line"/>
+      <point x="1369" y="930"/>
+      <point x="1369" y="930"/>
+      <point x="1369" y="930" type="qcurve"/>
+      <point x="1288" y="470" type="line"/>
+      <point x="1288" y="470"/>
+      <point x="1288" y="470"/>
+      <point x="1288" y="470" type="qcurve"/>
+      <point x="692" y="470" type="line"/>
+      <point x="692" y="470"/>
+      <point x="692" y="470"/>
+      <point x="692" y="470" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="482.2" y="1490" type="line"/>
+      <point x="930.2" y="1490" type="line"/>
+      <point x="1295.8" y="1790" type="line"/>
+      <point x="731" y="1790" type="line"/>
+    </contour>
+    <contour>
+      <point x="1220.2" y="1490" type="line"/>
+      <point x="1668.2" y="1490" type="line"/>
+      <point x="2033.8" y="1790" type="line"/>
+      <point x="1469" y="1790" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=O+uni030B.case@top</string>
   </dict>
   </lib>
 </glyph>

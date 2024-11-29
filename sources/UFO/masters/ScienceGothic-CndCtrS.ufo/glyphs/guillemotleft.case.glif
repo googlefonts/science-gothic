@@ -2,6 +2,29 @@
 <glyph name="guillemotleft.case" format="2">
   <advance width="695"/>
   <outline>
-    <component base="guillemotleft" xOffset="18" yOffset="100"/>
+    <contour>
+      <point x="212" y="230" type="line"/>
+      <point x="242" y="230" type="line"/>
+      <point x="184" y="600" type="line"/>
+      <point x="371" y="970" type="line"/>
+      <point x="341" y="970" type="line"/>
+      <point x="-14" y="600" type="line"/>
+    </contour>
+    <contour>
+      <point x="553" y="230" type="line"/>
+      <point x="583" y="230" type="line"/>
+      <point x="525" y="600" type="line"/>
+      <point x="712" y="970" type="line"/>
+      <point x="682" y="970" type="line"/>
+      <point x="327" y="600" type="line"/>
+    </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=guillemotleft</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=guillemotleft</string>
+  </dict>
+  </lib>
 </glyph>

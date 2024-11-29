@@ -1,16 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0213.sc" format="2">
   <advance width="2175"/>
-  <anchor x="1087.91" y="-150" name="bottom"/>
-  <anchor x="1195.91" y="1210" name="top"/>
+  <anchor x="1088" y="-150" name="bottom"/>
+  <anchor x="1196" y="1210" name="top"/>
   <outline>
-    <component base="r.sc"/>
-    <component base="uni0311" xOffset="1118" yOffset="60"/>
+    <contour>
+      <point x="232" y="0" type="line"/>
+      <point x="269" y="0" type="line"/>
+      <point x="351" y="470" type="line"/>
+      <point x="1064" y="470" type="line"/>
+      <point x="1838" y="0" type="line"/>
+      <point x="1904" y="0" type="line"/>
+      <point x="1129" y="470" type="line"/>
+      <point x="1709" y="470" type="line" smooth="yes"/>
+      <point x="1825.21" y="470"/>
+      <point x="1970.89" y="585.828"/>
+      <point x="1989" y="696" type="qcurve" smooth="yes"/>
+      <point x="2014" y="834" type="line"/>
+      <point x="2023" y="889.5"/>
+      <point x="2005.44" y="974"/>
+      <point x="1954.06" y="1031"/>
+      <point x="1869.75" y="1060"/>
+      <point x="1812" y="1060" type="qcurve" smooth="yes"/>
+      <point x="417" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="357" y="503" type="line"/>
+      <point x="448" y="1027" type="line"/>
+      <point x="1804" y="1027" type="line" smooth="yes"/>
+      <point x="1905.87" y="1027"/>
+      <point x="1993.36" y="928.834"/>
+      <point x="1976" y="833" type="qcurve" smooth="yes"/>
+      <point x="1953" y="697" type="line" smooth="yes"/>
+      <point x="1935.64" y="601.166"/>
+      <point x="1814.87" y="503"/>
+      <point x="1713" y="503" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="919.871" y="1204" type="qcurve"/>
+      <point x="949.871" y="1204" type="line"/>
+      <point x="964.609" y="1287.25"/>
+      <point x="998.185" y="1383.69"/>
+      <point x="1058.64" y="1432.81"/>
+      <point x="1157.35" y="1446"/>
+      <point x="1237.22" y="1446" type="qcurve" smooth="yes"/>
+      <point x="1317.1" y="1446"/>
+      <point x="1411.45" y="1432.81"/>
+      <point x="1454.87" y="1383.69"/>
+      <point x="1454.61" y="1287.25"/>
+      <point x="1439.87" y="1204" type="qcurve"/>
+      <point x="1469.87" y="1204" type="line"/>
+      <point x="1485.58" y="1292.12"/>
+      <point x="1487.89" y="1399.78"/>
+      <point x="1442.4" y="1458.47"/>
+      <point x="1339.76" y="1478"/>
+      <point x="1250.51" y="1478" type="qcurve" smooth="yes"/>
+      <point x="1161.26" y="1478"/>
+      <point x="1047.4" y="1458.47"/>
+      <point x="975.892" y="1399.78"/>
+      <point x="935.578" y="1292.12"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="0.4,0.4,0.4,1" name="halfwidth" x="1087.5" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=r.sc+uni0311@top</string>
   </dict>
   </lib>
 </glyph>

@@ -6,13 +6,33 @@
   <anchor x="1035" y="1550" name="top"/>
   <anchor x="1273" y="1476" name="topright"/>
   <outline>
-    <component base="uni0418"/>
-    <component base="gravecomb.case" xOffset="1035" yOffset="376"/>
+    <contour>
+      <point x="180" y="0" type="line"/>
+      <point x="644" y="0" type="line"/>
+      <point x="1322" y="667" type="line"/>
+      <point x="1322" y="0" type="line"/>
+      <point x="1894" y="0" type="line"/>
+      <point x="1894" y="1400" type="line"/>
+      <point x="1430" y="1400" type="line"/>
+      <point x="752" y="733" type="line"/>
+      <point x="752" y="1400" type="line"/>
+      <point x="180" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1353" y="1476" type="line"/>
+      <point x="1096" y="1776" type="line"/>
+      <point x="430" y="1776" type="line"/>
+      <point x="833" y="1476" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=uni0418</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=uni0418</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0418+gravecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

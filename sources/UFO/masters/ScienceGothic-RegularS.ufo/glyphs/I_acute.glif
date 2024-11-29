@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Iacute" format="2">
-  <advance width="664" height="1448"/>
+  <advance width="664"/>
   <unicode hex="00CD"/>
   <anchor x="483" y="1550" name="top"/>
   <anchor x="186" y="-150" name="bottom"/>
   <anchor x="276" y="0" name="ogonek"/>
   <anchor x="325" y="1485" name="topright"/>
   <outline>
-    <component base="I"/>
-    <component base="acutecomb.case" xOffset="404" yOffset="400"/>
+    <contour>
+      <point x="83" y="0" type="line"/>
+      <point x="347" y="0" type="line"/>
+      <point x="591" y="1400" type="line"/>
+      <point x="327" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="251" y="1485" type="line"/>
+      <point x="533" y="1485" type="line"/>
+      <point x="921" y="1800" type="line"/>
+      <point x="593" y="1800" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=I+acutecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

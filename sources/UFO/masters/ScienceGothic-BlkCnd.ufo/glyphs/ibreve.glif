@@ -6,13 +6,41 @@
   <anchor x="330" y="1549" name="top"/>
   <anchor x="400" y="0" name="ogonek"/>
   <outline>
-    <component base="dotlessi"/>
-    <component base="uni0306" xOffset="330"/>
+    <contour>
+      <point x="68" y="0" type="line"/>
+      <point x="592" y="0" type="line"/>
+      <point x="592" y="1024" type="line"/>
+      <point x="68" y="1024" type="line"/>
+    </contour>
+    <contour>
+      <point x="-28" y="1449" type="line"/>
+      <point x="-28" y="1338.75"/>
+      <point x="-1.84375" y="1201.81"/>
+      <point x="75.5938" y="1125.69"/>
+      <point x="216.875" y="1099"/>
+      <point x="332" y="1099" type="qcurve" smooth="yes"/>
+      <point x="447.125" y="1099"/>
+      <point x="587.781" y="1125.69"/>
+      <point x="664.469" y="1201.81"/>
+      <point x="690" y="1338.75"/>
+      <point x="690" y="1449" type="qcurve"/>
+      <point x="435" y="1449" type="line"/>
+      <point x="435" y="1410"/>
+      <point x="426.438" y="1361.5"/>
+      <point x="403.562" y="1334.5"/>
+      <point x="363.5" y="1325"/>
+      <point x="332" y="1325" type="qcurve" smooth="yes"/>
+      <point x="299.375" y="1325"/>
+      <point x="258.406" y="1334.5"/>
+      <point x="235.344" y="1361.5"/>
+      <point x="227" y="1410"/>
+      <point x="227" y="1449" type="qcurve"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=dotlessi+brevecomb@top</string>
   </dict>
   </lib>
 </glyph>

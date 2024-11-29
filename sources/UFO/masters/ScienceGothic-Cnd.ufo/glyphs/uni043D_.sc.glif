@@ -3,14 +3,30 @@
   <advance width="780"/>
   <anchor x="390" y="1210" name="top"/>
   <anchor x="390" y="-150" name="bottom"/>
-  <anchor x="-4" y="700" name="left"/>
   <outline>
-    <component base="h.sc"/>
+    <contour>
+      <point x="72" y="0" type="line"/>
+      <point x="322" y="0" type="line"/>
+      <point x="322" y="431" type="line"/>
+      <point x="458" y="431" type="line"/>
+      <point x="458" y="0" type="line"/>
+      <point x="708" y="0" type="line"/>
+      <point x="708" y="1060" type="line"/>
+      <point x="458" y="1060" type="line"/>
+      <point x="458" y="654" type="line"/>
+      <point x="322" y="654" type="line"/>
+      <point x="322" y="1060" type="line"/>
+      <point x="72" y="1060" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=h.sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=h.sc</string>
+  <key>com.fontlab.recipe</key>
+  <string>=h.sc</string>
   </dict>
   </lib>
 </glyph>

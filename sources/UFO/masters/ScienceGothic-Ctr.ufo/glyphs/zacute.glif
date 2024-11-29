@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zacute" format="2">
-  <advance width="1147"/>
+  <advance width="1146"/>
   <unicode hex="017A"/>
-  <anchor x="573.5" y="1150" name="top"/>
-  <anchor x="573.5" y="-150" name="bottom"/>
+  <anchor x="574" y="1150" name="top"/>
+  <anchor x="574" y="-150" name="bottom"/>
   <outline>
-    <component base="z"/>
-    <component base="acutecomb" xOffset="574"/>
+    <contour>
+      <point x="85" y="0" type="line"/>
+      <point x="1061" y="0" type="line"/>
+      <point x="1061" y="32" type="line"/>
+      <point x="360" y="32" type="line"/>
+      <point x="365" y="22" type="line"/>
+      <point x="1055" y="972" type="line"/>
+      <point x="1055" y="1000" type="line"/>
+      <point x="145" y="1000" type="line"/>
+      <point x="145" y="968" type="line"/>
+      <point x="780" y="968" type="line"/>
+      <point x="775" y="978" type="line"/>
+      <point x="85" y="28" type="line"/>
+    </contour>
+    <contour>
+      <point x="395" y="1085" type="line"/>
+      <point x="437" y="1085" type="line"/>
+      <point x="896" y="1448" type="line"/>
+      <point x="633" y="1448" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=z+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

@@ -4,13 +4,41 @@
   <anchor x="1114" y="1210" name="top"/>
   <anchor x="896" y="-150" name="bottom"/>
   <outline>
-    <component base="ae.sc"/>
-    <component base="acutecomb" xOffset="1114" yOffset="60"/>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="35" y="0" type="line"/>
+      <point x="193" y="271" type="line"/>
+      <point x="825" y="271" type="line"/>
+      <point x="825" y="0" type="line"/>
+      <point x="1791" y="0" type="line"/>
+      <point x="1791" y="33" type="line"/>
+      <point x="1075" y="33" type="line"/>
+      <point x="1075" y="524" type="line"/>
+      <point x="1466" y="524" type="line"/>
+      <point x="1466" y="557" type="line"/>
+      <point x="1075" y="557" type="line"/>
+      <point x="1075" y="1027" type="line"/>
+      <point x="1775" y="1027" type="line"/>
+      <point x="1775" y="1060" type="line"/>
+      <point x="614" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="213" y="304" type="line"/>
+      <point x="635" y="1027" type="line"/>
+      <point x="825" y="1027" type="line"/>
+      <point x="825" y="304" type="line"/>
+    </contour>
+    <contour>
+      <point x="935" y="1145" type="line"/>
+      <point x="977" y="1145" type="line"/>
+      <point x="1436" y="1508" type="line"/>
+      <point x="1173" y="1508" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=ae.sc+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

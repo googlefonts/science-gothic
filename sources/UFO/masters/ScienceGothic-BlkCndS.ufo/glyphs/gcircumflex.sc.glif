@@ -1,17 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gcircumflex.sc" format="2">
-  <advance width="1263"/>
+  <advance width="1264"/>
   <anchor x="799" y="1610" name="top"/>
   <anchor x="491" y="-150" name="bottom"/>
   <anchor x="1200" y="1336" name="topright"/>
   <outline>
-    <component base="g.sc"/>
-    <component base="uni0302" xOffset="654" yOffset="62"/>
+    <contour>
+      <point x="88" y="816" type="qcurve" smooth="yes"/>
+      <point x="-5" y="281" type="line" smooth="yes"/>
+      <point x="-36.6932" y="100.651"/>
+      <point x="129.951" y="-17"/>
+      <point x="302" y="-17" type="qcurve" smooth="yes"/>
+      <point x="730" y="-17" type="line" smooth="yes"/>
+      <point x="902.049" y="-17"/>
+      <point x="1110.31" y="99.1414"/>
+      <point x="1142" y="281" type="qcurve" smooth="yes"/>
+      <point x="1203" y="631" type="line"/>
+      <point x="667" y="631" type="line"/>
+      <point x="629" y="411" type="line"/>
+      <point x="672" y="411" type="line"/>
+      <point x="659" y="336" type="line"/>
+      <point x="659" y="336"/>
+      <point x="659" y="336"/>
+      <point x="659" y="336" type="qcurve"/>
+      <point x="536" y="336" type="line"/>
+      <point x="536" y="336"/>
+      <point x="536" y="336"/>
+      <point x="536" y="336" type="qcurve"/>
+      <point x="608" y="750" type="line"/>
+      <point x="608" y="750"/>
+      <point x="608" y="750"/>
+      <point x="608" y="750" type="qcurve"/>
+      <point x="718" y="750" type="line"/>
+      <point x="718" y="750"/>
+      <point x="718" y="750"/>
+      <point x="718" y="750" type="qcurve"/>
+      <point x="707" y="685" type="line"/>
+      <point x="1224" y="780" type="line"/>
+      <point x="1230" y="816" type="line" smooth="yes"/>
+      <point x="1260.75" y="991.5"/>
+      <point x="1082.75" y="1103"/>
+      <point x="920" y="1103" type="qcurve" smooth="yes"/>
+      <point x="498" y="1103" type="line" smooth="yes"/>
+      <point x="335.25" y="1103"/>
+      <point x="118.75" y="991.5"/>
+    </contour>
+    <contour>
+      <point x="273" y="1162" type="line"/>
+      <point x="695" y="1162" type="line"/>
+      <point x="749" y="1285" type="line"/>
+      <point x="779" y="1162" type="line"/>
+      <point x="1169" y="1162" type="line"/>
+      <point x="999" y="1510" type="line"/>
+      <point x="567" y="1510" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=g.sc+uni0302@top</string>
   </dict>
   </lib>
 </glyph>

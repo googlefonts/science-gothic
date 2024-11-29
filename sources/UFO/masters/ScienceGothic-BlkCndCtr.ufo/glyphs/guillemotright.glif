@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="guillemotright" format="2">
-  <advance width="906"/>
+  <advance width="905"/>
   <unicode hex="00BB"/>
   <outline>
-    <component base="guillemotleft" xScale="-1" yScale="-1" xOffset="877" yOffset="1024"/>
+    <contour>
+      <point x="493" y="894" type="line"/>
+      <point x="462" y="894" type="line"/>
+      <point x="588" y="512" type="line"/>
+      <point x="462" y="130" type="line"/>
+      <point x="493" y="130" type="line"/>
+      <point x="877" y="512" type="line"/>
+    </contour>
+    <contour>
+      <point x="56" y="894" type="line"/>
+      <point x="25" y="894" type="line"/>
+      <point x="151" y="512" type="line"/>
+      <point x="25" y="130" type="line"/>
+      <point x="56" y="130" type="line"/>
+      <point x="440" y="512" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=guilsinglright</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=guilsinglright</string>
+  <key>com.fontlab.recipe</key>
+  <string>=guillemotleft@~,~</string>
   </dict>
   </lib>
 </glyph>

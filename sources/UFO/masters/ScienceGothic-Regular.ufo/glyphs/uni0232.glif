@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0232" format="2">
-  <advance width="1566" height="1448"/>
+  <advance width="1566"/>
   <unicode hex="0232"/>
-  <anchor x="798" y="1830" name="top"/>
-  <anchor x="784" y="-150" name="bottom"/>
+  <anchor x="798" y="1845" name="top"/>
+  <anchor x="796" y="-150" name="bottom"/>
   <outline>
-    <component base="Y"/>
-    <component base="uni0304.case" xOffset="798" yOffset="400"/>
+    <contour>
+      <point x="664" y="0" type="line"/>
+      <point x="928" y="0" type="line"/>
+      <point x="928" y="613" type="line"/>
+      <point x="1566" y="1400" type="line"/>
+      <point x="1238" y="1400" type="line"/>
+      <point x="807" y="854" type="line"/>
+      <point x="379" y="1400" type="line"/>
+      <point x="0" y="1400" type="line"/>
+      <point x="664" y="612" type="line"/>
+    </contour>
+    <contour>
+      <point x="463" y="1585" type="line"/>
+      <point x="1133" y="1585" type="line"/>
+      <point x="1133" y="1745" type="line"/>
+      <point x="463" y="1745" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="1,0,0,1" x="778" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=Y+uni0304.case@top</string>
   </dict>
   </lib>
 </glyph>

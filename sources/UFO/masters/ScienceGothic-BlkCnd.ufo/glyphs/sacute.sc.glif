@@ -4,13 +4,77 @@
   <anchor x="588" y="1236" name="top"/>
   <anchor x="588" y="-150" name="bottom"/>
   <outline>
-    <component base="s.sc"/>
-    <component base="acutecomb" xOffset="588" yOffset="62"/>
+    <contour>
+      <point x="34" y="285" type="line"/>
+      <point x="34" y="281" type="line" smooth="yes"/>
+      <point x="34" y="95.75"/>
+      <point x="226.75" y="-13"/>
+      <point x="391" y="-13" type="qcurve" smooth="yes"/>
+      <point x="783" y="-13" type="line" smooth="yes"/>
+      <point x="948.75" y="-13"/>
+      <point x="1142" y="111.25"/>
+      <point x="1142" y="298" type="qcurve" smooth="yes"/>
+      <point x="1142" y="438" type="line" smooth="yes"/>
+      <point x="1142" y="528.75"/>
+      <point x="1088.59" y="639.25"/>
+      <point x="993.156" y="699.25"/>
+      <point x="861.375" y="719"/>
+      <point x="783" y="719" type="qcurve" smooth="yes"/>
+      <point x="539" y="719" type="line"/>
+      <point x="539" y="719"/>
+      <point x="539" y="719"/>
+      <point x="539" y="719" type="qcurve"/>
+      <point x="539" y="809" type="line"/>
+      <point x="539" y="809"/>
+      <point x="539" y="809"/>
+      <point x="539" y="809" type="qcurve"/>
+      <point x="627" y="809" type="line"/>
+      <point x="627" y="809"/>
+      <point x="627" y="809"/>
+      <point x="627" y="809" type="qcurve"/>
+      <point x="627" y="767" type="line"/>
+      <point x="1115" y="812" type="line"/>
+      <point x="1115" y="818" type="line" smooth="yes"/>
+      <point x="1115" y="908"/>
+      <point x="1059.09" y="1018.31"/>
+      <point x="960.656" y="1078.69"/>
+      <point x="826.375" y="1099"/>
+      <point x="748" y="1099" type="qcurve" smooth="yes"/>
+      <point x="414" y="1099" type="line" smooth="yes"/>
+      <point x="335.25" y="1099"/>
+      <point x="202.125" y="1078"/>
+      <point x="105.375" y="1016.5"/>
+      <point x="51" y="904.75"/>
+      <point x="51" y="814" type="qcurve" smooth="yes"/>
+      <point x="51" y="678" type="line" smooth="yes"/>
+      <point x="51" y="492.75"/>
+      <point x="242.5" y="382"/>
+      <point x="406" y="382" type="qcurve" smooth="yes"/>
+      <point x="635" y="382" type="line"/>
+      <point x="635" y="382"/>
+      <point x="635" y="382"/>
+      <point x="635" y="382" type="qcurve"/>
+      <point x="635" y="288" type="line"/>
+      <point x="635" y="288"/>
+      <point x="635" y="288"/>
+      <point x="635" y="288" type="qcurve"/>
+      <point x="541" y="288" type="line"/>
+      <point x="541" y="288"/>
+      <point x="541" y="288"/>
+      <point x="541" y="288" type="qcurve"/>
+      <point x="541" y="334" type="line"/>
+    </contour>
+    <contour>
+      <point x="280" y="1162" type="line"/>
+      <point x="730" y="1162" type="line"/>
+      <point x="1111" y="1510" type="line"/>
+      <point x="562" y="1510" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=s.sc+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

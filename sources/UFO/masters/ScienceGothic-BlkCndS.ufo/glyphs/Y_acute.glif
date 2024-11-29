@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Yacute" format="2">
-  <advance width="1388"/>
+  <advance width="1389"/>
   <unicode hex="00DD"/>
   <anchor x="905" y="1550" name="top"/>
-  <anchor x="618" y="-150" name="bottom"/>
+  <anchor x="551" y="-150" name="bottom"/>
   <anchor x="664" y="1476" name="topright"/>
   <outline>
-    <component base="Y"/>
-    <component base="acutecomb.case" xOffset="821" yOffset="376"/>
+    <contour>
+      <point x="291" y="0" type="line"/>
+      <point x="863" y="0" type="line"/>
+      <point x="934" y="408" type="line"/>
+      <point x="1525" y="1400" type="line"/>
+      <point x="966" y="1400" type="line"/>
+      <point x="738" y="951" type="line"/>
+      <point x="666" y="1400" type="line"/>
+      <point x="117" y="1400" type="line"/>
+      <point x="363" y="412" type="line"/>
+    </contour>
+    <contour>
+      <point x="584" y="1476" type="line"/>
+      <point x="1104" y="1476" type="line"/>
+      <point x="1558" y="1776" type="line"/>
+      <point x="855" y="1776" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="260.1" color="1,0,0,1" x="634" y="-0"/>
+  <guideline angle="0" x="0" y="1004"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=Y+acutecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

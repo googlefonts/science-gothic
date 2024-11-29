@@ -3,13 +3,29 @@
   <advance width="2773"/>
   <anchor x="1387" y="1236" name="top"/>
   <outline>
-    <component base="uni0438.sc"/>
-    <component base="grave" xOffset="520" yOffset="86"/>
+    <contour>
+      <point x="300" y="0" type="line"/>
+      <point x="730" y="0" type="line"/>
+      <point x="1942" y="601" type="line"/>
+      <point x="1942" y="0" type="line"/>
+      <point x="2473" y="0" type="line"/>
+      <point x="2473" y="1086" type="line"/>
+      <point x="2045" y="1086" type="line"/>
+      <point x="831" y="486" type="line"/>
+      <point x="831" y="1086" type="line"/>
+      <point x="300" y="1086" type="line"/>
+    </contour>
+    <contour>
+      <point x="1830" y="1186" type="line"/>
+      <point x="1228" y="1534" type="line"/>
+      <point x="570" y="1534" type="line"/>
+      <point x="1183" y="1186" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0438.sc+gravecomb@top</string>
   </dict>
   </lib>
 </glyph>

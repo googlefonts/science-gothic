@@ -1,19 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="icircumflex" format="2">
-  <advance width="1163"/>
+  <advance width="1166"/>
   <unicode hex="00EE"/>
-  <anchor x="435" y="-150" name="bottom"/>
-  <anchor x="745" y="1622" name="top"/>
-  <anchor x="237" y="0" name="ogonek"/>
-  <anchor x="1493" y="1348" name="topright"/>
+  <anchor x="438" y="-150" name="bottom"/>
+  <anchor x="748" y="1622" name="top"/>
+  <anchor x="240" y="0" name="ogonek"/>
+  <anchor x="1496" y="1348" name="topright"/>
   <outline>
-    <component base="dotlessi"/>
-    <component base="uni0302" xOffset="600" yOffset="74"/>
+    <contour>
+      <point x="202" y="0" type="line"/>
+      <point x="726" y="0" type="line"/>
+      <point x="905" y="1024" type="line"/>
+      <point x="381" y="1024" type="line"/>
+    </contour>
+    <contour>
+      <point x="-20" y="1174" type="line"/>
+      <point x="36" y="1174" type="line"/>
+      <point x="509" y="1502" type="line"/>
+      <point x="872" y="1174" type="line"/>
+      <point x="1465" y="1174" type="line"/>
+      <point x="1031" y="1522" type="line"/>
+      <point x="486" y="1522" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=dotlessi+uni0302@top</string>
   </dict>
   </lib>
 </glyph>

@@ -1,18 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ycircumflex" format="2">
-  <advance width="2706"/>
+  <advance width="2707"/>
   <unicode hex="0176"/>
   <anchor x="1748" y="1880" name="top"/>
-  <anchor x="1382" y="-150" name="bottom"/>
+  <anchor x="1317" y="-150" name="bottom"/>
   <anchor x="2611" y="1600" name="topright"/>
   <outline>
-    <component base="Y"/>
-    <component base="uni0302.case" xOffset="1610" yOffset="400"/>
+    <contour>
+      <point x="1057" y="0" type="line"/>
+      <point x="1629" y="0" type="line"/>
+      <point x="1741" y="641" type="line"/>
+      <point x="2827" y="1400" type="line"/>
+      <point x="2763" y="1400" type="line"/>
+      <point x="1688" y="649" type="line"/>
+      <point x="883" y="1400" type="line"/>
+      <point x="133" y="1400" type="line"/>
+      <point x="1143" y="483" type="line"/>
+    </contour>
+    <contour>
+      <point x="1079" y="1500" type="line"/>
+      <point x="1135" y="1500" type="line"/>
+      <point x="1576" y="1766" type="line"/>
+      <point x="1901" y="1500" type="line"/>
+      <point x="2594" y="1500" type="line"/>
+      <point x="2160" y="1800" type="line"/>
+      <point x="1575" y="1800" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="260.1" color="1,0,0,1" x="1301" y="-0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=Y+uni0302.case@top</string>
   </dict>
   </lib>
 </glyph>

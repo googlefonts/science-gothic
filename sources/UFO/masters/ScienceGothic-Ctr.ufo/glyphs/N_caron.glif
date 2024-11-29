@@ -4,14 +4,34 @@
   <unicode hex="0147"/>
   <anchor x="839" y="1880" name="top"/>
   <anchor x="839" y="-150" name="bottom"/>
+  <anchor x="462" y="1700" name="topright"/>
   <outline>
-    <component base="N"/>
-    <component base="uni030C.case" xOffset="839" yOffset="400"/>
+    <contour>
+      <point x="220" y="0" type="line"/>
+      <point x="256" y="0" type="line"/>
+      <point x="256" y="1080" type="line"/>
+      <point x="1330" y="0" type="line"/>
+      <point x="1458" y="0" type="line"/>
+      <point x="1458" y="1400" type="line"/>
+      <point x="1422" y="1400" type="line"/>
+      <point x="1422" y="284" type="line"/>
+      <point x="306" y="1400" type="line"/>
+      <point x="220" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1197" y="1800" type="line"/>
+      <point x="1142" y="1800" type="line"/>
+      <point x="926" y="1562" type="line"/>
+      <point x="716" y="1800" type="line"/>
+      <point x="462" y="1800" type="line"/>
+      <point x="764" y="1485" type="line"/>
+      <point x="905" y="1485" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=N+uni030C.case@top</string>
   </dict>
   </lib>
 </glyph>

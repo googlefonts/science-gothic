@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ogonek" format="2">
-  <advance width="255"/>
+  <advance width="176"/>
   <unicode hex="02DB"/>
   <outline>
-    <component base="uni0328" xOffset="151"/>
+    <contour>
+      <point x="50" y="0" type="qcurve"/>
+      <point x="14" y="0" type="line"/>
+      <point x="-66.7422" y="-80.7422"/>
+      <point x="-149.879" y="-202.145"/>
+      <point x="-158.73" y="-251.79" type="qcurve" smooth="yes"/>
+      <point x="-167.234" y="-299.488"/>
+      <point x="-126.304" y="-359"/>
+      <point x="-81.1143" y="-359" type="qcurve" smooth="yes"/>
+      <point x="-64.4268" y="-359"/>
+      <point x="-29.6196" y="-349.319"/>
+      <point x="-10" y="-338" type="qcurve"/>
+      <point x="-4" y="-308" type="line"/>
+      <point x="-22.1104" y="-318.564"/>
+      <point x="-56.317" y="-329"/>
+      <point x="-72.6667" y="-329" type="qcurve" smooth="yes"/>
+      <point x="-105.366" y="-329"/>
+      <point x="-131.685" y="-288.102"/>
+      <point x="-124.566" y="-248.442" type="qcurve" smooth="yes"/>
+      <point x="-115.838" y="-199.814"/>
+      <point x="-37.5336" y="-86.779"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=T</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=T</string>
+  <key>com.fontlab.recipe</key>
+  <string>uni0328</string>
   </dict>
   </lib>
 </glyph>

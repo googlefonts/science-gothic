@@ -1,14 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="braceright" format="2">
-  <advance width="1012"/>
+  <advance width="1011"/>
   <unicode hex="007D"/>
   <outline>
-    <component base="braceleft" xScale="-1" yScale="-1" xOffset="1011.67" yOffset="1192"/>
+    <contour>
+      <point x="659" y="1174" type="line" smooth="yes"/>
+      <point x="659" y="1302.28"/>
+      <point x="496.828" y="1448"/>
+      <point x="361" y="1448" type="qcurve" smooth="yes"/>
+      <point x="10" y="1448" type="line"/>
+      <point x="10" y="1224" type="line"/>
+      <point x="289" y="1224" type="line" smooth="yes"/>
+      <point x="354.65" y="1224"/>
+      <point x="411" y="1170.1"/>
+      <point x="411" y="1112" type="qcurve" smooth="yes"/>
+      <point x="411" y="875" type="line" smooth="yes"/>
+      <point x="411" y="763.319"/>
+      <point x="514.411" y="622.166"/>
+      <point x="611" y="595" type="qcurve"/>
+      <point x="514.411" y="567.834"/>
+      <point x="411" y="426.681"/>
+      <point x="411" y="315" type="qcurve" smooth="yes"/>
+      <point x="411" y="80" type="line" smooth="yes"/>
+      <point x="411" y="21.8958"/>
+      <point x="354.65" y="-32"/>
+      <point x="289" y="-32" type="qcurve" smooth="yes"/>
+      <point x="10" y="-32" type="line"/>
+      <point x="10" y="-256" type="line"/>
+      <point x="361" y="-256" type="line" smooth="yes"/>
+      <point x="496.828" y="-256"/>
+      <point x="659" y="-107.828"/>
+      <point x="659" y="28" type="qcurve" smooth="yes"/>
+      <point x="659" y="305" type="line" smooth="yes"/>
+      <point x="659" y="386.497"/>
+      <point x="754.301" y="483"/>
+      <point x="869" y="483" type="qcurve"/>
+      <point x="869" y="707" type="line"/>
+      <point x="754.301" y="707"/>
+      <point x="659" y="802.749"/>
+      <point x="659" y="885" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=rsb("braceleft")</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=lsb("braceleft")</string>
+  <key>com.fontlab.recipe</key>
+  <string>=braceleft@~,~</string>
   </dict>
   </lib>
 </glyph>

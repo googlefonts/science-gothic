@@ -6,13 +6,105 @@
   <anchor x="403" y="-150" name="bottom"/>
   <anchor x="450" y="0" name="ogonek"/>
   <outline>
-    <component base="a"/>
-    <component base="brevecomb_hookcomb" xOffset="380"/>
+    <contour>
+      <point x="307" y="-6" type="qcurve" smooth="yes"/>
+      <point x="341" y="-6" type="line" smooth="yes"/>
+      <point x="368.166" y="-6"/>
+      <point x="406.436" y="8.4172"/>
+      <point x="417" y="22" type="qcurve"/>
+      <point x="417" y="0" type="line"/>
+      <point x="665" y="0" type="line"/>
+      <point x="665" y="810" type="line" smooth="yes"/>
+      <point x="665" y="933.754"/>
+      <point x="529.172" y="1006"/>
+      <point x="419" y="1006" type="qcurve" smooth="yes"/>
+      <point x="321" y="1006" type="line" smooth="yes"/>
+      <point x="210.828" y="1006"/>
+      <point x="75" y="933.754"/>
+      <point x="75" y="810" type="qcurve" smooth="yes"/>
+      <point x="75" y="754" type="line"/>
+      <point x="323" y="708" type="line"/>
+      <point x="323" y="974" type="line"/>
+      <point x="323" y="974"/>
+      <point x="323" y="974"/>
+      <point x="323" y="974" type="qcurve"/>
+      <point x="417" y="974" type="line"/>
+      <point x="417" y="974"/>
+      <point x="417" y="974"/>
+      <point x="417" y="974" type="qcurve"/>
+      <point x="417" y="534" type="line"/>
+      <point x="289" y="534" type="line" smooth="yes"/>
+      <point x="194.5" y="534"/>
+      <point x="61" y="463"/>
+      <point x="61" y="340" type="qcurve" smooth="yes"/>
+      <point x="61" y="218" type="line" smooth="yes"/>
+      <point x="61" y="91.2272"/>
+      <point x="190.792" y="-6"/>
+    </contour>
+    <contour>
+      <point x="309" y="26" type="qcurve"/>
+      <point x="309" y="502" type="line"/>
+      <point x="309" y="502"/>
+      <point x="309" y="502"/>
+      <point x="309" y="502" type="qcurve"/>
+      <point x="417" y="502" type="line"/>
+      <point x="417" y="26" type="line"/>
+      <point x="309" y="26" type="line"/>
+      <point x="309" y="26"/>
+      <point x="309" y="26"/>
+    </contour>
+    <contour>
+      <point x="150" y="1400" type="line"/>
+      <point x="150" y="1303.25"/>
+      <point x="173.219" y="1184.06"/>
+      <point x="227.031" y="1118.44"/>
+      <point x="315.125" y="1096"/>
+      <point x="380" y="1096" type="qcurve" smooth="yes"/>
+      <point x="444.5" y="1096"/>
+      <point x="531.875" y="1118.44"/>
+      <point x="585.125" y="1184.06"/>
+      <point x="608" y="1303.25"/>
+      <point x="608" y="1400" type="qcurve"/>
+      <point x="450" y="1400" type="line"/>
+      <point x="450" y="1303.62"/>
+      <point x="440.5" y="1194.53"/>
+      <point x="422.5" y="1140.72"/>
+      <point x="396.5" y="1128"/>
+      <point x="380" y="1128" type="qcurve" smooth="yes"/>
+      <point x="362.375" y="1128"/>
+      <point x="335.469" y="1140.72"/>
+      <point x="317.281" y="1194.53"/>
+      <point x="308" y="1303.62"/>
+      <point x="308" y="1400" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="294" y="1450" type="qcurve"/>
+      <point x="382" y="1450" type="line"/>
+      <point x="443.877" y="1470.37"/>
+      <point x="541" y="1559.35"/>
+      <point x="541" y="1625" type="qcurve" smooth="yes"/>
+      <point x="541" y="1687.63"/>
+      <point x="445.988" y="1763"/>
+      <point x="366" y="1763" type="qcurve" smooth="yes"/>
+      <point x="318.46" y="1763"/>
+      <point x="241.374" y="1734.36"/>
+      <point x="221" y="1717" type="qcurve"/>
+      <point x="233" y="1689" type="line"/>
+      <point x="250.356" y="1702.58"/>
+      <point x="279.153" y="1716"/>
+      <point x="295" y="1716" type="qcurve" smooth="yes"/>
+      <point x="328.202" y="1716"/>
+      <point x="368" y="1670.79"/>
+      <point x="368" y="1624" type="qcurve" smooth="yes"/>
+      <point x="368" y="1575.71"/>
+      <point x="324.184" y="1489.99"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="1,0,0,1" x="437" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= a + brevecomb_hookcomb@top</string>
   </dict>
   </lib>
 </glyph>

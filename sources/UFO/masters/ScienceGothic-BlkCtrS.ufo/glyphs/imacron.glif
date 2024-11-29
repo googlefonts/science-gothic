@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="imacron" format="2">
-  <advance width="883"/>
+  <advance width="886"/>
   <unicode hex="012B"/>
-  <anchor x="295" y="-150" name="bottom"/>
-  <anchor x="556" y="1344" name="top"/>
-  <anchor x="93" y="0" name="ogonek"/>
+  <anchor x="298" y="-150" name="bottom"/>
+  <anchor x="559" y="1344" name="top"/>
+  <anchor x="96" y="0" name="ogonek"/>
   <outline>
-    <component base="dotlessi"/>
-    <component base="uni0304" xOffset="429"/>
+    <contour>
+      <point x="62" y="0" type="line"/>
+      <point x="586" y="0" type="line"/>
+      <point x="765" y="1024" type="line"/>
+      <point x="241" y="1024" type="line"/>
+    </contour>
+    <contour>
+      <point x="141" y="1212" type="line"/>
+      <point x="931" y="1212" type="line"/>
+      <point x="937" y="1244" type="line"/>
+      <point x="147" y="1244" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=dotlessi+uni0304 @top</string>
   </dict>
   </lib>
 </glyph>

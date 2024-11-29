@@ -1,17 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1EBB.sc" format="2">
-  <advance width="1335" height="1448"/>
+  <advance width="1335"/>
   <anchor x="803" y="1210" name="top"/>
   <anchor x="566" y="-150" name="bottom"/>
   <anchor x="1028" y="0" name="ogonek"/>
   <outline>
-    <component base="e.sc"/>
-    <component base="uni0309" xOffset="725" yOffset="60"/>
+    <contour>
+      <point x="82" y="0" type="line"/>
+      <point x="1108" y="0" type="line"/>
+      <point x="1145" y="212" type="line"/>
+      <point x="369" y="212" type="line"/>
+      <point x="408" y="438" type="line"/>
+      <point x="859" y="438" type="line"/>
+      <point x="896" y="650" type="line"/>
+      <point x="445" y="650" type="line"/>
+      <point x="480" y="848" type="line"/>
+      <point x="1240" y="848" type="line"/>
+      <point x="1277" y="1060" type="line"/>
+      <point x="267" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="701" y="1160" type="qcurve"/>
+      <point x="862" y="1160" type="line"/>
+      <point x="921.613" y="1186.41"/>
+      <point x="1005.94" y="1254.2"/>
+      <point x="1015" y="1304" type="qcurve" smooth="yes"/>
+      <point x="1027.07" y="1374.93"/>
+      <point x="934.061" y="1473"/>
+      <point x="842" y="1473" type="qcurve" smooth="yes"/>
+      <point x="784.65" y="1473"/>
+      <point x="682.54" y="1438.47"/>
+      <point x="635" y="1403" type="qcurve"/>
+      <point x="670" y="1312" type="line"/>
+      <point x="684.337" y="1321.81"/>
+      <point x="726.098" y="1335"/>
+      <point x="751" y="1335" type="qcurve" smooth="yes"/>
+      <point x="783.448" y="1335"/>
+      <point x="815.282" y="1296.69"/>
+      <point x="810" y="1265" type="qcurve" smooth="yes"/>
+      <point x="803.963" y="1230.29"/>
+      <point x="743.258" y="1178.87"/>
+    </contour>
   </outline>
+  <guideline angle="260.1" color="1,0,0,1" x="1031" y="-0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= e.sc + uni0309@top</string>
   </dict>
   </lib>
 </glyph>

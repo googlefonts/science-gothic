@@ -7,13 +7,23 @@
   <anchor x="592" y="1472" name="right"/>
   <anchor x="660" y="700" name="eldot"/>
   <outline>
-    <component base="l"/>
-    <component base="acutecomb" xOffset="330" yOffset="424"/>
+    <contour>
+      <point x="68" y="0" type="line"/>
+      <point x="592" y="0" type="line"/>
+      <point x="592" y="1472" type="line"/>
+      <point x="68" y="1472" type="line"/>
+    </contour>
+    <contour>
+      <point x="22" y="1524" type="line"/>
+      <point x="472" y="1524" type="line"/>
+      <point x="853" y="1872" type="line"/>
+      <point x="304" y="1872" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=l+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

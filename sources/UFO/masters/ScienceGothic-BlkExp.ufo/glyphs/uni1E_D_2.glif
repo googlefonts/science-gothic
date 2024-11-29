@@ -6,15 +6,64 @@
   <anchor x="1572" y="-164" name="bottom"/>
   <anchor x="2904" y="1080" name="horn"/>
   <anchor x="1736" y="0" name="ogonek"/>
-  <anchor x="2395" y="1614" name="topright"/>
   <outline>
-    <component base="O"/>
-    <component base="circumflexcomb_gravecomb.case" xOffset="1572" yOffset="414"/>
+    <contour>
+      <point x="270" y="1080" type="qcurve" smooth="yes"/>
+      <point x="270" y="332" type="line" smooth="yes"/>
+      <point x="270" y="125.24"/>
+      <point x="482.786" y="-14"/>
+      <point x="682" y="-14" type="qcurve" smooth="yes"/>
+      <point x="2520" y="-14" type="line" smooth="yes"/>
+      <point x="2719.21" y="-14"/>
+      <point x="2934" y="123.73"/>
+      <point x="2934" y="332" type="qcurve" smooth="yes"/>
+      <point x="2934" y="1080" type="line" smooth="yes"/>
+      <point x="2934" y="1281"/>
+      <point x="2709" y="1414"/>
+      <point x="2520" y="1414" type="qcurve" smooth="yes"/>
+      <point x="682" y="1414" type="line" smooth="yes"/>
+      <point x="493" y="1414"/>
+      <point x="270" y="1281"/>
+    </contour>
+    <contour>
+      <point x="842" y="930" type="line"/>
+      <point x="842" y="930"/>
+      <point x="842" y="930"/>
+      <point x="842" y="930" type="qcurve"/>
+      <point x="2362" y="930" type="line"/>
+      <point x="2362" y="930"/>
+      <point x="2362" y="930"/>
+      <point x="2362" y="930" type="qcurve"/>
+      <point x="2362" y="470" type="line"/>
+      <point x="2362" y="470"/>
+      <point x="2362" y="470"/>
+      <point x="2362" y="470" type="qcurve"/>
+      <point x="842" y="470" type="line"/>
+      <point x="842" y="470"/>
+      <point x="842" y="470"/>
+      <point x="842" y="470" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="910" y="1514" type="line"/>
+      <point x="1417" y="1514" type="line"/>
+      <point x="1552" y="1622" type="line"/>
+      <point x="1687" y="1514" type="line"/>
+      <point x="2203" y="1514" type="line"/>
+      <point x="1772" y="1814" type="line"/>
+      <point x="1344" y="1814" type="line"/>
+    </contour>
+    <contour>
+      <point x="2642" y="1688" type="line"/>
+      <point x="2266" y="1688" type="line"/>
+      <point x="1924" y="1914" type="line"/>
+      <point x="2440" y="1914" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="0" x="0" y="1142"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=O+circumflexcomb_gravecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

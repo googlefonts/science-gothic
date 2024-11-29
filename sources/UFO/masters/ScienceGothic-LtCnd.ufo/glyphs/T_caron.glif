@@ -4,14 +4,32 @@
   <unicode hex="0164"/>
   <anchor x="251" y="1880" name="top"/>
   <anchor x="251" y="-150" name="bottom"/>
+  <anchor x="111" y="1700" name="topright"/>
   <outline>
-    <component base="T"/>
-    <component base="uni030C.case" xOffset="251" yOffset="400"/>
+    <contour>
+      <point x="231" y="0" type="line"/>
+      <point x="271" y="0" type="line"/>
+      <point x="271" y="1364" type="line"/>
+      <point x="497" y="1364" type="line"/>
+      <point x="497" y="1400" type="line"/>
+      <point x="5" y="1400" type="line"/>
+      <point x="5" y="1364" type="line"/>
+      <point x="231" y="1364" type="line"/>
+    </contour>
+    <contour>
+      <point x="392" y="1800" type="line"/>
+      <point x="355" y="1800" type="line"/>
+      <point x="253" y="1529" type="line"/>
+      <point x="150" y="1800" type="line"/>
+      <point x="111" y="1800" type="line"/>
+      <point x="235" y="1485" type="line"/>
+      <point x="270" y="1485" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=T+uni030C.case@top</string>
   </dict>
   </lib>
 </glyph>

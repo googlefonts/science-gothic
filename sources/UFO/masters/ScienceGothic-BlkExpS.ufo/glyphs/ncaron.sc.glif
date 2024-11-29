@@ -2,15 +2,35 @@
 <glyph name="ncaron.sc" format="2">
   <advance width="2763"/>
   <anchor x="1547" y="1634" name="top"/>
-  <anchor x="1234.63" y="-150" name="bottom"/>
+  <anchor x="1235" y="-150" name="bottom"/>
+  <anchor x="718" y="1360" name="topright"/>
   <outline>
-    <component base="n.sc"/>
-    <component base="uni030C" xOffset="1394" yOffset="86"/>
+    <contour>
+      <point x="202" y="0" type="line"/>
+      <point x="704" y="0" type="line"/>
+      <point x="792" y="504" type="line"/>
+      <point x="1941" y="0" type="line"/>
+      <point x="2326" y="0" type="line"/>
+      <point x="2516" y="1086" type="line"/>
+      <point x="2015" y="1086" type="line"/>
+      <point x="1926" y="582" type="line"/>
+      <point x="776" y="1086" type="line"/>
+      <point x="392" y="1086" type="line"/>
+    </contour>
+    <contour>
+      <point x="2302" y="1534" type="line"/>
+      <point x="1665" y="1534" type="line"/>
+      <point x="1491" y="1373" type="line"/>
+      <point x="1335" y="1534" type="line"/>
+      <point x="749" y="1534" type="line"/>
+      <point x="1238" y="1186" type="line"/>
+      <point x="1686" y="1186" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=n.sc+uni030C@top</string>
   </dict>
   </lib>
 </glyph>

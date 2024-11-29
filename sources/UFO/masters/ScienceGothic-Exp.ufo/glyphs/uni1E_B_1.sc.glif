@@ -1,18 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1EB1.sc" format="2">
   <advance width="2196"/>
-  <anchor x="1098" y="1577" name="top"/>
+  <anchor x="1098" y="1210" name="top"/>
   <anchor x="1098" y="-150" name="bottom"/>
   <anchor x="2072" y="0" name="ogonek"/>
   <outline>
-    <component base="a.sc"/>
-    <component base="uni0306" xOffset="1098" yOffset="60"/>
-    <component base="gravecomb" xOffset="1098" yOffset="427"/>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="303" y="0" type="line"/>
+      <point x="1079" y="815" type="line"/>
+      <point x="1857" y="0" type="line"/>
+      <point x="2196" y="0" type="line"/>
+      <point x="1187" y="1060" type="line"/>
+      <point x="1002" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="373" y="234" type="line"/>
+      <point x="1795" y="234" type="line"/>
+      <point x="1585" y="457" type="line"/>
+      <point x="560" y="457" type="line"/>
+    </contour>
+    <contour>
+      <point x="720" y="1477" type="line"/>
+      <point x="720" y="1383.25"/>
+      <point x="763.375" y="1263.88"/>
+      <point x="855.625" y="1195.62"/>
+      <point x="999.5" y="1170"/>
+      <point x="1100" y="1170" type="qcurve" smooth="yes"/>
+      <point x="1200.12" y="1170"/>
+      <point x="1343.28" y="1195.62"/>
+      <point x="1434.97" y="1263.88"/>
+      <point x="1478" y="1383.25"/>
+      <point x="1478" y="1477" type="qcurve"/>
+      <point x="1320" y="1477" type="line"/>
+      <point x="1320" y="1430.5"/>
+      <point x="1295.69" y="1371.38"/>
+      <point x="1242.81" y="1337.62"/>
+      <point x="1159.25" y="1325"/>
+      <point x="1100" y="1325" type="qcurve" smooth="yes"/>
+      <point x="1039.62" y="1325"/>
+      <point x="955.156" y="1337.62"/>
+      <point x="902.094" y="1371.38"/>
+      <point x="878" y="1430.5"/>
+      <point x="878" y="1477" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="1045" y="1577" type="line"/>
+      <point x="1275" y="1577" type="line"/>
+      <point x="1036" y="1810" type="line"/>
+      <point x="751" y="1810" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= a.sc + brevecomb_gravecomb@top</string>
   </dict>
   </lib>
 </glyph>

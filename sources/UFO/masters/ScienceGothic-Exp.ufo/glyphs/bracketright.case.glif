@@ -2,12 +2,25 @@
 <glyph name="bracketright.case" format="2">
   <advance width="1149"/>
   <outline>
-    <component base="bracketright" yOffset="78"/>
+    <contour>
+      <point x="839" y="1526" type="line"/>
+      <point x="155" y="1526" type="line"/>
+      <point x="155" y="1302" type="line"/>
+      <point x="591" y="1302" type="line"/>
+      <point x="591" y="46" type="line"/>
+      <point x="155" y="46" type="line"/>
+      <point x="155" y="-178" type="line"/>
+      <point x="839" y="-178" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=bracketright</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=bracketright</string>
+  <key>com.fontlab.recipe</key>
+  <string>=bracketright@,cap_bracket_shift</string>
   </dict>
   </lib>
 </glyph>

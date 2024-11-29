@@ -1,17 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cacute" format="2">
-  <advance width="1263"/>
+  <advance width="1262"/>
   <unicode hex="0107"/>
   <anchor x="724" y="1174" name="top"/>
   <anchor x="493" y="-150" name="bottom"/>
   <outline>
-    <component base="c"/>
-    <component base="acutecomb" xOffset="645"/>
+    <contour>
+      <point x="-8" y="264" type="line" smooth="yes"/>
+      <point x="-33.6564" y="117.608"/>
+      <point x="90.9144" y="-6"/>
+      <point x="269" y="-6" type="qcurve" smooth="yes"/>
+      <point x="773" y="-6" type="line" smooth="yes"/>
+      <point x="951.086" y="-6"/>
+      <point x="1118.34" y="117.608"/>
+      <point x="1144" y="264" type="qcurve" smooth="yes"/>
+      <point x="1162" y="366" type="line"/>
+      <point x="657" y="474" type="line"/>
+      <point x="579" y="26" type="line"/>
+      <point x="579" y="26"/>
+      <point x="579" y="26"/>
+      <point x="579" y="26" type="qcurve"/>
+      <point x="475" y="26" type="line"/>
+      <point x="475" y="26"/>
+      <point x="475" y="26"/>
+      <point x="475" y="26" type="qcurve"/>
+      <point x="644" y="998" type="line"/>
+      <point x="644" y="998"/>
+      <point x="644" y="998"/>
+      <point x="644" y="998" type="qcurve"/>
+      <point x="744" y="998" type="line"/>
+      <point x="744" y="998"/>
+      <point x="744" y="998"/>
+      <point x="744" y="998" type="qcurve"/>
+      <point x="666" y="552" type="line"/>
+      <point x="1207" y="650" type="line"/>
+      <point x="1229" y="774" type="line" smooth="yes"/>
+      <point x="1253.15" y="912.846"/>
+      <point x="1127.07" y="1030"/>
+      <point x="952" y="1030" type="qcurve" smooth="yes"/>
+      <point x="452" y="1030" type="line" smooth="yes"/>
+      <point x="276.933" y="1030"/>
+      <point x="104.902" y="910.356"/>
+      <point x="80" y="770" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="589" y="1100" type="line"/>
+      <point x="629" y="1100" type="line"/>
+      <point x="1339" y="1448" type="line"/>
+      <point x="744" y="1448" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=c+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

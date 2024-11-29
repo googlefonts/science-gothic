@@ -4,12 +4,49 @@
   <anchor x="1206" y="1550" name="top"/>
   <anchor x="1206" y="-150" name="bottom"/>
   <outline>
-    <component base="eth.sc"/>
+    <contour>
+      <point x="400" y="0" type="line"/>
+      <point x="1675" y="0" type="line" smooth="yes"/>
+      <point x="1818.25" y="0"/>
+      <point x="2071.25" y="55.9375"/>
+      <point x="2260.25" y="181.562"/>
+      <point x="2370" y="383.75"/>
+      <point x="2370" y="530" type="qcurve" smooth="yes"/>
+      <point x="2370" y="665.75"/>
+      <point x="2269.25" y="865.312"/>
+      <point x="2086.25" y="996.188"/>
+      <point x="1830.25" y="1060"/>
+      <point x="1675" y="1060" type="qcurve" smooth="yes"/>
+      <point x="400" y="1060" type="line"/>
+      <point x="400" y="551" type="line"/>
+      <point x="270" y="551" type="line"/>
+      <point x="270" y="518" type="line"/>
+      <point x="400" y="518" type="line"/>
+    </contour>
+    <contour>
+      <point x="650" y="33" type="line"/>
+      <point x="650" y="518" type="line"/>
+      <point x="1206" y="518" type="line"/>
+      <point x="1206" y="551" type="line"/>
+      <point x="650" y="551" type="line"/>
+      <point x="650" y="1027" type="line"/>
+      <point x="1638" y="1027" type="line" smooth="yes"/>
+      <point x="1750.12" y="1027"/>
+      <point x="1924.41" y="976.719"/>
+      <point x="2043.84" y="862.531"/>
+      <point x="2106" y="677.625"/>
+      <point x="2106" y="543" type="qcurve" smooth="yes"/>
+      <point x="2106" y="396"/>
+      <point x="2047.22" y="199.875"/>
+      <point x="1930.03" y="82.125"/>
+      <point x="1754.62" y="33"/>
+      <point x="1638" y="33" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=eth.sc</string>
   </dict>
   </lib>
 </glyph>

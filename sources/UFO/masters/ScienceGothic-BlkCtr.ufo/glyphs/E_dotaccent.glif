@@ -6,13 +6,44 @@
   <anchor x="960" y="-150" name="bottom"/>
   <anchor x="1338" y="0" name="ogonek"/>
   <outline>
-    <component base="E"/>
-    <component base="uni0307.case" xOffset="960" yOffset="376"/>
+    <contour>
+      <point x="200" y="0" type="line"/>
+      <point x="1720" y="0" type="line"/>
+      <point x="1720" y="36" type="line"/>
+      <point x="772" y="36" type="line"/>
+      <point x="772" y="700" type="line"/>
+      <point x="1314" y="700" type="line"/>
+      <point x="1314" y="736" type="line"/>
+      <point x="772" y="736" type="line"/>
+      <point x="772" y="1364" type="line"/>
+      <point x="1700" y="1364" type="line"/>
+      <point x="1700" y="1400" type="line"/>
+      <point x="200" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="764" y="1586" type="line" smooth="yes"/>
+      <point x="764" y="1504.5"/>
+      <point x="792.503" y="1476"/>
+      <point x="874" y="1476" type="qcurve" smooth="yes"/>
+      <point x="1046" y="1476" type="line" smooth="yes"/>
+      <point x="1127.5" y="1476"/>
+      <point x="1156" y="1504.5"/>
+      <point x="1156" y="1586" type="qcurve" smooth="yes"/>
+      <point x="1156" y="1718" type="line" smooth="yes"/>
+      <point x="1156" y="1797.99"/>
+      <point x="1127.5" y="1826"/>
+      <point x="1046" y="1826" type="qcurve" smooth="yes"/>
+      <point x="874" y="1826" type="line" smooth="yes"/>
+      <point x="792.503" y="1826"/>
+      <point x="764" y="1797.99"/>
+      <point x="764" y="1718" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="-5" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=E+dotaccentcomb.case@top</string>
   </dict>
   </lib>
 </glyph>

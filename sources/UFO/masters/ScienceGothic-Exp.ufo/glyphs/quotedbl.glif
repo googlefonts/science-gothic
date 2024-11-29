@@ -1,15 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedbl" format="2">
-  <advance width="1660"/>
+  <advance width="1381"/>
   <unicode hex="0022"/>
   <outline>
-    <component base="quotesingle"/>
-    <component base="quotesingle" xOffset="830"/>
+    <contour>
+      <point x="279" y="1256" type="line"/>
+      <point x="359" y="855" type="line"/>
+      <point x="471" y="855" type="line"/>
+      <point x="551" y="1256" type="line"/>
+      <point x="551" y="1355" type="line" smooth="yes"/>
+      <point x="551" y="1441.78"/>
+      <point x="525.196" y="1472"/>
+      <point x="452" y="1472" type="qcurve" smooth="yes"/>
+      <point x="378" y="1472" type="line" smooth="yes"/>
+      <point x="304.804" y="1472"/>
+      <point x="279" y="1441.78"/>
+      <point x="279" y="1355" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="830" y="1256" type="line"/>
+      <point x="910" y="855" type="line"/>
+      <point x="1022" y="855" type="line"/>
+      <point x="1102" y="1256" type="line"/>
+      <point x="1102" y="1355" type="line" smooth="yes"/>
+      <point x="1102" y="1441.78"/>
+      <point x="1076.2" y="1472"/>
+      <point x="1003" y="1472" type="qcurve" smooth="yes"/>
+      <point x="929" y="1472" type="line" smooth="yes"/>
+      <point x="855.804" y="1472"/>
+      <point x="830" y="1441.78"/>
+      <point x="830" y="1355" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=quotesingle</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=quotesingle</string>
   </dict>
   </lib>
 </glyph>

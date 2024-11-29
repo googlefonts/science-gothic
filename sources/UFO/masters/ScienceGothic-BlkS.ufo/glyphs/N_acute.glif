@@ -1,18 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Nacute" format="2">
-  <advance width="2070"/>
+  <advance width="1892"/>
   <unicode hex="0143"/>
-  <anchor x="1186" y="1550" name="top"/>
-  <anchor x="889" y="-150" name="bottom"/>
-  <anchor x="935" y="1476" name="topright"/>
+  <anchor x="1098" y="1550" name="top"/>
+  <anchor x="801" y="-150" name="bottom"/>
+  <anchor x="847" y="1476" name="topright"/>
   <outline>
-    <component base="N"/>
-    <component base="acutecomb.case" xOffset="1106" yOffset="376"/>
+    <contour>
+      <point x="61" y="0" type="line"/>
+      <point x="593" y="0" type="line"/>
+      <point x="701" y="619" type="line"/>
+      <point x="1347" y="0" type="line"/>
+      <point x="1771" y="0" type="line"/>
+      <point x="2015" y="1400" type="line"/>
+      <point x="1483" y="1400" type="line"/>
+      <point x="1373" y="772" type="line"/>
+      <point x="727" y="1400" type="line"/>
+      <point x="305" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="747" y="1476" type="line"/>
+      <point x="1307" y="1476" type="line"/>
+      <point x="1764" y="1776" type="line"/>
+      <point x="1058" y="1776" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=N+acutecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

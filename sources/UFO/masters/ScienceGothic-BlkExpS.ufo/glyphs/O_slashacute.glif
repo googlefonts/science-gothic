@@ -1,17 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Oslashacute" format="2">
-  <advance width="3477"/>
+  <advance width="3478"/>
   <unicode hex="01FE"/>
-  <anchor x="1896" y="1590" name="top"/>
-  <anchor x="1445" y="1540" name="topright"/>
+  <anchor x="1897" y="1590" name="top"/>
+  <anchor x="1446" y="1540" name="topright"/>
   <outline>
-    <component base="Oslash"/>
-    <component base="acutecomb.case" xOffset="1817" yOffset="440"/>
+    <contour>
+      <point x="478" y="1080" type="qcurve" smooth="yes"/>
+      <point x="348" y="332" type="line" smooth="yes"/>
+      <point x="311.779" y="125.24"/>
+      <point x="500.786" y="-14"/>
+      <point x="700" y="-14" type="qcurve" smooth="yes"/>
+      <point x="2538" y="-14" type="line" smooth="yes"/>
+      <point x="2737.21" y="-14"/>
+      <point x="2975.78" y="123.73"/>
+      <point x="3012" y="332" type="qcurve" smooth="yes"/>
+      <point x="3142" y="1080" type="line" smooth="yes"/>
+      <point x="3177.25" y="1281"/>
+      <point x="2976" y="1414"/>
+      <point x="2787" y="1414" type="qcurve" smooth="yes"/>
+      <point x="949" y="1414" type="line" smooth="yes"/>
+      <point x="760" y="1414"/>
+      <point x="513.25" y="1281"/>
+    </contour>
+    <contour>
+      <point x="1024" y="930" type="line"/>
+      <point x="1024" y="930"/>
+      <point x="1024" y="930"/>
+      <point x="1024" y="930" type="qcurve"/>
+      <point x="2544" y="930" type="line"/>
+      <point x="2544" y="930"/>
+      <point x="2544" y="930"/>
+      <point x="2544" y="930" type="qcurve"/>
+      <point x="2464" y="470" type="line"/>
+      <point x="2464" y="470"/>
+      <point x="2464" y="470"/>
+      <point x="2464" y="470" type="qcurve"/>
+      <point x="944" y="470" type="line"/>
+      <point x="944" y="470"/>
+      <point x="944" y="470"/>
+      <point x="944" y="470" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="252" y="-40" type="line"/>
+      <point x="494" y="63" type="line"/>
+      <point x="770" y="209" type="line"/>
+      <point x="2786" y="1015" type="line"/>
+      <point x="3003" y="1136" type="line"/>
+      <point x="3293" y="1260" type="line"/>
+      <point x="3237" y="1440" type="line"/>
+      <point x="2954" y="1320" type="line"/>
+      <point x="2742" y="1201" type="line"/>
+      <point x="729" y="398" type="line"/>
+      <point x="452" y="250" type="line"/>
+      <point x="196" y="142" type="line"/>
+    </contour>
+    <contour>
+      <point x="1426" y="1540" type="line"/>
+      <point x="2178" y="1540" type="line"/>
+      <point x="2920" y="1840" type="line"/>
+      <point x="2005" y="1840" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="0" x="0" y="-40"/>
+  <guideline angle="0" x="0" y="1440"/>
+  <guideline angle="0" x="0" y="1068"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=Oslash+acutecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

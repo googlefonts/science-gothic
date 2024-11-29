@@ -1,17 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1EF8" format="2">
-  <advance width="1905"/>
+  <advance width="1906"/>
   <unicode hex="1EF8"/>
   <anchor x="1246" y="1987" name="top"/>
-  <anchor x="872" y="-150" name="bottom"/>
+  <anchor x="824" y="-150" name="bottom"/>
   <outline>
-    <component base="Y"/>
-    <component base="tildecomb.case" xOffset="1097" yOffset="400"/>
+    <contour>
+      <point x="564" y="0" type="line"/>
+      <point x="1136" y="0" type="line"/>
+      <point x="1239" y="593" type="line"/>
+      <point x="2032" y="1400" type="line"/>
+      <point x="1377" y="1400" type="line"/>
+      <point x="1010" y="980" type="line"/>
+      <point x="789" y="1400" type="line"/>
+      <point x="127" y="1400" type="line"/>
+      <point x="667" y="589" type="line"/>
+    </contour>
+    <contour>
+      <point x="645" y="1529" type="qcurve"/>
+      <point x="949" y="1477" type="line"/>
+      <point x="953.528" y="1492.85"/>
+      <point x="996.479" y="1541"/>
+      <point x="1041" y="1541" type="qcurve" smooth="yes"/>
+      <point x="1081.12" y="1541"/>
+      <point x="1156.88" y="1521"/>
+      <point x="1234.12" y="1497"/>
+      <point x="1315.88" y="1477"/>
+      <point x="1362" y="1477" type="qcurve" smooth="yes"/>
+      <point x="1443.75" y="1477"/>
+      <point x="1562.88" y="1537.41"/>
+      <point x="1650.62" y="1637.34"/>
+      <point x="1713.5" y="1766.38"/>
+      <point x="1739" y="1835" type="qcurve"/>
+      <point x="1435" y="1887" type="line"/>
+      <point x="1430.47" y="1871.15"/>
+      <point x="1387.52" y="1823"/>
+      <point x="1343" y="1823" type="qcurve" smooth="yes"/>
+      <point x="1302.88" y="1823"/>
+      <point x="1227.12" y="1843"/>
+      <point x="1149.88" y="1867"/>
+      <point x="1068.12" y="1887"/>
+      <point x="1022" y="1887" type="qcurve" smooth="yes"/>
+      <point x="940.25" y="1887"/>
+      <point x="821.969" y="1831.09"/>
+      <point x="734.781" y="1734.16"/>
+      <point x="671.625" y="1603.62"/>
+    </contour>
   </outline>
+  <guideline angle="260.1" color="1,0,0,1" x="898" y="-0"/>
+  <guideline angle="90" x="457" y="0"/>
+  <guideline angle="90" x="1497" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=Y+tildecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

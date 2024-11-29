@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni030B.case" format="2">
   <anchor x="0" y="1100" name="_top"/>
+  <anchor x="399.4" y="1100" name="topright"/>
   <outline>
-    <component base="acutecomb.case" xScale="0.8" xOffset="-210"/>
-    <component base="acutecomb.case" xScale="0.8" xOffset="585"/>
+    <contour>
+      <point x="-435.6" y="1100" type="line"/>
+      <point x="-378" y="1100" type="line"/>
+      <point x="428.4" y="1400" type="line"/>
+      <point x="-212.4" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="359.4" y="1100" type="line"/>
+      <point x="417" y="1100" type="line"/>
+      <point x="1223.4" y="1400" type="line"/>
+      <point x="582.6" y="1400" type="line"/>
+    </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>=acutecomb.case+acutecomb.case@300,</string>
+  </dict>
+  </lib>
 </glyph>

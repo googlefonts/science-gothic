@@ -7,14 +7,54 @@
   <anchor x="1218" y="0" name="ogonek"/>
   <anchor x="1630" y="1576" name="topright"/>
   <outline>
-    <component base="E"/>
-    <component base="uni0302.case" xOffset="1027" yOffset="376"/>
-    <component base="uni0323.case" xOffset="959"/>
+    <contour>
+      <point x="83" y="0" type="line"/>
+      <point x="1603" y="0" type="line"/>
+      <point x="1609" y="36" type="line"/>
+      <point x="661" y="36" type="line"/>
+      <point x="777" y="700" type="line"/>
+      <point x="1319" y="700" type="line"/>
+      <point x="1325" y="736" type="line"/>
+      <point x="783" y="736" type="line"/>
+      <point x="893" y="1364" type="line"/>
+      <point x="1821" y="1364" type="line"/>
+      <point x="1827" y="1400" type="line"/>
+      <point x="327" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="717" y="1476" type="line"/>
+      <point x="776" y="1476" type="line"/>
+      <point x="1018" y="1698" type="line"/>
+      <point x="1152" y="1476" type="line"/>
+      <point x="1613" y="1476" type="line"/>
+      <point x="1383" y="1776" type="line"/>
+      <point x="1045" y="1776" type="line"/>
+    </contour>
+    <contour>
+      <point x="576" y="-341" type="line" smooth="yes"/>
+      <point x="560.908" y="-422.497"/>
+      <point x="584.503" y="-451"/>
+      <point x="666" y="-451" type="qcurve" smooth="yes"/>
+      <point x="838" y="-451" type="line" smooth="yes"/>
+      <point x="919.497" y="-451"/>
+      <point x="952.908" y="-422.497"/>
+      <point x="968" y="-341" type="qcurve" smooth="yes"/>
+      <point x="991" y="-209" type="line" smooth="yes"/>
+      <point x="1004.58" y="-129.012"/>
+      <point x="981.497" y="-101"/>
+      <point x="900" y="-101" type="qcurve" smooth="yes"/>
+      <point x="728" y="-101" type="line" smooth="yes"/>
+      <point x="646.503" y="-101"/>
+      <point x="612.583" y="-129.012"/>
+      <point x="599" y="-209" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="-122" y="0"/>
+  <guideline angle="0" x="0" y="-100"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=E+uni0302.case@top+uni0323.case@E:bottom</string>
   </dict>
   </lib>
 </glyph>

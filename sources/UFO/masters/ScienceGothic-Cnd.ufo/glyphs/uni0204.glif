@@ -1,18 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0204" format="2">
-  <advance width="689"/>
+  <advance width="688"/>
   <unicode hex="0204"/>
   <anchor x="361" y="1550" name="top"/>
   <anchor x="361" y="-150" name="bottom"/>
   <anchor x="564" y="0" name="ogonek"/>
+  <anchor x="266.45" y="1475" name="topright"/>
   <outline>
-    <component base="E"/>
-    <component base="uni030F.case" xOffset="361" yOffset="400"/>
+    <contour>
+      <point x="72" y="0" type="line"/>
+      <point x="650" y="0" type="line"/>
+      <point x="650" y="244" type="line"/>
+      <point x="336" y="244" type="line"/>
+      <point x="336" y="596" type="line"/>
+      <point x="616" y="596" type="line"/>
+      <point x="616" y="840" type="line"/>
+      <point x="336" y="840" type="line"/>
+      <point x="336" y="1156" type="line"/>
+      <point x="636" y="1156" type="line"/>
+      <point x="636" y="1400" type="line"/>
+      <point x="72" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="644.45" y="1475" type="line"/>
+      <point x="463.4" y="1800" type="line"/>
+      <point x="256" y="1800" type="line"/>
+      <point x="458.3" y="1475" type="line"/>
+    </contour>
+    <contour>
+      <point x="317.45" y="1475" type="line"/>
+      <point x="136.4" y="1800" type="line"/>
+      <point x="-71" y="1800" type="line"/>
+      <point x="131.3" y="1475" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="-39" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=E+uni030F.case@top</string>
   </dict>
   </lib>
 </glyph>

@@ -2,19 +2,45 @@
 <glyph name="uni1EBE" format="2">
   <advance width="1725"/>
   <unicode hex="1EBE"/>
-  <anchor x="1165" y="1856" name="top"/>
+  <anchor x="1111" y="1550" name="top"/>
   <anchor x="814" y="-150" name="bottom"/>
   <anchor x="1218" y="0" name="ogonek"/>
-  <anchor x="1630" y="1576" name="topright"/>
   <outline>
-    <component base="E"/>
-    <component base="uni0302.case" xOffset="1027" yOffset="376"/>
-    <component base="acutecomb.case" xOffset="1712" yOffset="476"/>
+    <contour>
+      <point x="83" y="0" type="line"/>
+      <point x="1603" y="0" type="line"/>
+      <point x="1609" y="36" type="line"/>
+      <point x="661" y="36" type="line"/>
+      <point x="777" y="700" type="line"/>
+      <point x="1319" y="700" type="line"/>
+      <point x="1325" y="736" type="line"/>
+      <point x="783" y="736" type="line"/>
+      <point x="893" y="1364" type="line"/>
+      <point x="1821" y="1364" type="line"/>
+      <point x="1827" y="1400" type="line"/>
+      <point x="327" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="704" y="1476" type="line"/>
+      <point x="743" y="1476" type="line"/>
+      <point x="968" y="1720" type="line"/>
+      <point x="1054" y="1476" type="line"/>
+      <point x="1474" y="1476" type="line"/>
+      <point x="1289" y="1776" type="line"/>
+      <point x="974" y="1776" type="line"/>
+    </contour>
+    <contour>
+      <point x="1486" y="1650" type="line"/>
+      <point x="1522" y="1650" type="line"/>
+      <point x="2003" y="1876" type="line"/>
+      <point x="1582" y="1876" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="-122" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=E+circumflexcomb_acutecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

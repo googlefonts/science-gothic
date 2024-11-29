@@ -1,14 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0420" format="2">
-  <advance width="548"/>
+  <advance width="551"/>
   <unicode hex="0420"/>
   <outline>
-    <component base="P"/>
+    <contour>
+      <point x="-22" y="0" type="line"/>
+      <point x="18" y="0" type="line"/>
+      <point x="127" y="624" type="line"/>
+      <point x="300" y="624" type="line" smooth="yes"/>
+      <point x="353.25" y="624"/>
+      <point x="432.969" y="646.562"/>
+      <point x="489.781" y="694.938"/>
+      <point x="525.625" y="770.75"/>
+      <point x="535" y="824" type="qcurve" smooth="yes"/>
+      <point x="600" y="1200" type="line" smooth="yes"/>
+      <point x="618.75" y="1306.5"/>
+      <point x="541.5" y="1400"/>
+      <point x="435" y="1400" type="qcurve" smooth="yes"/>
+      <point x="222" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="133" y="660" type="line"/>
+      <point x="256" y="1364" type="line"/>
+      <point x="427" y="1364" type="line" smooth="yes"/>
+      <point x="518.307" y="1364"/>
+      <point x="576.847" y="1291.8"/>
+      <point x="561" y="1202" type="qcurve" smooth="yes"/>
+      <point x="494" y="822" type="line" smooth="yes"/>
+      <point x="478.908" y="732.203"/>
+      <point x="395.307" y="660"/>
+      <point x="304" y="660" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="0.4,0.4,0.4,1" name="halfwidth" x="275.5" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=P</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=P</string>
+  <key>com.fontlab.recipe</key>
+  <string>=P</string>
   </dict>
   </lib>
 </glyph>

@@ -5,15 +5,35 @@
   <anchor x="736" y="1550" name="top"/>
   <anchor x="439" y="-150" name="bottom"/>
   <anchor x="781" y="0" name="ogonek"/>
-  <anchor x="950.112" y="1476" name="topright"/>
+  <anchor x="950" y="1476" name="topright"/>
   <outline>
-    <component base="E"/>
-    <component base="gravecomb.case" xOffset="346" yOffset="376"/>
+    <contour>
+      <point x="-37" y="0" type="line"/>
+      <point x="973" y="0" type="line"/>
+      <point x="1047" y="424" type="line"/>
+      <point x="609" y="424" type="line"/>
+      <point x="626" y="520" type="line"/>
+      <point x="1010" y="520" type="line"/>
+      <point x="1074" y="890" type="line"/>
+      <point x="690" y="890" type="line"/>
+      <point x="705" y="976" type="line"/>
+      <point x="1129" y="976" type="line"/>
+      <point x="1203" y="1400" type="line"/>
+      <point x="207" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="950" y="1476" type="line"/>
+      <point x="785" y="1776" type="line"/>
+      <point x="182" y="1776" type="line"/>
+      <point x="530" y="1476" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="-183" y="0"/>
+  <guideline angle="0" x="0" y="1004"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=E+gravecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

@@ -7,13 +7,57 @@
   <anchor x="1495" y="0" name="ogonek"/>
   <anchor x="2552" y="1400" name="horn"/>
   <outline>
-    <component base="U"/>
-    <component base="uni0328.case" xOffset="1513"/>
+    <contour>
+      <point x="392" y="1400" type="line"/>
+      <point x="392" y="286" type="line" smooth="yes"/>
+      <point x="392" y="197.5"/>
+      <point x="439.25" y="86"/>
+      <point x="527.75" y="23"/>
+      <point x="654.5" y="0"/>
+      <point x="734" y="0" type="qcurve" smooth="yes"/>
+      <point x="2208" y="0" type="line" smooth="yes"/>
+      <point x="2368.5" y="0"/>
+      <point x="2552" y="109"/>
+      <point x="2552" y="286" type="qcurve" smooth="yes"/>
+      <point x="2552" y="1400" type="line"/>
+      <point x="2288" y="1400" type="line"/>
+      <point x="2288" y="36" type="line"/>
+      <point x="2288" y="36"/>
+      <point x="2288" y="36"/>
+      <point x="2288" y="36" type="qcurve"/>
+      <point x="656" y="36" type="line"/>
+      <point x="656" y="36"/>
+      <point x="656" y="36"/>
+      <point x="656" y="36" type="qcurve"/>
+      <point x="656" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1495" y="0" type="qcurve"/>
+      <point x="1450" y="0" type="line"/>
+      <point x="1411.52" y="-48.2944"/>
+      <point x="1317.48" y="-164.706"/>
+      <point x="1279" y="-213" type="qcurve"/>
+      <point x="1279" y="-308.834"/>
+      <point x="1419.99" y="-428"/>
+      <point x="1530.67" y="-428" type="qcurve" smooth="yes"/>
+      <point x="1580.72" y="-428"/>
+      <point x="1658.87" y="-404.847"/>
+      <point x="1680" y="-389" type="qcurve"/>
+      <point x="1747" y="-210" type="line"/>
+      <point x="1722.85" y="-223.583"/>
+      <point x="1644.46" y="-240"/>
+      <point x="1602.83" y="-240" type="qcurve" smooth="yes"/>
+      <point x="1522.22" y="-240"/>
+      <point x="1431" y="-177.001"/>
+      <point x="1431" y="-121.655" type="qcurve" smooth="yes"/>
+      <point x="1431" y="-91.7312"/>
+      <point x="1461.04" y="-34.7116"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= U + uni0328.case@ogonek</string>
   </dict>
   </lib>
 </glyph>

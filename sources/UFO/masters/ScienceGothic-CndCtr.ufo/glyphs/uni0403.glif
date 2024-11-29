@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0403" format="2">
-  <advance width="679"/>
+  <advance width="684"/>
   <unicode hex="0403"/>
   <anchor x="397" y="1550" name="top"/>
   <anchor x="338" y="1485" name="topright"/>
   <outline>
-    <component base="uni0413"/>
-    <component base="acutecomb.case" xOffset="397" yOffset="400"/>
+    <contour>
+      <point x="106" y="0" type="line"/>
+      <point x="370" y="0" type="line"/>
+      <point x="370" y="1364" type="line"/>
+      <point x="669" y="1364" type="line"/>
+      <point x="669" y="1400" type="line"/>
+      <point x="106" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="298" y="1485" type="line"/>
+      <point x="340" y="1485" type="line"/>
+      <point x="674" y="1800" type="line"/>
+      <point x="399" y="1800" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=uni0413</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=uni0413</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0413+acutecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

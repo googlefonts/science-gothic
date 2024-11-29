@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1EF3.sc" format="2">
-  <advance width="2220"/>
-  <anchor x="1449" y="1210" name="top"/>
+  <advance width="2221"/>
+  <anchor x="1450" y="1210" name="top"/>
   <anchor x="1075" y="-150" name="bottom"/>
   <outline>
-    <component base="y.sc"/>
-    <component base="gravecomb" xOffset="1374" yOffset="60"/>
+    <contour>
+      <point x="837" y="0" type="line"/>
+      <point x="1368" y="0" type="line"/>
+      <point x="1458" y="514" type="line"/>
+      <point x="2286" y="1086" type="line"/>
+      <point x="2232" y="1086" type="line"/>
+      <point x="1451" y="547" type="line"/>
+      <point x="838" y="1086" type="line"/>
+      <point x="78" y="1086" type="line"/>
+      <point x="905" y="387" type="line"/>
+    </contour>
+    <contour>
+      <point x="1694" y="1160" type="line"/>
+      <point x="1430" y="1508" type="line"/>
+      <point x="725" y="1508" type="line"/>
+      <point x="1648" y="1160" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="260.1" color="1,0,0,1" x="992" y="-0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=y.sc+gravecomb@top</string>
   </dict>
   </lib>
 </glyph>

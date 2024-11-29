@@ -1,18 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uhungarumlaut.sc" format="2">
-  <advance width="2937"/>
+  <advance width="2938"/>
   <anchor x="1563" y="1236" name="top"/>
   <anchor x="1321" y="-150" name="bottom"/>
   <anchor x="2621" y="1086" name="horn"/>
   <anchor x="1366" y="0" name="ogonek"/>
   <outline>
-    <component base="u.sc"/>
-    <component base="uni030B" xOffset="1497" yOffset="136"/>
+    <contour>
+      <point x="454" y="1086" type="line"/>
+      <point x="309" y="258" type="line" smooth="yes"/>
+      <point x="294.75" y="175.875"/>
+      <point x="324.406" y="72.2188"/>
+      <point x="403.344" y="13.5312"/>
+      <point x="527.125" y="-8"/>
+      <point x="607" y="-8" type="qcurve" smooth="yes"/>
+      <point x="2086" y="-8" type="line" smooth="yes"/>
+      <point x="2248" y="-8"/>
+      <point x="2449.5" y="93.75"/>
+      <point x="2478" y="258" type="qcurve" smooth="yes"/>
+      <point x="2623" y="1086" type="line"/>
+      <point x="2092" y="1086" type="line"/>
+      <point x="1906" y="25" type="line"/>
+      <point x="1906" y="25"/>
+      <point x="1906" y="25"/>
+      <point x="1906" y="25" type="qcurve"/>
+      <point x="799" y="25" type="line"/>
+      <point x="799" y="25"/>
+      <point x="799" y="25"/>
+      <point x="799" y="25" type="qcurve"/>
+      <point x="985" y="1086" type="line"/>
+    </contour>
+    <contour>
+      <point x="1098.76" y="1236" type="line"/>
+      <point x="1138.51" y="1236" type="line"/>
+      <point x="1997.61" y="1584" type="line"/>
+      <point x="1408.86" y="1584" type="line"/>
+    </contour>
+    <contour>
+      <point x="1821.76" y="1236" type="line"/>
+      <point x="1861.51" y="1236" type="line"/>
+      <point x="2720.61" y="1584" type="line"/>
+      <point x="2131.86" y="1584" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=u.sc+uni030B@top</string>
   </dict>
   </lib>
 </glyph>

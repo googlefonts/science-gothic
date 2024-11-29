@@ -1,17 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Dcaron" format="2">
-  <advance width="1799" height="1448"/>
+  <advance width="1800"/>
   <unicode hex="010E"/>
   <anchor x="810" y="1880" name="top"/>
   <anchor x="810" y="-150" name="bottom"/>
+  <anchor x="421" y="1700" name="topright"/>
   <outline>
-    <component base="D"/>
-    <component base="uni030C.case" xOffset="727" yOffset="400"/>
+    <contour>
+      <point x="389" y="244" type="line"/>
+      <point x="548" y="1156" type="line"/>
+      <point x="1042" y="1156" type="line" smooth="yes"/>
+      <point x="1139.5" y="1156"/>
+      <point x="1291.47" y="1108.88"/>
+      <point x="1387.28" y="1003.12"/>
+      <point x="1420.38" y="833"/>
+      <point x="1399" y="710" type="qcurve" smooth="yes"/>
+      <point x="1376.5" y="581.75"/>
+      <point x="1293.25" y="404.062"/>
+      <point x="1171.75" y="293.438"/>
+      <point x="1012" y="244"/>
+      <point x="913" y="244" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="83" y="0" type="line"/>
+      <point x="887" y="0" type="line" smooth="yes"/>
+      <point x="1025" y="0"/>
+      <point x="1275.66" y="61.9375"/>
+      <point x="1479.09" y="211.562"/>
+      <point x="1624.38" y="461.75"/>
+      <point x="1657" y="650" type="qcurve" smooth="yes"/>
+      <point x="1688.12" y="827"/>
+      <point x="1627.03" y="1105.62"/>
+      <point x="1471.22" y="1298.38"/>
+      <point x="1235" y="1400"/>
+      <point x="1091" y="1400" type="qcurve" smooth="yes"/>
+      <point x="327" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1262" y="1800" type="line"/>
+      <point x="994" y="1800" type="line"/>
+      <point x="809" y="1608" type="line"/>
+      <point x="673" y="1800" type="line"/>
+      <point x="439" y="1800" type="line"/>
+      <point x="686" y="1485" type="line"/>
+      <point x="903" y="1485" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="0" x="0" y="1549"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=D+uni030C.case@top</string>
   </dict>
   </lib>
 </glyph>

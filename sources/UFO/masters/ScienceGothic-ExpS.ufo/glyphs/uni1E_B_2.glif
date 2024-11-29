@@ -6,13 +6,72 @@
   <anchor x="1202" y="-150" name="bottom"/>
   <anchor x="2245" y="0" name="ogonek_in"/>
   <outline>
-    <component base="A"/>
-    <component base="brevecomb_hookcomb.case" xOffset="1416" yOffset="400"/>
+    <contour>
+      <point x="-120" y="0" type="line"/>
+      <point x="207" y="0" type="line"/>
+      <point x="566" y="336" type="line"/>
+      <point x="2009" y="336" type="line"/>
+      <point x="2251" y="0" type="line"/>
+      <point x="2576" y="0" type="line"/>
+      <point x="1565" y="1400" type="line"/>
+      <point x="1359" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="800" y="556" type="line"/>
+      <point x="1427" y="1144" type="line"/>
+      <point x="1851" y="556" type="line"/>
+    </contour>
+    <contour>
+      <point x="1133" y="1800" type="line"/>
+      <point x="1117.62" y="1711.5"/>
+      <point x="1150.53" y="1598.75"/>
+      <point x="1245.22" y="1534.25"/>
+      <point x="1400.75" y="1510"/>
+      <point x="1508" y="1510" type="qcurve" smooth="yes"/>
+      <point x="1615.25" y="1510"/>
+      <point x="1767.09" y="1534.25"/>
+      <point x="1869.66" y="1598.75"/>
+      <point x="1929.62" y="1711.5"/>
+      <point x="1945" y="1800" type="qcurve"/>
+      <point x="1776" y="1800" type="line"/>
+      <point x="1769.62" y="1762.88"/>
+      <point x="1733.38" y="1715.78"/>
+      <point x="1669.62" y="1688.97"/>
+      <point x="1576.38" y="1679"/>
+      <point x="1513" y="1679" type="qcurve" smooth="yes"/>
+      <point x="1449.62" y="1679"/>
+      <point x="1363.06" y="1688.97"/>
+      <point x="1312.44" y="1715.78"/>
+      <point x="1295.62" y="1762.88"/>
+      <point x="1302" y="1800" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="1462" y="1850" type="qcurve"/>
+      <point x="1651" y="1850" type="line"/>
+      <point x="1712.12" y="1870.37"/>
+      <point x="1820.68" y="1939.1"/>
+      <point x="1832" y="2004" type="qcurve" smooth="yes"/>
+      <point x="1844.07" y="2071.16"/>
+      <point x="1734.26" y="2173"/>
+      <point x="1609" y="2173" type="qcurve" smooth="yes"/>
+      <point x="1544.1" y="2173"/>
+      <point x="1396.61" y="2144.18"/>
+      <point x="1337" y="2114" type="qcurve"/>
+      <point x="1356" y="2006" type="line"/>
+      <point x="1385.43" y="2015.06"/>
+      <point x="1475.53" y="2028"/>
+      <point x="1511" y="2028" type="qcurve" smooth="yes"/>
+      <point x="1566.84" y="2028"/>
+      <point x="1615.28" y="1996.45"/>
+      <point x="1610" y="1964" type="qcurve" smooth="yes"/>
+      <point x="1603.21" y="1925.52"/>
+      <point x="1503.5" y="1868.87"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= A + brevecomb_hookcomb.case@top</string>
   </dict>
   </lib>
 </glyph>

@@ -7,13 +7,51 @@
   <anchor x="1249" y="0" name="ogonek"/>
   <anchor x="2151" y="1024" name="horn"/>
   <outline>
-    <component base="u"/>
-    <component base="uni0323" xOffset="1230"/>
+    <contour>
+      <point x="308" y="204" type="line" smooth="yes"/>
+      <point x="308" y="77.2272"/>
+      <point x="437.301" y="0"/>
+      <point x="552" y="0" type="qcurve" smooth="yes"/>
+      <point x="1905" y="0" type="line" smooth="yes"/>
+      <point x="2019.7" y="0"/>
+      <point x="2151" y="77.2272"/>
+      <point x="2151" y="204" type="qcurve" smooth="yes"/>
+      <point x="2151" y="1024" type="line"/>
+      <point x="1627" y="1024" type="line"/>
+      <point x="1627" y="32" type="line"/>
+      <point x="1627" y="32"/>
+      <point x="1627" y="32"/>
+      <point x="1627" y="32" type="qcurve"/>
+      <point x="832" y="32" type="line"/>
+      <point x="832" y="32"/>
+      <point x="832" y="32"/>
+      <point x="832" y="32" type="qcurve"/>
+      <point x="832" y="1024" type="line"/>
+      <point x="308" y="1024" type="line"/>
+    </contour>
+    <contour>
+      <point x="1034" y="-209" type="qcurve" smooth="yes"/>
+      <point x="1034" y="-341" type="line" smooth="yes"/>
+      <point x="1034" y="-420.988"/>
+      <point x="1062.5" y="-449"/>
+      <point x="1144" y="-449" type="qcurve" smooth="yes"/>
+      <point x="1316" y="-449" type="line" smooth="yes"/>
+      <point x="1397.5" y="-449"/>
+      <point x="1426" y="-420.988"/>
+      <point x="1426" y="-341" type="qcurve" smooth="yes"/>
+      <point x="1426" y="-209" type="line" smooth="yes"/>
+      <point x="1426" y="-129.012"/>
+      <point x="1397.5" y="-101"/>
+      <point x="1316" y="-101" type="qcurve" smooth="yes"/>
+      <point x="1144" y="-101" type="line" smooth="yes"/>
+      <point x="1062.5" y="-101"/>
+      <point x="1034" y="-129.012"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=u+uni0323@bottom</string>
   </dict>
   </lib>
 </glyph>

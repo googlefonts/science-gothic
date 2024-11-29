@@ -1,13 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="parenleft.case" format="2">
-  <advance width="635"/>
+  <advance width="638"/>
   <outline>
-    <component base="parenleft" xOffset="18" yOffset="104"/>
+    <contour>
+      <point x="480" y="-152" type="line"/>
+      <point x="436.5" y="-59.375"/>
+      <point x="391.969" y="64.4062"/>
+      <point x="388.781" y="227.344"/>
+      <point x="426.375" y="479.75"/>
+      <point x="465" y="701" type="qcurve" smooth="yes"/>
+      <point x="503.25" y="919.625"/>
+      <point x="553.531" y="1170.47"/>
+      <point x="613.719" y="1333.78"/>
+      <point x="701.875" y="1459"/>
+      <point x="778" y="1552" type="qcurve"/>
+      <point x="743" y="1552" type="line"/>
+      <point x="628.25" y="1480"/>
+      <point x="431.312" y="1298.72"/>
+      <point x="277.188" y="1084.03"/>
+      <point x="171" y="837.875"/>
+      <point x="147" y="701" type="qcurve" smooth="yes"/>
+      <point x="98.7056" y="425.571"/>
+      <point x="263.896" y="-14.6628"/>
+      <point x="445" y="-152" type="qcurve"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=parenleft</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=parenleft</string>
+  <key>com.fontlab.recipe</key>
+  <string>=parenleft@,cap_paren_shift</string>
   </dict>
   </lib>
 </glyph>

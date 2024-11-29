@@ -4,12 +4,37 @@
   <anchor x="1116" y="1236" name="top"/>
   <anchor x="741" y="-164" name="bottom"/>
   <outline>
-    <component base="j.sc"/>
+    <contour>
+      <point x="1381" y="1086" type="line"/>
+      <point x="850" y="1086" type="line"/>
+      <point x="850" y="408" type="line"/>
+      <point x="850" y="408"/>
+      <point x="850" y="408"/>
+      <point x="850" y="408" type="qcurve"/>
+      <point x="631" y="408" type="line"/>
+      <point x="631" y="408"/>
+      <point x="631" y="408"/>
+      <point x="631" y="408" type="qcurve"/>
+      <point x="631" y="600" type="line"/>
+      <point x="100" y="504" type="line"/>
+      <point x="100" y="264" type="line" smooth="yes"/>
+      <point x="100" y="93.75"/>
+      <point x="295.75" y="-11"/>
+      <point x="448" y="-11" type="qcurve" smooth="yes"/>
+      <point x="1034" y="-11" type="line" smooth="yes"/>
+      <point x="1187" y="-11"/>
+      <point x="1381" y="93.75"/>
+      <point x="1381" y="264" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=j.sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=j.sc</string>
+  <key>com.fontlab.recipe</key>
+  <string>=j.sc</string>
   </dict>
   </lib>
 </glyph>

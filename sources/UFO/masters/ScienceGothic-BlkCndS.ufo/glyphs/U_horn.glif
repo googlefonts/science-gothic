@@ -1,19 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uhorn" format="2">
-  <advance width="1296"/>
+  <advance width="1818"/>
   <unicode hex="01AF"/>
-  <anchor x="838" y="1550" name="top"/>
-  <anchor x="540" y="-150" name="bottom"/>
-  <anchor x="726" y="0" name="ogonek"/>
-  <anchor x="1430" y="1400" name="horn"/>
+  <anchor x="841" y="1550" name="top"/>
+  <anchor x="543" y="-150" name="bottom"/>
+  <anchor x="729" y="0" name="ogonek"/>
+  <anchor x="1433" y="1400" name="horn"/>
   <outline>
-    <component base="U"/>
-    <component base="uni031B.case" xOffset="1373" yOffset="376"/>
+    <contour>
+      <point x="199" y="1400" type="line"/>
+      <point x="12" y="325" type="line" smooth="yes"/>
+      <point x="-6.75" y="218.875"/>
+      <point x="26.5" y="85.1562"/>
+      <point x="119.5" y="9.59375"/>
+      <point x="266.75" y="-18"/>
+      <point x="362" y="-18" type="qcurve" smooth="yes"/>
+      <point x="774" y="-18" type="line" smooth="yes"/>
+      <point x="966.75" y="-18"/>
+      <point x="1208.5" y="112.75"/>
+      <point x="1246" y="325" type="qcurve" smooth="yes"/>
+      <point x="1433" y="1400" type="line"/>
+      <point x="861" y="1400" type="line"/>
+      <point x="698" y="466" type="line"/>
+      <point x="698" y="466"/>
+      <point x="698" y="466"/>
+      <point x="698" y="466" type="qcurve"/>
+      <point x="608" y="466" type="line"/>
+      <point x="608" y="466"/>
+      <point x="608" y="466"/>
+      <point x="608" y="466" type="qcurve"/>
+      <point x="771" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1378" y="1085" type="line"/>
+      <point x="1546.75" y="1085"/>
+      <point x="1760.75" y="1135.97"/>
+      <point x="1889.75" y="1237.78"/>
+      <point x="1953" y="1390.38"/>
+      <point x="1971" y="1492" type="qcurve" smooth="yes"/>
+      <point x="1981.56" y="1551.61"/>
+      <point x="1993.25" y="1702.8"/>
+      <point x="1994" y="1776" type="qcurve"/>
+      <point x="1551" y="1696" type="line"/>
+      <point x="1551" y="1654.5"/>
+      <point x="1544.28" y="1583.43"/>
+      <point x="1539" y="1554" type="qcurve" smooth="yes"/>
+      <point x="1525.42" y="1477.03"/>
+      <point x="1476.01" y="1400"/>
+      <point x="1433" y="1400" type="qcurve"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>U</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>V</string>
+  <key>com.fontlab.recipe</key>
+  <string>=Uhorn</string>
   </dict>
   </lib>
 </glyph>

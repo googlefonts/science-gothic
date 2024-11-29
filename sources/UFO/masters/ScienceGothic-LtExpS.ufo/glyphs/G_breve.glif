@@ -1,17 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Gbreve" format="2">
-  <advance width="2524"/>
+  <advance width="2528"/>
   <unicode hex="011E"/>
-  <anchor x="1480" y="1900" name="top"/>
-  <anchor x="1121" y="-150" name="bottom"/>
+  <anchor x="1483" y="1900" name="top"/>
+  <anchor x="1124" y="-150" name="bottom"/>
   <outline>
-    <component base="G"/>
-    <component base="uni0306.case" xOffset="1339" yOffset="400"/>
+    <contour>
+      <point x="408" y="1100" type="qcurve" smooth="yes"/>
+      <point x="268" y="300" type="line" smooth="yes"/>
+      <point x="243.098" y="154.362"/>
+      <point x="370.362" y="0"/>
+      <point x="516" y="0" type="qcurve" smooth="yes"/>
+      <point x="1784" y="0" type="line" smooth="yes"/>
+      <point x="1929.64" y="0"/>
+      <point x="2111.1" y="154.362"/>
+      <point x="2136" y="300" type="qcurve" smooth="yes"/>
+      <point x="2206" y="700" type="line"/>
+      <point x="1286" y="700" type="line"/>
+      <point x="1280" y="664" type="line"/>
+      <point x="2160" y="664" type="line"/>
+      <point x="2096" y="298" type="line" smooth="yes"/>
+      <point x="2073.36" y="169.718"/>
+      <point x="1916.28" y="36"/>
+      <point x="1788" y="36" type="qcurve" smooth="yes"/>
+      <point x="524" y="36" type="line" smooth="yes"/>
+      <point x="395.718" y="36"/>
+      <point x="285.362" y="169.718"/>
+      <point x="308" y="298" type="qcurve" smooth="yes"/>
+      <point x="448" y="1102" type="line" smooth="yes"/>
+      <point x="470.638" y="1230.28"/>
+      <point x="627.718" y="1364"/>
+      <point x="756" y="1364" type="qcurve" smooth="yes"/>
+      <point x="2020" y="1364" type="line" smooth="yes"/>
+      <point x="2148.28" y="1364"/>
+      <point x="2258.64" y="1230.28"/>
+      <point x="2236" y="1102" type="qcurve" smooth="yes"/>
+      <point x="2219" y="1000" type="line"/>
+      <point x="2260" y="1008" type="line"/>
+      <point x="2276" y="1100" type="line" smooth="yes"/>
+      <point x="2301.5" y="1244.75"/>
+      <point x="2172.75" y="1400"/>
+      <point x="2028" y="1400" type="qcurve" smooth="yes"/>
+      <point x="760" y="1400" type="line" smooth="yes"/>
+      <point x="615.25" y="1400"/>
+      <point x="433.5" y="1244.75"/>
+    </contour>
+    <contour>
+      <point x="1168" y="1800" type="line"/>
+      <point x="1154.12" y="1719.38"/>
+      <point x="1164.66" y="1619.22"/>
+      <point x="1224.09" y="1563.53"/>
+      <point x="1337.75" y="1544"/>
+      <point x="1427" y="1544" type="qcurve" smooth="yes"/>
+      <point x="1516.25" y="1544"/>
+      <point x="1632.84" y="1563.53"/>
+      <point x="1706.91" y="1619.22"/>
+      <point x="1748.12" y="1719.38"/>
+      <point x="1762" y="1800" type="qcurve"/>
+      <point x="1730" y="1800" type="line"/>
+      <point x="1716.88" y="1724.25"/>
+      <point x="1678.81" y="1636.56"/>
+      <point x="1611.69" y="1591.94"/>
+      <point x="1506.88" y="1580"/>
+      <point x="1427" y="1580" type="qcurve" smooth="yes"/>
+      <point x="1347.12" y="1580"/>
+      <point x="1246.38" y="1591.94"/>
+      <point x="1194.62" y="1636.56"/>
+      <point x="1186.88" y="1724.25"/>
+      <point x="1200" y="1800" type="qcurve"/>
+    </contour>
   </outline>
+  <guideline angle="0" x="0" y="574"/>
+  <guideline angle="0" x="0" y="1036"/>
+  <guideline angle="0" x="0" y="980"/>
+  <guideline angle="0" x="0" y="806"/>
+  <guideline angle="0" x="0" y="700"/>
+  <guideline angle="0" x="0" y="906"/>
+  <guideline angle="0" x="0" y="494"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=G+brevecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

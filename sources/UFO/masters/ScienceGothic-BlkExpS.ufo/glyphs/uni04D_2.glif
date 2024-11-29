@@ -2,17 +2,70 @@
 <glyph name="uni04D2" format="2">
   <advance width="3150"/>
   <unicode hex="04D2"/>
-  <anchor x="1776" y="1938" name="top"/>
+  <anchor x="1774" y="1928" name="top"/>
   <anchor x="1430" y="-150" name="bottom"/>
   <anchor x="2248" y="0" name="ogonek_in"/>
   <outline>
-    <component base="A"/>
-    <component base="uni0308.case" xOffset="1630" yOffset="378"/>
+    <contour>
+      <point x="-120" y="0" type="line"/>
+      <point x="510" y="0" type="line"/>
+      <point x="724" y="196" type="line"/>
+      <point x="2111" y="196" type="line"/>
+      <point x="2248" y="0" type="line"/>
+      <point x="3030" y="0" type="line"/>
+      <point x="1953" y="1400" type="line"/>
+      <point x="1409" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="1118" y="556" type="line"/>
+      <point x="1570" y="970" type="line"/>
+      <point x="1860" y="556" type="line"/>
+    </contour>
+    <contour>
+      <point x="1220" y="1598" type="line" smooth="yes"/>
+      <point x="1205.66" y="1516.5"/>
+      <point x="1229.5" y="1488"/>
+      <point x="1311" y="1488" type="qcurve" smooth="yes"/>
+      <point x="1463" y="1488" type="line" smooth="yes"/>
+      <point x="1544.5" y="1488"/>
+      <point x="1577.66" y="1516.5"/>
+      <point x="1592" y="1598" type="qcurve" smooth="yes"/>
+      <point x="1614" y="1720" type="line" smooth="yes"/>
+      <point x="1627.58" y="1799.99"/>
+      <point x="1604.5" y="1828"/>
+      <point x="1523" y="1828" type="qcurve" smooth="yes"/>
+      <point x="1371" y="1828" type="line" smooth="yes"/>
+      <point x="1289.5" y="1828"/>
+      <point x="1255.58" y="1799.99"/>
+      <point x="1242" y="1720" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1840" y="1598" type="line" smooth="yes"/>
+      <point x="1825.66" y="1516.5"/>
+      <point x="1849.5" y="1488"/>
+      <point x="1931" y="1488" type="qcurve" smooth="yes"/>
+      <point x="2083" y="1488" type="line" smooth="yes"/>
+      <point x="2164.5" y="1488"/>
+      <point x="2197.66" y="1516.5"/>
+      <point x="2212" y="1598" type="qcurve" smooth="yes"/>
+      <point x="2234" y="1720" type="line" smooth="yes"/>
+      <point x="2247.58" y="1799.99"/>
+      <point x="2224.5" y="1828"/>
+      <point x="2143" y="1828" type="qcurve" smooth="yes"/>
+      <point x="1991" y="1828" type="line" smooth="yes"/>
+      <point x="1909.5" y="1828"/>
+      <point x="1875.58" y="1799.99"/>
+      <point x="1862" y="1720" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=А</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=А</string>
+  <key>com.fontlab.recipe</key>
+  <string>=A+uni0308.case@top</string>
   </dict>
   </lib>
 </glyph>

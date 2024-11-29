@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lcaron" format="2">
-  <advance width="1030"/>
+  <advance width="1029"/>
   <unicode hex="013D"/>
   <anchor x="525" y="1550" name="top"/>
   <anchor x="408" y="-150" name="bottom"/>
@@ -8,13 +8,25 @@
   <anchor x="784" y="1400" name="right"/>
   <anchor x="891" y="700" name="eldot"/>
   <outline>
-    <component base="L"/>
-    <component base="caroncomb.alt" xOffset="654" yOffset="-72"/>
+    <contour>
+      <point x="-29" y="0" type="line"/>
+      <point x="903" y="0" type="line"/>
+      <point x="909" y="36" type="line"/>
+      <point x="549" y="36" type="line"/>
+      <point x="787" y="1400" type="line"/>
+      <point x="215" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="925" y="1098" type="line"/>
+      <point x="961" y="1105" type="line"/>
+      <point x="1274" y="1400" type="line"/>
+      <point x="867" y="1400" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= L + caroncomb.alt@right</string>
   </dict>
   </lib>
 </glyph>

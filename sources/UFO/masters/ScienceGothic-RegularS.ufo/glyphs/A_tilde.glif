@@ -1,18 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Atilde" format="2">
-  <advance width="1654" height="1448"/>
+  <advance width="1654"/>
   <unicode hex="00C3"/>
   <anchor x="1034" y="1860" name="top"/>
   <anchor x="682" y="-150" name="bottom"/>
   <anchor x="1222" y="0" name="ogonek_in"/>
   <outline>
-    <component base="A"/>
-    <component base="tildecomb.case" xOffset="899" yOffset="400"/>
+    <contour>
+      <point x="-120" y="0" type="line"/>
+      <point x="175" y="0" type="line"/>
+      <point x="399" y="326" type="line"/>
+      <point x="1117" y="326" type="line"/>
+      <point x="1227" y="0" type="line"/>
+      <point x="1534" y="0" type="line"/>
+      <point x="1050" y="1400" type="line"/>
+      <point x="842" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="564" y="566" type="line"/>
+      <point x="880" y="1025" type="line"/>
+      <point x="1036" y="566" type="line"/>
+    </contour>
+    <contour>
+      <point x="571" y="1550" type="qcurve"/>
+      <point x="734" y="1521" type="line"/>
+      <point x="753.62" y="1573.82"/>
+      <point x="812.325" y="1599"/>
+      <point x="841" y="1599" type="qcurve" smooth="yes"/>
+      <point x="871.75" y="1599"/>
+      <point x="935.156" y="1574.31"/>
+      <point x="1005.09" y="1544.69"/>
+      <point x="1083.88" y="1520"/>
+      <point x="1130" y="1520" type="qcurve" smooth="yes"/>
+      <point x="1167.88" y="1520"/>
+      <point x="1249.53" y="1540.75"/>
+      <point x="1327.72" y="1594.75"/>
+      <point x="1397.75" y="1688.25"/>
+      <point x="1424" y="1761" type="qcurve"/>
+      <point x="1262" y="1790" type="line"/>
+      <point x="1241.63" y="1737.18"/>
+      <point x="1183.67" y="1711"/>
+      <point x="1155" y="1711" type="qcurve" smooth="yes"/>
+      <point x="1124.25" y="1711"/>
+      <point x="1060.84" y="1735.69"/>
+      <point x="990.906" y="1765.31"/>
+      <point x="912.125" y="1790"/>
+      <point x="866" y="1790" type="qcurve" smooth="yes"/>
+      <point x="828.125" y="1790"/>
+      <point x="745.875" y="1769"/>
+      <point x="667.125" y="1715"/>
+      <point x="596.875" y="1622"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=A+tildecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

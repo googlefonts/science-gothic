@@ -6,13 +6,31 @@
   <anchor x="375" y="-150" name="bottom"/>
   <anchor x="325" y="1475" name="topright"/>
   <outline>
-    <component base="Z"/>
-    <component base="acutecomb.case" xOffset="422" yOffset="400"/>
+    <contour>
+      <point x="55" y="0" type="line"/>
+      <point x="695" y="0" type="line"/>
+      <point x="695" y="244" type="line"/>
+      <point x="337" y="244" type="line"/>
+      <point x="345" y="233" type="line"/>
+      <point x="693" y="1248" type="line"/>
+      <point x="693" y="1400" type="line"/>
+      <point x="99" y="1400" type="line"/>
+      <point x="99" y="1156" type="line"/>
+      <point x="411" y="1156" type="line"/>
+      <point x="403" y="1167" type="line"/>
+      <point x="55" y="152" type="line"/>
+    </contour>
+    <contour>
+      <point x="265" y="1475" type="line"/>
+      <point x="484" y="1475" type="line"/>
+      <point x="722" y="1800" type="line"/>
+      <point x="478" y="1800" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=Z+acutecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

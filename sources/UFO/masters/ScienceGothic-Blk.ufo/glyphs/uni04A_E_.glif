@@ -3,14 +3,25 @@
   <advance width="1905"/>
   <unicode hex="04AE"/>
   <anchor x="953" y="1550" name="top"/>
-  <anchor x="953" y="-150" name="bottom"/>
+  <anchor x="967" y="-150" name="bottom"/>
   <outline>
-    <component base="Y"/>
+    <contour>
+      <point x="681" y="0" type="line"/>
+      <point x="1253" y="0" type="line"/>
+      <point x="1253" y="593" type="line"/>
+      <point x="1905" y="1400" type="line"/>
+      <point x="1270" y="1400" type="line"/>
+      <point x="981" y="988" type="line"/>
+      <point x="692" y="1400" type="line"/>
+      <point x="0" y="1400" type="line"/>
+      <point x="681" y="589" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="1,0,0,1" x="952.5" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=Y</string>
   </dict>
   </lib>
 </glyph>

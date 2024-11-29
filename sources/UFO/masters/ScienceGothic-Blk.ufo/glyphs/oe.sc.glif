@@ -3,7 +3,7 @@
   <advance width="2461"/>
   <outline>
     <contour>
-      <point x="505" y="0" type="line"/>
+      <point x="505" y="0" type="qcurve" smooth="yes"/>
       <point x="2346" y="0" type="line"/>
       <point x="2346" y="312" type="line"/>
       <point x="1599" y="312" type="line"/>
@@ -15,17 +15,16 @@
       <point x="2330" y="774" type="line"/>
       <point x="2330" y="1086" type="line"/>
       <point x="505" y="1086" type="line" smooth="yes"/>
-      <point x="425" y="1086"/>
-      <point x="296" y="1068"/>
-      <point x="206" y="1015"/>
-      <point x="158" y="920"/>
+      <point x="424.75" y="1086"/>
+      <point x="296.25" y="1067.72"/>
+      <point x="206.25" y="1015.03"/>
+      <point x="158" y="919.875"/>
       <point x="158" y="843" type="qcurve" smooth="yes"/>
       <point x="158" y="252" type="line" smooth="yes"/>
-      <point x="158" y="174"/>
-      <point x="204" y="75"/>
-      <point x="292" y="20"/>
-      <point x="421" y="0"/>
-      <point x="505" y="0" type="qcurve"/>
+      <point x="158" y="173.625"/>
+      <point x="203.719" y="75.2812"/>
+      <point x="292.031" y="19.9688"/>
+      <point x="421.375" y="0"/>
     </contour>
     <contour>
       <point x="1068" y="330" type="line"/>
@@ -40,4 +39,14 @@
       <point x="1068" y="756" type="line"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=o.sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=e.sc</string>
+  <key>com.fontlab.recipe</key>
+  <string>=OE</string>
+  </dict>
+  </lib>
 </glyph>

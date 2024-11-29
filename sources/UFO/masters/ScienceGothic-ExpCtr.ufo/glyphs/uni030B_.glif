@@ -2,8 +2,25 @@
 <glyph name="uni030B" format="2">
   <unicode hex="030B"/>
   <anchor x="-1" y="1100" name="_top"/>
+  <anchor x="-257.95" y="1085" name="_topright"/>
   <outline>
-    <component base="acutecomb" xScale="0.85" xOffset="-150"/>
-    <component base="acutecomb" xScale="0.85" xOffset="367"/>
+    <contour>
+      <point x="-308.95" y="1085" type="line"/>
+      <point x="-260.5" y="1085" type="line"/>
+      <point x="373.6" y="1448" type="line"/>
+      <point x="76.1" y="1448" type="line"/>
+    </contour>
+    <contour>
+      <point x="208.05" y="1085" type="line"/>
+      <point x="256.5" y="1085" type="line"/>
+      <point x="890.6" y="1448" type="line"/>
+      <point x="593.1" y="1448" type="line"/>
+    </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>= acutecomb + acutecomb@300,</string>
+  </dict>
+  </lib>
 </glyph>

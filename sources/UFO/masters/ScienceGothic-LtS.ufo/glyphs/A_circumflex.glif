@@ -7,13 +7,35 @@
   <anchor x="1306" y="0" name="ogonek_in"/>
   <anchor x="1212" y="1585" name="topright"/>
   <outline>
-    <component base="A"/>
-    <component base="uni0302.case" xOffset="808" yOffset="400"/>
+    <contour>
+      <point x="-120" y="0" type="line"/>
+      <point x="-77" y="0" type="line"/>
+      <point x="193" y="388" type="line"/>
+      <point x="1173" y="388" type="line"/>
+      <point x="1306" y="0" type="line"/>
+      <point x="1352" y="0" type="line"/>
+      <point x="869" y="1400" type="line"/>
+      <point x="851" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="217" y="424" type="line"/>
+      <point x="847" y="1332" type="line"/>
+      <point x="1160" y="424" type="line"/>
+    </contour>
+    <contour>
+      <point x="558" y="1485" type="line"/>
+      <point x="612" y="1485" type="line"/>
+      <point x="929" y="1776" type="line"/>
+      <point x="1147" y="1485" type="line"/>
+      <point x="1194" y="1485" type="line"/>
+      <point x="954" y="1800" type="line"/>
+      <point x="908" y="1800" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=A+uni0302.case@top</string>
   </dict>
   </lib>
 </glyph>

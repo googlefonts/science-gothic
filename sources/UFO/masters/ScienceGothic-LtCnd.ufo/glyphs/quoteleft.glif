@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quoteleft" format="2">
-  <advance width="245"/>
+  <advance width="244"/>
   <unicode hex="2018"/>
   <outline>
-    <component base="comma" xScale="-1" yScale="-1" xOffset="245" yOffset="1344"/>
+    <contour>
+      <point x="135" y="1458" type="line"/>
+      <point x="93" y="1357" type="line" smooth="yes"/>
+      <point x="88.4724" y="1346.44"/>
+      <point x="85" y="1331.81"/>
+      <point x="85" y="1322" type="qcurve" smooth="yes"/>
+      <point x="85" y="1280" type="line" smooth="yes"/>
+      <point x="85" y="1261.13"/>
+      <point x="92.135" y="1254"/>
+      <point x="111" y="1254" type="qcurve" smooth="yes"/>
+      <point x="133" y="1254" type="line" smooth="yes"/>
+      <point x="151.75" y="1254"/>
+      <point x="159" y="1261.25"/>
+      <point x="159" y="1280" type="qcurve" smooth="yes"/>
+      <point x="159" y="1322" type="line" smooth="yes"/>
+      <point x="159" y="1338.6"/>
+      <point x="153.583" y="1348"/>
+      <point x="140" y="1348" type="qcurve" smooth="yes"/>
+      <point x="135" y="1348" type="line"/>
+      <point x="159" y="1452" type="line"/>
+    </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=rsb("quoteright")</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=lsb("quoteright")</string>
+  <key>com.fontlab.recipe</key>
+  <string>=comma@~,~ascender</string>
+  </dict>
+  </lib>
 </glyph>

@@ -6,13 +6,53 @@
   <anchor x="330" y="1562" name="top"/>
   <anchor x="400" y="0" name="ogonek"/>
   <outline>
-    <component base="dotlessi"/>
-    <component base="uni0308" xOffset="330" yOffset="2"/>
+    <contour>
+      <point x="68" y="0" type="line"/>
+      <point x="592" y="0" type="line"/>
+      <point x="592" y="1024" type="line"/>
+      <point x="68" y="1024" type="line"/>
+    </contour>
+    <contour>
+      <point x="-96" y="1222" type="line" smooth="yes"/>
+      <point x="-96" y="1140.5"/>
+      <point x="-67.4968" y="1112"/>
+      <point x="14" y="1112" type="qcurve" smooth="yes"/>
+      <point x="146" y="1112" type="line" smooth="yes"/>
+      <point x="227.497" y="1112"/>
+      <point x="256" y="1140.5"/>
+      <point x="256" y="1222" type="qcurve" smooth="yes"/>
+      <point x="256" y="1344" type="line" smooth="yes"/>
+      <point x="256" y="1423.99"/>
+      <point x="227.497" y="1452"/>
+      <point x="146" y="1452" type="qcurve" smooth="yes"/>
+      <point x="14" y="1452" type="line" smooth="yes"/>
+      <point x="-67.4968" y="1452"/>
+      <point x="-96" y="1423.99"/>
+      <point x="-96" y="1344" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="404" y="1222" type="line" smooth="yes"/>
+      <point x="404" y="1140.5"/>
+      <point x="432.503" y="1112"/>
+      <point x="514" y="1112" type="qcurve" smooth="yes"/>
+      <point x="646" y="1112" type="line" smooth="yes"/>
+      <point x="727.497" y="1112"/>
+      <point x="756" y="1140.5"/>
+      <point x="756" y="1222" type="qcurve" smooth="yes"/>
+      <point x="756" y="1344" type="line" smooth="yes"/>
+      <point x="756" y="1423.99"/>
+      <point x="727.497" y="1452"/>
+      <point x="646" y="1452" type="qcurve" smooth="yes"/>
+      <point x="514" y="1452" type="line" smooth="yes"/>
+      <point x="432.503" y="1452"/>
+      <point x="404" y="1423.99"/>
+      <point x="404" y="1344" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=dotlessi+uni0308@top</string>
   </dict>
   </lib>
 </glyph>

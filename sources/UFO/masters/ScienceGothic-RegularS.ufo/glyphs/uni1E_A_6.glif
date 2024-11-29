@@ -1,19 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1EA6" format="2">
-  <advance width="1654" height="1448"/>
+  <advance width="1654"/>
   <unicode hex="1EA6"/>
   <anchor x="979" y="1550" name="top"/>
   <anchor x="682" y="-150" name="bottom"/>
   <anchor x="1222" y="0" name="ogonek_in"/>
-  <anchor x="1397" y="1585" name="topright"/>
   <outline>
-    <component base="A"/>
-    <component base="circumflexcomb_gravecomb.case" xOffset="908" yOffset="400"/>
+    <contour>
+      <point x="-120" y="0" type="line"/>
+      <point x="175" y="0" type="line"/>
+      <point x="399" y="326" type="line"/>
+      <point x="1117" y="326" type="line"/>
+      <point x="1227" y="0" type="line"/>
+      <point x="1534" y="0" type="line"/>
+      <point x="1050" y="1400" type="line"/>
+      <point x="842" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="564" y="566" type="line"/>
+      <point x="880" y="1025" type="line"/>
+      <point x="1036" y="566" type="line"/>
+    </contour>
+    <contour>
+      <point x="607" y="1485" type="line"/>
+      <point x="827" y="1485" type="line"/>
+      <point x="994" y="1638" type="line"/>
+      <point x="1088" y="1485" type="line"/>
+      <point x="1314" y="1485" type="line"/>
+      <point x="1096" y="1800" type="line"/>
+      <point x="955" y="1800" type="line"/>
+    </contour>
+    <contour>
+      <point x="1543" y="1667" type="line"/>
+      <point x="1348" y="1667" type="line"/>
+      <point x="1220" y="1900" type="line"/>
+      <point x="1445" y="1900" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=A+circumflexcomb_gravecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

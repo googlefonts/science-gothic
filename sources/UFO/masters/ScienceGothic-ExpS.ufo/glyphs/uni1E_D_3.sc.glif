@@ -1,19 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1ED3.sc" format="2">
-  <advance width="2526"/>
+  <advance width="2527"/>
   <anchor x="1353" y="1210" name="top"/>
   <anchor x="1116" y="-150" name="bottom"/>
   <anchor x="2264" y="871" name="horn"/>
   <anchor x="1250" y="0" name="ogonek"/>
-  <anchor x="1957" y="1327" name="topright"/>
   <outline>
-    <component base="o.sc"/>
-    <component base="circumflexcomb_gravecomb" xOffset="1294" yOffset="60"/>
+    <contour>
+      <point x="328" y="871" type="qcurve" smooth="yes"/>
+      <point x="211" y="200" type="line" smooth="yes"/>
+      <point x="186.853" y="60.399"/>
+      <point x="321.945" y="-13"/>
+      <point x="454" y="-13" type="qcurve" smooth="yes"/>
+      <point x="1831" y="-13" type="line" smooth="yes"/>
+      <point x="1963.06" y="-13"/>
+      <point x="2126.1" y="58.8898"/>
+      <point x="2151" y="200" type="qcurve" smooth="yes"/>
+      <point x="2268" y="871" type="line" smooth="yes"/>
+      <point x="2291.25" y="1006"/>
+      <point x="2142.25" y="1073"/>
+      <point x="2020" y="1073" type="qcurve" smooth="yes"/>
+      <point x="643" y="1073" type="line" smooth="yes"/>
+      <point x="520" y="1073"/>
+      <point x="351.393" y="1006.83"/>
+    </contour>
+    <contour>
+      <point x="574" y="846" type="line"/>
+      <point x="574" y="846"/>
+      <point x="574" y="846"/>
+      <point x="574" y="846" type="qcurve"/>
+      <point x="2014" y="846" type="line"/>
+      <point x="2014" y="846"/>
+      <point x="2014" y="846"/>
+      <point x="2014" y="846" type="qcurve"/>
+      <point x="1903" y="214" type="line"/>
+      <point x="1903" y="214"/>
+      <point x="1903" y="214"/>
+      <point x="1903" y="214" type="qcurve"/>
+      <point x="463" y="214" type="line"/>
+      <point x="463" y="214"/>
+      <point x="463" y="214"/>
+      <point x="463" y="214" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="803" y="1145" type="line"/>
+      <point x="1088" y="1145" type="line"/>
+      <point x="1380" y="1364" type="line"/>
+      <point x="1578" y="1145" type="line"/>
+      <point x="1869" y="1145" type="line"/>
+      <point x="1480" y="1508" type="line"/>
+      <point x="1320" y="1508" type="line"/>
+    </contour>
+    <contour>
+      <point x="2168" y="1327" type="line"/>
+      <point x="1938" y="1327" type="line"/>
+      <point x="1688" y="1690" type="line"/>
+      <point x="1973" y="1690" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= o.sc+circumflexcomb_gravecomb@top</string>
   </dict>
   </lib>
 </glyph>

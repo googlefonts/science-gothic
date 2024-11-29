@@ -1,18 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1EC1.sc" format="2">
-  <advance width="1571"/>
-  <anchor x="914" y="1236" name="top"/>
-  <anchor x="672" y="-150" name="bottom"/>
-  <anchor x="1152" y="0" name="ogonek"/>
-  <anchor x="1410" y="1336" name="topright"/>
+  <advance width="1439"/>
+  <anchor x="826" y="1236" name="top"/>
+  <anchor x="584" y="-150" name="bottom"/>
+  <anchor x="1064" y="0" name="ogonek"/>
   <outline>
-    <component base="e.sc"/>
-    <component base="circumflexcomb_gravecomb" xOffset="850" yOffset="62"/>
+    <contour>
+      <point x="60" y="0" type="line"/>
+      <point x="1338" y="0" type="line"/>
+      <point x="1397" y="340" type="line"/>
+      <point x="650" y="340" type="line"/>
+      <point x="663" y="410" type="line"/>
+      <point x="1086" y="410" type="line"/>
+      <point x="1132" y="676" type="line"/>
+      <point x="709" y="676" type="line"/>
+      <point x="721" y="746" type="line"/>
+      <point x="1457" y="746" type="line"/>
+      <point x="1517" y="1086" type="line"/>
+      <point x="250" y="1086" type="line"/>
+    </contour>
+    <contour>
+      <point x="368" y="1162" type="line"/>
+      <point x="765" y="1162" type="line"/>
+      <point x="816" y="1296" type="line"/>
+      <point x="819" y="1162" type="line"/>
+      <point x="1224" y="1162" type="line"/>
+      <point x="1033" y="1510" type="line"/>
+      <point x="681" y="1510" type="line"/>
+    </contour>
+    <contour>
+      <point x="1534" y="1336" type="line"/>
+      <point x="1274" y="1336" type="line"/>
+      <point x="1112" y="1684" type="line"/>
+      <point x="1517" y="1684" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="260.1" color="1,0,0,1" x="1153" y="-0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= e.sc + circumflexcomb_gravecomb@top</string>
   </dict>
   </lib>
 </glyph>

@@ -6,14 +6,54 @@
   <anchor x="616" y="0" name="ogonek"/>
   <anchor x="581" y="1303" name="topright"/>
   <outline>
-    <component base="a.sc"/>
-    <component base="uni0302" xOffset="348" yOffset="60"/>
-    <component base="uni0323" yOffset="150"/>
+    <contour>
+      <point x="-10" y="0" type="line"/>
+      <point x="209" y="0" type="line"/>
+      <point x="346" y="521" type="line"/>
+      <point x="463" y="0" type="line"/>
+      <point x="706" y="0" type="line"/>
+      <point x="445" y="1060" type="line"/>
+      <point x="251" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="123" y="108" type="line"/>
+      <point x="572" y="108" type="line"/>
+      <point x="474" y="331" type="line"/>
+      <point x="219" y="331" type="line"/>
+    </contour>
+    <contour>
+      <point x="117" y="1145" type="line"/>
+      <point x="306" y="1145" type="line"/>
+      <point x="344" y="1273" type="line"/>
+      <point x="382" y="1145" type="line"/>
+      <point x="581" y="1145" type="line"/>
+      <point x="426" y="1460" type="line"/>
+      <point x="272" y="1460" type="line"/>
+    </contour>
+    <contour>
+      <point x="228" y="-189" type="qcurve" smooth="yes"/>
+      <point x="228" y="-251" type="line" smooth="yes"/>
+      <point x="228" y="-315.896"/>
+      <point x="251.595" y="-339"/>
+      <point x="318" y="-339" type="qcurve" smooth="yes"/>
+      <point x="378" y="-339" type="line" smooth="yes"/>
+      <point x="444.405" y="-339"/>
+      <point x="468" y="-315.896"/>
+      <point x="468" y="-251" type="qcurve" smooth="yes"/>
+      <point x="468" y="-189" type="line" smooth="yes"/>
+      <point x="468" y="-124.104"/>
+      <point x="444.405" y="-101"/>
+      <point x="378" y="-101" type="qcurve" smooth="yes"/>
+      <point x="318" y="-101" type="line" smooth="yes"/>
+      <point x="251.595" y="-101"/>
+      <point x="228" y="-124.104"/>
+    </contour>
   </outline>
+  <guideline angle="0" x="0" y="-100"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= acircumflex.sc + uni0323@bottom</string>
   </dict>
   </lib>
 </glyph>

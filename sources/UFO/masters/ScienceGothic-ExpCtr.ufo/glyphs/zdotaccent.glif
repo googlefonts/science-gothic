@@ -5,13 +5,43 @@
   <anchor x="902" y="1470" name="top"/>
   <anchor x="902" y="-150" name="bottom"/>
   <outline>
-    <component base="z"/>
-    <component base="uni0307" xOffset="902"/>
+    <contour>
+      <point x="150" y="0" type="line"/>
+      <point x="1653" y="0" type="line"/>
+      <point x="1653" y="32" type="line"/>
+      <point x="476" y="32" type="line"/>
+      <point x="479" y="24" type="line"/>
+      <point x="1647" y="974" type="line"/>
+      <point x="1647" y="1000" type="line"/>
+      <point x="210" y="1000" type="line"/>
+      <point x="210" y="968" type="line"/>
+      <point x="1322" y="968" type="line"/>
+      <point x="1319" y="976" type="line"/>
+      <point x="150" y="28" type="line"/>
+    </contour>
+    <contour>
+      <point x="782" y="1302" type="qcurve" smooth="yes"/>
+      <point x="782" y="1240" type="line" smooth="yes"/>
+      <point x="782" y="1175.1"/>
+      <point x="805.595" y="1152"/>
+      <point x="872" y="1152" type="qcurve" smooth="yes"/>
+      <point x="932" y="1152" type="line" smooth="yes"/>
+      <point x="998.405" y="1152"/>
+      <point x="1022" y="1175.1"/>
+      <point x="1022" y="1240" type="qcurve" smooth="yes"/>
+      <point x="1022" y="1302" type="line" smooth="yes"/>
+      <point x="1022" y="1366.9"/>
+      <point x="998.405" y="1390"/>
+      <point x="932" y="1390" type="qcurve" smooth="yes"/>
+      <point x="872" y="1390" type="line" smooth="yes"/>
+      <point x="805.595" y="1390"/>
+      <point x="782" y="1366.9"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=z+uni0307@top</string>
   </dict>
   </lib>
 </glyph>

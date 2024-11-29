@@ -6,14 +6,57 @@
   <anchor x="1684" y="0" name="ogonek"/>
   <anchor x="1992" y="1384" name="topright"/>
   <outline>
-    <component base="a.sc"/>
-    <component base="uni0302" xOffset="1196" yOffset="110"/>
-    <component base="uni0309" xOffset="2026" yOffset="284"/>
+    <contour>
+      <point x="6" y="0" type="line"/>
+      <point x="51" y="0" type="line"/>
+      <point x="881" y="845" type="line"/>
+      <point x="1646" y="0" type="line"/>
+      <point x="2385" y="0" type="line"/>
+      <point x="1324" y="1086" type="line"/>
+      <point x="1073" y="1086" type="line"/>
+    </contour>
+    <contour>
+      <point x="274" y="262" type="line"/>
+      <point x="1450" y="262" type="line"/>
+      <point x="1414" y="290" type="line"/>
+      <point x="308" y="290" type="line"/>
+    </contour>
+    <contour>
+      <point x="507" y="1210" type="line"/>
+      <point x="559" y="1210" type="line"/>
+      <point x="977" y="1538" type="line"/>
+      <point x="1395" y="1210" type="line"/>
+      <point x="1992" y="1210" type="line"/>
+      <point x="1496" y="1558" type="line"/>
+      <point x="951" y="1558" type="line"/>
+    </contour>
+    <contour>
+      <point x="1932" y="1384" type="qcurve"/>
+      <point x="2094" y="1384" type="line"/>
+      <point x="2158.14" y="1400.6"/>
+      <point x="2283" y="1497.75"/>
+      <point x="2283" y="1580" type="qcurve" smooth="yes"/>
+      <point x="2283" y="1659.23"/>
+      <point x="2152.42" y="1764"/>
+      <point x="2043" y="1764" type="qcurve" smooth="yes"/>
+      <point x="1977.35" y="1764"/>
+      <point x="1868.17" y="1730.13"/>
+      <point x="1841" y="1709" type="qcurve"/>
+      <point x="1857" y="1685" type="line"/>
+      <point x="1878.13" y="1697.83"/>
+      <point x="1920.63" y="1716"/>
+      <point x="1941" y="1716" type="qcurve" smooth="yes"/>
+      <point x="1980.99" y="1716"/>
+      <point x="2017" y="1641.84"/>
+      <point x="2017" y="1586" type="qcurve" smooth="yes"/>
+      <point x="2017" y="1530.91"/>
+      <point x="1971.99" y="1427.01"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= a.sc + uni0302@top+uni0309@topright</string>
   </dict>
   </lib>
 </glyph>

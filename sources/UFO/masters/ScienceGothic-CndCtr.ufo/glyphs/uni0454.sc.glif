@@ -4,12 +4,10 @@
   <anchor x="393" y="1210" name="top"/>
   <outline>
     <contour>
-      <point x="383" y="-8" type="line"/>
+      <point x="383" y="-8" type="qcurve" smooth="yes"/>
       <point x="403" y="-8" type="line" smooth="yes"/>
-      <point x="486" y="-8"/>
-      <point x="597" y="15"/>
-      <point x="663" y="66"/>
-      <point x="690" y="145"/>
+      <point x="569.5" y="-8"/>
+      <point x="690" y="89"/>
       <point x="690" y="200" type="qcurve" smooth="yes"/>
       <point x="690" y="316" type="line"/>
       <point x="440" y="356" type="line"/>
@@ -36,23 +34,24 @@
       <point x="433" y="728" type="line"/>
       <point x="683" y="764" type="line"/>
       <point x="683" y="860" type="line" smooth="yes"/>
-      <point x="683" y="916"/>
-      <point x="656" y="994"/>
-      <point x="590" y="1045"/>
-      <point x="479" y="1068"/>
+      <point x="683" y="971"/>
+      <point x="562.5" y="1068"/>
       <point x="396" y="1068" type="qcurve" smooth="yes"/>
       <point x="383" y="1068" type="line" smooth="yes"/>
-      <point x="300" y="1068"/>
-      <point x="189" y="1045"/>
-      <point x="123" y="994"/>
-      <point x="96" y="916"/>
+      <point x="216.5" y="1068"/>
+      <point x="96" y="971"/>
       <point x="96" y="860" type="qcurve" smooth="yes"/>
       <point x="96" y="200" type="line" smooth="yes"/>
-      <point x="96" y="145"/>
-      <point x="123" y="66"/>
-      <point x="189" y="15"/>
-      <point x="300" y="-8"/>
-      <point x="383" y="-8" type="qcurve"/>
+      <point x="96" y="89"/>
+      <point x="216.5" y="-8"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=c.sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=c.sc</string>
+  </dict>
+  </lib>
 </glyph>

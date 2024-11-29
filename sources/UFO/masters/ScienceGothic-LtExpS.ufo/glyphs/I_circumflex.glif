@@ -1,19 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Icircumflex" format="2">
-  <advance width="740"/>
+  <advance width="743"/>
   <unicode hex="00CE"/>
-  <anchor x="580" y="1880" name="top"/>
-  <anchor x="224" y="-150" name="bottom"/>
-  <anchor x="270" y="0" name="ogonek"/>
-  <anchor x="1024" y="1585" name="topright"/>
+  <anchor x="583" y="1880" name="top"/>
+  <anchor x="227" y="-150" name="bottom"/>
+  <anchor x="273" y="0" name="ogonek"/>
+  <anchor x="1027" y="1585" name="topright"/>
   <outline>
-    <component base="I"/>
-    <component base="uni0302.case" xOffset="442" yOffset="400"/>
+    <contour>
+      <point x="233" y="0" type="line"/>
+      <point x="273" y="0" type="line"/>
+      <point x="517" y="1400" type="line"/>
+      <point x="477" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="17" y="1485" type="line"/>
+      <point x="82" y="1485" type="line"/>
+      <point x="568" y="1776" type="line"/>
+      <point x="952" y="1485" type="line"/>
+      <point x="1009" y="1485" type="line"/>
+      <point x="588" y="1800" type="line"/>
+      <point x="548" y="1800" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=I+uni0302.case@top</string>
   </dict>
   </lib>
 </glyph>

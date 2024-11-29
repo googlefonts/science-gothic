@@ -1,37 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="o.sc" format="2">
-  <advance width="2744" height="1448"/>
+  <advance width="2744"/>
   <anchor x="1372" y="1236" name="top"/>
   <anchor x="1372" y="-150" name="bottom"/>
   <anchor x="2474" y="834" name="horn"/>
   <anchor x="1535" y="0" name="ogonek"/>
   <outline>
     <contour>
-      <point x="270" y="834" type="line"/>
+      <point x="270" y="834" type="qcurve" smooth="yes"/>
       <point x="270" y="263" type="line" smooth="yes"/>
-      <point x="270" y="178"/>
-      <point x="316" y="70"/>
-      <point x="404" y="9"/>
-      <point x="532" y="-13"/>
+      <point x="270" y="91.7058"/>
+      <point x="448.233" y="-13"/>
       <point x="615" y="-13" type="qcurve" smooth="yes"/>
       <point x="2127" y="-13" type="line" smooth="yes"/>
-      <point x="2210" y="-13"/>
-      <point x="2339" y="9"/>
-      <point x="2428" y="69"/>
-      <point x="2474" y="177"/>
+      <point x="2293.77" y="-13"/>
+      <point x="2474" y="90.1966"/>
       <point x="2474" y="263" type="qcurve" smooth="yes"/>
       <point x="2474" y="834" type="line" smooth="yes"/>
-      <point x="2474" y="917"/>
-      <point x="2424" y="1021"/>
-      <point x="2333" y="1079"/>
-      <point x="2205" y="1099"/>
+      <point x="2474" y="1000.5"/>
+      <point x="2283.75" y="1099"/>
       <point x="2127" y="1099" type="qcurve" smooth="yes"/>
       <point x="615" y="1099" type="line" smooth="yes"/>
-      <point x="536" y="1099"/>
-      <point x="409" y="1079"/>
-      <point x="319" y="1021"/>
-      <point x="270" y="917"/>
-      <point x="270" y="834" type="qcurve"/>
+      <point x="456.534" y="1099"/>
+      <point x="270" y="1001.52"/>
     </contour>
     <contour>
       <point x="801" y="679" type="line"/>
@@ -52,4 +43,12 @@
       <point x="801" y="407" type="qcurve"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=O</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=O</string>
+  </dict>
+  </lib>
 </glyph>

@@ -3,12 +3,17 @@
   <advance width="161"/>
   <unicode hex="2215"/>
   <outline>
-    <component base="fraction"/>
+    <contour>
+      <point x="614" y="1400" type="line"/>
+      <point x="-790" y="0" type="line"/>
+      <point x="-442" y="0" type="line"/>
+      <point x="962" y="1400" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>fraction + space</string>
   </dict>
   </lib>
 </glyph>

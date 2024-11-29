@@ -4,14 +4,31 @@
   <unicode hex="041D"/>
   <anchor x="1038" y="1550" name="top"/>
   <anchor x="1038" y="-150" name="bottom"/>
-  <anchor x="80" y="700" name="left"/>
   <outline>
-    <component base="H"/>
+    <contour>
+      <point x="180" y="0" type="line"/>
+      <point x="752" y="0" type="line"/>
+      <point x="752" y="482" type="line"/>
+      <point x="1322" y="482" type="line"/>
+      <point x="1322" y="0" type="line"/>
+      <point x="1894" y="0" type="line"/>
+      <point x="1894" y="1400" type="line"/>
+      <point x="1322" y="1400" type="line"/>
+      <point x="1322" y="966" type="line"/>
+      <point x="752" y="966" type="line"/>
+      <point x="752" y="1400" type="line"/>
+      <point x="180" y="1400" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="1,0,0,1" x="1037" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=H</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=H</string>
+  <key>com.fontlab.recipe</key>
+  <string>=H</string>
   </dict>
   </lib>
 </glyph>

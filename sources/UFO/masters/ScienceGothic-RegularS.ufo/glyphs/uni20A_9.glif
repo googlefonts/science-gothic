@@ -1,20 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni20A9" format="2">
-  <advance width="1994" height="1448"/>
+  <advance width="1995"/>
   <unicode hex="20A9"/>
+  <anchor x="997.5" y="-150" name="bottom"/>
+  <anchor x="1150" y="1550" name="top"/>
   <outline>
-    <component base="W" xOffset="10"/>
     <contour>
       <point x="83" y="620" type="line"/>
       <point x="1923" y="620" type="line"/>
       <point x="1951" y="780" type="line"/>
       <point x="111" y="780" type="line"/>
     </contour>
+    <contour>
+      <point x="365" y="0" type="line"/>
+      <point x="568" y="0" type="line"/>
+      <point x="1030" y="901" type="line"/>
+      <point x="1190" y="0" type="line"/>
+      <point x="1387" y="0" type="line"/>
+      <point x="2111" y="1400" type="line"/>
+      <point x="1849" y="1400" type="line"/>
+      <point x="1381" y="476" type="line"/>
+      <point x="1217" y="1400" type="line"/>
+      <point x="1035" y="1400" type="line"/>
+      <point x="566" y="476" type="line"/>
+      <point x="432" y="1400" type="line"/>
+      <point x="137" y="1400" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.999,1,0.6,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=W+10</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=W+10</string>
+  <key>com.fontlab.recipe</key>
+  <string>=W+curr-double-crossbar-no-slant@center</string>
   </dict>
   </lib>
 </glyph>

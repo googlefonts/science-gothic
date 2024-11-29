@@ -7,13 +7,32 @@
   <anchor x="1336" y="0" name="ogonek_in"/>
   <anchor x="764" y="1476" name="topright"/>
   <outline>
-    <component base="A"/>
-    <component base="acutecomb.case" xOffset="1002" yOffset="376"/>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="588" y="0" type="line"/>
+      <point x="679" y="176" type="line"/>
+      <point x="1258" y="176" type="line"/>
+      <point x="1336" y="0" type="line"/>
+      <point x="2002" y="0" type="line"/>
+      <point x="1276" y="1400" type="line"/>
+      <point x="726" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="856" y="516" type="line"/>
+      <point x="991" y="776" type="line"/>
+      <point x="1107" y="516" type="line"/>
+    </contour>
+    <contour>
+      <point x="684" y="1476" type="line"/>
+      <point x="1204" y="1476" type="line"/>
+      <point x="1607" y="1776" type="line"/>
+      <point x="941" y="1776" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=A+acutecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

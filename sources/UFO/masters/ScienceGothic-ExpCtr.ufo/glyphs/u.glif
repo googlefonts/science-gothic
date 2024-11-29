@@ -8,31 +8,34 @@
   <anchor x="1892" y="1000" name="horn"/>
   <outline>
     <contour>
-      <point x="310" y="194" type="line"/>
-      <point x="310" y="1000" type="line"/>
-      <point x="558" y="1000" type="line"/>
-      <point x="558" y="22" type="line"/>
-      <point x="558" y="22"/>
-      <point x="558" y="22"/>
-      <point x="558" y="22" type="qcurve"/>
+      <point x="310" y="194" type="line" smooth="yes"/>
+      <point x="310" y="67.2272"/>
+      <point x="439.301" y="-10"/>
+      <point x="554" y="-10" type="qcurve" smooth="yes"/>
+      <point x="1646" y="-10" type="line" smooth="yes"/>
+      <point x="1760.7" y="-10"/>
+      <point x="1892" y="67.2272"/>
+      <point x="1892" y="194" type="qcurve" smooth="yes"/>
+      <point x="1892" y="1000" type="line"/>
+      <point x="1644" y="1000" type="line"/>
       <point x="1644" y="22" type="line"/>
       <point x="1644" y="22"/>
       <point x="1644" y="22"/>
       <point x="1644" y="22" type="qcurve"/>
-      <point x="1644" y="1000" type="line"/>
-      <point x="1892" y="1000" type="line"/>
-      <point x="1892" y="194" type="line" smooth="yes"/>
-      <point x="1892" y="131"/>
-      <point x="1858" y="52"/>
-      <point x="1794" y="7"/>
-      <point x="1703" y="-10"/>
-      <point x="1646" y="-10" type="qcurve" smooth="yes"/>
-      <point x="554" y="-10" type="line" smooth="yes"/>
-      <point x="497" y="-10"/>
-      <point x="407" y="7"/>
-      <point x="344" y="52"/>
-      <point x="310" y="131"/>
-      <point x="310" y="194" type="qcurve"/>
+      <point x="558" y="22" type="line"/>
+      <point x="558" y="22"/>
+      <point x="558" y="22"/>
+      <point x="558" y="22" type="qcurve"/>
+      <point x="558" y="1000" type="line"/>
+      <point x="310" y="1000" type="line"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=(o+l)/2</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=(o+l)/2</string>
+  </dict>
+  </lib>
 </glyph>

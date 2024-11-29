@@ -1,19 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni01EB" format="2">
-  <advance width="2526"/>
+  <advance width="2527"/>
   <unicode hex="01EB"/>
   <anchor x="1348" y="1174" name="top"/>
   <anchor x="1117" y="-150" name="bottom"/>
   <anchor x="2245" y="770" name="horn"/>
   <anchor x="1162" y="0" name="ogonek"/>
   <outline>
-    <component base="o"/>
-    <component base="uni0328" xOffset="1243"/>
+    <contour>
+      <point x="224" y="264" type="line" smooth="yes"/>
+      <point x="199.853" y="125.154"/>
+      <point x="322.516" y="0"/>
+      <point x="484" y="0" type="qcurve" smooth="yes"/>
+      <point x="1808" y="0" type="line" smooth="yes"/>
+      <point x="1970.99" y="0"/>
+      <point x="2135.85" y="125.154"/>
+      <point x="2160" y="264" type="qcurve" smooth="yes"/>
+      <point x="2248" y="770" type="line" smooth="yes"/>
+      <point x="2271.39" y="901.3"/>
+      <point x="2146.98" y="1024"/>
+      <point x="1987" y="1024" type="qcurve" smooth="yes"/>
+      <point x="663" y="1024" type="line" smooth="yes"/>
+      <point x="503.025" y="1024"/>
+      <point x="335.393" y="901.3"/>
+      <point x="312" y="770" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="708" y="32" type="qcurve"/>
+      <point x="875" y="992" type="line"/>
+      <point x="875" y="992"/>
+      <point x="875" y="992"/>
+      <point x="875" y="992" type="qcurve"/>
+      <point x="1763" y="992" type="line"/>
+      <point x="1763" y="992"/>
+      <point x="1763" y="992"/>
+      <point x="1763" y="992" type="qcurve"/>
+      <point x="1596" y="32" type="line"/>
+      <point x="1596" y="32"/>
+      <point x="1596" y="32"/>
+      <point x="1596" y="32" type="qcurve"/>
+      <point x="708" y="32" type="line"/>
+      <point x="708" y="32"/>
+      <point x="708" y="32"/>
+    </contour>
+    <contour>
+      <point x="1162" y="0" type="qcurve"/>
+      <point x="1124" y="0" type="line"/>
+      <point x="1074.95" y="-53.5766"/>
+      <point x="959.294" y="-182.178"/>
+      <point x="911" y="-235" type="qcurve"/>
+      <point x="895.153" y="-324.797"/>
+      <point x="1053.18" y="-428"/>
+      <point x="1179.82" y="-428" type="qcurve" smooth="yes"/>
+      <point x="1221.46" y="-428"/>
+      <point x="1300.2" y="-415.092"/>
+      <point x="1350" y="-400" type="qcurve"/>
+      <point x="1506" y="-154" type="line"/>
+      <point x="1449.4" y="-172.11"/>
+      <point x="1349.87" y="-190"/>
+      <point x="1303.33" y="-190" type="qcurve" smooth="yes"/>
+      <point x="1210.27" y="-190"/>
+      <point x="1105.9" y="-125.352"/>
+      <point x="1114.8" y="-74.1612" type="qcurve" smooth="yes"/>
+      <point x="1117.97" y="-55.9292"/>
+      <point x="1140.87" y="-19.6196"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=o+uni0328@ogonek</string>
   </dict>
   </lib>
 </glyph>

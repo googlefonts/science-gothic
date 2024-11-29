@@ -2,15 +2,18 @@
 <glyph name="grave" format="2">
   <advance width="863"/>
   <unicode hex="0060"/>
-  <anchor x="492" y="1174" name="_top"/>
-  <anchor x="727.649" y="1100" name="_topright"/>
   <outline>
-    <component base="gravecomb" xOffset="413"/>
+    <contour>
+      <point x="813" y="1100" type="line"/>
+      <point x="571" y="1448" type="line"/>
+      <point x="50" y="1448" type="line"/>
+      <point x="393" y="1100" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=gravecomb ^ 50, 50</string>
   </dict>
   </lib>
 </glyph>

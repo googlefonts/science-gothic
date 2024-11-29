@@ -4,24 +4,18 @@
   <anchor x="359" y="1210" name="top"/>
   <outline>
     <contour>
-      <point x="349" y="-8" type="line"/>
+      <point x="349" y="-8" type="qcurve" smooth="yes"/>
       <point x="369" y="-8" type="line" smooth="yes"/>
-      <point x="452" y="-8"/>
-      <point x="563" y="15"/>
-      <point x="629" y="66"/>
-      <point x="656" y="145"/>
+      <point x="535.5" y="-8"/>
+      <point x="656" y="89"/>
       <point x="656" y="200" type="qcurve" smooth="yes"/>
       <point x="656" y="860" type="line" smooth="yes"/>
-      <point x="656" y="916"/>
-      <point x="629" y="994"/>
-      <point x="563" y="1045"/>
-      <point x="452" y="1068"/>
+      <point x="656" y="971"/>
+      <point x="535.5" y="1068"/>
       <point x="369" y="1068" type="qcurve" smooth="yes"/>
       <point x="356" y="1068" type="line" smooth="yes"/>
-      <point x="273" y="1068"/>
-      <point x="162" y="1045"/>
-      <point x="96" y="994"/>
-      <point x="69" y="916"/>
+      <point x="189.5" y="1068"/>
+      <point x="69" y="971"/>
       <point x="69" y="860" type="qcurve" smooth="yes"/>
       <point x="69" y="764" type="line"/>
       <point x="319" y="728" type="line"/>
@@ -48,11 +42,18 @@
       <point x="312" y="356" type="line"/>
       <point x="62" y="316" type="line"/>
       <point x="62" y="200" type="line" smooth="yes"/>
-      <point x="62" y="145"/>
-      <point x="89" y="66"/>
-      <point x="155" y="15"/>
-      <point x="266" y="-8"/>
-      <point x="349" y="-8" type="qcurve"/>
+      <point x="62" y="89"/>
+      <point x="182.5" y="-8"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=rsb("c.sc")</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=o.sc</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0454.sc@~,</string>
+  </dict>
+  </lib>
 </glyph>

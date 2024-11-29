@@ -1,18 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Wgrave" format="2">
-  <advance width="874"/>
+  <advance width="875"/>
   <unicode hex="1E80"/>
   <anchor x="590" y="1550" name="top"/>
   <anchor x="321" y="-150" name="bottom"/>
-  <anchor x="620.822" y="1485" name="topright"/>
+  <anchor x="621" y="1485" name="topright"/>
   <outline>
-    <component base="W"/>
-    <component base="gravecomb.case" xOffset="511" yOffset="400"/>
+    <contour>
+      <point x="98" y="0" type="line"/>
+      <point x="128" y="0" type="line"/>
+      <point x="545" y="1287" type="line"/>
+      <point x="511" y="0" type="line"/>
+      <point x="545" y="0" type="line"/>
+      <point x="1001" y="1400" type="line"/>
+      <point x="960" y="1400" type="line"/>
+      <point x="550" y="127" type="line"/>
+      <point x="584" y="1400" type="line"/>
+      <point x="546" y="1400" type="line"/>
+      <point x="137" y="132" type="line"/>
+      <point x="167" y="1400" type="line"/>
+      <point x="127" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="657" y="1485" type="line"/>
+      <point x="502" y="1800" type="line"/>
+      <point x="458" y="1800" type="line"/>
+      <point x="618" y="1485" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=W+gravecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

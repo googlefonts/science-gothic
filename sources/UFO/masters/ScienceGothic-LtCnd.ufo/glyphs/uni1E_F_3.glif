@@ -5,13 +5,37 @@
   <anchor x="228" y="1150" name="top"/>
   <anchor x="297" y="-300" name="bottom"/>
   <outline>
-    <component base="y"/>
-    <component base="gravecomb" xOffset="228"/>
+    <contour>
+      <point x="7" y="-428" type="line"/>
+      <point x="36" y="-428" type="line" smooth="yes"/>
+      <point x="68.625" y="-428"/>
+      <point x="114.844" y="-415.156"/>
+      <point x="146.906" y="-384.594"/>
+      <point x="167.25" y="-333.875"/>
+      <point x="174" y="-296" type="qcurve" smooth="yes"/>
+      <point x="407" y="1000" type="line"/>
+      <point x="374" y="1000" type="line"/>
+      <point x="212" y="96" type="line"/>
+      <point x="50" y="1000" type="line"/>
+      <point x="14" y="1000" type="line"/>
+      <point x="194" y="0" type="line"/>
+      <point x="142" y="-291" type="line" smooth="yes"/>
+      <point x="131.436" y="-352.123"/>
+      <point x="86.5582" y="-396"/>
+      <point x="36" y="-396" type="qcurve" smooth="yes"/>
+      <point x="0" y="-396" type="line"/>
+    </contour>
+    <contour>
+      <point x="307" y="1085" type="line"/>
+      <point x="97" y="1400" type="line"/>
+      <point x="56" y="1400" type="line"/>
+      <point x="272" y="1085" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=y+gravecomb@top</string>
   </dict>
   </lib>
 </glyph>

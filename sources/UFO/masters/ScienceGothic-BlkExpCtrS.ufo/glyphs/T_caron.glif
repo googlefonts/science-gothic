@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tcaron" format="2">
-  <advance width="2680"/>
+  <advance width="2681"/>
   <unicode hex="0164"/>
   <anchor x="1552" y="1880" name="top"/>
   <anchor x="1197" y="-150" name="bottom"/>
+  <anchor x="760" y="1700" name="topright"/>
   <outline>
-    <component base="T"/>
-    <component base="uni030C.case" xOffset="1411" yOffset="400"/>
+    <contour>
+      <point x="937" y="0" type="line"/>
+      <point x="1509" y="0" type="line"/>
+      <point x="1747" y="1364" type="line"/>
+      <point x="2791" y="1364" type="line"/>
+      <point x="2797" y="1400" type="line"/>
+      <point x="137" y="1400" type="line"/>
+      <point x="131" y="1364" type="line"/>
+      <point x="1175" y="1364" type="line"/>
+    </contour>
+    <contour>
+      <point x="2292" y="1800" type="line"/>
+      <point x="2236" y="1800" type="line"/>
+      <point x="1795" y="1534" type="line"/>
+      <point x="1470" y="1800" type="line"/>
+      <point x="777" y="1800" type="line"/>
+      <point x="1211" y="1500" type="line"/>
+      <point x="1796" y="1500" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=T+uni030C.case@top</string>
   </dict>
   </lib>
 </glyph>

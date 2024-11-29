@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0232" format="2">
-  <advance width="774"/>
+  <advance width="775"/>
   <unicode hex="0232"/>
   <anchor x="646" y="1820" name="top"/>
-  <anchor x="301" y="-150" name="bottom"/>
+  <anchor x="244" y="-150" name="bottom"/>
   <outline>
-    <component base="Y"/>
-    <component base="uni0304.case" xOffset="512" yOffset="400"/>
+    <contour>
+      <point x="138" y="0" type="line"/>
+      <point x="402" y="0" type="line"/>
+      <point x="492" y="518" type="line"/>
+      <point x="911" y="1400" type="line"/>
+      <point x="647" y="1400" type="line"/>
+      <point x="425" y="856" type="line"/>
+      <point x="392" y="1400" type="line"/>
+      <point x="117" y="1400" type="line"/>
+      <point x="228" y="518" type="line"/>
+    </contour>
+    <contour>
+      <point x="426" y="1720" type="line"/>
+      <point x="396" y="1550" type="line"/>
+      <point x="810" y="1550" type="line"/>
+      <point x="840" y="1720" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="260.1" color="1,0,0,1" x="327" y="-0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=Y+uni0304.case@top</string>
   </dict>
   </lib>
 </glyph>

@@ -1,15 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dcroat.sc" format="2">
-  <advance width="2678"/>
-  <anchor x="1205" y="1550" name="top"/>
-  <anchor x="1205" y="-150" name="bottom"/>
+  <advance width="2679"/>
+  <anchor x="1205.55" y="1550" name="top"/>
+  <anchor x="1205.55" y="-150" name="bottom"/>
   <outline>
-    <component base="eth.sc"/>
+    <contour>
+      <point x="282" y="0" type="line"/>
+      <point x="1557" y="0" type="line" smooth="yes"/>
+      <point x="1700.25" y="0"/>
+      <point x="1962.91" y="55.9375"/>
+      <point x="2173.84" y="181.562"/>
+      <point x="2319.12" y="383.75"/>
+      <point x="2345" y="530" type="qcurve" smooth="yes"/>
+      <point x="2369" y="665.75"/>
+      <point x="2303" y="865.312"/>
+      <point x="2142.5" y="996.188"/>
+      <point x="1897.25" y="1060"/>
+      <point x="1742" y="1060" type="qcurve" smooth="yes"/>
+      <point x="467" y="1060" type="line"/>
+      <point x="378" y="551" type="line"/>
+      <point x="248" y="551" type="line"/>
+      <point x="242" y="518" type="line"/>
+      <point x="372" y="518" type="line"/>
+    </contour>
+    <contour>
+      <point x="538" y="33" type="line"/>
+      <point x="622" y="518" type="line"/>
+      <point x="1178" y="518" type="line"/>
+      <point x="1184" y="551" type="line"/>
+      <point x="628" y="551" type="line"/>
+      <point x="711" y="1027" type="line"/>
+      <point x="1699" y="1027" type="line" smooth="yes"/>
+      <point x="1811.12" y="1027"/>
+      <point x="1976.59" y="976.719"/>
+      <point x="2076.16" y="862.531"/>
+      <point x="2106.25" y="677.625"/>
+      <point x="2083" y="543" type="qcurve" smooth="yes"/>
+      <point x="2057.12" y="396"/>
+      <point x="1964.06" y="199.875"/>
+      <point x="1826.44" y="82.125"/>
+      <point x="1642.62" y="33"/>
+      <point x="1526" y="33" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=eth.sc</string>
   </dict>
   </lib>
 </glyph>

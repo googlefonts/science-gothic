@@ -1,16 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Dcroat" format="2">
-  <advance width="2668"/>
+  <advance width="2671"/>
   <unicode hex="0110"/>
-  <anchor x="1201" y="1550" name="top"/>
-  <anchor x="1201" y="-150" name="bottom"/>
+  <anchor x="1201.95" y="1550" name="top"/>
+  <anchor x="1201.95" y="-150" name="bottom"/>
   <outline>
-    <component base="Eth"/>
+    <contour>
+      <point x="233" y="0" type="line"/>
+      <point x="1476" y="0" type="line" smooth="yes"/>
+      <point x="1683.38" y="0"/>
+      <point x="2012.69" y="75.5938"/>
+      <point x="2255.31" y="242.656"/>
+      <point x="2410.62" y="509.125"/>
+      <point x="2444" y="700" type="qcurve" smooth="yes"/>
+      <point x="2477.75" y="893.875"/>
+      <point x="2414.62" y="1161.09"/>
+      <point x="2229.38" y="1326.66"/>
+      <point x="1926.25" y="1400"/>
+      <point x="1720" y="1400" type="qcurve" smooth="yes"/>
+      <point x="477" y="1400" type="line"/>
+      <point x="358" y="716" type="line"/>
+      <point x="210" y="716" type="line"/>
+      <point x="204" y="684" type="line"/>
+      <point x="352" y="684" type="line"/>
+    </contour>
+    <contour>
+      <point x="279" y="36" type="line"/>
+      <point x="392" y="684" type="line"/>
+      <point x="1167" y="684" type="line"/>
+      <point x="1173" y="716" type="line"/>
+      <point x="398" y="716" type="line"/>
+      <point x="511" y="1364" type="line"/>
+      <point x="1714" y="1364" type="line" smooth="yes"/>
+      <point x="1910.88" y="1364"/>
+      <point x="2200.53" y="1298.25"/>
+      <point x="2377.72" y="1145.25"/>
+      <point x="2438.25" y="894.25"/>
+      <point x="2406" y="709" type="qcurve" smooth="yes"/>
+      <point x="2374.5" y="527.5"/>
+      <point x="2227.78" y="271.812"/>
+      <point x="1996.97" y="110.188"/>
+      <point x="1681.88" y="36"/>
+      <point x="1482" y="36" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=Eth</string>
   </dict>
   </lib>
 </glyph>

@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nacute.sc" format="2">
-  <advance width="1579" height="1448"/>
-  <anchor x="880.049" y="1210" name="top"/>
-  <anchor x="643.049" y="-150" name="bottom"/>
+  <advance width="1579"/>
+  <anchor x="880" y="1210" name="top"/>
+  <anchor x="643" y="-150" name="bottom"/>
   <outline>
-    <component base="n.sc"/>
-    <component base="acutecomb" xOffset="805" yOffset="60"/>
+    <contour>
+      <point x="82" y="0" type="line"/>
+      <point x="317" y="0" type="line"/>
+      <point x="436" y="684" type="line"/>
+      <point x="1074" y="0" type="line"/>
+      <point x="1262" y="0" type="line"/>
+      <point x="1447" y="1060" type="line"/>
+      <point x="1212" y="1060" type="line"/>
+      <point x="1092" y="372" type="line"/>
+      <point x="455" y="1060" type="line"/>
+      <point x="267" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="642" y="1145" type="line"/>
+      <point x="887" y="1145" type="line"/>
+      <point x="1293" y="1508" type="line"/>
+      <point x="1018" y="1508" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=n.sc+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

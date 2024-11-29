@@ -5,13 +5,59 @@
   <anchor x="1941" y="1917" name="top"/>
   <anchor x="1941" y="-150" name="bottom"/>
   <outline>
-    <component base="uni0416"/>
-    <component base="uni0306.cyr" xOffset="1941" yOffset="400"/>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="478" y="0" type="line"/>
+      <point x="1668" y="630" type="line"/>
+      <point x="1668" y="0" type="line"/>
+      <point x="1932" y="0" type="line"/>
+      <point x="1932" y="630" type="line"/>
+      <point x="3122" y="0" type="line"/>
+      <point x="3600" y="0" type="line"/>
+      <point x="2081" y="807" type="line"/>
+      <point x="3392" y="1400" type="line"/>
+      <point x="3304" y="1400" type="line"/>
+      <point x="1932" y="780" type="line"/>
+      <point x="1932" y="1400" type="line"/>
+      <point x="1668" y="1400" type="line"/>
+      <point x="1668" y="780" type="line"/>
+      <point x="296" y="1400" type="line"/>
+      <point x="208" y="1400" type="line"/>
+      <point x="1519" y="807" type="line"/>
+    </contour>
+    <contour>
+      <point x="1561" y="1817" type="line"/>
+      <point x="1561" y="1723.25"/>
+      <point x="1604.38" y="1603.88"/>
+      <point x="1696.62" y="1535.62"/>
+      <point x="1840.5" y="1510"/>
+      <point x="1941" y="1510" type="qcurve" smooth="yes"/>
+      <point x="2041.12" y="1510"/>
+      <point x="2184.28" y="1535.62"/>
+      <point x="2275.97" y="1603.88"/>
+      <point x="2319" y="1723.25"/>
+      <point x="2319" y="1817" type="qcurve"/>
+      <point x="2161" y="1817" type="line"/>
+      <point x="2161" y="1721.38"/>
+      <point x="2136.69" y="1611.53"/>
+      <point x="2083.81" y="1556.22"/>
+      <point x="2000.25" y="1542"/>
+      <point x="1941" y="1542" type="qcurve" smooth="yes"/>
+      <point x="1880.62" y="1542"/>
+      <point x="1796.16" y="1556.22"/>
+      <point x="1743.09" y="1611.53"/>
+      <point x="1719" y="1721.38"/>
+      <point x="1719" y="1817" type="qcurve"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=uni0416</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=uni0416</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0416+brevecomb.cyr@top</string>
   </dict>
   </lib>
 </glyph>

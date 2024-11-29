@@ -3,12 +3,33 @@
   <advance width="2363"/>
   <anchor x="1274" y="-150" name="top"/>
   <outline>
-    <component base="uni0447.sc" xScale="-1" yScale="-1" xOffset="2529" yOffset="1060"/>
+    <contour>
+      <point x="650" y="1060" type="line"/>
+      <point x="400" y="1060" type="line"/>
+      <point x="400" y="0" type="line"/>
+      <point x="650" y="0" type="line"/>
+      <point x="650" y="649" type="line"/>
+      <point x="1899" y="649" type="line"/>
+      <point x="1899" y="649"/>
+      <point x="1899" y="649"/>
+      <point x="1899" y="649" type="qcurve"/>
+      <point x="1899" y="0" type="line"/>
+      <point x="2149" y="0" type="line"/>
+      <point x="2149" y="464" type="line" smooth="yes"/>
+      <point x="2149" y="598.25"/>
+      <point x="1993.25" y="682"/>
+      <point x="1868" y="682" type="qcurve" smooth="yes"/>
+      <point x="650" y="682" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=uni044C.sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=uni044C.sc</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0447.sc@~</string>
   </dict>
   </lib>
 </glyph>

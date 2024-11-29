@@ -1,16 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zdotaccent.sc" format="2">
   <advance width="1741"/>
-  <anchor x="871" y="1530" name="top"/>
+  <anchor x="870.5" y="1530" name="top"/>
   <anchor x="870.5" y="-150" name="bottom"/>
   <outline>
-    <component base="z.sc"/>
-    <component base="uni0307" xOffset="871" yOffset="60"/>
+    <contour>
+      <point x="60" y="0" type="line"/>
+      <point x="1666" y="0" type="line"/>
+      <point x="1666" y="227" type="line"/>
+      <point x="632" y="227" type="line"/>
+      <point x="1665" y="946" type="line"/>
+      <point x="1665" y="1060" type="line"/>
+      <point x="127" y="1060" type="line"/>
+      <point x="127" y="833" type="line"/>
+      <point x="1092" y="833" type="line"/>
+      <point x="60" y="114" type="line"/>
+    </contour>
+    <contour>
+      <point x="751" y="1362" type="qcurve" smooth="yes"/>
+      <point x="751" y="1300" type="line" smooth="yes"/>
+      <point x="751" y="1235.1"/>
+      <point x="774.595" y="1212"/>
+      <point x="841" y="1212" type="qcurve" smooth="yes"/>
+      <point x="901" y="1212" type="line" smooth="yes"/>
+      <point x="967.405" y="1212"/>
+      <point x="991" y="1235.1"/>
+      <point x="991" y="1300" type="qcurve" smooth="yes"/>
+      <point x="991" y="1362" type="line" smooth="yes"/>
+      <point x="991" y="1426.9"/>
+      <point x="967.405" y="1450"/>
+      <point x="901" y="1450" type="qcurve" smooth="yes"/>
+      <point x="841" y="1450" type="line" smooth="yes"/>
+      <point x="774.595" y="1450"/>
+      <point x="751" y="1426.9"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=z.sc+uni0307@top</string>
   </dict>
   </lib>
 </glyph>

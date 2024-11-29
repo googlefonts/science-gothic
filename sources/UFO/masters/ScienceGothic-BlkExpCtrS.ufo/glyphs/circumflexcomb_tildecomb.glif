@@ -1,10 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="circumflexcomb_tildecomb" format="2">
   <anchor x="28" y="1100" name="_top"/>
-  <anchor x="169" y="1598" name="_bottom"/>
-  <anchor x="854" y="1274" name="topright"/>
   <outline>
-    <component base="uni0302"/>
-    <component base="tildecomb" xOffset="79" yOffset="446"/>
+    <contour>
+      <point x="-640" y="1100" type="line"/>
+      <point x="-588" y="1100" type="line"/>
+      <point x="-120" y="1382" type="line"/>
+      <point x="248" y="1100" type="line"/>
+      <point x="845" y="1100" type="line"/>
+      <point x="401" y="1400" type="line"/>
+      <point x="-144" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="-396" y="1530" type="qcurve"/>
+      <point x="-367" y="1525" type="line"/>
+      <point x="-346.626" y="1580.84"/>
+      <point x="-292.767" y="1629"/>
+      <point x="-249" y="1629" type="qcurve" smooth="yes"/>
+      <point x="-202.5" y="1629"/>
+      <point x="-58.2812" y="1586.19"/>
+      <point x="106.531" y="1534.81"/>
+      <point x="276.625" y="1492"/>
+      <point x="349" y="1492" type="qcurve" smooth="yes"/>
+      <point x="472.754" y="1492"/>
+      <point x="641.951" y="1642.04"/>
+      <point x="691" y="1799" type="qcurve"/>
+      <point x="662" y="1804" type="line"/>
+      <point x="640.117" y="1743.63"/>
+      <point x="594.994" y="1700"/>
+      <point x="555" y="1700" type="qcurve" smooth="yes"/>
+      <point x="507.75" y="1700"/>
+      <point x="362.5" y="1742.81"/>
+      <point x="196" y="1794.19"/>
+      <point x="23" y="1837"/>
+      <point x="-52" y="1837" type="qcurve" smooth="yes"/>
+      <point x="-179.527" y="1837"/>
+      <point x="-348.46" y="1687.71"/>
+    </contour>
   </outline>
+  <guideline angle="90" x="-461" y="0"/>
+  <guideline angle="90" x="509" y="0"/>
+  <guideline angle="90" x="-431" y="0"/>
+  <guideline angle="90" x="479" y="0"/>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0302+tildecomb@top</string>
+  </dict>
+  </lib>
 </glyph>

@@ -6,13 +6,42 @@
   <anchor x="392" y="-168" name="bottom"/>
   <anchor x="836" y="1593" name="topright"/>
   <outline>
-    <component base="J"/>
-    <component base="uni0302.case" xOffset="580" yOffset="418"/>
+    <contour>
+      <point x="711" y="1400" type="line"/>
+      <point x="447" y="1400" type="line"/>
+      <point x="447" y="226" type="line"/>
+      <point x="447" y="226"/>
+      <point x="447" y="226"/>
+      <point x="447" y="226" type="qcurve"/>
+      <point x="297" y="226" type="line"/>
+      <point x="297" y="226"/>
+      <point x="297" y="226"/>
+      <point x="297" y="226" type="qcurve"/>
+      <point x="297" y="640" type="line"/>
+      <point x="33" y="592" type="line"/>
+      <point x="33" y="256" type="line" smooth="yes"/>
+      <point x="33" y="109"/>
+      <point x="176.5" y="-18"/>
+      <point x="367" y="-18" type="qcurve" smooth="yes"/>
+      <point x="379" y="-18" type="line" smooth="yes"/>
+      <point x="556" y="-18"/>
+      <point x="711" y="109"/>
+      <point x="711" y="256" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="333" y="1493" type="line"/>
+      <point x="534" y="1493" type="line"/>
+      <point x="577" y="1611" type="line"/>
+      <point x="620" y="1493" type="line"/>
+      <point x="836" y="1493" type="line"/>
+      <point x="674" y="1818" type="line"/>
+      <point x="495" y="1818" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=J+uni0302.case@top</string>
   </dict>
   </lib>
 </glyph>

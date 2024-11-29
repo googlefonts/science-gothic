@@ -2,12 +2,33 @@
 <glyph name="periodcentered.case" format="2">
   <advance width="415"/>
   <outline>
-    <component base="periodcentered" yOffset="100"/>
+    <contour>
+      <point x="65" y="652" type="line" smooth="yes"/>
+      <point x="65" y="563.712"/>
+      <point x="95.7118" y="533"/>
+      <point x="184" y="533" type="qcurve" smooth="yes"/>
+      <point x="230" y="533" type="line" smooth="yes"/>
+      <point x="317.75" y="533"/>
+      <point x="350" y="564.25"/>
+      <point x="350" y="652" type="qcurve" smooth="yes"/>
+      <point x="350" y="741" type="line" smooth="yes"/>
+      <point x="350" y="827.779"/>
+      <point x="318.288" y="858"/>
+      <point x="230" y="858" type="qcurve" smooth="yes"/>
+      <point x="184" y="858" type="line" smooth="yes"/>
+      <point x="96.25" y="858"/>
+      <point x="65" y="827.25"/>
+      <point x="65" y="741" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=periodcentered</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=periodcentered</string>
+  <key>com.fontlab.recipe</key>
+  <string>=periodcentered@,cap_dash_shift</string>
   </dict>
   </lib>
 </glyph>

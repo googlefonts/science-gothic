@@ -2,17 +2,21 @@
 <glyph name="circumflex" format="2">
   <advance width="535"/>
   <unicode hex="02C6"/>
-  <anchor x="268" y="1150" name="_top"/>
-  <anchor x="268" y="1550" name="_bottom"/>
-  <anchor x="485" y="1238" name="topright"/>
-  <anchor x="268" y="1500" name="top"/>
   <outline>
-    <component base="uni0302" xOffset="268"/>
+    <contour>
+      <point x="50" y="1075" type="line"/>
+      <point x="84" y="1075" type="line"/>
+      <point x="186" y="1355" type="line"/>
+      <point x="289" y="1075" type="line"/>
+      <point x="485" y="1075" type="line"/>
+      <point x="340" y="1400" type="line"/>
+      <point x="170" y="1400" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=uni0302 ^ 50, 50</string>
   </dict>
   </lib>
 </glyph>

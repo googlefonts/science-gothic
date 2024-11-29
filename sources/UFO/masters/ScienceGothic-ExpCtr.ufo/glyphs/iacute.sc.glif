@@ -5,13 +5,23 @@
   <anchor x="525" y="-150" name="bottom"/>
   <anchor x="442" y="0" name="ogonek"/>
   <outline>
-    <component base="i.sc"/>
-    <component base="acutecomb" xOffset="525" yOffset="60"/>
+    <contour>
+      <point x="400" y="0" type="line"/>
+      <point x="650" y="0" type="line"/>
+      <point x="650" y="1060" type="line"/>
+      <point x="400" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="338" y="1145" type="line"/>
+      <point x="395" y="1145" type="line"/>
+      <point x="1141" y="1508" type="line"/>
+      <point x="791" y="1508" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=i.sc+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

@@ -7,13 +7,51 @@
   <anchor x="799" y="0" name="ogonek"/>
   <anchor x="1203" y="1024" name="horn"/>
   <outline>
-    <component base="u"/>
-    <component base="uni0323" xOffset="633"/>
+    <contour>
+      <point x="63" y="204" type="line" smooth="yes"/>
+      <point x="63" y="77.2272"/>
+      <point x="192.301" y="0"/>
+      <point x="307" y="0" type="qcurve" smooth="yes"/>
+      <point x="957" y="0" type="line" smooth="yes"/>
+      <point x="1071.7" y="0"/>
+      <point x="1203" y="77.2272"/>
+      <point x="1203" y="204" type="qcurve" smooth="yes"/>
+      <point x="1203" y="1024" type="line"/>
+      <point x="679" y="1024" type="line"/>
+      <point x="679" y="412" type="line"/>
+      <point x="679" y="412"/>
+      <point x="679" y="412"/>
+      <point x="679" y="412" type="qcurve"/>
+      <point x="587" y="412" type="line"/>
+      <point x="587" y="412"/>
+      <point x="587" y="412"/>
+      <point x="587" y="412" type="qcurve"/>
+      <point x="587" y="1024" type="line"/>
+      <point x="63" y="1024" type="line"/>
+    </contour>
+    <contour>
+      <point x="437" y="-194" type="qcurve" smooth="yes"/>
+      <point x="437" y="-326" type="line" smooth="yes"/>
+      <point x="437" y="-405.988"/>
+      <point x="465.503" y="-434"/>
+      <point x="547" y="-434" type="qcurve" smooth="yes"/>
+      <point x="719" y="-434" type="line" smooth="yes"/>
+      <point x="800.497" y="-434"/>
+      <point x="829" y="-405.988"/>
+      <point x="829" y="-326" type="qcurve" smooth="yes"/>
+      <point x="829" y="-194" type="line" smooth="yes"/>
+      <point x="829" y="-114.012"/>
+      <point x="800.497" y="-86"/>
+      <point x="719" y="-86" type="qcurve" smooth="yes"/>
+      <point x="547" y="-86" type="line" smooth="yes"/>
+      <point x="465.503" y="-86"/>
+      <point x="437" y="-114.012"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=u+uni0323@bottom</string>
   </dict>
   </lib>
 </glyph>

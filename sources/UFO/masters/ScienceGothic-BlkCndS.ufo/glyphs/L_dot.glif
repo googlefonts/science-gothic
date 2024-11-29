@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ldot" format="2">
-  <advance width="1037"/>
+  <advance width="1036"/>
   <unicode hex="013F"/>
   <anchor x="517" y="1550" name="top"/>
   <anchor x="400" y="-150" name="bottom"/>
@@ -8,13 +8,37 @@
   <anchor x="746" y="1400" name="right"/>
   <anchor x="904" y="800" name="eldot"/>
   <outline>
-    <component base="L"/>
-    <component base="periodcentered.loclCAT.case" xOffset="953" yOffset="-475"/>
+    <contour>
+      <point x="-37" y="0" type="line"/>
+      <point x="895" y="0" type="line"/>
+      <point x="979" y="484" type="line"/>
+      <point x="619" y="484" type="line"/>
+      <point x="779" y="1400" type="line"/>
+      <point x="207" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="748" y="745" type="line" smooth="yes"/>
+      <point x="733.663" y="663.503"/>
+      <point x="757.503" y="635"/>
+      <point x="839" y="635" type="qcurve" smooth="yes"/>
+      <point x="911" y="635" type="line" smooth="yes"/>
+      <point x="992.497" y="635"/>
+      <point x="1025.66" y="663.503"/>
+      <point x="1040" y="745" type="qcurve" smooth="yes"/>
+      <point x="1059" y="857" type="line" smooth="yes"/>
+      <point x="1073.34" y="936.988"/>
+      <point x="1049.5" y="965"/>
+      <point x="968" y="965" type="qcurve" smooth="yes"/>
+      <point x="896" y="965" type="line" smooth="yes"/>
+      <point x="814.503" y="965"/>
+      <point x="781.337" y="936.988"/>
+      <point x="767" y="857" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>= L + periodcentered.loclCAT.case@eldot</string>
   </dict>
   </lib>
 </glyph>

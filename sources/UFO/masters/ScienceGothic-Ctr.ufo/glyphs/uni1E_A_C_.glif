@@ -7,14 +7,54 @@
   <anchor x="1270" y="0" name="ogonek_in"/>
   <anchor x="1203" y="1585" name="topright"/>
   <outline>
-    <component base="A"/>
-    <component base="uni0302.case" xOffset="792" yOffset="400"/>
-    <component base="uni0323.case" xOffset="792"/>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="42" y="0" type="line"/>
+      <point x="227" y="362" type="line"/>
+      <point x="1086" y="362" type="line"/>
+      <point x="1270" y="0" type="line"/>
+      <point x="1582" y="0" type="line"/>
+      <point x="852" y="1400" type="line"/>
+      <point x="716" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="245" y="398" type="line"/>
+      <point x="657" y="1203" type="line"/>
+      <point x="1067" y="398" type="line"/>
+    </contour>
+    <contour>
+      <point x="468" y="1485" type="line"/>
+      <point x="523" y="1485" type="line"/>
+      <point x="739" y="1723" type="line"/>
+      <point x="949" y="1485" type="line"/>
+      <point x="1203" y="1485" type="line"/>
+      <point x="901" y="1800" type="line"/>
+      <point x="760" y="1800" type="line"/>
+    </contour>
+    <contour>
+      <point x="665" y="-254" type="line" smooth="yes"/>
+      <point x="665" y="-324.932"/>
+      <point x="689.822" y="-350"/>
+      <point x="760" y="-350" type="qcurve" smooth="yes"/>
+      <point x="824" y="-350" type="line" smooth="yes"/>
+      <point x="894.178" y="-350"/>
+      <point x="919" y="-324.932"/>
+      <point x="919" y="-254" type="qcurve" smooth="yes"/>
+      <point x="919" y="-188" type="line" smooth="yes"/>
+      <point x="919" y="-117.822"/>
+      <point x="894.178" y="-93"/>
+      <point x="824" y="-93" type="qcurve" smooth="yes"/>
+      <point x="760" y="-93" type="line" smooth="yes"/>
+      <point x="689.822" y="-93"/>
+      <point x="665" y="-117.822"/>
+      <point x="665" y="-188" type="qcurve" smooth="yes"/>
+    </contour>
   </outline>
+  <guideline angle="0" x="0" y="-100"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=A+uni0302.case@top+uni0323.case@A:bottom</string>
   </dict>
   </lib>
 </glyph>

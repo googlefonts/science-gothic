@@ -2,12 +2,18 @@
 <glyph name="hyphen.case" format="2">
   <advance width="1001"/>
   <outline>
-    <component base="hyphen" xOffset="-16" yOffset="88"/>
+    <contour>
+      <point x="133" y="906" type="line"/>
+      <point x="61" y="494" type="line"/>
+      <point x="811" y="494" type="line"/>
+      <point x="883" y="906" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="0" x="0" y="700"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=hyphen@,cap_dash_shift</string>
   </dict>
   </lib>
 </glyph>

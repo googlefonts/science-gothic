@@ -2,15 +2,51 @@
 <glyph name="ntilde.sc" format="2">
   <advance width="1325"/>
   <anchor x="828" y="1633" name="top"/>
-  <anchor x="515.633" y="-150" name="bottom"/>
+  <anchor x="516" y="-150" name="bottom"/>
   <outline>
-    <component base="n.sc"/>
-    <component base="tildecomb" xOffset="682" yOffset="86"/>
+    <contour>
+      <point x="-38" y="0" type="line"/>
+      <point x="464" y="0" type="line"/>
+      <point x="522" y="332" type="line"/>
+      <point x="781" y="0" type="line"/>
+      <point x="1128" y="0" type="line"/>
+      <point x="1318" y="1086" type="line"/>
+      <point x="816" y="1086" type="line"/>
+      <point x="757" y="751" type="line"/>
+      <point x="497" y="1086" type="line"/>
+      <point x="152" y="1086" type="line"/>
+    </contour>
+    <contour>
+      <point x="293" y="1211" type="qcurve"/>
+      <point x="572" y="1163" type="line"/>
+      <point x="580.301" y="1182.62"/>
+      <point x="621.233" y="1214"/>
+      <point x="665" y="1214" type="qcurve" smooth="yes"/>
+      <point x="694.625" y="1214"/>
+      <point x="753.812" y="1198.06"/>
+      <point x="818.688" y="1178.94"/>
+      <point x="892.125" y="1163"/>
+      <point x="936" y="1163" type="qcurve" smooth="yes"/>
+      <point x="1054.5" y="1163"/>
+      <point x="1216" y="1335.25"/>
+      <point x="1261" y="1480" type="qcurve"/>
+      <point x="982" y="1528" type="line"/>
+      <point x="973.699" y="1508.38"/>
+      <point x="932.767" y="1477"/>
+      <point x="889" y="1477" type="qcurve" smooth="yes"/>
+      <point x="859.375" y="1477"/>
+      <point x="800.469" y="1492.94"/>
+      <point x="735.781" y="1512.06"/>
+      <point x="662.25" y="1528"/>
+      <point x="618" y="1528" type="qcurve" smooth="yes"/>
+      <point x="499.5" y="1528"/>
+      <point x="340.25" y="1367.75"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=n.sc+tildecomb@top</string>
   </dict>
   </lib>
 </glyph>

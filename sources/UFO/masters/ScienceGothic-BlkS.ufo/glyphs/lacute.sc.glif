@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lacute.sc" format="2">
-  <advance width="1323"/>
-  <anchor x="536" y="1210" name="top"/>
-  <anchor x="581" y="-150" name="bottom"/>
-  <anchor x="122" y="700" name="left"/>
-  <anchor x="897" y="1086" name="right"/>
-  <anchor x="1103" y="660" name="eldot"/>
+  <advance width="1236"/>
+  <anchor x="448" y="1210" name="top"/>
+  <anchor x="493" y="-150" name="bottom"/>
+  <anchor x="34" y="700" name="left"/>
+  <anchor x="809" y="1086" name="right"/>
+  <anchor x="1015" y="660" name="eldot"/>
   <outline>
-    <component base="l.sc"/>
-    <component base="acutecomb" xOffset="457" yOffset="36"/>
+    <contour>
+      <point x="60" y="0" type="line"/>
+      <point x="1155" y="0" type="line"/>
+      <point x="1232" y="440" type="line"/>
+      <point x="668" y="440" type="line"/>
+      <point x="781" y="1086" type="line"/>
+      <point x="250" y="1086" type="line"/>
+    </contour>
+    <contour>
+      <point x="102" y="1136" type="line"/>
+      <point x="602" y="1136" type="line"/>
+      <point x="1067" y="1484" type="line"/>
+      <point x="466" y="1484" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=l.sc+acutecomb@top</string>
   </dict>
   </lib>
 </glyph>

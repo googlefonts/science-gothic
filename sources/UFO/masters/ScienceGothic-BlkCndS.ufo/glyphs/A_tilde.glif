@@ -6,13 +6,56 @@
   <anchor x="579" y="-150" name="bottom"/>
   <anchor x="763" y="0" name="ogonek_in"/>
   <outline>
-    <component base="A"/>
-    <component base="tildecomb.case" xOffset="804" yOffset="400"/>
+    <contour>
+      <point x="-130" y="0" type="line"/>
+      <point x="445" y="0" type="line"/>
+      <point x="479" y="84" type="line"/>
+      <point x="759" y="84" type="line"/>
+      <point x="763" y="0" type="line"/>
+      <point x="1341" y="0" type="line"/>
+      <point x="1144" y="1400" type="line"/>
+      <point x="554" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="624" y="444" type="line"/>
+      <point x="727" y="699" type="line"/>
+      <point x="740" y="444" type="line"/>
+    </contour>
+    <contour>
+      <point x="392" y="1528" type="qcurve"/>
+      <point x="690" y="1477" type="line"/>
+      <point x="697.546" y="1497.37"/>
+      <point x="736.779" y="1528"/>
+      <point x="773" y="1528" type="qcurve" smooth="yes"/>
+      <point x="810.125" y="1528"/>
+      <point x="871.219" y="1512.06"/>
+      <point x="932.531" y="1492.94"/>
+      <point x="1000.75" y="1477"/>
+      <point x="1045" y="1477" type="qcurve" smooth="yes"/>
+      <point x="1111.75" y="1477"/>
+      <point x="1224.38" y="1533.66"/>
+      <point x="1315.12" y="1630.59"/>
+      <point x="1383.5" y="1759.62"/>
+      <point x="1406" y="1832" type="qcurve"/>
+      <point x="1108" y="1883" type="line"/>
+      <point x="1100.45" y="1862.63"/>
+      <point x="1061.22" y="1832"/>
+      <point x="1025" y="1832" type="qcurve" smooth="yes"/>
+      <point x="987.875" y="1832"/>
+      <point x="926.781" y="1847.94"/>
+      <point x="865.469" y="1867.06"/>
+      <point x="797.25" y="1883"/>
+      <point x="753" y="1883" type="qcurve" smooth="yes"/>
+      <point x="686.25" y="1883"/>
+      <point x="574.469" y="1830.84"/>
+      <point x="484.281" y="1736.91"/>
+      <point x="415.625" y="1606.38"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=A+tildecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

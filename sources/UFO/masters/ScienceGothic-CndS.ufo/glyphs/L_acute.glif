@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lacute" format="2">
-  <advance width="657"/>
+  <advance width="656"/>
   <unicode hex="0139"/>
   <anchor x="355" y="1550" name="top"/>
   <anchor x="216" y="-150" name="bottom"/>
@@ -9,13 +9,25 @@
   <anchor x="535" y="700" name="eldot"/>
   <anchor x="245" y="1475" name="topright"/>
   <outline>
-    <component base="L"/>
-    <component base="acutecomb.case" xOffset="276" yOffset="400"/>
+    <contour>
+      <point x="-45" y="0" type="line"/>
+      <point x="535" y="0" type="line"/>
+      <point x="578" y="244" type="line"/>
+      <point x="262" y="244" type="line"/>
+      <point x="463" y="1400" type="line"/>
+      <point x="199" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="171" y="1475" type="line"/>
+      <point x="418" y="1475" type="line"/>
+      <point x="713" y="1800" type="line"/>
+      <point x="441" y="1800" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=L+acutecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

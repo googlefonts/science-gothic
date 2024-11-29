@@ -3,16 +3,31 @@
   <advance width="2218"/>
   <unicode hex="1EF2"/>
   <anchor x="1109" y="1550" name="top"/>
-  <anchor x="1109" y="-150" name="bottom"/>
+  <anchor x="1111" y="-150" name="bottom"/>
   <anchor x="1259" y="1485" name="topright"/>
   <outline>
-    <component base="Y"/>
-    <component base="gravecomb.case" xOffset="942" yOffset="400"/>
+    <contour>
+      <point x="1091" y="0" type="line"/>
+      <point x="1131" y="0" type="line"/>
+      <point x="1131" y="644" type="line"/>
+      <point x="2218" y="1400" type="line"/>
+      <point x="2155" y="1400" type="line"/>
+      <point x="1114" y="676" type="line"/>
+      <point x="71" y="1400" type="line"/>
+      <point x="0" y="1400" type="line"/>
+      <point x="1091" y="644" type="line"/>
+    </contour>
+    <contour>
+      <point x="1289" y="1485" type="line"/>
+      <point x="831" y="1800" type="line"/>
+      <point x="762" y="1800" type="line"/>
+      <point x="1231" y="1485" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=Y+gravecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

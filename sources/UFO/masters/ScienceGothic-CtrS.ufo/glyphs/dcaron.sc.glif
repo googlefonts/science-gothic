@@ -1,16 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dcaron.sc" format="2">
-  <advance width="1589"/>
+  <advance width="1590"/>
   <anchor x="904" y="1608" name="top"/>
   <anchor x="595" y="-150" name="bottom"/>
+  <anchor x="473" y="1326" name="topright"/>
   <outline>
-    <component base="d.sc"/>
-    <component base="uni030C" xOffset="751" yOffset="60"/>
+    <contour>
+      <point x="358" y="33" type="line"/>
+      <point x="531" y="1027" type="line"/>
+      <point x="893" y="1027" type="line" smooth="yes"/>
+      <point x="974" y="1027"/>
+      <point x="1090.41" y="975.812"/>
+      <point x="1155.84" y="860.688"/>
+      <point x="1167.62" y="675.25"/>
+      <point x="1144" y="541" type="qcurve" smooth="yes"/>
+      <point x="1119.62" y="400.75"/>
+      <point x="1042.91" y="206.938"/>
+      <point x="937.344" y="86.5625"/>
+      <point x="802.5" y="33"/>
+      <point x="720" y="33" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="102" y="0" type="line"/>
+      <point x="756" y="0" type="line" smooth="yes"/>
+      <point x="868.125" y="0"/>
+      <point x="1079.19" y="52.5"/>
+      <point x="1252.81" y="172.5"/>
+      <point x="1376.88" y="367.5"/>
+      <point x="1402" y="510" type="qcurve" smooth="yes"/>
+      <point x="1425.25" y="643.875"/>
+      <point x="1366.53" y="849.219"/>
+      <point x="1231.72" y="988.531"/>
+      <point x="1035.38" y="1060"/>
+      <point x="921" y="1060" type="qcurve" smooth="yes"/>
+      <point x="287" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="1247" y="1508" type="line"/>
+      <point x="1201" y="1508" type="line"/>
+      <point x="904" y="1198" type="line"/>
+      <point x="729" y="1508" type="line"/>
+      <point x="505" y="1508" type="line"/>
+      <point x="748" y="1145" type="line"/>
+      <point x="896" y="1145" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=d.sc+uni030C@top</string>
   </dict>
   </lib>
 </glyph>

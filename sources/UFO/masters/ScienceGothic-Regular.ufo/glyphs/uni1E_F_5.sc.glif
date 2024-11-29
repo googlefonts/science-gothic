@@ -1,16 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1EF5.sc" format="2">
-  <advance width="1293" height="1448"/>
+  <advance width="1293"/>
   <anchor x="669" y="1210" name="top"/>
   <anchor x="659" y="-150" name="bottom"/>
   <outline>
-    <component base="y.sc"/>
-    <component base="uni0323" xOffset="659"/>
+    <contour>
+      <point x="534" y="0" type="line"/>
+      <point x="784" y="0" type="line"/>
+      <point x="784" y="460" type="line"/>
+      <point x="1293" y="1060" type="line"/>
+      <point x="982" y="1060" type="line"/>
+      <point x="669" y="688" type="line"/>
+      <point x="360" y="1060" type="line"/>
+      <point x="0" y="1060" type="line"/>
+      <point x="534" y="459" type="line"/>
+    </contour>
+    <contour>
+      <point x="539" y="-190" type="qcurve" smooth="yes"/>
+      <point x="539" y="-252" type="line" smooth="yes"/>
+      <point x="539" y="-316.896"/>
+      <point x="562.595" y="-340"/>
+      <point x="629" y="-340" type="qcurve" smooth="yes"/>
+      <point x="689" y="-340" type="line" smooth="yes"/>
+      <point x="755.405" y="-340"/>
+      <point x="779" y="-316.896"/>
+      <point x="779" y="-252" type="qcurve" smooth="yes"/>
+      <point x="779" y="-190" type="line" smooth="yes"/>
+      <point x="779" y="-125.104"/>
+      <point x="755.405" y="-102"/>
+      <point x="689" y="-102" type="qcurve" smooth="yes"/>
+      <point x="629" y="-102" type="line" smooth="yes"/>
+      <point x="562.595" y="-102"/>
+      <point x="539" y="-125.104"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="1,0,0,1" x="646.5" y="0"/>
+  <guideline angle="0" x="0" y="-100"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=y.sc+uni0323@bottom</string>
   </dict>
   </lib>
 </glyph>

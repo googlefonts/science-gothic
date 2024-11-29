@@ -3,15 +3,34 @@
   <advance width="423"/>
   <anchor x="302" y="1210" name="top"/>
   <anchor x="65" y="-150" name="bottom"/>
-  <anchor x="301" y="0" name="ogonek"/>
+  <anchor x="303" y="0" name="ogonek"/>
   <outline>
-    <component base="a.sc"/>
-    <component base="gravecomb" xOffset="223" yOffset="60"/>
+    <contour>
+      <point x="-120" y="0" type="line"/>
+      <point x="-83" y="0" type="line"/>
+      <point x="262" y="978" type="line"/>
+      <point x="266" y="0" type="line"/>
+      <point x="303" y="0" type="line"/>
+      <point x="295" y="1060" type="line"/>
+      <point x="256" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="-5" y="244" type="line"/>
+      <point x="271" y="244" type="line"/>
+      <point x="271" y="277" type="line"/>
+      <point x="7" y="277" type="line"/>
+    </contour>
+    <contour>
+      <point x="367" y="1145" type="line"/>
+      <point x="215" y="1460" type="line"/>
+      <point x="175" y="1460" type="line"/>
+      <point x="335" y="1145" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=a.sc+gravecomb@top</string>
   </dict>
   </lib>
 </glyph>

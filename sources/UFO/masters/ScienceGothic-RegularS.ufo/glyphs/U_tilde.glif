@@ -1,19 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Utilde" format="2">
-  <advance width="1695" height="1448"/>
+  <advance width="1696"/>
   <unicode hex="0168"/>
   <anchor x="1054" y="1860" name="top"/>
   <anchor x="702" y="-150" name="bottom"/>
   <anchor x="826" y="0" name="ogonek"/>
   <anchor x="1635" y="1400" name="horn"/>
   <outline>
-    <component base="U"/>
-    <component base="tildecomb.case" xOffset="919" yOffset="400"/>
+    <contour>
+      <point x="312" y="1400" type="line"/>
+      <point x="115" y="272" type="line" smooth="yes"/>
+      <point x="99.625" y="183.5"/>
+      <point x="127.719" y="72"/>
+      <point x="205.531" y="9"/>
+      <point x="328.5" y="-14"/>
+      <point x="408" y="-14" type="qcurve" smooth="yes"/>
+      <point x="1048" y="-14" type="line" smooth="yes"/>
+      <point x="1208.5" y="-14"/>
+      <point x="1410.25" y="95"/>
+      <point x="1441" y="272" type="qcurve" smooth="yes"/>
+      <point x="1638" y="1400" type="line"/>
+      <point x="1374" y="1400" type="line"/>
+      <point x="1172" y="240" type="line"/>
+      <point x="1172" y="240"/>
+      <point x="1172" y="240"/>
+      <point x="1172" y="240" type="qcurve"/>
+      <point x="374" y="240" type="line"/>
+      <point x="374" y="240"/>
+      <point x="374" y="240"/>
+      <point x="374" y="240" type="qcurve"/>
+      <point x="576" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="591" y="1550" type="qcurve"/>
+      <point x="754" y="1521" type="line"/>
+      <point x="773.62" y="1573.82"/>
+      <point x="832.325" y="1599"/>
+      <point x="861" y="1599" type="qcurve" smooth="yes"/>
+      <point x="891.75" y="1599"/>
+      <point x="955.156" y="1574.31"/>
+      <point x="1025.09" y="1544.69"/>
+      <point x="1103.88" y="1520"/>
+      <point x="1150" y="1520" type="qcurve" smooth="yes"/>
+      <point x="1187.88" y="1520"/>
+      <point x="1269.53" y="1540.75"/>
+      <point x="1347.72" y="1594.75"/>
+      <point x="1417.75" y="1688.25"/>
+      <point x="1444" y="1761" type="qcurve"/>
+      <point x="1282" y="1790" type="line"/>
+      <point x="1261.63" y="1737.18"/>
+      <point x="1203.67" y="1711"/>
+      <point x="1175" y="1711" type="qcurve" smooth="yes"/>
+      <point x="1144.25" y="1711"/>
+      <point x="1080.84" y="1735.69"/>
+      <point x="1010.91" y="1765.31"/>
+      <point x="932.125" y="1790"/>
+      <point x="886" y="1790" type="qcurve" smooth="yes"/>
+      <point x="848.125" y="1790"/>
+      <point x="765.875" y="1769"/>
+      <point x="687.125" y="1715"/>
+      <point x="616.875" y="1622"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=U+tildecomb.case@top</string>
   </dict>
   </lib>
 </glyph>

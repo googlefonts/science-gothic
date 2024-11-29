@@ -1,17 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aringacute.sc" format="2">
   <advance width="2391"/>
-  <anchor x="1196" y="1654" name="top"/>
+  <anchor x="1196" y="1210" name="top"/>
   <anchor x="1116" y="-150" name="bottom"/>
   <anchor x="1684" y="0" name="ogonek"/>
   <outline>
-    <component base="aring.sc"/>
-    <component base="acutecomb" xOffset="1196" yOffset="504"/>
+    <contour>
+      <point x="6" y="0" type="line"/>
+      <point x="51" y="0" type="line"/>
+      <point x="881" y="845" type="line"/>
+      <point x="1646" y="0" type="line"/>
+      <point x="2385" y="0" type="line"/>
+      <point x="1324" y="1086" type="line"/>
+      <point x="1073" y="1086" type="line"/>
+    </contour>
+    <contour>
+      <point x="274" y="262" type="line"/>
+      <point x="1450" y="262" type="line"/>
+      <point x="1414" y="290" type="line"/>
+      <point x="308" y="290" type="line"/>
+    </contour>
+    <contour>
+      <point x="892" y="1291" type="qcurve" smooth="yes"/>
+      <point x="892" y="1239.62"/>
+      <point x="912.75" y="1177.41"/>
+      <point x="977.25" y="1143.84"/>
+      <point x="1097" y="1133"/>
+      <point x="1196" y="1133" type="qcurve" smooth="yes"/>
+      <point x="1295" y="1133"/>
+      <point x="1414.75" y="1143.84"/>
+      <point x="1479.25" y="1177.41"/>
+      <point x="1500" y="1239.62"/>
+      <point x="1500" y="1291" type="qcurve" smooth="yes"/>
+      <point x="1500" y="1342.38"/>
+      <point x="1479.25" y="1404.59"/>
+      <point x="1414.75" y="1438.16"/>
+      <point x="1295" y="1449"/>
+      <point x="1196" y="1449" type="qcurve" smooth="yes"/>
+      <point x="1097" y="1449"/>
+      <point x="977.25" y="1438.16"/>
+      <point x="912.75" y="1404.59"/>
+      <point x="892" y="1342.38"/>
+    </contour>
+    <contour>
+      <point x="1106" y="1291" type="qcurve" smooth="yes"/>
+      <point x="1106" y="1375.52"/>
+      <point x="1137.14" y="1421"/>
+      <point x="1196" y="1421" type="qcurve" smooth="yes"/>
+      <point x="1254.86" y="1421"/>
+      <point x="1286" y="1375.52"/>
+      <point x="1286" y="1291" type="qcurve" smooth="yes"/>
+      <point x="1286" y="1206.48"/>
+      <point x="1254.86" y="1161"/>
+      <point x="1196" y="1161" type="qcurve" smooth="yes"/>
+      <point x="1137.14" y="1161"/>
+      <point x="1106" y="1206.48"/>
+    </contour>
+    <contour>
+      <point x="1221" y="1509" type="line"/>
+      <point x="1751" y="1735" type="line"/>
+      <point x="1251" y="1735" type="line"/>
+      <point x="1171" y="1509" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=a.sc + ring_acute@top</string>
   </dict>
   </lib>
 </glyph>

@@ -3,14 +3,55 @@
   <advance width="1411"/>
   <anchor x="705.5" y="-150" name="bottom"/>
   <anchor x="710" y="1608" name="top"/>
+  <anchor x="322" y="1326" name="topright"/>
   <outline>
-    <component base="r.sc"/>
-    <component base="uni030C" xOffset="710" yOffset="60"/>
+    <contour>
+      <point x="220" y="0" type="line"/>
+      <point x="468" y="0" type="line"/>
+      <point x="468" y="479" type="line"/>
+      <point x="571" y="479" type="line"/>
+      <point x="1001" y="0" type="line"/>
+      <point x="1341" y="0" type="line"/>
+      <point x="904" y="479" type="line"/>
+      <point x="983" y="479" type="line" smooth="yes"/>
+      <point x="1106" y="479"/>
+      <point x="1267" y="586.319"/>
+      <point x="1267" y="698" type="qcurve" smooth="yes"/>
+      <point x="1267" y="841" type="line" smooth="yes"/>
+      <point x="1267" y="896.5"/>
+      <point x="1224.09" y="978.812"/>
+      <point x="1148.16" y="1033.19"/>
+      <point x="1044.12" y="1060"/>
+      <point x="983" y="1060" type="qcurve" smooth="yes"/>
+      <point x="220" y="1060" type="line"/>
+    </contour>
+    <contour>
+      <point x="468" y="512" type="line"/>
+      <point x="468" y="1027" type="line"/>
+      <point x="837" y="1027" type="line" smooth="yes"/>
+      <point x="926.797" y="1027"/>
+      <point x="1019" y="935.307"/>
+      <point x="1019" y="844" type="qcurve" smooth="yes"/>
+      <point x="1019" y="695" type="line" smooth="yes"/>
+      <point x="1019" y="604.448"/>
+      <point x="926.797" y="512"/>
+      <point x="837" y="512" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1064" y="1508" type="line"/>
+      <point x="1022" y="1508" type="line"/>
+      <point x="779" y="1198" type="line"/>
+      <point x="550" y="1508" type="line"/>
+      <point x="322" y="1508" type="line"/>
+      <point x="629" y="1145" type="line"/>
+      <point x="777" y="1145" type="line"/>
+    </contour>
   </outline>
+  <guideline angle="90" color="0.4,0.4,0.4,1" name="halfwidth" x="705.5" y="0"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=r.sc+uni030C@top</string>
   </dict>
   </lib>
 </glyph>

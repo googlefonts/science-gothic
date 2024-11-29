@@ -6,13 +6,54 @@
   <anchor x="526" y="1174" name="top"/>
   <anchor x="93" y="0" name="ogonek"/>
   <outline>
-    <component base="i"/>
-    <component base="uni0323" xOffset="442"/>
+    <contour>
+      <point x="76" y="0" type="line"/>
+      <point x="600" y="0" type="line"/>
+      <point x="779" y="1024" type="line"/>
+      <point x="255" y="1024" type="line"/>
+    </contour>
+    <contour>
+      <point x="278" y="1232" type="line" smooth="yes"/>
+      <point x="263.663" y="1150.5"/>
+      <point x="287.503" y="1122"/>
+      <point x="369" y="1122" type="qcurve" smooth="yes"/>
+      <point x="701" y="1122" type="line" smooth="yes"/>
+      <point x="782.497" y="1122"/>
+      <point x="815.663" y="1150.5"/>
+      <point x="830" y="1232" type="qcurve" smooth="yes"/>
+      <point x="853" y="1364" type="line" smooth="yes"/>
+      <point x="867.337" y="1443.99"/>
+      <point x="843.497" y="1472"/>
+      <point x="762" y="1472" type="qcurve" smooth="yes"/>
+      <point x="430" y="1472" type="line" smooth="yes"/>
+      <point x="348.503" y="1472"/>
+      <point x="315.337" y="1443.99"/>
+      <point x="301" y="1364" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="83" y="-199" type="qcurve" smooth="yes"/>
+      <point x="59" y="-331" type="line" smooth="yes"/>
+      <point x="45.4172" y="-410.988"/>
+      <point x="68.5032" y="-439"/>
+      <point x="150" y="-439" type="qcurve" smooth="yes"/>
+      <point x="322" y="-439" type="line" smooth="yes"/>
+      <point x="403.497" y="-439"/>
+      <point x="437.417" y="-410.988"/>
+      <point x="451" y="-331" type="qcurve" smooth="yes"/>
+      <point x="475" y="-199" type="line" smooth="yes"/>
+      <point x="488.583" y="-119.012"/>
+      <point x="465.497" y="-91"/>
+      <point x="384" y="-91" type="qcurve" smooth="yes"/>
+      <point x="212" y="-91" type="line" smooth="yes"/>
+      <point x="130.503" y="-91"/>
+      <point x="96.5828" y="-119.012"/>
+    </contour>
   </outline>
+  <guideline angle="0" x="0" y="-100"/>
   <lib>
   <dict>
-  <key>public.markColor</key>
-  <string>0.6,0.803,1,0</string>
+  <key>com.fontlab.recipe</key>
+  <string>=i+uni0323@bottom</string>
   </dict>
   </lib>
 </glyph>
