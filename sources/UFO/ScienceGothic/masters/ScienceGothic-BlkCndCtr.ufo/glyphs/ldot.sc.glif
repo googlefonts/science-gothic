@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ldot.sc" format="2">
+  <advance width="943"/>
+  <anchor x="346" y="1210" name="top"/>
+  <anchor x="493" y="-150" name="bottom"/>
+  <anchor x="6" y="700" name="left"/>
+  <anchor x="611" y="1086" name="right"/>
+  <anchor x="807" y="560" name="eldot"/>
+  <outline>
+    <contour>
+      <point x="80" y="0" type="line"/>
+      <point x="905" y="0" type="line"/>
+      <point x="905" y="33" type="line"/>
+      <point x="611" y="33" type="line"/>
+      <point x="611" y="1086" type="line"/>
+      <point x="80" y="1086" type="line"/>
+    </contour>
+    <contour>
+      <point x="681" y="515" type="line" smooth="yes"/>
+      <point x="681" y="433.503"/>
+      <point x="709.503" y="405"/>
+      <point x="791" y="405" type="qcurve" smooth="yes"/>
+      <point x="823" y="405" type="line" smooth="yes"/>
+      <point x="904.497" y="405"/>
+      <point x="933" y="433.503"/>
+      <point x="933" y="515" type="qcurve" smooth="yes"/>
+      <point x="933" y="607" type="line" smooth="yes"/>
+      <point x="933" y="686.988"/>
+      <point x="904.497" y="715"/>
+      <point x="823" y="715" type="qcurve" smooth="yes"/>
+      <point x="791" y="715" type="line" smooth="yes"/>
+      <point x="709.503" y="715"/>
+      <point x="681" y="686.988"/>
+      <point x="681" y="607" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=l.sc</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=l.sc</string>
+  <key>com.fontlab.recipe</key>
+  <string>= l.sc + periodcentered.sc@eldot</string>
+  </dict>
+  </lib>
+</glyph>

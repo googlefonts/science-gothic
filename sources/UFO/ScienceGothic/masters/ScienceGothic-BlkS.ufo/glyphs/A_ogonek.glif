@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Aogonek" format="2">
+  <advance width="2002"/>
+  <unicode hex="0104"/>
+  <anchor x="1153" y="1550" name="top"/>
+  <anchor x="856" y="-150" name="bottom"/>
+  <anchor x="1256" y="0" name="ogonek_in"/>
+  <outline>
+    <contour>
+      <point x="-120" y="0" type="line"/>
+      <point x="488" y="0" type="line"/>
+      <point x="603" y="176" type="line"/>
+      <point x="1204" y="176" type="line"/>
+      <point x="1256" y="0" type="line"/>
+      <point x="1882" y="0" type="line"/>
+      <point x="1400" y="1400" type="line"/>
+      <point x="850" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="822" y="509" type="line"/>
+      <point x="1017" y="808" type="line"/>
+      <point x="1106" y="509" type="line"/>
+    </contour>
+    <contour>
+      <point x="1376" y="-458" type="qcurve" smooth="yes"/>
+      <point x="1461.3" y="-458"/>
+      <point x="1633.15" y="-419.767"/>
+      <point x="1732" y="-376" type="qcurve"/>
+      <point x="1828" y="-111" type="line"/>
+      <point x="1765.37" y="-134.393"/>
+      <point x="1656.63" y="-157"/>
+      <point x="1612.43" y="-157" type="qcurve" smooth="yes"/>
+      <point x="1550.98" y="-157"/>
+      <point x="1487.2" y="-116.148"/>
+      <point x="1493.96" y="-79.7026" type="qcurve" smooth="yes"/>
+      <point x="1500.78" y="-42.9516"/>
+      <point x="1583.58" y="0"/>
+      <point x="1653" y="0" type="qcurve"/>
+      <point x="1256" y="0" type="line"/>
+      <point x="1178.28" y="-37.73"/>
+      <point x="1080.09" y="-155.163"/>
+      <point x="1068.06" y="-223.312" type="qcurve" smooth="yes"/>
+      <point x="1048.4" y="-334.757"/>
+      <point x="1222.84" y="-458"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>= A + uni0328.case@ogonek_in</string>
+  </dict>
+  </lib>
+</glyph>
