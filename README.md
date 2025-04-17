@@ -1,5 +1,4 @@
 # Science Gothic
-## General
 
 Science Gothic™ is a libre sans serif variable font commissioned by Google Fonts. Its wide design range allows it to take on many different looks and uses, striking or classy, from superheroes and detectives to cosmetics to business and technology. The basic design is based closely on Morris Fuller Benton’s Bank Gothic (1930–34) all-caps typeface for American Type Founders. Science Gothic adds a lowercase, extensive language coverage, and four design axes: extreme weight and width (much greater more the original), plus contrast and slant. Science Gothic is a team effort, by Thomas Phinney, Vassil Kateliev and Brandon Buerkle. Special thanks to Igor Freiberger for his early contributions.
 
@@ -7,19 +6,24 @@ This repo is where development and updates to this project can be found. Source 
 
 (Particularly major updates are described below, but not every update.)
 
-### License
+## License
 
 Science Gothic is licensed under the SIL Open Font License v1.1. This is a libre free software license. Please [refer to the license](./OFL.txt) for details.
 
-### Variable Axes
+# Variable Axes
 
 Science Gothic has the following axes:
 
-| Axis | Tag | Range | Default | Description |
+| Axis       | Tag    | Range        | Default | Description                                                                |
+| ---------- | ------ | ------------ | ------- | -------------------------------------------------------------------------- |
+| Slant      | `slnt` | 0 to -10     | 0       | Upright (0°) to Oblique (about 10°)                                        |
+| Weight     | `wght` | 100 to 900   | 400     | Thin to Black. Can be defined with the CSS font-weight property.           |
+| Width      | `wdth` | 50 to 200    | 100     | UltraCondensed to ExtraExpanded. Can be defined with CSS font-width.       |
+| Contrast   | `CNTR` | 0 to 75      | 0       | No visible contrast (0) to Maximum Contrast (75% reduction of thin stroke) |
 
 
 
-### Language Support
+# Language Support
 
 Science Gothic covers the GF Latin Plus, Latin Expert, and Cyrillic Plus character sets, including small caps. This is similar to Adobe Latin 4 and Adobe Adobe Cyrillic 2.
 
@@ -30,38 +34,40 @@ Abaza Abenaki Abkhaz Adyghe Afaan Oromo Afrikaans Agu Akhvakh Albanian Alsatian 
 
 </details>
 
-## DOWNLOAD THE FONT
+# DOWNLOAD THE FONT
 Get the latest working variable font here: https://github.com/googlefonts/science-gothic/tree/main/fonts/variable
 Less flexible static fonts are here: https://github.com/googlefonts/science-gothic/tree/main/fonts/static/Instances
 
-## Bugs
+# Bugs
 PLEASE report any BUGS OR ISSUES. You can file an issue right here in Github at: https://github.com/googlefonts/science-gothic/issues. Or just ask questions on social media, whatever. But feedback is welcome!
 
-## Building Fonts
+# Building Fonts
 Our process for building fonts from our FontLab VFC/VFJ sources > UFO > FontMake > TTF (variable font) is [documented here](https://github.com/googlefonts/science-gothic/blob/master/documentation/compiling_fonts.md).
 
 
-## Release Notes
+# Release Notes
 
-### 21 Dec 2022
+## 
+
+## 21 Dec 2022
 - Ownership transferred to Google
 
-### 14 Apr 2022
+## 14 Apr 2022
 - most bugs quashed
 - close to being release quality
 
-### 19 March 2020
+## 19 March 2020
 - Kerning is still in progress.
 - Only a small handful of bugs left at this point.
 - Just about done fixing all issues identified by FontBakery
 
-### 17 November 2019
+## 17 November 2019
 
 - Slant axis is enabled! Note the form change for /a and /f when they get more than half slanted. This has generated a fair number of bugs for some glyphs in their slanted versions, but nothing unmanageable. 
 - Have started editing glyphs to tweak their shapes where slant does too much distortion of weight or stroke. Mainly diagonal strokes (think: A K N M R 2 4 7 & ?) and big curves (not many in this typeface, but they include: D 6 9)
 - Kerning classes have all been created; kerning is well underway
 
-### 1 November 2019
+## 1 November 2019
 
 Primary design work was basically done. Just a few details here and there to fix. We are now entering the endgame! For the next three weeks or so, we will:
 
@@ -71,13 +77,13 @@ Primary design work was basically done. Just a few details here and there to fix
 
 98.5% done glyph design work
 
-### 14 October 2019
+## 14 October 2019
 
 Made significant org/name changes to the former Contrast axis, now called “Y Opaque” ('YOPQ' axis tag). Instead of going from 0 – 100 (low to high) it goes from 18 to 124 (high to low contrast) representing the thickness of capital horizontal strokes, in thousandths of an em, at the default Medium weight. The default style is still low contrast, which is 124, at the “high” end of the horizontal stroke-thickness scale.
 
 77% done glyph design work.
 
-### 18 September 2019
+## 18 September 2019
 
 Added UFO sources, and first variable TTF built from UFO + FontMake (with latest FontMake and Python) rather than from exporting from FontLab. Although FontLab VI uses UFO + FontMake internally for its variable font generation, it uses an older version of FontMake. The UFO + FontMake approach makes it easier for future development to be made with any UFO-compatible font editor. See https://github.com/googlefonts/science-gothic/issues/91 for details.
 
