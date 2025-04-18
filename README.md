@@ -1,6 +1,8 @@
 # Science Gothic
 
-Science Gothic™ is a libre sans serif variable font commissioned by Google Fonts. Its wide design range allows it to take on many different looks and uses, striking or classy, from superheroes and detectives to cosmetics to business and technology. The basic design is based closely on Morris Fuller Benton’s Bank Gothic (1930–34) all-caps typeface for American Type Founders. Science Gothic adds a lowercase, extensive language coverage, and four design axes: extreme weight and width (much greater more the original), plus contrast and slant. Science Gothic is a team effort, by Thomas Phinney, Vassil Kateliev and Brandon Buerkle. Special thanks to Igor Freiberger for his early contributions.
+Science Gothic™ is a libre sans serif variable font commissioned by Google Fonts. Its wide design range allows it to take on many different looks and uses, striking or classy, from superheroes and detectives to cosmetics to business and technology.
+
+The underlying design is based closely on Morris Fuller Benton’s Bank Gothic (1930–34) all-caps typeface for American Type Founders. However, Science Gothic adds a lowercase, extensive language coverage, and four design axes: extreme weight and width (much greater more the original), plus contrast and slant. Science Gothic is a team effort, by Thomas Phinney, Vassil Kateliev and Brandon Buerkle. Special thanks to Igor Freiberger for his early contributions.
 
 This repo is where development and updates to this project can be found. Source files are in multiple formats: FontLab VFJ (vector font JSON) format, FontLab VFC (binary) format. Generated versions include UFO source files, and variable TTF end-user fonts. Occasionally we previously generated fonts corresponding to masters and instances, but these have not been not maintained going forward.
 
@@ -21,6 +23,15 @@ Science Gothic has the following axes:
 | Width      | `wdth` | 50 to 200    | 100     | UltraCondensed to ExtraExpanded. Can be defined with CSS font-width.       |
 | Contrast   | `CNTR` | 0 to 75      | 0       | No visible contrast (0) to Maximum Contrast (75% reduction of thin stroke) |
 
+### Axis Definitions
+
+- **Slant** `slnt` – 0 to -10. The rightward angle of letters, roughly equivalent to italic. Note: `-10` (negative 15) corresponds to a 10° clockwise slant, about the same as a typical italic. Going to `-5` or more will activate alternate shapes for “a” and “f”, converting to a “single story” `a` and an `f` with a descending stroke. Use Slant for secondary emphasis in text, or for effect in display. In text, it can be useful to use the full slant for italic/emphasis, while at display sizes, you might choose an intermediate value for effect.
+
+- **Weight** `wght` - 100 to 900. The thickness of letter strokes and how dark the text looks overall. More extreme values (100–250 and 750–900) are best saved for larger sizes. If using Science Gothic for body text, we suggest a weight not too far from 400 (say 340–450). Differences in weight can provide emphasis in text, show user interaction, or adjust the tone of communication. For light text on dark backgrounds, 400 (“Regular”) tends to be appropriate for text and code. For dark text on a light background, it can be beneficial to adjust the weight upwards to 500 (“Medium”).
+
+- **Width** `wdth` – 50 to 200. The default 100 width is based on the default width of Bank Gothic, which is arguably just a little wide, so a slightly narrower width (85–95) may often be desirable, especially for multi-sentence or body text. The most extreme widths, especially the wider ones, are **very** extreme, and to be used sparingly for effect and typically at very large sizes.
+
+- **Contrast** `CNTR` - 0 to 75. The default 0 contrast is based on Bank Gothic, and has no visible contrast. For multi-sentence text and/or body text sizes, even a little contrast (5–15) can make the text more comfortable.
 
 
 # Language Support
