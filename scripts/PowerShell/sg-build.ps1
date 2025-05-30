@@ -38,7 +38,7 @@ function Resolve-FullPath {
 # - Configuration
 # -- Preffered naming patterns
 $pref_variable_output = 'fonts'      # Preffered fontmake output folder name
-$pref_backup_folder = 'backup'              # Preffered backup folder name
+$pref_backup_folder = 'backup'        # Preffered backup folder name
 
 # -- Tools
 $py_font_tables = Resolve-FullPath "$PSScriptRoot\..\Python\sg-fix-unwanted-tables.py"

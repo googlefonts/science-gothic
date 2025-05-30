@@ -1,0 +1,110 @@
+familyName: "Science Gothic"
+
+sources:
+  - ScienceGothic[CNTR,slnt,wdth,wght].designspace
+
+builds:
+  - name: ScienceGothic
+    familyName: "Science Gothic"
+    buildVariable: true
+    outputDir: build/variable/ScienceGothic
+    stat:
+      axes:
+        - name: Weight
+          tag: wght
+          values:
+            - name: Thin
+              value: 100
+              flags: 0
+            - name: Regular
+              value: 400
+              flags: 0
+            - name: Bold
+              value: 700
+              flags: 0
+        - name: Width
+          tag: wdth
+          values:
+            - name: Condensed
+              value: 75
+              flags: 0
+            - name: Normal
+              value: 100
+              flags: 0
+            - name: Expanded
+              value: 125
+              flags: 0
+        - name: Slant
+          tag: slnt
+          values:
+            - name: Upright
+              value: 0
+              flags: 0
+            - name: Slanted
+              value: -10
+              flags: 0
+        - name: Contrast
+          tag: CNTR
+          values:
+            - name: Low
+              value: 0
+              flags: 0
+            - name: Medium
+              value: 50
+              flags: 0
+            - name: High
+              value: 100
+              flags: 0
+
+  - name: ScienceGothicSC
+    familyName: "Science Gothic SC"
+    buildVariable: true
+    pre: scripts/swap_lower_with_smallcaps.py
+    outputDir: build/variable/ScienceGothicSC
+    stat:
+      axes:
+        - name: Weight
+          tag: wght
+          values:
+            - name: Thin
+              value: 100
+              flags: 0
+            - name: Regular
+              value: 400
+              flags: 0
+            - name: Bold
+              value: 700
+              flags: 0
+        - name: Width
+          tag: wdth
+          values:
+            - name: Condensed
+              value: 75
+              flags: 0
+            - name: Normal
+              value: 100
+              flags: 0
+            - name: Expanded
+              value: 125
+              flags: 0
+        - name: Slant
+          tag: slnt
+          values:
+            - name: Upright
+              value: 0
+              flags: 0
+            - name: Slanted
+              value: -10
+              flags: 0
+        - name: Contrast
+          tag: CNTR
+          values:
+            - name: Low
+              value: 0
+              flags: 0
+            - name: Medium
+              value: 50
+              flags: 0
+            - name: High
+              value: 100
+              flags: 0
