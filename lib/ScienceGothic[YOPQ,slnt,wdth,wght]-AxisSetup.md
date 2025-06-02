@@ -1,11 +1,11 @@
 # Science Gothic 
 ## Axis Setup
-*Version: June 2024*
+*Version: June 2025*
 
 
 ### Contrast 
-**Full Name:** Y Opaque 
-**Short Name:** yo, TOPQ
+**Full Name:**  Contrast
+**Short Name:** co, CTRS
 **Axis Range:** 18:122
 **User Range:** 18:122
 **Axis stops:** MaximumContrast=18, HighContrast=44, MediumContrast=70, LowContrast=96, (Regular)=122
