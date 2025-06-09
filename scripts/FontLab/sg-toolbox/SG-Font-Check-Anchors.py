@@ -55,16 +55,23 @@ for work_glyph in process_glyphs:
 				if isclose(anchor, check_anchor):
 					log += anchor.name + ' '
 					bug_found = True
+
+					# - Force set anchor coordinates
+					check_anchor.point = anchor.point
+					
 			else:
 				print(f'ERROR:\t/{work_glyph.name} | Missing anchor: {anchor.name} on layer: {check_layer}')
 		
 		
-		if bug_found: print(f'WARN:\t/{work_glyph.name} | {log}')
+		if bug_found: 
+			print(f'WARN:\t/{work_glyph.name} | {log}')
+			work_glyph.update()
+			#work_glyph.updateObject(work_glyph.fl, verbose=False)
 		
 
 	if bug_found: check_count += 1
 
 # - Finish --------------------------------------------
-print(f'{app_name}, {app_version}: Found {check_count} glyphs with metric problems.')
+print(f'{app_name}, {app_version}: Found {check_count} glyphs with anchor problems.')
 
 
