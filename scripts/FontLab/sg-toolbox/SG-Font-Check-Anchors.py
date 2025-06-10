@@ -64,7 +64,7 @@ for work_glyph in process_glyphs:
 		
 		
 		if bug_found: 
-			print(f'WARN:\t/{work_glyph.name} | {log}')
+			print(f'FIX:\t/{work_glyph.name} | {log}')
 			work_glyph.update()
 			#work_glyph.updateObject(work_glyph.fl, verbose=False)
 		
