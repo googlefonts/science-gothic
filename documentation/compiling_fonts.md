@@ -4,7 +4,7 @@ This is how we get from FontLab VFC files to final variable TTFs.
 
 If you are working directly with UFOs only, and not starting with the FontLab source, you would skip to point 13 below.
 
-For points 5 and 7, we use a FontLab script, which is here in the repo. You need to install these scripts in FontLab and know how to run scripts from FontLab. (Note: the script is mostly relevant if one is editing glyphs, for many other kinds of work, it is unlikely you will be breaking glyph-master compatibility.)
+For points 6 and 8, we use a FontLab script, _SG-Font-Check QA_ which is here in the repo. You need to install this script in FontLab and know how to run scripts from FontLab. (Note: the script is mostly relevant if one is editing glyphs, for many other kinds of work, it is unlikely you will be breaking glyph-master compatibility.)
 
 1. Bump the version string in the font. 
 1. Update the date/time stamp in the font to current.
