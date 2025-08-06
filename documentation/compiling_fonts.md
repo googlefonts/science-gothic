@@ -22,15 +22,15 @@ For points 6 and 8, we use a FontLab script, _SG-Font-Check QA_ which is here in
 1. Run fontmake from the command line, in the same folder as the output file:
 `fontmake -m *.designspace -o variable --keep-overlaps` (if you only have one designspace file in the folder)
 or 
-`fontmake -m ScienceGothic[YOPQ,wdth,wght,slnt].designspace -o variable --keep-overlaps` (substitute exact file name if different)
+`fontmake -m ScienceGothic[CTRS,wdth,wght,slnt].designspace -o variable --keep-overlaps` (substitute exact file name if different)
 1. Remove MVAR table with gftools `gftools fix-unwanted-tables *.ttf`, as required by https://github.com/tphinney/science-gothic/issues/244
-1. Run `gftools-fix-nonhinting.py *.ttf ScienceGothic[YOPQ,wdth,wght,slnt]1.ttf` per https://github.com/tphinney/science-gothic/issues/239
+1. Run `gftools-fix-nonhinting.py *.ttf ScienceGothic[CTRS,wdth,wght,slnt]1.ttf` per https://github.com/tphinney/science-gothic/issues/239
 1. Remove old unfixed files
-1. Make sure final font file is named correctly, per Google specs. e.g. `ScienceGothic[YOPQ,wdth,wght,slnt].ttf`
+1. Make sure final font file is named correctly, per Google specs. e.g. `ScienceGothic[CTRS,wdth,wght,slnt].ttf`
 1. TESTING steps are part of the compile process, as follows...
-1. Run `fontbakery check-googlefonts ScienceGothic[YOPQ,wdth,wght,slnt].ttf`
+1. Run `fontbakery check-googlefonts ScienceGothic[CTRS,wdth,wght,slnt].ttf`
 1. Either:
-Run `ftxvalidator ScienceGothic[YOPQ,wdth,wght,slnt].ttf`
+Run `ftxvalidator ScienceGothic[CTRS,wdth,wght,slnt].ttf`
 or install and validate in Apple’s Font Book
 
 At this time, we have fixed most issues identified by FontBakery, but have a few items to discuss with Google. 
