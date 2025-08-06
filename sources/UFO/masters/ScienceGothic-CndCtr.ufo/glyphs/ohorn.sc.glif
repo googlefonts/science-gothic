@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ohorn.sc" format="2">
-  <advance width="1017"/>
+  <advance width="835"/>
   <anchor x="418" y="1210" name="top"/>
   <anchor x="418" y="-150" name="bottom"/>
-  <anchor x="739" y="860" name="horn"/>
+  <anchor x="660" y="1019" name="horn"/>
   <anchor x="434" y="0" name="ogonek"/>
   <outline>
     <contour>
@@ -43,28 +43,32 @@
       <point x="346" y="25" type="qcurve"/>
     </contour>
     <contour>
-      <point x="739" y="830" type="line"/>
-      <point x="813.625" y="830"/>
-      <point x="919.156" y="858.812"/>
-      <point x="986.094" y="917.688"/>
-      <point x="1017" y="1007.25"/>
-      <point x="1017" y="1068" type="qcurve" smooth="yes"/>
-      <point x="1017" y="1110.26"/>
-      <point x="1006.56" y="1188.71"/>
-      <point x="996" y="1237" type="qcurve"/>
-      <point x="812" y="1202" type="line"/>
-      <point x="818.791" y="1153.71"/>
-      <point x="825" y="1072.96"/>
-      <point x="825" y="1039" type="qcurve" smooth="yes"/>
-      <point x="825" y="943.166"/>
-      <point x="784.276" y="860"/>
-      <point x="739" y="860" type="qcurve"/>
+      <point x="660" y="1009" type="line"/>
+      <point x="660" y="1009" type="line"/>
+      <point x="660" y="1009" type="line"/>
+      <point x="733.875" y="1009"/>
+      <point x="839.219" y="1026.47"/>
+      <point x="906.531" y="1069.78"/>
+      <point x="938" y="1143.12"/>
+      <point x="938" y="1199" type="qcurve" smooth="yes"/>
+      <point x="938" y="1230.69"/>
+      <point x="927.564" y="1306.2"/>
+      <point x="917" y="1356" type="qcurve"/>
+      <point x="733" y="1321" type="line"/>
+      <point x="739.037" y="1275.72"/>
+      <point x="746" y="1195.45"/>
+      <point x="746" y="1163" type="qcurve" smooth="yes"/>
+      <point x="746" y="1086.03"/>
+      <point x="706.031" y="1019"/>
+      <point x="660" y="1019" type="qcurve" smooth="yes"/>
+      <point x="650" y="1019" type="line"/>
+      <point x="650" y="1009" type="line"/>
     </contour>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.recipe</key>
-  <string>=ohorn.sc</string>
+  <string>=o.sc+uni031B@horn</string>
   </dict>
   </lib>
 </glyph>

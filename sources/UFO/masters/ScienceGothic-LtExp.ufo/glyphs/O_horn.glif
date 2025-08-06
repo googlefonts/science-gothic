@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ohorn" format="2">
-  <advance width="2734"/>
+  <advance width="2816"/>
   <unicode hex="01A0"/>
   <anchor x="1408" y="1550" name="top"/>
   <anchor x="1408" y="-150" name="bottom"/>
-  <anchor x="1414" y="0" name="ogonek"/>
-  <anchor x="2470" y="1100" name="horn"/>
+  <anchor x="2398" y="1322" name="horn"/>
+  <anchor x="1408" y="0" name="ogonek"/>
   <outline>
     <contour>
       <point x="334" y="1100" type="qcurve" smooth="yes"/>
@@ -44,26 +44,32 @@
       <point x="374" y="298" type="qcurve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="2470" y="1066" type="line"/>
-      <point x="2470" y="1066" type="line"/>
-      <point x="2470" y="1066" type="line"/>
-      <point x="2567.5" y="1066"/>
-      <point x="2705" y="1092.88"/>
-      <point x="2792" y="1149.12"/>
-      <point x="2832" y="1236"/>
-      <point x="2832" y="1296" type="qcurve" smooth="yes"/>
-      <point x="2832" y="1332.22"/>
-      <point x="2821.58" y="1399.74"/>
-      <point x="2808" y="1442" type="qcurve"/>
-      <point x="2772" y="1434" type="line"/>
-      <point x="2787.09" y="1393.25"/>
-      <point x="2796" y="1324.67"/>
-      <point x="2796" y="1296" type="qcurve" smooth="yes"/>
-      <point x="2796" y="1185.83"/>
-      <point x="2640.54" y="1100"/>
-      <point x="2470" y="1100" type="qcurve" smooth="yes"/>
-      <point x="2460" y="1100" type="line"/>
-      <point x="2460" y="1066" type="line"/>
+      <point x="2398" y="1292" type="line"/>
+      <point x="2398" y="1292" type="line"/>
+      <point x="2398" y="1292" type="line"/>
+      <point x="2495.5" y="1292"/>
+      <point x="2633.62" y="1316.94"/>
+      <point x="2721.38" y="1370.56"/>
+      <point x="2762" y="1454.75"/>
+      <point x="2762" y="1514" type="qcurve" smooth="yes"/>
+      <point x="2762" y="1547.2"/>
+      <point x="2750.56" y="1619.74"/>
+      <point x="2740" y="1662" type="qcurve"/>
+      <point x="2708" y="1656" type="line"/>
+      <point x="2718.56" y="1615.25"/>
+      <point x="2730" y="1544.67"/>
+      <point x="2730" y="1516" type="qcurve" smooth="yes"/>
+      <point x="2730" y="1405.83"/>
+      <point x="2565.52" y="1322"/>
+      <point x="2398" y="1322" type="qcurve" smooth="yes"/>
+      <point x="2388" y="1322" type="line"/>
+      <point x="2388" y="1292" type="line"/>
     </contour>
   </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>=O+uni031B.case@horn</string>
+  </dict>
+  </lib>
 </glyph>

@@ -3,7 +3,8 @@
   <advance width="427"/>
   <anchor x="259" y="1210" name="top"/>
   <anchor x="259" y="-150" name="bottom"/>
-  <anchor x="422" y="0" name="ogonek"/>
+  <anchor x="383" y="0" name="ogonek"/>
+  <anchor x="422" y="0" name="ogonek_out"/>
   <outline>
     <contour>
       <point x="95" y="0" type="line"/>
@@ -20,33 +21,33 @@
       <point x="95" y="1060" type="line"/>
     </contour>
     <contour>
-      <point x="354.492" y="-359" type="qcurve" smooth="yes"/>
-      <point x="372.48" y="-359"/>
+      <point x="355" y="-359" type="qcurve" smooth="yes"/>
+      <point x="372.356" y="-359"/>
       <point x="403.89" y="-349.319"/>
       <point x="422" y="-338" type="qcurve"/>
       <point x="422" y="-308" type="line"/>
       <point x="406.153" y="-318.564"/>
-      <point x="373.683" y="-329"/>
-      <point x="357.333" y="-329" type="qcurve" smooth="yes"/>
-      <point x="324.634" y="-329"/>
-      <point x="291" y="-288.145"/>
-      <point x="291" y="-248.618" type="qcurve" smooth="yes"/>
-      <point x="291" y="-199.857"/>
-      <point x="349.558" y="-86.779"/>
+      <point x="373.847" y="-329"/>
+      <point x="358" y="-329" type="qcurve" smooth="yes"/>
+      <point x="324.043" y="-329"/>
+      <point x="291" y="-283.73"/>
+      <point x="291" y="-246" type="qcurve" smooth="yes"/>
+      <point x="291" y="-198.46"/>
+      <point x="351.068" y="-84.5152"/>
       <point x="422" y="0" type="qcurve"/>
       <point x="386" y="0" type="line"/>
-      <point x="319.595" y="-80.7422"/>
-      <point x="258" y="-204.031"/>
-      <point x="258" y="-253.327" type="qcurve" smooth="yes"/>
-      <point x="258" y="-301.375"/>
-      <point x="310.603" y="-359"/>
+      <point x="320.35" y="-79.9876"/>
+      <point x="258" y="-203.442"/>
+      <point x="258" y="-254" type="qcurve" smooth="yes"/>
+      <point x="258" y="-301.54"/>
+      <point x="308.969" y="-359"/>
     </contour>
   </outline>
   <guideline angle="90" color="1,0,0,1" x="422" y="0"/>
   <lib>
   <dict>
   <key>com.fontlab.recipe</key>
-  <string>=e.sc+uni0328@ogonek</string>
+  <string>=e.sc+uni0328@ogonek_out</string>
   </dict>
   </lib>
 </glyph>
