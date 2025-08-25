@@ -1,7 +1,7 @@
 name: "Science Gothic"
 designer: "Thomas Phinney, Vassil Kateliev, Brandon Buerkle"
 category: "SANS_SERIF"
-date_added: "2024-11-19"
+date_added: "2025-08-24"
 fonts {
   name: "Science Gothic"
   style: "normal"
@@ -9,7 +9,7 @@ fonts {
   filename: "ScienceGothic[YOPQ,slnt,wdth,wght].ttf"
   post_script_name: "ScienceGothic-Regular"
   full_name: "Science Gothic Regular"
-  copyright: "Copyright 2024 The Science Gothic Project Authors. https://github.com/googlefonts/science-gothic/blob/main/AUTHORS.txt"
+  copyright: "Copyright 2025 The Science Gothic Project Authors. https://github.com/googlefonts/science-gothic/blob/main/AUTHORS.txt"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
@@ -18,9 +18,9 @@ subsets: "latin-ext"
 subsets: "menu"
 subsets: "vietnamese"
 axes {
-  tag: "YOPQ"
-  min_value: 18.0
-  max_value: 122.0
+  tag: "CTRS"
+  min_value: 0.0
+  max_value: 75.0
 }
 axes {
   tag: "slnt"

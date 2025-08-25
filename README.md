@@ -2,9 +2,9 @@
 
 Science Gothic™ is a libre sans serif variable font commissioned by Google Fonts. Its wide design range allows it to take on many different looks and uses, striking or classy, from superheroes and detectives to cosmetics to business and technology.
 
-The underlying design is based closely on Morris Fuller Benton’s Bank Gothic (1930–34) all-caps typeface for American Type Founders. However, Science Gothic adds a lowercase, extensive language coverage, and four design axes: extreme weight and width (vastly more than the original), plus contrast and slant. Science Gothic is a team effort, by Thomas Phinney, Vassil Kateliev and Brandon Buerkle. Special thanks to Igor Freiberger for his early contributions.
+The underlying design at regular width and light to bold weights is based closely on Morris Fuller Benton’s Bank Gothic (1930–34) all-caps typeface for American Type Founders. However, Science Gothic adds a lowercase, extensive language coverage, and four design axes: extreme weight and width (vastly more than the original), plus contrast and slant. Science Gothic is a team effort, by Thomas Phinney, Vassil Kateliev and Brandon Buerkle. Special thanks to Igor Freiberger for his early contributions.
 
-This repo is where development and updates to this project can be found. Source files are in multiple formats: FontLab VFJ (vector font JSON) format, FontLab VFC (binary) format. Generated versions include UFO source files, and variable TTF end-user fonts. Occasionally we previously generated fonts corresponding to masters and instances, but these have not been not maintained going forward.
+This repo is where development and updates to this project can be found. Source files are in FontLab VFC (binary) format. Generated versions include UFO intermediate source files, and variable TTF end-user fonts. Occasionally we previously generated fonts corresponding to masters and instances, but these have not been not maintained going forward.
 
 (Particularly major updates are described below, but not every update.)
 
@@ -36,7 +36,7 @@ Science Gothic has the following axes:
 
 # Language Support
 
-Science Gothic covers the GF Latin Plus, Latin Expert, and Cyrillic Plus character sets, including small caps. This is similar to Adobe Latin 4 and Adobe Adobe Cyrillic 2.
+Science Gothic covers the GF Latin Plus, Latin Expert, and Cyrillic Plus character sets, and also adds small caps. This is similar to Adobe Latin 4 plus Adobe Cyrillic 2.
 
 <details>
 <summary><b><!-------->⚙️ The specific list of languages supported is:<!--------></b> (Click to expand)</summary>
@@ -58,7 +58,10 @@ Our process for building fonts from our FontLab VFC/VFJ sources > UFO > FontMake
 
 # Release Notes
 
-## 
+## 24 Aug 2025
+- Recent builds redefine YOPQ (Y Opaque) axis as CTRS (Contrast), as it did not quite match the expectations for Y Opaque.
+- Many small bugs fixed
+- Last build revised the shape for the italic lowercase “a” and related characters. The “a” changes shape when it gets to half maximum slant, so this change is only apparent at stronger levels of slant.
 
 ## 21 Dec 2022
 - Ownership transferred to Google
@@ -73,7 +76,6 @@ Our process for building fonts from our FontLab VFC/VFJ sources > UFO > FontMake
 - Just about done fixing all issues identified by FontBakery
 
 ## 17 November 2019
-
 - Slant axis is enabled! Note the form change for /a and /f when they get more than half slanted. This has generated a fair number of bugs for some glyphs in their slanted versions, but nothing unmanageable. 
 - Have started editing glyphs to tweak their shapes where slant does too much distortion of weight or stroke. Mainly diagonal strokes (think: A K N M R 2 4 7 & ?) and big curves (not many in this typeface, but they include: D 6 9)
 - Kerning classes have all been created; kerning is well underway
