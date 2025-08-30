@@ -1,6 +1,6 @@
 # Science Gothic 
 ## Axis Setup
-*Version: June 2025*
+*Version: 30 Aug 2025*
 
 
 ### Contrast 
@@ -8,7 +8,7 @@
 **Short Name:** co, CTRS
 **Axis Range:** 18:122
 **User Range:** 18:122
-**Axis stops:** MaximumContrast=18, HighContrast=44, MediumContrast=70, LowContrast=96, (Regular)=122
+**Axis stops:** (Regular)=18, LowContrast=44, MediumContrast=70, HighContrast=96, MaximumContrast=122
 
 ### Oblique
 Full Name: Slant 
