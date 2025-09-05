@@ -54,7 +54,6 @@ languagesystem cyrl BGR ; # Cyrillic Bulgarian
 #
 # Feature definitions
 #
-
 feature aalt useExtension {
 # GSUB feature: Access All Alternates
 # Lookups: 2
@@ -778,7 +777,6 @@ feature aalt useExtension {
   sub eight.tnum from [eight];
   sub nine.tnum from [nine];
 } aalt;
-
 feature c2sc {
 # GSUB feature: Small Capitals From Capitals
 # Lookups: 1
@@ -1097,7 +1095,6 @@ feature c2sc {
   sub uni1E62 by uni1E63.sc;
 
 } c2sc;
-
 feature locl {
 # GSUB feature: Localized Forms
 # Lookups: 6
@@ -1163,7 +1160,6 @@ feature locl {
 
 
 } locl;
-
 feature sinf {
 # GSUB feature: Scientific Inferiors
 # Lookups: 1
@@ -1180,7 +1176,6 @@ feature sinf {
   sub nine by nine.sinf;
 
 } sinf;
-
 feature sups {
 # GSUB feature: Superscript
 # Lookups: 1
@@ -1197,7 +1192,6 @@ feature sups {
   sub nine by nine.sups;
 
 } sups;
-
 feature subs {
 # GSUB feature: Subscript
 # Lookups: 1
@@ -1214,7 +1208,6 @@ feature subs {
   sub nine by nine.sinf;
 
 } subs;
-
 feature numr {
 # GSUB feature: Numerators
 # Lookups: 1
@@ -1231,7 +1224,6 @@ feature numr {
   sub nine by nine.numr;
 
 } numr;
-
 feature dnom {
 # GSUB feature: Denominators
 # Lookups: 1
@@ -1248,7 +1240,6 @@ feature dnom {
   sub nine by nine.dnom;
 
 } dnom;
-
 feature frac {
 # GSUB feature: Fractions
 # Lookups: 1
@@ -1290,7 +1281,6 @@ feature frac {
   sub @frac_ordn space' @frac by uni2009;
 
 } frac;
-
 feature ordn {
 # GSUB feature: Ordinals
 # Lookups: 2
@@ -1300,7 +1290,6 @@ feature ordn {
   sub N o period by uni2116;
 
 } ordn;
-
 feature zero {
 # GSUB feature: Slashed Zero
 # Lookups: 1
@@ -1308,7 +1297,6 @@ feature zero {
   sub zero by zero.zero;
 
 } zero;
-
 feature pnum {
 # GSUB feature: Proportional Figures
 # Lookups: 1
@@ -1324,7 +1312,6 @@ feature pnum {
   sub nine.tnum by nine;
 
 } pnum;
-
 feature tnum {
 # GSUB feature: Tabular Figures
 # Lookups: 1
@@ -1341,7 +1328,6 @@ feature tnum {
   sub nine by nine.tnum;
 
 } tnum;
-
 feature salt {
 # GSUB feature: Stylistic Alternates
 # Lookups: 2
@@ -1363,7 +1349,6 @@ feature salt {
   sub uni043B.sc by uni043B.sc.alt;
 
 } salt;
-
 feature case {
 # GSUB feature: Case-Sensitive Forms
 # Lookups: 1
@@ -1414,7 +1399,6 @@ feature case {
   sub at by at.case;
 
 } case;
-
 feature ss01 {
 # GSUB feature: Stylistic Set 1
 # Lookups: 1
@@ -1429,7 +1413,6 @@ feature ss01 {
   sub uni043B by uni043B.alt;
 
 } ss01;
-
 feature ss02 {
 # GSUB feature: Stylistic Set 2
 # Lookups: 1
@@ -1457,7 +1440,6 @@ feature ss02 {
   sub uni044E by uni044E.loclBGR;
 
 } ss02;
-
 feature ccmp {
 # GSUB feature: Glyph Composition / Decomposition
 # Lookups: 1
@@ -1471,7 +1453,6 @@ feature ccmp {
 
 
 } ccmp;
-
 feature smcp {
 # GSUB feature: Small Capitals
 # Lookups: 1
@@ -1839,7 +1820,6 @@ feature smcp {
   sub uni1E63 by uni1E63.sc;
 
 } smcp;
-
 feature mark {
 # GPOS feature: Mark Positioning
 # Lookups: 7
@@ -6364,7 +6344,6 @@ feature mark {
 
 
 } mark;
-
 feature mkmk {
 # GPOS feature: Mark to Mark Positioning
 # Lookups: 2
@@ -6485,7 +6464,6 @@ feature mkmk {
 
 
 } mkmk;
-
 feature kern {
 # GPOS feature: Kerning
 # Lookups: 1
@@ -68090,4 +68068,3 @@ feature kern {
 
 
 } kern;
-
