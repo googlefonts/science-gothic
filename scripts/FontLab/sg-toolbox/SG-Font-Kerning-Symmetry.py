@@ -55,13 +55,37 @@ def build_kern_pairs(dst_names, layer_kerning, class_data, class_kern=True):
 
 	return dst_pairs
 
-# - Init ------------------------------------------------
-app_version = '1.0'
-app_name = '[SG] Font: Audit Kerning Symmetry'
-check_pairs = list(combinations('AVTO', 2))
+def getUniGlyph(char, font):
+	if '/' in char and char != '//':
+		return char.replace('/','')
 
-pairs_processed = 0
+	return font.fl.findUnicode(ord(char)).name
+
+def round_to_5(n):
+	return 5 * round(n / 5)
+
+def calc_value(one, two):
+	if one is None: return two
+	if two is None: return one
+
+	if 0 <= abs(abs(one) - abs(two)) <= 10:
+		return float(round_to_5(min(one, two)))
+	else:
+		return float(round_to_5((one + two)/2))
+
+# - CFG -----------------------------------------------
+app_version = '1.5'
+app_name = '[SG] Font: Audit Kerning Symmetry'
+
+check_string = 'A V W Y U X 8 0 T O o v w x : ! * | ` . -'
+check_list = ['/a.sc', '/v.sc', '/w.sc', '/y.sc', '/t.sc', '/x.sc', '/o.sc']
+
+# - Init ------------------------------------------------
 font = pFont()
+
+check_pairs = [(getUniGlyph(item[0].strip(), font), getUniGlyph(item[1].strip(), font)) for item in combinations(check_list + check_string.split(' '), 2)]
+reverse_pairs = [tuple(reversed(item)) for item in check_pairs]
+pairs_processed = 0
 
 for layer_name in font.masters():
 	temp_data = {}
@@ -75,15 +99,29 @@ for layer_name in font.masters():
 
 	layer_classes = {key:extBiDict(value) for key, value in temp_data.items()}
 	layer_pairs = build_kern_pairs(check_pairs, layer_kerning, layer_classes, True)
+	layer_pairs_inverse = build_kern_pairs(reverse_pairs, layer_kerning, layer_classes, True)
 	
-	for pair in layer_pairs:
-		print(layer_name, pair, layer_kerning.get(pair))
+	for pid in range(len(layer_pairs)):
+		pair = layer_pairs[pid]
+		inverse = layer_pairs_inverse[pid]
+		report_pair = check_pairs[pid]
 
-	#print(f'{app_name}, {app_version}: Layer: {layer_name}; Pairs: {pairs_processed}; Filter applied: {cutoff_values}.')
+		pair_value = layer_kerning.get(pair)
+		inverse_value = layer_kerning.get(inverse)
+
+		if pair_value != inverse_value:
+			flag = '. DONE' if None not in (pair_value, inverse_value) else '! WARN'
+			new_value = calc_value(pair_value, inverse_value)
+			layer_kerning.set(pair, new_value)
+			layer_kerning.set(inverse, new_value)
+			pairs_processed += 1
+
+			print(f'{flag}: Layer: {layer_name}; Pair: {report_pair}; Non-match: {pair_value}/{inverse_value} => {new_value};')
+			
 
 # - Finish --------------------------------------------
 if pairs_processed > 0 :
 	font.update()
 	font.updateObject(font.fl, 'Font kerning updated!', verbose=True)
-	print(f'{app_name}, {app_version}: Done.')
 
+print(f'{app_name}, {app_version}: Done.')
