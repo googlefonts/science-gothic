@@ -74,11 +74,13 @@ def calc_value(one, two):
 		return float(round_to_5((one + two)/2))
 
 # - CFG -----------------------------------------------
-app_version = '1.5'
+app_version = '1.6'
 app_name = '[SG] Font: Audit Kerning Symmetry'
 
 check_string = 'A V W Y U X 8 0 T O o v w x : ! * | ` . -'
 check_list = ['/a.sc', '/v.sc', '/w.sc', '/y.sc', '/t.sc', '/x.sc', '/o.sc']
+
+skip_layers = ['Ctr']
 
 # - Init ------------------------------------------------
 font = pFont()
@@ -88,6 +90,14 @@ reverse_pairs = [tuple(reversed(item)) for item in check_pairs]
 pairs_processed = 0
 
 for layer_name in font.masters():
+	skip_flag = False
+	
+	for skip_cond in skip_layers:
+		if skip_cond in layer_name: skip_flag=True
+
+	if skip_flag: continue
+
+	# - Process
 	temp_data = {}
 	pairs_processed = 0
 	
