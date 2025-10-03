@@ -23,6 +23,7 @@ from typerig.core.objects.collection import extBiDict
 
 # - Helper ------------------------------------------------------
 windowize = lambda data, size=3: [data[i:i+size] for i in range(0, len(data), size)]
+deNoneize = lambda v: v if v is not None else 0.
 
 def smooth_windows_column_aware(data, window_size=3, spike_threshold=10, round_5=True):
 	"""
@@ -49,6 +50,7 @@ def smooth_windows_column_aware(data, window_size=3, spike_threshold=10, round_5
 		new_window = []
 		for c in range(window_size):
 			val = windows[t][c]
+
 			# Window neighbors
 			window_vals = windows[t]
 			window_median = sorted(window_vals)[len(window_vals)//2]
@@ -73,7 +75,7 @@ def smooth_windows_column_aware(data, window_size=3, spike_threshold=10, round_5
 	return result
 
 # - CFG -----------------------------------------------
-app_version = '1.5'
+app_version = '1.7'
 app_name = '[SG] Font: Smooth kerning'
 
 base_layer = 'Regular'
@@ -96,16 +98,13 @@ base_pairs = [pair.asTuple() for pair in font.kerning(base_layer).keys()]
 # - Extract all kerning objects
 font_kerning_data = [font.kerning(layer_name) for layer_name in font_masters]
 
+
 for pair in base_pairs:
 	pair_updated = False
 	pair_data = [layer_kerning.get(pair) for layer_kerning in font_kerning_data]
 	
-	if None in pair_data: 
-		temp_return = dict(zip(font_masters, pair_data))
-		print(f'WARN: Pair: {pair} Inconsistent! Check: {temp_return}')
-		continue
-	
-	adjusted_values = smooth_windows_column_aware(pair_data, window_size, smooth_treshold, round_values)
+	fix_missing = [deNoneize(v) for v in pair_data]
+	adjusted_values = smooth_windows_column_aware(fix_missing, window_size, smooth_treshold, round_values)
 	
 	for i in range(len(pair_data)):
 		if pair_data[i] != adjusted_values[i]:
