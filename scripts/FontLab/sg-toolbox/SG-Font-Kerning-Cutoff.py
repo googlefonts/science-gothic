@@ -1,4 +1,4 @@
-#FLM: Font: Kerning Cutoff Filter
+#FLM: Kern : Kerning Cutoff Filter
 # NOTE: Works across layers that should be equal
 # ----------------------------------------
 # (C) Vassil Kateliev, 2025 (http://www.kateliev.com)
@@ -19,7 +19,7 @@ from typerig.proxy.fl.objects.font import pFont
 from typerig.core.objects.collection import extBiDict
 
 # - Init ------------------------------------------------
-app_version = '1.0'
+app_version = '1.1'
 app_name = '[SG] Font: Kerning Cutoff Filter'
 
 cutoff_values = (100., -250.) # Maximum kernig value allowed
@@ -28,6 +28,8 @@ pairs_processed = 0
 font = pFont()
 
 for layer_name in font.masters():
+	#if 'Lt' not in layer_name: continue
+
 	pairs_processed = 0
 	layer_kerning = font.kerning(layer_name)
 

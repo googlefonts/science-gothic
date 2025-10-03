@@ -1,4 +1,4 @@
-#FLM: Font: Smooth kerning
+#FLM: Kern : Smooth kerning
 # NOTE: Works across layers that should be equal
 # ----------------------------------------
 # (C) Vassil Kateliev, 2025 (http://www.kateliev.com)

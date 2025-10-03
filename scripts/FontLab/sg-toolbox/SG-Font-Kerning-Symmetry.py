@@ -1,4 +1,4 @@
-#FLM: Font: Audit Kerning Symmetry
+#FLM: Kern : Audit Kerning Symmetry
 # NOTE: Works across layers that should be equal
 # ----------------------------------------
 # (C) Vassil Kateliev, 2025 (http://www.kateliev.com)
