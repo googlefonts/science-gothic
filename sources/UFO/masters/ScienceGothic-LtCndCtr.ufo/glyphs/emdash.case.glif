@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="emdash.case" format="2">
-  <advance width="800"/>
+  <advance width="972"/>
   <outline>
     <contour>
-      <point x="0" y="716" type="line"/>
-      <point x="0" y="684" type="line"/>
-      <point x="800" y="684" type="line"/>
-      <point x="800" y="716" type="line"/>
+      <point x="86" y="716" type="line"/>
+      <point x="86" y="684" type="line"/>
+      <point x="886" y="684" type="line"/>
+      <point x="886" y="716" type="line"/>
     </contour>
   </outline>
   <guideline angle="0" x="0" y="700"/>
   <lib>
   <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=hyphen+20</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=hyphen+20</string>
   <key>com.fontlab.recipe</key>
   <string>=emdash@,cap_dash_shift</string>
   </dict>

@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hyphen.case" format="2">
-  <advance width="1000"/>
+  <advance width="999"/>
   <outline>
     <contour>
-      <point x="133" y="906" type="line"/>
-      <point x="61" y="494" type="line"/>
-      <point x="811" y="494" type="line"/>
-      <point x="883" y="906" type="line"/>
+      <point x="164" y="906" type="line"/>
+      <point x="92" y="494" type="line"/>
+      <point x="842" y="494" type="line"/>
+      <point x="914" y="906" type="line"/>
     </contour>
   </outline>
   <guideline angle="0" x="0" y="700"/>
   <lib>
   <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=hyphen</string>
+  <key>com.fontlab.metricsRight</key>
+  <string>=hyphen</string>
   <key>com.fontlab.recipe</key>
   <string>=hyphen@,cap_dash_shift</string>
   </dict>
