@@ -1,6 +1,6 @@
 # Science Gothic
 
-Science Gothic™ is a libre sans serif variable font commissioned by Google Fonts. Its wide design range allows it to take on many different looks and uses, striking or classy, from superheroes and detectives to cosmetics to business and technology.
+Science Gothic™ is a libre sans serif variable font commissioned by Google Fonts. Its wide design range allows it to take on many different looks and uses, striking or classy, from superheroes and detectives to cosmetics to business and high tech.
 
 The underlying design at regular width and light to bold weights is based closely on Morris Fuller Benton’s Bank Gothic (1930–34) all-caps typeface for American Type Founders. However, Science Gothic adds a lowercase, extensive language coverage, and four design axes: extreme weight and width (vastly more than the original), plus contrast and slant. Science Gothic is a team effort, by Thomas Phinney, Vassil Kateliev and Brandon Buerkle. Special thanks to Igor Freiberger for his early contributions.
 
@@ -21,7 +21,7 @@ Science Gothic has the following axes:
 | Slant      | `slnt` | 0 to -10     | 0       | Upright (0°) to Oblique (about 10°)                                        |
 | Weight     | `wght` | 100 to 900   | 400     | Thin to Black. Can be defined with the CSS font-weight property.           |
 | Width      | `wdth` | 50 to 200    | 100     | UltraCondensed to ExtraExpanded. Can be defined with CSS font-width.       |
-| Contrast   | `CNTR` | 0 to 75      | 0       | No visible contrast (0) to Maximum Contrast (75% reduction of thin stroke) |
+| Contrast   | `CNTR` | 0 to 85      | 0       | No visible contrast (0) to Maximum Contrast (85% reduction of thin stroke) |
 
 ### Axis Definitions
 
@@ -31,7 +31,7 @@ Science Gothic has the following axes:
 
 - **Width** `wdth` – 50 to 200. The default 100 width is based on the default width of Bank Gothic, which is arguably just a little wide, so a slightly narrower width (85–95) may often be desirable, especially for multi-sentence or body text. The most extreme widths, especially the wider ones, are **very** extreme, and to be used sparingly for effect and typically at very large sizes.
 
-- **Contrast** `CNTR` - 0 to 75. The default 0 contrast is based on Bank Gothic, and has no visible contrast. For multi-sentence text and/or body text sizes, even a little contrast (5–15) can make the text more comfortable.
+- **Contrast** `CNTR` - 0 to 85. The default 0 contrast is based on Bank Gothic, and has no visible contrast. For multi-sentence text, or body text sizes, even a little contrast (5–15) can make the text more comfortable.
 
 
 # Language Support
