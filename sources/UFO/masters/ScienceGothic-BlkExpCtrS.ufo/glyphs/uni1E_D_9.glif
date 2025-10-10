@@ -2,11 +2,11 @@
 <glyph name="uni1ED9" format="2">
   <advance width="2530"/>
   <unicode hex="1ED9"/>
-  <anchor x="1430" y="1622" name="top"/>
+  <anchor x="1168" y="-21" name="top"/>
   <anchor x="1146" y="-150" name="bottom"/>
   <anchor x="2204" y="952" name="horn"/>
   <anchor x="1165" y="0" name="ogonek"/>
-  <anchor x="2178" y="1348" name="topright"/>
+  <anchor x="2178" y="1298" name="topright"/>
   <outline>
     <contour>
       <point x="224" y="264" type="line" smooth="yes"/>
@@ -45,13 +45,13 @@
       <point x="708" y="32"/>
     </contour>
     <contour>
-      <point x="662" y="1174" type="line"/>
-      <point x="718" y="1174" type="line"/>
-      <point x="1191" y="1502" type="line"/>
-      <point x="1554" y="1174" type="line"/>
-      <point x="2147" y="1174" type="line"/>
-      <point x="1713" y="1522" type="line"/>
-      <point x="1168" y="1522" type="line"/>
+      <point x="662" y="1124" type="line"/>
+      <point x="718" y="1124" type="line"/>
+      <point x="1191" y="1452" type="line"/>
+      <point x="1554" y="1124" type="line"/>
+      <point x="2147" y="1124" type="line"/>
+      <point x="1713" y="1472" type="line"/>
+      <point x="1168" y="1472" type="line"/>
     </contour>
     <contour>
       <point x="999" y="-449" type="qcurve" smooth="yes"/>
@@ -74,6 +74,10 @@
   </outline>
   <lib>
   <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=o</string>
+  <key>com.fontlab.metricsWidth</key>
+  <string>=o</string>
   <key>com.fontlab.recipe</key>
   <string>= o + uni0302@top + dotbelowcomb@o:bottom</string>
   </dict>

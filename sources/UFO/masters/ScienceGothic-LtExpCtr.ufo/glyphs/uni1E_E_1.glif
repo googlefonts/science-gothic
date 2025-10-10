@@ -45,9 +45,7 @@
     </contour>
     <contour>
       <point x="1720" y="918" type="line"/>
-      <point x="1730" y="918" type="line"/>
-      <point x="1730" y="918" type="line"/>
-      <point x="1730" y="918" type="line"/>
+      <point x="1730" y="918" type="line" smooth="yes"/>
       <point x="1828" y="918"/>
       <point x="1966" y="939"/>
       <point x="2053" y="984"/>
@@ -94,6 +92,10 @@
   </outline>
   <lib>
   <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=o</string>
+  <key>com.fontlab.metricsWidth</key>
+  <string>=o</string>
   <key>com.fontlab.recipe</key>
   <string>= ohorn + tildecomb@top</string>
   </dict>

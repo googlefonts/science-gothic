@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1EDD" format="2">
-  <advance width="2368"/>
+  <advance width="2288"/>
   <unicode hex="1EDD"/>
   <anchor x="1144" y="1150" name="top"/>
   <anchor x="1144" y="-150" name="bottom"/>
@@ -44,13 +44,11 @@
       <point x="548" y="32"/>
     </contour>
     <contour>
-      <point x="1913" y="932" type="line"/>
-      <point x="1923" y="932" type="line"/>
-      <point x="1923" y="932" type="line"/>
-      <point x="1923" y="932" type="line"/>
-      <point x="2052" y="932"/>
-      <point x="2226" y="947"/>
-      <point x="2333" y="987"/>
+      <point x="1913" y="907" type="line"/>
+      <point x="1923" y="907" type="line" smooth="yes"/>
+      <point x="2063" y="907"/>
+      <point x="2241" y="929"/>
+      <point x="2341" y="980"/>
       <point x="2378" y="1061"/>
       <point x="2378" y="1119" type="qcurve" smooth="yes"/>
       <point x="2378" y="1157"/>
@@ -74,8 +72,10 @@
   </outline>
   <lib>
   <dict>
-  <key>com.fontlab.metricsRight</key>
-  <string>=-10</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=o</string>
+  <key>com.fontlab.metricsWidth</key>
+  <string>=o</string>
   <key>com.fontlab.recipe</key>
   <string>= ohorn + gravecomb@top</string>
   </dict>

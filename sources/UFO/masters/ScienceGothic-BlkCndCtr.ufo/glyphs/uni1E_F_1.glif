@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1EF1" format="2">
-  <advance width="1359"/>
+  <advance width="1268"/>
   <unicode hex="1EF1"/>
   <anchor x="634" y="-21" name="top"/>
   <anchor x="634" y="-150" name="bottom"/>
@@ -30,13 +30,11 @@
       <point x="64" y="1024" type="line"/>
     </contour>
     <contour>
-      <point x="934" y="1014" type="line"/>
-      <point x="944" y="1014" type="line"/>
-      <point x="944" y="1014" type="line"/>
-      <point x="944" y="1014" type="line"/>
-      <point x="1063" y="1014"/>
-      <point x="1225" y="1030"/>
-      <point x="1325" y="1072"/>
+      <point x="934" y="984" type="line"/>
+      <point x="944" y="984" type="line" smooth="yes"/>
+      <point x="1081" y="984"/>
+      <point x="1248" y="1009"/>
+      <point x="1339" y="1063"/>
       <point x="1369" y="1148"/>
       <point x="1369" y="1208" type="qcurve" smooth="yes"/>
       <point x="1369" y="1242"/>
@@ -47,7 +45,7 @@
       <point x="1016" y="1178"/>
       <point x="1017" y="1146" type="qcurve" smooth="yes"/>
       <point x="1019" y="1078"/>
-      <point x="986" y="1024"/>
+      <point x="980" y="1024"/>
       <point x="944" y="1024" type="qcurve" smooth="yes"/>
       <point x="934" y="1024" type="line"/>
     </contour>
@@ -73,8 +71,10 @@
   <guideline angle="0" x="0" y="-100"/>
   <lib>
   <dict>
-  <key>com.fontlab.metricsRight</key>
-  <string>=-10</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=u</string>
+  <key>com.fontlab.metricsWidth</key>
+  <string>=u</string>
   <key>com.fontlab.recipe</key>
   <string>=uhorn+dotbelowcomb@bottom</string>
   </dict>

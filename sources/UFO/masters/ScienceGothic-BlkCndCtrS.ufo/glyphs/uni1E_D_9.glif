@@ -2,9 +2,9 @@
 <glyph name="uni1ED9" format="2">
   <advance width="1278"/>
   <unicode hex="1ED9"/>
-  <anchor x="795" y="1572" name="top"/>
+  <anchor x="535" y="-21" name="top"/>
   <anchor x="519" y="-150" name="bottom"/>
-  <anchor x="1229" y="776" name="horn"/>
+  <anchor x="1185" y="958" name="horn"/>
   <anchor x="539" y="0" name="ogonek"/>
   <anchor x="1103" y="1298" name="topright"/>
   <outline>
@@ -75,6 +75,10 @@
   <guideline angle="0" x="0" y="-100"/>
   <lib>
   <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=o</string>
+  <key>com.fontlab.metricsWidth</key>
+  <string>=o</string>
   <key>com.fontlab.recipe</key>
   <string>= o + uni0302@top + dotbelowcomb@o:bottom</string>
   </dict>

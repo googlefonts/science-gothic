@@ -1,33 +1,33 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="4.0">
  <axes>
-  <axis tag="CTRS" minimum="0" maximum="85" name="contrast" default="0">
+  <axis maximum="85" tag="CTRS" minimum="0" name="contrast" default="0">
    <labelname xml:lang="en">Contrast</labelname>
   </axis>
-  <axis tag="slnt" minimum="-10" maximum="0" name="slant" default="0">
+  <axis maximum="0" tag="slnt" minimum="-10" name="slant" default="0">
    <labelname xml:lang="en">Slant</labelname>
   </axis>
-  <axis tag="wdth" minimum="50" maximum="200" name="width" default="100">
+  <axis maximum="200" tag="wdth" minimum="50" name="width" default="100">
    <labelname xml:lang="en">Width</labelname>
-   <map output="0" input="50"/>
-   <map output="500" input="100"/>
-   <map output="1000" input="200"/>
+   <map input="50" output="0"/>
+   <map input="100" output="500"/>
+   <map input="200" output="1000"/>
   </axis>
-  <axis tag="wght" minimum="100" maximum="900" name="weight" default="400">
+  <axis maximum="900" tag="wght" minimum="100" name="weight" default="400">
    <labelname xml:lang="en">Weight</labelname>
-   <map output="0" input="100"/>
-   <map output="116" input="200"/>
-   <map output="260" input="300"/>
-   <map output="421" input="400"/>
-   <map output="500" input="500"/>
-   <map output="590" input="600"/>
-   <map output="700" input="700"/>
-   <map output="840" input="800"/>
-   <map output="1000" input="900"/>
+   <map input="100" output="0"/>
+   <map input="200" output="116"/>
+   <map input="300" output="260"/>
+   <map input="400" output="421"/>
+   <map input="500" output="500"/>
+   <map input="600" output="590"/>
+   <map input="700" output="700"/>
+   <map input="800" output="840"/>
+   <map input="900" output="1000"/>
   </axis>
  </axes>
  <sources>
-  <source filename="masters/ScienceGothic-Blk.ufo" stylename="Black" familyname="Science Gothic" name="Blk">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-Blk.ufo" name="Blk" stylename="Black">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -35,7 +35,7 @@
     <dimension xvalue="1000" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-BlkCnd.ufo" stylename="Black Ultra Condensed" familyname="Science Gothic" name="Blk Cnd">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-BlkCnd.ufo" name="Blk Cnd" stylename="Black Ultra Condensed">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -43,7 +43,7 @@
     <dimension xvalue="1000" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-BlkCndCtr.ufo" stylename="Black Ultra Condensed Contrast" familyname="Science Gothic" name="Blk Cnd Ctr">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-BlkCndCtr.ufo" name="Blk Cnd Ctr" stylename="Black Ultra Condensed Contrast">
    <location>
     <dimension xvalue="85" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -51,7 +51,7 @@
     <dimension xvalue="1000" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-BlkCndCtrS.ufo" stylename="Black UltCond Obliq" familyname="Science Gothic" name="Blk Cnd Ctr S">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-BlkCndCtrS.ufo" name="Blk Cnd Ctr S" stylename="Black UltCond Obliq">
    <location>
     <dimension xvalue="85" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -59,7 +59,7 @@
     <dimension xvalue="1000" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-BlkCndS.ufo" stylename="Black Ultra Condensed Oblique" familyname="Science Gothic" name="Blk Cnd S">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-BlkCndS.ufo" name="Blk Cnd S" stylename="Black Ultra Condensed Oblique">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -67,7 +67,7 @@
     <dimension xvalue="1000" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-BlkCtr.ufo" stylename="Black Contrast" familyname="Science Gothic" name="Blk Ctr">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-BlkCtr.ufo" name="Blk Ctr" stylename="Black Contrast">
    <location>
     <dimension xvalue="85" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -75,7 +75,7 @@
     <dimension xvalue="1000" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-BlkCtrS.ufo" stylename="Black Oblique Contrast" familyname="Science Gothic" name="Blk Ctr S">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-BlkCtrS.ufo" name="Blk Ctr S" stylename="Black Oblique Contrast">
    <location>
     <dimension xvalue="85" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -83,7 +83,7 @@
     <dimension xvalue="1000" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-BlkExp.ufo" stylename="Black UltraExpanded" familyname="Science Gothic" name="Blk Exp">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-BlkExp.ufo" name="Blk Exp" stylename="Black UltraExpanded">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -91,7 +91,7 @@
     <dimension xvalue="1000" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-BlkExpCtr.ufo" stylename="Black UltraExpanded Contrast" familyname="Science Gothic" name="Blk Exp Ctr">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-BlkExpCtr.ufo" name="Blk Exp Ctr" stylename="Black UltraExpanded Contrast">
    <location>
     <dimension xvalue="85" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -99,7 +99,7 @@
     <dimension xvalue="1000" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-BlkExpCtrS.ufo" stylename="Black UltExp Obliq" familyname="Science Gothic" name="Blk Exp Ctr S">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-BlkExpCtrS.ufo" name="Blk Exp Ctr S" stylename="Black UltExp Obliq">
    <location>
     <dimension xvalue="85" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -107,7 +107,7 @@
     <dimension xvalue="1000" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-BlkExpS.ufo" stylename="Black UltraExpanded Oblique" familyname="Science Gothic" name="Blk Exp S">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-BlkExpS.ufo" name="Blk Exp S" stylename="Black UltraExpanded Oblique">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -115,7 +115,7 @@
     <dimension xvalue="1000" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-BlkS.ufo" stylename="Black Oblique" familyname="Science Gothic" name="Blk S">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-BlkS.ufo" name="Blk S" stylename="Black Oblique">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -123,7 +123,7 @@
     <dimension xvalue="1000" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-Cnd.ufo" stylename="Ultra Condensed" familyname="Science Gothic" name="Cnd">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-Cnd.ufo" name="Cnd" stylename="Ultra Condensed">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -131,7 +131,7 @@
     <dimension xvalue="421" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-CndCtr.ufo" stylename="UltraCondensed Contrast" familyname="Science Gothic" name="Cnd Ctr">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-CndCtr.ufo" name="Cnd Ctr" stylename="UltraCondensed Contrast">
    <location>
     <dimension xvalue="85" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -139,7 +139,7 @@
     <dimension xvalue="421" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-CndCtrS.ufo" stylename="UltraCondensed Oblique Contrast" familyname="Science Gothic" name="Cnd Ctr S">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-CndCtrS.ufo" name="Cnd Ctr S" stylename="UltraCondensed Oblique Contrast">
    <location>
     <dimension xvalue="85" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -147,7 +147,7 @@
     <dimension xvalue="421" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-CndS.ufo" stylename="Ultra Condensed Oblique" familyname="Science Gothic" name="Cnd S">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-CndS.ufo" name="Cnd S" stylename="Ultra Condensed Oblique">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -155,7 +155,7 @@
     <dimension xvalue="421" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-Ctr.ufo" stylename="Contrast" familyname="Science Gothic" name="Ctr">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-Ctr.ufo" name="Ctr" stylename="Contrast">
    <location>
     <dimension xvalue="85" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -163,7 +163,7 @@
     <dimension xvalue="421" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-CtrS.ufo" stylename="Oblique Contrast" familyname="Science Gothic" name="Ctr S">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-CtrS.ufo" name="Ctr S" stylename="Oblique Contrast">
    <location>
     <dimension xvalue="85" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -171,7 +171,7 @@
     <dimension xvalue="421" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-Exp.ufo" stylename="Ultra Expanded" familyname="Science Gothic" name="Exp">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-Exp.ufo" name="Exp" stylename="Ultra Expanded">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -179,7 +179,7 @@
     <dimension xvalue="421" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-ExpCtr.ufo" stylename="UltraExpanded Contrast" familyname="Science Gothic" name="Exp Ctr">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-ExpCtr.ufo" name="Exp Ctr" stylename="UltraExpanded Contrast">
    <location>
     <dimension xvalue="85" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -187,7 +187,7 @@
     <dimension xvalue="421" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-ExpCtrS.ufo" stylename="UltraExpanded Oblique Contrast" familyname="Science Gothic" name="Exp Ctr S">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-ExpCtrS.ufo" name="Exp Ctr S" stylename="UltraExpanded Oblique Contrast">
    <location>
     <dimension xvalue="85" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -195,7 +195,7 @@
     <dimension xvalue="421" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-ExpS.ufo" stylename="Ultra Expanded Oblique" familyname="Science Gothic" name="Exp S">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-ExpS.ufo" name="Exp S" stylename="Ultra Expanded Oblique">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -203,7 +203,7 @@
     <dimension xvalue="421" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-Lt.ufo" stylename="Thin" familyname="Science Gothic" name="Lt">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-Lt.ufo" name="Lt" stylename="Thin">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -211,7 +211,7 @@
     <dimension xvalue="0" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-LtCnd.ufo" stylename="Thin Ultra Condensed" familyname="Science Gothic" name="Lt Cnd">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-LtCnd.ufo" name="Lt Cnd" stylename="Thin Ultra Condensed">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -219,7 +219,7 @@
     <dimension xvalue="0" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-LtCndCtr.ufo" stylename="Thin Ultra Condensed" familyname="Science Gothic" name="Lt Cnd Ctr">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-LtCndCtr.ufo" name="Lt Cnd Ctr" stylename="Thin Ultra Condensed">
    <location>
     <dimension xvalue="85" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -227,7 +227,7 @@
     <dimension xvalue="0" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-LtCndCtrS.ufo" stylename="Thin UltCond Obliq" familyname="Science Gothic" name="Lt Cnd Ctr S">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-LtCndCtrS.ufo" name="Lt Cnd Ctr S" stylename="Thin UltCond Obliq">
    <location>
     <dimension xvalue="85" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -235,7 +235,7 @@
     <dimension xvalue="0" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-LtCndS.ufo" stylename="Thin Ultra Condensed Oblique" familyname="Science Gothic" name="Lt Cnd S">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-LtCndS.ufo" name="Lt Cnd S" stylename="Thin Ultra Condensed Oblique">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -243,7 +243,7 @@
     <dimension xvalue="0" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-LtCtr.ufo" stylename="Thin Contrast" familyname="Science Gothic" name="Lt Ctr">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-LtCtr.ufo" name="Lt Ctr" stylename="Thin Contrast">
    <location>
     <dimension xvalue="85" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -251,7 +251,7 @@
     <dimension xvalue="0" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-LtCtrS.ufo" stylename="Thin Oblique Contrast" familyname="Science Gothic" name="Lt Ctr S">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-LtCtrS.ufo" name="Lt Ctr S" stylename="Thin Oblique Contrast">
    <location>
     <dimension xvalue="85" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -259,7 +259,7 @@
     <dimension xvalue="0" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-LtExp.ufo" stylename="Thin UltraExpanded" familyname="Science Gothic" name="Lt Exp">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-LtExp.ufo" name="Lt Exp" stylename="Thin UltraExpanded">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -267,7 +267,7 @@
     <dimension xvalue="0" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-LtExpCtr.ufo" stylename="Thin UltraExpanded Contrast" familyname="Science Gothic" name="Lt Exp Ctr">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-LtExpCtr.ufo" name="Lt Exp Ctr" stylename="Thin UltraExpanded Contrast">
    <location>
     <dimension xvalue="85" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -275,7 +275,7 @@
     <dimension xvalue="0" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-LtExpCtrS.ufo" stylename="Thin UltExp Obliq" familyname="Science Gothic" name="Lt Exp Ctr S">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-LtExpCtrS.ufo" name="Lt Exp Ctr S" stylename="Thin UltExp Obliq">
    <location>
     <dimension xvalue="85" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -283,7 +283,7 @@
     <dimension xvalue="0" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-LtExpS.ufo" stylename="Thin UltraExpanded Oblique" familyname="Science Gothic" name="Lt Exp S">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-LtExpS.ufo" name="Lt Exp S" stylename="Thin UltraExpanded Oblique">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -291,7 +291,7 @@
     <dimension xvalue="0" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-LtS.ufo" stylename="Thin Oblique" familyname="Science Gothic" name="Lt S">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-LtS.ufo" name="Lt S" stylename="Thin Oblique">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -299,7 +299,7 @@
     <dimension xvalue="0" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-Regular.ufo" stylename="Regular" familyname="Science Gothic" name="Regular">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-Regular.ufo" name="Regular" stylename="Regular">
    <lib copy="1"/>
    <groups copy="1"/>
    <info copy="1"/>
@@ -311,7 +311,7 @@
     <dimension xvalue="421" name="weight"/>
    </location>
   </source>
-  <source filename="masters/ScienceGothic-RegularS.ufo" stylename="Oblique" familyname="Science Gothic" name="Regular S">
+  <source familyname="Science Gothic" filename="masters/ScienceGothic-RegularS.ufo" name="Regular S" stylename="Oblique">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -321,7 +321,7 @@
   </source>
  </sources>
  <instances>
-  <instance filename="instances/ScienceGothic-Regular.ufo" stylename="Regular" familyname="Science Gothic" name="Regular">
+  <instance familyname="Science Gothic" filename="instances/ScienceGothic-Regular.ufo" name="Regular" stylename="Regular">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -329,7 +329,7 @@
     <dimension xvalue="421" name="weight"/>
    </location>
   </instance>
-  <instance filename="instances/ScienceGothic-Italic.ufo" stylename="Italic" familyname="Science Gothic" name="Italic">
+  <instance familyname="Science Gothic" filename="instances/ScienceGothic-Italic.ufo" name="Italic" stylename="Italic">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -337,7 +337,7 @@
     <dimension xvalue="421" name="weight"/>
    </location>
   </instance>
-  <instance filename="instances/ScienceGothic-Thin.ufo" stylename="Thin" familyname="Science Gothic" name="Thin">
+  <instance familyname="Science Gothic" filename="instances/ScienceGothic-Thin.ufo" name="Thin" stylename="Thin">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -345,7 +345,7 @@
     <dimension xvalue="0" name="weight"/>
    </location>
   </instance>
-  <instance filename="instances/ScienceGothic-ThinItalic.ufo" stylename="Thin Italic" familyname="Science Gothic" name="ThinItalic">
+  <instance familyname="Science Gothic" filename="instances/ScienceGothic-ThinItalic.ufo" name="ThinItalic" stylename="Thin Italic">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -353,7 +353,7 @@
     <dimension xvalue="0" name="weight"/>
    </location>
   </instance>
-  <instance filename="instances/ScienceGothic-ExtraLight.ufo" stylename="ExtraLight" familyname="Science Gothic" name="ExtraLight">
+  <instance familyname="Science Gothic" filename="instances/ScienceGothic-ExtraLight.ufo" name="ExtraLight" stylename="ExtraLight">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -361,7 +361,7 @@
     <dimension xvalue="116" name="weight"/>
    </location>
   </instance>
-  <instance filename="instances/ScienceGothic-ExtraLightItalic.ufo" stylename="ExtraLight Italic" familyname="Science Gothic" name="ExtraLightItalic">
+  <instance familyname="Science Gothic" filename="instances/ScienceGothic-ExtraLightItalic.ufo" name="ExtraLightItalic" stylename="ExtraLight Italic">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -369,7 +369,7 @@
     <dimension xvalue="116" name="weight"/>
    </location>
   </instance>
-  <instance filename="instances/ScienceGothic-Light.ufo" stylename="Light" familyname="Science Gothic" name="Light">
+  <instance familyname="Science Gothic" filename="instances/ScienceGothic-Light.ufo" name="Light" stylename="Light">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -377,7 +377,7 @@
     <dimension xvalue="260" name="weight"/>
    </location>
   </instance>
-  <instance filename="instances/ScienceGothic-LightItalic.ufo" stylename="Light Italic" familyname="Science Gothic" name="LightItalic">
+  <instance familyname="Science Gothic" filename="instances/ScienceGothic-LightItalic.ufo" name="LightItalic" stylename="Light Italic">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -385,7 +385,7 @@
     <dimension xvalue="260" name="weight"/>
    </location>
   </instance>
-  <instance filename="instances/ScienceGothic-Medium.ufo" stylename="Medium" familyname="Science Gothic" name="Medium">
+  <instance familyname="Science Gothic" filename="instances/ScienceGothic-Medium.ufo" name="Medium" stylename="Medium">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -393,7 +393,7 @@
     <dimension xvalue="500" name="weight"/>
    </location>
   </instance>
-  <instance filename="instances/ScienceGothic-MediumItalic.ufo" stylename="Medium Italic" familyname="Science Gothic" name="MediumItalic">
+  <instance familyname="Science Gothic" filename="instances/ScienceGothic-MediumItalic.ufo" name="MediumItalic" stylename="Medium Italic">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -401,7 +401,7 @@
     <dimension xvalue="500" name="weight"/>
    </location>
   </instance>
-  <instance filename="instances/ScienceGothic-SemiBold.ufo" stylename="SemiBold" familyname="Science Gothic" name="SemiBold">
+  <instance familyname="Science Gothic" filename="instances/ScienceGothic-SemiBold.ufo" name="SemiBold" stylename="SemiBold">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -409,7 +409,7 @@
     <dimension xvalue="590" name="weight"/>
    </location>
   </instance>
-  <instance filename="instances/ScienceGothic-SemiBoldItalic.ufo" stylename="SemiBold Italic" familyname="Science Gothic" name="SemiBoldItalic">
+  <instance familyname="Science Gothic" filename="instances/ScienceGothic-SemiBoldItalic.ufo" name="SemiBoldItalic" stylename="SemiBold Italic">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -417,7 +417,7 @@
     <dimension xvalue="590" name="weight"/>
    </location>
   </instance>
-  <instance filename="instances/ScienceGothic-Bold.ufo" stylename="Bold" familyname="Science Gothic" name="Bold">
+  <instance familyname="Science Gothic" filename="instances/ScienceGothic-Bold.ufo" name="Bold" stylename="Bold">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -425,7 +425,7 @@
     <dimension xvalue="700" name="weight"/>
    </location>
   </instance>
-  <instance filename="instances/ScienceGothic-BoldItalic.ufo" stylename="Bold Italic" familyname="Science Gothic" name="BoldItalic">
+  <instance familyname="Science Gothic" filename="instances/ScienceGothic-BoldItalic.ufo" name="BoldItalic" stylename="Bold Italic">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -433,7 +433,7 @@
     <dimension xvalue="700" name="weight"/>
    </location>
   </instance>
-  <instance filename="instances/ScienceGothic-ExtraBold.ufo" stylename="ExtraBold" familyname="Science Gothic" name="ExtraBold">
+  <instance familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBold.ufo" name="ExtraBold" stylename="ExtraBold">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -441,7 +441,7 @@
     <dimension xvalue="840" name="weight"/>
    </location>
   </instance>
-  <instance filename="instances/ScienceGothic-ExtraBoldItalic.ufo" stylename="ExtraBold Italic" familyname="Science Gothic" name="ExtraBoldItalic">
+  <instance familyname="Science Gothic" filename="instances/ScienceGothic-ExtraBoldItalic.ufo" name="ExtraBoldItalic" stylename="ExtraBold Italic">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>
@@ -449,7 +449,7 @@
     <dimension xvalue="840" name="weight"/>
    </location>
   </instance>
-  <instance filename="instances/ScienceGothic-Black.ufo" stylename="Black" familyname="Science Gothic" name="Black">
+  <instance familyname="Science Gothic" filename="instances/ScienceGothic-Black.ufo" name="Black" stylename="Black">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="0" name="slant"/>
@@ -457,7 +457,7 @@
     <dimension xvalue="1000" name="weight"/>
    </location>
   </instance>
-  <instance filename="instances/ScienceGothic-BlackItalic.ufo" stylename="Black Italic" familyname="Science Gothic" name="BlackItalic">
+  <instance familyname="Science Gothic" filename="instances/ScienceGothic-BlackItalic.ufo" name="BlackItalic" stylename="Black Italic">
    <location>
     <dimension xvalue="0" name="contrast"/>
     <dimension xvalue="-10" name="slant"/>

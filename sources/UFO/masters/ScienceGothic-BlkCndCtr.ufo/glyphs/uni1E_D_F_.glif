@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1EDF" format="2">
-  <advance width="1543"/>
+  <advance width="1260"/>
   <unicode hex="1EDF"/>
   <anchor x="630" y="1174" name="top"/>
   <anchor x="630" y="-150" name="bottom"/>
@@ -44,13 +44,11 @@
       <point x="580" y="26"/>
     </contour>
     <contour>
-      <point x="1118" y="948" type="line"/>
-      <point x="1128" y="948" type="line"/>
-      <point x="1128" y="948" type="line"/>
-      <point x="1128" y="948" type="line"/>
-      <point x="1247" y="948"/>
-      <point x="1409" y="964"/>
-      <point x="1509" y="1006"/>
+      <point x="1118" y="918" type="line"/>
+      <point x="1128" y="918" type="line" smooth="yes"/>
+      <point x="1265" y="918"/>
+      <point x="1432" y="943"/>
+      <point x="1523" y="997"/>
       <point x="1553" y="1082"/>
       <point x="1553" y="1142" type="qcurve" smooth="yes"/>
       <point x="1553" y="1176"/>
@@ -61,7 +59,7 @@
       <point x="1200" y="1112"/>
       <point x="1201" y="1080" type="qcurve" smooth="yes"/>
       <point x="1203" y="1012"/>
-      <point x="1170" y="958"/>
+      <point x="1164" y="958"/>
       <point x="1128" y="958" type="qcurve" smooth="yes"/>
       <point x="1118" y="958" type="line"/>
     </contour>
@@ -90,8 +88,10 @@
   </outline>
   <lib>
   <dict>
-  <key>com.fontlab.metricsRight</key>
-  <string>=-10</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=o</string>
+  <key>com.fontlab.metricsWidth</key>
+  <string>=o</string>
   <key>com.fontlab.recipe</key>
   <string>= ohorn + hookabovecomb@top</string>
   </dict>

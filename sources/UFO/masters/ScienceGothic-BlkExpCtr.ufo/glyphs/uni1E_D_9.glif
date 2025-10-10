@@ -6,7 +6,7 @@
   <anchor x="1264" y="-150" name="bottom"/>
   <anchor x="2154" y="952" name="horn"/>
   <anchor x="1283" y="0" name="ogonek"/>
-  <anchor x="2060" y="1348" name="topright"/>
+  <anchor x="2060" y="1298" name="topright"/>
   <outline>
     <contour>
       <point x="296" y="264" type="line" smooth="yes"/>
@@ -45,13 +45,13 @@
       <point x="820" y="32"/>
     </contour>
     <contour>
-      <point x="575" y="1174" type="line"/>
-      <point x="627" y="1174" type="line"/>
-      <point x="1045" y="1502" type="line"/>
-      <point x="1463" y="1174" type="line"/>
-      <point x="2060" y="1174" type="line"/>
-      <point x="1564" y="1522" type="line"/>
-      <point x="1019" y="1522" type="line"/>
+      <point x="575" y="1124" type="line"/>
+      <point x="627" y="1124" type="line"/>
+      <point x="1045" y="1452" type="line"/>
+      <point x="1463" y="1124" type="line"/>
+      <point x="2060" y="1124" type="line"/>
+      <point x="1564" y="1472" type="line"/>
+      <point x="1019" y="1472" type="line"/>
     </contour>
     <contour>
       <point x="1178" y="-449" type="qcurve" smooth="yes"/>
@@ -74,6 +74,10 @@
   </outline>
   <lib>
   <dict>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=o</string>
+  <key>com.fontlab.metricsWidth</key>
+  <string>=o</string>
   <key>com.fontlab.recipe</key>
   <string>= o + uni0302@top + dotbelowcomb@o:bottom</string>
   </dict>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1EEB" format="2">
-  <advance width="1323"/>
+  <advance width="1320"/>
   <unicode hex="1EEB"/>
   <anchor x="660" y="1150" name="top"/>
   <anchor x="660" y="-150" name="bottom"/>
@@ -31,9 +31,7 @@
     </contour>
     <contour>
       <point x="1057" y="970" type="line"/>
-      <point x="1067" y="970" type="line"/>
-      <point x="1067" y="970" type="line"/>
-      <point x="1067" y="970" type="line"/>
+      <point x="1067" y="970" type="line" smooth="yes"/>
       <point x="1138" y="970"/>
       <point x="1239" y="991"/>
       <point x="1303" y="1036"/>
@@ -60,8 +58,10 @@
   </outline>
   <lib>
   <dict>
-  <key>com.fontlab.metricsRight</key>
-  <string>=-10</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=u</string>
+  <key>com.fontlab.metricsWidth</key>
+  <string>=u</string>
   <key>com.fontlab.recipe</key>
   <string>=uhorn+gravecomb@top</string>
   </dict>

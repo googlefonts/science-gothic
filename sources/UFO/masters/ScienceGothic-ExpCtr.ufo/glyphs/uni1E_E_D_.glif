@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1EED" format="2">
-  <advance width="2213"/>
+  <advance width="2202"/>
   <unicode hex="1EED"/>
   <anchor x="1101" y="1150" name="top"/>
   <anchor x="1101" y="-160" name="bottom"/>
@@ -30,13 +30,11 @@
       <point x="310" y="1000" type="line"/>
     </contour>
     <contour>
-      <point x="1758" y="990" type="line"/>
-      <point x="1768" y="990" type="line"/>
-      <point x="1768" y="990" type="line"/>
-      <point x="1768" y="990" type="line"/>
-      <point x="1897" y="990"/>
-      <point x="2071" y="1005"/>
-      <point x="2178" y="1045"/>
+      <point x="1758" y="965" type="line"/>
+      <point x="1768" y="965" type="line" smooth="yes"/>
+      <point x="1908" y="965"/>
+      <point x="2086" y="987"/>
+      <point x="2186" y="1038"/>
       <point x="2223" y="1119"/>
       <point x="2223" y="1177" type="qcurve" smooth="yes"/>
       <point x="2223" y="1215"/>
@@ -76,8 +74,10 @@
   </outline>
   <lib>
   <dict>
-  <key>com.fontlab.metricsRight</key>
-  <string>=-10</string>
+  <key>com.fontlab.metricsLeft</key>
+  <string>=u</string>
+  <key>com.fontlab.metricsWidth</key>
+  <string>=u</string>
   <key>com.fontlab.recipe</key>
   <string>=uhorn+hookabovecomb@top</string>
   </dict>
